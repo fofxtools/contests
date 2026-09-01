@@ -1,0 +1,39 @@
+/* sc2k5 rebuild — tweaks over Garland */
+#logo { max-height: 40px; width: auto; vertical-align: middle; }
+.breadcrumb { margin-bottom: .5em; }
+#center .content table { border-collapse: collapse; }
+#center .content td, #center .content th { padding: 1px 6px; }
+/* wide data tables scroll horizontally on their own, not the whole content panel */
+.tscroll { overflow-x: auto; }
+
+/* front-page contest index */
+.contest-index { border-collapse: collapse; margin: .5em 0 1em; }
+.contest-index th, .contest-index td { border: 1px solid #ccc; padding: .3em .6em; text-align: left; vertical-align: top; }
+.contest-index thead th { background: #f5f5f5; }
+.contest-index td.pu-none { color: #999; text-align: center; }
+
+/* /graph/{matchnum} poll-update graphs */
+.graph-box { max-width: 820px; margin: .6em 0 1em; }
+.graph-meta, .graph-nav, .graph-help { margin: .3em 0; }
+.graph-help { color: #555; font-size: .95em; }
+.graph-nav a[style] { text-decoration: underline; }
+
+/* /node/100 — All Match Results */
+.amr-views, .amr-meta, .amr-filter { margin: .35em 0; }
+.amr-meta { color: #555; font-size: .95em; }
+.amr-filter { background: #eef4fb; border: 1px solid #b9d0e8; padding: .4em .7em; }
+table.amr td a { text-decoration: none; }
+table.amr td a:hover { text-decoration: underline; }
+.amr-wrap { overflow-x: auto; margin: .6em 0 1em; }
+table.amr { border-collapse: collapse; font-size: .92em; }
+table.amr th, table.amr td { border: 1px solid #bbb; padding: 3px 5px; vertical-align: top; }
+table.amr thead th { background: #eee; white-space: nowrap; }
+table.amr th a { text-decoration: none; }
+table.amr td.amr-n { text-align: right; white-space: nowrap; }
+table.amr tbody td:nth-child(3) { white-space: nowrap; }   /* Contest name — don't wrap */
+table.amr td.amr-x { background: #fafafa; }
+table.amr td.amr-win { font-weight: bold; }
+.amr-sub { color: #777; font-size: .85em; white-space: nowrap; }
+.amr-flag { color: #b30; font-weight: bold; cursor: help; }
+.amr-notes { font-size: .92em; }
+.amr-notes h3 { margin: 1.1em 0 .3em; }

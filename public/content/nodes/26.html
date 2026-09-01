@@ -1,0 +1,109 @@
+<h4>This calculation tool was created by GameFAQs user RPGuy96. Below are the instructions on how to use it, taken from the readme file.</h4>
+
+The compressed file for this tool (in .rar format) is located here:
+<a href='/archives/XSC.rar' title='RPGuy96&#039;s X-Stats Calculator'>Calculator</a>
+
+To run this tool you will need the <a href='http://java.sun.com/j2se/1.5.0/download.jsp' rel='nofollow' title='JRE'>JRE 5.0 Runtime Environment</a> — JRE 5.0 Update 3. It is a 15MB download that allows users to run Java applications. Note that you want to download the <emphasis>JRE</emphasis>—*not* the development kit or the netBeans package, which are much larger.
+
+<h4>The Readme file</h4>
+
+Extrapolated Standings Calculator (XSC), by RPGuy96
+AIM: RPGuy96
+email: RPGuy96&#064;gmail.com
+
+Contents:
+1 - Installation instructions
+2 - Using the XSC to compare characters
+3 - Using the XSC to do standalone calculations
+4 - Explanation of the various contests
+
+
+---- 1 ----
+This program requires the Java Runtime Environment (JRE) 5.0 to run, because I cannot figure out a way around it.  If you do not have the JRE, you can get it here:
+http://java.sun.com/j2se/1.5.0/download.jsp
+Click on "Download JRE 5.0 Update 3" and follow the instructions.  This may take a while; Java isn't known for being small.  I apologize.
+Once you have done this, extract the XS folder in the archive to wherever you want.  When you want to run the application, run the file named "XSC.bat"
+
+Again, I apologize.  I thought I could statically compile code so it would run independant of the JRE, but that would be too easy.
+
+---- 2 ----
+Using the XSC to compare characters.
+
+When you start up the XSC, you'll notice 4 lists and 4 text boxes.  For this section, you're concerned with the 4 lists.  Above each list, there is a label and an uneditable text field.  The label corresponds with the name of the data in the list, and the text field contains the currently selected item in the list.  
+
+The field marked "Entrant 1" contains the first character you want to compare.  So, go find the character in the list (use the scroll bar if necessary) and click on him/her.  The character should appear in the uneditable text field directly above the list.  Now, you need to select which contest's data you want to use; do so in the list directly to the right of the character (difference between contests are explained in section 3).  Now, do the same thing for the second character you want to compare.
+
+As soon as you click on the last item, you should notice those 4 text boxes that I talked about earlier fill up with numbers.  In descending order, they represent: what the first entrant would be predicted to get on the 2nd entrant, the first entrant's value on Link, what the second entrant would be predicted to get on the 1st entrant, and the 2nd entrant's value on Link.  That should be everything you need to know about these two entrants, and if you change your selection on any of the lists, the results text fields will automatically update.  
+
+For example: You want to see what Kefka (2k3Adj) would get on Ganondorf (2k3).  In the top left list, scroll down until you see Kefka's name, then click on it.  Immediately to the right, click on "SC2k3Adj."  Now, in the bottom, click on Ganondorf and SC2k3.  The results should pop up on the left: Kefka would get 32.76% on Ganondorf and 22.75% on Link; Ganondorf would get 67.23% on Kefka and 34.72% on Link.
+
+NOTE: If you try and match a character with a contest that he has not been in, the result text fields will read "DATA NOT FOUND."  To change this, merely change the contest field to a contest that the character participated in.
+
+---- 3 ----
+Using the XSC to do standalone calculations.
+
+That's all well and good, but what if you want to compare two characters not in the database, or a character not in vs. a character in?  The XSC can help you here, too!  While doing this, you don't need to worry about the lists at all, just the 4 results text boxes.  There are two calculations you can peform:
+
+NOTE: Make sure you delete any data currently in the text boxes (from leftover XSC comparisons) before entering your own data.
+
+1) You know one character's value on Link, and what one character got on the other:
+Here's what you do: enter the 1st character's value on Link in the box marked "Entrant 1 on 2k3 Link:."  Enter what the 2nd character got in the first in the box marked "Entrant 2 on 1:," the press the ENTER key.  NOTE: This will NOT work if you enter 100 - the value in the box marked "Entrant 1 on 2:."  Sorry about that.
+
+Example: You know that Bowser would get 30.97% on Link, and you know that Pyramid Head got 16.12% on Bowser.  Enter 30.97 in the box marked "Entrant 1 on 2k3 Link:" and 16.12 in the box marked "Entrant 2 on 1:."  Press ENTER.  The following results should come up, in descending order: 83.88 (Bowser on PH), 30.97 (Bowser on Link), 16.12 (PH on Bowser), 9.98 (PH on Link).
+
+2) You know both character's values on Link.  Simply enter each value into the boxes marked "Entrant 1/2 on 2k3 Link:" and hit ENTER after you've inputted the 2nd number.  Entrant 1 on 2 and Entrant 2 on 1 should update accordingly.
+
+Example: You guess that Sin would get 19% on Link, and that Dr. Robotnik would get 21%.  Enter 19 into "Entrant 1 on 2k3 Link" and 21 into "Entrant 2 on 2k3 Link."  Press ENTER.  The following results should come up, in descending order: 45.23 (Sin on Robotnik), 19 (Sin on Link), 54.76 (Robotnik on Sin), 21 (Robotnik on Link).
+
+REMEMBER: The XSC will only do calculations if two and only two text fields have numbers in them, there is one number for each character, and there is at least one value on 2k3 Link.
+
+CAUTION: If you enter something other than a number into the result fields, like "banana," and press ENTER, all the fields will yell at you and say "BAD DATA."
+
+---- 4 ---- 
+Explanations of the various contests.
+
+You'll notice that in both contest list, there are 8 choices.  But how, you say, can this be possible with only three contests involving characters?  Simple: in each contest, there are matches that are screwed up, due to SFF, WDF, timely releases, or what have you.  The following list explains what is changed in each contest, and may not be complete because I am forgetful.
+
+SC2k2:
+	Match data taken straight from 2k2 and not tampered with.
+SC2k2Adj:
+	Match data based on the 2k2 data, with some "fixes."  
+		- Cloud is adjusted up, based on Tails (I think).
+		- Crono loses a few thousand votes from cheating against Mario.
+		- Link/Sephiroth is adjusted for the West Division Factor (WDF).
+		- Mario/Donkey Kong is adjusted for SFF.
+SC2k3:
+	Match data taken straight from 2k3 and not tampered with.
+SC2k3Adj:
+	Match data based on 2k3 data, with some "fixes."
+		- Link/Fox is adjusted for SFF
+		- Fox/Pikachu is adjusted for SFF
+		- Cloud/Auron is adjusted for SFF
+		- Bowser/Ness is adjusted for SFF
+		- Aeris/Sora is adjusted for SFF
+		- Crono/Kefka is adjusted for SFF
+		- Sephiroth/Alucard anomaly corrected
+SC2k4:
+	Match data taken straight from 2k4.  Not recommended.
+SC2k4 creativename:
+	Creativename's fixes for 2k4.
+		- Link 2k4 and Link 2k3 are resolved through a static Cloud.
+		- Link/Ganondorf adjusted for SFF.
+		- Crono/Magus adjusted for SFF.
+		- Mario/Bowser adjusted for SFF.
+		- Link/Yoshi adjusted for SFF.
+		- Cloud/Squall adjusted for SFF.
+		- Link/Mega Man adjusted for SFF.
+SC2k4 RPGuy96:
+	My fixes for 2k4.
+		- Link 2k4 and Link 2k3 are resolved through a static Mario.
+		- All of creativename's SFF matches are adjusted.
+		- Yoshi/Luigi is adjusted for SFF.
+		- Sephiroth/Auron is adjusted for SFF.
+		- Sephiroth/Vivi is adjusted for SFF.
+		- Zero/Protoman is adjusted for SFF
+
+Averages:
+	These numbers are arrived at by adding all the following values: SC2k2Adj, SC2k3Adj, and SC2k4 RPGuy96, and dividing by the number of contests participated in.  Incidentally, the order of the characters in the lists is based on the averages in descending order.
+
+~ Fin ~

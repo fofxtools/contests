@@ -1,0 +1,151 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="robots" content="noindex, nofollow">
+<title>Poll timestamp anomalies — gamefaqscontests.com</title>
+<style>
+  body { font: 14px/1.5 -apple-system, Segoe UI, Roboto, sans-serif; max-width: 72em;
+         margin: 2em auto; padding: 0 1.2em; color: #222; }
+  h1 { font-size: 1.35em; margin: 0 0 .3em; }
+  h2 { font-size: 1.05em; margin: 1.6em 0 .4em; border-bottom: 1px solid #ddd; padding-bottom: .2em; }
+  .lead { color: #555; }
+  code { background: #f2f2f2; padding: .1em .35em; border-radius: 3px; font-size: .92em; }
+  table { border-collapse: collapse; margin: .6em 0 1em; font-size: 12.5px; }
+  th, td { border: 1px solid #bbb; padding: 3px 7px; vertical-align: top; white-space: nowrap; }
+  thead th { background: #eee; }
+  td.n { text-align: right; }
+  tr.weird td { background: #fff4f4; }
+  td.tb { color: #a00; font-weight: bold; }
+  ul { padding-left: 1.3em; } li { margin: .2em 0; }
+</style>
+</head>
+<body>
+
+<h1>Poll timestamp anomalies in the <code>updates</code> table</h1>
+<p class="lead">A data-quality question for the contest-stats folks &mdash; does anyone know
+the story behind these?</p>
+<p class="lead">Status: <strong>documented, nothing changed.</strong> No rows deleted or
+edited. These late rows might be a scraper artifact, a late official tally correction, or
+polls that genuinely stayed open late.</p>
+
+<h2>What the issue is</h2>
+<p>39 matches have an <code>updates</code> row timestamped <em>after</em> the poll's normal
+closing time. In almost every case the last "normal" row sits right at the close
+(~<code>23:5x</code>, or <code>~11:5x</code> / <code>~19:5x</code> for the contests that
+ran two polls a day), and then a single extra row appears hours to weeks later with a
+<strong>tiny</strong> vote change (usually &lt; 0.5&nbsp;%). Two cases are weirder &mdash;
+the red rows.</p>
+<p>Side effects today: the poll-update <strong>graphs</strong> for these matches stretch
+their x-axis to cover the gap (a 24-hour match drawn on, e.g., a 560-hour axis), and the
+<strong>updates tables</strong> list the stray row. Final vote totals used elsewhere
+(the <code>matches</code> table, /node/100) are unaffected &mdash; they take the correct
+close-of-poll figures.</p>
+<p>Contest "normal" match length: <strong>24&nbsp;h</strong> for everything except
+<strong>CB VIII (2010)</strong>, <strong>GOTD (2010)</strong>, <strong>CB IX (2013)</strong>
+and half of <strong>Rivalry (2011)</strong>, which ran <strong>12&nbsp;h</strong> matches
+(two per day).</p>
+
+<h2>The matches</h2>
+<p><b>Type A</b> = last normal row at the close, then one small late blip.
+<b>A*</b> = same but a larger late change.
+<b>Type B</b> = something more wrong (notes below the table).
+"Late gap" = time from the last normal row to the trailing row.</p>
+
+<table>
+<thead><tr>
+  <th>Poll</th><th>Contest</th><th>Exp.</th>
+  <th>Last normal row</th><th>votes</th>
+  <th>Trailing row</th><th>votes</th>
+  <th>Late gap</th><th>&Delta; v1 / v2</th><th>Type</th>
+</tr></thead>
+<tbody>
+<tr><td><a href="/node/22?matchnum=6151">6151</a> &middot; <a href="/graph/6151?type=2&amp;seconds=60">graph</a></td><td>BGE 2K15</td><td>24h</td><td>2015-12-01 23:55:04</td><td class="n">72347/20340</td><td>2015-12-03 00:02:02</td><td class="n">72487/20395</td><td class="n">24.1h</td><td class="n">+140 / +55</td><td>A</td></tr>
+<tr><td><a href="/node/22?matchnum=6152">6152</a> &middot; <a href="/graph/6152?type=2&amp;seconds=60">graph</a></td><td>BGE 2K15</td><td>24h</td><td>2015-12-01 23:55:04</td><td class="n">54086/44538</td><td>2015-12-03 00:02:02</td><td class="n">54196/44637</td><td class="n">24.1h</td><td class="n">+110 / +99</td><td>A</td></tr>
+<tr><td><a href="/node/22?matchnum=3845">3845</a> &middot; <a href="/graph/3845?type=2&amp;seconds=60">graph</a></td><td>CB VIII</td><td>12h</td><td>2010-03-14 23:56:06</td><td class="n">37697/45554</td><td>2010-03-15 12:03:21</td><td class="n">37813/45711</td><td class="n">12.1h</td><td class="n">+116 / +157</td><td>A</td></tr>
+<tr><td><a href="/node/22?matchnum=7270">7270</a> &middot; <a href="/graph/7270?type=2&amp;seconds=60">graph</a></td><td>CB X</td><td>24h</td><td>2018-10-27 19:57:05</td><td class="n">21747/6911</td><td>2018-10-29 20:34:35</td><td class="n">21773/6920</td><td class="n">48.6h</td><td class="n">+26 / +9</td><td>A</td></tr>
+<tr><td><a href="/node/22?matchnum=7271">7271</a> &middot; <a href="/graph/7271?type=2&amp;seconds=60">graph</a></td><td>CB X</td><td>24h</td><td>2018-10-27 19:57:06</td><td class="n">14506/14151</td><td>2018-10-29 20:34:36</td><td class="n">14527/14168</td><td class="n">48.6h</td><td class="n">+21 / +17</td><td>A</td></tr>
+<tr><td><a href="/node/22?matchnum=7272">7272</a> &middot; <a href="/graph/7272?type=2&amp;seconds=60">graph</a></td><td>CB X</td><td>24h</td><td>2018-10-27 19:57:06</td><td class="n">12467/16198</td><td>2018-10-29 20:34:37</td><td class="n">12480/16221</td><td class="n">48.6h</td><td class="n">+13 / +23</td><td>A</td></tr>
+<tr><td><a href="/node/22?matchnum=7273">7273</a> &middot; <a href="/graph/7273?type=2&amp;seconds=60">graph</a></td><td>CB X</td><td>24h</td><td>2018-10-27 19:55:07</td><td class="n">21584/7070</td><td>2018-10-29 20:34:37</td><td class="n">21623/7081</td><td class="n">48.7h</td><td class="n">+39 / +11</td><td>A</td></tr>
+<tr><td><a href="/node/22?matchnum=7274">7274</a> &middot; <a href="/graph/7274?type=2&amp;seconds=60">graph</a></td><td>CB X</td><td>24h</td><td>2018-10-28 19:56:06</td><td class="n">13533/15226</td><td>2018-10-29 20:34:45</td><td class="n">13563/15256</td><td class="n">24.6h</td><td class="n">+30 / +30</td><td>A</td></tr>
+<tr><td><a href="/node/22?matchnum=7275">7275</a> &middot; <a href="/graph/7275?type=2&amp;seconds=60">graph</a></td><td>CB X</td><td>24h</td><td>2018-10-28 19:56:06</td><td class="n">13199/15562</td><td>2018-10-29 20:34:46</td><td class="n">13232/15594</td><td class="n">24.6h</td><td class="n">+33 / +32</td><td>A</td></tr>
+<tr><td><a href="/node/22?matchnum=7276">7276</a> &middot; <a href="/graph/7276?type=2&amp;seconds=60">graph</a></td><td>CB X</td><td>24h</td><td>2018-10-28 19:55:07</td><td class="n">13644/15117</td><td>2018-10-29 20:34:46</td><td class="n">13672/15154</td><td class="n">24.7h</td><td class="n">+28 / +37</td><td>A</td></tr>
+<tr><td><a href="/node/22?matchnum=7277">7277</a> &middot; <a href="/graph/7277?type=2&amp;seconds=60">graph</a></td><td>CB X</td><td>24h</td><td>2018-10-28 19:56:07</td><td class="n">12245/16519</td><td>2018-10-29 20:34:47</td><td class="n">12271/16553</td><td class="n">24.6h</td><td class="n">+26 / +34</td><td>A</td></tr>
+<tr><td><a href="/node/22?matchnum=4070">4070</a> &middot; <a href="/graph/4070?type=2&amp;seconds=60">graph</a></td><td>GOTD</td><td>12h</td><td>2010-10-20 23:58:07</td><td class="n">24308/25045</td><td>2010-10-22 23:46:03</td><td class="n">24365/25117</td><td class="n">47.8h</td><td class="n">+57 / +72</td><td>A</td></tr>
+<tr><td><a href="/node/22?matchnum=4071">4071</a> &middot; <a href="/graph/4071?type=2&amp;seconds=60">graph</a></td><td>GOTD</td><td>12h</td><td>2010-10-21 11:59:07</td><td class="n">28774/10909</td><td>2010-10-22 23:46:04</td><td class="n">28821/10933</td><td class="n">35.8h</td><td class="n">+47 / +24</td><td>A</td></tr>
+<tr><td><a href="/node/22?matchnum=7931">7931</a> &middot; <a href="/graph/7931?type=2&amp;seconds=60">graph</a></td><td>GOTD 2</td><td>24h</td><td>2020-03-31 19:55:05</td><td class="n">19804/4064</td><td>2020-04-01 19:25:43</td><td class="n">19843/4071</td><td class="n">23.5h</td><td class="n">+39 / +7</td><td>A</td></tr>
+<tr><td><a href="/node/22?matchnum=7932">7932</a> &middot; <a href="/graph/7932?type=2&amp;seconds=60">graph</a></td><td>GOTD 2</td><td>24h</td><td>2020-03-31 19:55:05</td><td class="n">15146/8716</td><td>2020-04-01 19:25:49</td><td class="n">15181/8727</td><td class="n">23.5h</td><td class="n">+35 / +11</td><td>A</td></tr>
+<tr><td><a href="/node/22?matchnum=7933">7933</a> &middot; <a href="/graph/7933?type=2&amp;seconds=60">graph</a></td><td>GOTD 2</td><td>24h</td><td>2020-03-31 19:55:05</td><td class="n">16682/7179</td><td>2020-04-01 19:25:55</td><td class="n">16717/7190</td><td class="n">23.5h</td><td class="n">+35 / +11</td><td>A</td></tr>
+<tr><td><a href="/node/22?matchnum=7934">7934</a> &middot; <a href="/graph/7934?type=2&amp;seconds=60">graph</a></td><td>GOTD 2</td><td>24h</td><td>2020-03-31 19:55:06</td><td class="n">18063/5797</td><td>2020-04-01 19:26:00</td><td class="n">18100/5806</td><td class="n">23.5h</td><td class="n">+37 / +9</td><td>A</td></tr>
+<tr><td><a href="/node/22?matchnum=1720">1720</a> &middot; <a href="/graph/1720?type=2&amp;seconds=60">graph</a></td><td>SC2K4</td><td>24h</td><td>2004-08-03 23:59:28</td><td class="n">60049/18549</td><td>2004-08-04 08:06:29</td><td class="n">60057/18551</td><td class="n">8.1h</td><td class="n">+8 / +2</td><td>A</td></tr>
+<tr><td><a href="/node/22?matchnum=1721">1721</a> &middot; <a href="/graph/1721?type=2&amp;seconds=60">graph</a></td><td>SC2K4</td><td>24h</td><td>2004-08-04 23:59:27</td><td class="n">50995/24297</td><td>2004-08-05 11:26:45</td><td class="n">51008/24299</td><td class="n">11.5h</td><td class="n">+13 / +2</td><td>A</td></tr>
+<tr><td><a href="/node/22?matchnum=1728">1728</a> &middot; <a href="/graph/1728?type=2&amp;seconds=60">graph</a></td><td>SC2K4</td><td>24h</td><td>2004-08-11 23:59:42</td><td class="n">48233/29618</td><td>2004-08-13 12:29:08</td><td class="n">48239/29621</td><td class="n">36.5h</td><td class="n">+6 / +3</td><td>A</td></tr>
+<tr><td><a href="/node/22?matchnum=1735">1735</a> &middot; <a href="/graph/1735?type=2&amp;seconds=60">graph</a></td><td>SC2K4</td><td>24h</td><td>2004-08-18 23:56:45</td><td class="n">41404/27342</td><td>2004-08-19 13:14:48</td><td class="n">41440/27368</td><td class="n">13.3h</td><td class="n">+36 / +26</td><td>A</td></tr>
+<tr><td><a href="/node/22?matchnum=1736">1736</a> &middot; <a href="/graph/1736?type=2&amp;seconds=60">graph</a></td><td>SC2K4</td><td>24h</td><td>2004-08-19 23:59:57</td><td class="n">52008/28434</td><td>2004-08-20 12:12:05</td><td class="n">52012/28436</td><td class="n">12.2h</td><td class="n">+4 / +2</td><td>A</td></tr>
+<tr><td><a href="/node/22?matchnum=1757">1757</a> &middot; <a href="/graph/1757?type=2&amp;seconds=60">graph</a></td><td>SC2K4</td><td>24h</td><td>2004-09-10 23:59:56</td><td class="n">32945/48480</td><td>2004-09-11 06:10:33</td><td class="n">32946/48481</td><td class="n">6.2h</td><td class="n">+1 / +1</td><td>A</td></tr>
+<tr><td><a href="/node/22?matchnum=1765">1765</a> &middot; <a href="/graph/1765?type=2&amp;seconds=60">graph</a></td><td>SC2K4</td><td>24h</td><td>2004-09-18 23:59:54</td><td class="n">15463/65809</td><td>2004-09-19 11:58:23</td><td class="n">15464/65809</td><td class="n">12.0h</td><td class="n">+1 / +0</td><td>A</td></tr>
+<tr><td><a href="/node/22?matchnum=1773">1773</a> &middot; <a href="/graph/1773?type=2&amp;seconds=60">graph</a></td><td>SC2K4</td><td>24h</td><td>2004-09-26 23:59:56</td><td class="n">29880/57626</td><td>2004-09-27 16:09:07</td><td class="n">29880/57627</td><td class="n">16.2h</td><td class="n">+0 / +1</td><td>A</td></tr>
+<tr><td><a href="/node/22?matchnum=1630">1630</a> &middot; <a href="/graph/1630?type=2&amp;seconds=60">graph</a></td><td>Spring 2K4</td><td>24h</td><td>2004-05-02 23:54:00</td><td class="n">57356/19641</td><td>2004-05-26 07:33:00</td><td class="n">57663/19761</td><td class="n">23 days</td><td class="n">+307 / +120</td><td>A</td></tr>
+<tr><td><a href="/node/22?matchnum=1635">1635</a> &middot; <a href="/graph/1635?type=2&amp;seconds=60">graph</a></td><td>Spring 2K4</td><td>24h</td><td>2004-05-08 23:59:00</td><td class="n">9486/63796</td><td>2004-05-28 07:52:44</td><td class="n">9559/64193</td><td class="n">19 days</td><td class="n">+73 / +397</td><td>A</td></tr>
+<tr><td><a href="/node/22?matchnum=1639">1639</a> &middot; <a href="/graph/1639?type=2&amp;seconds=60">graph</a></td><td>Spring 2K4</td><td>24h</td><td>2004-05-12 23:56:00</td><td class="n">52337/18397</td><td>2004-05-18 00:48:00</td><td class="n">53413/18763</td><td class="n">5 days</td><td class="n">+1076 / +366</td><td>A*</td></tr>
+<tr><td><a href="/node/22?matchnum=1640">1640</a> &middot; <a href="/graph/1640?type=2&amp;seconds=60">graph</a></td><td>Spring 2K4</td><td>24h</td><td>2004-05-14 23:56:00</td><td class="n">20224/53909</td><td>2004-05-26 08:49:00</td><td class="n">20285/54078</td><td class="n">11 days</td><td class="n">+61 / +169</td><td>A</td></tr>
+<tr class="weird"><td><a href="/node/22?matchnum=1641">1641</a> &middot; <a href="/graph/1641?type=2&amp;seconds=60">graph</a></td><td>Spring 2K4</td><td>24h</td><td>2004-05-15 23:48:00</td><td class="n">751/253</td><td>2004-05-18 00:48:00</td><td class="n">57876/14445</td><td class="n">49.0h</td><td class="n">+57125 / +14192</td><td class="tb">B</td></tr>
+<tr><td><a href="/node/22?matchnum=1643">1643</a> &middot; <a href="/graph/1643?type=2&amp;seconds=60">graph</a></td><td>Spring 2K4</td><td>24h</td><td>2004-05-17 23:56:00</td><td class="n">30492/44405</td><td>2004-05-19 01:34:00</td><td class="n">30528/44447</td><td class="n">25.6h</td><td class="n">+36 / +42</td><td>A</td></tr>
+<tr><td><a href="/node/22?matchnum=1647">1647</a> &middot; <a href="/graph/1647?type=2&amp;seconds=60">graph</a></td><td>Spring 2K4</td><td>24h</td><td>2004-05-21 23:59:00</td><td class="n">21766/43296</td><td>2004-05-30 01:59:54</td><td class="n">21821/43397</td><td class="n">8 days</td><td class="n">+55 / +101</td><td>A</td></tr>
+<tr><td><a href="/node/22?matchnum=1648">1648</a> &middot; <a href="/graph/1648?type=2&amp;seconds=60">graph</a></td><td>Spring 2K4</td><td>24h</td><td>2004-05-22 23:59:00</td><td class="n">32094/36981</td><td>2004-05-23 12:38:00</td><td class="n">32138/37031</td><td class="n">12.7h</td><td class="n">+44 / +50</td><td>A</td></tr>
+<tr><td><a href="/node/22?matchnum=1650">1650</a> &middot; <a href="/graph/1650?type=2&amp;seconds=60">graph</a></td><td>Spring 2K4</td><td>24h</td><td>2004-05-24 23:59:00</td><td class="n">52129/17779</td><td>2004-05-26 08:49:00</td><td class="n">52197/17801</td><td class="n">32.8h</td><td class="n">+68 / +22</td><td>A</td></tr>
+<tr><td><a href="/node/22?matchnum=1651">1651</a> &middot; <a href="/graph/1651?type=2&amp;seconds=60">graph</a></td><td>Spring 2K4</td><td>24h</td><td>2004-05-25 23:55:00</td><td class="n">45019/31273</td><td>2004-05-27 15:28:29</td><td class="n">45047/31294</td><td class="n">39.6h</td><td class="n">+28 / +21</td><td>A</td></tr>
+<tr><td><a href="/node/22?matchnum=1652">1652</a> &middot; <a href="/graph/1652?type=2&amp;seconds=60">graph</a></td><td>Spring 2K4</td><td>24h</td><td>2004-05-26 23:55:02</td><td class="n">42588/38283</td><td>2004-05-27 12:24:25</td><td class="n">42628/38326</td><td class="n">12.5h</td><td class="n">+40 / +43</td><td>A</td></tr>
+<tr><td><a href="/node/22?matchnum=1653">1653</a> &middot; <a href="/graph/1653?type=2&amp;seconds=60">graph</a></td><td>Spring 2K4</td><td>24h</td><td>2004-05-27 23:59:58</td><td class="n">56811/22865</td><td>2004-05-29 00:04:01</td><td class="n">56861/22884</td><td class="n">24.1h</td><td class="n">+50 / +19</td><td>A</td></tr>
+<tr class="weird"><td><a href="/node/22?matchnum=2066">2066</a> &middot; <a href="/graph/2066?type=2&amp;seconds=60">graph</a></td><td>Summer 2K5</td><td>24h</td><td>2005-07-20 15:21:32</td><td class="n">80168/18929</td><td>2005-07-21 00:03:38</td><td class="n">80185/18941</td><td class="n">8.7h</td><td class="n">+17 / +12</td><td class="tb">B</td></tr>
+<tr><td><a href="/node/22?matchnum=2075">2075</a> &middot; <a href="/graph/2075?type=2&amp;seconds=60">graph</a></td><td>Summer 2K5</td><td>24h</td><td>2005-07-28 23:48:00</td><td class="n">42187/62185</td><td>2005-07-29 13:14:10</td><td class="n">42324/62347</td><td class="n">13.4h</td><td class="n">+137 / +162</td><td>A</td></tr>
+</tbody>
+</table>
+
+<h2>Notes on the odd ones</h2>
+<ul>
+<li><b>1639</b> (A*) &mdash; same pattern as the rest but the late change is larger
+    (~+1,076 / +366, roughly 2&nbsp;% of the vote) vs the &lt; 0.5&nbsp;% the others show.</li>
+<li><b>1641</b> (B) &mdash; the whole <code>updates</code> series for this match is broken:
+    ~75 rows stuck near zero votes (751 / 253 at the "close"), then one row jumps to the
+    real result (57,876 / 14,445). The <code>matches</code> table has the correct final.
+    Not a late-blip case; the early rows are the problem.</li>
+<li><b>2066</b> (B) &mdash; Mario vs Joanna Dark. Recorded span is 37.8&nbsp;h for a 24-h
+    contest: there is an <em>additional</em> ~10&nbsp;h mid-match gap (an overnight lull in
+    an 81&nbsp;% blowout) on top of the trailing +8.7&nbsp;h row. Multiple gaps.</li>
+</ul>
+
+<h2>Related but understood &mdash; no action needed</h2>
+<ul>
+<li><b>BGE 2K9</b> polls 3446, 3456, 3461, 3483, 3486, 3496 &mdash; only <b>two</b> update
+    rows each (an early sample + the final); the "gap" is between the only two data points.
+    Sparse records, not anomalies.</li>
+<li><b>Summer 2K3</b> polls 1305, 1337, 1338, 1353 and <b>Spring 2K4</b> poll 1610 &mdash;
+    mid-match <b>sampling holes</b> (~hour 3 &rarr; hour 11); the rows after the gap are the
+    real match running to its true end.</li>
+<li><b>Spring 2K4</b> poll 1631 (Vice City vs KOTOR) &mdash; a genuine <b>two-day poll</b>;
+    215 real rows continue past the gap.</li>
+<li><b>CB VII</b> poll 3308 (Classic Link vs Young Link) &mdash; a genuine <b>48-hour
+    poll</b>; votes climb normally (4.7k &rarr; 95k) across it.</li>
+<li><b>CB IX</b> poll 5205 (Tifa vs Cirno) &mdash; the Cirno <b>vote purge</b>; the post-gap
+    row is the official post-purge result. Already noted on the graph page.</li>
+</ul>
+
+<h2>Options considered (not done)</h2>
+<ul>
+<li>Delete the ~37 trailing rows &mdash; rejected for now: the vote counts <em>did</em>
+    change, so those rows may be the real close-of-poll tally rather than junk.</li>
+<li>Rewrite the trailing timestamp to a few minutes after the scheduled close
+    (00:05 / 12:05) &mdash; possible for the obvious Type-A cases; keeps the data, fixes
+    the graph axis. Not done pending Board 8 input on whether that misrepresents anything.</li>
+<li>Clamp the graph x-axis in code (ignore a row &gt; Nh after the previous one in an
+    otherwise-dense series) &mdash; cosmetic, leaves the data untouched.</li>
+</ul>
+
+<h2>How this list was built</h2>
+<p>Detection: any &gt; 6&nbsp;h gap between consecutive update rows of the same match.
+False positives (sparse 2-row matches, mid-match sampling holes, genuine multi-day polls)
+were then sorted out from the trailing-row anomalies by hand.</p>
+
+</body>
+</html>

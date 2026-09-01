@@ -1,0 +1,25 @@
+<h2>Explanation of the Extrapolated Standings</h2>
+
+The extrapolated standings (often referred to as the X-Stats) work backwards from the final match and assign performance values to each contestant. The extrapolated model assumes linearity and transitivity.
+
+These assumptions work well because they are derived from the properties of Uniform random variables. The popularity of each contestant can be treated as a statistical process, based on realizations of uniform random variables with a certain mean.
+
+The extrapolated popularity values are calculated given the <strong>properties of uniform r.v.'s:</strong>
+
+Take two random variables, uniformly distributed from 0 to some upper bound. Given that one of the variables has an upper bound of 1.0 and the other has an upper bound of 0.6, the first has a probability of 70% of being greater than the second. This is because if the realization of the first is below 0.6, it has a 50% chance of being greater than the second; if it is above that, it has a 100% chance of being greater than the second. The first possibility has a 60% chance of occuring and the latter has a 40% chance of occuring. 60%*50%+40%*100%=70%. Since the greater has an upper bound of 1.0, this probability can also be seen as simply the difference between the upper bounds. 1.0-0.6=40%, and 70%-30%=40%.
+
+For uniform random variables that are distributed from 0 to some upper bound, the mean of these variables is simply the upper bound divided by 2.  Taking the winner of each contest to have his popularity process be uniform with an upper bound of 1, we can define others relative to him. The mean of the winner's popularity process would be 1/2=50%. For each other character, their extrapolated value is simply  what the results of the contests imply their mean popularity to be.
+
+<h3>Examples:</h3>
+
+The calculation of these values is very simple, as you just end up multiplying percentages. For instance, Link received 48.388% against Cloud; Samus received 37.94% against Link.  She would be expected to get 36.716% against Cloud. This is the same as saying the Samus random variable has an upper bound of twice that, or .7343, when compared to Cloud's 1.
+
+When comparing popularity values where the greater does not have an upper bound of 1, the values must be normalized relative to an upper bound of 1 in order to easily calculate the probabilities of one value being greater than the other. For instance, say one value has an upper bound of 0.8 (a popularity of 40%) and another has an upper bound of 0.6 (a popularity of 30%). To calculate what % of the votes one would get in a poll with the other, multiply both values by a scalar of 1/0.8=1.25. You now have upper bounds of 1 and .75. The character with a popularity of 40% would be expected to get .75/2=37.5% against the character with a popularity of 30%. This is the same thing as taking 30%/(40%/50%)=37.5%.
+
+Since we are working with the properties of uniform random variables, our popularity estimates are linearly transitive. e.g., if B would get 45% against A and C would get 35% against B, then C would be expected to get 35%*(45%/50%)=31.5% against A.
+
+<h3>Issues:</h3>
+<ul>
+	<li>From the results of the character contests, the performance of upper-tier characters appears to be stable across years. The performance of lower tier characters, however, is far more fickle. Also, instability across years might also indicate instability across matches within the same contest. Lower tier characters are probably more susceptible to things such as pic factor and the like.
+	<li>By the properties of uniform random variables, performance gets more difficult towards the extremes. For instance, improving from getting 50% of the vote against a character to 60% of the vote only requires a 25% increase in relative popularity. Increasing from 85% to 90%, however, requires a 50% increase in relative popularity. Yet, performance at the extremes is probably more volatile than performance that is more even; so performance results derived from blowouts are probably not as reliable as those from closer matches.
+</ul>

@@ -1,0 +1,107 @@
+/* sc2k5 rebuild — tweaks over Garland */
+#logo { max-height: 40px; width: auto; vertical-align: middle; }
+.breadcrumb { margin-bottom: .5em; }
+#center .content table { border-collapse: collapse; }
+#center .content td, #center .content th { padding: 1px 6px; }
+/* wide data tables scroll horizontally on their own, not the whole content panel */
+.tscroll { overflow-x: auto; }
+
+/* front-page contest index */
+.contest-index { border-collapse: collapse; margin: .5em 0 1em; }
+.contest-index th, .contest-index td { border: 1px solid #ccc; padding: .3em .6em; text-align: left; vertical-align: top; }
+.contest-index thead th { background: #f5f5f5; }
+.contest-index td.pu-none { color: #999; text-align: center; }
+
+/* /graph/{matchnum} poll-update graphs */
+/* Chart.js sizes off this container; it needs position:relative and an explicit
+   height (maintainAspectRatio:false in graph.php). Fixed heights keep a usable
+   plot area on phones and stop the chart ballooning on wide monitors. */
+.graph-box { position: relative; width: 100%; height: 480px; margin: .6em 0 1em; }
+@media (max-width: 800px) { .graph-box { height: 380px; } }
+@media (max-width: 430px) { .graph-box { height: 340px; } }
+.graph-meta, .graph-nav, .graph-help { margin: .3em 0; }
+.graph-help { color: #555; font-size: .95em; }
+.graph-nav a[style] { text-decoration: underline; }
+
+/* /node/100 — All Match Results */
+.amr-views, .amr-meta, .amr-filter { margin: .35em 0; }
+.amr-meta { color: #555; font-size: .95em; }
+.amr-filter { background: #eef4fb; border: 1px solid #b9d0e8; padding: .4em .7em; }
+table.amr td a { text-decoration: none; }
+table.amr td a:hover { text-decoration: underline; }
+.amr-wrap { overflow-x: auto; margin: .6em 0 1em; }
+table.amr { border-collapse: collapse; font-size: .92em; }
+table.amr th, table.amr td { border: 1px solid #bbb; padding: 3px 5px; vertical-align: top; }
+table.amr thead th { background: #eee; white-space: nowrap; }
+table.amr th a { text-decoration: none; }
+table.amr td.amr-n { text-align: right; white-space: nowrap; }
+table.amr tbody td:nth-child(3) { white-space: nowrap; }   /* Contest name — don't wrap */
+table.amr td.amr-x { background: #fafafa; }
+table.amr td.amr-win { font-weight: bold; }
+.amr-sub { color: #777; font-size: .85em; white-space: nowrap; }
+.amr-flag { color: #b30; font-weight: bold; cursor: help; }
+.amr-notes { font-size: .92em; }
+.amr-notes h3 { margin: 1.1em 0 .3em; }
+
+/* ------------------------------------------------------------------ */
+/*  Typography refresh (2026-08) — modern base size + capped measure.  */
+/*  Garland ships 12px/170% Verdana; this brings body copy up to the   */
+/*  ~16px norm and keeps prose lines from running the full panel.      */
+/*  Loaded last, so it wins the cascade. Revert: delete this block.    */
+/* ------------------------------------------------------------------ */
+body             { font-size: 16px; line-height: 1.6; }
+input            { font-size: 15px; }
+textarea, select { font-size: 15px; }
+
+/* secondary navigation reads fine a step down from body copy */
+#sidebar-left, #sidebar-right { font-size: 14px; }
+
+/* data tables and notes: comfortable, clearly a step below body */
+#center .content td, #center .content th { font-size: 14px; }
+table.amr { font-size: 14px; }
+.amr-meta, .amr-notes, .graph-help { font-size: 13px; }
+
+/* Narrow screens: Garland is a fixed 2-column layout with a 780px
+   min-width and an absolutely-positioned header. With the viewport meta
+   now in place, unwind that into a single fluid column: content first,
+   then the site-menu sidebar, with a plain stacked header. */
+@media (max-width: 800px) {
+  body.sidebar-left, body.sidebar-right, body.sidebars { min-width: 0; }
+  #wrapper { overflow-x: hidden; }
+
+  /* stack the columns, content first, nav below */
+  #wrapper #container { display: flex; flex-direction: column; }
+  #wrapper #container #header { order: -1; }
+  #wrapper #container #center  { order: 0; }
+  #wrapper #container .sidebar { order: 1; float: none; width: auto; margin: 1.5em 0 2em; }
+  #sidebar-left .block, #sidebar-right .block { padding: 0; }
+
+  body.sidebar-left #center, body.sidebar-right #center, body.sidebars #center { margin: 0; }
+  body.sidebar-left #squeeze, body.sidebar-right #squeeze, body.sidebars #squeeze { margin: 0; }
+
+  /* plain, in-flow header; drop the empty desktop spacer band */
+  #header-region { display: none; }
+  #wrapper #container .breadcrumb { position: static; top: auto; left: auto; margin: 0 0 .6em; }
+  #wrapper #container #header { position: static; height: auto; padding: 12px 12px 6px; }
+  #wrapper #container #header #logo-floater { position: static; }
+  #wrapper #container #header h1,
+  #wrapper #container #header h1 a:link,
+  #wrapper #container #header h1 a:visited { line-height: 1.25; font-size: 20px; white-space: normal; }
+  #header ul.primary-links, #header ul.secondary-links { float: none; clear: both; padding: 2px 0 0; line-height: 1.5; }
+  #header ul.primary-links li, #header ul.secondary-links li { float: none; display: inline-block; }
+  #header ul.primary-links li a, #header ul.secondary-links li a { margin: 0 1.1em 0 0; padding: 2px 0; background-image: none; }
+
+  /* reclaim the desktop gutters — Garland spends ~90px of width and
+     ~120px of height on padding plus decorative rounded-corner images
+     that a phone can't afford. Drop the corner art, tighten padding. */
+  #wrapper #container { padding-left: 6px; padding-right: 6px; }
+  #wrapper #container #center .right-corner { left: 0; background-image: none; }
+  #wrapper #container #center .right-corner .left-corner {
+    padding: 16px 12px 2em; margin-left: 0; left: 0; min-height: 0; background-image: none;
+  }
+  #wrapper #container #center .node { padding: 0; margin: 0; }
+
+  /* keep wide tables from pushing the page sideways */
+  #center .content { overflow-x: auto; }
+  .contest-index { display: block; width: max-content; max-width: 100%; overflow-x: auto; }
+}

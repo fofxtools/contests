@@ -1,0 +1,18 @@
+{
+    "require-dev": {
+        "friendsofphp/php-cs-fixer": "^3.95",
+        "phpstan/phpstan": "^2.2",
+        "phpunit/phpunit": "^12.5"
+    },
+    "scripts": {
+        "phpstan": "vendor/bin/phpstan analyse",
+        "analyse": "@phpstan",
+        "analyze": "@phpstan",
+        "phpunit": "vendor/bin/phpunit --color=always",
+        "test": "@phpunit",
+        "tests": "@phpunit",
+        "cs-fix": "vendor/bin/php-cs-fixer fix",
+        "cs-check": "vendor/bin/php-cs-fixer fix --dry-run --diff",
+        "cs-list": "vendor/bin/php-cs-fixer list-files"
+    }
+}
