@@ -1,6 +1,6 @@
 <?php
 
-// Phase 1 generated. type: static|fn|calc|expert. 'file' is under content/.
+// Generated data. type: static|fn|calc|expert. 'file' is under content/.
 // Keys are the original Drupal node ids (1-100), kept so old /node/N links resolve.
 // Gaps are expected (10, 12, 29, 49, 51, 56, 76-99) - node 12 was the homepage
 // "GameFAQsContests.com" blurb, now folded into content/front.html. Do NOT reuse a

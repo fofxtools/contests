@@ -2,8 +2,8 @@
 declare(strict_types=1);
 /*
  * lib/paa.php — Points-Above-Average: shared helpers + the /paa/lifetime and
- * /paa/average pages. Reads oraclechallenge.com's contest DB read-only. No writes;
- * no user input in SQL.
+ * /paa/average pages. DB connection is lib/oracle.php. No writes; no user input
+ * in SQL.
  *
  * PAA for a (user, match) = DailyStandings.MatchScore - Statistics.AverageScore.
  * Only scored rows count (MatchRanking > 0). Individual play only (team data is
@@ -16,38 +16,12 @@ declare(strict_types=1);
  * cache file.
  */
 
-/** Read-only creds for the Oracle Challenge DB, from .dbconfig.php's 'oracle' key. */
-function paa_cfg(): array
-{
-    static $c = null;
-    if ($c === null) {
-        $f   = dirname(__DIR__) . '/.dbconfig.php';
-        $all = is_readable($f) ? (require $f) : [];
-        $c   = $all['oracle'] ?? ['host' => 'localhost', 'user' => '', 'pass' => '', 'name' => ''];
-    }
-
-    return $c;
-}
+require_once __DIR__ . '/oracle.php';
 
 /** Aggregate cache path: <repo>/.cache/ locally, /home/sc2k5/.cache/ on the server. */
 function paa_cache_file(): string
 {
     return dirname(__DIR__, 2) . '/.cache/paa-agg.json';
-}
-
-function paa_db(): mysqli
-{
-    static $db = null;
-    if ($db === null) {
-        $p  = paa_cfg();
-        $db = new mysqli($p['host'], $p['user'], $p['pass'], $p['name']);
-        if ($db->connect_errno) {
-            throw new RuntimeException('PAA DB connect failed: ' . $db->connect_error);
-        }
-        $db->set_charset('utf8mb4');
-    }
-
-    return $db;
 }
 
 /**
@@ -70,9 +44,10 @@ function paa_cache(bool $rebuild = false): array
         }
     }
 
-    $db     = paa_db();
-    $scored = (int) ($db->query('SELECT COUNT(*) AS c FROM Statistics')->fetch_assoc()['c'] ?? 0);
-    $users  = $db->query(
+    $db        = oracle_db();
+    $scoredRow = $db->query('SELECT COUNT(*) AS c FROM Statistics')->fetch() ?: [];
+    $scored    = (int) ($scoredRow['c'] ?? 0);
+    $users     = $db->query(
         'SELECT ds.UserId                            AS id,
                 u.Name                               AS name,
                 SUM(ds.MatchScore - s.AverageScore)  AS sum_paa,
@@ -82,7 +57,7 @@ function paa_cache(bool $rebuild = false): array
          JOIN Users      u ON u.UserId  = ds.UserId
          WHERE ds.MatchRanking > 0
          GROUP BY ds.UserId, u.Name'
-    )->fetch_all(MYSQLI_ASSOC);
+    )->fetchAll();
 
     $mem = ['scored' => $scored, 'built' => date('c'), 'users' => $users];
     @mkdir(dirname(paa_cache_file()), 0775, true);
@@ -160,7 +135,7 @@ function paa_global_residual(): array
             FROM DailyStandings ds JOIN Statistics s ON s.MatchId = ds.MatchId
             WHERE ds.MatchRanking > 0';
 
-    return paa_db()->query($sql)->fetch_assoc() ?: [];
+    return oracle_db()->query($sql)->fetch() ?: [];
 }
 
 /** Minimal HTML table for a leaderboard slice (used by the tmp-123 dev scripts). */

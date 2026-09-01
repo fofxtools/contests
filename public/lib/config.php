@@ -8,12 +8,12 @@ define('APP_ROOT', dirname(__DIR__));
 define('CONTENT_DIR', APP_ROOT . '/content');
 define('TPL_DIR', APP_ROOT . '/templates');
 
-// --- contest DB (read-only, SELECT-only user) — used from Session C on ---
+// --- contest DB (read-only, SELECT-only user) ---
 // Resolution order per box (nothing DB-specific is committed):
 //   1. APP_ROOT/.dbconfig.php  -> returns ['host'=>, 'db'=>, 'user'=>, 'pass'=>]  (preferred)
 //   2. env vars SC2K5_GF_HOST / SC2K5_GF_DB / SC2K5_GF_USER / SC2K5_GF_PASS
 //   3. built-in defaults below
-// (lib/paa.php separately reads an 'oracle' => [host,user,pass,name] sub-array from the same file.)
+// (lib/oracle.php separately reads an 'oracle' => [host,user,pass,name] sub-array from the same file.)
 // prod:    sc2k5_gamefaqs        / sc2k5_gfro
 // staging: sc2k5stggamefaqs_gf   / sc2k5stggamefaqs_gfro
 $__gf_local = is_readable(APP_ROOT . '/.dbconfig.php')

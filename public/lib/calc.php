@@ -1,13 +1,13 @@
 <?php
 
 /**
- * sc2k5 rebuild — x-stat calculators + Expert Scores parser (Session D / Phase 5).
+ * sc2k5 rebuild — x-stat calculators + Expert Scores parser.
  *
  * The calculator node partials (content/nodes/48.php, 53.php, 54.php) and the
  * Expert Scores partial (content/nodes/65.php) are plain PHP that echo a form and,
  * when submitted, a results table. They are executed inside an output buffer by
- * calc_render_node() / expert_render_node(), which lib/content.php calls for
- * nodes whose manifest type is "calc" / "expert".
+ * calc_render_node(), which lib/content.php calls for nodes whose manifest type
+ * is "calc" or "expert".
  *
  * Only node 48 needs helpers: get_extrapolated_table() / get_extrapolated_results()
  * (King Morgoth's conditional-probability x-stat model, ported faithfully from the
@@ -30,12 +30,6 @@ function calc_render_node(string $file): string
     }
 
     return ob_get_clean();
-}
-
-/** Run the Expert Scores node partial and return its HTML. */
-function expert_render_node(string $file): string
-{
-    return calc_render_node($file);
 }
 
 /* --------------------------------------------------------------------------

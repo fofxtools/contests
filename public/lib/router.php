@@ -37,10 +37,6 @@ function route(string $uri): array
     if (preg_match('#^/graph/(\d+)$#', $path, $m)) {
         return ['handler' => 'graph',   'match' => (int)$m[1]];
     }
-    if ($path === '/expert-scores') {
-        return ['handler' => 'expert'];
-    }
-
     if ($path === '/paa/average') {
         return ['handler' => 'paa_average'];
     }

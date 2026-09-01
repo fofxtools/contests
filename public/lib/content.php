@@ -148,23 +148,16 @@ function render_node(int $nid): ?array
 
             break;
         case 'fn':
-            $body = function_exists('contest_render_fn_node')          // Session C
-                  ? contest_render_fn_node($file)
-                  : todo_box('contest table', $e['fns'] ?? []);
+            $body = contest_render_fn_node($file);
 
             break;
         case 'calc':
-            $body = function_exists('calc_render_node')                // Session D
-                  ? calc_render_node($file) : todo_box('x-stat calculator');
-
-            break;
-        case 'expert':
-            $body = function_exists('expert_render_node')              // Session D
-                  ? expert_render_node($file) : todo_box('expert-scores parser');
+        case 'expert':                       // expert-scores partial: a calc node with a paste-in form
+            $body = calc_render_node($file);
 
             break;
         default:
-            $body = todo_box('unknown type');
+            $body = '';                      // manifest is curated; other types shouldn't occur
     }
 
     // Drupal showed each node's contest as a taxonomy link at the foot of the body.
@@ -176,15 +169,6 @@ function render_node(int $nid): ?array
     }
 
     return ['title' => $e['title'], 'body' => $body];
-}
-
-function todo_box(string $what, array $extra = []): string
-{
-    $x = $extra ? ' <code>' . htmlspecialchars(implode(', ', $extra)) . '</code>' : '';
-
-    return '<div style="padding:1em;border:1px dashed #888;background:#fffbe6">'
-         . 'This ' . htmlspecialchars($what) . ' is not wired up yet' . $x
-         . ' — coming in a later build session.</div>';
 }
 
 /** Contest term landing page. Child pages grouped so X-Stats are easy to find. */

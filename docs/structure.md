@@ -11,7 +11,7 @@
 | `/node/N` | `render_node(N)` | body from `content/nodes/N.html` or `.php` |
 | `/contest/N` | `render_contest(N)` | `content/terms.php` |
 | `/graph/N` | `graph_render()` | `lib/graph.php` |
-| `/paa/lifetime`, `/paa/average` | `lib/paa.php` | |
+| `/paa/lifetime`, `/paa/average` | `lib/paa.php` (feature); DB connection in `lib/oracle.php` | |
 
 `templates/layout.php` wraps the result (header, sidebar, footer).
 

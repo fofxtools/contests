@@ -14,7 +14,7 @@ ini_set('display_errors', '0');
 require __DIR__ . '/lib/config.php';
 require __DIR__ . '/lib/router.php';
 require __DIR__ . '/lib/content.php';
-foreach (['contest', 'calc', 'graph', 'paa'] as $mod) {          // Sessions C/D/G add these
+foreach (['contest', 'calc', 'graph', 'oracle', 'paa'] as $mod) {
     $p = __DIR__ . "/lib/$mod.php";
     if (is_file($p)) {
         require $p;
