@@ -17,21 +17,22 @@
 
 ## Editing the homepage
 
-The homepage body is assembled in `render_front()` (`lib/content.php`), last line:
+All homepage prose lives in one file, `content/front.html`. `render_front()`
+(`lib/content.php`) builds only the contests table and splices it in at the
+`{{CONTESTS_TABLE}}` marker:
 
 ```php
-return ['title' => '', 'body' => $lead . $contests . $amr . $paa . $intro];
+$tpl = file_get_contents(CONTENT_DIR . '/front.html');
+return ['title' => '', 'body' => str_replace('{{CONTESTS_TABLE}}', $contests, $tpl)];
 ```
 
 | Part | What it is | Edit here |
 |---|---|---|
-| `$lead` | intro paragraph + Board 8 links | string literal in `render_front()` |
-| `$contests` | the contests table | auto-built — to change a row edit `content/terms.php` |
-| `$amr` | "All Match Results" blurb | string literal in `render_front()` |
-| `$paa` | "Oracle PAA" blurb | string literal in `render_front()` |
-| `$intro` | "Site Feature Notes" + "X-Stat Tools" sections | `content/nodes/12.html` (plain HTML) |
+| prose (intro, Board 8 links, "All Match Results", "Oracle PAA", "Site Feature Notes", "X-Stat Tools") | plain HTML | `content/front.html` |
+| the contests table | auto-built from `content/terms.php`, inserted at `{{CONTESTS_TABLE}}` | move the marker in `content/front.html` to relocate it |
 
-To reorder the sections, change the order of those variables on the `return` line.
+`front.html` is included verbatim — no `drupal_autop()` pass — so write explicit
+`<p>` / block tags. To reorder sections, just move the HTML (and the marker) within the file.
 
 ## Editing any other page
 

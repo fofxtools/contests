@@ -1,6 +1,10 @@
 <?php
 
 // Phase 1 generated. type: static|fn|calc|expert. 'file' is under content/.
+// Keys are the original Drupal node ids (1-100), kept so old /node/N links resolve.
+// Gaps are expected (10, 12, 29, 49, 51, 56, 76-99) - node 12 was the homepage
+// "GameFAQsContests.com" blurb, now folded into content/front.html. Do NOT reuse a
+// gap id for a new page; start new pages at 101+.
 return json_decode(<<<'JSON'
 {
  "1": {
@@ -106,14 +110,6 @@ return json_decode(<<<'JSON'
   "format": "FullHTML",
   "type": "static",
   "file": "nodes/11.html"
- },
- "12": {
-  "nid": 12,
-  "title": "GameFAQsContests.com",
-  "tid": 0,
-  "format": "FullHTML",
-  "type": "static",
-  "file": "nodes/12.html"
  },
  "13": {
   "nid": 13,

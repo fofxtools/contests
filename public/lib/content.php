@@ -236,10 +236,8 @@ function render_contest(int $tid): ?array
 /** Front page. */
 function render_front(): array
 {
-    // Front-page prose is static HTML in content/; only the contests table is built here.
-    $top    = is_readable(CONTENT_DIR . '/front-top.html') ? file_get_contents(CONTENT_DIR . '/front-top.html') : '';
-    $bottom = is_readable(CONTENT_DIR . '/front-bottom.html') ? file_get_contents(CONTENT_DIR . '/front-bottom.html') : '';
-    $intro  = is_readable(CONTENT_DIR . '/nodes/12.html') ? static_body(CONTENT_DIR . '/nodes/12.html') : '';   // "GameFAQsContests.com"
+    // Front-page prose is one static file, content/front.html, with a {{CONTESTS_TABLE}}
+    // marker where the built contests table goes. Only that table is built here.
 
     // tid -> its "Poll Updates" (listmatches) node id
     $pollup = [];
@@ -282,5 +280,7 @@ function render_front(): array
               . '<th>Contest</th><th>Description</th><th>Poll Updates</th><th>X-Stats</th>'
               . '</tr></thead><tbody>' . implode("\n", $rows) . '</tbody></table>';
 
-    return ['title' => '', 'body' => $top . $contests . $bottom . $intro];
+    $tpl = is_readable(CONTENT_DIR . '/front.html') ? file_get_contents(CONTENT_DIR . '/front.html') : '{{CONTESTS_TABLE}}';
+
+    return ['title' => '', 'body' => str_replace('{{CONTESTS_TABLE}}', $contests, $tpl)];
 }
