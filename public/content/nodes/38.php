@@ -43,7 +43,7 @@
 </table>
 
 <?php
-	//Add parameter "excel" to give output with votes on the same line as the entrant, for exporting the bracket into an Excel table.
+    //Add parameter "excel" to give output with votes on the same line as the entrant, for exporting the bracket into an Excel table.
 ##displaybracket("summer_2k5", "Summer 2005 Contest", 6, 8, "excel");
 #displaybracket("cb_2k6", "Character Battle 2006", 6, 8);
 ?>

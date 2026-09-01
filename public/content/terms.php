@@ -1,4 +1,5 @@
 <?php
+
 // Phase 1 generated. contest tid -> {name,desc,nids}
 return json_decode(<<<'JSON'
 {

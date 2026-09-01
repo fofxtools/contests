@@ -1,4 +1,4 @@
 <?php
-$contest = "Spring 2K5";
+
+$contest = 'Spring 2K5';
 listmatches($contest);
-?>

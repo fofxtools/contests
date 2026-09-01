@@ -1,4 +1,5 @@
 <?php
+
 // Phase 1 generated. nested nav: [{title,path,children}]
 return json_decode(<<<'JSON'
 [

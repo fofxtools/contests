@@ -1,4 +1,5 @@
 <?php
+
 // Phase 1 generated. type: static|fn|calc|expert. 'file' is under content/.
 return json_decode(<<<'JSON'
 {

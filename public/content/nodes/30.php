@@ -1,5 +1,5 @@
 <?php
-$contest = "SC2K5";
-$node = "30";
-echo displaymatches($contest, $node);
-?>
+
+$contest = 'SC2K5';
+$node    = '30';
+displaymatches($contest, $node);

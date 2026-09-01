@@ -5,12 +5,12 @@
 -->
 
 <?php
-	//Add parameter "excel" to give output with votes on the same line as the entrant, for exporting the bracket into an Excel table.
+    //Add parameter "excel" to give output with votes on the same line as the entrant, for exporting the bracket into an Excel table.
 //displaybracket("spring_2k5", "Spring 2005 Contest", 5, 4, "excel");
-displaybracket("summer_2k5", "Summer 2005 Contest", 6, 8);
+displaybracket('summer_2k5', 'Summer 2005 Contest', 6, 8);
 ?>
 <br />
 <br />
 <?php
-displaybracket("summer_2k5_toc", "SC2K5 Tournament of Champions", 2, 1);
+displaybracket('summer_2k5_toc', 'SC2K5 Tournament of Champions', 2, 1);
 ?>

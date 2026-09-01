@@ -1,41 +1,78 @@
 <?php
+
 declare(strict_types=1);
 
-function manifest(): array { static $m; return $m ??= require CONTENT_DIR . '/nodes.php'; }
-function contests(): array { static $t; return $t ??= require CONTENT_DIR . '/terms.php'; }
-function nav_menu(): array { static $n; return $n ??= require CONTENT_DIR . '/menu.php'; }
+function manifest(): array
+{
+    static $m;
 
-function node_title(int $nid): ?string {
+    return $m ??= require CONTENT_DIR . '/nodes.php';
+}
+function contests(): array
+{
+    static $t;
+
+    return $t ??= require CONTENT_DIR . '/terms.php';
+}
+function nav_menu(): array
+{
+    static $n;
+
+    return $n ??= require CONTENT_DIR . '/menu.php';
+}
+
+function node_title(int $nid): ?string
+{
     $m = manifest();
+
     return $m[(string)$nid]['title'] ?? null;
 }
 
 /** Does this node title name an "Extrapolated Standings / X-Stats" page? */
-function is_xstats_title(string $title): bool {
+function is_xstats_title(string $title): bool
+{
     return (bool) preg_match('/x-?stat|extrapolat|standing/i', $title);
 }
 
 /** Compact label for one x-stats variant (front-page cell, when a contest has several). */
-function xstats_short_label(string $title): string {
-    if (stripos($title, 'SFF') !== false)       return 'SFF-adjusted';
-    if (stripos($title, 'geoloc') !== false)    return 'geolocation';
-    if (stripos($title, 'hyper') !== false)     return 'hyper-adjusted';
+function xstats_short_label(string $title): string
+{
+    if (stripos($title, 'SFF') !== false) {
+        return 'SFF-adjusted';
+    }
+    if (stripos($title, 'geoloc') !== false) {
+        return 'geolocation';
+    }
+    if (stripos($title, 'hyper') !== false) {
+        return 'hyper-adjusted';
+    }
     if (stripos($title, 'leon') !== false
-        && stripos($title, 'adjust') !== false) return "Leon's adjusted";
-    if (stripos($title, 'leon') !== false)      return "Leon's";
+        && stripos($title, 'adjust') !== false) {
+        return "Leon's adjusted";
+    }
+    if (stripos($title, 'leon') !== false) {
+        return "Leon's";
+    }
+
     return 'raw';   // plain "… Extrapolated Standings" = the unadjusted set
 }
 
 /** X-Stats nodes attached to a contest term, as [nid => shortLabel]. May be empty. */
-function xstats_for_tid(int $tid): array {
+function xstats_for_tid(int $tid): array
+{
     $c = contests()[(string)$tid] ?? null;
-    if (!$c) return [];
-    $m = manifest();
+    if (!$c) {
+        return [];
+    }
+    $m   = manifest();
     $out = [];
     foreach ($c['nids'] as $nid) {
         $t = $m[(string)$nid]['title'] ?? '';
-        if (is_xstats_title($t)) $out[(int)$nid] = xstats_short_label($t);
+        if (is_xstats_title($t)) {
+            $out[(int)$nid] = xstats_short_label($t);
+        }
     }
+
     return $out;
 }
 
@@ -45,20 +82,25 @@ function xstats_for_tid(int $tid): array {
  * into HTML", so raw newlines in node bodies became <p>/<br /> on the live site.
  * Our static bodies are the raw stored text, so we reproduce that pass here.
  */
-function drupal_autop(string $text): string {
-    $block = '(?:table|thead|tfoot|caption|colgroup|tbody|tr|td|th|div|dl|dd|dt|ul|ol|li|pre|select|form|blockquote|address|p|h[1-6]|hr)';
-    $chunks = preg_split('@(</?(?:pre|script|style|object)[^>]*>)@i', $text, -1, PREG_SPLIT_DELIM_CAPTURE);
-    $ignore = false;
+function drupal_autop(string $text): string
+{
+    $block     = '(?:table|thead|tfoot|caption|colgroup|tbody|tr|td|th|div|dl|dd|dt|ul|ol|li|pre|select|form|blockquote|address|p|h[1-6]|hr)';
+    $chunks    = preg_split('@(</?(?:pre|script|style|object)[^>]*>)@i', $text, -1, PREG_SPLIT_DELIM_CAPTURE);
+    $ignore    = false;
     $ignoretag = '';
-    $output = '';
+    $output    = '';
     foreach ($chunks as $i => $chunk) {
         if ($i % 2) {
-            $open = ($chunk[1] !== '/');
+            $open  = ($chunk[1] !== '/');
             [$tag] = preg_split('/[ >]/', substr($chunk, 2 - (int)$open), 2);
             if (!$ignore) {
-                if ($open) { $ignore = true; $ignoretag = $tag; }
+                if ($open) {
+                    $ignore    = true;
+                    $ignoretag = $tag;
+                }
             } elseif (!$open && $ignoretag === $tag) {
-                $ignore = false; $ignoretag = '';
+                $ignore    = false;
+                $ignoretag = '';
             }
         } elseif (!$ignore) {
             $chunk = preg_replace('|\n*$|', '', $chunk) . "\n\n";
@@ -68,48 +110,58 @@ function drupal_autop(string $text): string {
             $chunk = preg_replace("/\n\n+/", "\n\n", $chunk);
             $chunk = preg_replace('/\n?(.+?)(?:\n\s*\n|\z)/s', "<p>$1</p>\n", $chunk);
             $chunk = preg_replace('|<p>\s*</p>\n|', '', $chunk);
-            $chunk = preg_replace('!<p>\s*(</?' . $block . '[^>]*>)!', "$1", $chunk);
-            $chunk = preg_replace('!(</?' . $block . '[^>]*>)\s*</p>!', "$1", $chunk);
+            $chunk = preg_replace('!<p>\s*(</?' . $block . '[^>]*>)!', '$1', $chunk);
+            $chunk = preg_replace('!(</?' . $block . '[^>]*>)\s*</p>!', '$1', $chunk);
             $chunk = preg_replace('|(?<!<br />)\s*\n|', "<br />\n", $chunk);
-            $chunk = preg_replace('!(</?' . $block . '[^>]*>)\s*<br />!', "$1", $chunk);
+            $chunk = preg_replace('!(</?' . $block . '[^>]*>)\s*<br />!', '$1', $chunk);
             $chunk = preg_replace('!<br />(\s*</?(?:p|li|div|dl|dd|dt|th|pre|td|ul|ol)[^>]*>)!', '$1', $chunk);
             $chunk = preg_replace('/&([^#])(?![A-Za-z0-9]{1,8};)/', '&amp;$1', $chunk);
         }
         $output .= $chunk;
     }
+
     return $output;
 }
 
 /** Read a static node .html file and apply the same line-break filter Drupal did. */
-function static_body(string $file): string {
+function static_body(string $file): string
+{
     $raw = file_get_contents($file);
     $raw = str_replace('<!--break-->', '', $raw);   // Drupal teaser marker, stripped before render
+
     return drupal_autop($raw);
 }
 
 /** Returns ['title'=>, 'body'=>html] or null if the node id is unknown. */
-function render_node(int $nid): ?array {
+function render_node(int $nid): ?array
+{
     $m = manifest();
     $e = $m[(string)$nid] ?? null;
-    if (!$e) return null;
+    if (!$e) {
+        return null;
+    }
     $file = CONTENT_DIR . '/' . $e['file'];
 
     switch ($e['type']) {
         case 'static':
             $body = static_body($file);
+
             break;
         case 'fn':
             $body = function_exists('contest_render_fn_node')          // Session C
                   ? contest_render_fn_node($file)
                   : todo_box('contest table', $e['fns'] ?? []);
+
             break;
         case 'calc':
             $body = function_exists('calc_render_node')                // Session D
                   ? calc_render_node($file) : todo_box('x-stat calculator');
+
             break;
         case 'expert':
             $body = function_exists('expert_render_node')              // Session D
                   ? expert_render_node($file) : todo_box('expert-scores parser');
+
             break;
         default:
             $body = todo_box('unknown type');
@@ -117,33 +169,38 @@ function render_node(int $nid): ?array {
 
     // Drupal showed each node's contest as a taxonomy link at the foot of the body.
     $tid = (int)($e['tid'] ?? 0);
-    $c = $tid > 0 ? (contests()[(string)$tid] ?? null) : null;
+    $c   = $tid > 0 ? (contests()[(string)$tid] ?? null) : null;
     if ($c) {
         $body .= "\n<div class=\"terms\">Contest: <a href=\"/contest/{$tid}\">"
-               . htmlspecialchars($c['name']) . "</a></div>";
+               . htmlspecialchars($c['name']) . '</a></div>';
     }
 
     return ['title' => $e['title'], 'body' => $body];
 }
 
-function todo_box(string $what, array $extra = []): string {
+function todo_box(string $what, array $extra = []): string
+{
     $x = $extra ? ' <code>' . htmlspecialchars(implode(', ', $extra)) . '</code>' : '';
+
     return '<div style="padding:1em;border:1px dashed #888;background:#fffbe6">'
          . 'This ' . htmlspecialchars($what) . ' is not wired up yet' . $x
          . ' — coming in a later build session.</div>';
 }
 
 /** Contest term landing page. Child pages grouped so X-Stats are easy to find. */
-function render_contest(int $tid): ?array {
+function render_contest(int $tid): ?array
+{
     $c = contests()[(string)$tid] ?? null;
-    if (!$c) return null;
+    if (!$c) {
+        return null;
+    }
     $m = manifest();
 
     $groups = [
-        'Poll updates'                    => [],
+        'Poll updates'                     => [],
         'Extrapolated standings (X-Stats)' => [],
-        'Brackets &amp; matches'          => [],
-        'Other'                           => [],
+        'Brackets &amp; matches'           => [],
+        'Other'                            => [],
     ];
     foreach ($c['nids'] as $nid) {
         $e  = $m[(string)$nid] ?? [];
@@ -163,20 +220,27 @@ function render_contest(int $tid): ?array {
     $body = $c['desc'] !== '' ? '<p>' . htmlspecialchars($c['desc']) . '</p>' : '';
     $any  = false;
     foreach ($groups as $label => $lis) {
-        if (!$lis) continue;
-        $any   = true;
+        if (!$lis) {
+            continue;
+        }
+        $any = true;
         $body .= "<h3>$label</h3><ul>" . implode("\n", $lis) . '</ul>';
     }
-    if (!$any) $body .= '<p>No pages for this contest.</p>';
+    if (!$any) {
+        $body .= '<p>No pages for this contest.</p>';
+    }
 
     return ['title' => $c['name'], 'body' => $body];
 }
 
 /** Front page. */
-function render_front(): array {
+function render_front(): array
+{
     $intro = '';
-    $f = CONTENT_DIR . '/nodes/12.html';               // "GameFAQsContests.com"
-    if (is_readable($f)) $intro = static_body($f);
+    $f     = CONTENT_DIR . '/nodes/12.html';               // "GameFAQsContests.com"
+    if (is_readable($f)) {
+        $intro = static_body($f);
+    }
 
     // tid -> its "Poll Updates" (listmatches) node id
     $pollup = [];

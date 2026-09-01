@@ -7,6 +7,9 @@ declare(strict_types=1);
 require_once TPL_DIR . '/menu.php';
 
 $menu_html = render_site_menu(nav_menu(), $current ?? '/');
+
+$title ??= '';
+$content ??= '';
 ?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
   "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en" dir="ltr">
@@ -46,7 +49,7 @@ $menu_html = render_site_menu(nav_menu(), $current ?? '/');
 
     <div id="center"><div id="squeeze"><div class="right-corner"><div class="left-corner">
         <?= $breadcrumb ?? '' ?>
-        <?php if (($title ?? '') !== ''): ?><h2><?= htmlspecialchars($title) ?></h2><?php endif; ?>
+        <?php if ($title !== ''): ?><h2><?= htmlspecialchars($title) ?></h2><?php endif; ?>
         <div class="clear-block">
           <div class="node"><div class="content clear-block">
             <?= $content ?>

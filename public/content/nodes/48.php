@@ -3,48 +3,41 @@
 
 <?php
 $input_values = trim($_GET['input_values'] ?? '');
-if($input_values!='')
-{
-	global $timer_array;
-	scriptTimer("Stats", "start");
-	$line_array = explode("\n", $input_values);
-	# Maximum of 12 characters
-	$line_array = array_slice($line_array, 0, 12);
-	$name_array = array();
-	$value_array = array();
-	$default_values = '';
-	for($i=0; $i<count($line_array); $i++)
-	{
-		# Line should already be urldecode()ed automatically
-		$this_line_array = explode("=", $line_array[$i]);
-		if(count($this_line_array)==2)
-		{
-			$name_array[$i] = $this_line_array[0];
-			$value_array[$i] = $this_line_array[1];
-			$default_values .= $name_array[$i]."=".$value_array[$i];
-		}
-		else
-		{
-			$char = $i+1;
-			$name_array[$i] = "Character ".$char;
-			$value_array[$i] = $this_line_array[0];
-			$default_values .= $value_array[$i];
-		}
-	}
-	# Assume all values are percentages, and have to be greater than 0% and less than 100%
-	/*for($i=0; $i<count($value_array); $i++)
-	{
-		$value_array[$i] = min(1, max(0, $value_array[$i]/100));
-	}*/
-	$table = get_extrapolated_table($value_array, $name_array);
-	echo "<h3>Estimated Results</h3>\n$table";
-	scriptTimer("Stats", "end");
-	$execution_time = $timer_array['Stats']['Elapsed'];
-	echo "<br />Took ".round($execution_time, 3)." seconds.<br />\n";
-}
-else
-{
-	$default_values = "50\n40\n30\n20";
+if ($input_values != '') {
+    global $timer_array;
+    scriptTimer('Stats', 'start');
+    $line_array = explode("\n", $input_values);
+    # Maximum of 12 characters
+    $line_array     = array_slice($line_array, 0, 12);
+    $name_array     = [];
+    $value_array    = [];
+    $default_values = '';
+    for ($i = 0; $i < count($line_array); $i++) {
+        # Line should already be urldecode()ed automatically
+        $this_line_array = explode('=', $line_array[$i]);
+        if (count($this_line_array) == 2) {
+            $name_array[$i]  = $this_line_array[0];
+            $value_array[$i] = $this_line_array[1];
+            $default_values .= $name_array[$i] . '=' . $value_array[$i];
+        } else {
+            $char            = $i + 1;
+            $name_array[$i]  = 'Character ' . $char;
+            $value_array[$i] = $this_line_array[0];
+            $default_values .= $value_array[$i];
+        }
+    }
+    # Assume all values are percentages, and have to be greater than 0% and less than 100%
+    /*for($i=0; $i<count($value_array); $i++)
+    {
+        $value_array[$i] = min(1, max(0, $value_array[$i]/100));
+    }*/
+    $table = get_extrapolated_table($value_array, $name_array);
+    echo "<h3>Estimated Results</h3>\n$table";
+    scriptTimer('Stats', 'end');
+    $execution_time = $timer_array['Stats']['Elapsed'];
+    echo '<br />Took ' . round($execution_time, 3) . " seconds.<br />\n";
+} else {
+    $default_values = "50\n40\n30\n20";
 }
 ?>
 

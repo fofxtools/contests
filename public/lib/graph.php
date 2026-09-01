@@ -12,86 +12,126 @@
 declare(strict_types=1);
 
 const GRAPH_DEFAULT_SECONDS = 60;                 // original site default was ~55-60s ("1 min")
-const GRAPH_SMOOTHING = [0 => 'all updates', 60 => '1 min', 300 => '5 min', 900 => '15 min'];
+const GRAPH_SMOOTHING       = [0 => 'all updates', 60 => '1 min', 300 => '5 min', 900 => '15 min'];
 
 /** Fetch one match's updates, sorted by time, optional min-gap downsample. */
-function graph_series(int $matchnum, int $seconds = 0): array {
+function graph_series(int $matchnum, int $seconds = 0): array
+{
     $rows = gfq(
         'SELECT `time`, entrant1,votes1,entrant2,votes2,entrant3,votes3,entrant4,votes4
          FROM updates WHERE `matchnum` = ? ORDER BY `time` ASC',
         [$matchnum]
     );
-    if (!$rows) return ['entrants' => [], 'n' => 0, 'raw' => 0, 'points' => []];
+    if (!$rows) {
+        return ['entrants' => [], 'n' => 0, 'raw' => 0, 'points' => []];
+    }
 
     $ne = 2;
-    if (strlen(trim((string)($rows[0]['entrant3'] ?? ''))) > 0) $ne = 3;
-    if (strlen(trim((string)($rows[0]['entrant4'] ?? ''))) > 0) $ne = 4;
+    if (strlen(trim((string)($rows[0]['entrant3'] ?? ''))) > 0) {
+        $ne = 3;
+    }
+    if (strlen(trim((string)($rows[0]['entrant4'] ?? ''))) > 0) {
+        $ne = 4;
+    }
     $entrants = [];
-    for ($i = 1; $i <= $ne; $i++) $entrants[] = (string)$rows[0]["entrant$i"];
+    for ($i = 1; $i <= $ne; $i++) {
+        $entrants[] = (string)$rows[0]["entrant$i"];
+    }
 
-    $t0 = strtotime((string)$rows[0]['time']);
-    $out = [];
+    $t0    = strtotime((string)$rows[0]['time']);
+    $out   = [];
     $lastT = null;
     foreach ($rows as $r) {
         $t = strtotime((string)$r['time']);
-        if ($seconds > 0 && $lastT !== null && ($t - $lastT) < $seconds) continue;
+        if ($seconds > 0 && $lastT !== null && ($t - $lastT) < $seconds) {
+            continue;
+        }
         $v = [];
-        for ($i = 1; $i <= $ne; $i++) $v[] = (int)$r["votes$i"];
+        for ($i = 1; $i <= $ne; $i++) {
+            $v[] = (int)$r["votes$i"];
+        }
         $out[] = ['tsec' => $t - $t0, 'v' => $v];
         $lastT = $t;
     }
+
     return ['entrants' => $entrants, 'n' => count($out), 'raw' => count($rows), 'points' => $out];
 }
 
 /** Build the Chart.js datasets for one type. */
-function graph_plot(array $s, int $type): array {
+function graph_plot(array $s, int $type): array
+{
     $ne = count($s['entrants']);
 
     $cum = [];
     foreach ($s['entrants'] as $ei => $name) {
         $y = [];
-        foreach ($s['points'] as $p) { $tot = array_sum($p['v']) ?: 1; $y[] = $p['v'][$ei] / $tot * 100; }
+        foreach ($s['points'] as $p) {
+            $tot = array_sum($p['v']) ?: 1;
+            $y[] = $p['v'][$ei] / $tot * 100;
+        }
         $cum[$ei] = $y;
     }
     $per = [];
     foreach ($s['entrants'] as $ei => $name) {
-        $y = []; $prevV = array_fill(0, $ne, 0); $prevTot = 0;
+        $y       = [];
+        $prevV   = array_fill(0, $ne, 0);
+        $prevTot = 0;
         foreach ($s['points'] as $pi => $p) {
             $tot = array_sum($p['v']);
-            if ($pi === 0) $y[] = $cum[$ei][0];
-            else { $dtot = ($tot - $prevTot) ?: 1; $y[] = ($p['v'][$ei] - $prevV[$ei]) / $dtot * 100; }
-            $prevV = $p['v']; $prevTot = $tot;
+            if ($pi === 0) {
+                $y[] = $cum[$ei][0];
+            } else {
+                $dtot = ($tot - $prevTot) ?: 1;
+                $y[]  = ($p['v'][$ei] - $prevV[$ei]) / $dtot * 100;
+            }
+            $prevV   = $p['v'];
+            $prevTot = $tot;
         }
         $per[$ei] = $y;
     }
 
     $series = [];
     if ($type === 0) {
-        foreach ($s['entrants'] as $ei => $n) $series[] = ['name' => $n, 'y' => $cum[$ei], 'thick' => true];
+        foreach ($s['entrants'] as $ei => $n) {
+            $series[] = ['name' => $n, 'y' => $cum[$ei], 'thick' => true];
+        }
     } elseif ($type === 1) {
-        foreach ($s['entrants'] as $ei => $n) $series[] = ['name' => "$n (update)", 'y' => $per[$ei], 'thick' => false];
+        foreach ($s['entrants'] as $ei => $n) {
+            $series[] = ['name' => "$n (update)", 'y' => $per[$ei], 'thick' => false];
+        }
     } else {
-        foreach ($s['entrants'] as $ei => $n) $series[] = ['name' => "$n (update)", 'y' => $per[$ei], 'thick' => false];
-        foreach ($s['entrants'] as $ei => $n) $series[] = ['name' => "$n (total)", 'y' => $cum[$ei], 'thick' => true];
+        foreach ($s['entrants'] as $ei => $n) {
+            $series[] = ['name' => "$n (update)", 'y' => $per[$ei], 'thick' => false];
+        }
+        foreach ($s['entrants'] as $ei => $n) {
+            $series[] = ['name' => "$n (total)", 'y' => $cum[$ei], 'thick' => true];
+        }
     }
+
     return $series;
 }
 
-function graph_colors(): array {
+function graph_colors(): array
+{
     return ['#1a9850', '#2166ac', '#f46d43', '#d73027', '#762a83', '#4d4d4d', '#1a9850', '#2166ac'];
 }
 
 /** /graph/{matchnum}?format=json — the raw series (every update, no downsample). Echoes + exits. */
-function graph_json(int $matchnum): void {
+function graph_json(int $matchnum): void
+{
     $s = graph_series($matchnum);
     header('Content-Type: application/json');
-    if (!$s['n']) { http_response_code(404); echo json_encode(['match' => $matchnum, 'updates' => 0]); exit; }
+    if (!$s['n']) {
+        http_response_code(404);
+        echo json_encode(['match' => $matchnum, 'updates' => 0]);
+        exit;
+    }
     echo json_encode([
         'match'    => $matchnum,
         'entrants' => $s['entrants'],
         'updates'  => $s['raw'],
         'x_sec'    => array_column($s['points'], 'tsec'),
-        'votes'    => array_map(fn($p) => $p['v'], $s['points']),
+        'votes'    => array_map(fn ($p) => $p['v'], $s['points']),
     ], JSON_UNESCAPED_SLASHES);
     exit;
 }
@@ -99,9 +139,12 @@ function graph_json(int $matchnum): void {
 /**
  * @return array{title:string, body:string, code:int}
  */
-function graph_render(int $matchnum): array {
+function graph_render(int $matchnum): array
+{
     $type = (int)($_GET['type'] ?? 0);
-    if ($type < 0 || $type > 2) $type = 0;
+    if ($type < 0 || $type > 2) {
+        $type = 0;
+    }
     $seconds = isset($_GET['seconds']) ? max(0, (int)$_GET['seconds']) : GRAPH_DEFAULT_SECONDS;
 
     $s = graph_series($matchnum, $seconds);
@@ -110,7 +153,7 @@ function graph_render(int $matchnum): array {
             'title' => 'Poll update graph — match ' . $matchnum,
             'body'  => '<p>No poll-update data is recorded for match ' . $matchnum . '.</p>'
                      . '<p><a href="/">Home</a></p>',
-            'code'  => 404,
+            'code' => 404,
         ];
     }
 
@@ -124,11 +167,14 @@ function graph_render(int $matchnum): array {
     // drawn thick, per-update lines thin, so the smooth standings read on top of the spiky overlay.
     $datasets = [];
     foreach ($series as $si => $ser) {
-        $isCum = $ser['thick'];
+        $isCum      = $ser['thick'];
         $datasets[] = [
-            'label'       => $ser['name'],
-            'data'        => array_map(fn($x, $y) => ['x' => $x['tsec'] / 3600, 'y' => round($y, 3)],
-                                       $s['points'], $ser['y']),
+            'label' => $ser['name'],
+            'data'  => array_map(
+                fn ($x, $y) => ['x' => $x['tsec'] / 3600, 'y' => round($y, 3)],
+                $s['points'],
+                $ser['y']
+            ),
             'borderColor' => $colors[$si % $ne],
             'borderWidth' => $isCum ? 3 : 1,
             'pointRadius' => 0,
@@ -137,7 +183,7 @@ function graph_render(int $matchnum): array {
     }
 
     $viewName = ['0' => 'cumulative %', '1' => '% per update', '2' => 'per update + cumulative'][(string)$type];
-    $sub = "{$s['n']} of {$s['raw']} updates · {$viewName}";
+    $sub      = "{$s['n']} of {$s['raw']} updates · {$viewName}";
 
     // end the x-axis exactly at the last update, not at Chart.js's rounded-up tick
     $xmax = $s['points'] ? end($s['points'])['tsec'] / 3600 : null;
@@ -147,14 +193,16 @@ function graph_render(int $matchnum): array {
     // and the graph from looking more volatile, when the reader changes the smoothing.
     $frameY = [];
     foreach (graph_plot(graph_series($matchnum, 0), 2) as $fs) {
-        foreach ($fs['y'] as $v) $frameY[] = $v;
+        foreach ($fs['y'] as $v) {
+            $frameY[] = $v;
+        }
     }
-    $ymin = $frameY ? max(0,   (int) floor(min($frameY))) : 0;
-    $ymax = $frameY ? min(100, (int) ceil(max($frameY)))  : 100;
+    $ymin = $frameY ? max(0, (int) floor(min($frameY))) : 0;
+    $ymax = $frameY ? min(100, (int) ceil(max($frameY))) : 100;
 
-    $q     = fn($t, $sec) => "/graph/{$matchnum}?type={$t}&seconds={$sec}";
-    $poll  = 'https://gamefaqs.gamespot.com/poll/' . $matchnum . '-';
-    $bold  = fn($cond) => $cond ? ' style="font-weight:bold"' : '';
+    $q    = fn ($t, $sec) => "/graph/{$matchnum}?type={$t}&seconds={$sec}";
+    $poll = 'https://gamefaqs.gamespot.com/poll/' . $matchnum . '-';
+    $bold = fn ($cond) => $cond ? ' style="font-weight:bold"' : '';
 
     ob_start(); ?>
 <p class="graph-meta">

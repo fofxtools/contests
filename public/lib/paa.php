@@ -18,13 +18,15 @@ declare(strict_types=1);
  * TODO before wider use: move the creds to a config file (like public_html/.dbconfig.php).
  */
 
-function paa_cfg(): array {
+function paa_cfg(): array
+{
     static $c = null;
     if ($c === null) {
-        $f = APP_ROOT . '/.dbconfig.php';
+        $f   = dirname(__DIR__) . '/.dbconfig.php';
         $all = is_readable($f) ? (require $f) : [];
-        $c = $all['paa'] ?? ['host'=>'localhost','user'=>'','pass'=>'','name'=>''];
+        $c   = $all['paa'] ?? ['host' => 'localhost', 'user' => '', 'pass' => '', 'name' => ''];
     }
+
     return $c;
 }
 
@@ -34,13 +36,14 @@ function paa_db(): mysqli
 {
     static $db = null;
     if ($db === null) {
-        $p = paa_cfg();
+        $p  = paa_cfg();
         $db = new mysqli($p['host'], $p['user'], $p['pass'], $p['name']);
         if ($db->connect_errno) {
             throw new RuntimeException('PAA DB connect failed: ' . $db->connect_error);
         }
         $db->set_charset('utf8mb4');
     }
+
     return $db;
 }
 
@@ -48,12 +51,14 @@ function paa_db(): mysqli
  * Per-user aggregate + the scored-match count, from the JSON cache.
  * Shape: ['scored' => int, 'built' => iso8601, 'users' => [ ['id','name','sum_paa','n'], ... ] ]
  *
- * @param bool $rebuild  Ignore any existing cache and recompute (then rewrite the file).
+ * @param bool $rebuild Ignore any existing cache and recompute (then rewrite the file).
  */
 function paa_cache(bool $rebuild = false): array
 {
     static $mem = null;
-    if ($mem !== null && !$rebuild) return $mem;
+    if ($mem !== null && !$rebuild) {
+        return $mem;
+    }
 
     if (!$rebuild && is_file(PAA_CACHE_FILE)) {
         $d = json_decode((string) file_get_contents(PAA_CACHE_FILE), true);
@@ -62,10 +67,10 @@ function paa_cache(bool $rebuild = false): array
         }
     }
 
-    $db = paa_db();
+    $db     = paa_db();
     $scored = (int) ($db->query('SELECT COUNT(*) AS c FROM Statistics')->fetch_assoc()['c'] ?? 0);
     $users  = $db->query(
-        "SELECT ds.UserId                            AS id,
+        'SELECT ds.UserId                            AS id,
                 u.Name                               AS name,
                 SUM(ds.MatchScore - s.AverageScore)  AS sum_paa,
                 COUNT(*)                             AS n
@@ -73,12 +78,13 @@ function paa_cache(bool $rebuild = false): array
          JOIN Statistics s ON s.MatchId = ds.MatchId
          JOIN Users      u ON u.UserId  = ds.UserId
          WHERE ds.MatchRanking > 0
-         GROUP BY ds.UserId, u.Name"
+         GROUP BY ds.UserId, u.Name'
     )->fetch_all(MYSQLI_ASSOC);
 
     $mem = ['scored' => $scored, 'built' => date('c'), 'users' => $users];
     @mkdir(dirname(PAA_CACHE_FILE), 0775, true);
     @file_put_contents(PAA_CACHE_FILE, json_encode($mem));
+
     return $mem;
 }
 
@@ -94,9 +100,9 @@ function paa_scored_match_count(): int
  * 'PAA' is the metric-appropriate figure (rounded); page handlers do the number_format.
  * Derived in PHP from the cached aggregate — no DB hit on a warm cache.
  *
- * @param 'total'|'avg' $metric  'total' = career sum of PAA (no threshold);
- *                               'avg'   = mean PAA per scored match.
- * @param int $minMatches  Only applied when $metric === 'avg'.
+ * @param 'total'|'avg' $metric     'total' = career sum of PAA (no threshold);
+ *                                  'avg'   = mean PAA per scored match.
+ * @param int           $minMatches Only applied when $metric === 'avg'.
  */
 function paa_leaderboard(string $metric, int $minMatches = 0, int $limit = 5000): array
 {
@@ -105,8 +111,12 @@ function paa_leaderboard(string $metric, int $minMatches = 0, int $limit = 5000)
 
     foreach (paa_cache()['users'] as $u) {
         $n = (int) $u['n'];
-        if ($n < 1) continue;
-        if ($metric === 'avg' && $n < $minMatches) continue;
+        if ($n < 1) {
+            continue;
+        }
+        if ($metric === 'avg' && $n < $minMatches) {
+            continue;
+        }
 
         $sum       = (float) $u['sum_paa'];
         $avg       = $sum / $n;
@@ -124,31 +134,38 @@ function paa_leaderboard(string $metric, int $minMatches = 0, int $limit = 5000)
     }
 
     // deterministic: metric value desc (unrounded), then more matches, then name asc
-    usort($out, fn($a, $b) =>
-        [$b['_k'], $b['Matches'], $a['Name']] <=> [$a['_k'], $a['Matches'], $b['Name']]
+    usort(
+        $out,
+        fn ($a, $b) => [$b['_k'], $b['Matches'], $a['Name']] <=> [$a['_k'], $a['Matches'], $b['Name']]
     );
 
     $out = array_slice($out, 0, $limit);
-    foreach ($out as &$r) unset($r['_k']);
+    foreach ($out as &$r) {
+        unset($r['_k']);
+    }
+
     return $out;
 }
 
 /** One-line sanity figure: SUM(MatchScore - AverageScore) over every scored row (should be ~0). */
 function paa_global_residual(): array
 {
-    $sql = "SELECT COUNT(*)                                       AS rows_scored,
+    $sql = 'SELECT COUNT(*)                                       AS rows_scored,
                    ROUND(SUM(ds.MatchScore - s.AverageScore), 4)  AS residual,
                    COUNT(DISTINCT ds.UserId)                      AS users,
                    COUNT(DISTINCT ds.MatchId)                     AS matches
             FROM DailyStandings ds JOIN Statistics s ON s.MatchId = ds.MatchId
-            WHERE ds.MatchRanking > 0";
+            WHERE ds.MatchRanking > 0';
+
     return paa_db()->query($sql)->fetch_assoc() ?: [];
 }
 
 /** Minimal HTML table for a leaderboard slice (used by the tmp-123 dev scripts). */
 function paa_table(array $rows, int $show = 25): string
 {
-    if (!$rows) return '<p>(no rows)</p>';
+    if (!$rows) {
+        return '<p>(no rows)</p>';
+    }
     $h = '<table><thead><tr><th>#</th><th>Name</th><th>PAA</th><th>Matches</th></tr></thead><tbody>';
     $i = 0;
     foreach (array_slice($rows, 0, $show) as $r) {
@@ -157,6 +174,7 @@ function paa_table(array $rows, int $show = 25): string
             . '<td>' . number_format((float) $r['PAA'], 2) . '</td>'
             . '<td>' . htmlspecialchars((string) $r['Matches']) . '</td></tr>';
     }
+
     return $h . '</tbody></table>';
 }
 
@@ -186,29 +204,35 @@ function paa_lifetime_page(): array
 
         // sortable columns — each comparator is the column's natural best-first order
         $cmp = [
-            'name'    => fn($a, $b) => strcasecmp($a['Name'], $b['Name']),
-            'total'   => fn($a, $b) => [$b['TotalPAA'], $b['Matches'], strtolower($a['Name'])] <=> [$a['TotalPAA'], $a['Matches'], strtolower($b['Name'])],
-            'matches' => fn($a, $b) => [$b['Matches'], $b['TotalPAA'], strtolower($a['Name'])] <=> [$a['Matches'], $a['TotalPAA'], strtolower($b['Name'])],
-            'avg'     => fn($a, $b) => [$b['AvgPAA'], $b['Matches'], strtolower($a['Name'])] <=> [$a['AvgPAA'], $a['Matches'], strtolower($b['Name'])],
+            'name'    => fn ($a, $b) => strcasecmp($a['Name'], $b['Name']),
+            'total'   => fn ($a, $b) => [$b['TotalPAA'], $b['Matches'], strtolower($a['Name'])] <=> [$a['TotalPAA'], $a['Matches'], strtolower($b['Name'])],
+            'matches' => fn ($a, $b) => [$b['Matches'], $b['TotalPAA'], strtolower($a['Name'])] <=> [$a['Matches'], $a['TotalPAA'], strtolower($b['Name'])],
+            'avg'     => fn ($a, $b) => [$b['AvgPAA'], $b['Matches'], strtolower($a['Name'])] <=> [$a['AvgPAA'], $a['Matches'], strtolower($b['Name'])],
         ];
         $sort = (string) ($_GET['sort'] ?? 'total');
-        if (!isset($cmp[$sort])) $sort = 'total';
+        if (!isset($cmp[$sort])) {
+            $sort = 'total';
+        }
         $natural = $sort === 'name' ? 'asc' : 'desc';
-        $dir = strtolower((string) ($_GET['dir'] ?? ''));
-        if ($dir !== 'asc' && $dir !== 'desc') $dir = $natural;
+        $dir     = strtolower((string) ($_GET['dir'] ?? ''));
+        if ($dir !== 'asc' && $dir !== 'desc') {
+            $dir = $natural;
+        }
 
         usort($rows, $cmp[$sort]);
-        if ($dir !== $natural) $rows = array_reverse($rows);
+        if ($dir !== $natural) {
+            $rows = array_reverse($rows);
+        }
 
         // header link: click the active column to flip direction; click another for its natural order
         $hlink = function (string $k) use ($sort, $dir): string {
             $nat = $k === 'name' ? 'asc' : 'desc';
             $d   = $k === $sort ? ($dir === 'asc' ? 'desc' : 'asc') : $nat;
+
             return '/paa/lifetime?sort=' . $k . '&amp;dir=' . $d;
         };
-        $arrow = fn(string $k): string => $k === $sort ? ($dir === 'asc' ? ' &#9650;' : ' &#9660;') : '';
-        $th = fn(string $k, string $lbl): string =>
-            '<th><a href="' . $hlink($k) . '">' . $lbl . $arrow($k) . '</a></th>';
+        $arrow = fn (string $k): string => $k === $sort ? ($dir === 'asc' ? ' &#9650;' : ' &#9660;') : '';
+        $th    = fn (string $k, string $lbl): string => '<th><a href="' . $hlink($k) . '">' . $lbl . $arrow($k) . '</a></th>';
 
         ob_start(); ?>
 <p>Total <strong>Points Above Average</strong> from the
@@ -224,7 +248,8 @@ summed over all their matches.</p>
 <div class="amr-wrap"><table class="amr">
 <thead><tr><th>#</th><?= $th('name', 'Player') ?><?= $th('total', 'Total&nbsp;PAA') ?><?= $th('matches', 'Matches') ?><?= $th('avg', 'Avg&nbsp;PAA') ?></tr></thead>
 <tbody>
-<?php $i = 0; foreach ($rows as $r): $i++; ?>
+<?php $i = 0;
+        foreach ($rows as $r): $i++; ?>
 <tr>
  <td class="amr-n"><?= $i ?></td>
  <td><a href="https://oraclechallenge.com/profiles.php?type=users&amp;id=<?= (int) $r['id'] ?>" rel="nofollow"><?= htmlspecialchars((string) $r['Name']) ?></a></td>
@@ -241,8 +266,8 @@ summed over all their matches.</p>
         return ['title' => $title, 'body' => ob_get_clean()];
     } catch (Throwable $e) {
         return ['title' => $title,
-                'body'  => '<p>The Oracle PAA standings are temporarily unavailable. '
-                         . 'Please try again later.</p>'];
+            'body'      => '<p>The Oracle PAA standings are temporarily unavailable. '
+                     . 'Please try again later.</p>'];
     }
 }
 
@@ -272,7 +297,7 @@ function paa_average_page(): array
             if ($o === $min) {
                 $links[] = "<strong>$lbl</strong>";
             } else {
-                $t = ($o === $half) ? " title=\"half of all $scored scored matches\"" : '';
+                $t       = ($o === $half) ? " title=\"half of all $scored scored matches\"" : '';
                 $links[] = "<a href=\"/paa/average?min=$o\"$t>$lbl</a>";
             }
         }
@@ -301,7 +326,8 @@ averaged over all their matches.</p>
 <?php if (!$rows): ?>
 <tr><td colspan="4">No players meet this threshold.</td></tr>
 <?php endif; ?>
-<?php $i = 0; foreach ($rows as $r): $i++; ?>
+<?php $i = 0;
+        foreach ($rows as $r): $i++; ?>
 <tr>
  <td class="amr-n"><?= $i ?></td>
  <td><a href="https://oraclechallenge.com/profiles.php?type=users&amp;id=<?= (int) $r['id'] ?>" rel="nofollow"><?= htmlspecialchars((string) $r['Name']) ?></a></td>
@@ -315,10 +341,10 @@ averaged over all their matches.</p>
 <?= paa_disparity_note() ?>
 
 <?php
-        return ['title' => $title, 'body' => ob_get_clean()];
+                return ['title' => $title, 'body' => ob_get_clean()];
     } catch (Throwable $e) {
         return ['title' => $title,
-                'body'  => '<p>The Oracle PAA standings are temporarily unavailable. '
-                         . 'Please try again later.</p>'];
+            'body'      => '<p>The Oracle PAA standings are temporarily unavailable. '
+                     . 'Please try again later.</p>'];
     }
 }

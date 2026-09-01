@@ -1,4 +1,5 @@
 <?php
+
 // sc2k5 rebuild — config
 declare(strict_types=1);
 
@@ -19,7 +20,7 @@ $__gf_local = is_readable(APP_ROOT . '/.dbconfig.php')
     : [];
 
 $__gf_host = $__gf_local['host'] ?? getenv('SC2K5_GF_HOST') ?: 'localhost';
-$__gf_db   = $__gf_local['db']   ?? getenv('SC2K5_GF_DB')   ?: 'sc2k5stggamefaqs_gf';
+$__gf_db   = $__gf_local['db'] ?? getenv('SC2K5_GF_DB') ?: 'sc2k5stggamefaqs_gf';
 $__gf_user = $__gf_local['user'] ?? getenv('SC2K5_GF_USER') ?: 'sc2k5stggamefaqs_gfro';
 $__gf_pass = $__gf_local['pass'] ?? getenv('SC2K5_GF_PASS') ?: '';
 

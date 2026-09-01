@@ -1,4 +1,4 @@
 <?php
-$contest = "Best Year";
+
+$contest = 'Best Year';
 listmatches($contest, '2');
-?>

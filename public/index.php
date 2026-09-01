@@ -1,4 +1,5 @@
 <?php
+
 /**
  * sc2k5 rebuild — front controller.
  * .htaccess routes everything here except real files/dirs.
@@ -15,12 +16,18 @@ require __DIR__ . '/lib/router.php';
 require __DIR__ . '/lib/content.php';
 foreach (['contest', 'calc', 'graph', 'paa'] as $mod) {          // Sessions C/D/G add these
     $p = __DIR__ . "/lib/$mod.php";
-    if (is_file($p)) require $p;
+    if (is_file($p)) {
+        require $p;
+    }
 }
 
-function crumb(string ...$parts): string {
+function crumb(string ...$parts): string
+{
     $links = ['<a href="/">Home</a>'];
-    foreach ($parts as $p) $links[] = $p;
+    foreach ($parts as $p) {
+        $links[] = $p;
+    }
+
     return '<div class="breadcrumb">' . implode(' &rsaquo; ', $links) . '</div>';
 }
 
@@ -31,57 +38,71 @@ if (isset($r['redirect'])) {
 }
 
 $current = parse_url($_SERVER['REQUEST_URI'] ?? '/', PHP_URL_PATH) ?: '/';
-if ($current !== '/') $current = rtrim($current, '/');
+if ($current !== '/') {
+    $current = rtrim($current, '/');
+}
 
-$title = '';
-$content = '';
+$title      = '';
+$content    = '';
 $breadcrumb = crumb();
-$code = 200;
+$code       = 200;
 
 switch ($r['handler']) {
     case 'front':
-        $p = render_front();
+        $p                 = render_front();
         [$title, $content] = [$p['title'], $p['body']];
+
         break;
 
     case 'node':
         $p = render_node($r['id']);
         if ($p) {
             [$title, $content] = [$p['title'], $p['body']];
-            $breadcrumb = crumb(htmlspecialchars($title));
-        } else { $code = 404; }
+            $breadcrumb        = crumb(htmlspecialchars($title));
+        } else {
+            $code = 404;
+        }
+
         break;
 
     case 'contest':
         $p = render_contest($r['tid']);
         if ($p) {
             [$title, $content] = [$p['title'], $p['body']];
-            $breadcrumb = crumb(htmlspecialchars($title));
-        } else { $code = 404; }
+            $breadcrumb        = crumb(htmlspecialchars($title));
+        } else {
+            $code = 404;
+        }
+
         break;
 
     case 'paa_lifetime':
-        $p = paa_lifetime_page();
+        $p                 = paa_lifetime_page();
         [$title, $content] = [$p['title'], $p['body']];
-        $breadcrumb = crumb(htmlspecialchars($title));
+        $breadcrumb        = crumb(htmlspecialchars($title));
+
         break;
 
     case 'paa_average':
-        $p = paa_average_page();
+        $p                 = paa_average_page();
         [$title, $content] = [$p['title'], $p['body']];
-        $breadcrumb = crumb(htmlspecialchars($title));
+        $breadcrumb        = crumb(htmlspecialchars($title));
+
         break;
 
     case 'graph':
         if (function_exists('graph_render')) {
-            if (($_GET['format'] ?? '') === 'json') graph_json((int)$r['match']);   // echoes + exits
-            $g = graph_render((int)$r['match']);
+            if (($_GET['format'] ?? '') === 'json') {
+                graph_json((int)$r['match']);
+            }   // echoes + exits
+            $g                        = graph_render((int)$r['match']);
             [$title, $content, $code] = [$g['title'], $g['body'], $g['code']];
         } else {
-            $title = 'Poll update graph, match ' . (int)$r['match'];
+            $title   = 'Poll update graph, match ' . (int)$r['match'];
             $content = '<p>Poll-update graphs for match ' . (int)$r['match'] . ' are being rebuilt &mdash; coming soon.</p>';
         }
         $breadcrumb = crumb(htmlspecialchars($title));
+
         break;
 
     default:
@@ -89,8 +110,8 @@ switch ($r['handler']) {
 }
 
 if ($code === 404 && $content === '') {          // generic 404, unless a handler set its own body
-    $title = 'Page not found';
-    $content = '<p>The requested page could not be found.</p>';
+    $title      = 'Page not found';
+    $content    = '<p>The requested page could not be found.</p>';
     $breadcrumb = crumb($title);
 }
 
