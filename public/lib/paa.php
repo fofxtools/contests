@@ -14,23 +14,26 @@ declare(strict_types=1);
  * average / any minimum) is derived from the ~615 cached rows in PHP. The source
  * data is frozen (contests are over), so there is no TTL: to rebuild, delete the
  * cache file.
- *
- * TODO before wider use: move the creds to a config file (like public_html/.dbconfig.php).
  */
 
+/** Read-only creds for the Oracle Challenge DB, from .dbconfig.php's 'oracle' key. */
 function paa_cfg(): array
 {
     static $c = null;
     if ($c === null) {
         $f   = dirname(__DIR__) . '/.dbconfig.php';
         $all = is_readable($f) ? (require $f) : [];
-        $c   = $all['paa'] ?? ['host' => 'localhost', 'user' => '', 'pass' => '', 'name' => ''];
+        $c   = $all['oracle'] ?? ['host' => 'localhost', 'user' => '', 'pass' => '', 'name' => ''];
     }
 
     return $c;
 }
 
-const PAA_CACHE_FILE = '/home/sc2k5/.cache/paa-agg.json';
+/** Aggregate cache path: <repo>/.cache/ locally, /home/sc2k5/.cache/ on the server. */
+function paa_cache_file(): string
+{
+    return dirname(__DIR__, 2) . '/.cache/paa-agg.json';
+}
 
 function paa_db(): mysqli
 {
@@ -60,8 +63,8 @@ function paa_cache(bool $rebuild = false): array
         return $mem;
     }
 
-    if (!$rebuild && is_file(PAA_CACHE_FILE)) {
-        $d = json_decode((string) file_get_contents(PAA_CACHE_FILE), true);
+    if (!$rebuild && is_file(paa_cache_file())) {
+        $d = json_decode((string) file_get_contents(paa_cache_file()), true);
         if (is_array($d) && isset($d['scored'], $d['users']) && is_array($d['users'])) {
             return $mem = $d;
         }
@@ -82,8 +85,8 @@ function paa_cache(bool $rebuild = false): array
     )->fetch_all(MYSQLI_ASSOC);
 
     $mem = ['scored' => $scored, 'built' => date('c'), 'users' => $users];
-    @mkdir(dirname(PAA_CACHE_FILE), 0775, true);
-    @file_put_contents(PAA_CACHE_FILE, json_encode($mem));
+    @mkdir(dirname(paa_cache_file()), 0775, true);
+    @file_put_contents(paa_cache_file(), json_encode($mem));
 
     return $mem;
 }

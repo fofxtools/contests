@@ -236,11 +236,10 @@ function render_contest(int $tid): ?array
 /** Front page. */
 function render_front(): array
 {
-    $intro = '';
-    $f     = CONTENT_DIR . '/nodes/12.html';               // "GameFAQsContests.com"
-    if (is_readable($f)) {
-        $intro = static_body($f);
-    }
+    // Front-page prose is static HTML in content/; only the contests table is built here.
+    $top    = is_readable(CONTENT_DIR . '/front-top.html') ? file_get_contents(CONTENT_DIR . '/front-top.html') : '';
+    $bottom = is_readable(CONTENT_DIR . '/front-bottom.html') ? file_get_contents(CONTENT_DIR . '/front-bottom.html') : '';
+    $intro  = is_readable(CONTENT_DIR . '/nodes/12.html') ? static_body(CONTENT_DIR . '/nodes/12.html') : '';   // "GameFAQsContests.com"
 
     // tid -> its "Poll Updates" (listmatches) node id
     $pollup = [];
@@ -283,19 +282,5 @@ function render_front(): array
               . '<th>Contest</th><th>Description</th><th>Poll Updates</th><th>X-Stats</th>'
               . '</tr></thead><tbody>' . implode("\n", $rows) . '</tbody></table>';
 
-    $amr = '<h3>All Match Results</h3><p><a href="/node/100">All contest matches</a> -'
-         . ' final votes and percentages, sortable and filterable by entrant or contest.</p>';
-
-    $paa = '<h3>Oracle PAA</h3>'
-         . '<p>Points Above Average from the Oracle Challenge - how far each predictor&rsquo;s match score sat above the field average.</p>'
-         . '<ul><li><a href="/paa/average?min=25">Average PAA standings</a> - best per-match rate</li>'
-         . '<li><a href="/paa/lifetime">Lifetime PAA standings</a> - career total</li></ul>';
-
-    $lead = '<p>This is GameFAQsContests.com, a site dedicated to the various GameFAQs contests.'
-          . ' It is run by GameFAQs user <b>creativename</b>. '
-          . 'If you experience any problems with the site, or have any other comments, you can contact me at: &#99;&#114;&#101;&#97;&#116;&#105;&#118;&#101;&#110;&#97;&#109;&#101;&#64;&#103;&#97;&#109;&#101;&#102;&#97;&#113;&#115;&#99;&#111;&#110;&#116;&#101;&#115;&#116;&#115;&#46;&#99;&#111;&#109;</p>'
-          . '<p><a href="http://www.gamefaqs.com/boards/8-gamefaqs-contests?search=stats"><strong>Find the stats topic</strong></a></p>'
-          . '<p><a href="http://www.gamefaqs.com/boards/8-gamefaqs-contests?search=Oracle">Find the Oracle Challenge topic</a></p>';
-
-    return ['title' => '', 'body' => $lead . $contests . $amr . $paa . $intro];
+    return ['title' => '', 'body' => $top . $contests . $bottom . $intro];
 }

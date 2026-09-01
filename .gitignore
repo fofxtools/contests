@@ -132,7 +132,8 @@ __pycache__/
 environment_files/
 
 # For this project
-/.dbconfig.php
+/.cache/
+/public/.dbconfig.php
 /public/gallery/
 /public/tmp-123/
 /public/notes-123/

@@ -292,10 +292,13 @@ function displaymatches($contest, $node): void
 // ---------------------------------------------------------------------------
 function listmatches($contest, $num_entrants = 2): void
 {
+    // One row per matchnum. entrant1..4 are constant within a matchnum, so MIN() just
+    // returns the value while staying valid under ONLY_FULL_GROUP_BY (MySQL 8 default).
+    $cols = 'MIN(entrant1) AS entrant1, MIN(entrant2) AS entrant2, MIN(entrant3) AS entrant3, MIN(entrant4) AS entrant4';
     if ($contest === 'all') {
-        $rows = gfq("SELECT * FROM updates WHERE `contest` IN ('Spring 2K4','SC2K4','Spring 2K5','SC2K5') GROUP BY `matchnum`");
+        $rows = gfq("SELECT `matchnum`, $cols FROM updates WHERE `contest` IN ('Spring 2K4','SC2K4','Spring 2K5','SC2K5') GROUP BY `matchnum`");
     } else {
-        $rows = gfq('SELECT * FROM updates WHERE `contest` = ? GROUP BY `matchnum` ORDER BY `matchnum` DESC', [$contest]);
+        $rows = gfq("SELECT `matchnum`, $cols FROM updates WHERE `contest` = ? GROUP BY `matchnum` ORDER BY `matchnum` DESC", [$contest]);
     }
     echo "<table style='font-size: small;'>";
     echo '<tr><th>PollID</th><th>Graph</th>';

@@ -1,0 +1,14 @@
+<?php
+
+return [
+    'host'   => 'localhost',
+    'db'     => '',
+    'user'   => '',
+    'pass'   => '',
+    'oracle' => [
+        'host' => 'localhost',
+        'user' => '',
+        'pass' => '',
+        'name' => '',
+    ],
+];
