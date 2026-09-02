@@ -2,6 +2,33 @@
 
 declare(strict_types=1);
 
+/**
+ * Contest tid -> GameFAQs feature pages, as [link label => feature slug] in display order
+ * (gamefaqs.gamespot.com/features/<slug>). Older contests have one stats page; the newer
+ * ones split into an Overview / Final Bracket / Stats trio (Rivalry: bracket + battle stats).
+ */
+const GAMEFAQS_LINKS = [
+    1  => ['Stats' => 'c02sum'],
+    2  => ['Stats' => 'c03sum'],
+    3  => ['Stats' => 'c04spr'],
+    4  => ['Stats' => 'c04sum'],
+    5  => ['Stats' => 'spr05'],
+    6  => ['Stats' => 'sum05'],
+    7  => ['Stats' => 'bse'],
+    8  => ['Stats' => 'cb5'],
+    9  => ['Stats' => 'cb6'],
+    10 => ['Stats' => 'cb7'],
+    11 => ['Stats' => 'bge09'],
+    12 => ['Stats' => 'cb8'],
+    13 => ['Stats' => 'gotd'],
+    14 => ['Final Bracket' => 'rivals', 'Bracket Stats' => 'rivals_bracket_final', 'Battle Stats' => 'rivals_battle_final'],
+    15 => ['Overview' => 'cb9',   'Final Bracket' => 'cb9_bracket',  'Stats' => 'cb9_leaderboard'],
+    16 => ['Overview' => 'bge20', 'Final Bracket' => 'bge20_vote',   'Stats' => 'bge20_stats'],
+    17 => ['Overview' => 'byg',   'Final Bracket' => 'byg_vote',     'Stats' => 'byg_stats'],
+    18 => ['Overview' => 'cbx',   'Final Bracket' => 'cbx_bracket',  'Stats' => 'cbx_stats'],
+    19 => ['Stats' => 'gotd_20'],
+];
+
 function manifest(): array
 {
     static $m;
@@ -243,6 +270,16 @@ function render_front(): array
             ? '<td><a href="/node/' . $pollup[$tid] . '">Poll Updates</a></td>'
             : '<td class="pu-none">-</td>';
 
+        if ($gfl = GAMEFAQS_LINKS[$tid] ?? null) {
+            $links = [];
+            foreach ($gfl as $label => $slug) {
+                $links[] = '<a href="https://gamefaqs.gamespot.com/features/' . $slug . '" rel="nofollow">' . $label . '</a>';
+            }
+            $gf = '<td>' . implode(' &middot; ', $links) . '</td>';
+        } else {
+            $gf = '<td class="pu-none">-</td>';
+        }
+
         $xs = xstats_for_tid($tid);
         if (!$xs) {
             $xc = '<td class="pu-none">-</td>';
@@ -256,12 +293,12 @@ function render_front(): array
             $xc = '<td>' . implode(' &middot; ', $links) . '</td>';
         }
 
-        $rows[] = "<tr><td>$name</td><td>$desc</td>$pu$xc</tr>";
+        $rows[] = "<tr><td>$name</td><td>$desc</td>$pu$gf$xc</tr>";
     }
 
     $contests = '<h3>Contests</h3>'
               . '<table class="contest-index"><thead><tr>'
-              . '<th>Contest</th><th>Description</th><th>Poll Updates</th><th>X-Stats</th>'
+              . '<th>Contest</th><th>Description</th><th>Poll Updates</th><th>Official Links</th><th>X-Stats</th>'
               . '</tr></thead><tbody>' . implode("\n", $rows) . '</tbody></table>';
 
     $tpl = is_readable(CONTENT_DIR . '/front.html') ? file_get_contents(CONTENT_DIR . '/front.html') : '{{CONTESTS_TABLE}}';

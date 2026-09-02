@@ -74,6 +74,11 @@ return json_decode(<<<'JSON'
     "children": []
    },
    {
+    "title": "Official Stats",
+    "path": "https://gamefaqs.gamespot.com/features/gotd_20",
+    "children": []
+   },
+   {
     "title": "Current Voting",
     "path": "https://gamefaqs.gamespot.com/features/gotd_vote_results",
     "children": []
@@ -81,11 +86,6 @@ return json_decode(<<<'JSON'
    {
     "title": "Your Bracket",
     "path": "https://gamefaqs.gamespot.com/features/gotd_mybracket",
-    "children": []
-   },
-   {
-    "title": "Official Stats",
-    "path": "https://gamefaqs.gamespot.com/features/gotd_stats",
     "children": []
    },
    {
@@ -115,13 +115,13 @@ return json_decode(<<<'JSON'
     "children": []
    },
    {
-    "title": "Current Voting",
-    "path": "https://gamefaqs.gamespot.com/features/cbx_vote_results",
+    "title": "Official Stats",
+    "path": "https://gamefaqs.gamespot.com/features/cbx_stats",
     "children": []
    },
    {
-    "title": "Official Stats",
-    "path": "https://gamefaqs.gamespot.com/features/cbx_stats",
+    "title": "Current Voting",
+    "path": "https://gamefaqs.gamespot.com/features/cbx_vote_results",
     "children": []
    },
    {
@@ -151,6 +151,11 @@ return json_decode(<<<'JSON'
     "children": []
    },
    {
+    "title": "Official Stats",
+    "path": "https://gamefaqs.gamespot.com/features/byg_stats",
+    "children": []
+   },
+   {
     "title": "Current Voting",
     "path": "https://www.gamefaqs.com/features/byg_vote",
     "children": []
@@ -158,11 +163,6 @@ return json_decode(<<<'JSON'
    {
     "title": "Your Bracket",
     "path": "https://www.gamefaqs.com/features/byg_mybracket",
-    "children": []
-   },
-   {
-    "title": "Official Stats",
-    "path": "https://www.gamefaqs.com/features/byg_stats",
     "children": []
    },
    {
@@ -182,13 +182,18 @@ return json_decode(<<<'JSON'
     "children": []
    },
    {
+    "title": "Final Bracket",
+    "path": "https://gamefaqs.gamespot.com/features/rivals",
+    "children": []
+   },
+   {
     "title": "Bracket Contest Stats",
-    "path": "http://www.gamefaqs.com/features/rivals_stats.html",
+    "path": "https://gamefaqs.gamespot.com/features/rivals_bracket_final",
     "children": []
    },
    {
     "title": "Battle Contest Stats",
-    "path": "http://www.gamefaqs.com/features/rivals_battle_stats.html",
+    "path": "https://gamefaqs.gamespot.com/features/rivals_battle_final",
     "children": []
    },
    {
@@ -218,6 +223,11 @@ return json_decode(<<<'JSON'
     "children": []
    },
    {
+    "title": "Official Stats",
+    "path": "https://gamefaqs.gamespot.com/features/cb9_leaderboard",
+    "children": []
+   },
+   {
     "title": "Your Expert Challenge",
     "path": "http://www.gamefaqs.com/features/cb9_expert",
     "children": []
@@ -225,11 +235,6 @@ return json_decode(<<<'JSON'
    {
     "title": "Battle Calendar",
     "path": "http://www.gamefaqs.com/features/cb9_calendar?time=3",
-    "children": []
-   },
-   {
-    "title": "Leaderboards",
-    "path": "http://www.gamefaqs.com/features/cb9_leaderboard",
     "children": []
    },
    {
@@ -259,6 +264,11 @@ return json_decode(<<<'JSON'
     "children": []
    },
    {
+    "title": "Official Stats",
+    "path": "https://gamefaqs.gamespot.com/features/bge20_stats",
+    "children": []
+   },
+   {
     "title": "Your Bracket",
     "path": "http://www.gamefaqs.com/features/bge20_mybracket",
     "children": []
@@ -266,11 +276,6 @@ return json_decode(<<<'JSON'
    {
     "title": "Current Voting",
     "path": "http://www.gamefaqs.com/features/bge20_vote",
-    "children": []
-   },
-   {
-    "title": "Official Stats",
-    "path": "http://www.gamefaqs.com/features/bge20_stats",
     "children": []
    },
    {
@@ -287,6 +292,11 @@ return json_decode(<<<'JSON'
    {
     "title": "Poll Updates",
     "path": "/node/62",
+    "children": []
+   },
+   {
+    "title": "Official Stats",
+    "path": "https://gamefaqs.gamespot.com/features/gotd",
     "children": []
    },
    {
@@ -326,13 +336,13 @@ return json_decode(<<<'JSON'
     "children": []
    },
    {
-    "title": "Bracket",
-    "path": "http://board8.wikia.com/wiki/Winter_2010_Contest",
+    "title": "Official Stats",
+    "path": "https://gamefaqs.gamespot.com/features/cb8",
     "children": []
    },
    {
-    "title": "Official Stats",
-    "path": "http://www.gamefaqs.com/features/cb8_stats.html",
+    "title": "Bracket",
+    "path": "http://board8.wikia.com/wiki/Winter_2010_Contest",
     "children": []
    },
    {
@@ -372,13 +382,13 @@ return json_decode(<<<'JSON'
     "children": []
    },
    {
-    "title": "Bracket",
-    "path": "http://board8.wikia.com/wiki/Spring_2009_Contest",
+    "title": "Official Stats",
+    "path": "https://gamefaqs.gamespot.com/features/bge09",
     "children": []
    },
    {
-    "title": "Official Stats",
-    "path": "http://www.gamefaqs.com/features/bge09_stats.html",
+    "title": "Bracket",
+    "path": "http://board8.wikia.com/wiki/Spring_2009_Contest",
     "children": []
    },
    {
@@ -398,6 +408,11 @@ return json_decode(<<<'JSON'
     "children": []
    },
    {
+    "title": "Official Stats",
+    "path": "https://gamefaqs.gamespot.com/features/cb7",
+    "children": []
+   },
+   {
     "title": "Bracket",
     "path": "http://board8.wikia.com/wiki/Summer_2008_Contest",
     "children": []
@@ -414,6 +429,11 @@ return json_decode(<<<'JSON'
     "children": []
    },
    {
+    "title": "Official Stats",
+    "path": "https://gamefaqs.gamespot.com/features/cb6",
+    "children": []
+   },
+   {
     "title": "Bracket",
     "path": "http://board8.wikia.com/wiki/Summer_2007_Contest",
     "children": []
@@ -425,6 +445,16 @@ return json_decode(<<<'JSON'
   "path": "/contest/7",
   "children": [
    {
+    "title": "Poll Updates",
+    "path": "/node/36",
+    "children": []
+   },
+   {
+    "title": "Official Stats",
+    "path": "https://gamefaqs.gamespot.com/features/bse",
+    "children": []
+   },
+   {
     "title": "Bracket",
     "path": "/node/34",
     "children": []
@@ -432,11 +462,6 @@ return json_decode(<<<'JSON'
    {
     "title": "Matches",
     "path": "/node/35",
-    "children": []
-   },
-   {
-    "title": "Poll Updates",
-    "path": "/node/36",
     "children": []
    },
    {
@@ -451,6 +476,16 @@ return json_decode(<<<'JSON'
   "path": "/contest/8",
   "children": [
    {
+    "title": "Poll Updates",
+    "path": "/node/40",
+    "children": []
+   },
+   {
+    "title": "Official Stats",
+    "path": "https://gamefaqs.gamespot.com/features/cb5",
+    "children": []
+   },
+   {
     "title": "Links",
     "path": "/node/38",
     "children": []
@@ -458,11 +493,6 @@ return json_decode(<<<'JSON'
    {
     "title": "Matches",
     "path": "/node/39",
-    "children": []
-   },
-   {
-    "title": "Poll Updates",
-    "path": "/node/40",
     "children": []
    },
    {
@@ -482,6 +512,16 @@ return json_decode(<<<'JSON'
   "path": "/contest/5",
   "children": [
    {
+    "title": "Poll Updates",
+    "path": "/node/25",
+    "children": []
+   },
+   {
+    "title": "Official Stats",
+    "path": "https://gamefaqs.gamespot.com/features/spr05",
+    "children": []
+   },
+   {
     "title": "Bracket",
     "path": "/node/23",
     "children": []
@@ -489,11 +529,6 @@ return json_decode(<<<'JSON'
    {
     "title": "Matches",
     "path": "/node/24",
-    "children": []
-   },
-   {
-    "title": "Poll Updates",
-    "path": "/node/25",
     "children": []
    },
    {
@@ -508,6 +543,16 @@ return json_decode(<<<'JSON'
   "path": "/contest/6",
   "children": [
    {
+    "title": "Poll Updates",
+    "path": "/node/31",
+    "children": []
+   },
+   {
+    "title": "Official Stats",
+    "path": "https://gamefaqs.gamespot.com/features/sum05",
+    "children": []
+   },
+   {
     "title": "Bracket",
     "path": "/node/28",
     "children": []
@@ -515,11 +560,6 @@ return json_decode(<<<'JSON'
    {
     "title": "Matches",
     "path": "/node/30",
-    "children": []
-   },
-   {
-    "title": "Poll Updates",
-    "path": "/node/31",
     "children": []
    },
    {
@@ -539,6 +579,16 @@ return json_decode(<<<'JSON'
   "path": "/contest/3",
   "children": [
    {
+    "title": "Poll Updates",
+    "path": "/node/20",
+    "children": []
+   },
+   {
+    "title": "Official Stats",
+    "path": "https://gamefaqs.gamespot.com/features/c04spr",
+    "children": []
+   },
+   {
     "title": "Bracket",
     "path": "/node/3",
     "children": []
@@ -546,11 +596,6 @@ return json_decode(<<<'JSON'
    {
     "title": "Matches",
     "path": "/node/7",
-    "children": []
-   },
-   {
-    "title": "Poll Updates",
-    "path": "/node/20",
     "children": []
    },
    {
@@ -570,6 +615,16 @@ return json_decode(<<<'JSON'
   "path": "/contest/4",
   "children": [
    {
+    "title": "Poll Updates",
+    "path": "/node/21",
+    "children": []
+   },
+   {
+    "title": "Official Stats",
+    "path": "https://gamefaqs.gamespot.com/features/c04sum",
+    "children": []
+   },
+   {
     "title": "Bracket",
     "path": "/node/4",
     "children": []
@@ -577,11 +632,6 @@ return json_decode(<<<'JSON'
    {
     "title": "Matches",
     "path": "/node/8",
-    "children": []
-   },
-   {
-    "title": "Poll Updates",
-    "path": "/node/21",
     "children": []
    },
    {
@@ -601,6 +651,16 @@ return json_decode(<<<'JSON'
   "path": "/contest/2",
   "children": [
    {
+    "title": "Poll Updates",
+    "path": "/node/57",
+    "children": []
+   },
+   {
+    "title": "Official Stats",
+    "path": "https://gamefaqs.gamespot.com/features/c03sum",
+    "children": []
+   },
+   {
     "title": "Bracket",
     "path": "/node/2",
     "children": []
@@ -608,11 +668,6 @@ return json_decode(<<<'JSON'
    {
     "title": "Matches",
     "path": "/node/6",
-    "children": []
-   },
-   {
-    "title": "Poll Updates",
-    "path": "/node/57",
     "children": []
    },
    {
@@ -626,6 +681,11 @@ return json_decode(<<<'JSON'
   "title": "SC2K2",
   "path": "/contest/1",
   "children": [
+   {
+    "title": "Official Stats",
+    "path": "https://gamefaqs.gamespot.com/features/c02sum",
+    "children": []
+   },
    {
     "title": "Bracket",
     "path": "/node/1",

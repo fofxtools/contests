@@ -1,0 +1,1570 @@
+CANONICAL MATCH LIST BY CONTEST  (generated from data/contest-matches.json)
+Canonical match list per contest. Entrants are project-DB strings (matches/updates, AMR source rule), trimmed + HTML-entity-decoded, in DB column order (no winner implied). official = poll is NOT in the build script's BONUS list (each bonus id cites the GameFAQs page fixing that contest's scored-battle count). No aliasing, votes, or seeds in this file.
+==========================================================================================
+
+### SC2K2   (63 matches; 63 official, 0 bonus)
+    1  poll 940    official  Mario  |  Servbot
+    2  poll 941    official  Morrigan Aensland  |  Spyro the Dragon
+    3  poll 942    official  Aya Brea  |  Terry Bogard
+    4  poll 943    official  Donkey Kong  |  Bub
+    5  poll 944    official  Alucard  |  Miles "Tails" Prower
+    6  poll 945    official  Duke Nukem  |  Iori Yagami
+    7  poll 946    official  Pikachu  |  PaRappa The Rapper
+    8  poll 947    official  Cloud Strife  |  Fox McCloud
+    9  poll 948    official  Lara Croft  |  Chop Chop Master Onion
+   10  poll 949    official  Ryo Hazuki  |  Guybrush Threepwood
+   11  poll 950    official  Crono  |  Simon Belmont
+   12  poll 951    official  Dante  |  Q*Bert
+   13  poll 952    official  Aeris  |  Kasumi
+   14  poll 953    official  Tina Armstrong  |  Gordon Freeman
+   15  poll 954    official  Knuckles the Echidna  |  Akira Yuki
+   16  poll 955    official  Solid Snake  |  Squall Leonhart
+   17  poll 956    official  Pac-Man  |  Goemon
+   18  poll 957    official  Kyo Kusanagi  |  Abe
+   19  poll 958    official  Scorpion  |  Kazuya Mishima
+   20  poll 959    official  Max Payne  |  Dirk the Daring
+   21  poll 960    official  Bomberman  |  Kane
+   22  poll 961    official  Jill Valentine  |  Kirby
+   23  poll 962    official  Strider Hiryu  |  Raziel
+   24  poll 963    official  Link  |  Little Mac
+   25  poll 964    official  Sonic the Hedgehog  |  Pitfall Harry
+   26  poll 965    official  Tidus  |  Claire Redfield
+   27  poll 966    official  Samus Aran  |  Ken Masters
+   28  poll 967    official  Ryu  |  CATS
+   29  poll 968    official  Mega Man  |  Ms. Pac-Man
+   30  poll 969    official  Serious Sam  |  Mr. Driller
+   31  poll 970    official  Sephiroth  |  Gabe Logan
+   32  poll 971    official  Crash Bandicoot  |  Ulala
+   33  poll 972    official  Mario  |  Morrigan Aensland
+   34  poll 973    official  Donkey Kong  |  Aya Brea
+   35  poll 974    official  Alucard  |  Duke Nukem
+   36  poll 975    official  Cloud Strife  |  Pikachu
+   37  poll 976    official  Lara Croft  |  Ryo Hazuki
+   38  poll 977    official  Crono  |  Dante
+   39  poll 978    official  Aeris  |  Tina Armstrong
+   40  poll 979    official  Solid Snake  |  Knuckles the Echidna
+   41  poll 980    official  Pac-Man  |  Kyo Kusanagi
+   42  poll 981    official  Scorpion  |  Max Payne
+   43  poll 982    official  Jill Valentine  |  Bomberman
+   44  poll 983    official  Link  |  Strider Hiryu
+   45  poll 984    official  Sonic the Hedgehog  |  Tidus
+   46  poll 985    official  Samus Aran  |  Ryu
+   47  poll 986    official  Mega Man  |  Serious Sam
+   48  poll 987    official  Sephiroth  |  Crash Bandicoot
+   49  poll 988    official  Mario  |  Donkey Kong
+   50  poll 989    official  Cloud Strife  |  Alucard
+   51  poll 990    official  Crono  |  Lara Croft
+   52  poll 991    official  Solid Snake  |  Aeris
+   53  poll 992    official  Scorpion  |  Pac-Man
+   54  poll 993    official  Link  |  Jill Valentine
+   55  poll 994    official  Samus Aran  |  Sonic the Hedgehog
+   56  poll 995    official  Sephiroth  |  Mega Man
+   57  poll 996    official  Mario  |  Cloud Strife
+   58  poll 997    official  Crono  |  Solid Snake
+   59  poll 998    official  Link  |  Scorpion
+   60  poll 999    official  Sephiroth  |  Samus Aran
+   61  poll 1000   official  Mario  |  Crono
+   62  poll 1001   official  Link  |  Sephiroth
+   63  poll 1002   official  Link  |  Mario
+
+### SC2K3   (63 matches; 63 official, 0 bonus)
+    1  poll 1305   official  Link  |  AiAi
+    2  poll 1306   official  Fox McCloud  |  Pikachu
+    3  poll 1307   official  Ganondorf  |  Tidus
+    4  poll 1308   official  Magus  |  Sam Fisher
+    5  poll 1309   official  Squall Leonhart  |  Jill Valentine
+    6  poll 1310   official  Luigi  |  Ratchet
+    7  poll 1311   official  KOS-MOS  |  Crash Bandicoot
+    8  poll 1312   official  Samus Aran  |  Isaac
+    9  poll 1313   official  Cloud Strife  |  CATS
+   10  poll 1314   official  Auron  |  Miles "Tails" Prower
+   11  poll 1315   official  Bowser  |  Ness
+   12  poll 1316   official  Yoshi  |  Conker
+   13  poll 1317   official  Aeris Gainsborough  |  Sora
+   14  poll 1318   official  Master Chief  |  Felix
+   15  poll 1319   official  Zero  |  Scorpion
+   16  poll 1320   official  Sonic the Hedgehog  |  Ken
+   17  poll 1321   official  Mario  |  Captain Olimar
+   18  poll 1322   official  Shadow the Hedgehog  |  Wario
+   19  poll 1323   official  Kefka  |  Pac-Man
+   20  poll 1324   official  Crono  |  Tom Nook
+   21  poll 1325   official  Alucard  |  Bomberman
+   22  poll 1326   official  Kirby  |  Ramza Beoulve
+   23  poll 1327   official  Max Payne  |  Gordon Freeman
+   24  poll 1328   official  Sephiroth  |  Raziel
+   25  poll 1329   official  Solid Snake  |  Raiden
+   26  poll 1330   official  Knuckles the Echidna  |  Yuna
+   27  poll 1331   official  Ryu  |  Duke Nukem
+   28  poll 1332   official  Dante  |  Ryo Hazuki
+   29  poll 1333   official  Donkey Kong  |  Vyse
+   30  poll 1334   official  Tommy Vercetti  |  Kite
+   31  poll 1335   official  Zelda  |  Lara Croft
+   32  poll 1336   official  Mega Man  |  Mr. Resetti
+   33  poll 1337   official  Link  |  Fox McCloud
+   34  poll 1338   official  Magus  |  Ganondorf
+   35  poll 1339   official  Squall Leonhart  |  Luigi
+   36  poll 1340   official  Samus Aran  |  KOS-MOS
+   37  poll 1341   official  Cloud Strife  |  Auron
+   38  poll 1342   official  Bowser  |  Yoshi
+   39  poll 1343   official  Aeris Gainsborough  |  Master Chief
+   40  poll 1344   official  Sonic the Hedgehog  |  Zero
+   41  poll 1345   official  Mario  |  Shadow the Hedgehog
+   42  poll 1346   official  Crono  |  Kefka
+   43  poll 1347   official  Alucard  |  Kirby
+   44  poll 1348   official  Sephiroth  |  Max Payne
+   45  poll 1349   official  Solid Snake  |  Knuckles the Echidna
+   46  poll 1350   official  Ryu  |  Dante
+   47  poll 1351   official  Tommy Vercetti  |  Donkey Kong
+   48  poll 1352   official  Mega Man  |  Zelda
+   49  poll 1353   official  Link  |  Magus
+   50  poll 1354   official  Samus Aran  |  Squall Leonhart
+   51  poll 1355   official  Cloud Strife  |  Bowser
+   52  poll 1356   official  Sonic the Hedgehog  |  Aeris Gainsborough
+   53  poll 1357   official  Mario  |  Crono
+   54  poll 1358   official  Sephiroth  |  Alucard
+   55  poll 1359   official  Solid Snake  |  Ryu
+   56  poll 1360   official  Mega Man  |  Tommy Vercetti
+   57  poll 1361   official  Link  |  Samus Aran
+   58  poll 1362   official  Cloud Strife  |  Sonic the Hedgehog
+   59  poll 1363   official  Sephiroth  |  Mario
+   60  poll 1364   official  Mega Man  |  Solid Snake
+   61  poll 1365   official  Cloud Strife  |  Link
+   62  poll 1366   official  Sephiroth  |  Mega Man
+   63  poll 1367   official  Cloud Strife  |  Sephiroth
+
+### SpC2K4   (63 matches; 63 official, 0 bonus)
+    1  poll 1601   official  Super Mario Bros. 3  |  Metal Gear
+    2  poll 1602   official  Metroid  |  Pac-Man
+    3  poll 1603   official  Contra  |  Phantasy Star
+    4  poll 1604   official  Final Fantasy  |  Pitfall
+    5  poll 1605   official  Donkey Kong  |  Duck Hunt
+    6  poll 1606   official  The Legend of Zelda  |  Adventure
+    7  poll 1607   official  Pong  |  River City Ransom
+    8  poll 1608   official  Tetris  |  Galaga
+    9  poll 1609   official  Chrono Trigger  |  Secret of Mana
+   10  poll 1610   official  Super Mario RPG  |  Street Fighter II
+   11  poll 1611   official  Sonic 2  |  Shining Force
+   12  poll 1612   official  Super Mario World  |  The Simpsons
+   13  poll 1613   official  A Link to the Past  |  Gunstar Heroes
+   14  poll 1614   official  Super Metroid  |  Phantasy Star IV
+   15  poll 1615   official  Doom  |  Earthbound
+   16  poll 1616   official  Final Fantasy VI  |  Mortal Kombat
+   17  poll 1617   official  Final Fantasy VII  |  Suikoden II
+   18  poll 1618   official  Xenogears  |  Pokemon Gold/Silver/Crystal
+   19  poll 1619   official  Final Fantasy Tactics  |  Dance Dance Revolution
+   20  poll 1620   official  Metal Gear Solid  |  Resident Evil
+   21  poll 1621   official  Symphony of the Night  |  Perfect Dark
+   22  poll 1622   official  Goldeneye  |  Panzer Dragoon Saga
+   23  poll 1623   official  Super Mario 64  |  NiGHTS into dreams…
+   24  poll 1624   official  Ocarina of Time  |  Fallout 2
+   25  poll 1625   official  Starcraft  |  Halo
+   26  poll 1626   official  Kingdom Hearts  |  Soul Calibur
+   27  poll 1627   official  The Wind Waker  |  Skies of Arcadia
+   28  poll 1628   official  Metroid Prime  |  Half-Life
+   29  poll 1629   official  Final Fantasy Tactics Advance  |  Fire Emblem
+   30  poll 1630   official  Final Fantasy X  |  Shenmue
+   31  poll 1631   official  Vice City  |  Knights of the Old Republic
+   32  poll 1632   official  Super Smash Bros. Melee  |  Metal Gear Solid 2
+   33  poll 1633   official  Super Mario Bros. 3  |  Metroid
+   34  poll 1634   official  Final Fantasy  |  Contra
+   35  poll 1635   official  The Legend of Zelda  |  Donkey Kong
+   36  poll 1636   official  Tetris  |  Pong
+   37  poll 1637   official  Chrono Trigger  |  Super Mario RPG
+   38  poll 1638   official  Super Mario World  |  Sonic 2
+   39  poll 1639   official  A Link to the Past  |  Super Metroid
+   40  poll 1640   official  Final Fantasy VI  |  Doom
+   41  poll 1641   official  Final Fantasy VII  |  Xenogears
+   42  poll 1642   official  Metal Gear Solid  |  Final Fantasy Tactics
+   43  poll 1643   official  Goldeneye  |  Symphony of the Night
+   44  poll 1644   official  Ocarina of Time  |  Super Mario 64
+   45  poll 1645   official  Starcraft  |  Kingdom Hearts
+   46  poll 1646   official  Wind Waker  |  Metroid Prime
+   47  poll 1647   official  Final Fantasy X  |  Final Fantasy Tactics Advance
+   48  poll 1648   official  Super Smash Bros. Melee  |  Vice City
+   49  poll 1649   official  Super Mario Bros. 3  |  Final Fantasy
+   50  poll 1650   official  The Legend of Zelda  |  Tetris
+   51  poll 1651   official  Chrono Trigger  |  Super Mario World
+   52  poll 1652   official  A Link to the Past  |  Final Fantasy VI
+   53  poll 1653   official  Final Fantasy VII  |  Metal Gear Solid
+   54  poll 1654   official  Ocarina of Time  |  Goldeneye
+   55  poll 1655   official  Starcraft  |  The Wind Waker
+   56  poll 1656   official  Super Smash Bros. Melee  |  Final Fantasy X
+   57  poll 1657   official  Super Mario Bros. 3  |  The Legend of Zelda
+   58  poll 1658   official  Chrono Trigger  |  A Link to the Past
+   59  poll 1659   official  Final Fantasy VII  |  Ocarina of Time
+   60  poll 1660   official  Super Smash Bros. Melee  |  Starcraft
+   61  poll 1661   official  Chrono Trigger  |  Super Mario Bros. 3
+   62  poll 1662   official  Final Fantasy VII  |  Super Smash Bros. Melee
+   63  poll 1663   official  Final Fantasy VII  |  Chrono Trigger
+
+### SC2K4   (63 matches; 63 official, 0 bonus)
+    1  poll 1718   official  Link  |  CATS
+    2  poll 1719   official  Ganondorf  |  Alucard
+    3  poll 1720   official  Yoshi  |  Ryo Hazuki
+    4  poll 1721   official  Luigi  |  Pac-Man
+    5  poll 1722   official  Magus  |  Luca Blight
+    6  poll 1723   official  Crono  |  Conker
+    7  poll 1724   official  Bowser  |  Guybrush Threepwood
+    8  poll 1725   official  Mario  |  JC Denton
+    9  poll 1726   official  Mega Man  |  Earthworm Jim
+   10  poll 1727   official  Tidus  |  Shadow the Hedgehog
+   11  poll 1728   official  Tommy Vercetti  |  Max Payne
+   12  poll 1729   official  Zero  |  Protoman
+   13  poll 1730   official  Frog  |  Liquid Snake
+   14  poll 1731   official  Master Chief  |  Crash Bandicoot
+   15  poll 1732   official  Knuckles the Echidna  |  Kefka
+   16  poll 1733   official  Solid Snake  |  Tanner
+   17  poll 1734   official  Cloud Strife  |  Duke Nukem
+   18  poll 1735   official  Vyse  |  Laharl
+   19  poll 1736   official  Kirby  |  Kain
+   20  poll 1737   official  Squall Leonhart  |  Bomberman
+   21  poll 1738   official  Ness  |  Jak
+   22  poll 1739   official  Auron  |  Scorpion
+   23  poll 1740   official  Vivi  |  Donkey Kong
+   24  poll 1741   official  Sephiroth  |  Sly Cooper
+   25  poll 1742   official  Sonic the Hedgehog  |  Terry Bogard
+   26  poll 1743   official  Ryu  |  KOS-MOS
+   27  poll 1744   official  Miles Tails Prower  |  Viewtiful Joe
+   28  poll 1745   official  Dante  |  Ratchet
+   29  poll 1746   official  Sora  |  HK-47
+   30  poll 1747   official  Ryu Hayabusa  |  Jill Valentine
+   31  poll 1748   official  Sam Fisher  |  Gordon Freeman
+   32  poll 1749   official  Samus Aran  |  Lara Croft
+   33  poll 1750   official  Link  |  Ganondorf
+   34  poll 1751   official  Yoshi  |  Luigi
+   35  poll 1752   official  Crono  |  Magus
+   36  poll 1753   official  Mario  |  Bowser
+   37  poll 1754   official  Mega Man  |  Tidus
+   38  poll 1755   official  Zero  |  Tommy Vercetti
+   39  poll 1756   official  Frog  |  Master Chief
+   40  poll 1757   official  Solid Snake  |  Knuckles
+   41  poll 1758   official  Cloud Strife  |  Vyse
+   42  poll 1759   official  Squall Leonhart  |  Kirby
+   43  poll 1760   official  Auron  |  Ness
+   44  poll 1761   official  Sephiroth  |  Vivi
+   45  poll 1762   official  Sonic the Hedgehog  |  Ryu
+   46  poll 1763   official  Dante  |  Miles Tails Prower
+   47  poll 1764   official  Sora  |  Ryu Hayabusa
+   48  poll 1765   official  Samus Aran  |  Sam Fisher
+   49  poll 1766   official  Link  |  Yoshi
+   50  poll 1767   official  Crono  |  Mario
+   51  poll 1768   official  Mega Man  |  Zero
+   52  poll 1769   official  Solid Snake  |  Frog
+   53  poll 1770   official  Cloud Strife  |  Squall Leonhart
+   54  poll 1771   official  Sephiroth  |  Auron
+   55  poll 1772   official  Sonic the Hedgehog  |  Dante
+   56  poll 1773   official  Samus Aran  |  Sora
+   57  poll 1774   official  Link  |  Crono
+   58  poll 1775   official  Mega Man  |  Solid Snake
+   59  poll 1776   official  Cloud Strife  |  Sephiroth
+   60  poll 1777   official  Samus Aran  |  Sonic the Hedgehog
+   61  poll 1778   official  Link  |  Mega Man
+   62  poll 1779   official  Cloud Strife  |  Samus Aran
+   63  poll 1780   official  Link  |  Cloud Strife
+
+### SpC2K5   (31 matches; 31 official, 0 bonus)
+    1  poll 1989   official  Bowser  |  Pyramid Head
+    2  poll 1990   official  Sigma  |  Andross
+    3  poll 1991   official  Revolver Ocelot  |  Nemesis
+    4  poll 1992   official  Dr. Wily  |  Ultros
+    5  poll 1993   official  Sephiroth  |  Ramirez
+    6  poll 1994   official  Vergil  |  Ghaleon
+    7  poll 1995   official  Lavos  |  Mother Brain
+    8  poll 1996   official  Liquid Snake  |  Officer Tenpenny
+    9  poll 1997   official  Kefka  |  Mithos
+   10  poll 1998   official  Wesker  |  Luca Blight
+   11  poll 1999   official  M. Bison  |  Albedo
+   12  poll 2000   official  Diablo  |  Ridley
+   13  poll 2001   official  Ganondorf  |  Giygas
+   14  poll 2002   official  Ansem  |  CATS
+   15  poll 2003   official  Dr. Robotnik  |  Sin
+   16  poll 2004   official  Master Hand  |  Kuja
+   17  poll 2005   official  Bowser  |  Sigma
+   18  poll 2006   official  Revolver Ocelot  |  Dr. Wily
+   19  poll 2007   official  Sephiroth  |  Vergil
+   20  poll 2008   official  Liquid Snake  |  Lavos
+   21  poll 2009   official  Kefka  |  Wesker
+   22  poll 2010   official  Diablo  |  M. Bison
+   23  poll 2011   official  Ganondorf  |  Ansem
+   24  poll 2012   official  Dr. Robotnik  |  Master Hand
+   25  poll 2013   official  Bowser  |  Revolver Ocelot
+   26  poll 2014   official  Sephiroth  |  Liquid Snake
+   27  poll 2015   official  Diablo  |  Kefka
+   28  poll 2016   official  Ganondorf  |  Dr. Robotnik
+   29  poll 2017   official  Sephiroth  |  Bowser
+   30  poll 2018   official  Ganondorf  |  Diablo
+   31  poll 2019   official  Sephiroth  |  Ganondorf
+
+### SC2K5   (66 matches; 66 official, 0 bonus)
+    1  poll 2066   official  Mario  |  Joanna Dark
+    2  poll 2067   official  Ness  |  Carl Johnson
+    3  poll 2068   official  Zero  |  Ryu Hayabusa
+    4  poll 2069   official  Lloyd Irving  |  Albert Wesker
+    5  poll 2070   official  Samus  |  Yuri
+    6  poll 2071   official  Frog  |  Riku
+    7  poll 2072   official  Ganondorf  |  Yuna
+    8  poll 2073   official  Auron  |  Big Boss
+    9  poll 2074   official  Solid Snake  |  Manny Calavera
+   10  poll 2075   official  Zelda  |  Vivi
+   11  poll 2076   official  Alucard  |  Kratos
+   12  poll 2077   official  Sora  |  Agent 47
+   13  poll 2078   official  Kirby  |  Cecil
+   14  poll 2079   official  Tidus  |  King of all Cosmos
+   15  poll 2080   official  Bowser  |  Chun Li
+   16  poll 2081   official  Ryu  |  Rikku
+   17  poll 2082   official  Master Chief  |  CATS
+   18  poll 2083   official  Donkey Kong  |  Sam Fisher
+   19  poll 2084   official  Tommy Vercetti  |  Kefka
+   20  poll 2085   official  Crono  |  Zidane
+   21  poll 2086   official  Dante  |  Terra
+   22  poll 2087   official  Vincent Valentine  |  Sarah Kerrigan
+   23  poll 2088   official  Knuckles the Echidna  |  Magus
+   24  poll 2089   official  Squall Leonhart  |  Geno
+   25  poll 2090   official  Sonic the Hedgehog  |  Jin Kazama
+   26  poll 2091   official  Diablo  |  Kratos Aurion
+   27  poll 2092   official  Tifa Lockheart  |  Vyse
+   28  poll 2093   official  Luigi  |  KOS-MOS
+   29  poll 2094   official  Mega Man  |  Conker
+   30  poll 2095   official  Leon Kennedy  |  Gordon Freeman
+   31  poll 2096   official  Yoshi  |  Laharl
+   32  poll 2097   official  Pac-Man  |  Revolver Ocelot
+   33  poll 2098   official  Mario  |  Ness
+   34  poll 2099   official  Zero  |  Lloyd Irving
+   35  poll 2100   official  Samus  |  Frog
+   36  poll 2101   official  Ganondorf  |  Auron
+   37  poll 2102   official  Solid Snake  |  Zelda
+   38  poll 2103   official  Sora  |  Alucard
+   39  poll 2104   official  Kirby  |  Tidus
+   40  poll 2105   official  Bowser  |  Ryu
+   41  poll 2106   official  Master Chief  |  Donkey Kong
+   42  poll 2107   official  Crono  |  Tommy Vercetti
+   43  poll 2108   official  Vincent Valentine  |  Dante
+   44  poll 2109   official  Squall Leonhart  |  Knuckles the Echidna
+   45  poll 2110   official  Sonic the Hedgehog  |  Diablo
+   46  poll 2111   official  Tifa Lockheart  |  Luigi
+   47  poll 2112   official  Mega Man  |  Leon Kennedy
+   48  poll 2113   official  Yoshi  |  Pac-Man
+   49  poll 2114   official  Mario  |  Zero
+   50  poll 2115   official  Samus  |  Ganondorf
+   51  poll 2116   official  Solid Snake  |  Sora
+   52  poll 2117   official  Bowser  |  Kirby
+   53  poll 2118   official  Crono  |  Master Chief
+   54  poll 2119   official  Vincent Valentine  |  Squall Leonhart
+   55  poll 2120   official  Sonic the Hedgehog  |  Tifa Lockheart
+   56  poll 2121   official  Mega Man  |  Yoshi
+   57  poll 2122   official  Mario  |  Samus
+   58  poll 2123   official  Solid Snake  |  Bowser
+   59  poll 2124   official  Crono  |  Vincent Valentine
+   60  poll 2125   official  Mega Man  |  Sonic the Hedgehog
+   61  poll 2126   official  Mario  |  Solid Snake
+   62  poll 2127   official  Crono  |  Mega Man
+   63  poll 2128   official  Mario  |  Crono
+   64  poll 2129   official  Link  |  Cloud Strife
+   65  poll 2130   official  Sephiroth  |  Mario
+   66  poll 2131   official  Link  |  Sephiroth
+
+### BSE2K6   (31 matches; 31 official, 0 bonus)
+    1  poll 2425   official  The Legend of Zelda  |  Civilization
+    2  poll 2426   official  Mega Man X  |  Suikoden
+    3  poll 2427   official  Pokemon  |  Star Ocean
+    4  poll 2428   official  Metroid  |  Kirby
+    5  poll 2429   official  Metal Gear  |  Soul Calibur
+    6  poll 2430   official  Fire Emblem  |  Silent Hill
+    7  poll 2431   official  Castlevania  |  Halo
+    8  poll 2432   official  Kingdom Hearts  |  Harvest Moon
+    9  poll 2433   official  Super Mario Bros.  |  Madden NFL
+   10  poll 2434   official  Warcraft  |  Grand Theft Auto
+   11  poll 2435   official  Sonic the Hedgehog  |  Devil May Cry
+   12  poll 2436   official  Super Smash Bros.  |  Dragon Quest
+   13  poll 2437   official  Final Fantasy  |  Diablo
+   14  poll 2438   official  Mega Man  |  Mario Kart
+   15  poll 2439   official  Street Fighter  |  The Elder Scrolls
+   16  poll 2440   official  Resident Evil  |  Shadow Hearts
+   17  poll 2441   official  The Legend of Zelda  |  Mega Man X
+   18  poll 2442   official  Metroid  |  Pokemon
+   19  poll 2443   official  Metal Gear  |  Fire Emblem
+   20  poll 2444   official  Kingdom Hearts  |  Castlevania
+   21  poll 2445   official  Super Mario Bros.  |  Warcraft
+   22  poll 2446   official  Super Smash Bros.  |  Sonic the Hedgehog
+   23  poll 2447   official  Final Fantasy  |  Mega Man
+   24  poll 2448   official  Resident Evil  |  Street Fighter
+   25  poll 2449   official  The Legend of Zelda  |  Metroid
+   26  poll 2450   official  Metal Gear  |  Kingdom Hearts
+   27  poll 2451   official  Super Mario Bros.  |  Super Smash Bros.
+   28  poll 2452   official  Final Fantasy  |  Resident Evil
+   29  poll 2453   official  The Legend of Zelda  |  Metal Gear
+   30  poll 2454   official  Final Fantasy  |  Super Mario Bros.
+   31  poll 2455   official  The Legend of Zelda  |  Final Fantasy
+
+### CB2K6   (68 matches; 68 official, 0 bonus)
+    note: Matches with poll 2562-2566 are the Battle Royale; the DB `matches` table stores only 2 of ~6 entrants per poll and no other held source names the rest, so those 5 entrant lists are partial.
+    1  poll 2499   official  Samus Aran  |  Nidoran F
+    2  poll 2500   official  Ada Wong  |  Jade
+    3  poll 2501   official  Rikku  |  Lenneth Valkyrie
+    4  poll 2502   official  Kairi  |  Claire Redfield
+    5  poll 2503   official  Tifa Lockhart  |  Ivy Valentine
+    6  poll 2504   official  The Boss  |  Celes Chere
+    7  poll 2505   official  Jill Valentine  |  Sheena Fujibayashi
+    8  poll 2506   official  Princess Peach  |  Princess Daisy
+    9  poll 2507   official  Zelda  |  Carmen Sandiego
+   10  poll 2508   official  Terra Branford  |  Sarah Kerrigan
+   11  poll 2509   official  KOS-MOS  |  Amy Rose
+   12  poll 2510   official  Aeris Gainsborough  |  Marle
+   13  poll 2511   official  Yuna  |  Roll
+   14  poll 2512   official  Joanna Dark  |  Cortana
+   15  poll 2513   official  Chun Li  |  Kasumi
+   16  poll 2514   official  Lara Croft  |  Alyx Vance
+   17  poll 2515   official  Solid Snake  |  Soma Cruz
+   18  poll 2516   official  Squall Leonhart  |  Tidus
+   19  poll 2517   official  Yoshi  |  Riku
+   20  poll 2518   official  Dante  |  Ryu Hayabusa
+   21  poll 2519   official  Sora  |  Tingle
+   22  poll 2520   official  Gordon Freeman  |  Phoenix Wright
+   23  poll 2521   official  Ryu  |  Kratos
+   24  poll 2522   official  Mega Man  |  Axel
+   25  poll 2523   official  Sonic the Hedgehog  |  CATS
+   26  poll 2524   official  Vincent Valentine  |  Ganondorf
+   27  poll 2525   official  Kirby  |  The Prince of Persia
+   28  poll 2526   official  Luigi  |  Zero
+   29  poll 2527   official  Crono  |  Captain Falcon
+   30  poll 2528   official  Bowser  |  Leon Kennedy
+   31  poll 2529   official  Auron  |  Alucard
+   32  poll 2530   official  Sub-Zero  |  Master Chief
+   33  poll 2531   official  Samus Aran  |  Ada Wong
+   34  poll 2532   official  Rikku  |  Kairi
+   35  poll 2533   official  Tifa Lockhart  |  The Boss
+   36  poll 2534   official  Princess Peach  |  Jill Valentine
+   37  poll 2535   official  Zelda  |  Terra Branford
+   38  poll 2536   official  Aeris Gainsborough  |  KOS-MOS
+   39  poll 2537   official  Yuna  |  Joanna Dark
+   40  poll 2538   official  Chun Li  |  Lara Croft
+   41  poll 2539   official  Solid Snake  |  Squall Leonhart
+   42  poll 2540   official  Yoshi  |  Dante
+   43  poll 2541   official  Sora  |  Gordon Freeman
+   44  poll 2542   official  Mega Man  |  Ryu
+   45  poll 2543   official  Sonic the Hedgehog  |  Vincent Valentine
+   46  poll 2544   official  Luigi  |  Kirby
+   47  poll 2545   official  Crono  |  Bowser
+   48  poll 2546   official  Auron  |  Sub-Zero
+   49  poll 2547   official  Samus Aran  |  Rikku
+   50  poll 2548   official  Tifa Lockhart  |  Princess Peach
+   51  poll 2549   official  Zelda  |  Aeris Gainsborough
+   52  poll 2550   official  Yuna  |  Chun Li
+   53  poll 2551   official  Solid Snake  |  Yoshi
+   54  poll 2552   official  Mega Man  |  Sora
+   55  poll 2553   official  Sonic the Hedgehog  |  Luigi
+   56  poll 2554   official  Crono  |  Auron
+   57  poll 2555   official  Samus Aran  |  Tifa Lockhart
+   58  poll 2556   official  Zelda  |  Yuna
+   59  poll 2557   official  Solid Snake  |  Mega Man
+   60  poll 2558   official  Sonic the Hedgehog  |  Crono
+   61  poll 2559   official  Samus Aran  |  Zelda
+   62  poll 2560   official  Solid Snake  |  Sonic the Hedgehog
+   63  poll 2561   official  Samus Aran  |  Solid Snake
+   64  poll 2562   official  The Field  |  Female Winner
+   65  poll 2563   official  The Field  |  Mario
+   66  poll 2564   official  The Field  |  Sephiroth
+   67  poll 2565   official  The Field  |  Male Winner
+   68  poll 2566   official  Link  |  Cloud
+
+### CB VI   (64 matches; 63 official, 1 bonus)
+    1  poll 2863   official  Knuckles the Echidna  |  Rikku  |  Vaan  |  Yoshi
+    2  poll 2864   official  Arthas Menethil  |  Diablo  |  KOS-MOS  |  Mega Man
+    3  poll 2865   official  Axel  |  Frog  |  Samus Aran  |  Sarah Kerrigan
+    4  poll 2866   official  Agent 47  |  Kratos Aurion  |  Midna  |  Scorpion
+    5  poll 2867   official  Kefka  |  Marcus Fenix  |  Tom Nook  |  Zelos Wilder
+    6  poll 2868   official  Cloud Strife  |  Jill Valentine  |  Midgar Zolom  |  Revolver Ocelot
+    7  poll 2869   official  Auron  |  Chris Redfield  |  Pyramid Head  |  Shadow the Hedgehog
+    8  poll 2870   official  Bowser  |  Mewtwo  |  Ryu  |  Toad
+    9  poll 2871   official  CATS  |  Meta Knight  |  Princess Peach  |  Sephiroth
+   10  poll 2872   official  Banjo  |  Captain Falcon  |  Fox McCloud  |  Wario
+   11  poll 2873   official  Big Boss  |  Mario  |  Pac-Man  |  Wander
+   12  poll 2874   official  Bomberman  |  Crash Bandicoot  |  Phoenix Wright  |  Magus
+   13  poll 2875   official  Agent J  |  Bidoof  |  Link  |  Miles Edgeworth
+   14  poll 2876   official  Miles 'Tails' Prower  |  The Boss  |  Vincent Valentine  |  Zelda
+   15  poll 2877   official  Crono  |  Sam Fisher  |  Simon Belmont  |  Raiden
+   16  poll 2878   official  HK-47  |  Lloyd Irving  |  Jak  |  Zero
+   17  poll 2879   official  Luigi  |  Mudkip  |  Pit  |  Tingle
+   18  poll 2880   official  Ganondorf  |  Ratchet  |  Thrall  |  Vergil
+   19  poll 2881   official  Master Chief  |  PaRappa  |  Tommy Vercetti  |  Yuna
+   20  poll 2882   official  Alucard  |  Liquid Snake  |  Ness  |  Zidane Tribal
+   21  poll 2883   official  Amaterasu  |  Dante  |  Little Mac  |  Matt
+   22  poll 2884   official  Ada Wong  |  Balthier Bunansa  |  Frank West  |  Jade Curtiss
+   23  poll 2885   official  Isaac  |  Pikachu  |  Serge  |  Tidus
+   24  poll 2886   official  Leon Kennedy  |  Ridley  |  Spyro the Dragon  |  Vivi Ornitier
+   25  poll 2887   official  Kirby  |  L-Block  |  Laharl  |  Nathan Hale
+   26  poll 2888   official  Donkey Kong  |  Kratos  |  Marth  |  Prince of All Cosmos
+   27  poll 2889   official  Nightmare  |  Rayman  |  Solid Snake  |  Vyse
+   28  poll 2890   official  Haseo  |  Riku  |  Roxas  |  Ryu Hayabusa
+   29  poll 2891   official  Aeris Gainsborough  |  Akuma  |  Geno  |  Squall Leonhart
+   30  poll 2892   official  Albert Wesker  |  Daxter  |  Lara Croft  |  Sora
+   31  poll 2893   official  Duke Nukem  |  Ike  |  Gordon Freeman  |  Guybrush Threepwood
+   32  poll 2894   official  Sonic the Hedgehog  |  Sub-Zero  |  Prince of Persia  |  Viewtiful Joe
+   33  poll 2895   official  Yoshi  |  Knuckles the Echidna  |  Mega Man  |  KOS-MOS
+   34  poll 2896   official  Samus Aran  |  Frog  |  Scorpion  |  Midna
+   35  poll 2897   official  Marcus Fenix  |  Kefka  |  Cloud Strife  |  Revolver Ocelot
+   36  poll 2898   official  Auron  |  Shadow the Hedgehog  |  Ryu  |  Bowser
+   37  poll 2899   official  Sephiroth  |  Meta Knight  |  Fox McCloud  |  Wario
+   38  poll 2900   official  Mario  |  Big Boss  |  Magus  |  Phoenix Wright
+   39  poll 2901   official  Link  |  Bidoof  |  Vincent Valentine  |  Zelda
+   40  poll 2902   official  Crono  |  Raiden  |  Zero  |  HK-47
+   41  poll 2903   official  Luigi  |  Mudkip  |  Ganondorf  |  Vergil
+   42  poll 2904   official  Master Chief  |  Yuna  |  Liquid Snake  |  Alucard
+   43  poll 2905   official  Dante  |  Amaterasu  |  Ada Wong  |  Balthier Bunansa
+   44  poll 2906   official  Pikachu  |  Tidus  |  Leon Kennedy  |  Vivi Ornitier
+   45  poll 2907   official  Kirby  |  L-Block  |  Kratos  |  Donkey Kong
+   46  poll 2908   official  Solid Snake  |  Nightmare  |  Ryu Hayabusa  |  Riku
+   47  poll 2909   official  Squall Leonhart  |  Aeris Gainsborough  |  Sora  |  Lara Croft
+   48  poll 2910   official  Duke Nukem  |  Gordon Freeman  |  Sonic the Hedgehog  |  Sub-Zero
+   49  poll 2911   official  Mega Man  |  Yoshi  |  Samus Aran  |  Scorpion
+   50  poll 2912   official  Cloud Strife  |  Marcus Fenix  |  Auron  |  Ryu
+   51  poll 2913   official  Sephiroth  |  Fox McCloud  |  Mario  |  Big Boss
+   52  poll 2914   official  Link  |  Vincent Valentine  |  Crono  |  Zero
+   53  poll 2915   official  Ganondorf  |  Luigi  |  Master Chief  |  Yuna
+   54  poll 2916   official  Dante  |  Amaterasu  |  Leon Kennedy  |  Pikachu
+   55  poll 2917   official  Kratos  |  L-Block  |  Solid Snake  |  Riku
+   56  poll 2918   official  Squall Leonhart  |  Sora  |  Sonic the Hedgehog  |  Sub-Zero
+   57  poll 2919   official  Samus Aran  |  Mega Man  |  Cloud Strife  |  Ryu
+   58  poll 2920   official  Sephiroth  |  Mario  |  Link  |  Vincent Valentine
+   59  poll 2921   official  Master Chief  |  Luigi  |  Pikachu  |  Dante
+   60  poll 2922   official  Solid Snake  |  L-Block  |  Sonic the Hedgehog  |  Squall Leonhart
+   61  poll 2923   official  Cloud Strife  |  Samus Aran  |  Link  |  Sephiroth
+   62  poll 2924   official  Master Chief  |  Dante  |  L-Block  |  Solid Snake
+   63  poll 2925   official  Link  |  Cloud Strife  |  L-Block  |  Solid Snake
+   64  poll 2926   BONUS     L-Block  |  Paddle  |  Weighted Companion Cube  |  ? Block
+
+### CB VII   (64 matches; 63 official, 1 bonus)
+    1  poll 3244   official  Cecil Harvey  |  Jade Curtiss  |  Wario  |  Zack Fair
+    2  poll 3245   official  Link  |  Luke fon Fabre  |  Shadow the Hedgehog  |  Zidane Tribal
+    3  poll 3246   official  Duke Nukem  |  Kefka  |  Marth  |  Niko Bellic
+    4  poll 3247   official  Altair  |  Guybrush Threepwood  |  Isaac  |  Lucario
+    5  poll 3248   official  Liquid Snake  |  Luigi  |  Roxas  |  Sho Minamimoto
+    6  poll 3249   official  Bowser  |  Deckard Cain  |  Geno  |  Phoenix Wright
+    7  poll 3250   official  Fei Fong Wong  |  Knuckles the Echidna  |  Mario  |  Zelda
+    8  poll 3251   official  Lloyd Irving  |  Mudkip  |  Tom Nook  |  Mega Man X
+    9  poll 3252   official  Crash Bandicoot  |  Nightmare  |  Raz  |  Samus Aran
+   10  poll 3253   official  Frog  |  Ganondorf  |  KOS-MOS  |  Neku Sakuraba
+   11  poll 3254   official  Falco Lombardi  |  GlaDOS  |  Vincent Valentine  |  Wander
+   12  poll 3255   official  Balthier Bunansa  |  Big Daddy  |  Gordon Freeman  |  Scorpion
+   13  poll 3256   official  Amaterasu  |  Crono  |  Frank West  |  Kaim Argonar
+   14  poll 3257   official  L-Block  |  Meta Knight  |  Ryu (Street Fighter)  |  The Dog
+   15  poll 3258   official  Alucard  |  Captain Falcon  |  Diddy Kong  |  Kratos Aurion
+   16  poll 3259   official  Arthas Menethil  |  Ike  |  Pikachu  |  Spy
+   17  poll 3260   official  Donkey Kong  |  Miles 'Tails' Prower  |  Tidus  |  Weighted Companion Cube
+   18  poll 3261   official  Banjo  |  Captain Olimar  |  Mega Man  |  Nero
+   19  poll 3262   official  King Dedede  |  Pit  |  Ryu Hayabusa  |  Zero
+   20  poll 3263   official  Albert Wesker  |  Sackboy  |  Solid Snake  |  Vivi Ornitier
+   21  poll 3264   official  Chris Redfield  |  Fox McCloud  |  Sora  |  Tim
+   22  poll 3265   official  CATS  |  Nathan Drake  |  Squall Leonhart  |  Yoshi
+   23  poll 3266   official  Axel Steel  |  Cloud Strife  |  Midna  |  Miles Edgeworth
+   24  poll 3267   official  Mewtwo  |  Ness  |  Pac-Man  |  Travis Touchdown
+   25  poll 3268   official  Big Boss  |  Jinjo  |  Kirby  |  Lucas
+   26  poll 3269   official  Kain Highwind  |  Master Chief  |  Professor Layton  |  Raiden
+   27  poll 3270   official  Captain MacMillan  |  Leon Kennedy  |  Riku  |  Siegfried Schtauffen
+   28  poll 3271   official  Dante  |  Hogger  |  Laharl  |  Ramza Beoulve
+   29  poll 3272   official  Commander Shepard  |  Magus  |  Sandbag  |  Sonic the Hedgehog
+   30  poll 3273   official  Auron  |  Marcus Fenix  |  Rydia  |  Sub-Zero
+   31  poll 3274   official  Nana  |  Ratchet  |  Sephiroth  |  Tifa Lockheart
+   32  poll 3275   official  Heavy  |  Jill Valentine  |  Kratos  |  Revolver Ocelot
+   33  poll 3276   official  Zack Fair  |  Wario  |  Link  |  Zidane Tribal
+   34  poll 3277   official  Marth  |  Duke Nukem  |  Altair  |  Lucario
+   35  poll 3278   official  Luigi  |  Liquid Snake  |  Bowser  |  Phoenix Wright
+   36  poll 3279   official  Mario  |  Zelda  |  Mega Man X  |  Mudkip
+   37  poll 3280   official  Samus Aran  |  Nightmare  |  Ganondorf  |  Frog
+   38  poll 3281   official  Vincent Valentine  |  Falco Lombardi  |  Scorpion  |  Gordon Freeman
+   39  poll 3282   official  Crono  |  Amaterasu  |  L-Block  |  Ryu (Street Fighter)
+   40  poll 3283   official  Alucard  |  Captain Falcon  |  Pikachu  |  Arthas Menethil
+   41  poll 3284   official  Weighted Companion Cube  |  Tidus  |  Mega Man  |  Nero
+   42  poll 3285   official  Ryu Hayabusa  |  Zero  |  Solid Snake  |  Vivi Ornitier
+   43  poll 3286   official  Sora  |  Fox McCloud  |  Squall Leonhart  |  Yoshi
+   44  poll 3287   official  Cloud Strife  |  Midna  |  Mewtwo  |  Pac-Man
+   45  poll 3288   official  Big Boss  |  Kirby  |  Master Chief  |  Raiden
+   46  poll 3289   official  Leon Kennedy  |  Riku  |  Dante  |  Hogger
+   47  poll 3290   official  Sonic the Hedgehog  |  Sandbag  |  Auron  |  Sub-Zero
+   48  poll 3291   official  Sephiroth  |  Tifa Lockheart  |  Kratos  |  Jill Valentine
+   49  poll 3292   official  Link  |  Zack Fair  |  Duke Nukem  |  Altair
+   50  poll 3293   official  Liquid Snake  |  Luigi  |  Mario  |  Mega Man X
+   51  poll 3294   official  Samus Aran  |  Ganondorf  |  Vincent Valentine  |  Gordon Freeman
+   52  poll 3295   official  Crono  |  L-Block  |  Pikachu  |  Alucard
+   53  poll 3296   official  Mega Man  |  Weighted Companion Cube  |  Solid Snake  |  Zero
+   54  poll 3297   official  Squall Leonhart  |  Sora  |  Cloud Strife  |  Mewtwo
+   55  poll 3298   official  Kirby  |  Master Chief  |  Dante  |  Leon Kennedy
+   56  poll 3299   official  Auron  |  Sonic the Hedgehog  |  Sephiroth  |  Kratos
+   57  poll 3300   official  Link  |  Zack Fair  |  Mario  |  Mega Man X
+   58  poll 3301   official  Samus Aran  |  Vincent Valentine  |  Crono  |  Pikachu
+   59  poll 3302   official  Solid Snake  |  Weighted Companion Cube  |  Cloud Strife  |  Mewtwo
+   60  poll 3303   official  Kirby  |  Dante  |  Sephiroth  |  Sonic the Hedgehog
+   61  poll 3304   official  Link  |  Mario  |  Samus Aran  |  Crono
+   62  poll 3305   official  Cloud Strife  |  Solid Snake  |  Sephiroth  |  Kirby
+   63  poll 3306   official  Link  |  Crono  |  Solid Snake  |  Cloud Strife
+   64  poll 3308   BONUS     Classic Link  |  Young Link  |  Toon Link  |  CD-I Link
+
+### BGE 2K9   (64 matches; 63 official, 1 bonus)
+    1  poll 3446   official  Donkey Kong  |  Mike Tyson's Punch-Out!!  |  Space Invaders  |  Tetris
+    2  poll 3447   official  Mega Man 2  |  Pac-Man  |  Pong  |  The Oregon Trail
+    3  poll 3448   official  Duck Hunt  |  Galaga  |  Ninja Gaiden  |  Super Mario Bros.
+    4  poll 3449   official  Dragon Warrior III  |  Contra  |  Metroid  |  The Legend of Zelda
+    5  poll 3450   official  Castlevania III  |  Civilization  |  Sonic the Hedgehog  |  Street Fighter II
+    6  poll 3451   official  SimCity  |  Super Mario Bros. 3  |  Tecmo Super Bowl  |  Secret of Monkey Island
+    7  poll 3452   official  Battletoads  |  Final Fantasy  |  Prince of Persia  |  Super Mario World
+    8  poll 3453   official  Crystalis  |  Final Fantasy II (IV)  |  Mega Man 3  |  River City Ransom
+    9  poll 3454   official  Gunstar Heroes  |  Sonic the Hedgehog 3  |  Super Mario Kart  |  Super Metroid
+   10  poll 3455   official  Donkey Kong Country  |  Doom  |  Streets of Rage II  |  Zelda: A Link to the Past
+   11  poll 3456   official  Final Fantasy III (VI)  |  Mega Man X  |  Phantasy Star IV  |  Zelda: Link's Awakening
+   12  poll 3457   official  Mortal Kombat II  |  Secret of Mana  |  Shining Force II  |  Sonic the Hedgehog 2
+   13  poll 3458   official  Donkey Kong Country 2  |  GoldenEye 007  |  Resident Evil 2  |  Super Mario RPG
+   14  poll 3459   official  Final Fantasy VII  |  Mario Kart 64  |  Star Fox 64  |  Suikoden
+   15  poll 3460   official  Castlevania: Symphony of the Night  |  Kirby Super Star  |  Resident Evil  |  Super Mario 64
+   16  poll 3461   official  Chrono Trigger  |  Earthbound  |  Lufia II  |  Super Mario World 2: Yoshi's Island
+   17  poll 3462   official  Banjo-Kazooie  |  Perfect Dark  |  Pokemon Red/Blue/Yellow  |  The Legend of Zelda: Majora's Mask
+   18  poll 3463   official  Deus Ex  |  Final Fantasy Tactics  |  Metal Gear Solid  |  Pokemon Gold/Silver
+   19  poll 3464   official  Final Fantasy VIII  |  SoulCalibur  |  Starcraft  |  Xenogears
+   20  poll 3465   official  Chrono Cross  |  Final Fantasy IX  |  Half-Life  |  The Legend of Zelda: Ocarina of Time
+   21  poll 3466   official  Final Fantasy X  |  Metal Gear Solid 2  |  Silent Hill 2  |  The Elder Scrolls III: Morrowind
+   22  poll 3467   official  Grand Theft Auto: Vice City  |  Kingdom Hearts  |  Metroid Prime  |  Paper Mario
+   23  poll 3468   official  Diablo II: Lord of Destruction  |  Grand Theft Auto III  |  Halo: Combat Evolved  |  Star Wars: Knights of the Old Republic
+   24  poll 3469   official  Disgaea: Hour of Darkness  |  Fire Emblem  |  Super Smash Bros. Melee  |  The Legend of Zelda: The Wind Waker
+   25  poll 3470   official  God of War  |  Grand Theft Auto: San Andreas  |  Tales of Symphonia  |  The Elder Scrolls IV: Oblivion
+   26  poll 3471   official  Halo 2  |  Metal Gear Solid 3  |  Okami  |  World of Warcraft
+   27  poll 3472   official  Gears of War  |  Kingdom Hearts II  |  Resident Evil 4  |  Shadow of the Colossus
+   28  poll 3473   official  Final Fantasy XII  |  Half-Life 2  |  Phoenix Wright: Ace Attorney  |  The Legend of Zelda: Twilight Princess
+   29  poll 3474   official  Grand Theft Auto IV  |  Persona 4  |  Street Fighter IV  |  Super Smash Bros. Brawl
+   30  poll 3475   official  Call of Duty 4  |  Pokemon Diamond/Pearl  |  Super Mario Galaxy  |  Team Fortress 2
+   31  poll 3476   official  BioShock  |  LittleBigPlanet  |  Metal Gear Solid 4  |  Portal
+   32  poll 3477   official  Fallout 3  |  Halo 3  |  Left 4 Dead  |  Mass Effect
+   33  poll 3478   official  Tetris  |  Donkey Kong  |  Mega Man 2  |  Pac-Man
+   34  poll 3479   official  Super Mario Bros.  |  Ninja Gaiden  |  The Legend of Zelda  |  Metroid
+   35  poll 3480   official  Sonic the Hedgehog  |  Street Fighter II  |  Super Mario Bros. 3  |  The Secret of Monkey Island
+   36  poll 3481   official  Super Mario World  |  Final Fantasy  |  Final Fantasy II (IV)  |  Mega Man 3
+   37  poll 3482   official  Super Metroid  |  Super Mario Kart  |  The Legend of Zelda: A Link to the Past  |  Donkey Kong Country
+   38  poll 3483   official  Final Fantasy III (VI)  |  The Legend of Zelda: Link's Awakening  |  Sonic the Hedgehog 2  |  Mortal Kombat II
+   39  poll 3484   official  GoldenEye 007  |  Super Mario RPG  |  Final Fantasy VII  |  Mario Kart 64
+   40  poll 3485   official  Super Mario 64  |  Castlevania: Symphony of the Night  |  Chrono Trigger  |  Super Mario World 2: Yoshi's Island
+   41  poll 3486   official  Pokemon Red/Blue/Yellow  |  The Legend of Zelda: Majora's Mask  |  Metal Gear Solid  |  Pokemon Gold/Silver
+   42  poll 3487   official  Final Fantasy VIII  |  Starcraft  |  The Legend of Zelda: Ocarina of Time  |  Final Fantasy IX
+   43  poll 3488   official  Final Fantasy X  |  Metal Gear Solid 2  |  Kingdom Hearts  |  Grand Theft Auto: Vice City
+   44  poll 3489   official  Diablo II: Lord of Destruction  |  Halo: Combat Evolved  |  Super Smash Bros. Melee  |  The Legend of Zelda: Wind Waker
+   45  poll 3490   official  The Elder Scrolls IV: Oblivion  |  Tales of Symphonia  |  Metal Gear Solid 3  |  World of Warcraft
+   46  poll 3491   official  Resident Evil 4  |  Kingdom Hearts II  |  The Legend of Zelda: Twilight Princess  |  Half-Life 2
+   47  poll 3492   official  Super Smash Bros. Brawl  |  Grand Theft Auto IV  |  Call of Duty 4  |  Super Mario Galaxy
+   48  poll 3493   official  Metal Gear Solid 4  |  Portal  |  Fallout 3  |  Halo 3
+   49  poll 3494   official  Tetris  |  Mega Man 2  |  Super Mario Bros.  |  The Legend of Zelda
+   50  poll 3495   official  Super Mario Bros. 3  |  Sonic the Hedgehog  |  Super Mario World  |  Final Fantasy II (IV)
+   51  poll 3496   official  The Legend of Zelda: A Link to the Past  |  Super Metroid  |  Final Fantasy III (VI)  |  The Legend of Zelda: Link's Awakening
+   52  poll 3497   official  Final Fantasy VII  |  GoldenEye 007  |  Super Mario 64  |  Chrono Trigger
+   53  poll 3498   official  Metal Gear Solid  |  Pokemon Red/Blue/Yellow  |  The Legend of Zelda: Ocarina of Time  |  Final Fantasy VIII
+   54  poll 3499   official  Final Fantasy X  |  Kingdom Hearts  |  Super Smash Bros. Melee  |  Diablo II: Lord of Destruction
+   55  poll 3500   official  Metal Gear Solid 3  |  The Elder Scrolls IV: Oblivion  |  The Legend of Zelda: Twilight Princess  |  Resident Evil 4
+   56  poll 3501   official  Super Smash Bros. Brawl  |  Call of Duty 4  |  Metal Gear Solid 4  |  Fallout 3
+   57  poll 3502   official  Super Mario Bros.  |  The Legend of Zelda  |  Super Mario Bros. 3  |  Super Mario World
+   58  poll 3503   official  The Legend of Zelda: A Link to the Past  |  Final Fantasy III (VI)  |  Final Fantasy VII  |  Super Mario 64
+   59  poll 3504   official  The Legend of Zelda: Ocarina of Time  |  Pokemon Red/Blue/Yellow  |  Super Smash Bros. Melee  |  Final Fantasy X
+   60  poll 3505   official  Zelda: Twilight Princess  |  Resident Evil 4  |  Super Smash Bros. Brawl  |  Metal Gear Solid 4
+   61  poll 3506   official  Super Mario World  |  Super Mario Bros. 3  |  Final Fantasy VII  |  The Legend of Zelda: A Link to the Past
+   62  poll 3507   official  The Legend of Zelda: Ocarina of Time  |  Final Fantasy X  |  Metal Gear Solid 4  |  Super Smash Bros. Brawl
+   63  poll 3508   official  Final Fantasy VII  |  The Legend of Zelda: A Link to the Past  |  The Legend of Zelda: Ocarina of Time  |  Final Fantasy X
+   64  poll 3509   BONUS     Final Fantasy VII  |  The Legend of Zelda: Ocarina of Time
+
+### CB VIII   (127 matches; 127 official, 0 bonus)
+    1  poll 3730   official  Link  |  Thrall
+    2  poll 3731   official  Alucard  |  Magus
+    3  poll 3732   official  Pokemon Trainer Red  |  Revolver Ocelot
+    4  poll 3733   official  Captain John Price  |  Mega Man X
+    5  poll 3734   official  Luigi  |  Meta Knight
+    6  poll 3735   official  Amaterasu  |  Shadow the Hedgehog
+    7  poll 3736   official  Weighted Companion Cube  |  Sandal
+    8  poll 3737   official  Nathan Drake  |  The Boss
+    9  poll 3738   official  Sonic the Hedgehog  |  Lightning
+   10  poll 3739   official  Cecil Harvey  |  Knuckles the Echidna
+   11  poll 3740   official  Ganondorf  |  Mewtwo
+   12  poll 3741   official  Albert Wesker  |  Ken
+   13  poll 3742   official  Kirby  |  Rikku
+   14  poll 3743   official  GlaDOS  |  Fawful
+   15  poll 3744   official  Vivi  |  Donkey Kong
+   16  poll 3745   official  Altair  |  Liquid Snake
+   17  poll 3746   official  Mario  |  Falco Lombardi
+   18  poll 3747   official  Big Boss  |  Miles Edgeworth
+   19  poll 3748   official  Zidane Tribal  |  Claptrap
+   20  poll 3749   official  Ike  |  Prinny
+   21  poll 3750   official  Mega Man  |  Cid Highwind
+   22  poll 3751   official  Zack Fair  |  Yuna
+   23  poll 3752   official  Ryu Hayabusa  |  Crash Bandicoot
+   24  poll 3753   official  Master Chief  |  Spy
+   25  poll 3754   official  Sora  |  Midna
+   26  poll 3755   official  Laharl  |  Neku Sakuraba
+   27  poll 3756   official  Kefka  |  Arthas Menethil
+   28  poll 3757   official  Bowser  |  Frog
+   29  poll 3758   official  L-Block  |  HK-47
+   30  poll 3759   official  Isaac  |  Professor Layton
+   31  poll 3760   official  Charizard  |  Duke Nukem
+   32  poll 3761   official  Kratos  |  Miles 'Tails' Prower
+   33  poll 3762   official  Samus Aran  |  Prince of Persia
+   34  poll 3763   official  Niko Bellic  |  Jill Valentine
+   35  poll 3764   official  Roxas  |  Heavy
+   36  poll 3765   official  Tidus  |  Sub-Zero
+   37  poll 3766   official  Phoenix Wright  |  Jecht
+   38  poll 3767   official  Ratchet  |  Eddie Riggs
+   39  poll 3768   official  Travis Touchdown  |  Zelda
+   40  poll 3769   official  Ezio Auditore da Firenze  |  Simon Belmont
+   41  poll 3770   official  Cloud Strife  |  Ridley
+   42  poll 3771   official  Chris Redfield  |  Captain MacMillan
+   43  poll 3772   official  Riku  |  Ramza Beoulve
+   44  poll 3773   official  Captain Falcon  |  Wander
+   45  poll 3774   official  Leon Kennedy  |  Vault Boy
+   46  poll 3775   official  Sackboy  |  Kratos Aurion
+   47  poll 3776   official  Ryu  |  Balthier Bunansa
+   48  poll 3777   official  Dante  |  Axel
+   49  poll 3778   official  Solid Snake  |  Proto Man
+   50  poll 3779   official  Lloyd Irving  |  Fox McCloud
+   51  poll 3780   official  Pikachu  |  Banjo
+   52  poll 3781   official  Commander Shepard  |  Ellis
+   53  poll 3782   official  Auron  |  Aerith Gainsborough
+   54  poll 3783   official  Zero  |  Marcus Fenix
+   55  poll 3784   official  Darth Revan  |  Terra Branford
+   56  poll 3785   official  Squall Leonhart  |  Akuma
+   57  poll 3786   official  Sephiroth  |  Marth
+   58  poll 3787   official  Vincent Valentine  |  Guybrush Threepwood
+   59  poll 3788   official  Yoshi  |  Jak
+   60  poll 3789   official  Crono  |  Missingno
+   61  poll 3790   official  Soap MacTavish  |  Big Daddy
+   62  poll 3791   official  Ness  |  Geno
+   63  poll 3792   official  Yuri Lowell  |  Tifa Lockheart
+   64  poll 3793   official  Gordon Freeman  |  Princess Peach
+   65  poll 3794   official  Link  |  Alucard
+   66  poll 3795   official  Pokemon Trainer Red  |  Mega Man X
+   67  poll 3796   official  Luigi  |  Amaterasu
+   68  poll 3797   official  Weighted Companion Cube  |  The Boss
+   69  poll 3798   official  Sonic the Hedgehog  |  Knuckles the Echidna
+   70  poll 3799   official  Ganondorf  |  Ken
+   71  poll 3800   official  Kirby  |  GlaDOS
+   72  poll 3801   official  Vivi  |  Altair
+   73  poll 3802   official  Mario  |  Big Boss
+   74  poll 3803   official  Zidane Tribal  |  Ike
+   75  poll 3804   official  Mega Man  |  Zack Fair
+   76  poll 3805   official  Ryu Hayabusa  |  Master Chief
+   77  poll 3806   official  Sora  |  Laharl
+   78  poll 3807   official  Kefka  |  Bowser
+   79  poll 3808   official  L-Block  |  Isaac
+   80  poll 3809   official  Charizard  |  Kratos
+   81  poll 3810   official  Samus Aran  |  Jill Valentine
+   82  poll 3811   official  Roxas  |  Sub-Zero
+   83  poll 3812   official  Jecht  |  Ratchet
+   84  poll 3813   official  Zelda  |  Ezio Auditore da Firenze
+   85  poll 3814   official  Cloud Strife  |  Chris Redfield
+   86  poll 3815   official  Riku  |  Captain Falcon
+   87  poll 3816   official  Leon Kennedy  |  Sackboy
+   88  poll 3817   official  Ryu  |  Dante
+   89  poll 3818   official  Solid Snake  |  Fox McCloud
+   90  poll 3819   official  Pikachu  |  Commander Shepard
+   91  poll 3820   official  Auron  |  Zero
+   92  poll 3821   official  Terra Branford  |  Squall Leonhart
+   93  poll 3822   official  Sephiroth  |  Vincent Valentine
+   94  poll 3823   official  Yoshi  |  Missingno
+   95  poll 3824   official  Big Daddy  |  Ness
+   96  poll 3825   official  Tifa Lockheart  |  Gordon Freeman
+   97  poll 3826   official  Link  |  Mega Man X
+   98  poll 3827   official  Luigi  |  Weighted Companion Cube
+   99  poll 3828   official  Sonic the Hedgehog  |  Ganondorf
+  100  poll 3829   official  Kirby  |  Vivi
+  101  poll 3830   official  Mario  |  Ike
+  102  poll 3831   official  Mega Man  |  Ryu Hayabusa
+  103  poll 3832   official  Sora  |  Bowser
+  104  poll 3833   official  L-Block  |  Charizard
+  105  poll 3834   official  Samus Aran  |  Sub-Zero
+  106  poll 3835   official  Jecht  |  Zelda
+  107  poll 3836   official  Cloud Strife  |  Captain Falcon
+  108  poll 3837   official  Leon Kennedy  |  Ryu
+  109  poll 3838   official  Solid Snake  |  Pikachu
+  110  poll 3839   official  Auron  |  Squall Leonhart
+  111  poll 3840   official  Sephiroth  |  Missingno
+  112  poll 3841   official  Big Daddy  |  Tifa Lockheart
+  113  poll 3842   official  Link  |  Luigi
+  114  poll 3843   official  Sonic the Hedgehog  |  Kirby
+  115  poll 3844   official  Mario  |  Mega Man
+  116  poll 3845   official  Bowser  |  Charizard
+  117  poll 3846   official  Samus Aran  |  Zelda
+  118  poll 3847   official  Cloud Strife  |  Ryu
+  119  poll 3848   official  Solid Snake  |  Squall Leonhart
+  120  poll 3849   official  Sephiroth  |  Tifa Lockheart
+  121  poll 3850   official  Link  |  Sonic the Hedgehog
+  122  poll 3851   official  Mario  |  Charizard
+  123  poll 3852   official  Samus Aran  |  Cloud Strife
+  124  poll 3853   official  Solid Snake  |  Sephiroth
+  125  poll 3854   official  Link  |  Mario
+  126  poll 3855   official  Cloud Strife  |  Solid Snake
+  127  poll 3856   official  Link  |  Cloud Strife
+
+### GOTD   (128 matches; 127 official, 1 bonus)
+    1  poll 4069   official  Fallout 3  |  inFamous
+    2  poll 4070   official  Rock Band 2  |  Deus Ex
+    3  poll 4071   official  Batman: Arkham Asylum  |  Psychonauts
+    4  poll 4072   official  Team Fortress 2  |  Fable
+    5  poll 4073   official  Uncharted 2: Among Thieves  |  The Legend of Dragoon
+    6  poll 4074   official  Sonic Adventure 2  |  Street Fighter IV
+    7  poll 4075   official  Halo 3  |  Super Mario Sunshine
+    8  poll 4076   official  Halo: Combat Evolved  |  Ninja Gaiden
+    9  poll 4077   official  Metroid Prime  |  Star Ocean: Till the End of Time
+   10  poll 4078   official  Mother 3  |  Devil May Cry 3: Dante's Awakening
+   11  poll 4079   official  Demon's Souls  |  Mega Man 9
+   12  poll 4080   official  Okami  |  No More Heroes
+   13  poll 4081   official  Tales of Symphonia  |  Resident Evil 5
+   14  poll 4082   official  God of War  |  Left 4 Dead
+   15  poll 4083   official  LittleBigPlanet  |  Grand Theft Auto III
+   16  poll 4084   official  Half-Life 2  |  Left 4 Dead 2
+   17  poll 4085   official  Super Smash Bros. Melee  |  Guitar Hero II
+   18  poll 4086   official  Warcraft III: Reign of Chaos  |  The Elder Scrolls III: Morrowind
+   19  poll 4087   official  Perfect Dark  |  Conker's Bad Fur Day
+   20  poll 4088   official  Call of Duty 4: Modern Warfare  |  Prince of Persia: The Sands of Time
+   21  poll 4089   official  Pokemon Diamond/Pearl/Platinum  |  Metroid Fusion
+   22  poll 4090   official  WWF No Mercy  |  Fire Emblem: Path of Radiance
+   23  poll 4091   official  Valkyria Chronicles  |  Disgaea: Hour of Darkness
+   24  poll 4092   official  Super Smash Bros. Brawl  |  Mario Kart DS
+   25  poll 4093   official  Super Mario Galaxy  |  Beyond Good & Evil
+   26  poll 4094   official  Pokemon Ruby/Sapphire/Emerald  |  Grand Theft Auto IV
+   27  poll 4095   official  Dragon Age: Origins  |  F-Zero GX
+   28  poll 4096   official  The Legend of Zelda: Twilight Princess  |  Shenmue
+   29  poll 4097   official  BioShock  |  Star Wars: Battlefront II
+   30  poll 4098   official  Kingdom Hearts II  |  Halo 2
+   31  poll 4099   official  Call of Duty: Modern Warfare 2  |  Dissidia: Final Fantasy
+   32  poll 4100   official  Kingdom Hearts  |  Castlevania: Dawn of Sorrow
+   33  poll 4101   official  Final Fantasy X  |  Viewtiful Joe
+   34  poll 4102   official  Tales of Vesperia  |  Borderlands
+   35  poll 4103   official  Golden Sun  |  Ratchet & Clank: Up Your Arsenal
+   36  poll 4104   official  Grand Theft Auto: San Andreas  |  Dead Space
+   37  poll 4105   official  Star Wars: Knights of the Old Republic  |  Devil May Cry
+   38  poll 4106   official  Fire Emblem  |  Tony Hawk's Pro Skater 2
+   39  poll 4107   official  Shin Megami Tensei: Persona 3  |  Civilization IV
+   40  poll 4108   official  Final Fantasy IX  |  Phoenix Wright: Ace Attorney Trials and Tribulatio
+   41  poll 4109   official  Resident Evil 4  |  Jet Grind Radio
+   42  poll 4110   official  Grand Theft Auto: Vice City  |  Silent Hill 2
+   43  poll 4111   official  The World Ends With You  |  Dead Rising
+   44  poll 4112   official  Shin Megami Tensei: Persona 4  |  Braid
+   45  poll 4113   official  Portal  |  Gears of War 2
+   46  poll 4114   official  Final Fantasy XII  |  Crisis Core: Final Fantasy VII
+   47  poll 4115   official  Skies of Arcadia  |  Baldur's Gate II: Shadows of Amn
+   48  poll 4116   official  Mass Effect  |  Plants vs. Zombies
+   49  poll 4117   official  Metal Gear Solid 3: Snake Eater  |  TimeSplitters 2
+   50  poll 4118   official  Marvel vs. Capcom 2  |  New Super Mario Bros. Wii
+   51  poll 4119   official  Paper Mario  |  Katamari Damacy
+   52  poll 4120   official  World of Warcraft  |  Animal Crossing
+   53  poll 4121   official  Metal Gear Solid 4: Guns of the Patriots  |  Assassin's Creed
+   54  poll 4122   official  Diablo II  |  Eternal Darkness: Sanity's Requiem
+   55  poll 4123   official  Metal Gear Solid 2: Sons of Liberty  |  Banjo-Tooie
+   56  poll 4124   official  Shadow of the Colossus  |  The Sims
+   57  poll 4125   official  The Legend of Zelda: Majora's Mask  |  Wii Sports
+   58  poll 4126   official  Chrono Cross  |  Dragon Quest VIII: Journey of the Cursed King
+   59  poll 4127   official  Phoenix Wright: Ace Attorney  |  Mario Kart Wii
+   60  poll 4128   official  Pokemon Gold/Silver/Crystal  |  Advance Wars
+   61  poll 4129   official  The Legend of Zelda: The Wind Waker  |  God of War II
+   62  poll 4130   official  Assassin's Creed II  |  ICO
+   63  poll 4131   official  Paper Mario: The Thousand-Year Door  |  Gears of War
+   64  poll 4132   official  The Elder Scrolls IV: Oblivion  |  SoulCalibur II
+   65  poll 4133   official  Fallout 3  |  Deus Ex
+   66  poll 4134   official  Batman: Arkham Asylum  |  Team Fortress 2
+   67  poll 4135   official  Uncharted 2: Among Thieves  |  Street Fighter IV
+   68  poll 4136   official  Halo 3  |  Halo: Combat Evolved
+   69  poll 4137   official  Metroid Prime  |  Devil May Cry 3: Dante's Awakening
+   70  poll 4138   official  Mega Man 9  |  Okami
+   71  poll 4139   official  Tales of Symphonia  |  God of War
+   72  poll 4140   official  Grand Theft Auto III  |  Half-Life 2
+   73  poll 4141   official  Super Smash Bros. Melee  |  The Elder Scrolls III: Morrowind
+   74  poll 4142   official  Perfect Dark  |  Call of Duty 4: Modern Warfare
+   75  poll 4143   official  Pokemon Diamond/Pearl/Platinum  |  Fire Emblem: Path of Radiance
+   76  poll 4144   official  Valkyria Chronicles  |  Super Smash Bros. Brawl
+   77  poll 4145   official  Super Mario Galaxy  |  Pokemon Ruby/Sapphire/Emerald
+   78  poll 4146   official  Dragon Age: Origins  |  The Legend of Zelda: Twilight Princess
+   79  poll 4147   official  BioShock  |  Kingdom Hearts II
+   80  poll 4148   official  Call of Duty: Modern Warfare 2  |  Kingdom Hearts
+   81  poll 4149   official  Final Fantasy X  |  Borderlands
+   82  poll 4150   official  Golden Sun  |  Grand Theft Auto: San Andreas
+   83  poll 4151   official  Star Wars: Knights of the Old Republic  |  Fire Emblem
+   84  poll 4152   official  Shin Megami Tensei: Persona 3  |  Final Fantasy IX
+   85  poll 4153   official  Resident Evil 4  |  Grand Theft Auto: Vice City
+   86  poll 4154   official  Dead Rising  |  Shin Megami Tensei: Persona 4
+   87  poll 4155   official  Portal  |  Final Fantasy XII
+   88  poll 4156   official  Skies of Arcadia  |  Mass Effect
+   89  poll 4157   official  Metal Gear Solid 3: Snake Eater  |  Marvel vs. Capcom 2
+   90  poll 4158   official  Paper Mario  |  World of Warcraft
+   91  poll 4159   official  Metal Gear Solid 4: Guns of the Patriots  |  Diablo II
+   92  poll 4160   official  Metal Gear Solid 2: Sons of Liberty  |  Shadow of the Colossus
+   93  poll 4161   official  The Legend of Zelda: Majora's Mask  |  Chrono Cross
+   94  poll 4162   official  Mario Kart Wii  |  Pokemon Gold/Silver/Crystal
+   95  poll 4163   official  The Legend of Zelda: The Wind Waker  |  Assassin's Creed II
+   96  poll 4164   official  Paper Mario: The Thousand-Year Door  |  The Elder Scrolls IV: Oblivion
+   97  poll 4165   official  Fallout 3  |  Batman: Arkham Asylum
+   98  poll 4166   official  Uncharted 2: Among Thieves  |  Halo: Combat Evolved
+   99  poll 4167   official  Metroid Prime  |  Okami
+  100  poll 4168   official  God of War  |  Half-Life 2
+  101  poll 4169   official  Super Smash Bros. Melee  |  Call of Duty 4: Modern Warfare
+  102  poll 4170   official  Pokemon Diamond/Pearl/Platinum  |  Super Smash Bros. Brawl
+  103  poll 4171   official  Super Mario Galaxy  |  The Legend of Zelda: Twilight Princess
+  104  poll 4172   official  Kingdom Hearts II  |  Kingdom Hearts
+  105  poll 4173   official  Final Fantasy X  |  Golden Sun
+  106  poll 4174   official  Star Wars: Knights of the Old Republic  |  Final Fantasy IX
+  107  poll 4175   official  Resident Evil 4  |  Shin Megami Tensei: Persona 4
+  108  poll 4176   official  Portal  |  Mass Effect
+  109  poll 4177   official  Metal Gear Solid 3: Snake Eater  |  Paper Mario
+  110  poll 4178   official  Metal Gear Solid 4: Guns of the Patriots  |  Shadow of the Colossus
+  111  poll 4179   official  The Legend of Zelda: Majora's Mask  |  Pokemon Gold/Silver/Crystal
+  112  poll 4180   official  The Legend of Zelda: The Wind Waker  |  The Elder Scrolls IV: Oblivion
+  113  poll 4181   official  Fallout 3  |  Halo: Combat Evolved
+  114  poll 4182   official  Metroid Prime  |  Half-Life 2
+  115  poll 4183   official  Super Smash Bros. Melee  |  Super Smash Bros. Brawl
+  116  poll 4184   official  The Legend of Zelda: Twilight Princess  |  Kingdom Hearts II
+  117  poll 4185   official  Final Fantasy X  |  Final Fantasy IX
+  118  poll 4186   official  Resident Evil 4  |  Portal
+  119  poll 4187   official  Metal Gear Solid 3: Snake Eater  |  Shadow of the Colossus
+  120  poll 4188   official  The Legend of Zelda: Majora's Mask  |  The Legend of Zelda: The Wind Waker
+  121  poll 4189   official  Fallout 3  |  Metroid Prime
+  122  poll 4190   official  Super Smash Bros. Brawl  |  The Legend of Zelda: Twilight Princess
+  123  poll 4191   official  Final Fantasy X  |  Resident Evil 4
+  124  poll 4192   official  Metal Gear Solid 3: Snake Eater  |  The Legend of Zelda: Majora's Mask
+  125  poll 4193   official  Fallout 3  |  Super Smash Bros. Brawl
+  126  poll 4194   official  Final Fantasy X  |  The Legend of Zelda: Majora's Mask
+  127  poll 4195   official  Super Smash Bros. Brawl  |  The Legend of Zelda: Majora's Mask
+  128  poll 4196   BONUS     Link  |  Santa Claus
+
+### Rivalry   (64 matches; 63 official, 1 bonus)
+    1  poll 4510   official  Mario vs. Bowser  |  Earthworm Jim vs. Queen Slug-for-a-Butt
+    2  poll 4511   official  Conker vs. The Great Mighty Poo  |  Ike vs. Black Knight
+    3  poll 4512   official  Kirby vs. Meta Knight  |  Jill Valentine vs. Nemesis
+    4  poll 4513   official  Sonic the Hedgehog vs. Dr. Robotnik  |  Katherine vs. Catherine
+    5  poll 4514   official  Mega Man X vs. Zero  |  Captain Falcon vs. Black Shadow
+    6  poll 4515   official  Guybrush Threepwood vs. LeChuck  |  Bartz Klauser vs. Gilgamesh
+    7  poll 4516   official  Donkey Kong vs. King K. Rool  |  Ezio Auditore da Firenze vs. Rodrigo Borgia
+    8  poll 4517   official  Sub-Zero vs. Scorpion  |  Leon Kennedy vs. Ada Wong
+    9  poll 4518   official  Pokemon Trainer Red vs. Pokemon Trainer Blue  |  Jim Raynor vs. Sarah Kerrigan
+   10  poll 4519   official  Luigi vs. Waluigi  |  Cecil Harvey vs. Golbez
+   11  poll 4520   official  Ryu vs. Ken  |  Ratchet vs. Dr. Nefarious
+   12  poll 4521   official  Fox McCloud vs. Wolf O'Donnell  |  Yuna vs. Seymour Guado
+   13  poll 4522   official  Samus Aran vs. Ridley  |  The Kid vs. The Guy
+   14  poll 4523   official  Terra Branford vs. Kefka Palazzo  |  Vyse vs. Galcian
+   15  poll 4524   official  Chris Redfield vs. Albert Wesker  |  Dan Hibiki vs. Sagat
+   16  poll 4525   official  Tidus vs. Jecht  |  Big Boss vs. The Boss
+   17  poll 4526   official  Link vs. Ganondorf  |  Arthas vs. Illidan
+   18  poll 4527   official  Amaterasu vs. Orochi  |  Tom Nook vs. Crazy Redd
+   19  poll 4528   official  Zidane Tribal vs. Kuja  |  Meat Boy vs. Dr. Fetus
+   20  poll 4529   official  Mega Man vs. Dr. Wily  |  Banjo vs. Gruntilda
+   21  poll 4530   official  Phoenix Wright vs. Miles Edgeworth  |  Gordon Freeman vs. Dr. Breen
+   22  poll 4531   official  Alucard vs. Dracula  |  Commander Shepard vs. Saren Arterius
+   23  poll 4532   official  Chell vs. GlaDOS  |  Ness vs. Giygas
+   24  poll 4533   official  Frog vs. Magus  |  Raiden vs. Vamp
+   25  poll 4534   official  Cloud Strife vs. Sephiroth  |  Lloyd Irving vs. Kratos Aurion
+   26  poll 4535   official  Kratos vs. Zeus  |  Professor Layton vs. Don Paolo
+   27  poll 4536   official  Crash Bandicoot vs. Dr. Neo Cortex  |  Pac-Man vs. Blinky
+   28  poll 4537   official  Solid Snake vs. Liquid Snake  |  Crono vs. Lavos
+   29  poll 4538   official  Squall Leonhart vs. Seifer Almasy  |  Laharl vs. Mid-Boss
+   30  poll 4539   official  Siegfried vs. Nightmare  |  Ramza Beoulve vs. Delita Hyral
+   31  poll 4540   official  Dante vs. Vergil  |  Sol Badguy vs. Ky Kiske
+   32  poll 4541   official  Sora vs. Riku  |  William B.J. Blazkowicz vs. Adolf
+   33  poll 4542   official  Mario vs. Bowser  |  Ike vs. Black Knight
+   34  poll 4543   official  Kirby vs. Meta Knight  |  Sonic the Hedgehog vs. Dr. Robotnik
+   35  poll 4544   official  Mega Man X vs. Zero  |  Bartz Klauser vs. Gilgamesh
+   36  poll 4545   official  Donkey Kong vs. King K. Rool  |  Sub-Zero vs. Scorpion
+   37  poll 4546   official  Pokemon Trainer Red vs. Pokemon Trainer Blue  |  Luigi vs. Waluigi
+   38  poll 4547   official  Ryu vs. Ken  |  Fox McCloud vs. Wolf O'Donnell
+   39  poll 4548   official  Samus Aran vs. Ridley  |  Terra Branford vs. Kefka Palazzo
+   40  poll 4549   official  Chris Redfield vs. Albert Wesker  |  Big Boss vs. The Boss
+   41  poll 4550   official  Link vs. Ganondorf  |  Amaterasu vs. Orochi
+   42  poll 4551   official  Zidane Tribal vs. Kuja  |  Mega Man vs. Dr. Wily
+   43  poll 4552   official  Phoenix Wright vs. Miles Edgeworth  |  Alucard vs. Dracula
+   44  poll 4553   official  Chell vs. GLaDOS  |  Frog vs. Magus
+   45  poll 4554   official  Cloud Strife vs. Sephiroth  |  Kratos vs. Zeus
+   46  poll 4555   official  Pac-Man vs. Blinky  |  Solid Snake vs. Liquid Snake
+   47  poll 4556   official  Squall Leonhart vs. Seifer Almasy  |  Siegfried vs. Nightmare
+   48  poll 4557   official  Dante vs. Vergil  |  Sora vs. Riku
+   49  poll 4558   official  Mario vs. Bowser  |  Sonic the Hedgehog vs. Dr. Robotnik
+   50  poll 4559   official  Mega Man X vs. Zero  |  Sub-Zero vs. Scorpion
+   51  poll 4560   official  Pokemon Trainer Red vs. Pokemon Trainer Blue  |  Ryu vs. Ken
+   52  poll 4561   official  Samus Aran vs. Ridley  |  Big Boss vs. The Boss
+   53  poll 4562   official  Link vs. Ganondorf  |  Mega Man vs. Dr. Wily
+   54  poll 4563   official  Alucard vs. Dracula  |  Frog vs. Magus
+   55  poll 4564   official  Cloud Strife vs. Sephiroth  |  Solid Snake vs. Liquid Snake
+   56  poll 4565   official  Squall Leonhart vs. Seifer Almasy  |  Sora vs. Riku
+   57  poll 4566   official  Mario vs. Bowser  |  Mega Man X vs. Zero
+   58  poll 4567   official  Pokemon Trainer Red vs. Pokemon Trainer Blue  |  Samus Aran vs. Ridley
+   59  poll 4568   official  Link vs. Ganondorf  |  Alucard vs. Dracula
+   60  poll 4569   official  Cloud Strife vs. Sephiroth  |  Squall Leonhart vs. Seifer Almasy
+   61  poll 4570   official  Mario vs. Bowser  |  Pokemon Trainer Red vs. Pokemon Trainer Blue
+   62  poll 4571   official  Link vs. Ganondorf  |  Cloud Strife vs. Sephiroth
+   63  poll 4572   official  Mario vs. Bowser  |  Link vs. Ganondorf
+   64  poll 4573   BONUS     Pokemon Trainer Red vs. Pokemon Trainer Blue  |  Cloud vs. Sephiroth
+
+### CB IX   (125 matches; 121 official, 4 bonus)
+    1  poll 5143   official  Link  |  Isaac (Binding)  |  Tingle
+    2  poll 5144   official  Raiden  |  Waluigi  |  Alan Wake
+    3  poll 5145   official  Yoshi  |  Solaire of Astora  |  Demi-Fiend
+    4  poll 5146   official  Commander Shepard  |  Captain Olimar  |  Kain
+    5  poll 5147   official  Tharja  |  Juliet Starling  |  Tiny Tina
+    6  poll 5148   official  Hero  |  Rinoa Heartilly  |  Aerith Gainsborough
+    7  poll 5149   official  Draven  |  Chie Satonaka  |  Jak
+    8  poll 5150   official  Yuri Lowell  |  Ryu  |  Face McShooty
+    9  poll 5151   official  Mega Man X  |  Welkin Gunther  |  Jigglypuff
+   10  poll 5152   official  Sonic the Hedgehog  |  Fei Fong Wong  |  Dan Hibiki
+   11  poll 5153   official  Lucina  |  Dracula  |  Caim
+   12  poll 5154   official  Professor Layton  |  Barret Wallace  |  Reimu Hakurei
+   13  poll 5155   official  Phoenix Wright  |  Marth  |  Nightmare
+   14  poll 5156   official  KOS-MOS  |  Dunban  |  Vincent Valentine
+   15  poll 5157   official  Chester  |  Mewtwo  |  Zero (999)
+   16  poll 5158   official  Chrom  |  The Boss  |  Heavy
+   17  poll 5159   official  Garrus Vakarian  |  Sub-Zero  |  Frank West
+   18  poll 5160   official  Bowser  |  Archer  |  Meta Knight
+   19  poll 5161   official  Sephiroth  |  Midna  |  Little Mac
+   20  poll 5162   official  Morrigan Aensland  |  Miles Edgeworth  |  Agent 47
+   21  poll 5163   official  Spyro the Dragon  |  Clementine  |  Reyn
+   22  poll 5164   official  Luigi  |  Balthier Bunansa  |  Jade
+   23  poll 5165   official  Big Boss  |  Peacock  |  Captain Viridian
+   24  poll 5166   official  CATS  |  Ness  |  Locke Cole
+   25  poll 5167   official  Elizabeth  |  Poison  |  Thrall
+   26  poll 5168   official  Kirby  |  Terra Branford  |  Princess Peach
+   27  poll 5169   official  Wheatley  |  Crash Bandicoot  |  Tommy Vercetti
+   28  poll 5170   official  Solid Snake  |  Isaac (Golden Sun)  |  Commander Keen
+   29  poll 5171   official  Alucard  |  Captain Falcon  |  Rydia
+   30  poll 5172   official  Bayonetta  |  N  |  Wander
+   31  poll 5173   official  GlaDOS  |  Cole  |  Ragna the Bloodedge
+   32  poll 5174   official  Ike  |  Proto Man  |  Dr. Ivo '"Eggman" Robotnik
+   33  poll 5175   official  Epona  |  Mordin Solus  |  Niko Bellic
+   34  poll 5176   official  Shulk  |  Ratchet  |  Altair
+   35  poll 5177   official  Lara Croft  |  Yuri Hyuga  |  Slime
+   36  poll 5178   official  Kefka  |  Zack Fair  |  Ryu Hayabusa
+   37  poll 5179   official  Cloud Strife  |  Sen. Steven Armstrong  |  Prinny
+   38  poll 5180   official  Handsome Jack  |  Frog  |  Viewtiful Joe
+   39  poll 5181   official  Sly Cooper  |  Francis York Morgan  |  Lugia
+   40  poll 5182   official  Dante  |  Laharl  |  Raz
+   41  poll 5183   official  Squirtle  |  Ramza Beoulve  |  JC Denton
+   42  poll 5184   official  Spring Breeze Dancin'  |  Zidane Tribal  |  Ridley
+   43  poll 5185   official  Yu Narukami  |  Shadow the Hedgehog  |  Kat
+   44  poll 5186   official  Leon Kennedy  |  Albert Wesker  |  Oliver
+   45  poll 5187   official  Gordon Freeman  |  Hades  |  Simon Belmont
+   46  poll 5188   official  Crono  |  Sarah Kerrigan  |  Missile
+   47  poll 5189   official  Pikachu  |  Lloyd Irving  |  Big Daddy
+   48  poll 5190   official  Magus  |  Hal "Otacon" Emmerich  |  Jade Curtiss
+   49  poll 5191   official  Sora  |  Scorpion  |  Aya Brea
+   50  poll 5192   official  Booker DeWitt  |  Gilgamesh  |  Kaim Argonar
+   51  poll 5193   official  Groose  |  Lu Bu  |  Yoshimitsu
+   52  poll 5194   official  Lee Everett  |  Meat Boy  |  Mr. Game & Watch
+   53  poll 5195   official  Nathan Drake  |  Steve  |  Pac-Man
+   54  poll 5196   official  Fox McCloud  |  Pokemon Trainer Blue  |  Wolf O'Donnell
+   55  poll 5197   official  Samus Aran  |  Isaac Clarke  |  Sandbag
+   56  poll 5198   official  Neku Sakuraba  |  Vaas Montenegro  |  Catherine
+   57  poll 5199   official  Knuckles the Echidna  |  Seifer Almasy  |  Celes Chere
+   58  poll 5200   official  Ezio Auditore da Firenze  |  Miles "Tails" Prower  |  Bomberman
+   59  poll 5201   official  Auron  |  Revolver Ocelot  |  Roxas
+   60  poll 5202   official  L-Block  |  Teemo  |  Palutena
+   61  poll 5203   official  Dragonborn  |  Tom Nook  |  Pyramid Head
+   62  poll 5204   official  Master Chief  |  Yuna  |  Claire Redfield
+   63  poll 5205   official  Tifa Lockheart  |  Cirno  |  Chun-Li
+   64  poll 5206   official  Mario  |  Duke Nukem  |  Fawful
+   65  poll 5207   official  Vivi  |  Adam Jensen  |  Marisa Kirisame
+   66  poll 5208   official  Ganondorf  |  Guybrush Threepwood  |  Max Payne
+   67  poll 5209   official  Squall Leonhart  |  Rayman  |  Commander Video
+   68  poll 5210   official  Amaterasu  |  Vyse  |  Adol Christin
+   69  poll 5211   official  Missingno  |  Tidus  |  Banjo
+   70  poll 5212   official  Creeper  |  Wario  |  The King of All Cosmos
+   71  poll 5213   official  Pokemon Trainer Red  |  Corvo Attano  |  Sissel
+   72  poll 5214   official  Pit  |  Urdnot Wrex  |  Cecil Harvey
+   73  poll 5215   official  Mega Man  |  Geno  |  Magikarp
+   74  poll 5216   official  Kratos  |  Travis Touchdown  |  Recette Lemongrass
+   75  poll 5217   official  Red Bird  |  Mike Haggar  |  Jill Valentine
+   76  poll 5218   official  Zero (Mega Man X)  |  Kratos Aurion  |  Boko
+   77  poll 5219   official  Lenneth Valkyrie  |  Claptrap  |  Weighted Companion Cube
+   78  poll 5220   official  ? Block  |  Lyndis  |  Rikku
+   79  poll 5221   official  John Marston  |  Zelda  |  Sackboy
+   80  poll 5222   official  Lightning  |  Donkey Kong  |  Falco Lombardi
+   81  poll 5223   official  Charizard  |  Riku  |  Nier
+   82  poll 5224   BONUS     Chester  |  Caim  |  Spring Breeze Dancin'
+   83  poll 5225   official  Link  |  Raiden  |  Yoshi
+   84  poll 5226   official  Commander Shepard  |  Tharja  |  Aerith Gainsborough
+   85  poll 5227   official  Draven  |  Ryu  |  Mega Man X
+   86  poll 5228   official  Sonic the Hedgehog  |  Dracula  |  Barret Wallace
+   87  poll 5229   official  Phoenix Wright  |  Vincent Valentine  |  Mewtwo
+   88  poll 5230   official  The Boss  |  Sub-Zero  |  Bowser
+   89  poll 5231   official  Sephiroth  |  Morrigan Aensland  |  Spyro the Dragon
+   90  poll 5232   official  Luigi  |  Big Boss  |  Ness
+   91  poll 5233   official  Elizabeth  |  Kirby  |  Crash Bandicoot
+   92  poll 5234   official  Solid Snake  |  Alucard  |  Bayonetta
+   93  poll 5235   official  GlaDOS  |  Ike  |  Epona
+   94  poll 5236   official  Altair  |  Lara Croft  |  Kefka
+   95  poll 5237   official  Cloud Strife  |  Frog  |  Lugia
+   96  poll 5238   official  Dante  |  Squirtle  |  Zidane Tribal
+   97  poll 5239   official  Shadow the Hedgehog  |  Leon Kennedy  |  Gordon Freeman
+   98  poll 5240   official  Crono  |  Pikachu  |  Magus
+   99  poll 5241   official  Sora  |  Gilgamesh  |  Yoshimitsu
+  100  poll 5242   official  Mr. Game & Watch  |  Nathan Drake  |  Pokemon Trainer Blue
+  101  poll 5243   official  Samus Aran  |  Catherine  |  Knuckles the Echidna
+  102  poll 5244   official  Ezio Auditore da Firenze  |  Auron  |  L-Block
+  103  poll 5245   official  Dragonborn  |  Yuna  |  Tifa Lockheart
+  104  poll 5246   official  Mario  |  Vivi  |  Ganondorf
+  105  poll 5247   official  Squall Leonhart  |  Amaterasu  |  Missingno
+  106  poll 5248   official  Wario  |  Pokemon Trainer Red  |  Urdnot Wrex
+  107  poll 5249   official  Mega Man  |  Kratos  |  Jill Valentine
+  108  poll 5250   official  Zero (Mega Man X)  |  Weighted Companion Cube  |  Rikku
+  109  poll 5251   official  Zelda  |  Donkey Kong  |  Charizard
+  110  poll 5252   BONUS     Mario  |  Crono  |  Mega Man X
+  111  poll 5253   official  Link  |  Commander Shepard  |  Draven
+  112  poll 5254   official  Sonic the Hedgehog  |  Mewtwo  |  Bowser
+  113  poll 5255   official  Sephiroth  |  Big Boss  |  Kirby
+  114  poll 5256   official  Solid Snake  |  GlaDOS  |  Kefka
+  115  poll 5257   official  Cloud Strife  |  Squirtle  |  Leon Kennedy
+  116  poll 5258   official  Pikachu  |  Sora  |  Pokemon Trainer Blue
+  117  poll 5259   official  Samus Aran  |  L-Block  |  Tifa Lockheart
+  118  poll 5260   official  Vivi  |  Squall Leonhart  |  Pokemon Trainer Red
+  119  poll 5261   official  Mega Man  |  Zero (Mega Man X)  |  Charizard
+  120  poll 5262   official  Draven  |  Mewtwo  |  Sephiroth
+  121  poll 5263   official  Solid Snake  |  Squirtle  |  Pikachu
+  122  poll 5264   official  Samus Aran  |  Pokemon Trainer Red  |  Mega Man
+  123  poll 5265   BONUS     Mewtwo  |  Pikachu  |  Mega Man
+  124  poll 5266   official  Draven  |  Solid Snake  |  Samus Aran
+  125  poll 5267   BONUS     Link  |  Solid Snake
+
+### BGE 2K15   (131 matches; 127 official, 4 bonus)
+    1  poll 6051   official  Chrono Trigger  |  Ratchet & Clank: Up Your Arsenal
+    2  poll 6052   official  Dragon Quest VIII: Journey of the Cursed King  |  Shin Megami Tensei: Persona 3
+    3  poll 6053   official  Batman: Arkham City  |  Mega Man X
+    4  poll 6054   official  Final Fantasy X  |  Half-Life
+    5  poll 6055   official  Super Smash Bros. Melee  |  Portal
+    6  poll 6056   official  Pokemon Gold/Silver/Crystal Version  |  The World Ends with You
+    7  poll 6057   official  Metal Gear Solid 4: Guns of the Patriots  |  Kingdom Hearts II
+    8  poll 6058   official  The Last of Us  |  Halo 3
+    9  poll 6059   official  Final Fantasy VI  |  Assassin's Creed II
+   10  poll 6060   official  Paper Mario: The Thousand-Year Door  |  Tales of Symphonia
+   11  poll 6061   official  Star Wars: Knights of the Old Republic  |  Xenogears
+   12  poll 6062   official  The Legend of Zelda: The Wind Waker  |  Pokemon X/Y
+   13  poll 6063   official  Super Smash Bros. for Wii U  |  Planescape: Torment
+   14  poll 6064   official  Super Mario Galaxy 2  |  Mass Effect
+   15  poll 6065   official  Minecraft  |  Halo: Combat Evolved
+   16  poll 6066   official  Final Fantasy VII  |  Journey
+   17  poll 6067   official  Super Mario Bros. 3  |  Age of Empires II: The Age of Kings
+   18  poll 6068   official  Pokemon Red/Blue/Yellow/Green Version  |  Tetris
+   19  poll 6069   official  Portal 2  |  Sonic the Hedgehog 2
+   20  poll 6070   official  Uncharted 2: Among Thieves  |  The Walking Dead: A Telltale Games Series
+   21  poll 6071   official  Fallout 3  |  Life is Strange
+   22  poll 6072   official  Undertale  |  Mass Effect 3
+   23  poll 6073   official  Grand Theft Auto: Vice City  |  Final Fantasy VIII
+   24  poll 6074   official  Super Mario World  |  Animal Crossing: New Leaf
+   25  poll 6075   official  The Elder Scrolls V: Skyrim  |  Phoenix Wright: Ace Attorney
+   26  poll 6076   official  GoldenEye 007  |  Diablo II
+   27  poll 6077   official  Metroid Prime  |  The Elder Scrolls III: Morrowind
+   28  poll 6078   official  Half-Life 2  |  Demon's Souls
+   29  poll 6079   official  Super Mario 64  |  Mario Kart 8
+   30  poll 6080   official  Final Fantasy Tactics  |  Resident Evil 2
+   31  poll 6081   official  The Legend of Zelda: Twilight Princess  |  Skies of Arcadia
+   32  poll 6082   official  Shin Megami Tensei: Persona 4  |  Nine Hours, Nine Persons, Nine Doors
+   33  poll 6083   official  The Legend of Zelda: Ocarina of Time  |  Hearthstone: Heroes of Warcraft
+   34  poll 6084   official  Suikoden II  |  Monster Hunter 4 Ultimate
+   35  poll 6085   official  Okami  |  Warcraft III: Reign of Chaos
+   36  poll 6086   official  Final Fantasy IX  |  Kingdom Hearts
+   37  poll 6087   official  Xenoblade Chronicles  |  Donkey Kong Country 2: Diddy's Kong Quest
+   38  poll 6088   official  Fire Emblem: Awakening  |  Super Mario Maker
+   39  poll 6089   official  Banjo-Kazooie  |  Baldur's Gate II: Shadows of Amn
+   40  poll 6090   official  Castlevania: Symphony of the Night  |  Phoenix Wright: Ace Attorney Trials and Tribulatio
+   41  poll 6091   official  The Legend of Zelda: A Link to the Past  |  Cave Story
+   42  poll 6092   official  Deus Ex  |  Final Fantasy IV
+   43  poll 6093   official  Metal Gear Solid V: The Phantom Pain  |  Perfect Dark
+   44  poll 6094   official  Dark Souls  |  Sid Meier's Civilization V
+   45  poll 6095   official  Super Metroid  |  Call of Duty 4: Modern Warfare
+   46  poll 6096   official  Super Mario Galaxy  |  Dragon Age: Origins
+   47  poll 6097   official  Bloodborne  |  Final Fantasy XII
+   48  poll 6098   official  The Legend of Zelda: Majora's Mask  |  Valkyria Chronicles
+   49  poll 6099   official  Grand Theft Auto V  |  Shenmue
+   50  poll 6100   official  The Elder Scrolls IV: Oblivion  |  Super Mario RPG: Legend of the Seven Stars
+   51  poll 6101   official  Grand Theft Auto: San Andreas  |  Shovel Knight
+   52  poll 6102   official  World of Warcraft  |  Chrono Cross
+   53  poll 6103   official  The Witcher 3: Wild Hunt  |  The Binding of Isaac: Rebirth
+   54  poll 6104   official  Metal Gear Solid 2: Sons of Liberty  |  Resident Evil
+   55  poll 6105   official  Fallout: New Vegas  |  BioShock Infinite
+   56  poll 6106   official  Resident Evil 4  |  Paper Mario
+   57  poll 6107   official  Metal Gear Solid  |  Splatoon
+   58  poll 6108   official  EarthBound  |  Borderlands 2
+   59  poll 6109   official  Shadow of the Colossus  |  Team Fortress 2
+   60  poll 6110   official  Red Dead Redemption  |  Bayonetta 2
+   61  poll 6111   official  Metal Gear Solid 3: Snake Eater  |  Mother 3
+   62  poll 6112   official  BioShock  |  Silent Hill 2
+   63  poll 6113   official  Starcraft  |  Destiny
+   64  poll 6114   official  Mass Effect 2  |  Zero Escape: Virtue's Last Reward
+   65  poll 6115   official  Chrono Trigger  |  Dragon Quest VIII: Journey of the Cursed King
+   66  poll 6116   official  Mega Man X  |  Final Fantasy X
+   67  poll 6117   official  Super Smash Bros. Melee  |  Pokemon Gold/Silver/Crystal Version
+   68  poll 6118   official  Kingdom Hearts II  |  The Last of Us
+   69  poll 6119   official  Final Fantasy VI  |  Paper Mario: The Thousand-Year Door
+   70  poll 6120   official  Star Wars: Knights of the Old Republic  |  The Legend of Zelda: The Wind Waker
+   71  poll 6121   official  Super Smash Bros. for Wii U  |  Mass Effect
+   72  poll 6122   official  Halo: Combat Evolved  |  Final Fantasy VII
+   73  poll 6123   official  Super Mario Bros. 3  |  Pokemon Red/Blue/Yellow/Green Version
+   74  poll 6124   official  Sonic the Hedgehog 2  |  Uncharted 2: Among Thieves
+   75  poll 6125   official  Fallout 3  |  Undertale
+   76  poll 6126   official  Final Fantasy VIII  |  Super Mario World
+   77  poll 6127   official  The Elder Scrolls V: Skyrim  |  GoldenEye 007
+   78  poll 6128   official  Metroid Prime  |  Half-Life 2
+   79  poll 6129   official  Super Mario 64  |  Final Fantasy Tactics
+   80  poll 6130   official  The Legend of Zelda: Twilight Princess  |  Shin Megami Tensei: Persona 4
+   81  poll 6131   official  The Legend of Zelda: Ocarina of Time  |  Suikoden II
+   82  poll 6132   official  Okami  |  Final Fantasy IX
+   83  poll 6133   official  Donkey Kong Country 2: Diddy's Kong Quest  |  Fire Emblem: Awakening
+   84  poll 6134   official  Banjo-Kazooie  |  Castlevania: Symphony of the Night
+   85  poll 6135   official  The Legend of Zelda: A Link to the Past  |  Final Fantasy IV
+   86  poll 6136   official  Metal Gear Solid V: The Phantom Pain  |  Dark Souls
+   87  poll 6137   official  Super Metroid  |  Super Mario Galaxy
+   88  poll 6138   official  Final Fantasy XII  |  The Legend of Zelda: Majora's Mask
+   89  poll 6139   official  Grand Theft Auto V  |  Super Mario RPG: Legend of the Seven Stars
+   90  poll 6140   official  Grand Theft Auto: San Andreas  |  Chrono Cross
+   91  poll 6141   official  The Witcher 3: Wild Hunt  |  Metal Gear Solid 2: Sons of Liberty
+   92  poll 6142   official  Fallout: New Vegas  |  Resident Evil 4
+   93  poll 6143   official  Metal Gear Solid  |  EarthBound
+   94  poll 6144   official  Shadow of the Colossus  |  Red Dead Redemption
+   95  poll 6145   official  Metal Gear Solid 3: Snake Eater  |  BioShock
+   96  poll 6146   official  Starcraft  |  Mass Effect 2
+   97  poll 6147   official  Chrono Trigger  |  Final Fantasy X
+   98  poll 6148   official  Super Smash Bros. Melee  |  Kingdom Hearts II
+   99  poll 6149   official  Final Fantasy VI  |  The Legend of Zelda: The Wind Waker
+  100  poll 6150   official  Super Smash Bros. for Wii U  |  Final Fantasy VII
+  101  poll 6151   official  Pokemon Red/Blue/Yellow/Green Version  |  Sonic the Hedgehog 2
+  102  poll 6152   official  Undertale  |  Super Mario World
+  103  poll 6153   official  The Elder Scrolls V: Skyrim  |  Metroid Prime
+  104  poll 6154   official  Super Mario 64  |  The Legend of Zelda: Twilight Princess
+  105  poll 6155   official  The Legend of Zelda: Ocarina of Time  |  Final Fantasy IX
+  106  poll 6156   official  Donkey Kong Country 2: Diddy's Kong Quest  |  Castlevania: Symphony of the Night
+  107  poll 6157   official  The Legend of Zelda: A Link to the Past  |  Dark Souls
+  108  poll 6158   official  Super Metroid  |  The Legend of Zelda: Majora's Mask
+  109  poll 6159   official  Super Mario RPG: Legend of the Seven Stars  |  Chrono Cross
+  110  poll 6160   official  Metal Gear Solid 2: Sons of Liberty  |  Resident Evil 4
+  111  poll 6161   official  Metal Gear Solid  |  Shadow of the Colossus
+  112  poll 6162   official  Metal Gear Solid 3: Snake Eater  |  Mass Effect 2
+  113  poll 6163   official  Chrono Trigger  |  Super Smash Bros. Melee
+  114  poll 6164   official  Final Fantasy VI  |  Final Fantasy VII
+  115  poll 6165   official  Pokemon Red/Blue/Yellow/Green Version  |  Undertale
+  116  poll 6166   official  The Elder Scrolls V: Skyrim  |  Super Mario 64
+  117  poll 6167   official  The Legend of Zelda: Ocarina of Time  |  Castlevania: Symphony of the Night
+  118  poll 6168   official  The Legend of Zelda: A Link to the Past  |  The Legend of Zelda: Majora's Mask
+  119  poll 6169   official  Super Mario RPG: Legend of the Seven Stars  |  Resident Evil 4
+  120  poll 6170   official  Metal Gear Solid  |  Metal Gear Solid 3: Snake Eater
+  121  poll 6171   official  Super Smash Bros. Melee  |  Final Fantasy VII
+  122  poll 6172   official  Undertale  |  Super Mario 64
+  123  poll 6173   official  The Legend of Zelda: Ocarina of Time  |  The Legend of Zelda: A Link to the Past
+  124  poll 6174   official  Super Mario RPG: Legend of the Seven Stars  |  Metal Gear Solid 3: Snake Eater
+  125  poll 6175   official  Super Smash Bros. Melee  |  Undertale
+  126  poll 6176   official  The Legend of Zelda: Ocarina of Time  |  Super Mario RPG: Legend of the Seven Stars
+  127  poll 6177   official  Undertale  |  The Legend of Zelda: Ocarina of Time
+  128  poll 6178   BONUS     Super Smash Bros. Melee  |  Super Mario RPG: Legend of the Seven Stars
+  129  poll 6179   BONUS     Chrono Trigger  |  Final Fantasy VI
+  130  poll 6180   BONUS     Pokemon Red/Blue/Yellow/Green Version  |  Super Mario 64
+  131  poll 6181   BONUS     Final Fantasy VII  |  The Legend of Zelda: Ocarina of Time
+
+### Best Year   (35 matches; 35 official, 0 bonus)
+    1  poll 6686   official  1979  |  2009
+    2  poll 6687   official  1983  |  1989
+    3  poll 6688   official  1981  |  2006
+    4  poll 6689   official  1978  |  2005
+    5  poll 6690   official  1995  |  1986
+    6  poll 6691   official  1985  |  1987
+    7  poll 6692   official  2001  |  2014
+    8  poll 6693   official  2008  |  2009
+    9  poll 6694   official  1997  |  1999
+   10  poll 6695   official  2007  |  2012
+   11  poll 6696   official  2000  |  1990
+   12  poll 6697   official  1996  |  1989
+   13  poll 6698   official  1991  |  1988
+   14  poll 6699   official  2002  |  2010
+   15  poll 6700   official  1994  |  2004
+   16  poll 6701   official  2011  |  2006
+   17  poll 6702   official  1998  |  1993
+   18  poll 6703   official  1992  |  2016
+   19  poll 6704   official  2013  |  2003
+   20  poll 6705   official  2015  |  2005
+   21  poll 6706   official  1995  |  1987
+   22  poll 6707   official  2001  |  2008
+   23  poll 6708   official  1997  |  2007
+   24  poll 6709   official  2000  |  1996
+   25  poll 6710   official  1991  |  2002
+   26  poll 6711   official  1994  |  2011
+   27  poll 6712   official  1998  |  1992
+   28  poll 6713   official  2003  |  2005
+   29  poll 6714   official  1995  |  2001
+   30  poll 6715   official  1997  |  1996
+   31  poll 6716   official  1991  |  1994
+   32  poll 6717   official  1998  |  2003
+   33  poll 6718   official  2001  |  1997
+   34  poll 6719   official  1994  |  1998
+   35  poll 6720   official  2001  |  1998
+
+### CB X   (150 matches; 150 official, 0 bonus)
+    1  poll 7238   official  Dante  |  Cuphead
+    2  poll 7239   official  Chloe Price  |  Lightning
+    3  poll 7240   official  Spyro the Dragon  |  Chun-Li
+    4  poll 7241   official  Ganondorf  |  Neku Sakuraba
+    5  poll 7242   official  Vivi  |  Yu Narukami
+    6  poll 7243   official  Victor Sullivan  |  Aya Brea
+    7  poll 7244   official  Tidus  |  Donkey Kong
+    8  poll 7245   official  Leon Kennedy  |  Dragonborn
+    9  poll 7246   official  Zero  |  Primrose
+   10  poll 7247   official  Zidane Tribal  |  Knuckles the Echidna
+   11  poll 7248   official  Noctis Lucis Caelum  |  Master Hand
+   12  poll 7249   official  Monika  |  Wario
+   13  poll 7250   official  Yoshi  |  Shantae
+   14  poll 7251   official  Velvet Crowe  |  James Sunderland
+   15  poll 7252   official  Pikachu  |  Scorpion
+   16  poll 7253   official  Kratos  |  John Marston
+   17  poll 7254   official  Sora  |  Ryo Hazuki
+   18  poll 7255   official  Neptune  |  Pokemon Trainer Red
+   19  poll 7256   official  Crash Bandicoot  |  Cecil Harvey
+   20  poll 7257   official  Big Boss  |  Ridley
+   21  poll 7258   official  Alucard  |  Princess Peach
+   22  poll 7259   official  Yuna  |  Godot
+   23  poll 7260   official  Kefka  |  L-Block
+   24  poll 7261   official  Kazuma Kiryu  |  Bomberman
+   25  poll 7262   official  2B  |  Cayde-6
+   26  poll 7263   official  Shadow the Hedgehog  |  Ness
+   27  poll 7264   official  Terra Branford  |  Charizard
+   28  poll 7265   official  Bowser  |  Gordon Freeman
+   29  poll 7266   official  Phoenix Wright  |  Chris Redfield
+   30  poll 7267   official  Ike  |  Joel
+   31  poll 7268   official  Estelle Bright  |  Isaac
+   32  poll 7269   official  Kirby  |  Guile
+   33  poll 7270   official  Squall Leonhart  |  Hat Kid
+   34  poll 7271   official  Garrus Vakarian  |  Ramza Beoulve
+   35  poll 7272   official  Metal Sonic  |  The Boss
+   36  poll 7273   official  Zelda  |  Ezio Auditore da Firenze
+   37  poll 7274   official  Aloy  |  D.Va
+   38  poll 7275   official  Jill Valentine  |  Fox McCloud
+   39  poll 7276   official  Shovel Knight  |  Captain Toad
+   40  poll 7277   official  Waluigi  |  Aerith Gainsborough
+   41  poll 7278   official  Geralt  |  Rosalina
+   42  poll 7279   official  Ryu Hayabusa  |  Simon Belmont
+   43  poll 7280   official  Sans  |  Pac-Man
+   44  poll 7281   official  Bayonetta  |  Riku
+   45  poll 7282   official  Auron  |  Lucina
+   46  poll 7283   official  Magus  |  Vincent Valentine
+   47  poll 7284   official  Shulk  |  Sub-Zero
+   48  poll 7285   official  Ren Amamiya / Joker  |  Claire Redfield
+   49  poll 7286   official  Luigi  |  Miles Edgeworth
+   50  poll 7287   official  Frog  |  Monokuma
+   51  poll 7288   official  Master Chief  |  Goro Majima
+   52  poll 7289   official  Nathan Drake  |  Miles 'Tails' Prower
+   53  poll 7290   official  Tifa Lockheart  |  Geno
+   54  poll 7291   official  GlaDOS  |  Mewtwo
+   55  poll 7292   official  King Dedede  |  Revolver Ocelot
+   56  poll 7293   official  Mega Man X  |  Isabelle
+   57  poll 7294   official  Sephiroth  |  Albert Wesker
+   58  poll 7295   official  Richter Belmont  |  Captain Falcon
+   59  poll 7296   official  Amaterasu  |  Draven
+   60  poll 7297   official  Lara Croft  |  Metal Man
+   61  poll 7298   official  Ryu  |  Lloyd Irving
+   62  poll 7299   official  Commander Shepard  |  King K. Rool
+   63  poll 7300   official  Ellie  |  KOS-MOS
+   64  poll 7301   official  Aqua  |  Quiet
+   65  poll 7302   official  Dante  |  Lightning
+   66  poll 7303   official  Chun-Li  |  Ganondorf
+   67  poll 7304   official  Vivi  |  Aya Brea
+   68  poll 7305   official  Donkey Kong  |  Leon Kennedy
+   69  poll 7306   official  Zero  |  Knuckles the Echidna
+   70  poll 7307   official  Master Hand  |  Wario
+   71  poll 7308   official  Yoshi  |  Velvet Crowe
+   72  poll 7309   official  Pikachu  |  Kratos
+   73  poll 7310   official  Sora  |  Pokemon Trainer Red
+   74  poll 7311   official  Crash Bandicoot  |  Big Boss
+   75  poll 7312   official  Alucard  |  Yuna
+   76  poll 7313   official  Kefka  |  Bomberman
+   77  poll 7314   official  2B  |  Ness
+   78  poll 7315   official  Charizard  |  Bowser
+   79  poll 7316   official  Phoenix Wright  |  Ike
+   80  poll 7317   official  Isaac  |  Kirby
+   81  poll 7318   official  Squall Leonhart  |  Garrus Vakarian
+   82  poll 7319   official  The Boss  |  Zelda
+   83  poll 7320   official  D.Va  |  Fox McCloud
+   84  poll 7321   official  Captain Toad  |  Aerith Gainsborough
+   85  poll 7322   official  Geralt  |  Simon Belmont
+   86  poll 7323   official  Pac-Man  |  Bayonetta
+   87  poll 7324   official  Auron  |  Vincent Valentine
+   88  poll 7325   official  Sub-Zero  |  Claire Redfield
+   89  poll 7326   official  Luigi  |  Frog
+   90  poll 7327   official  Master Chief  |  Miles 'Tails' Prower
+   91  poll 7328   official  Tifa Lockheart  |  Mewtwo
+   92  poll 7329   official  Revolver Ocelot  |  Mega Man X
+   93  poll 7330   official  Sephiroth  |  Captain Falcon
+   94  poll 7331   official  Amaterasu  |  Lara Croft
+   95  poll 7332   official  Ryu  |  Commander Shepard
+   96  poll 7333   official  KOS-MOS  |  Aqua
+   97  poll 7334   official  Dante  |  Ganondorf
+   98  poll 7335   official  Vivi  |  Donkey Kong
+   99  poll 7336   official  Zero  |  Wario
+  100  poll 7337   official  Yoshi  |  Pikachu
+  101  poll 7338   official  Pokemon Trainer Red  |  Big Boss
+  102  poll 7339   official  Alucard  |  Kefka
+  103  poll 7340   official  2B  |  Bowser
+  104  poll 7341   official  Phoenix Wright  |  Kirby
+  105  poll 7342   official  Squall Leonhart  |  Zelda
+  106  poll 7343   official  Fox McCloud  |  Aerith Gainsborough
+  107  poll 7344   official  Geralt  |  Bayonetta
+  108  poll 7345   official  Auron  |  Sub-Zero
+  109  poll 7346   official  Luigi  |  Miles 'Tails' Prower
+  110  poll 7347   official  Tifa Lockheart  |  Mega Man X
+  111  poll 7348   official  Sephiroth  |  Amaterasu
+  112  poll 7349   official  Ryu  |  KOS-MOS
+  113  poll 7350   official  Ganondorf  |  Vivi
+  114  poll 7351   official  Zero  |  Pikachu
+  115  poll 7352   official  Pokemon Trainer Red  |  Alucard
+  116  poll 7353   official  Bowser  |  Kirby
+  117  poll 7354   official  Zelda  |  Aerith Gainsborough
+  118  poll 7355   official  Geralt  |  Auron
+  119  poll 7356   official  Luigi  |  Tifa Lockheart
+  120  poll 7357   official  Sephiroth  |  Ryu
+  121  poll 7358   official  Link  |  Ganondorf
+  122  poll 7359   official  Mega Man  |  Pikachu
+  123  poll 7360   official  Cloud Strife  |  Alucard
+  124  poll 7361   official  Crono  |  Bowser
+  125  poll 7362   official  Solid Snake  |  Zelda
+  126  poll 7363   official  Sonic the Hedgehog  |  Auron
+  127  poll 7364   official  Samus Aran  |  Tifa Lockheart
+  128  poll 7365   official  Mario  |  Sephiroth
+  129  poll 7366   official  Ganondorf  |  Mega Man
+  130  poll 7367   official  Alucard  |  Bowser
+  131  poll 7368   official  Solid Snake  |  Auron
+  132  poll 7369   official  Tifa Lockheart  |  Sephiroth
+  133  poll 7370   official  Link  |  Pikachu
+  134  poll 7371   official  Cloud Strife  |  Crono
+  135  poll 7372   official  Zelda  |  Sonic the Hedgehog
+  136  poll 7373   official  Samus Aran  |  Mario
+  137  poll 7374   official  Pikachu  |  Mega Man
+  138  poll 7375   official  Crono  |  Bowser
+  139  poll 7376   official  Sonic the Hedgehog  |  Solid Snake
+  140  poll 7377   official  Samus Aran  |  Tifa Lockheart
+  141  poll 7378   official  Link  |  Cloud Strife
+  142  poll 7379   official  Zelda  |  Mario
+  143  poll 7380   official  Mega Man  |  Crono
+  144  poll 7381   official  Solid Snake  |  Samus Aran
+  145  poll 7382   official  Cloud Strife  |  Crono
+  146  poll 7383   official  Mario  |  Samus Aran
+  147  poll 7384   official  Link  |  Zelda
+  148  poll 7385   official  Cloud Strife  |  Mario
+  149  poll 7386   official  Zelda  |  Cloud Strife
+  150  poll 7387   official  Link  |  Cloud Strife
+
+### GOTD 2   (128 matches; 127 official, 1 bonus)
+    1  poll 7915   official  The Legend of Zelda: Breath of the Wild  |  The Outer Worlds
+    2  poll 7916   official  Halo: Reach  |  Life is Strange
+    3  poll 7917   official  Final Fantasy XV  |  What Remains of Edith Finch
+    4  poll 7918   official  Hollow Knight  |  Tales of Berseria
+    5  poll 7919   official  Monster Hunter: World  |  Bravely Default: Flying Fairy
+    6  poll 7920   official  Sekiro: Shadows Die Twice  |  Ni no Kuni: Wrath of the White Witch
+    7  poll 7921   official  The Walking Dead: A Telltale Games Series  |  Bastion
+    8  poll 7922   official  Dragon Quest XI: Echoes of an Elusive Age  |  The Legend of Heroes: Trails in the Sky SC
+    9  poll 7923   official  Mass Effect 2  |  Resident Evil 7: biohazard
+   10  poll 7924   official  Fallout 4  |  VVVVVV
+   11  poll 7925   official  Borderlands 2  |  Bloodstained: Ritual of the Night
+   12  poll 7926   official  Horizon Zero Dawn  |  Fortnite
+   13  poll 7927   official  Resident Evil 2  |  Danganronpa 2: Goodbye Despair
+   14  poll 7928   official  DOOM  |  INSIDE
+   15  poll 7929   official  Fire Emblem: Awakening  |  Deus Ex: Human Revolution
+   16  poll 7930   official  Bloodborne  |  Call of Duty: Black Ops
+   17  poll 7931   official  Super Smash Bros. Ultimate  |  Tekken 7
+   18  poll 7932   official  The Legend of Zelda: A Link Between Worlds  |  Bayonetta
+   19  poll 7933   official  Marvel's Spider-Man  |  Dead Space 2
+   20  poll 7934   official  Minecraft  |  Dota 2
+   21  poll 7935   official  Undertale  |  Octopath Traveler
+   22  poll 7936   official  Shovel Knight  |  Dragon's Dogma
+   23  poll 7937   official  Devil May Cry 5  |  Donkey Kong Country: Tropical Freeze
+   24  poll 7938   official  Super Mario Odyssey  |  Mortal Kombat 11
+   25  poll 7939   official  Grand Theft Auto V  |  Baba Is You
+   26  poll 7940   official  Cuphead  |  XCOM 2
+   27  poll 7941   official  Persona 4 Golden  |  FTL: Faster Than Light
+   28  poll 7942   official  Red Dead Redemption  |  Ghost Trick: Phantom Detective
+   29  poll 7943   official  Xenoblade Chronicles  |  Splatoon 2
+   30  poll 7944   official  Overwatch  |  Death Stranding
+   31  poll 7945   official  Dragon Age: Inquisition  |  Ori and the Blind Forest
+   32  poll 7946   official  Fire Emblem: Three Houses  |  South Park: The Stick of Truth
+   33  poll 7947   official  The Witcher 3: Wild Hunt  |  Assassin's Creed Odyssey
+   34  poll 7948   official  Mass Effect 3  |  Starcraft II: Wings of Liberty
+   35  poll 7949   official  Stardew Valley  |  Destiny
+   36  poll 7950   official  Super Mario Galaxy 2  |  Return of the Obra Dinn
+   37  poll 7951   official  Fallout: New Vegas  |  The Stanley Parable
+   38  poll 7952   official  Dark Souls III  |  Dishonored
+   39  poll 7953   official  The Binding of Isaac: Rebirth  |  Nioh
+   40  poll 7954   official  God of War  |  The Talos Principle
+   41  poll 7955   official  Persona 5  |  Heavy Rain
+   42  poll 7956   official  Assassin's Creed IV: Black Flag  |  Sid Meier's Civilization V
+   43  poll 7957   official  Sonic Mania  |  Ys VIII: Lacrimosa of DANA
+   44  poll 7958   official  Super Meat Boy  |  Slay the Spire
+   45  poll 7959   official  Portal 2  |  Tomb Raider
+   46  poll 7960   official  Kingdom Hearts III  |  Disco Elysium
+   47  poll 7961   official  Animal Crossing: New Leaf  |  Street Fighter V
+   48  poll 7962   official  Red Dead Redemption 2  |  Dying Light
+   49  poll 7963   official  Dark Souls  |  Hotline Miami
+   50  poll 7964   official  Rocket League  |  Dragon Ball FighterZ
+   51  poll 7965   official  Yakuza 0  |  The Witness
+   52  poll 7966   official  Metal Gear Solid V: The Phantom Pain  |  Dead Cells
+   53  poll 7967   official  Batman: Arkham City  |  Xenoblade Chronicles 2
+   54  poll 7968   official  BioShock Infinite  |  Terraria
+   55  poll 7969   official  Diablo III  |  Zero Escape: Virtue's Last Reward
+   56  poll 7970   official  The Last of Us  |  Crusader Kings II
+   57  poll 7971   official  The Elder Scrolls V: Skyrim  |  Subnautica
+   58  poll 7972   official  Fate / Grand Order  |  Journey
+   59  poll 7973   official  Final Fantasy XIV Online: A Realm Reborn  |  Crypt of the NecroDancer
+   60  poll 7974   official  Uncharted 4: A Thief's End  |  Mario Kart 8
+   61  poll 7975   official  Pokemon HeartGold / SoulSilver Version  |  Night in the Woods
+   62  poll 7976   official  Celeste  |  Rayman Legends
+   63  poll 7977   official  Divinity: Original Sin II  |  Hearthstone: Heroes of Warcraft
+   64  poll 7978   official  NieR: Automata  |  Bayonetta 2
+   65  poll 7979   official  The Legend of Zelda: Breath of the Wild  |  Halo: Reach
+   66  poll 7980   official  Final Fantasy XV  |  Hollow Knight
+   67  poll 7981   official  Monster Hunter: World  |  Sekiro: Shadows Die Twice
+   68  poll 7982   official  Bastion  |  Dragon Quest XI: Echoes of an Elusive Age
+   69  poll 7983   official  Mass Effect 2  |  Fallout 4
+   70  poll 7984   official  Borderlands 2  |  Horizon Zero Dawn
+   71  poll 7985   official  Resident Evil 2  |  DOOM
+   72  poll 7986   official  Fire Emblem: Awakening  |  Bloodborne
+   73  poll 7987   official  Super Smash Bros. Ultimate  |  The Legend of Zelda: A Link Between Worlds
+   74  poll 7988   official  Marvel's Spider-Man  |  Minecraft
+   75  poll 7989   official  Octopath Traveler  |  Shovel Knight
+   76  poll 7990   official  Devil May Cry 5  |  Super Mario Odyssey
+   77  poll 7991   official  Grand Theft Auto V  |  Cuphead
+   78  poll 7992   official  Persona 4 Golden  |  Red Dead Redemption
+   79  poll 7993   official  Xenoblade Chronicles  |  Overwatch
+   80  poll 7994   official  Ori and the Blind Forest  |  Fire Emblem: Three Houses
+   81  poll 7995   official  The Witcher 3: Wild Hunt  |  Mass Effect 3
+   82  poll 7996   official  Stardew Valley  |  Super Mario Galaxy 2
+   83  poll 7997   official  Fallout: New Vegas  |  Dark Souls III
+   84  poll 7998   official  Nioh  |  God of War
+   85  poll 7999   official  Persona 5  |  Assassin's Creed IV: Black Flag
+   86  poll 8000   official  Sonic Mania  |  Super Meat Boy
+   87  poll 8001   official  Portal 2  |  Kingdom Hearts III
+   88  poll 8002   official  Animal Crossing: New Leaf  |  Red Dead Redemption 2
+   89  poll 8003   official  Dark Souls  |  Rocket League
+   90  poll 8004   official  Yakuza 0  |  Metal Gear Solid V: The Phantom Pain
+   91  poll 8005   official  Batman: Arkham City  |  BioShock Infinite
+   92  poll 8006   official  Diablo III  |  The Last of Us
+   93  poll 8007   official  The Elder Scrolls V: Skyrim  |  Journey
+   94  poll 8008   official  Final Fantasy XIV Online: A Realm Reborn  |  Mario Kart 8
+   95  poll 8009   official  Pokemon HeartGold / SoulSilver Version  |  Rayman Legends
+   96  poll 8010   official  Divinity: Original Sin II  |  NieR: Automata
+   97  poll 8011   official  The Legend of Zelda: Breath of the Wild  |  Final Fantasy XV
+   98  poll 8012   official  Monster Hunter: World  |  Dragon Quest XI: Echoes of an Elusive Age
+   99  poll 8013   official  Mass Effect 2  |  Horizon Zero Dawn
+  100  poll 8014   official  Resident Evil 2  |  Bloodborne
+  101  poll 8015   official  Super Smash Bros. Ultimate  |  Marvel's Spider-Man
+  102  poll 8016   official  Shovel Knight  |  Super Mario Odyssey
+  103  poll 8017   official  Grand Theft Auto V  |  Persona 4 Golden
+  104  poll 8018   official  Xenoblade Chronicles  |  Fire Emblem: Three Houses
+  105  poll 8019   official  The Witcher 3: Wild Hunt  |  Super Mario Galaxy 2
+  106  poll 8020   official  Fallout: New Vegas  |  God of War
+  107  poll 8021   official  Persona 5  |  Sonic Mania
+  108  poll 8022   official  Portal 2  |  Red Dead Redemption 2
+  109  poll 8023   official  Dark Souls  |  Metal Gear Solid V: The Phantom Pain
+  110  poll 8024   official  Batman: Arkham City  |  The Last of Us
+  111  poll 8025   official  The Elder Scrolls V: Skyrim  |  Mario Kart 8
+  112  poll 8026   official  Pokemon HeartGold / SoulSilver Version  |  NieR: Automata
+  113  poll 8027   official  The Legend of Zelda: Breath of the Wild  |  Dragon Quest XI: Echoes of an Elusive Age
+  114  poll 8028   official  Mass Effect 2  |  Resident Evil 2
+  115  poll 8029   official  Super Smash Bros. Ultimate  |  Super Mario Odyssey
+  116  poll 8030   official  Persona 4 Golden  |  Xenoblade Chronicles
+  117  poll 8031   official  The Witcher 3: Wild Hunt  |  God of War
+  118  poll 8032   official  Persona 5  |  Portal 2
+  119  poll 8033   official  Dark Souls  |  The Last of Us
+  120  poll 8034   official  The Elder Scrolls V: Skyrim  |  Pokemon HeartGold / SoulSilver Version
+  121  poll 8035   official  The Legend of Zelda: Breath of the Wild  |  Mass Effect 2
+  122  poll 8036   official  Super Smash Bros. Ultimate  |  Xenoblade Chronicles
+  123  poll 8037   official  The Witcher 3: Wild Hunt  |  Persona 5
+  124  poll 8038   official  Dark Souls  |  The Elder Scrolls V: Skyrim
+  125  poll 8039   official  The Legend of Zelda: Breath of the Wild  |  Super Smash Bros. Ultimate
+  126  poll 8040   official  The Witcher 3: Wild Hunt  |  The Elder Scrolls V: Skyrim
+  127  poll 8041   official  The Legend of Zelda: Breath of the Wild  |  The Witcher 3: Wild Hunt
+  128  poll 8090   BONUS     The Legend of Zelda: Majora's Mask  |  The Legend of Zelda: Breath of the Wild
