@@ -19,7 +19,7 @@ return json_decode(<<<'JSON'
   "children": []
  },
  {
-  "title": "Contest Links",
+  "title": "Contest Resources",
   "path": "/node/9",
   "children": [
    {
@@ -38,6 +38,21 @@ return json_decode(<<<'JSON'
     "children": []
    },
    {
+    "title": "X-Stats Explanation",
+    "path": "/node/11",
+    "children": []
+   },
+   {
+    "title": "All Match Results",
+    "path": "/node/100",
+    "children": []
+   },
+   {
+    "title": "Sortable Tables for All Matches (2002–2006)",
+    "path": "/node/19",
+    "children": []
+   },
+   {
     "title": "Board 8 Wiki",
     "path": "http://board8.wikia.com/wiki/Main_Page",
     "children": []
@@ -53,19 +68,24 @@ return json_decode(<<<'JSON'
     "children": []
    },
    {
+    "title": "Leon's Trend Charts",
+    "path": "https://spreadsheets.google.com/spreadsheet/ccc?hl=en&key=tOGmynfNIiNy5VukpEF-PdA&hl=en#gid=0",
+    "children": []
+   },
+   {
     "title": "Facts and Trivia",
     "path": "/node/47",
     "children": []
    },
    {
-    "title": "Leon's Trend Charts",
-    "path": "https://spreadsheets.google.com/spreadsheet/ccc?hl=en&key=tOGmynfNIiNy5VukpEF-PdA&hl=en#gid=0",
+    "title": "Acknowledgements",
+    "path": "/node/101",
     "children": []
    }
   ]
  },
  {
-  "title": "GOTD 2",
+  "title": "GOTD 2 2K20",
   "path": "/contest/19",
   "children": [
    {
@@ -106,7 +126,7 @@ return json_decode(<<<'JSON'
   ]
  },
  {
-  "title": "CB X",
+  "title": "CB X 2K18",
   "path": "/contest/18",
   "children": [
    {
@@ -142,7 +162,7 @@ return json_decode(<<<'JSON'
   ]
  },
  {
-  "title": "Best Year",
+  "title": "Best Year 2K17",
   "path": "/contest/17",
   "children": [
    {
@@ -173,48 +193,38 @@ return json_decode(<<<'JSON'
   ]
  },
  {
-  "title": "Rivalry",
-  "path": "/contest/14",
+  "title": "BGE 2K15",
+  "path": "/contest/16",
   "children": [
    {
     "title": "Poll Updates",
-    "path": "/node/63",
+    "path": "/node/66",
     "children": []
    },
    {
-    "title": "Final Bracket",
-    "path": "https://gamefaqs.gamespot.com/features/rivals",
-    "children": []
-   },
-   {
-    "title": "Bracket Contest Stats",
-    "path": "https://gamefaqs.gamespot.com/features/rivals_bracket_final",
-    "children": []
-   },
-   {
-    "title": "Battle Contest Stats",
-    "path": "https://gamefaqs.gamespot.com/features/rivals_battle_final",
+    "title": "Official Stats",
+    "path": "https://gamefaqs.gamespot.com/features/bge20_stats",
     "children": []
    },
    {
     "title": "Your Bracket",
-    "path": "http://www.gamefaqs.com/features/rivals_mybracket.html",
+    "path": "http://www.gamefaqs.com/features/bge20_mybracket",
     "children": []
    },
    {
-    "title": "Your Battle Entry",
-    "path": "http://www.gamefaqs.com/features/rivals_battle_entry",
+    "title": "Current Voting",
+    "path": "http://www.gamefaqs.com/features/bge20_vote",
     "children": []
    },
    {
     "title": "Extrapolated Standings",
-    "path": "/node/68",
+    "path": "/node/70",
     "children": []
    }
   ]
  },
  {
-  "title": "CB IX",
+  "title": "CB IX 2K13",
   "path": "/contest/15",
   "children": [
    {
@@ -255,38 +265,48 @@ return json_decode(<<<'JSON'
   ]
  },
  {
-  "title": "BGE 2K15",
-  "path": "/contest/16",
+  "title": "Rivalry 2K11",
+  "path": "/contest/14",
   "children": [
    {
     "title": "Poll Updates",
-    "path": "/node/66",
+    "path": "/node/63",
     "children": []
    },
    {
-    "title": "Official Stats",
-    "path": "https://gamefaqs.gamespot.com/features/bge20_stats",
+    "title": "Final Bracket",
+    "path": "https://gamefaqs.gamespot.com/features/rivals",
+    "children": []
+   },
+   {
+    "title": "Bracket Contest Stats",
+    "path": "https://gamefaqs.gamespot.com/features/rivals_bracket_final",
+    "children": []
+   },
+   {
+    "title": "Battle Contest Stats",
+    "path": "https://gamefaqs.gamespot.com/features/rivals_battle_final",
     "children": []
    },
    {
     "title": "Your Bracket",
-    "path": "http://www.gamefaqs.com/features/bge20_mybracket",
+    "path": "http://www.gamefaqs.com/features/rivals_mybracket.html",
     "children": []
    },
    {
-    "title": "Current Voting",
-    "path": "http://www.gamefaqs.com/features/bge20_vote",
+    "title": "Your Battle Entry",
+    "path": "http://www.gamefaqs.com/features/rivals_battle_entry",
     "children": []
    },
    {
     "title": "Extrapolated Standings",
-    "path": "/node/70",
+    "path": "/node/68",
     "children": []
    }
   ]
  },
  {
-  "title": "GOTD",
+  "title": "GOTD 2K10",
   "path": "/contest/13",
   "children": [
    {
@@ -327,7 +347,7 @@ return json_decode(<<<'JSON'
   ]
  },
  {
-  "title": "CB VIII",
+  "title": "CB VIII 2K10",
   "path": "/contest/12",
   "children": [
    {
@@ -441,37 +461,6 @@ return json_decode(<<<'JSON'
   ]
  },
  {
-  "title": "SC2K6",
-  "path": "/contest/7",
-  "children": [
-   {
-    "title": "Poll Updates",
-    "path": "/node/36",
-    "children": []
-   },
-   {
-    "title": "Official Stats",
-    "path": "https://gamefaqs.gamespot.com/features/bse",
-    "children": []
-   },
-   {
-    "title": "Bracket",
-    "path": "/node/34",
-    "children": []
-   },
-   {
-    "title": "Matches",
-    "path": "/node/35",
-    "children": []
-   },
-   {
-    "title": "Extrapolated Standings",
-    "path": "/node/37",
-    "children": []
-   }
-  ]
- },
- {
   "title": "CB 2K6",
   "path": "/contest/8",
   "children": [
@@ -508,32 +497,32 @@ return json_decode(<<<'JSON'
   ]
  },
  {
-  "title": "SpC2K5",
-  "path": "/contest/5",
+  "title": "SC2K6",
+  "path": "/contest/7",
   "children": [
    {
     "title": "Poll Updates",
-    "path": "/node/25",
+    "path": "/node/36",
     "children": []
    },
    {
     "title": "Official Stats",
-    "path": "https://gamefaqs.gamespot.com/features/spr05",
+    "path": "https://gamefaqs.gamespot.com/features/bse",
     "children": []
    },
    {
     "title": "Bracket",
-    "path": "/node/23",
+    "path": "/node/34",
     "children": []
    },
    {
     "title": "Matches",
-    "path": "/node/24",
+    "path": "/node/35",
     "children": []
    },
    {
     "title": "Extrapolated Standings",
-    "path": "/node/27",
+    "path": "/node/37",
     "children": []
    }
   ]
@@ -575,37 +564,32 @@ return json_decode(<<<'JSON'
   ]
  },
  {
-  "title": "SpC2K4",
-  "path": "/contest/3",
+  "title": "SpC2K5",
+  "path": "/contest/5",
   "children": [
    {
     "title": "Poll Updates",
-    "path": "/node/20",
+    "path": "/node/25",
     "children": []
    },
    {
     "title": "Official Stats",
-    "path": "https://gamefaqs.gamespot.com/features/c04spr",
+    "path": "https://gamefaqs.gamespot.com/features/spr05",
     "children": []
    },
    {
     "title": "Bracket",
-    "path": "/node/3",
+    "path": "/node/23",
     "children": []
    },
    {
     "title": "Matches",
-    "path": "/node/7",
+    "path": "/node/24",
     "children": []
    },
    {
     "title": "Extrapolated Standings",
-    "path": "/node/15",
-    "children": []
-   },
-   {
-    "title": "SFF-Adjusted Standings",
-    "path": "/node/16",
+    "path": "/node/27",
     "children": []
    }
   ]
@@ -642,6 +626,42 @@ return json_decode(<<<'JSON'
    {
     "title": "SFF-Adjusted Standings",
     "path": "/node/18",
+    "children": []
+   }
+  ]
+ },
+ {
+  "title": "SpC2K4",
+  "path": "/contest/3",
+  "children": [
+   {
+    "title": "Poll Updates",
+    "path": "/node/20",
+    "children": []
+   },
+   {
+    "title": "Official Stats",
+    "path": "https://gamefaqs.gamespot.com/features/c04spr",
+    "children": []
+   },
+   {
+    "title": "Bracket",
+    "path": "/node/3",
+    "children": []
+   },
+   {
+    "title": "Matches",
+    "path": "/node/7",
+    "children": []
+   },
+   {
+    "title": "Extrapolated Standings",
+    "path": "/node/15",
+    "children": []
+   },
+   {
+    "title": "SFF-Adjusted Standings",
+    "path": "/node/16",
     "children": []
    }
   ]
@@ -702,21 +722,6 @@ return json_decode(<<<'JSON'
     "children": []
    }
   ]
- },
- {
-  "title": "X-Stats Explanation",
-  "path": "/node/11",
-  "children": []
- },
- {
-  "title": "All Match Results",
-  "path": "/node/100",
-  "children": []
- },
- {
-  "title": "Sortable Tables for All Matches (2002–2006)",
-  "path": "/node/19",
-  "children": []
  }
 ]
 JSON, true);

@@ -290,28 +290,42 @@ function displaymatches($contest, $node): void
 // ---------------------------------------------------------------------------
 // listmatches — reads updates; graph links -> /graph/{matchnum}
 // ---------------------------------------------------------------------------
-function listmatches($contest, $num_entrants = 2): void
+function listmatches($contest): void
 {
-    // One row per matchnum. entrant1..4 are constant within a matchnum, so MIN() just
-    // returns the value while staying valid under ONLY_FULL_GROUP_BY (MySQL 8 default).
-    $cols = 'MIN(entrant1) AS entrant1, MIN(entrant2) AS entrant2, MIN(entrant3) AS entrant3, MIN(entrant4) AS entrant4';
-    if ($contest === 'all') {
-        $rows = gfq("SELECT `matchnum`, $cols FROM updates WHERE `contest` IN ('Spring 2K4','SC2K4','Spring 2K5','SC2K5') GROUP BY `matchnum`");
-    } else {
-        $rows = gfq("SELECT `matchnum`, $cols FROM updates WHERE `contest` = ? GROUP BY `matchnum` ORDER BY `matchnum` DESC", [$contest]);
+    // One row per matchnum; entrant1..6 are constant within a matchnum, so MIN()
+    // returns that value while satisfying ONLY_FULL_GROUP_BY.
+    $cols = [];
+    for ($i = 1; $i <= 6; $i++) {
+        $cols[] = "MIN(entrant$i) AS entrant$i";
     }
+    $rows = gfq(
+        'SELECT `matchnum`, ' . implode(', ', $cols)
+        . ' FROM updates WHERE `contest` = ? GROUP BY `matchnum` ORDER BY `matchnum` DESC',
+        [$contest]
+    );
+
+    // table width = widest match in this contest (2..6; 6 = CB2K6 Battle Royale)
+    $ne = 2;
+    foreach ($rows as $row) {
+        for ($i = 3; $i <= 6; $i++) {
+            if ($i > $ne && trim((string)$row["entrant$i"]) !== '') {
+                $ne = $i;
+            }
+        }
+    }
+
     echo "<table style='font-size: small;'>";
     echo '<tr><th>PollID</th><th>Graph</th>';
-    for ($i = 1; $i <= $num_entrants; $i++) {
+    for ($i = 1; $i <= $ne; $i++) {
         echo "<th>Entrant $i</th>";
     }
     echo "</tr>\n";
     foreach ($rows as $row) {
         $m = (int)$row['matchnum'];
         echo '<tr>';
-        echo "<td><a href='/node/22?matchnum=$m&num=$num_entrants' title='Poll Updates for poll $m'>$m</a></td>";
+        echo "<td><a href='/node/22?matchnum=$m' title='Poll Updates for poll $m'>$m</a></td>";
         echo "<td><a href='/graph/$m?type=2&amp;seconds=60'>View</a></td>";
-        for ($i = 1; $i <= $num_entrants; $i++) {
+        for ($i = 1; $i <= $ne; $i++) {
             echo '<td>' . htmlspecialchars((string)($row["entrant$i"] ?? '')) . '</td>';
         }
         echo "</tr>\n";
@@ -359,48 +373,74 @@ function contest_pollupdates_nid(int $tid): ?int
 // ---------------------------------------------------------------------------
 // displayupdates — reads updates for one match; the sortable page (node 22)
 // ---------------------------------------------------------------------------
-function displayupdates($matchnum, $sort = 'totalvotes', $type = 'DESC', $num_entrants = 2): void
+function displayupdates($matchnum, $sort = 'totalvotes', $type = 'DESC'): void
 {
-    static $SORTABLE = ['time', 'votes1', 'votes2', 'votes3', 'votes4', 'percent1', 'percent2', 'percent3', 'percent4', 'totalvotes', 'lead'];
-    $matchnum        = (string)$matchnum;
-    $type            = strtoupper((string)$type);
-    if (!in_array($sort, $SORTABLE, true)) {
-        $sort = 'totalvotes';
-    }
-    if ($type !== 'ASC' && $type !== 'DESC') {
-        $type = 'DESC';
-    }
-    if ($matchnum == '2084') {
-        $sort = 'time';
-    }                 // Kefka/Vercetti fix (from original)
-    $num_entrants = max(2, min(4, (int)$num_entrants));
-    $show_updates = ($sort === 'time' && $type === 'ASC');
+    $matchnum = (string)$matchnum;
+    $type     = strtoupper((string)$type) === 'ASC' ? 'ASC' : 'DESC';
 
-    if ($num_entrants == 2) {
-        $sql = "SELECT *, votes1/(votes1+votes2) AS percent1, votes2/(votes1+votes2) AS percent2,
-                (votes1+votes2) AS totalvotes, ABS(votes1-votes2) AS `lead`
-                FROM updates WHERE `matchnum` = ? ORDER BY `$sort` $type";
-    } else {
-        $pcts = [];
-        for ($i = 1; $i <= $num_entrants; $i++) {
-            $pcts[] = "votes$i/(votes1+votes2+votes3+votes4) AS percent$i";
-        }
-        $sql = 'SELECT *, ' . implode(', ', $pcts) . ", (votes1+votes2+votes3+votes4) AS totalvotes
-                FROM updates WHERE `matchnum` = ? ORDER BY `$sort` $type";
-    }
-    $result_array = gfq($sql, [$matchnum]);
-    $numrows      = count($result_array);
-    $output       = '';
-
-    if ($numrows == 0) {
+    // Whole series, oldest first. Entrant count and the derived sort columns
+    // (totalvotes / percent_i / lead) are computed in PHP.
+    $rows = gfq('SELECT * FROM updates WHERE `matchnum` = ? ORDER BY `time` ASC', [$matchnum]);
+    if (!$rows) {
         echo 'No data for pollid ' . htmlspecialchars($matchnum);
 
         return;
     }
 
+    // entrant count = highest contiguous slot filled in the first row (2..6)
+    $ne = 2;
+    for ($i = 3; $i <= 6; $i++) {
+        if (trim((string)($rows[0]["entrant$i"] ?? '')) !== '') {
+            $ne = $i;
+        }
+    }
+
+    $sortable = ['time', 'totalvotes'];
+    if ($ne === 2) {
+        $sortable[] = 'lead';   // single sortable "Lead" column, 2-way only
+    }
+    for ($i = 1; $i <= $ne; $i++) {
+        $sortable[] = "votes$i";
+        $sortable[] = "percent$i";
+    }
+    if (!in_array($sort, $sortable, true)) {
+        $sort = 'totalvotes';
+    }
+    if ($matchnum === '2084') {
+        $sort = 'time';
+    }                 // Kefka/Vercetti fix (from original)
+    $show_updates = ($sort === 'time' && $type === 'ASC');
+
+    // derived per-row columns (were SQL expressions before)
+    foreach ($rows as $k => $r) {
+        $tot = 0;
+        for ($i = 1; $i <= $ne; $i++) {
+            $tot += (int)$r["votes$i"];
+        }
+        $rows[$k]['totalvotes'] = $tot;
+        for ($i = 1; $i <= $ne; $i++) {
+            $rows[$k]["percent$i"] = $tot > 0 ? (int)$r["votes$i"] / $tot : 0;
+        }
+        $rows[$k]['lead'] = abs((int)$r['votes1'] - (int)$r['votes2']);
+    }
+
+    // sort (SQL's ORDER BY, moved here — one poll, a few hundred rows).
+    // stable tie-break on time keeps ordering deterministic.
+    $dir = $type === 'ASC' ? 1 : -1;
+    usort($rows, static function ($a, $b) use ($sort, $dir) {
+        $cmp = $sort === 'time'
+            ? strcmp((string)$a['time'], (string)$b['time'])
+            : $a[$sort] <=> $b[$sort];
+
+        return $cmp !== 0 ? $dir * $cmp : strcmp((string)$a['time'], (string)$b['time']);
+    });
+
+    $numrows = count($rows);
+    $output  = '';
+
     // nav row: back to the contest's full poll-updates table + this match's graph
     $nav = [];
-    $bc  = (string)($result_array[0]['contest'] ?? '');
+    $bc  = (string)($rows[0]['contest'] ?? '');
     if ($bc !== '' && ($bt = contest_tid_for($bc)) !== null && ($bn = contest_pollupdates_nid($bt)) !== null) {
         $bl    = contests()[(string)$bt]['desc'] ?? $bc;
         $nav[] = "&#171; <a href='/node/$bn'>All " . htmlspecialchars($bl) . ' poll updates</a>';
@@ -408,19 +448,16 @@ function displayupdates($matchnum, $sort = 'totalvotes', $type = 'DESC', $num_en
     $nav[] = "<a href='/graph/" . (int)$matchnum . "?type=2&amp;seconds=60'>Poll update graph</a>";
     $output .= "<p style='font-size: 14px;'>" . implode(' &nbsp;&#183;&nbsp; ', $nav) . "</p>\n";
 
-    if ($num_entrants > 2) {
-        $latest_row  = 0;
-        $latest_time = 0;
-        for ($i = 0; $i < $numrows; $i++) {
-            $t = mysql2timestamp((string)$result_array[$i]['time']);
-            if ($t > $latest_time) {
-                $latest_time = $t;
-                $latest_row  = $i;
+    if ($ne > 2) {
+        $latest = $rows[0];
+        foreach ($rows as $r) {
+            if (mysql2timestamp((string)$r['time']) > mysql2timestamp((string)$latest['time'])) {
+                $latest = $r;
             }
         }
         $x_array = [];
-        for ($i = 1; $i <= $num_entrants; $i++) {
-            $x_array[$result_array[$latest_row]['entrant' . $i]] = $result_array[$latest_row]['votes' . $i];
+        for ($i = 1; $i <= $ne; $i++) {
+            $x_array[$latest['entrant' . $i]] = $latest['votes' . $i];
         }
         arsort($x_array);
         $strongest = max($x_array);
@@ -433,7 +470,7 @@ function displayupdates($matchnum, $sort = 'totalvotes', $type = 'DESC', $num_en
         $output .= "</table>\n<br />\n";
     }
 
-    $timestamp = mysql2timestamp((string)$result_array[(int)floor($numrows / 2)]['time']);
+    $timestamp = mysql2timestamp((string)$rows[(int)floor($numrows / 2)]['time']);
     $d         = getdate($timestamp);
     $output .= "<br />\n<div style='font-size: 18px;'>&#187; Click on the <strong>TIME</strong> field in order to <strong>see the vote and percentage totals for each entrant by update</strong>.</div>\n<br />\n"
              . '<p>Use &lt;control&gt;+&lt;mouse scroll button&gt; to change the font size.</p>';
@@ -442,155 +479,101 @@ function displayupdates($matchnum, $sort = 'totalvotes', $type = 'DESC', $num_en
 
     $th           = " style='white-space: normal;'";
     $linksorttype = ($type == 'DESC') ? 'ASC' : 'DESC';
-    $r0           = $result_array[0];
-    $e1           = $r0['entrant1'];
-    $e2           = $r0['entrant2'];
-    $e3           = $r0['entrant3'] ?? '';
-    $e4           = $r0['entrant4'] ?? '';
-    $base         = "/node/22?matchnum=$matchnum";
-    $sfx          = "&type=$linksorttype&num=$num_entrants";
+    $r0           = $rows[0];
+    $e            = [];
+    for ($i = 1; $i <= $ne; $i++) {
+        $e[$i] = $r0["entrant$i"];
+    }
+    $base = "/node/22?matchnum=$matchnum";
+    $sfx  = "&type=$linksorttype";
 
     $output .= "<div class='tscroll'><table border='1' style='font-size: smaller;'><tr>";
     $output .= "<th $th><a href='$base&sort=time$sfx' title='Sort $type by Time'>TIME</th>";
-    $output .= "<th $th><a href='$base&sort=percent1$sfx' title='Sort $type by {$e1}&#039;s percentage'>{$e1}'s %</a></th>";
-    $output .= "<th $th><a href='$base&sort=percent2$sfx' title='Sort $type by {$e2}&#039;s percentage'>{$e2}'s %</a></th>";
-    if ($num_entrants > 2) {
-        $output .= "<th $th><a href='$base&sort=percent3$sfx' title='Sort $type by {$e3}&#039;s percentage'>{$e3}'s %</a></th>";
+    for ($i = 1; $i <= $ne; $i++) {
+        $output .= "<th $th><a href='{$base}&sort=percent{$i}{$sfx}' title='Sort $type by {$e[$i]}&#039;s percentage'>{$e[$i]}'s %</a></th>";
     }
-    if ($num_entrants > 3) {
-        $output .= "<th $th><a href='$base&sort=percent4$sfx' title='Sort $type by {$e4}&#039;s percentage'>{$e4}'s %</a></th>";
-    }
-    if ($num_entrants == 2) {
+    if ($ne === 2) {
         $output .= "<th><a href='$base&sort=lead$sfx' title='Sort $type by the amount of the Lead'>Lead</a></th>";
     } else {
-        $output .= '<th>Lead 1</th><th>Lead 2</th>';
-        if ($num_entrants > 3) {
-            $output .= '<th>Lead 3</th>';
+        for ($i = 1; $i < $ne; $i++) {
+            $output .= '<th>Lead ' . $i . '</th>';
         }
     }
     if ($show_updates) {
-        $output .= '<th>Update % A</th><th>Update % B</th>';
-        if ($num_entrants > 2) {
-            $output .= '<th>Update % C</th>';
+        for ($i = 1; $i <= $ne; $i++) {
+            $output .= '<th>Update % ' . chr(64 + $i) . '</th>';
         }
-        if ($num_entrants > 3) {
-            $output .= '<th>Update % D</th>';
-        }
-        $output .= '<th>Update Votes A</th><th>Update Votes B</th>';
-        if ($num_entrants > 2) {
-            $output .= '<th>Update Votes C</th>';
-        }
-        if ($num_entrants > 3) {
-            $output .= '<th>Update Votes D</th>';
+        for ($i = 1; $i <= $ne; $i++) {
+            $output .= '<th>Update Votes ' . chr(64 + $i) . '</th>';
         }
     }
-    $output .= "<th $th><a href='$base&sort=votes1$sfx' title='Sort $type by {$e1}&#039;s votes'>{$e1}</a></th>";
-    $output .= "<th $th><a href='$base&sort=votes2$sfx' title='Sort $type by {$e2}&#039;s votes'>{$e2}</a></th>";
-    if ($num_entrants > 2) {
-        $output .= "<th $th><a href='$base&sort=votes3$sfx' title='Sort $type by {$e3}&#039;s votes'>{$e3}</a></th>";
-    }
-    if ($num_entrants > 3) {
-        $output .= "<th $th><a href='$base&sort=votes4$sfx' title='Sort $type by {$e4}&#039;s votes'>{$e4}</a></th>";
+    for ($i = 1; $i <= $ne; $i++) {
+        $output .= "<th $th><a href='{$base}&sort=votes{$i}{$sfx}' title='Sort $type by {$e[$i]}&#039;s votes'>{$e[$i]}</a></th>";
     }
     $output .= "<th><a href='$base&sort=totalvotes$sfx' title='Sort $type by Total Votes'>Total Votes</a></th>";
     $output .= "</tr>\n";
 
-    $lastvotes1 = $lastvotes2 = $lastvotes3 = $lastvotes4 = 0;
-    for ($i = 0; $i < $numrows; $i++) {
-        $row = $result_array[$i];
-        $v1  = (int)$row['votes1'];
-        $v2  = (int)$row['votes2'];
-        $v3  = $num_entrants > 2 ? (int)$row['votes3'] : 0;
-        $v4  = $num_entrants > 3 ? (int)$row['votes4'] : 0;
-        $tv  = $v1 + $v2 + $v3 + $v4;
-        if ($tv > 0) {
-            $pc1 = number_format($v1 / $tv * 100, 2) . '%';
-            $pc2 = number_format($v2 / $tv * 100, 2) . '%';
-            $pc3 = number_format($v3 / $tv * 100, 2) . '%';
-            $pc4 = number_format($v4 / $tv * 100, 2) . '%';
-        } else {
-            $pc1 = $pc2 = $pc3 = $pc4 = '0%';
+    $lastvotes = array_fill(1, $ne, 0);
+    foreach ($rows as $ri => $row) {
+        $v  = [];
+        $tv = 0;
+        for ($i = 1; $i <= $ne; $i++) {
+            $v[$i] = (int)$row["votes$i"];
+            $tv += $v[$i];
+        }
+        $pc = [];
+        for ($i = 1; $i <= $ne; $i++) {
+            $pc[$i] = $tv > 0 ? number_format($v[$i] / $tv * 100, 2) . '%' : '0%';
         }
 
-        if ($num_entrants == 2) {
-            $lead = $row['lead'];
+        if ($ne === 2) {
+            $lead = abs($v[1] - $v[2]);
         } else {
-            $va = [$v1, $v2, $v3, $v4];
-            rsort($va, SORT_NUMERIC);
-            $lead1 = $va[0] - $va[1];
-            $lead2 = $va[1] - $va[2];
-            if ($num_entrants > 3) {
-                $lead3 = $va[2] - $va[3];
+            $sorted = array_values($v);
+            rsort($sorted, SORT_NUMERIC);
+            $leads = [];
+            for ($i = 1; $i < $ne; $i++) {
+                $leads[$i] = $sorted[$i - 1] - $sorted[$i];
             }
         }
 
         if ($show_updates) {
-            if ($i == 0) {
-                $lu1 = $v1;
-                $lu2 = $v2;
-                $lu3 = $v3;
-                $lu4 = $v4;
-            } else {
-                $lu1 = $v1 - $lastvotes1;
-                $lu2 = $v2 - $lastvotes2;
-                $lu3 = $v3 - $lastvotes3;
-                $lu4 = $v4 - $lastvotes4;
+            $lu = [];
+            for ($i = 1; $i <= $ne; $i++) {
+                $lu[$i] = $ri === 0 ? $v[$i] : $v[$i] - $lastvotes[$i];
             }
-            $tlu = $lu1 + $lu2 + $lu3 + $lu4;
-            if ($tlu > 0) {
-                $lp1 = number_format($lu1 / $tlu * 100, 2) . '%';
-                $lp2 = number_format($lu2 / $tlu * 100, 2) . '%';
-                $lp3 = number_format($lu3 / $tlu * 100, 2) . '%';
-                $lp4 = number_format($lu4 / $tlu * 100, 2) . '%';
-            } else {
-                $lp1 = $lp2 = $lp3 = $lp4 = number_format(100 / $num_entrants, 2) . '%';
+            $tlu = array_sum($lu);
+            $lp  = [];
+            for ($i = 1; $i <= $ne; $i++) {
+                $lp[$i] = $tlu > 0
+                    ? number_format($lu[$i] / $tlu * 100, 2) . '%'
+                    : number_format(100 / $ne, 2) . '%';
             }
-            $lastvotes1 = $v1;
-            $lastvotes2 = $v2;
-            $lastvotes3 = $v3;
-            $lastvotes4 = $v4;
+            $lastvotes = $v;
         }
 
         $output .= '<tr>';
         $output .= "<td>{$row['time']}</td>";
-        $output .= "<td><div style='text-align: right;'>$pc1</div></td>";
-        $output .= "<td><div style='text-align: right;'>$pc2</div></td>";
-        if ($num_entrants > 2) {
-            $output .= "<td><div style='text-align: right;'>$pc3</div></td>";
+        for ($i = 1; $i <= $ne; $i++) {
+            $output .= "<td><div style='text-align: right;'>{$pc[$i]}</div></td>";
         }
-        if ($num_entrants > 3) {
-            $output .= "<td><div style='text-align: right;'>$pc4</div></td>";
-        }
-        if ($num_entrants == 2) {
+        if ($ne === 2) {
             $output .= "<td><div style='text-align: right;'>$lead</div></td>";
         } else {
-            $output .= "<td><div style='text-align: right;'>$lead1</div></td><td><div style='text-align: right;'>$lead2</div></td>";
-            if ($num_entrants > 3) {
-                $output .= "<td><div style='text-align: right;'>$lead3</div></td>";
+            for ($i = 1; $i < $ne; $i++) {
+                $output .= "<td><div style='text-align: right;'>{$leads[$i]}</div></td>";
             }
         }
         if ($show_updates) {
-            $output .= "<td><div style='text-align: right;'><b>$lp1</b></div></td><td><div style='text-align: right;'><b>$lp2</b></div></td>";
-            if ($num_entrants > 2) {
-                $output .= "<td><div style='text-align: right;'><b>$lp3</b></div></td>";
+            for ($i = 1; $i <= $ne; $i++) {
+                $output .= "<td><div style='text-align: right;'><b>{$lp[$i]}</b></div></td>";
             }
-            if ($num_entrants > 3) {
-                $output .= "<td><div style='text-align: right;'><b>$lp4</b></div></td>";
-            }
-            $output .= "<td><div style='text-align: right;'>$lu1</div></td><td><div style='text-align: right;'>$lu2</div></td>";
-            if ($num_entrants > 2) {
-                $output .= "<td><div style='text-align: right;'>$lu3</div></td>";
-            }
-            if ($num_entrants > 3) {
-                $output .= "<td><div style='text-align: right;'>$lu4</div></td>";
+            for ($i = 1; $i <= $ne; $i++) {
+                $output .= "<td><div style='text-align: right;'>{$lu[$i]}</div></td>";
             }
         }
-        $output .= "<td><div style='text-align: right;'>$v1</div></td><td><div style='text-align: right;'>$v2</div></td>";
-        if ($num_entrants > 2) {
-            $output .= "<td><div style='text-align: right;'>$v3</div></td>";
-        }
-        if ($num_entrants > 3) {
-            $output .= "<td><div style='text-align: right;'>$v4</div></td>";
+        for ($i = 1; $i <= $ne; $i++) {
+            $output .= "<td><div style='text-align: right;'>{$v[$i]}</div></td>";
         }
         $output .= "<td><div style='text-align: right;'>$tv</div></td>";
         $output .= "</tr>\n";

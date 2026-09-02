@@ -2,7 +2,7 @@
 
 // Generated data. type: static|fn|calc|expert. 'file' is under content/.
 // Keys are the original Drupal node ids (1-100), kept so old /node/N links resolve.
-// Gaps are expected (10, 12, 29, 49, 51, 56, 76-99) - node 12 was the homepage
+// Gaps are expected (10, 12, 29, 41-44, 49, 51, 56, 76-99) - node 12 was the homepage
 // "GameFAQsContests.com" blurb, now folded into content/front.html. Do NOT reuse a
 // gap id for a new page; start new pages at 101+.
 return json_decode(<<<'JSON'
@@ -373,38 +373,6 @@ return json_decode(<<<'JSON'
    "listmatches"
   ]
  },
- "41": {
-  "nid": 41,
-  "title": "Battle Royal Match #1 Updates",
-  "tid": 8,
-  "format": "FullHTML",
-  "type": "static",
-  "file": "nodes/41.html"
- },
- "42": {
-  "nid": 42,
-  "title": "Battle Royal Match #2 Updates",
-  "tid": 8,
-  "format": "FullHTML",
-  "type": "static",
-  "file": "nodes/42.html"
- },
- "43": {
-  "nid": 43,
-  "title": "Battle Royal Match #3 Updates",
-  "tid": 8,
-  "format": "FullHTML",
-  "type": "static",
-  "file": "nodes/43.html"
- },
- "44": {
-  "nid": 44,
-  "title": "Battle Royal Match #4 Updates",
-  "tid": 8,
-  "format": "FullHTML",
-  "type": "static",
-  "file": "nodes/44.html"
- },
  "45": {
   "nid": 45,
   "title": "The Character Battle V Extrapolated Standings",
@@ -675,6 +643,14 @@ return json_decode(<<<'JSON'
   "fns": [
    "all_match_results"
   ]
+ },
+ "101": {
+  "nid": 101,
+  "title": "Acknowledgements",
+  "tid": 0,
+  "format": "FilteredHTML",
+  "type": "static",
+  "file": "nodes/101.html"
  }
 }
 JSON, true);

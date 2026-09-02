@@ -135,7 +135,7 @@ return json_decode(<<<'JSON'
  },
  "13": {
   "tid": 13,
-  "name": "GOTD",
+  "name": "GOTD 2K10",
   "desc": "Game of the Decade Contest 2010",
   "nids": [
    62,
@@ -144,7 +144,7 @@ return json_decode(<<<'JSON'
  },
  "14": {
   "tid": 14,
-  "name": "Rivalry",
+  "name": "Rivalry 2K11",
   "desc": "Rivalry Rumble Contest 2011",
   "nids": [
    63,
@@ -172,7 +172,7 @@ return json_decode(<<<'JSON'
  },
  "17": {
   "tid": 17,
-  "name": "Best Year",
+  "name": "Best Year 2K17",
   "desc": "Best Year in Gaming Contest 2017",
   "nids": [
    71,
@@ -181,7 +181,7 @@ return json_decode(<<<'JSON'
  },
  "18": {
   "tid": 18,
-  "name": "CB X",
+  "name": "CB X 2K18",
   "desc": "Character Battle X - 2018",
   "nids": [
    72,
@@ -190,7 +190,7 @@ return json_decode(<<<'JSON'
  },
  "19": {
   "tid": 19,
-  "name": "GOTD 2",
+  "name": "GOTD 2 2K20",
   "desc": "Game of the Decade 2 Contest 2020",
   "nids": [
    73

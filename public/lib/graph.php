@@ -18,7 +18,8 @@ const GRAPH_SMOOTHING       = [0 => 'all updates', 60 => '1 min', 300 => '5 min'
 function graph_series(int $matchnum, int $seconds = 0): array
 {
     $rows = gfq(
-        'SELECT `time`, entrant1,votes1,entrant2,votes2,entrant3,votes3,entrant4,votes4
+        'SELECT `time`, entrant1,votes1,entrant2,votes2,entrant3,votes3,
+                entrant4,votes4,entrant5,votes5,entrant6,votes6
          FROM updates WHERE `matchnum` = ? ORDER BY `time` ASC',
         [$matchnum]
     );
@@ -26,12 +27,13 @@ function graph_series(int $matchnum, int $seconds = 0): array
         return ['entrants' => [], 'n' => 0, 'raw' => 0, 'points' => []];
     }
 
+    // entrant count = highest contiguous slot filled in the first row
+    // (constant within a matchnum). 2-way .. 6-way (the CB2K6 Battle Royale).
     $ne = 2;
-    if (strlen(trim((string)($rows[0]['entrant3'] ?? ''))) > 0) {
-        $ne = 3;
-    }
-    if (strlen(trim((string)($rows[0]['entrant4'] ?? ''))) > 0) {
-        $ne = 4;
+    for ($i = 3; $i <= 6; $i++) {
+        if (strlen(trim((string)($rows[0]["entrant$i"] ?? ''))) > 0) {
+            $ne = $i;
+        }
     }
     $entrants = [];
     for ($i = 1; $i <= $ne; $i++) {
@@ -113,7 +115,10 @@ function graph_plot(array $s, int $type): array
 
 function graph_colors(): array
 {
-    return ['#1a9850', '#2166ac', '#f46d43', '#d73027', '#762a83', '#4d4d4d', '#1a9850', '#2166ac'];
+    // One per entrant, indexed 0-5 for 2-way .. 6-way (via $si % $ne). The last
+    // two are unreached spares. #4d4d4d grey was swapped to teal so a 6-way
+    // Battle Royale graph has six clearly distinct lines.
+    return ['#1a9850', '#2166ac', '#f46d43', '#d73027', '#762a83', '#35978f', '#8c6d31', '#666666'];
 }
 
 /** /graph/{matchnum}?format=json — the raw series (every update, no downsample). Echoes + exits. */

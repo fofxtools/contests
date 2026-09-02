@@ -1,4 +1,4 @@
 <?php
 
 $contest = 'CB IX';
-listmatches($contest, '3');
+listmatches($contest);
