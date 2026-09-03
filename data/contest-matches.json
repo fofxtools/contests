@@ -1,5 +1,6 @@
 {
     "SC2K2": {
+        "type": "character",
         "db_total": 63,
         "official_total": 63,
         "matches": [
@@ -510,6 +511,7 @@
         ]
     },
     "SC2K3": {
+        "type": "character",
         "db_total": 63,
         "official_total": 63,
         "matches": [
@@ -1020,6 +1022,7 @@
         ]
     },
     "SpC2K4": {
+        "type": "game",
         "db_total": 63,
         "official_total": 63,
         "matches": [
@@ -1204,7 +1207,7 @@
                 "official": true,
                 "entrants": [
                     "Super Mario 64",
-                    "NiGHTS into dreams…"
+                    "NiGHTS into dreams..."
                 ]
             },
             {
@@ -1530,6 +1533,7 @@
         ]
     },
     "SC2K4": {
+        "type": "character",
         "db_total": 63,
         "official_total": 63,
         "matches": [
@@ -1745,7 +1749,7 @@
                 "poll": 1744,
                 "official": true,
                 "entrants": [
-                    "Miles Tails Prower",
+                    "Miles \"Tails\" Prower",
                     "Viewtiful Joe"
                 ]
             },
@@ -1898,7 +1902,7 @@
                 "official": true,
                 "entrants": [
                     "Dante",
-                    "Miles Tails Prower"
+                    "Miles \"Tails\" Prower"
                 ]
             },
             {
@@ -2040,6 +2044,7 @@
         ]
     },
     "SpC2K5": {
+        "type": "character",
         "db_total": 31,
         "official_total": 31,
         "matches": [
@@ -2294,6 +2299,7 @@
         ]
     },
     "SC2K5": {
+        "type": "character",
         "db_total": 66,
         "official_total": 66,
         "matches": [
@@ -2828,6 +2834,7 @@
         ]
     },
     "BSE2K6": {
+        "type": "series",
         "db_total": 31,
         "official_total": 31,
         "matches": [
@@ -3082,6 +3089,7 @@
         ]
     },
     "CB2K6": {
+        "type": "character",
         "db_total": 68,
         "official_total": 68,
         "note": "Polls 2562-2566 are the Battle Royale: one 6-way poll, then 5-, 4-, 3- and 2-way as entrants are eliminated.",
@@ -3643,6 +3651,7 @@
         ]
     },
     "CB VI": {
+        "type": "character",
         "db_total": 64,
         "official_total": 63,
         "matches": [
@@ -4290,6 +4299,7 @@
         ]
     },
     "CB VII": {
+        "type": "character",
         "db_total": 64,
         "official_total": 63,
         "matches": [
@@ -4937,6 +4947,7 @@
         ]
     },
     "BGE 2K9": {
+        "type": "game",
         "db_total": 64,
         "official_total": 63,
         "matches": [
@@ -5582,6 +5593,7 @@
         ]
     },
     "CB VIII": {
+        "type": "character",
         "db_total": 127,
         "official_total": 127,
         "matches": [
@@ -6604,6 +6616,7 @@
         ]
     },
     "GOTD": {
+        "type": "game",
         "db_total": 128,
         "official_total": 127,
         "matches": [
@@ -7630,11 +7643,13 @@
                     "Link",
                     "Santa Claus"
                 ],
+                "type": "character",
                 "bonus_reason": "GOTD: Link vs Santa Claus"
             }
         ]
     },
     "Rivalry": {
+        "type": "rivalry",
         "db_total": 64,
         "official_total": 63,
         "matches": [
@@ -8154,6 +8169,7 @@
         ]
     },
     "CB IX": {
+        "type": "character",
         "db_total": 125,
         "official_total": 121,
         "matches": [
@@ -8442,7 +8458,7 @@
                 "entrants": [
                     "Ike",
                     "Proto Man",
-                    "Dr. Ivo '\"Eggman\" Robotnik"
+                    "Dr. Ivo \"Eggman\" Robotnik"
                 ]
             },
             {
@@ -9288,6 +9304,7 @@
         ]
     },
     "BGE 2K15": {
+        "type": "game",
         "db_total": 131,
         "official_total": 127,
         "matches": [
@@ -10346,6 +10363,7 @@
         ]
     },
     "Best Year": {
+        "type": "year",
         "db_total": 35,
         "official_total": 35,
         "matches": [
@@ -10632,6 +10650,7 @@
         ]
     },
     "CB X": {
+        "type": "character",
         "db_total": 150,
         "official_total": 150,
         "matches": [
@@ -11838,6 +11857,7 @@
         ]
     },
     "GOTD 2": {
+        "type": "game",
         "db_total": 128,
         "official_total": 127,
         "matches": [

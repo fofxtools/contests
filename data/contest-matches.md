@@ -1,6 +1,6 @@
 # Canonical Match List by Contest
 
-_Generated 2026-09-02 23:43 UTC from the project database — do not edit by hand 
+_Generated 2026-09-03 04:45 UTC from the project database — do not edit by hand 
 (rebuild with `php scripts/build-contest-matches.php`)._
 
 Entrants are listed in database column order, which does not indicate the winner.
@@ -9,31 +9,31 @@ Entrants are listed in database column order, which does not indicate the winner
 
 ## Contents
 
-| Contest | Matches | Official | Bonus |
-|:--|--:|--:|--:|
-| [SC2K2](#sc2k2) | 63 | 63 | 0 |
-| [SC2K3](#sc2k3) | 63 | 63 | 0 |
-| [SpC2K4](#spc2k4) | 63 | 63 | 0 |
-| [SC2K4](#sc2k4) | 63 | 63 | 0 |
-| [SpC2K5](#spc2k5) | 31 | 31 | 0 |
-| [SC2K5](#sc2k5) | 66 | 66 | 0 |
-| [BSE2K6](#bse2k6) | 31 | 31 | 0 |
-| [CB2K6](#cb2k6) | 68 | 68 | 0 |
-| [CB VI](#cb-vi) | 64 | 63 | 1 |
-| [CB VII](#cb-vii) | 64 | 63 | 1 |
-| [BGE 2K9](#bge-2k9) | 64 | 63 | 1 |
-| [CB VIII](#cb-viii) | 127 | 127 | 0 |
-| [GOTD](#gotd) | 128 | 127 | 1 |
-| [Rivalry](#rivalry) | 64 | 63 | 1 |
-| [CB IX](#cb-ix) | 125 | 121 | 4 |
-| [BGE 2K15](#bge-2k15) | 131 | 127 | 4 |
-| [Best Year](#best-year) | 35 | 35 | 0 |
-| [CB X](#cb-x) | 150 | 150 | 0 |
-| [GOTD 2](#gotd-2) | 128 | 127 | 1 |
+| Contest | Type | Matches | Official | Bonus |
+|:--|:--|--:|--:|--:|
+| [SC2K2](#sc2k2) | character | 63 | 63 | 0 |
+| [SC2K3](#sc2k3) | character | 63 | 63 | 0 |
+| [SpC2K4](#spc2k4) | game | 63 | 63 | 0 |
+| [SC2K4](#sc2k4) | character | 63 | 63 | 0 |
+| [SpC2K5](#spc2k5) | character | 31 | 31 | 0 |
+| [SC2K5](#sc2k5) | character | 66 | 66 | 0 |
+| [BSE2K6](#bse2k6) | series | 31 | 31 | 0 |
+| [CB2K6](#cb2k6) | character | 68 | 68 | 0 |
+| [CB VI](#cb-vi) | character | 64 | 63 | 1 |
+| [CB VII](#cb-vii) | character | 64 | 63 | 1 |
+| [BGE 2K9](#bge-2k9) | game | 64 | 63 | 1 |
+| [CB VIII](#cb-viii) | character | 127 | 127 | 0 |
+| [GOTD](#gotd) | game | 128 | 127 | 1 |
+| [Rivalry](#rivalry) | rivalry | 64 | 63 | 1 |
+| [CB IX](#cb-ix) | character | 125 | 121 | 4 |
+| [BGE 2K15](#bge-2k15) | game | 131 | 127 | 4 |
+| [Best Year](#best-year) | year | 35 | 35 | 0 |
+| [CB X](#cb-x) | character | 150 | 150 | 0 |
+| [GOTD 2](#gotd-2) | game | 128 | 127 | 1 |
 
 ## SC2K2
 
-63 matches — 63 official, 0 bonus.
+Type: character. 63 matches — 63 official, 0 bonus.
 
 | # | Poll | Type | Entrants |
 |--:|--:|:--|:--|
@@ -103,7 +103,7 @@ Entrants are listed in database column order, which does not indicate the winner
 
 ## SC2K3
 
-63 matches — 63 official, 0 bonus.
+Type: character. 63 matches — 63 official, 0 bonus.
 
 | # | Poll | Type | Entrants |
 |--:|--:|:--|:--|
@@ -173,7 +173,7 @@ Entrants are listed in database column order, which does not indicate the winner
 
 ## SpC2K4
 
-63 matches — 63 official, 0 bonus.
+Type: game. 63 matches — 63 official, 0 bonus.
 
 | # | Poll | Type | Entrants |
 |--:|--:|:--|:--|
@@ -199,7 +199,7 @@ Entrants are listed in database column order, which does not indicate the winner
 | 20 | 1620 | official | Metal Gear Solid vs Resident Evil |
 | 21 | 1621 | official | Symphony of the Night vs Perfect Dark |
 | 22 | 1622 | official | Goldeneye vs Panzer Dragoon Saga |
-| 23 | 1623 | official | Super Mario 64 vs NiGHTS into dreams… |
+| 23 | 1623 | official | Super Mario 64 vs NiGHTS into dreams... |
 | 24 | 1624 | official | Ocarina of Time vs Fallout 2 |
 | 25 | 1625 | official | Starcraft vs Halo |
 | 26 | 1626 | official | Kingdom Hearts vs Soul Calibur |
@@ -243,7 +243,7 @@ Entrants are listed in database column order, which does not indicate the winner
 
 ## SC2K4
 
-63 matches — 63 official, 0 bonus.
+Type: character. 63 matches — 63 official, 0 bonus.
 
 | # | Poll | Type | Entrants |
 |--:|--:|:--|:--|
@@ -273,7 +273,7 @@ Entrants are listed in database column order, which does not indicate the winner
 | 24 | 1741 | official | Sephiroth vs Sly Cooper |
 | 25 | 1742 | official | Sonic the Hedgehog vs Terry Bogard |
 | 26 | 1743 | official | Ryu vs KOS-MOS |
-| 27 | 1744 | official | Miles Tails Prower vs Viewtiful Joe |
+| 27 | 1744 | official | Miles "Tails" Prower vs Viewtiful Joe |
 | 28 | 1745 | official | Dante vs Ratchet |
 | 29 | 1746 | official | Sora vs HK-47 |
 | 30 | 1747 | official | Ryu Hayabusa vs Jill Valentine |
@@ -292,7 +292,7 @@ Entrants are listed in database column order, which does not indicate the winner
 | 43 | 1760 | official | Auron vs Ness |
 | 44 | 1761 | official | Sephiroth vs Vivi |
 | 45 | 1762 | official | Sonic the Hedgehog vs Ryu |
-| 46 | 1763 | official | Dante vs Miles Tails Prower |
+| 46 | 1763 | official | Dante vs Miles "Tails" Prower |
 | 47 | 1764 | official | Sora vs Ryu Hayabusa |
 | 48 | 1765 | official | Samus Aran vs Sam Fisher |
 | 49 | 1766 | official | Link vs Yoshi |
@@ -313,7 +313,7 @@ Entrants are listed in database column order, which does not indicate the winner
 
 ## SpC2K5
 
-31 matches — 31 official, 0 bonus.
+Type: character. 31 matches — 31 official, 0 bonus.
 
 | # | Poll | Type | Entrants |
 |--:|--:|:--|:--|
@@ -351,7 +351,7 @@ Entrants are listed in database column order, which does not indicate the winner
 
 ## SC2K5
 
-66 matches — 66 official, 0 bonus.
+Type: character. 66 matches — 66 official, 0 bonus.
 
 | # | Poll | Type | Entrants |
 |--:|--:|:--|:--|
@@ -424,7 +424,7 @@ Entrants are listed in database column order, which does not indicate the winner
 
 ## BSE2K6
 
-31 matches — 31 official, 0 bonus.
+Type: series. 31 matches — 31 official, 0 bonus.
 
 | # | Poll | Type | Entrants |
 |--:|--:|:--|:--|
@@ -462,7 +462,7 @@ Entrants are listed in database column order, which does not indicate the winner
 
 ## CB2K6
 
-68 matches — 68 official, 0 bonus.
+Type: character. 68 matches — 68 official, 0 bonus.
 
 > **Note:** Polls 2562-2566 are the Battle Royale: one 6-way poll, then 5-, 4-, 3- and 2-way as entrants are eliminated.
 
@@ -539,7 +539,7 @@ Entrants are listed in database column order, which does not indicate the winner
 
 ## CB VI
 
-64 matches — 63 official, 1 bonus.
+Type: character. 64 matches — 63 official, 1 bonus.
 
 | # | Poll | Type | Entrants |
 |--:|--:|:--|:--|
@@ -610,7 +610,7 @@ Entrants are listed in database column order, which does not indicate the winner
 
 ## CB VII
 
-64 matches — 63 official, 1 bonus.
+Type: character. 64 matches — 63 official, 1 bonus.
 
 | # | Poll | Type | Entrants |
 |--:|--:|:--|:--|
@@ -681,7 +681,7 @@ Entrants are listed in database column order, which does not indicate the winner
 
 ## BGE 2K9
 
-64 matches — 63 official, 1 bonus.
+Type: game. 64 matches — 63 official, 1 bonus.
 
 | # | Poll | Type | Entrants |
 |--:|--:|:--|:--|
@@ -752,7 +752,7 @@ Entrants are listed in database column order, which does not indicate the winner
 
 ## CB VIII
 
-127 matches — 127 official, 0 bonus.
+Type: character. 127 matches — 127 official, 0 bonus.
 
 | # | Poll | Type | Entrants |
 |--:|--:|:--|:--|
@@ -886,7 +886,7 @@ Entrants are listed in database column order, which does not indicate the winner
 
 ## GOTD
 
-128 matches — 127 official, 1 bonus.
+Type: game. 128 matches — 127 official, 1 bonus.
 
 | # | Poll | Type | Entrants |
 |--:|--:|:--|:--|
@@ -1021,7 +1021,7 @@ Entrants are listed in database column order, which does not indicate the winner
 
 ## Rivalry
 
-64 matches — 63 official, 1 bonus.
+Type: rivalry. 64 matches — 63 official, 1 bonus.
 
 | # | Poll | Type | Entrants |
 |--:|--:|:--|:--|
@@ -1092,7 +1092,7 @@ Entrants are listed in database column order, which does not indicate the winner
 
 ## CB IX
 
-125 matches — 121 official, 4 bonus.
+Type: character. 125 matches — 121 official, 4 bonus.
 
 | # | Poll | Type | Entrants |
 |--:|--:|:--|:--|
@@ -1127,7 +1127,7 @@ Entrants are listed in database column order, which does not indicate the winner
 | 29 | 5171 | official | Alucard vs Captain Falcon vs Rydia |
 | 30 | 5172 | official | Bayonetta vs N vs Wander |
 | 31 | 5173 | official | GlaDOS vs Cole vs Ragna the Bloodedge |
-| 32 | 5174 | official | Ike vs Proto Man vs Dr. Ivo '"Eggman" Robotnik |
+| 32 | 5174 | official | Ike vs Proto Man vs Dr. Ivo "Eggman" Robotnik |
 | 33 | 5175 | official | Epona vs Mordin Solus vs Niko Bellic |
 | 34 | 5176 | official | Shulk vs Ratchet vs Altair |
 | 35 | 5177 | official | Lara Croft vs Yuri Hyuga vs Slime |
@@ -1224,7 +1224,7 @@ Entrants are listed in database column order, which does not indicate the winner
 
 ## BGE 2K15
 
-131 matches — 127 official, 4 bonus.
+Type: game. 131 matches — 127 official, 4 bonus.
 
 | # | Poll | Type | Entrants |
 |--:|--:|:--|:--|
@@ -1362,7 +1362,7 @@ Entrants are listed in database column order, which does not indicate the winner
 
 ## Best Year
 
-35 matches — 35 official, 0 bonus.
+Type: year. 35 matches — 35 official, 0 bonus.
 
 | # | Poll | Type | Entrants |
 |--:|--:|:--|:--|
@@ -1404,7 +1404,7 @@ Entrants are listed in database column order, which does not indicate the winner
 
 ## CB X
 
-150 matches — 150 official, 0 bonus.
+Type: character. 150 matches — 150 official, 0 bonus.
 
 | # | Poll | Type | Entrants |
 |--:|--:|:--|:--|
@@ -1561,7 +1561,7 @@ Entrants are listed in database column order, which does not indicate the winner
 
 ## GOTD 2
 
-128 matches — 127 official, 1 bonus.
+Type: game. 128 matches — 127 official, 1 bonus.
 
 | # | Poll | Type | Entrants |
 |--:|--:|:--|:--|

@@ -9,9 +9,12 @@
  * Source: project DB only. `matches` for pollid <= 2566 (the AMR source rule from
  * lib/contest.php), except the CB2K6 Battle Royale polls 2562-2566, whose real
  * multi-way rosters are read from `updates`; matchnum > 2566 is the last row per
- * matchnum in `updates`. Entrants are the DB strings verbatim (trimmed,
- * HTML-entity-decoded). No winners, no votes, no aliasing. `official` = not in the
- * hard-coded BONUS list below.
+ * matchnum in `updates`. Entrant strings are normalized by ent() below
+ * (HTML-entity-decoded, ellipsis folded to "...", whitespace collapsed, trimmed)
+ * but not aliased. No winners, no votes. `official` = not in the hard-coded BONUS
+ * list below. Each contest block carries `type` (character/game/series/rivalry/
+ * year) — the pool an entrant registry keys identity on; a cross-pool bonus
+ * match may override it with its own per-match `type`.
  *
  * Run from the repo root: php scripts/build-contest-matches.php
  */
@@ -55,9 +58,42 @@ $CONTESTS = [
     'GOTD 2'    => ['GOTD 2'],
 ];
 
+/* --- pool/type per contest: the identity pool for an entrant registry. Keyed by
+   the $CONTESTS label above. SpC2K5 is the villains character contest — still the
+   character pool. Best Year entrants are bare years; Rivalry entrants are pairs. --- */
+$CONTEST_TYPE = [
+    'SC2K2'     => 'character',
+    'SC2K3'     => 'character',
+    'SpC2K4'    => 'game',
+    'SC2K4'     => 'character',
+    'SpC2K5'    => 'character',
+    'SC2K5'     => 'character',
+    'BSE2K6'    => 'series',
+    'CB2K6'     => 'character',
+    'CB VI'     => 'character',
+    'CB VII'    => 'character',
+    'BGE 2K9'   => 'game',
+    'CB VIII'   => 'character',
+    'GOTD'      => 'game',
+    'Rivalry'   => 'rivalry',
+    'CB IX'     => 'character',
+    'BGE 2K15'  => 'game',
+    'Best Year' => 'year',
+    'CB X'      => 'character',
+    'GOTD 2'    => 'game',
+];
+
 /* --- bonus poll ids: everything else is official. Shared with public/lib/contest.php. --- */
 require_once $ROOT . '/public/lib/bonus-polls.php';
 $BONUS = BONUS_POLLS;
+
+/* --- bonus matches whose entrants are not the contest's pool. GOTD poll 4196
+   ("Link vs Santa Claus") ran inside a game contest but the entrants are
+   characters. Emitted as a per-match `type` override; every other bonus match
+   matches its contest's type. --- */
+$BONUS_POLL_TYPE = [
+    4196 => 'character',
+];
 
 /* per-contest caveats recorded as `note` */
 $NOTES = [
@@ -79,9 +115,17 @@ $EXPECT = [
 ];
 
 /* --- pull rows: code => [ [pollid, [entrants...]], ... ] --- */
+/** Normalize a raw DB entrant string: decode HTML entities, fold the Unicode
+ *  ellipsis to "...", collapse internal whitespace runs (incl. stray newlines),
+ *  then trim. Every entrant string passes through here so the JSON, .md and HTML
+ *  agree on names. Spelling variants are NOT merged — that is the alias map's job. */
 function ent(string $s): string
 {
-    return trim(html_entity_decode($s, ENT_QUOTES | ENT_HTML5));
+    $s = html_entity_decode($s, ENT_QUOTES | ENT_HTML5);
+    $s = str_replace("\u{2026}", '...', $s);
+    $s = preg_replace('/\s+/', ' ', $s);
+
+    return trim($s);
 }
 
 /** last non-empty entrant list from an `updates` row, columns 1..6 */
@@ -138,13 +182,20 @@ foreach ($CONTESTS as $label => $codes) {
         $isOfficial = !isset($BONUS[$poll]);
         $offCount += $isOfficial ? 1 : 0;
         $m = ['poll' => $poll, 'official' => $isOfficial, 'entrants' => $es];
+        if (isset($BONUS_POLL_TYPE[$poll]) && $BONUS_POLL_TYPE[$poll] !== $CONTEST_TYPE[$label]) {
+            $m['type'] = $BONUS_POLL_TYPE[$poll];
+        }
         if (!$isOfficial) {
             $m['bonus_reason'] = $BONUS[$poll];
         }
         $matches[] = $m;
     }
 
-    $entry = ['db_total' => count($rows), 'official_total' => $offCount];
+    $entry = [
+        'type'           => $CONTEST_TYPE[$label] ?? throw new RuntimeException("no type mapped for contest '{$label}'"),
+        'db_total'       => count($rows),
+        'official_total' => $offCount,
+    ];
     if (isset($NOTES[$label])) {
         $entry['note'] = $NOTES[$label];
     }
@@ -196,14 +247,15 @@ $md[] = "**{$summary}**";
 $md[] = '';
 $md[] = '## Contents';
 $md[] = '';
-$md[] = '| Contest | Matches | Official | Bonus |';
-$md[] = '|:--|--:|--:|--:|';
+$md[] = '| Contest | Type | Matches | Official | Bonus |';
+$md[] = '|:--|:--|--:|--:|--:|';
 foreach ($CONTESTS as $label => $_) {
     $c    = $out[$label];
     $md[] = sprintf(
-        '| [%s](#%s) | %d | %d | %d |',
+        '| [%s](#%s) | %s | %d | %d | %d |',
         $mdc($label),
         $slug($label),
+        $c['type'],
         $c['db_total'],
         $c['official_total'],
         $c['db_total'] - $c['official_total']
@@ -214,7 +266,7 @@ foreach ($CONTESTS as $label => $_) {
     $md[] = '';
     $md[] = "## {$label}";
     $md[] = '';
-    $md[] = sprintf('%d matches — %d official, %d bonus.', $c['db_total'], $c['official_total'], $c['db_total'] - $c['official_total']);
+    $md[] = sprintf('Type: %s. %d matches — %d official, %d bonus.', $c['type'], $c['db_total'], $c['official_total'], $c['db_total'] - $c['official_total']);
     if (isset($c['note'])) {
         $md[] = '';
         $md[] = '> **Note:** ' . $c['note'];

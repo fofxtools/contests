@@ -7,6 +7,7 @@
 declare(strict_types=1);
 require_once __DIR__ . '/db.php';
 require_once __DIR__ . '/bonus-polls.php';
+require_once __DIR__ . '/entrants.php';
 
 /** Run a node's stored <?php ... ?> partial with the 4 fns in scope; capture its echo. */
 function contest_render_fn_node(string $file): string
@@ -677,19 +678,30 @@ function amr_rows(): array
     return array_values($out);
 }
 
-/** Same-character spelling variants across contest eras -> one canonical name (entrant filter). */
-const AMR_ALIAS = [
-    'Cloud'              => 'Cloud Strife',
-    'Samus'              => 'Samus Aran',
-    'Aeris'              => 'Aerith Gainsborough',
-    'Aeris Gainsborough' => 'Aerith Gainsborough',
-    'Cecil'              => 'Cecil Harvey',
-    'Terra'              => 'Terra Branford',
-    'Tifa Lockheart'     => 'Tifa Lockhart',    // GameFAQs mostly recorded "Lockheart"; canonical here is her correct name
-];
+/** variant string -> canonical, flattened across pools from ENTRANT_ALIASES
+ *  (public/lib/entrants.php). Poolless: the AMR filter matches a typed name
+ *  against every pool's aliases. */
+function amr_alias_map(): array
+{
+    static $flat = null;
+    if ($flat === null) {
+        $flat = [];
+        foreach (ENTRANT_ALIASES as $byCanon) {
+            foreach ($byCanon as $canon => $variants) {
+                foreach ($variants as $v) {
+                    $flat[entrant_norm($v)] = $canon;
+                }
+            }
+        }
+    }
+
+    return $flat;
+}
 function amr_canon(string $name): string
 {
-    return AMR_ALIAS[$name] ?? $name;
+    $name = entrant_norm($name);
+
+    return amr_alias_map()[$name] ?? $name;
 }
 
 function amr_mk(int $poll, string $ccode, string $date, array $ents): array
@@ -879,9 +891,12 @@ function all_match_results(): void
 <ul>
 <?php
 $aliasGroups = [];
-    foreach (AMR_ALIAS as $aliasVariant => $aliasCanon) {
-        $aliasGroups[$aliasCanon][] = $aliasVariant;
+    foreach (ENTRANT_ALIASES as $byCanon) {
+        foreach ($byCanon as $aliasCanon => $aliasVariants) {
+            $aliasGroups[$aliasCanon] = array_merge($aliasGroups[$aliasCanon] ?? [], $aliasVariants);
+        }
     }
+    ksort($aliasGroups, SORT_STRING | SORT_FLAG_CASE);
     foreach ($aliasGroups as $aliasCanon => $aliasVariants): ?>
  <li><strong><?= htmlspecialchars($aliasCanon) ?></strong> &mdash; also <?= htmlspecialchars(implode(', ', $aliasVariants)) ?></li>
 <?php endforeach; ?>
