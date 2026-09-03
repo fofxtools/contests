@@ -30,16 +30,27 @@
 table.amr td a { text-decoration: none; }
 table.amr td a:hover { text-decoration: underline; }
 .amr-wrap { overflow-x: auto; margin: .6em 0 1em; }
-table.amr { border-collapse: collapse; font-size: .92em; }
-table.amr th, table.amr td { border: 1px solid #bbb; padding: 3px 5px; vertical-align: top; }
-table.amr thead th { background: #eee; white-space: nowrap; }
+table.amr { border-collapse: collapse; font-size: .92em; table-layout: fixed; width: 100%; min-width: 50em; }
+table.amr th, table.amr td { border: 1px solid #bbb; padding: 3px 5px; vertical-align: top; overflow-wrap: break-word; }
+table.amr thead th { background: #eee; }
 table.amr th a { text-decoration: none; }
 table.amr td.amr-n { text-align: right; white-space: nowrap; }
-table.amr tbody td:nth-child(3) { white-space: nowrap; }   /* Contest name — don't wrap */
-table.amr td.amr-x { background: #fafafa; }
-table.amr td.amr-win { font-weight: bold; }
+/* fixed column widths; the Result column (6th) absorbs the remaining space */
+table.amr th:nth-child(1) { width: 2.2em; }   /* # */
+table.amr th:nth-child(2) { width: 3.6em; }   /* Poll */
+table.amr th:nth-child(3) { width: 10em; }    /* Contest */
+table.amr th:nth-child(4) { width: 5.3em; }   /* Date */
+table.amr th:nth-child(5) { width: 2em; }     /* n */
+table.amr th:nth-child(6) { width: 20em; }    /* Result */
+table.amr th:nth-child(7) { width: 4.3em; }   /* Total */
+table.amr th:nth-child(8) { width: 3.8em; }   /* Margin (%) */
+table.amr th:nth-child(9) { width: 4.6em; }   /* Margin (votes) */
+table.amr td.amr-result > div { padding: 1px 0; }
+table.amr .amr-win { font-weight: bold; }
 .amr-sub { color: #777; font-size: .85em; white-space: nowrap; }
 .amr-flag { color: #b30; font-weight: bold; cursor: help; }
+table.amr tr.amr-bonus { background: #fff7e6; }
+.amr-bonus-tag { color: #8a5b00; font-size: .8em; cursor: help; }
 .amr-notes { font-size: .92em; }
 .amr-notes h3 { margin: 1.1em 0 .3em; }
 

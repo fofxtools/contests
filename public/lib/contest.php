@@ -6,6 +6,7 @@
  */
 declare(strict_types=1);
 require_once __DIR__ . '/db.php';
+require_once __DIR__ . '/bonus-polls.php';
 
 /** Run a node's stored <?php ... ?> partial with the 4 fns in scope; capture its echo. */
 function contest_render_fn_node(string $file): string
@@ -584,19 +585,17 @@ function displayupdates($matchnum, $sort = 'totalvotes', $type = 'DESC'): void
 
 // ---------------------------------------------------------------------------
 // all_match_results — /node/100. One cross-contest results table.
-//   2002-2006  from `matches`  (curated, always 2-entrant; pollid 940-2566)
+//   2002-2006  from `matches`  (curated, 2-entrant; pollid 940-2566)
 //   2007-2020  from `updates`  (last row per matchnum; matchnum > 2566)
-// The two id ranges don't overlap. Sorting is server-side (?sort=&dir=),
-// column-whitelisted, same as the rest of the site (no JS).
+//   exception: the CB 2006 Battle Royale (polls 2562-2566) is read from
+//   `updates` too — `matches` only stores a 2-name placeholder for it.
+// Sorting is server-side (?sort=&dir=), column-whitelisted, no JS.
 // ---------------------------------------------------------------------------
 
-/** matchnum => reason. Omitted from the table; listed beneath it. */
-const AMR_SKIP = [
-    2562 => 'CB 2006 "The Field" qualifier poll — a pooled "Field" entry vs one challenger, not a 1-v-1',
-    2563 => 'CB 2006 "The Field" qualifier poll',
-    2564 => 'CB 2006 "The Field" qualifier poll',
-    2565 => 'CB 2006 "The Field" qualifier poll',
-];
+/** CB 2006 Battle Royale poll ids. `matches` holds only a 2-column "The Field
+ *  vs X" placeholder for these; the real 6/5/4/3/2-way rosters and vote counts
+ *  are in `updates`, so amr_rows() sources them from there. */
+const AMR_BR_POLLS = [2562, 2563, 2564, 2565, 2566];
 
 /** matchnum => footnote. Shown in the table, marked with a dagger. */
 const AMR_FLAG = [
@@ -606,9 +605,8 @@ const AMR_FLAG = [
     2437 => 'match ran ~15 min short (delayed start)',
     2455 => 'match ran ~30 min short (site downtime)',
     2546 => '25-hour match (Daylight Saving switch)',
-    5205 => 'joke-candidate vote purge late in the match; the final total shown is the official one',
-    5207 => 'joke-candidate vote purge late in the match; the final total shown is the official one',
-    5267 => 'all-star exhibition match — run alongside the bracket, not part of it',
+    5205 => 'Vote purge late in the match; the final total shown is the official one',
+    5207 => 'Vote purge late in the match; the final total shown is the official one',
 ];
 // Note: matchnum 5266 (CB IX grand final) had a spurious post-close `updates` row
 // that dropped its 3rd entrant; that row was deleted from `updates` (see cutover
@@ -637,8 +635,8 @@ function amr_rows(): array
 
     foreach (gfq('SELECT pollid,contest,date,entrant1,votes1,entrant2,votes2 FROM matches') as $m) {
         $mn = (int)$m['pollid'];
-        if (isset(AMR_SKIP[$mn])) {
-            continue;
+        if (in_array($mn, AMR_BR_POLLS, true)) {
+            continue;    // Battle Royale — sourced from `updates` below
         }
         $out[$mn] = amr_mk($mn, (string)$m['contest'], (string)$m['date'], [
             ['name' => (string)$m['entrant1'], 'votes' => (int)$m['votes1']],
@@ -646,24 +644,29 @@ function amr_rows(): array
         ]);
     }
 
-    $sql = 'SELECT u.matchnum,u.contest,u.time,u.entrant1,u.votes1,u.entrant2,u.votes2,
-                   u.entrant3,u.votes3,u.entrant4,u.votes4
-            FROM updates u
-            JOIN (SELECT matchnum,MAX(time) mt FROM updates WHERE matchnum > 2566 GROUP BY matchnum) x
-              ON x.matchnum=u.matchnum AND x.mt=u.time
-            WHERE u.matchnum > 2566';
+    // last row per matchnum for everything after the 2006 cutover, plus the Battle Royale polls
+    $brList = implode(',', AMR_BR_POLLS);
+    $sql    = "SELECT u.matchnum,u.contest,u.time,
+                      u.entrant1,u.votes1,u.entrant2,u.votes2,u.entrant3,u.votes3,
+                      u.entrant4,u.votes4,u.entrant5,u.votes5,u.entrant6,u.votes6
+               FROM updates u
+               JOIN (SELECT matchnum,MAX(time) mt FROM updates
+                     WHERE matchnum > 2566 OR matchnum IN ($brList) GROUP BY matchnum) x
+                 ON x.matchnum=u.matchnum AND x.mt=u.time
+               WHERE u.matchnum > 2566 OR u.matchnum IN ($brList)";
     foreach (gfq($sql) as $u) {
-        $mn = (int)$u['matchnum'];
-        if (isset(AMR_SKIP[$mn]) || in_array((string)$u['contest'], AMR_PRE2007, true)) {
-            continue;
+        $mn   = (int)$u['matchnum'];
+        $isBR = in_array($mn, AMR_BR_POLLS, true);
+        if (!$isBR && in_array((string)$u['contest'], AMR_PRE2007, true)) {
+            continue;    // pre-2007 contests come from `matches`
         }
         $ents = [];
-        for ($i = 1; $i <= 4; $i++) {
-            $nm = trim((string)$u["entrant$i"]);
+        for ($i = 1; $i <= 6; $i++) {
+            $nm = trim((string)($u["entrant$i"] ?? ''));
             if ($nm === '') {
                 continue;
             }
-            $ents[] = ['name' => $nm, 'votes' => (int)$u["votes$i"]];
+            $ents[] = ['name' => $nm, 'votes' => (int)($u["votes$i"] ?? 0)];
         }
         if (count($ents) < 2 || array_sum(array_column($ents, 'votes')) === 0) {
             continue;
@@ -700,10 +703,12 @@ function amr_mk(int $poll, string $ccode, string $date, array $ents): array
     [$cname, $cyear] = AMR_CONTEST[$ccode] ?? [$ccode, 9999];
 
     return [
-        'poll'   => $poll, 'cname' => $cname, 'cyear' => $cyear, 'date' => $date,
-        'ne'     => count($ents), 'ents' => $ents, 'total' => $total,
-        'canon'  => array_map(fn ($e) => amr_canon($e['name']), $ents),
-        'margin' => count($ents) >= 2 ? $ents[0]['pct'] - $ents[1]['pct'] : 100.0,
+        'poll'    => $poll, 'cname' => $cname, 'cyear' => $cyear, 'date' => $date,
+        'ne'      => count($ents), 'ents' => $ents, 'total' => $total,
+        'canon'   => array_map(fn ($e) => amr_canon($e['name']), $ents),
+        'margin'  => count($ents) >= 2 ? $ents[0]['pct'] - $ents[1]['pct'] : 100.0,
+        'marginv' => count($ents) >= 2 ? $ents[0]['votes'] - $ents[1]['votes'] : 0,
+        'bonus'   => BONUS_POLLS[$poll] ?? null,
     ];
 }
 
@@ -715,6 +720,7 @@ function all_match_results(): void
         'date'    => fn ($a, $b) => [$a['date'], $a['poll']] <=> [$b['date'], $b['poll']],
         'total'   => fn ($a, $b) => $a['total'] <=> $b['total'],
         'margin'  => fn ($a, $b) => $a['margin'] <=> $b['margin'],
+        'marginv' => fn ($a, $b) => $a['marginv'] <=> $b['marginv'],
         'winner'  => fn ($a, $b) => strcasecmp($a['ents'][0]['name'] ?? '', $b['ents'][0]['name'] ?? ''),
         'ne'      => fn ($a, $b) => $a['ne'] <=> $b['ne'],
     ];
@@ -724,12 +730,15 @@ function all_match_results(): void
     }
     $dir = strtolower((string)($_GET['dir'] ?? 'asc')) === 'desc' ? 'desc' : 'asc';
 
-    $fEnt  = trim((string)($_GET['entrant'] ?? ''));
-    $fCon  = trim((string)($_GET['contest'] ?? ''));
-    $fEntC = amr_canon($fEnt);
+    $fEnt      = trim((string)($_GET['entrant'] ?? ''));
+    $fCon      = trim((string)($_GET['contest'] ?? ''));
+    $fEntC     = amr_canon($fEnt);
+    $showBonus = ($_GET['bonus'] ?? '') === '1';
 
-    $rows     = amr_rows();
-    $allCount = count($rows);
+    $rows = amr_rows();
+    // "N of M" denominator: everything in the current bonus mode, before entrant/contest filters
+    $allCount = $showBonus ? count($rows) : count(array_filter($rows, fn ($r) => $r['bonus'] === null));
+
     if ($fEnt !== '') {
         $rows = array_values(array_filter($rows, fn ($r) => in_array($fEntC, $r['canon'], true)));
     }
@@ -737,22 +746,27 @@ function all_match_results(): void
         $rows = array_values(array_filter($rows, fn ($r) => $r['cname'] === $fCon));
     }
 
+    // bonus / novelty polls: hidden unless ?bonus=1  (count kept for the toggle label, filter-aware)
+    $bonusHidden = 0;
+    if (!$showBonus) {
+        $before      = count($rows);
+        $rows        = array_values(array_filter($rows, fn ($r) => $r['bonus'] === null));
+        $bonusHidden = $before - count($rows);
+    }
+    $bonusShown = $showBonus ? count(array_filter($rows, fn ($r) => $r['bonus'] !== null)) : 0;
+
     usort($rows, $S[$sort]);
     if ($dir === 'desc') {
         $rows = array_reverse($rows);
     }
 
-    $nM   = 0;
-    $byNe = [2 => 0, 3 => 0, 4 => 0];
+    $byNe = [2 => 0, 3 => 0, 4 => 0, 5 => 0, 6 => 0];
     foreach ($rows as $r) {
-        if ($r['poll'] <= 2566) {
-            $nM++;
-        } $byNe[$r['ne']]++;
+        $byNe[$r['ne']]++;
     }
-    $nU = count($rows) - $nM;
 
     // /node/100 URL = current params + overrides, with defaults (sort=poll, dir=asc) and blanks dropped
-    $cur = ['sort' => $sort, 'dir' => $dir, 'entrant' => $fEnt, 'contest' => $fCon];
+    $cur = ['sort' => $sort, 'dir' => $dir, 'entrant' => $fEnt, 'contest' => $fCon, 'bonus' => $showBonus ? '1' : ''];
     $url = function (array $ov) use ($cur) {
         $p = array_merge($cur, $ov);
         $p = array_filter($p, fn ($v) => $v !== '' && $v !== null);
@@ -770,28 +784,34 @@ function all_match_results(): void
     $arrow = fn (string $k) => $sort === $k ? ($dir === 'asc' ? ' &#9650;' : ' &#9660;') : '';
     $th    = fn (string $k, string $lbl) => "<th><a href='" . $u(['sort' => $k, 'dir' => ($sort === $k && $dir === 'asc') ? 'desc' : 'asc'])
         . "'>" . htmlspecialchars($lbl) . $arrow($k) . '</a></th>';
-    $ecell = function (?array $en) use ($u) {
-        if (!$en) {
-            return "<td class='amr-x'></td>";
+    // one stacked cell: every entrant on its own line, winner first (bold)
+    $rescell = function (array $ents) use ($u) {
+        $lines = '';
+        foreach ($ents as $k => $en) {
+            $lines .= '<div' . ($k === 0 ? ' class="amr-win"' : '') . '>'
+                    . '<a href="' . $u(['entrant' => amr_canon($en['name'])]) . '">'
+                    . htmlspecialchars($en['name'], ENT_QUOTES) . '</a> '
+                    . "<span class='amr-sub'>" . number_format($en['votes']) . ' &middot; '
+                    . number_format($en['pct'], 2) . '%</span></div>';
         }
 
-        return '<td><a href="' . $u(['entrant' => amr_canon($en['name'])]) . '">'
-             . htmlspecialchars($en['name'], ENT_QUOTES) . '</a>'
-             . "<br><span class='amr-sub'>" . number_format($en['votes']) . ' &middot; '
-             . number_format($en['pct'], 2) . '%</span></td>';
+        return '<td class="amr-result">' . $lines . '</td>';
     };
 
     ob_start(); ?>
-<p>Final vote counts for every contest match. Entrants are ordered by final votes, so
-<strong>A is the winner</strong>. Click a column heading to sort, or an entrant / contest to filter.</p>
+<p>Entrants are listed by final votes, so the first line is the winner. Click a column heading to sort, or an entrant / contest to filter.</p>
 
 <p class="amr-views"><strong>Quick views:</strong>
  <a href="<?= $u(['sort' => 'poll', 'dir' => 'asc']) ?>">chronological</a> &middot;
  <a href="<?= $u(['sort' => 'contest', 'dir' => 'asc']) ?>">by contest</a> &middot;
- <a href="<?= $u(['sort' => 'margin', 'dir' => 'asc']) ?>">closest matches</a> &middot;
- <a href="<?= $u(['sort' => 'margin', 'dir' => 'desc']) ?>">biggest blowouts</a> &middot;
  <a href="<?= $u(['sort' => 'total', 'dir' => 'desc']) ?>">highest turnout</a> &middot;
  <a href="<?= $u(['sort' => 'ne', 'dir' => 'desc']) ?>">multi-entrant first</a></p>
+
+<p class="amr-views"><strong>By margin:</strong>
+ <a href="<?= $u(['sort' => 'margin', 'dir' => 'asc']) ?>">closest (%)</a> &middot;
+ <a href="<?= $u(['sort' => 'margin', 'dir' => 'desc']) ?>">biggest blowout (%)</a> &middot;
+ <a href="<?= $u(['sort' => 'marginv', 'dir' => 'asc']) ?>">closest (votes)</a> &middot;
+ <a href="<?= $u(['sort' => 'marginv', 'dir' => 'desc']) ?>">biggest blowout (votes)</a></p>
 
 <?php if ($fEnt !== '' || $fCon !== ''): ?>
 <p class="amr-filter"><strong>Filtered:</strong>
@@ -808,11 +828,13 @@ function all_match_results(): void
 <?php endif; ?>
 
 <p class="amr-meta"><?= number_format(count($rows)) ?> matches
- &middot; 2-entrant <?= number_format($byNe[2]) ?>
- &middot; 3-entrant <?= number_format($byNe[3]) ?>
- &middot; 4-entrant <?= number_format($byNe[4]) ?>
-<?php if ($fEnt === '' && $fCon === ''): ?>
- &middot; <?= count(AMR_SKIP) ?> matches omitted (listed below)
+<?php foreach ($byNe as $n => $c): if ($c): ?>
+ &middot; <?= $n ?>-entrant <?= number_format($c) ?>
+<?php endif; endforeach; ?>
+<?php if ($showBonus): ?>
+ &middot; <?= $bonusShown ? 'incl. ' . number_format($bonusShown) . ' bonus &mdash; ' : '' ?><a href="<?= $u(['bonus' => '']) ?>">hide bonus</a>
+<?php elseif ($bonusHidden): ?>
+ &middot; <?= number_format($bonusHidden) ?> bonus <?= $bonusHidden === 1 ? 'match' : 'matches' ?> hidden &mdash; <a href="<?= $u(['bonus' => '1']) ?>">show bonus</a>
 <?php endif; ?></p>
 
 <div class="amr-wrap"><table class="amr">
@@ -822,33 +844,30 @@ function all_match_results(): void
  <?= $th('contest', 'Contest') ?>
  <?= $th('date', 'Date') ?>
  <?= $th('ne', 'n') ?>
- <?= $th('winner', 'A — winner') ?>
- <th>B</th><th>C</th><th>D</th>
+ <?= $th('winner', 'Result') ?>
  <?= $th('total', 'Total') ?>
- <?= $th('margin', 'Margin') ?>
+ <?= $th('margin', 'Margin (%)') ?>
+ <?= $th('marginv', 'Margin (votes)') ?>
 </tr></thead>
 <tbody>
 <?php if (!$rows): ?>
-<tr><td colspan="11">No matches for this filter.</td></tr>
+<tr><td colspan="9">No matches for this filter.</td></tr>
 <?php endif; ?>
 <?php $i = 0;
     foreach ($rows as $r): $i++;
         $fl = AMR_FLAG[$r['poll']] ?? null; ?>
-<tr>
+<tr<?= $r['bonus'] !== null ? ' class="amr-bonus"' : '' ?>>
  <td class="amr-n"><?= $i ?></td>
  <td class="amr-n"><a href="https://gamefaqs.gamespot.com/poll/<?= $r['poll'] ?>-" rel="nofollow"><?= $r['poll'] ?></a><?php
-           if ($fl): ?> <span class="amr-flag" title="<?= htmlspecialchars($fl, ENT_QUOTES) ?>">&dagger;</span><?php endif; ?></td>
- <td><a href="<?= $u(['contest' => $r['cname']]) ?>"><?= htmlspecialchars($r['cname']) ?></a></td>
+           if ($fl): ?> <span class="amr-flag" title="<?= htmlspecialchars($fl, ENT_QUOTES) ?>">&dagger;</span><?php endif;
+        if ($r['bonus'] !== null): ?><br><span class="amr-bonus-tag" title="<?= htmlspecialchars($r['bonus'], ENT_QUOTES) ?>">bonus</span><?php endif; ?></td>
+ <td class="amr-contest"><a href="<?= $u(['contest' => $r['cname']]) ?>"><?= htmlspecialchars($r['cname']) ?></a></td>
  <td class="amr-n"><?= htmlspecialchars($r['date']) ?></td>
  <td class="amr-n"><?= $r['ne'] ?></td>
- <?php
-           echo str_replace('<td>', '<td class="amr-win">', $ecell($r['ents'][0] ?? null));
-        echo $ecell($r['ents'][1] ?? null);
-        echo $ecell($r['ents'][2] ?? null);
-        echo $ecell($r['ents'][3] ?? null);
-        ?>
+ <?= $rescell($r['ents']) ?>
  <td class="amr-n"><?= number_format($r['total']) ?></td>
  <td class="amr-n"><?= number_format($r['margin'], 2) ?>%</td>
+ <td class="amr-n"><?= number_format($r['marginv']) ?></td>
 </tr>
 <?php endforeach; ?>
 </tbody>
@@ -867,10 +886,17 @@ $aliasGroups = [];
  <li><strong><?= htmlspecialchars($aliasCanon) ?></strong> &mdash; also <?= htmlspecialchars(implode(', ', $aliasVariants)) ?></li>
 <?php endforeach; ?>
 </ul>
-<h3>Omitted matches</h3>
+<h3>CB 2006 Battle Royale</h3>
+<p>Polls 2562&ndash;2566 are the Character Battle 2006 Battle Royale: a six-way poll,
+then five-, four-, three- and two-way as entrants were eliminated. Vote counts come from
+the poll-update history &mdash; the summary table stores only two of the names for these.</p>
+<h3>Bonus / novelty matches</h3>
+<p>These ran alongside a contest but were not part of its scored bracket, so they are
+hidden by default. Use the <em>show bonus</em> link above the table to include them.</p>
 <ul>
-<?php foreach (AMR_SKIP as $mn => $why): ?>
- <li>Poll <?= $mn ?> &mdash; <?= htmlspecialchars($why) ?></li>
+<?php foreach (BONUS_POLLS as $mn => $why): ?>
+ <li>Poll <a href="https://gamefaqs.gamespot.com/poll/<?= $mn ?>-" rel="nofollow"><?= $mn ?></a>
+     &mdash; <?= htmlspecialchars($why) ?></li>
 <?php endforeach; ?>
 </ul>
 <h3>&dagger; Flagged matches (shown, with a note)</h3>
@@ -880,10 +906,6 @@ $aliasGroups = [];
      &mdash; <?= htmlspecialchars($why) ?></li>
 <?php endforeach; ?>
 </ul>
-<p class="amr-help"><b>Margin</b> is the winner&rsquo;s percentage minus the runner-up&rsquo;s.
-For 3- and 4-entrant matches it can look small even when the winner was never in danger,
-because the vote splits more ways &mdash; the <b>n</b> column shows how many entrants a match had.
-&ldquo;Highest turnout&rdquo; leans toward the 2007 Character Battle, which ran four entrants per poll.</p>
 </div>
 <?php
         echo ob_get_clean();

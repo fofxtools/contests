@@ -19,14 +19,12 @@ Add `-n` or `--dry-run` to rsync for a dry run.
 
 ### Deploy (local -> server)
 
-```bash
-rsync -avP --exclude='.dbconfig.php' --exclude='.htaccess*' --exclude='notes-123/' --exclude='tmp-123/' public/ sc2k5:public_html/
-```
-
-### Pull (server -> local)
-
-Exclude Coppermine gallery and other miscellaneous content in pull from server.
+Warning: `--delete` will remove everything on the server inside `public_html/` to sync with local `public/`, other than the excluded items.
 
 ```bash
-rsync -avP --exclude='.dbconfig.php' --exclude='.htaccess*' --exclude='.well-known/' --exclude='gallery/' --exclude='notes-123/' --exclude='tmp-123/' sc2k5:public_html/  public/
+rsync -avP --delete \
+  --exclude='.dbconfig.php' --exclude='.htaccess*' \
+  --exclude='.well-known/' --exclude='gallery/' \
+  --exclude='notes-123/' --exclude='tmp-123/' --exclude='error_log' \
+  public/ sc2k5:public_html/
 ```

@@ -4,18 +4,23 @@
 return json_decode(<<<'JSON'
 [
  {
-  "title": "GameFAQs.com",
-  "path": "http://gamefaqs.gamespot.com",
-  "children": []
- },
- {
   "title": "Contest Match Pics",
   "path": "/gallery/index.php",
   "children": []
  },
  {
+  "title": "Board 8 Wiki",
+  "path": "http://board8.wikia.com/wiki/Main_Page",
+  "children": []
+ },
+ {
   "title": "Board 8",
   "path": "http://www.gamefaqs.com/boards/gentopic.php?board=8",
+  "children": []
+ },
+ {
+  "title": "GameFAQs.com",
+  "path": "http://gamefaqs.gamespot.com",
   "children": []
  },
  {
@@ -50,11 +55,6 @@ return json_decode(<<<'JSON'
    {
     "title": "Sortable Tables for All Matches (2002–2006)",
     "path": "/node/19",
-    "children": []
-   },
-   {
-    "title": "Board 8 Wiki",
-    "path": "http://board8.wikia.com/wiki/Main_Page",
     "children": []
    },
    {

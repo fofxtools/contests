@@ -1,5 +1,4 @@
 {
-    "_about": "Canonical match list per contest. Entrants are project-DB strings (matches/updates, AMR source rule), trimmed + HTML-entity-decoded, in DB column order (no winner implied). official = poll is NOT in the build script's BONUS list (each bonus id cites the GameFAQs page fixing that contest's scored-battle count). No aliasing, votes, or seeds in this file.",
     "SC2K2": {
         "db_total": 63,
         "official_total": 63,
@@ -3085,7 +3084,7 @@
     "CB2K6": {
         "db_total": 68,
         "official_total": 68,
-        "note": "Matches with poll 2562-2566 are the Battle Royale; the DB `matches` table stores only 2 of ~6 entrants per poll and no other held source names the rest, so those 5 entrant lists are partial.",
+        "note": "Polls 2562-2566 are the Battle Royale: one 6-way poll, then 5-, 4-, 3- and 2-way as entrants are eliminated.",
         "matches": [
             {
                 "poll": 2499,
@@ -3595,40 +3594,50 @@
                 "poll": 2562,
                 "official": true,
                 "entrants": [
-                    "The Field",
-                    "Female Winner"
+                    "Cloud Strife",
+                    "Link",
+                    "Mario",
+                    "Samus Aran",
+                    "Sephiroth",
+                    "Solid Snake"
                 ]
             },
             {
                 "poll": 2563,
                 "official": true,
                 "entrants": [
-                    "The Field",
-                    "Mario"
+                    "Cloud Strife",
+                    "Link",
+                    "Mario",
+                    "Sephiroth",
+                    "Solid Snake"
                 ]
             },
             {
                 "poll": 2564,
                 "official": true,
                 "entrants": [
-                    "The Field",
-                    "Sephiroth"
+                    "Cloud Strife",
+                    "Link",
+                    "Sephiroth",
+                    "Solid Snake"
                 ]
             },
             {
                 "poll": 2565,
                 "official": true,
                 "entrants": [
-                    "The Field",
-                    "Male Winner"
+                    "Cloud Strife",
+                    "Link",
+                    "Solid Snake"
                 ]
             },
             {
                 "poll": 2566,
                 "official": true,
                 "entrants": [
-                    "Link",
-                    "Cloud"
+                    "Cloud Strife",
+                    "Link"
                 ]
             }
         ]
@@ -4276,7 +4285,7 @@
                     "Weighted Companion Cube",
                     "? Block"
                 ],
-                "bonus_reason": "CB VI: \"? Block\" novelty poll (cb6 \"Correct Picks by Battle\" = 63)"
+                "bonus_reason": "CB VI: \"? Block\" novelty poll"
             }
         ]
     },
@@ -4923,7 +4932,7 @@
                     "Toon Link",
                     "CD-I Link"
                 ],
-                "bonus_reason": "CB VII: Classic/CD-I/Toon/Young Link 4-way novelty (cb7 table = 63)"
+                "bonus_reason": "CB VII: Classic/CD-I/Toon/Young Link 4-way novelty"
             }
         ]
     },
@@ -5568,7 +5577,7 @@
                     "Final Fantasy VII",
                     "The Legend of Zelda: Ocarina of Time"
                 ],
-                "bonus_reason": "BGE 2K9: OoT vs FFVII 2-way rematch (bge09 table = 63)"
+                "bonus_reason": "BGE 2K9: OoT vs FFVII 2-way rematch"
             }
         ]
     },
@@ -7621,7 +7630,7 @@
                     "Link",
                     "Santa Claus"
                 ],
-                "bonus_reason": "GOTD: Link vs Santa Claus (gotd \"Correct Picks by Battle\" = 127)"
+                "bonus_reason": "GOTD: Link vs Santa Claus"
             }
         ]
     },
@@ -8140,7 +8149,7 @@
                     "Pokemon Trainer Red vs. Pokemon Trainer Blue",
                     "Cloud vs. Sephiroth"
                 ],
-                "bonus_reason": "Rivalry: 3rd-place match (rivals_bracket_final table = 63)"
+                "bonus_reason": "Rivalry: 3rd-place match"
             }
         ]
     },
@@ -8885,7 +8894,7 @@
                     "Caim",
                     "Spring Breeze Dancin'"
                 ],
-                "bonus_reason": "CB IX: \"Last Place\" bonus (cb9 page: \"121 three-way ... battles\")"
+                "bonus_reason": "CB IX Bonus 1: Last Place"
             },
             {
                 "poll": 5225,
@@ -9138,7 +9147,7 @@
                     "Crono",
                     "Mega Man X"
                 ],
-                "bonus_reason": "CB IX: \"Revenge\" bonus (cb9 page: 121 battles)"
+                "bonus_reason": "CB IX Bonus 2: Revenge Match"
             },
             {
                 "poll": 5253,
@@ -9256,7 +9265,7 @@
                     "Pikachu",
                     "Mega Man"
                 ],
-                "bonus_reason": "CB IX: bonus 3 (cb9 page: 121 battles)"
+                "bonus_reason": "CB IX Bonus 3: Runners-Up Battle"
             },
             {
                 "poll": 5266,
@@ -9274,7 +9283,7 @@
                     "Link",
                     "Solid Snake"
                 ],
-                "bonus_reason": "CB IX: bonus 4, 2-way (cb9 page: 121 battles)"
+                "bonus_reason": "CB IX Bonus 4: Link vs Solid Snake"
             }
         ]
     },
@@ -10305,7 +10314,7 @@
                     "Super Smash Bros. Melee",
                     "Super Mario RPG: Legend of the Seven Stars"
                 ],
-                "bonus_reason": "BGE 2K15: 3rd-place Melee vs SMRPG (bge20_stats table = 127)"
+                "bonus_reason": "BGE 2K15: 3rd-place Melee vs SMRPG"
             },
             {
                 "poll": 6179,
@@ -10314,7 +10323,7 @@
                     "Chrono Trigger",
                     "Final Fantasy VI"
                 ],
-                "bonus_reason": "BGE 2K15: Grudge Match (bge20_stats table = 127)"
+                "bonus_reason": "BGE 2K15: Grudge Match"
             },
             {
                 "poll": 6180,
@@ -10323,7 +10332,7 @@
                     "Pokemon Red/Blue/Yellow/Green Version",
                     "Super Mario 64"
                 ],
-                "bonus_reason": "BGE 2K15: Grudge Match (bge20_stats table = 127)"
+                "bonus_reason": "BGE 2K15: Grudge Match"
             },
             {
                 "poll": 6181,
@@ -10332,7 +10341,7 @@
                     "Final Fantasy VII",
                     "The Legend of Zelda: Ocarina of Time"
                 ],
-                "bonus_reason": "BGE 2K15: Grudge Match (bge20_stats table = 127)"
+                "bonus_reason": "BGE 2K15: Grudge Match"
             }
         ]
     },
@@ -12855,7 +12864,7 @@
                     "The Legend of Zelda: Majora's Mask",
                     "The Legend of Zelda: Breath of the Wild"
                 ],
-                "bonus_reason": "GOTD 2: BotW vs Majora's Mask novelty (gotd_20 bracket = 127 battles)"
+                "bonus_reason": "GOTD 2: BotW vs Majora's Mask"
             }
         ]
     }
