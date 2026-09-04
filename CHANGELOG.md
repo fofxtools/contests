@@ -1,5 +1,19 @@
 # Changelog
 
+## [1.1.0] - 2026-09-04
+
+### Added
+
+- Match date and per-entrant vote counts, in the canonical match list
+  (`data/contest-matches.json`/`.md` and the community match-list page).
+
+### Fixed
+
+- All Match Results (`/node/100`): dates for ~615 matches since 2007 were off by
+  a day (a few by two), because the date came from a poll's last vote update,
+  which is often recorded just after midnight. Dates now use the day most of the
+  actual voting happened on.
+
 ## [1.0.9] - 2026-09-04
 
 ### Added

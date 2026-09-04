@@ -633,7 +633,22 @@ const AMR_CONTEST = [
     'Best Year'  => ['Best Year in Gaming (2017)', 2017, 'year'], 'CB X' => ['Character Battle X (2018)', 2018, 'character'],
     'GOTD 2'     => ['Game of the Decade 2 (2020)', 2020, 'game'],
 ];
-const AMR_PRE2007 = ['Summer 2K3', 'Spring 2K4', 'SC2K4', 'Spring 2K5', 'Summer 2K5', 'BSE 2K6', 'CB 2K6'];
+
+/** data/contest-matches.json (see scripts/build-contest-matches.php), decoded
+ *  once per request. Deployed alongside `public/` as a sibling `data/` dir —
+ *  dirname(__DIR__, 2) resolves to the repo root locally and to /home/sc2k5/ on
+ *  the server (same pattern paa.php uses for .cache/), since public/ *is*
+ *  public_html/ there. */
+function amr_json_matches(): array
+{
+    static $data = null;
+    if ($data === null) {
+        $path = dirname(__DIR__, 2) . '/data/contest-matches.json';
+        $data = json_decode((string)file_get_contents($path), true) ?? [];
+    }
+
+    return $data;
+}
 
 function amr_rows(): array
 {
@@ -642,7 +657,7 @@ function amr_rows(): array
     foreach (gfq('SELECT pollid,contest,date,entrant1,votes1,entrant2,votes2 FROM matches') as $m) {
         $mn = (int)$m['pollid'];
         if (in_array($mn, AMR_BR_POLLS, true)) {
-            continue;    // Battle Royale — sourced from `updates` below
+            continue;    // Battle Royale — sourced from data/contest-matches.json below
         }
         $out[$mn] = amr_mk($mn, (string)$m['contest'], (string)$m['date'], [
             ['name' => (string)$m['entrant1'], 'votes' => (int)$m['votes1']],
@@ -650,34 +665,27 @@ function amr_rows(): array
         ]);
     }
 
-    // last row per matchnum for everything after the 2006 cutover, plus the Battle Royale polls
-    $brList = implode(',', AMR_BR_POLLS);
-    $sql    = "SELECT u.matchnum,u.contest,u.time,
-                      u.entrant1,u.votes1,u.entrant2,u.votes2,u.entrant3,u.votes3,
-                      u.entrant4,u.votes4,u.entrant5,u.votes5,u.entrant6,u.votes6
-               FROM updates u
-               JOIN (SELECT matchnum,MAX(time) mt FROM updates
-                     WHERE matchnum > 2566 OR matchnum IN ($brList) GROUP BY matchnum) x
-                 ON x.matchnum=u.matchnum AND x.mt=u.time
-               WHERE u.matchnum > 2566 OR u.matchnum IN ($brList)";
-    foreach (gfq($sql) as $u) {
-        $mn   = (int)$u['matchnum'];
-        $isBR = in_array($mn, AMR_BR_POLLS, true);
-        if (!$isBR && in_array((string)$u['contest'], AMR_PRE2007, true)) {
-            continue;    // pre-2007 contests come from `matches`
-        }
-        $ents = [];
-        for ($i = 1; $i <= 6; $i++) {
-            $nm = trim((string)($u["entrant$i"] ?? ''));
-            if ($nm === '') {
-                continue;
+    // BR polls + everything after the 2006 cutover: read from the prebuilt
+    // data/contest-matches.json instead of querying `updates` live. Same
+    // underlying source, but its `date` is the mode-day over every `updates` row
+    // for that matchnum, not just the last row's (which is frequently a
+    // post-midnight tally write, off by a day — see that script's header
+    // comment) — and this drops the aggregate query from the live request path
+    // entirely. Contest labels in the JSON match AMR_CONTEST's keys exactly for
+    // every contest reachable here (only the pre-2007 codes above spell
+    // differently, and none of them are matchnum > 2566 or a BR poll).
+    foreach (amr_json_matches() as $label => $c) {
+        foreach ($c['matches'] as $m) {
+            $mn = (int)$m['poll'];
+            if ($mn <= 2566 && !in_array($mn, AMR_BR_POLLS, true)) {
+                continue;    // pollid <= 2566 non-BR already came from `matches` above
             }
-            $ents[] = ['name' => $nm, 'votes' => (int)($u["votes$i"] ?? 0)];
+            $ents = [];
+            foreach ($m['entrants'] as $i => $name) {
+                $ents[] = ['name' => (string)$name, 'votes' => (int)($m['votes'][$i] ?? 0)];
+            }
+            $out[$mn] = amr_mk($mn, $label, (string)$m['date'], $ents);
         }
-        if (count($ents) < 2 || array_sum(array_column($ents, 'votes')) === 0) {
-            continue;
-        }  // degenerate final row
-        $out[$mn] = amr_mk($mn, (string)$u['contest'], substr((string)$u['time'], 0, 10), $ents);
     }
 
     return array_values($out);

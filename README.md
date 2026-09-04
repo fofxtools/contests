@@ -27,4 +27,6 @@ rsync -avP --delete \
   --exclude='.well-known/' --exclude='gallery/' \
   --exclude='notes-123/' --exclude='tmp-123/' --exclude='error_log' \
   public/ sc2k5:public_html/
+
+rsync -avP --delete data/ sc2k5:data/
 ```

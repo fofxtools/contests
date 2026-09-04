@@ -17,6 +17,15 @@ declare(strict_types=1);
 $ROOT = dirname(__DIR__);
 require_once $ROOT . '/public/lib/entrants.php';
 
+/** @var array<int, array{name: string, type: string}> $entrants ENTRANTS, widened
+ *  from PHPStan's inferred exact-literal shape so the checks below (over the
+ *  generated public/lib/entrants.php) stay live guards against a future bad
+ *  entry, not branches PHPStan can prove dead from today's literal contents. */
+$entrants = ENTRANTS;
+/** @var array<string, array<string, array<int, string>>> $entrantAliases
+ *  ENTRANT_ALIASES, widened for the same reason. */
+$entrantAliases = ENTRANT_ALIASES;
+
 $J = json_decode((string) file_get_contents($ROOT . '/data/contest-matches.json'), true, 512, JSON_THROW_ON_ERROR);
 
 $POOLS  = ['character', 'game', 'series', 'rivalry', 'year'];
@@ -27,7 +36,7 @@ $err    = function (string $m) use (&$errors): void {
 
 /* ---- index the registry: "pool\0name" => id ---- */
 $byKey = [];
-foreach (ENTRANTS as $id => $e) {
+foreach ($entrants as $id => $e) {
     $byKey[$e['type'] . "\0" . $e['name']] = $id;
 }
 
@@ -83,7 +92,7 @@ if (!is_file($ledgerFile)) {
         $ledger[$lk]  = $i;
         $ledgerId[$i] = $lk;
     }
-    foreach (ENTRANTS as $id => $e) {
+    foreach ($entrants as $id => $e) {
         $lk = $e['type'] . "\0" . $e['name'];
         if (!isset($ledger[$lk])) {
             $err("id {$id} ({$e['type']} / {$e['name']}) is not in the ledger");
@@ -95,7 +104,7 @@ if (!is_file($ledgerFile)) {
 
 /* ---- 2. names normalized & non-empty; (type,name) unique; type known ---- */
 $seenName = [];
-foreach (ENTRANTS as $id => $e) {
+foreach ($entrants as $id => $e) {
     if ($e['name'] === '' || entrant_norm($e['name']) !== $e['name']) {
         $err("id {$id}: name not normalized or empty: " . json_encode($e['name']));
     }
@@ -111,7 +120,7 @@ foreach (ENTRANTS as $id => $e) {
 
 /* ---- 3. alias map integrity ---- */
 $revVariant = [];
-foreach (ENTRANT_ALIASES as $pool => $map) {
+foreach ($entrantAliases as $pool => $map) {
     foreach ($map as $canon => $vars) {
         if (!isset($byKey[$pool . "\0" . $canon])) {
             $err("alias canonical not in ENTRANTS: [{$pool}] {$canon}");
@@ -154,7 +163,7 @@ foreach (ENTRANT_NEVER_MERGE as $g) {
     $gids = [];
     foreach ($g as $n) {
         $id = null;
-        foreach (ENTRANTS as $eid => $e) {
+        foreach ($entrants as $eid => $e) {
             if ($e['name'] === $n) {
                 $id = $eid;
 
@@ -187,7 +196,7 @@ foreach (ENTRANT_ERA_SCOPED as $es) {
         every id was assigned chronologically. It can legitimately break later if
         a missed entity in an OLD contest is appended at max+1 by the ledger's
         freeze pass — if that happens, downgrade this to a warning. ---- */
-$rowsById = ENTRANTS;
+$rowsById = $entrants;
 ksort($rowsById);
 $prev = 0;
 foreach ($rowsById as $id => $e) {
@@ -214,9 +223,9 @@ if ($errors) {
 
 /* ---- assemble the derived rows ---- */
 $aliasesByCanon = [];
-foreach (ENTRANT_ALIASES as $pool => $map) {
+foreach ($entrantAliases as $pool => $map) {
     foreach ($map as $canon => $vars) {
-        $aliasesByCanon[$pool . "\0" . $canon] = array_values($vars);
+        $aliasesByCanon[$pool . "\0" . $canon] = $vars;   // already a list — gen-entrants.php only ever emits sequential arrays here
     }
 }
 $entities = [];

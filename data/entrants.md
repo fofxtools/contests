@@ -1,6 +1,6 @@
 # Canonical Entrant Registry
 
-_Generated 2026-09-04 04:29 UTC — do not edit by hand. Source of truth is
+_Generated 2026-09-04 21:09 UTC — do not edit by hand. Source of truth is
 `public/lib/entrants.php`; rebuild + validate with `php scripts/build-entrants.php`._
 
 **888 entities** — 406 character, 350 game, 32 series, 64 rivalry, 36 year.

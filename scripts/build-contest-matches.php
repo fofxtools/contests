@@ -13,10 +13,23 @@
  * (HTML-entity-decoded, ellipsis folded to "...", whitespace collapsed, trimmed)
  * and spelling variants are NOT merged (the alias map's job), but era_disambiguate()
  * does rewrite the few raw strings that name a different entity per contest
- * (e.g. "God of War" -> the 2005 game vs the 2018 reboot). No winners, no votes.
+ * (e.g. "God of War" -> the 2005 game vs the 2018 reboot). No winner field (it's
+ * derivable from `votes`).
  * `official` = not in the hard-coded BONUS list below. Each contest block carries
  * `type` (character/game/series/rivalry/year) — the pool an entrant registry keys
  * identity on; a cross-pool bonus match may override it with its own per-match `type`.
+ *
+ * `date` and `votes` (per-entrant, same order as `entrants`): for pollid <= 2566
+ * non-BR matches, both come straight from the `matches` row (`date`, `votesN`).
+ * For the `updates`-sourced path (BR polls + matchnum > 2566), `votes` is the last
+ * row's `votesN` (same row the entrants come from), but `date` is NOT the last
+ * row's date — `updates` accumulates one row per vote-tally change, and the final
+ * row is frequently a post-midnight (occasionally much later) tally write, one or
+ * more calendar days after the day voting actually happened. `date` is instead the
+ * calendar day with the most `updates` rows for that matchnum (mode; ties go to
+ * the earlier day) — verified against every matchnum in this range: it matches
+ * the naive last-row date for 457/1085, is off by exactly the expected one-day
+ * straggler for 621/1085, and by two days for the remaining 7 (never more).
  *
  * Run from the repo root: php scripts/build-contest-matches.php
  */
@@ -63,6 +76,9 @@ $CONTESTS = [
 /* --- pool/type per contest: the identity pool for an entrant registry. Keyed by
    the $CONTESTS label above. SpC2K5 is the villains character contest — still the
    character pool. Best Year entrants are bare years; Rivalry entrants are pairs. --- */
+/** @var array<string, string> $CONTEST_TYPE hand-maintained alongside $CONTESTS
+ *  above — declared as a general map (not PHPStan's inferred exact-literal shape)
+ *  so the `?? throw` below stays a real check against the two drifting apart. */
 $CONTEST_TYPE = [
     'SC2K2'     => 'character',
     'SC2K3'     => 'character',
@@ -113,7 +129,12 @@ $NOTES = [
    below so all five polls use the same names. */
 $BR_POLLS = [2562, 2563, 2564, 2565, 2566];
 
-/* expected counts for the self-check (from tmp/match-counts-by-contest.md) */
+/* expected counts for the self-check (from tmp/match-counts-by-contest.md).
+   Intentionally allowed to be a partial map — see the `?? [null, null]` below,
+   which is how a newly-added contest shows up as "expect db=? off=?" instead of
+   failing, before its real counts are known. */
+/** @var array<string, array{int, int}> $EXPECT declared as a general map (not
+ *  PHPStan's inferred exact-literal shape) so it stays free to be partial. */
 $EXPECT = [
     'SC2K2'    => [63, 63], 'SC2K3' => [63, 63], 'SpC2K4' => [63, 63], 'SC2K4' => [63, 63], 'SpC2K5' => [31, 31],
     'SC2K5'    => [66, 66], 'BSE2K6' => [31, 31], 'CB2K6' => [68, 68], 'CB VI' => [64, 63], 'CB VII' => [64, 63],
@@ -135,8 +156,28 @@ function ent(string $s): string
     return trim($s);
 }
 
-/** last non-empty entrant list from an `updates` row, columns 1..6 */
-function updateEntrants(array $r): array
+/** non-empty entrant list from a `matches` row (columns 1..2), order preserved */
+function matchesRowEntrants(array $r): array
+{
+    return array_values(array_filter([ent($r['entrant1']), ent($r['entrant2'])], fn ($x) => $x !== ''));
+}
+
+/** votes aligned with matchesRowEntrants() — same per-slot emptiness test, so
+ *  votes[i] always corresponds to entrants[i] after empties are dropped. */
+function matchesRowVotes(array $r): array
+{
+    $out = [];
+    foreach ([1, 2] as $i) {
+        if (ent((string) $r["entrant$i"]) !== '') {
+            $out[] = (int) $r["votes$i"];
+        }
+    }
+
+    return $out;
+}
+
+/** non-empty entrant list from an `updates` row, columns 1..6, order preserved */
+function updatesRowEntrants(array $r): array
 {
     return array_values(array_filter(
         array_map(fn ($k) => ent((string) $r[$k]), ['entrant1', 'entrant2', 'entrant3', 'entrant4', 'entrant5', 'entrant6']),
@@ -144,30 +185,96 @@ function updateEntrants(array $r): array
     ));
 }
 
+/** votes aligned with updatesRowEntrants() — same per-slot emptiness test, so
+ *  votes[i] always corresponds to entrants[i] after empties are dropped. */
+function updatesRowVotes(array $r): array
+{
+    $out = [];
+    foreach ([1, 2, 3, 4, 5, 6] as $i) {
+        if (ent((string) $r["entrant$i"]) !== '') {
+            $out[] = (int) $r["votes$i"];
+        }
+    }
+
+    return $out;
+}
+
+/** matchnum => date (Y-m-d), for every matchnum in the `updates`-sourced range
+ *  (BR polls + matchnum > 2566): the calendar day with the most `updates` rows
+ *  for that matchnum, ties broken to the earlier day. See the file header for
+ *  why this (not the last row's date) is the right proxy for "the match's date". */
+function updatesModeDates(PDO $pdo, array $brPolls): array
+{
+    $brList = implode(',', $brPolls);
+    $sql    = "SELECT matchnum, DATE(`time`) d, COUNT(*) n
+            FROM updates
+            WHERE matchnum IN ($brList) OR CAST(matchnum AS UNSIGNED) > 2566
+            GROUP BY matchnum, DATE(`time`)";
+
+    $best = [];   // matchnum => ['d' => date, 'n' => row count]
+    foreach ($pdo->query($sql) as $r) {
+        $mn = (int) $r['matchnum'];
+        $n  = (int) $r['n'];
+        $d  = (string) $r['d'];
+        if (!isset($best[$mn]) || $n > $best[$mn]['n'] || ($n === $best[$mn]['n'] && $d < $best[$mn]['d'])) {
+            $best[$mn] = ['d' => $d, 'n' => $n];
+        }
+    }
+
+    return array_map(fn ($b) => $b['d'], $best);
+}
+
 $byCode = [];
 $brList = implode(',', $BR_POLLS);
 
-foreach ($pdo->query("SELECT pollid, contest, entrant1, entrant2 FROM matches WHERE pollid <= 2566 AND pollid NOT IN ($brList)") as $r) {
-    $es                      = array_values(array_filter([ent($r['entrant1']), ent($r['entrant2'])], fn ($x) => $x !== ''));
-    $byCode[$r['contest']][] = [(int) $r['pollid'], $es];
+foreach ($pdo->query("SELECT pollid, contest, date, entrant1, votes1, entrant2, votes2 FROM matches WHERE pollid <= 2566 AND pollid NOT IN ($brList)") as $r) {
+    $byCode[$r['contest']][] = [
+        'poll'     => (int) $r['pollid'],
+        'entrants' => matchesRowEntrants($r),
+        'date'     => (string) $r['date'],
+        'votes'    => matchesRowVotes($r),
+    ];
 }
 
+$modeDates = updatesModeDates($pdo, $BR_POLLS);
+
+/** matchnum => date, throwing if updatesModeDates() didn't cover it — every
+ *  matchnum pulled from `updates` below is by construction in its WHERE scope,
+ *  so a miss means the two queries' scopes have drifted out of sync. */
+$modeDate = function (int $matchnum) use ($modeDates): string {
+    return $modeDates[$matchnum] ?? throw new RuntimeException("no mode date for matchnum $matchnum");
+};
+
 /* CB2K6 Battle Royale rosters (2562-2565) — last row per poll in `updates` */
-$sql = "SELECT u.matchnum, u.contest, u.entrant1, u.entrant2, u.entrant3, u.entrant4, u.entrant5, u.entrant6
+$sql = "SELECT u.matchnum, u.contest, u.entrant1, u.votes1, u.entrant2, u.votes2, u.entrant3, u.votes3,
+               u.entrant4, u.votes4, u.entrant5, u.votes5, u.entrant6, u.votes6
         FROM updates u
         JOIN (SELECT matchnum, MAX(`time`) mt FROM updates WHERE matchnum IN ($brList) GROUP BY matchnum) x
           ON x.matchnum = u.matchnum AND x.mt = u.`time`";
 foreach ($pdo->query($sql) as $r) {
-    $byCode[$r['contest']][] = [(int) $r['matchnum'], updateEntrants($r)];
+    $mn                      = (int) $r['matchnum'];
+    $byCode[$r['contest']][] = [
+        'poll'     => $mn,
+        'entrants' => updatesRowEntrants($r),
+        'date'     => $modeDate($mn),
+        'votes'    => updatesRowVotes($r),
+    ];
 }
 
-$sql = 'SELECT u.matchnum, u.contest, u.entrant1, u.entrant2, u.entrant3, u.entrant4, u.entrant5, u.entrant6
+$sql = 'SELECT u.matchnum, u.contest, u.entrant1, u.votes1, u.entrant2, u.votes2, u.entrant3, u.votes3,
+               u.entrant4, u.votes4, u.entrant5, u.votes5, u.entrant6, u.votes6
         FROM updates u
         JOIN (SELECT matchnum, MAX(`time`) mt FROM updates WHERE CAST(matchnum AS UNSIGNED) > 2566 GROUP BY matchnum) x
           ON x.matchnum = u.matchnum AND x.mt = u.`time`
         WHERE CAST(u.matchnum AS UNSIGNED) > 2566';
 foreach ($pdo->query($sql) as $r) {
-    $byCode[$r['contest']][] = [(int) $r['matchnum'], updateEntrants($r)];
+    $mn                      = (int) $r['matchnum'];
+    $byCode[$r['contest']][] = [
+        'poll'     => $mn,
+        'entrants' => updatesRowEntrants($r),
+        'date'     => $modeDate($mn),
+        'votes'    => updatesRowVotes($r),
+    ];
 }
 
 /* --- assemble --- */
@@ -181,15 +288,15 @@ foreach ($CONTESTS as $label => $codes) {
             $rows[] = $row;
         }
     }
-    usort($rows, fn ($a, $b) => $a[0] <=> $b[0]);
+    usort($rows, fn ($a, $b) => $a['poll'] <=> $b['poll']);
 
     $matches  = [];
     $offCount = 0;
-    foreach ($rows as [$poll, $es]) {
+    foreach ($rows as ['poll' => $poll, 'entrants' => $es, 'date' => $date, 'votes' => $votes]) {
         $es         = array_map(fn ($n) => era_disambiguate($n, $poll), $es);
         $isOfficial = !isset($BONUS[$poll]);
         $offCount += $isOfficial ? 1 : 0;
-        $m = ['poll' => $poll, 'official' => $isOfficial, 'entrants' => $es];
+        $m = ['poll' => $poll, 'date' => $date, 'official' => $isOfficial, 'entrants' => $es, 'votes' => $votes];
         if (isset($BONUS_POLL_TYPE[$poll]) && $BONUS_POLL_TYPE[$poll] !== $CONTEST_TYPE[$label]) {
             $m['type'] = $BONUS_POLL_TYPE[$poll];
         }
@@ -280,16 +387,18 @@ foreach ($CONTESTS as $label => $_) {
         $md[] = '> **Note:** ' . $c['note'];
     }
     $md[] = '';
-    $md[] = '| # | Poll | Type | Entrants |';
-    $md[] = '|--:|--:|:--|:--|';
+    $md[] = '| # | Poll | Date | Type | Entrants | Votes |';
+    $md[] = '|--:|--:|:--|:--|:--|--:|';
     foreach ($c['matches'] as $i => $m) {
         $type = $m['official'] ? 'official' : 'bonus — ' . $m['bonus_reason'];
         $md[] = sprintf(
-            '| %d | %d | %s | %s |',
+            '| %d | %d | %s | %s | %s | %s |',
             $i + 1,
             $m['poll'],
+            $m['date'],
             $mdc($type),
-            $mdc(implode(' vs ', $m['entrants']))
+            $mdc(implode(' vs ', $m['entrants'])),
+            $mdc(implode(' vs ', array_map(fn ($v) => number_format($v), $m['votes'])))
         );
     }
 }
@@ -372,9 +481,10 @@ foreach ($CONTESTS as $label => $_) {
 }
 $html[] = '</nav>';
 
-$heads = ['Contest', 'Match #', 'Poll', 'Type'];
+$heads = ['Contest', 'Match #', 'Poll', 'Date', 'Type'];
 for ($k = 1; $k <= $maxE; $k++) {
     $heads[] = 'Entrant ' . $k;
+    $heads[] = 'Votes ' . $k;
 }
 $heads[] = 'Bonus reason';
 
@@ -384,11 +494,13 @@ foreach ($CONTESTS as $label => $_) {
     foreach ($out[$label]['matches'] as $i => $m) {
         $cls     = $m['official'] ? 'off' : 'bonus';
         $reason  = $m['official'] ? '' : $m['bonus_reason'];
-        $dataTxt = strtolower($label . ' ' . implode(' ', $m['entrants']) . ' ' . $m['poll'] . ' ' . $reason);
+        $dataTxt = strtolower($label . ' ' . implode(' ', $m['entrants']) . ' ' . $m['poll'] . ' ' . $m['date'] . ' ' . $reason);
         $cells   = '<td>' . $h($label) . '</td><td class="num">' . ($i + 1) . '</td><td class="num">' . $m['poll']
-                 . '</td><td class="type">' . ($m['official'] ? 'official' : 'bonus') . '</td>';
-        foreach (array_pad($m['entrants'], $maxE, '') as $name) {
-            $cells .= '<td>' . $h($name) . '</td>';
+                 . '</td><td>' . $h($m['date']) . '</td><td class="type">' . ($m['official'] ? 'official' : 'bonus') . '</td>';
+        $names = array_pad($m['entrants'], $maxE, '');
+        $votes = array_pad($m['votes'], $maxE, null);
+        foreach ($names as $k => $name) {
+            $cells .= '<td>' . $h($name) . '</td><td class="num">' . ($votes[$k] === null ? '' : number_format($votes[$k])) . '</td>';
         }
         $cells .= '<td class="reason">' . $h($reason) . '</td>';
         $html[] = sprintf(
@@ -488,4 +600,4 @@ foreach ($checks as $line) {
     fwrite(STDERR, '  ' . $line . "\n");
 }
 fwrite(STDERR, sprintf("\n  TOTAL db=%d official=%d bonus=%d\n", $grandTot, $grandOff, $grandTot - $grandOff));
-exit(($allOk ?? false) ? 0 : 1);
+exit($allOk ? 0 : 1);

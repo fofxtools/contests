@@ -3,6 +3,8 @@ parameters:
     level: 5
     paths:
         - public
+        - scripts
+        - serve.php
     excludePaths:
         - vendor
         - tmp
