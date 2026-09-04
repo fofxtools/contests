@@ -1,9 +1,9 @@
 {
-    "generated": "2026-09-03 06:48 UTC",
-    "entity_count": 917,
+    "generated": "2026-09-04 04:29 UTC",
+    "entity_count": 888,
     "by_pool": {
         "character": 406,
-        "game": 379,
+        "game": 350,
         "series": 32,
         "rivalry": 64,
         "year": 36
@@ -54,6 +54,78 @@
         [
             "Pac-Man",
             "Ms. Pac-Man"
+        ],
+        [
+            "Doom (1993)",
+            "DOOM (2016)"
+        ],
+        [
+            "God of War (2005)",
+            "God of War (2018)"
+        ],
+        [
+            "Batman: Arkham Asylum",
+            "Batman: Arkham City"
+        ],
+        [
+            "Halo: Combat Evolved",
+            "Halo 2",
+            "Halo 3",
+            "Halo: Reach"
+        ],
+        [
+            "Dragon Age: Origins",
+            "Dragon Age: Inquisition"
+        ],
+        [
+            "Call of Duty 4: Modern Warfare",
+            "Call of Duty: Modern Warfare 2",
+            "Call of Duty: Black Ops"
+        ],
+        [
+            "Fire Emblem",
+            "Fire Emblem: Awakening",
+            "Fire Emblem: Path of Radiance",
+            "Fire Emblem: Three Houses"
+        ],
+        [
+            "Donkey Kong Country",
+            "Donkey Kong Country 2: Diddy's Kong Quest",
+            "Donkey Kong Country: Tropical Freeze"
+        ],
+        [
+            "Deus Ex",
+            "Deus Ex: Human Revolution"
+        ],
+        [
+            "The Elder Scrolls III: Morrowind",
+            "The Elder Scrolls IV: Oblivion",
+            "The Elder Scrolls V: Skyrim"
+        ],
+        [
+            "Final Fantasy VII",
+            "Crisis Core: Final Fantasy VII"
+        ],
+        [
+            "Mass Effect",
+            "Mass Effect 2",
+            "Mass Effect 3"
+        ],
+        [
+            "Portal",
+            "Portal 2"
+        ],
+        [
+            "Mega Man 2",
+            "Mega Man 3",
+            "Mega Man 9"
+        ],
+        [
+            "Mario Kart 64",
+            "Mario Kart DS",
+            "Mario Kart Wii",
+            "Mario Kart 8",
+            "Super Mario Kart"
         ]
     ],
     "entities": [
@@ -1104,12 +1176,15 @@
         },
         {
             "id": 114,
-            "name": "Super Mario RPG",
+            "name": "Super Mario RPG: Legend of the Seven Stars",
             "type": "game",
             "first_poll": 1610,
             "first_contest": "SpC2K4",
-            "appearances": 4,
-            "official_appearances": 4
+            "appearances": 11,
+            "official_appearances": 10,
+            "aliases": [
+                "Super Mario RPG"
+            ]
         },
         {
             "id": 115,
@@ -1122,12 +1197,15 @@
         },
         {
             "id": 116,
-            "name": "Sonic 2",
+            "name": "Sonic the Hedgehog 2",
             "type": "game",
             "first_poll": 1611,
             "first_contest": "SpC2K4",
-            "appearances": 2,
-            "official_appearances": 2
+            "appearances": 7,
+            "official_appearances": 7,
+            "aliases": [
+                "Sonic 2"
+            ]
         },
         {
             "id": 117,
@@ -1149,21 +1227,25 @@
         },
         {
             "id": 119,
-            "name": "A Link to the Past",
-            "type": "game",
-            "first_poll": 1613,
-            "first_contest": "SpC2K4",
-            "appearances": 4,
-            "official_appearances": 4
-        },
-        {
-            "id": 120,
             "name": "Gunstar Heroes",
             "type": "game",
             "first_poll": 1613,
             "first_contest": "SpC2K4",
             "appearances": 2,
             "official_appearances": 2
+        },
+        {
+            "id": 120,
+            "name": "The Legend of Zelda: A Link to the Past",
+            "type": "game",
+            "first_poll": 1613,
+            "first_contest": "SpC2K4",
+            "appearances": 15,
+            "official_appearances": 15,
+            "aliases": [
+                "A Link to the Past",
+                "Zelda: A Link to the Past"
+            ]
         },
         {
             "id": 121,
@@ -1185,7 +1267,7 @@
         },
         {
             "id": 123,
-            "name": "Doom",
+            "name": "Doom (1993)",
             "type": "game",
             "first_poll": 1615,
             "first_contest": "SpC2K4",
@@ -1210,8 +1292,11 @@
             "type": "game",
             "first_poll": 1616,
             "first_contest": "SpC2K4",
-            "appearances": 8,
-            "official_appearances": 7
+            "appearances": 12,
+            "official_appearances": 11,
+            "aliases": [
+                "Final Fantasy III (VI)"
+            ]
         },
         {
             "id": 126,
@@ -1242,12 +1327,16 @@
         },
         {
             "id": 129,
-            "name": "Pokemon Gold/Silver/Crystal",
+            "name": "Pokemon Gold/Silver",
             "type": "game",
             "first_poll": 1618,
             "first_contest": "SpC2K4",
-            "appearances": 4,
-            "official_appearances": 4
+            "appearances": 8,
+            "official_appearances": 8,
+            "aliases": [
+                "Pokemon Gold/Silver/Crystal",
+                "Pokemon Gold/Silver/Crystal Version"
+            ]
         },
         {
             "id": 130,
@@ -1296,6 +1385,18 @@
         },
         {
             "id": 135,
+            "name": "Castlevania: Symphony of the Night",
+            "type": "game",
+            "first_poll": 1621,
+            "first_contest": "SpC2K4",
+            "appearances": 8,
+            "official_appearances": 8,
+            "aliases": [
+                "Symphony of the Night"
+            ]
+        },
+        {
+            "id": 136,
             "name": "Perfect Dark",
             "type": "game",
             "first_poll": 1621,
@@ -1304,22 +1405,16 @@
             "official_appearances": 5
         },
         {
-            "id": 136,
-            "name": "Symphony of the Night",
-            "type": "game",
-            "first_poll": 1621,
-            "first_contest": "SpC2K4",
-            "appearances": 2,
-            "official_appearances": 2
-        },
-        {
             "id": 137,
-            "name": "Goldeneye",
+            "name": "GoldenEye 007",
             "type": "game",
             "first_poll": 1622,
             "first_contest": "SpC2K4",
-            "appearances": 3,
-            "official_appearances": 3
+            "appearances": 8,
+            "official_appearances": 8,
+            "aliases": [
+                "Goldeneye"
+            ]
         },
         {
             "id": 138,
@@ -1359,21 +1454,27 @@
         },
         {
             "id": 142,
-            "name": "Ocarina of Time",
+            "name": "The Legend of Zelda: Ocarina of Time",
             "type": "game",
             "first_poll": 1624,
             "first_contest": "SpC2K4",
-            "appearances": 4,
-            "official_appearances": 4
+            "appearances": 19,
+            "official_appearances": 17,
+            "aliases": [
+                "Ocarina of Time"
+            ]
         },
         {
             "id": 143,
-            "name": "Halo",
+            "name": "Halo: Combat Evolved",
             "type": "game",
             "first_poll": 1625,
             "first_contest": "SpC2K4",
-            "appearances": 1,
-            "official_appearances": 1
+            "appearances": 9,
+            "official_appearances": 9,
+            "aliases": [
+                "Halo"
+            ]
         },
         {
             "id": 144,
@@ -1395,12 +1496,15 @@
         },
         {
             "id": 146,
-            "name": "Soul Calibur",
+            "name": "SoulCalibur",
             "type": "game",
             "first_poll": 1626,
             "first_contest": "SpC2K4",
-            "appearances": 1,
-            "official_appearances": 1
+            "appearances": 2,
+            "official_appearances": 2,
+            "aliases": [
+                "Soul Calibur"
+            ]
         },
         {
             "id": 147,
@@ -1413,12 +1517,17 @@
         },
         {
             "id": 148,
-            "name": "The Wind Waker",
+            "name": "The Legend of Zelda: The Wind Waker",
             "type": "game",
             "first_poll": 1627,
             "first_contest": "SpC2K4",
-            "appearances": 2,
-            "official_appearances": 2
+            "appearances": 12,
+            "official_appearances": 12,
+            "aliases": [
+                "The Wind Waker",
+                "Wind Waker",
+                "The Legend of Zelda: Wind Waker"
+            ]
         },
         {
             "id": 149,
@@ -1476,30 +1585,39 @@
         },
         {
             "id": 155,
-            "name": "Knights of the Old Republic",
+            "name": "Grand Theft Auto: Vice City",
             "type": "game",
             "first_poll": 1631,
             "first_contest": "SpC2K4",
-            "appearances": 1,
-            "official_appearances": 1
+            "appearances": 7,
+            "official_appearances": 7,
+            "aliases": [
+                "Vice City"
+            ]
         },
         {
             "id": 156,
-            "name": "Vice City",
+            "name": "Star Wars: Knights of the Old Republic",
             "type": "game",
             "first_poll": 1631,
             "first_contest": "SpC2K4",
-            "appearances": 2,
-            "official_appearances": 2
+            "appearances": 7,
+            "official_appearances": 7,
+            "aliases": [
+                "Knights of the Old Republic"
+            ]
         },
         {
             "id": 157,
-            "name": "Metal Gear Solid 2",
+            "name": "Metal Gear Solid 2: Sons of Liberty",
             "type": "game",
             "first_poll": 1632,
             "first_contest": "SpC2K4",
-            "appearances": 3,
-            "official_appearances": 3
+            "appearances": 8,
+            "official_appearances": 8,
+            "aliases": [
+                "Metal Gear Solid 2"
+            ]
         },
         {
             "id": 158,
@@ -1512,15 +1630,6 @@
         },
         {
             "id": 159,
-            "name": "Wind Waker",
-            "type": "game",
-            "first_poll": 1646,
-            "first_contest": "SpC2K4",
-            "appearances": 1,
-            "official_appearances": 1
-        },
-        {
-            "id": 160,
             "name": "Luca Blight",
             "type": "character",
             "first_poll": 1722,
@@ -1529,7 +1638,7 @@
             "official_appearances": 2
         },
         {
-            "id": 161,
+            "id": 160,
             "name": "JC Denton",
             "type": "character",
             "first_poll": 1725,
@@ -1538,7 +1647,7 @@
             "official_appearances": 2
         },
         {
-            "id": 162,
+            "id": 161,
             "name": "Earthworm Jim",
             "type": "character",
             "first_poll": 1726,
@@ -1547,7 +1656,7 @@
             "official_appearances": 1
         },
         {
-            "id": 163,
+            "id": 162,
             "name": "Proto Man",
             "type": "character",
             "first_poll": 1729,
@@ -1559,7 +1668,7 @@
             ]
         },
         {
-            "id": 164,
+            "id": 163,
             "name": "Frog",
             "type": "character",
             "first_poll": 1730,
@@ -1568,7 +1677,7 @@
             "official_appearances": 14
         },
         {
-            "id": 165,
+            "id": 164,
             "name": "Liquid Snake",
             "type": "character",
             "first_poll": 1730,
@@ -1577,7 +1686,7 @@
             "official_appearances": 10
         },
         {
-            "id": 166,
+            "id": 165,
             "name": "Tanner",
             "type": "character",
             "first_poll": 1733,
@@ -1586,7 +1695,7 @@
             "official_appearances": 1
         },
         {
-            "id": 167,
+            "id": 166,
             "name": "Laharl",
             "type": "character",
             "first_poll": 1735,
@@ -1595,7 +1704,7 @@
             "official_appearances": 7
         },
         {
-            "id": 168,
+            "id": 167,
             "name": "Kain",
             "type": "character",
             "first_poll": 1736,
@@ -1604,7 +1713,7 @@
             "official_appearances": 2
         },
         {
-            "id": 169,
+            "id": 168,
             "name": "Jak",
             "type": "character",
             "first_poll": 1738,
@@ -1613,7 +1722,7 @@
             "official_appearances": 4
         },
         {
-            "id": 170,
+            "id": 169,
             "name": "Vivi",
             "type": "character",
             "first_poll": 1740,
@@ -1625,7 +1734,7 @@
             ]
         },
         {
-            "id": 171,
+            "id": 170,
             "name": "Sly Cooper",
             "type": "character",
             "first_poll": 1741,
@@ -1634,7 +1743,7 @@
             "official_appearances": 2
         },
         {
-            "id": 172,
+            "id": 171,
             "name": "Viewtiful Joe",
             "type": "character",
             "first_poll": 1744,
@@ -1643,7 +1752,7 @@
             "official_appearances": 3
         },
         {
-            "id": 173,
+            "id": 172,
             "name": "HK-47",
             "type": "character",
             "first_poll": 1746,
@@ -1652,7 +1761,7 @@
             "official_appearances": 4
         },
         {
-            "id": 174,
+            "id": 173,
             "name": "Ryu Hayabusa",
             "type": "character",
             "first_poll": 1747,
@@ -1661,7 +1770,7 @@
             "official_appearances": 13
         },
         {
-            "id": 175,
+            "id": 174,
             "name": "Pyramid Head",
             "type": "character",
             "first_poll": 1989,
@@ -1670,7 +1779,7 @@
             "official_appearances": 3
         },
         {
-            "id": 176,
+            "id": 175,
             "name": "Andross",
             "type": "character",
             "first_poll": 1990,
@@ -1679,7 +1788,7 @@
             "official_appearances": 1
         },
         {
-            "id": 177,
+            "id": 176,
             "name": "Sigma",
             "type": "character",
             "first_poll": 1990,
@@ -1688,7 +1797,7 @@
             "official_appearances": 2
         },
         {
-            "id": 178,
+            "id": 177,
             "name": "Nemesis",
             "type": "character",
             "first_poll": 1991,
@@ -1697,7 +1806,7 @@
             "official_appearances": 1
         },
         {
-            "id": 179,
+            "id": 178,
             "name": "Revolver Ocelot",
             "type": "character",
             "first_poll": 1991,
@@ -1706,7 +1815,7 @@
             "official_appearances": 11
         },
         {
-            "id": 180,
+            "id": 179,
             "name": "Dr. Wily",
             "type": "character",
             "first_poll": 1992,
@@ -1715,7 +1824,7 @@
             "official_appearances": 2
         },
         {
-            "id": 181,
+            "id": 180,
             "name": "Ultros",
             "type": "character",
             "first_poll": 1992,
@@ -1724,7 +1833,7 @@
             "official_appearances": 1
         },
         {
-            "id": 182,
+            "id": 181,
             "name": "Ramirez",
             "type": "character",
             "first_poll": 1993,
@@ -1733,7 +1842,7 @@
             "official_appearances": 1
         },
         {
-            "id": 183,
+            "id": 182,
             "name": "Ghaleon",
             "type": "character",
             "first_poll": 1994,
@@ -1742,7 +1851,7 @@
             "official_appearances": 1
         },
         {
-            "id": 184,
+            "id": 183,
             "name": "Vergil",
             "type": "character",
             "first_poll": 1994,
@@ -1751,7 +1860,7 @@
             "official_appearances": 4
         },
         {
-            "id": 185,
+            "id": 184,
             "name": "Lavos",
             "type": "character",
             "first_poll": 1995,
@@ -1760,7 +1869,7 @@
             "official_appearances": 2
         },
         {
-            "id": 186,
+            "id": 185,
             "name": "Mother Brain",
             "type": "character",
             "first_poll": 1995,
@@ -1769,7 +1878,7 @@
             "official_appearances": 1
         },
         {
-            "id": 187,
+            "id": 186,
             "name": "Officer Tenpenny",
             "type": "character",
             "first_poll": 1996,
@@ -1778,7 +1887,7 @@
             "official_appearances": 1
         },
         {
-            "id": 188,
+            "id": 187,
             "name": "Mithos",
             "type": "character",
             "first_poll": 1997,
@@ -1787,7 +1896,7 @@
             "official_appearances": 1
         },
         {
-            "id": 189,
+            "id": 188,
             "name": "Albert Wesker",
             "type": "character",
             "first_poll": 1998,
@@ -1799,7 +1908,7 @@
             ]
         },
         {
-            "id": 190,
+            "id": 189,
             "name": "Albedo",
             "type": "character",
             "first_poll": 1999,
@@ -1808,7 +1917,7 @@
             "official_appearances": 1
         },
         {
-            "id": 191,
+            "id": 190,
             "name": "M. Bison",
             "type": "character",
             "first_poll": 1999,
@@ -1817,7 +1926,7 @@
             "official_appearances": 2
         },
         {
-            "id": 192,
+            "id": 191,
             "name": "Diablo",
             "type": "character",
             "first_poll": 2000,
@@ -1826,7 +1935,7 @@
             "official_appearances": 7
         },
         {
-            "id": 193,
+            "id": 192,
             "name": "Ridley",
             "type": "character",
             "first_poll": 2000,
@@ -1835,7 +1944,7 @@
             "official_appearances": 5
         },
         {
-            "id": 194,
+            "id": 193,
             "name": "Giygas",
             "type": "character",
             "first_poll": 2001,
@@ -1844,7 +1953,7 @@
             "official_appearances": 1
         },
         {
-            "id": 195,
+            "id": 194,
             "name": "Ansem",
             "type": "character",
             "first_poll": 2002,
@@ -1853,7 +1962,7 @@
             "official_appearances": 2
         },
         {
-            "id": 196,
+            "id": 195,
             "name": "Dr. Robotnik",
             "type": "character",
             "first_poll": 2003,
@@ -1865,7 +1974,7 @@
             ]
         },
         {
-            "id": 197,
+            "id": 196,
             "name": "Sin",
             "type": "character",
             "first_poll": 2003,
@@ -1874,7 +1983,7 @@
             "official_appearances": 1
         },
         {
-            "id": 198,
+            "id": 197,
             "name": "Kuja",
             "type": "character",
             "first_poll": 2004,
@@ -1883,7 +1992,7 @@
             "official_appearances": 1
         },
         {
-            "id": 199,
+            "id": 198,
             "name": "Master Hand",
             "type": "character",
             "first_poll": 2004,
@@ -1892,7 +2001,7 @@
             "official_appearances": 4
         },
         {
-            "id": 200,
+            "id": 199,
             "name": "Joanna Dark",
             "type": "character",
             "first_poll": 2066,
@@ -1901,7 +2010,7 @@
             "official_appearances": 3
         },
         {
-            "id": 201,
+            "id": 200,
             "name": "Carl Johnson",
             "type": "character",
             "first_poll": 2067,
@@ -1910,7 +2019,7 @@
             "official_appearances": 1
         },
         {
-            "id": 202,
+            "id": 201,
             "name": "Lloyd Irving",
             "type": "character",
             "first_poll": 2069,
@@ -1919,7 +2028,7 @@
             "official_appearances": 7
         },
         {
-            "id": 203,
+            "id": 202,
             "name": "Yuri",
             "type": "character",
             "first_poll": 2070,
@@ -1928,7 +2037,7 @@
             "official_appearances": 1
         },
         {
-            "id": 204,
+            "id": 203,
             "name": "Riku",
             "type": "character",
             "first_poll": 2071,
@@ -1937,7 +2046,7 @@
             "official_appearances": 11
         },
         {
-            "id": 205,
+            "id": 204,
             "name": "Big Boss",
             "type": "character",
             "first_poll": 2073,
@@ -1946,7 +2055,7 @@
             "official_appearances": 14
         },
         {
-            "id": 206,
+            "id": 205,
             "name": "Manny Calavera",
             "type": "character",
             "first_poll": 2074,
@@ -1955,7 +2064,7 @@
             "official_appearances": 1
         },
         {
-            "id": 207,
+            "id": 206,
             "name": "Kratos",
             "type": "character",
             "first_poll": 2076,
@@ -1964,7 +2073,7 @@
             "official_appearances": 14
         },
         {
-            "id": 208,
+            "id": 207,
             "name": "Agent 47",
             "type": "character",
             "first_poll": 2077,
@@ -1973,7 +2082,7 @@
             "official_appearances": 3
         },
         {
-            "id": 209,
+            "id": 208,
             "name": "Cecil Harvey",
             "type": "character",
             "first_poll": 2078,
@@ -1985,7 +2094,7 @@
             ]
         },
         {
-            "id": 210,
+            "id": 209,
             "name": "The King of All Cosmos",
             "type": "character",
             "first_poll": 2079,
@@ -1997,7 +2106,7 @@
             ]
         },
         {
-            "id": 211,
+            "id": 210,
             "name": "Chun-Li",
             "type": "character",
             "first_poll": 2080,
@@ -2009,7 +2118,7 @@
             ]
         },
         {
-            "id": 212,
+            "id": 211,
             "name": "Rikku",
             "type": "character",
             "first_poll": 2081,
@@ -2018,7 +2127,7 @@
             "official_appearances": 8
         },
         {
-            "id": 213,
+            "id": 212,
             "name": "Zidane Tribal",
             "type": "character",
             "first_poll": 2085,
@@ -2030,7 +2139,7 @@
             ]
         },
         {
-            "id": 214,
+            "id": 213,
             "name": "Terra Branford",
             "type": "character",
             "first_poll": 2086,
@@ -2042,7 +2151,7 @@
             ]
         },
         {
-            "id": 215,
+            "id": 214,
             "name": "Sarah Kerrigan",
             "type": "character",
             "first_poll": 2087,
@@ -2051,7 +2160,7 @@
             "official_appearances": 4
         },
         {
-            "id": 216,
+            "id": 215,
             "name": "Vincent Valentine",
             "type": "character",
             "first_poll": 2087,
@@ -2060,7 +2169,7 @@
             "official_appearances": 20
         },
         {
-            "id": 217,
+            "id": 216,
             "name": "Geno",
             "type": "character",
             "first_poll": 2089,
@@ -2069,7 +2178,7 @@
             "official_appearances": 6
         },
         {
-            "id": 218,
+            "id": 217,
             "name": "Jin Kazama",
             "type": "character",
             "first_poll": 2090,
@@ -2078,7 +2187,7 @@
             "official_appearances": 1
         },
         {
-            "id": 219,
+            "id": 218,
             "name": "Kratos Aurion",
             "type": "character",
             "first_poll": 2091,
@@ -2087,7 +2196,7 @@
             "official_appearances": 5
         },
         {
-            "id": 220,
+            "id": 219,
             "name": "Tifa Lockhart",
             "type": "character",
             "first_poll": 2092,
@@ -2099,7 +2208,7 @@
             ]
         },
         {
-            "id": 221,
+            "id": 220,
             "name": "Leon Kennedy",
             "type": "character",
             "first_poll": 2095,
@@ -2108,7 +2217,7 @@
             "official_appearances": 17
         },
         {
-            "id": 222,
+            "id": 221,
             "name": "Civilization",
             "type": "series",
             "first_poll": 2425,
@@ -2117,7 +2226,7 @@
             "official_appearances": 1
         },
         {
-            "id": 223,
+            "id": 222,
             "name": "The Legend of Zelda",
             "type": "series",
             "first_poll": 2425,
@@ -2126,7 +2235,7 @@
             "official_appearances": 5
         },
         {
-            "id": 224,
+            "id": 223,
             "name": "Mega Man X",
             "type": "series",
             "first_poll": 2426,
@@ -2135,7 +2244,7 @@
             "official_appearances": 2
         },
         {
-            "id": 225,
+            "id": 224,
             "name": "Suikoden",
             "type": "series",
             "first_poll": 2426,
@@ -2144,7 +2253,7 @@
             "official_appearances": 1
         },
         {
-            "id": 226,
+            "id": 225,
             "name": "Pokemon",
             "type": "series",
             "first_poll": 2427,
@@ -2153,7 +2262,7 @@
             "official_appearances": 2
         },
         {
-            "id": 227,
+            "id": 226,
             "name": "Star Ocean",
             "type": "series",
             "first_poll": 2427,
@@ -2162,7 +2271,7 @@
             "official_appearances": 1
         },
         {
-            "id": 228,
+            "id": 227,
             "name": "Kirby",
             "type": "series",
             "first_poll": 2428,
@@ -2171,7 +2280,7 @@
             "official_appearances": 1
         },
         {
-            "id": 229,
+            "id": 228,
             "name": "Metroid",
             "type": "series",
             "first_poll": 2428,
@@ -2180,7 +2289,7 @@
             "official_appearances": 3
         },
         {
-            "id": 230,
+            "id": 229,
             "name": "Metal Gear",
             "type": "series",
             "first_poll": 2429,
@@ -2189,7 +2298,7 @@
             "official_appearances": 4
         },
         {
-            "id": 231,
+            "id": 230,
             "name": "Soul Calibur",
             "type": "series",
             "first_poll": 2429,
@@ -2198,7 +2307,7 @@
             "official_appearances": 1
         },
         {
-            "id": 232,
+            "id": 231,
             "name": "Fire Emblem",
             "type": "series",
             "first_poll": 2430,
@@ -2207,7 +2316,7 @@
             "official_appearances": 2
         },
         {
-            "id": 233,
+            "id": 232,
             "name": "Silent Hill",
             "type": "series",
             "first_poll": 2430,
@@ -2216,7 +2325,7 @@
             "official_appearances": 1
         },
         {
-            "id": 234,
+            "id": 233,
             "name": "Castlevania",
             "type": "series",
             "first_poll": 2431,
@@ -2225,7 +2334,7 @@
             "official_appearances": 2
         },
         {
-            "id": 235,
+            "id": 234,
             "name": "Halo",
             "type": "series",
             "first_poll": 2431,
@@ -2234,7 +2343,7 @@
             "official_appearances": 1
         },
         {
-            "id": 236,
+            "id": 235,
             "name": "Harvest Moon",
             "type": "series",
             "first_poll": 2432,
@@ -2243,7 +2352,7 @@
             "official_appearances": 1
         },
         {
-            "id": 237,
+            "id": 236,
             "name": "Kingdom Hearts",
             "type": "series",
             "first_poll": 2432,
@@ -2252,7 +2361,7 @@
             "official_appearances": 3
         },
         {
-            "id": 238,
+            "id": 237,
             "name": "Madden NFL",
             "type": "series",
             "first_poll": 2433,
@@ -2261,7 +2370,7 @@
             "official_appearances": 1
         },
         {
-            "id": 239,
+            "id": 238,
             "name": "Super Mario Bros.",
             "type": "series",
             "first_poll": 2433,
@@ -2270,7 +2379,7 @@
             "official_appearances": 4
         },
         {
-            "id": 240,
+            "id": 239,
             "name": "Grand Theft Auto",
             "type": "series",
             "first_poll": 2434,
@@ -2279,7 +2388,7 @@
             "official_appearances": 1
         },
         {
-            "id": 241,
+            "id": 240,
             "name": "Warcraft",
             "type": "series",
             "first_poll": 2434,
@@ -2288,7 +2397,7 @@
             "official_appearances": 2
         },
         {
-            "id": 242,
+            "id": 241,
             "name": "Devil May Cry",
             "type": "series",
             "first_poll": 2435,
@@ -2297,7 +2406,7 @@
             "official_appearances": 1
         },
         {
-            "id": 243,
+            "id": 242,
             "name": "Sonic the Hedgehog",
             "type": "series",
             "first_poll": 2435,
@@ -2306,7 +2415,7 @@
             "official_appearances": 2
         },
         {
-            "id": 244,
+            "id": 243,
             "name": "Dragon Quest",
             "type": "series",
             "first_poll": 2436,
@@ -2315,7 +2424,7 @@
             "official_appearances": 1
         },
         {
-            "id": 245,
+            "id": 244,
             "name": "Super Smash Bros.",
             "type": "series",
             "first_poll": 2436,
@@ -2324,7 +2433,7 @@
             "official_appearances": 3
         },
         {
-            "id": 246,
+            "id": 245,
             "name": "Diablo",
             "type": "series",
             "first_poll": 2437,
@@ -2333,7 +2442,7 @@
             "official_appearances": 1
         },
         {
-            "id": 247,
+            "id": 246,
             "name": "Final Fantasy",
             "type": "series",
             "first_poll": 2437,
@@ -2342,7 +2451,7 @@
             "official_appearances": 5
         },
         {
-            "id": 248,
+            "id": 247,
             "name": "Mario Kart",
             "type": "series",
             "first_poll": 2438,
@@ -2351,7 +2460,7 @@
             "official_appearances": 1
         },
         {
-            "id": 249,
+            "id": 248,
             "name": "Mega Man",
             "type": "series",
             "first_poll": 2438,
@@ -2360,7 +2469,7 @@
             "official_appearances": 2
         },
         {
-            "id": 250,
+            "id": 249,
             "name": "Street Fighter",
             "type": "series",
             "first_poll": 2439,
@@ -2369,7 +2478,7 @@
             "official_appearances": 2
         },
         {
-            "id": 251,
+            "id": 250,
             "name": "The Elder Scrolls",
             "type": "series",
             "first_poll": 2439,
@@ -2378,7 +2487,7 @@
             "official_appearances": 1
         },
         {
-            "id": 252,
+            "id": 251,
             "name": "Resident Evil",
             "type": "series",
             "first_poll": 2440,
@@ -2387,7 +2496,7 @@
             "official_appearances": 3
         },
         {
-            "id": 253,
+            "id": 252,
             "name": "Shadow Hearts",
             "type": "series",
             "first_poll": 2440,
@@ -2396,7 +2505,7 @@
             "official_appearances": 1
         },
         {
-            "id": 254,
+            "id": 253,
             "name": "Nidoran F",
             "type": "character",
             "first_poll": 2499,
@@ -2405,7 +2514,7 @@
             "official_appearances": 1
         },
         {
-            "id": 255,
+            "id": 254,
             "name": "Ada Wong",
             "type": "character",
             "first_poll": 2500,
@@ -2414,7 +2523,7 @@
             "official_appearances": 4
         },
         {
-            "id": 256,
+            "id": 255,
             "name": "Jade",
             "type": "character",
             "first_poll": 2500,
@@ -2423,7 +2532,7 @@
             "official_appearances": 2
         },
         {
-            "id": 257,
+            "id": 256,
             "name": "Lenneth Valkyrie",
             "type": "character",
             "first_poll": 2501,
@@ -2432,7 +2541,7 @@
             "official_appearances": 2
         },
         {
-            "id": 258,
+            "id": 257,
             "name": "Kairi",
             "type": "character",
             "first_poll": 2502,
@@ -2441,7 +2550,7 @@
             "official_appearances": 2
         },
         {
-            "id": 259,
+            "id": 258,
             "name": "Ivy Valentine",
             "type": "character",
             "first_poll": 2503,
@@ -2450,7 +2559,7 @@
             "official_appearances": 1
         },
         {
-            "id": 260,
+            "id": 259,
             "name": "Celes Chere",
             "type": "character",
             "first_poll": 2504,
@@ -2459,7 +2568,7 @@
             "official_appearances": 2
         },
         {
-            "id": 261,
+            "id": 260,
             "name": "The Boss",
             "type": "character",
             "first_poll": 2504,
@@ -2468,7 +2577,7 @@
             "official_appearances": 9
         },
         {
-            "id": 262,
+            "id": 261,
             "name": "Sheena Fujibayashi",
             "type": "character",
             "first_poll": 2505,
@@ -2477,7 +2586,7 @@
             "official_appearances": 1
         },
         {
-            "id": 263,
+            "id": 262,
             "name": "Princess Daisy",
             "type": "character",
             "first_poll": 2506,
@@ -2486,7 +2595,7 @@
             "official_appearances": 1
         },
         {
-            "id": 264,
+            "id": 263,
             "name": "Princess Peach",
             "type": "character",
             "first_poll": 2506,
@@ -2495,7 +2604,7 @@
             "official_appearances": 7
         },
         {
-            "id": 265,
+            "id": 264,
             "name": "Carmen Sandiego",
             "type": "character",
             "first_poll": 2507,
@@ -2504,7 +2613,7 @@
             "official_appearances": 1
         },
         {
-            "id": 266,
+            "id": 265,
             "name": "Amy Rose",
             "type": "character",
             "first_poll": 2509,
@@ -2513,7 +2622,7 @@
             "official_appearances": 1
         },
         {
-            "id": 267,
+            "id": 266,
             "name": "Marle",
             "type": "character",
             "first_poll": 2510,
@@ -2522,7 +2631,7 @@
             "official_appearances": 1
         },
         {
-            "id": 268,
+            "id": 267,
             "name": "Roll",
             "type": "character",
             "first_poll": 2511,
@@ -2531,7 +2640,7 @@
             "official_appearances": 1
         },
         {
-            "id": 269,
+            "id": 268,
             "name": "Cortana",
             "type": "character",
             "first_poll": 2512,
@@ -2540,7 +2649,7 @@
             "official_appearances": 1
         },
         {
-            "id": 270,
+            "id": 269,
             "name": "Alyx Vance",
             "type": "character",
             "first_poll": 2514,
@@ -2549,7 +2658,7 @@
             "official_appearances": 1
         },
         {
-            "id": 271,
+            "id": 270,
             "name": "Soma Cruz",
             "type": "character",
             "first_poll": 2515,
@@ -2558,7 +2667,7 @@
             "official_appearances": 1
         },
         {
-            "id": 272,
+            "id": 271,
             "name": "Tingle",
             "type": "character",
             "first_poll": 2519,
@@ -2567,7 +2676,7 @@
             "official_appearances": 3
         },
         {
-            "id": 273,
+            "id": 272,
             "name": "Phoenix Wright",
             "type": "character",
             "first_poll": 2520,
@@ -2576,7 +2685,7 @@
             "official_appearances": 11
         },
         {
-            "id": 274,
+            "id": 273,
             "name": "Axel",
             "type": "character",
             "first_poll": 2522,
@@ -2585,7 +2694,7 @@
             "official_appearances": 3
         },
         {
-            "id": 275,
+            "id": 274,
             "name": "Prince of Persia",
             "type": "character",
             "first_poll": 2525,
@@ -2597,7 +2706,7 @@
             ]
         },
         {
-            "id": 276,
+            "id": 275,
             "name": "Captain Falcon",
             "type": "character",
             "first_poll": 2527,
@@ -2606,7 +2715,7 @@
             "official_appearances": 10
         },
         {
-            "id": 277,
+            "id": 276,
             "name": "Sub-Zero",
             "type": "character",
             "first_poll": 2530,
@@ -2615,7 +2724,7 @@
             "official_appearances": 15
         },
         {
-            "id": 278,
+            "id": 277,
             "name": "Vaan",
             "type": "character",
             "first_poll": 2863,
@@ -2624,7 +2733,7 @@
             "official_appearances": 1
         },
         {
-            "id": 279,
+            "id": 278,
             "name": "Arthas Menethil",
             "type": "character",
             "first_poll": 2864,
@@ -2633,7 +2742,7 @@
             "official_appearances": 4
         },
         {
-            "id": 280,
+            "id": 279,
             "name": "Midna",
             "type": "character",
             "first_poll": 2866,
@@ -2642,7 +2751,7 @@
             "official_appearances": 6
         },
         {
-            "id": 281,
+            "id": 280,
             "name": "Marcus Fenix",
             "type": "character",
             "first_poll": 2867,
@@ -2651,7 +2760,7 @@
             "official_appearances": 5
         },
         {
-            "id": 282,
+            "id": 281,
             "name": "Zelos Wilder",
             "type": "character",
             "first_poll": 2867,
@@ -2660,7 +2769,7 @@
             "official_appearances": 1
         },
         {
-            "id": 283,
+            "id": 282,
             "name": "Midgar Zolom",
             "type": "character",
             "first_poll": 2868,
@@ -2669,7 +2778,7 @@
             "official_appearances": 1
         },
         {
-            "id": 284,
+            "id": 283,
             "name": "Chris Redfield",
             "type": "character",
             "first_poll": 2869,
@@ -2678,7 +2787,7 @@
             "official_appearances": 5
         },
         {
-            "id": 285,
+            "id": 284,
             "name": "Mewtwo",
             "type": "character",
             "first_poll": 2870,
@@ -2687,7 +2796,7 @@
             "official_appearances": 12
         },
         {
-            "id": 286,
+            "id": 285,
             "name": "Toad",
             "type": "character",
             "first_poll": 2870,
@@ -2696,7 +2805,7 @@
             "official_appearances": 1
         },
         {
-            "id": 287,
+            "id": 286,
             "name": "Meta Knight",
             "type": "character",
             "first_poll": 2871,
@@ -2705,7 +2814,7 @@
             "official_appearances": 5
         },
         {
-            "id": 288,
+            "id": 287,
             "name": "Banjo",
             "type": "character",
             "first_poll": 2872,
@@ -2714,7 +2823,7 @@
             "official_appearances": 4
         },
         {
-            "id": 289,
+            "id": 288,
             "name": "Wander",
             "type": "character",
             "first_poll": 2873,
@@ -2723,7 +2832,7 @@
             "official_appearances": 4
         },
         {
-            "id": 290,
+            "id": 289,
             "name": "Agent J",
             "type": "character",
             "first_poll": 2875,
@@ -2732,7 +2841,7 @@
             "official_appearances": 1
         },
         {
-            "id": 291,
+            "id": 290,
             "name": "Bidoof",
             "type": "character",
             "first_poll": 2875,
@@ -2741,7 +2850,7 @@
             "official_appearances": 2
         },
         {
-            "id": 292,
+            "id": 291,
             "name": "Miles Edgeworth",
             "type": "character",
             "first_poll": 2875,
@@ -2750,7 +2859,7 @@
             "official_appearances": 5
         },
         {
-            "id": 293,
+            "id": 292,
             "name": "Mudkip",
             "type": "character",
             "first_poll": 2879,
@@ -2759,7 +2868,7 @@
             "official_appearances": 4
         },
         {
-            "id": 294,
+            "id": 293,
             "name": "Pit",
             "type": "character",
             "first_poll": 2879,
@@ -2768,7 +2877,7 @@
             "official_appearances": 3
         },
         {
-            "id": 295,
+            "id": 294,
             "name": "Thrall",
             "type": "character",
             "first_poll": 2880,
@@ -2777,7 +2886,7 @@
             "official_appearances": 3
         },
         {
-            "id": 296,
+            "id": 295,
             "name": "Amaterasu",
             "type": "character",
             "first_poll": 2883,
@@ -2786,7 +2895,7 @@
             "official_appearances": 12
         },
         {
-            "id": 297,
+            "id": 296,
             "name": "Matt",
             "type": "character",
             "first_poll": 2883,
@@ -2795,7 +2904,7 @@
             "official_appearances": 1
         },
         {
-            "id": 298,
+            "id": 297,
             "name": "Balthier Bunansa",
             "type": "character",
             "first_poll": 2884,
@@ -2804,7 +2913,7 @@
             "official_appearances": 5
         },
         {
-            "id": 299,
+            "id": 298,
             "name": "Frank West",
             "type": "character",
             "first_poll": 2884,
@@ -2813,7 +2922,7 @@
             "official_appearances": 3
         },
         {
-            "id": 300,
+            "id": 299,
             "name": "Jade Curtiss",
             "type": "character",
             "first_poll": 2884,
@@ -2822,7 +2931,7 @@
             "official_appearances": 3
         },
         {
-            "id": 301,
+            "id": 300,
             "name": "Serge",
             "type": "character",
             "first_poll": 2885,
@@ -2831,7 +2940,7 @@
             "official_appearances": 1
         },
         {
-            "id": 302,
+            "id": 301,
             "name": "L-Block",
             "type": "character",
             "first_poll": 2887,
@@ -2840,7 +2949,7 @@
             "official_appearances": 16
         },
         {
-            "id": 303,
+            "id": 302,
             "name": "Nathan Hale",
             "type": "character",
             "first_poll": 2887,
@@ -2849,7 +2958,7 @@
             "official_appearances": 1
         },
         {
-            "id": 304,
+            "id": 303,
             "name": "Marth",
             "type": "character",
             "first_poll": 2888,
@@ -2858,7 +2967,7 @@
             "official_appearances": 5
         },
         {
-            "id": 305,
+            "id": 304,
             "name": "Prince of All Cosmos",
             "type": "character",
             "first_poll": 2888,
@@ -2867,7 +2976,7 @@
             "official_appearances": 1
         },
         {
-            "id": 306,
+            "id": 305,
             "name": "Nightmare",
             "type": "character",
             "first_poll": 2889,
@@ -2876,7 +2985,7 @@
             "official_appearances": 5
         },
         {
-            "id": 307,
+            "id": 306,
             "name": "Rayman",
             "type": "character",
             "first_poll": 2889,
@@ -2885,7 +2994,7 @@
             "official_appearances": 2
         },
         {
-            "id": 308,
+            "id": 307,
             "name": "Haseo",
             "type": "character",
             "first_poll": 2890,
@@ -2894,7 +3003,7 @@
             "official_appearances": 1
         },
         {
-            "id": 309,
+            "id": 308,
             "name": "Roxas",
             "type": "character",
             "first_poll": 2890,
@@ -2903,7 +3012,7 @@
             "official_appearances": 5
         },
         {
-            "id": 310,
+            "id": 309,
             "name": "Akuma",
             "type": "character",
             "first_poll": 2891,
@@ -2912,7 +3021,7 @@
             "official_appearances": 2
         },
         {
-            "id": 311,
+            "id": 310,
             "name": "Daxter",
             "type": "character",
             "first_poll": 2892,
@@ -2921,7 +3030,7 @@
             "official_appearances": 1
         },
         {
-            "id": 312,
+            "id": 311,
             "name": "Ike",
             "type": "character",
             "first_poll": 2893,
@@ -2930,7 +3039,7 @@
             "official_appearances": 9
         },
         {
-            "id": 313,
+            "id": 312,
             "name": "? Block",
             "type": "character",
             "first_poll": 2926,
@@ -2939,7 +3048,7 @@
             "official_appearances": 1
         },
         {
-            "id": 314,
+            "id": 313,
             "name": "Paddle",
             "type": "character",
             "first_poll": 2926,
@@ -2948,7 +3057,7 @@
             "official_appearances": 0
         },
         {
-            "id": 315,
+            "id": 314,
             "name": "Weighted Companion Cube",
             "type": "character",
             "first_poll": 2926,
@@ -2957,7 +3066,7 @@
             "official_appearances": 9
         },
         {
-            "id": 316,
+            "id": 315,
             "name": "Zack Fair",
             "type": "character",
             "first_poll": 3244,
@@ -2966,7 +3075,7 @@
             "official_appearances": 7
         },
         {
-            "id": 317,
+            "id": 316,
             "name": "Luke fon Fabre",
             "type": "character",
             "first_poll": 3245,
@@ -2975,7 +3084,7 @@
             "official_appearances": 1
         },
         {
-            "id": 318,
+            "id": 317,
             "name": "Niko Bellic",
             "type": "character",
             "first_poll": 3246,
@@ -2984,7 +3093,7 @@
             "official_appearances": 3
         },
         {
-            "id": 319,
+            "id": 318,
             "name": "Altair",
             "type": "character",
             "first_poll": 3247,
@@ -2993,7 +3102,7 @@
             "official_appearances": 7
         },
         {
-            "id": 320,
+            "id": 319,
             "name": "Lucario",
             "type": "character",
             "first_poll": 3247,
@@ -3002,7 +3111,7 @@
             "official_appearances": 2
         },
         {
-            "id": 321,
+            "id": 320,
             "name": "Sho Minamimoto",
             "type": "character",
             "first_poll": 3248,
@@ -3011,7 +3120,7 @@
             "official_appearances": 1
         },
         {
-            "id": 322,
+            "id": 321,
             "name": "Deckard Cain",
             "type": "character",
             "first_poll": 3249,
@@ -3020,7 +3129,7 @@
             "official_appearances": 1
         },
         {
-            "id": 323,
+            "id": 322,
             "name": "Fei Fong Wong",
             "type": "character",
             "first_poll": 3250,
@@ -3029,7 +3138,7 @@
             "official_appearances": 2
         },
         {
-            "id": 324,
+            "id": 323,
             "name": "Mega Man X",
             "type": "character",
             "first_poll": 3251,
@@ -3038,7 +3147,7 @@
             "official_appearances": 12
         },
         {
-            "id": 325,
+            "id": 324,
             "name": "Raz",
             "type": "character",
             "first_poll": 3252,
@@ -3047,7 +3156,7 @@
             "official_appearances": 2
         },
         {
-            "id": 326,
+            "id": 325,
             "name": "Neku Sakuraba",
             "type": "character",
             "first_poll": 3253,
@@ -3056,7 +3165,7 @@
             "official_appearances": 4
         },
         {
-            "id": 327,
+            "id": 326,
             "name": "Falco Lombardi",
             "type": "character",
             "first_poll": 3254,
@@ -3065,7 +3174,7 @@
             "official_appearances": 4
         },
         {
-            "id": 328,
+            "id": 327,
             "name": "GlaDOS",
             "type": "character",
             "first_poll": 3254,
@@ -3074,7 +3183,7 @@
             "official_appearances": 7
         },
         {
-            "id": 329,
+            "id": 328,
             "name": "Big Daddy",
             "type": "character",
             "first_poll": 3255,
@@ -3083,7 +3192,7 @@
             "official_appearances": 5
         },
         {
-            "id": 330,
+            "id": 329,
             "name": "Kaim Argonar",
             "type": "character",
             "first_poll": 3256,
@@ -3092,7 +3201,7 @@
             "official_appearances": 2
         },
         {
-            "id": 331,
+            "id": 330,
             "name": "The Dog",
             "type": "character",
             "first_poll": 3257,
@@ -3101,7 +3210,7 @@
             "official_appearances": 1
         },
         {
-            "id": 332,
+            "id": 331,
             "name": "Diddy Kong",
             "type": "character",
             "first_poll": 3258,
@@ -3110,7 +3219,7 @@
             "official_appearances": 1
         },
         {
-            "id": 333,
+            "id": 332,
             "name": "Spy",
             "type": "character",
             "first_poll": 3259,
@@ -3119,7 +3228,7 @@
             "official_appearances": 2
         },
         {
-            "id": 334,
+            "id": 333,
             "name": "Nero",
             "type": "character",
             "first_poll": 3261,
@@ -3128,7 +3237,7 @@
             "official_appearances": 2
         },
         {
-            "id": 335,
+            "id": 334,
             "name": "King Dedede",
             "type": "character",
             "first_poll": 3262,
@@ -3137,7 +3246,7 @@
             "official_appearances": 2
         },
         {
-            "id": 336,
+            "id": 335,
             "name": "Sackboy",
             "type": "character",
             "first_poll": 3263,
@@ -3146,7 +3255,7 @@
             "official_appearances": 4
         },
         {
-            "id": 337,
+            "id": 336,
             "name": "Tim",
             "type": "character",
             "first_poll": 3264,
@@ -3155,7 +3264,7 @@
             "official_appearances": 1
         },
         {
-            "id": 338,
+            "id": 337,
             "name": "Nathan Drake",
             "type": "character",
             "first_poll": 3265,
@@ -3164,7 +3273,7 @@
             "official_appearances": 5
         },
         {
-            "id": 339,
+            "id": 338,
             "name": "Axel Steel",
             "type": "character",
             "first_poll": 3266,
@@ -3173,7 +3282,7 @@
             "official_appearances": 1
         },
         {
-            "id": 340,
+            "id": 339,
             "name": "Travis Touchdown",
             "type": "character",
             "first_poll": 3267,
@@ -3182,7 +3291,7 @@
             "official_appearances": 3
         },
         {
-            "id": 341,
+            "id": 340,
             "name": "Jinjo",
             "type": "character",
             "first_poll": 3268,
@@ -3191,7 +3300,7 @@
             "official_appearances": 1
         },
         {
-            "id": 342,
+            "id": 341,
             "name": "Lucas",
             "type": "character",
             "first_poll": 3268,
@@ -3200,7 +3309,7 @@
             "official_appearances": 1
         },
         {
-            "id": 343,
+            "id": 342,
             "name": "Kain Highwind",
             "type": "character",
             "first_poll": 3269,
@@ -3209,7 +3318,7 @@
             "official_appearances": 1
         },
         {
-            "id": 344,
+            "id": 343,
             "name": "Professor Layton",
             "type": "character",
             "first_poll": 3269,
@@ -3218,7 +3327,7 @@
             "official_appearances": 3
         },
         {
-            "id": 345,
+            "id": 344,
             "name": "Captain MacMillan",
             "type": "character",
             "first_poll": 3270,
@@ -3227,7 +3336,7 @@
             "official_appearances": 2
         },
         {
-            "id": 346,
+            "id": 345,
             "name": "Siegfried Schtauffen",
             "type": "character",
             "first_poll": 3270,
@@ -3236,7 +3345,7 @@
             "official_appearances": 1
         },
         {
-            "id": 347,
+            "id": 346,
             "name": "Hogger",
             "type": "character",
             "first_poll": 3271,
@@ -3245,7 +3354,7 @@
             "official_appearances": 2
         },
         {
-            "id": 348,
+            "id": 347,
             "name": "Commander Shepard",
             "type": "character",
             "first_poll": 3272,
@@ -3254,7 +3363,7 @@
             "official_appearances": 8
         },
         {
-            "id": 349,
+            "id": 348,
             "name": "Sandbag",
             "type": "character",
             "first_poll": 3272,
@@ -3263,7 +3372,7 @@
             "official_appearances": 3
         },
         {
-            "id": 350,
+            "id": 349,
             "name": "Rydia",
             "type": "character",
             "first_poll": 3273,
@@ -3272,7 +3381,7 @@
             "official_appearances": 2
         },
         {
-            "id": 351,
+            "id": 350,
             "name": "Nana",
             "type": "character",
             "first_poll": 3274,
@@ -3281,7 +3390,7 @@
             "official_appearances": 1
         },
         {
-            "id": 352,
+            "id": 351,
             "name": "Heavy",
             "type": "character",
             "first_poll": 3275,
@@ -3290,7 +3399,7 @@
             "official_appearances": 3
         },
         {
-            "id": 353,
+            "id": 352,
             "name": "CD-I Link",
             "type": "character",
             "first_poll": 3308,
@@ -3299,7 +3408,7 @@
             "official_appearances": 0
         },
         {
-            "id": 354,
+            "id": 353,
             "name": "Classic Link",
             "type": "character",
             "first_poll": 3308,
@@ -3308,7 +3417,7 @@
             "official_appearances": 0
         },
         {
-            "id": 355,
+            "id": 354,
             "name": "Toon Link",
             "type": "character",
             "first_poll": 3308,
@@ -3317,7 +3426,7 @@
             "official_appearances": 0
         },
         {
-            "id": 356,
+            "id": 355,
             "name": "Young Link",
             "type": "character",
             "first_poll": 3308,
@@ -3326,7 +3435,7 @@
             "official_appearances": 0
         },
         {
-            "id": 357,
+            "id": 356,
             "name": "Mike Tyson's Punch-Out!!",
             "type": "game",
             "first_poll": 3446,
@@ -3335,7 +3444,7 @@
             "official_appearances": 1
         },
         {
-            "id": 358,
+            "id": 357,
             "name": "Space Invaders",
             "type": "game",
             "first_poll": 3446,
@@ -3344,7 +3453,7 @@
             "official_appearances": 1
         },
         {
-            "id": 359,
+            "id": 358,
             "name": "Mega Man 2",
             "type": "game",
             "first_poll": 3447,
@@ -3353,7 +3462,7 @@
             "official_appearances": 3
         },
         {
-            "id": 360,
+            "id": 359,
             "name": "The Oregon Trail",
             "type": "game",
             "first_poll": 3447,
@@ -3362,7 +3471,7 @@
             "official_appearances": 1
         },
         {
-            "id": 361,
+            "id": 360,
             "name": "Ninja Gaiden",
             "type": "game",
             "first_poll": 3448,
@@ -3371,7 +3480,7 @@
             "official_appearances": 3
         },
         {
-            "id": 362,
+            "id": 361,
             "name": "Super Mario Bros.",
             "type": "game",
             "first_poll": 3448,
@@ -3380,7 +3489,7 @@
             "official_appearances": 4
         },
         {
-            "id": 363,
+            "id": 362,
             "name": "Dragon Warrior III",
             "type": "game",
             "first_poll": 3449,
@@ -3389,7 +3498,7 @@
             "official_appearances": 1
         },
         {
-            "id": 364,
+            "id": 363,
             "name": "Castlevania III",
             "type": "game",
             "first_poll": 3450,
@@ -3398,7 +3507,7 @@
             "official_appearances": 1
         },
         {
-            "id": 365,
+            "id": 364,
             "name": "Civilization",
             "type": "game",
             "first_poll": 3450,
@@ -3407,7 +3516,7 @@
             "official_appearances": 1
         },
         {
-            "id": 366,
+            "id": 365,
             "name": "Sonic the Hedgehog",
             "type": "game",
             "first_poll": 3450,
@@ -3416,16 +3525,7 @@
             "official_appearances": 3
         },
         {
-            "id": 367,
-            "name": "Secret of Monkey Island",
-            "type": "game",
-            "first_poll": 3451,
-            "first_contest": "BGE 2K9",
-            "appearances": 1,
-            "official_appearances": 1
-        },
-        {
-            "id": 368,
+            "id": 366,
             "name": "SimCity",
             "type": "game",
             "first_poll": 3451,
@@ -3434,7 +3534,7 @@
             "official_appearances": 1
         },
         {
-            "id": 369,
+            "id": 367,
             "name": "Tecmo Super Bowl",
             "type": "game",
             "first_poll": 3451,
@@ -3443,7 +3543,19 @@
             "official_appearances": 1
         },
         {
-            "id": 370,
+            "id": 368,
+            "name": "The Secret of Monkey Island",
+            "type": "game",
+            "first_poll": 3451,
+            "first_contest": "BGE 2K9",
+            "appearances": 2,
+            "official_appearances": 2,
+            "aliases": [
+                "Secret of Monkey Island"
+            ]
+        },
+        {
+            "id": 369,
             "name": "Battletoads",
             "type": "game",
             "first_poll": 3452,
@@ -3452,7 +3564,7 @@
             "official_appearances": 1
         },
         {
-            "id": 371,
+            "id": 370,
             "name": "Prince of Persia",
             "type": "game",
             "first_poll": 3452,
@@ -3461,7 +3573,7 @@
             "official_appearances": 1
         },
         {
-            "id": 372,
+            "id": 371,
             "name": "Crystalis",
             "type": "game",
             "first_poll": 3453,
@@ -3470,16 +3582,19 @@
             "official_appearances": 1
         },
         {
-            "id": 373,
-            "name": "Final Fantasy II (IV)",
+            "id": 372,
+            "name": "Final Fantasy IV",
             "type": "game",
             "first_poll": 3453,
             "first_contest": "BGE 2K9",
-            "appearances": 3,
-            "official_appearances": 3
+            "appearances": 5,
+            "official_appearances": 5,
+            "aliases": [
+                "Final Fantasy II (IV)"
+            ]
         },
         {
-            "id": 374,
+            "id": 373,
             "name": "Mega Man 3",
             "type": "game",
             "first_poll": 3453,
@@ -3488,7 +3603,7 @@
             "official_appearances": 2
         },
         {
-            "id": 375,
+            "id": 374,
             "name": "Sonic the Hedgehog 3",
             "type": "game",
             "first_poll": 3454,
@@ -3497,7 +3612,7 @@
             "official_appearances": 1
         },
         {
-            "id": 376,
+            "id": 375,
             "name": "Super Mario Kart",
             "type": "game",
             "first_poll": 3454,
@@ -3506,7 +3621,7 @@
             "official_appearances": 2
         },
         {
-            "id": 377,
+            "id": 376,
             "name": "Donkey Kong Country",
             "type": "game",
             "first_poll": 3455,
@@ -3515,7 +3630,7 @@
             "official_appearances": 2
         },
         {
-            "id": 378,
+            "id": 377,
             "name": "Streets of Rage II",
             "type": "game",
             "first_poll": 3455,
@@ -3524,25 +3639,7 @@
             "official_appearances": 1
         },
         {
-            "id": 379,
-            "name": "Zelda: A Link to the Past",
-            "type": "game",
-            "first_poll": 3455,
-            "first_contest": "BGE 2K9",
-            "appearances": 1,
-            "official_appearances": 1
-        },
-        {
-            "id": 380,
-            "name": "Final Fantasy III (VI)",
-            "type": "game",
-            "first_poll": 3456,
-            "first_contest": "BGE 2K9",
-            "appearances": 4,
-            "official_appearances": 4
-        },
-        {
-            "id": 381,
+            "id": 378,
             "name": "Mega Man X",
             "type": "game",
             "first_poll": 3456,
@@ -3551,16 +3648,19 @@
             "official_appearances": 3
         },
         {
-            "id": 382,
-            "name": "Zelda: Link's Awakening",
+            "id": 379,
+            "name": "The Legend of Zelda: Link's Awakening",
             "type": "game",
             "first_poll": 3456,
             "first_contest": "BGE 2K9",
-            "appearances": 1,
-            "official_appearances": 1
+            "appearances": 3,
+            "official_appearances": 3,
+            "aliases": [
+                "Zelda: Link's Awakening"
+            ]
         },
         {
-            "id": 383,
+            "id": 380,
             "name": "Mortal Kombat II",
             "type": "game",
             "first_poll": 3457,
@@ -3569,7 +3669,7 @@
             "official_appearances": 2
         },
         {
-            "id": 384,
+            "id": 381,
             "name": "Shining Force II",
             "type": "game",
             "first_poll": 3457,
@@ -3578,34 +3678,19 @@
             "official_appearances": 1
         },
         {
-            "id": 385,
-            "name": "Sonic the Hedgehog 2",
-            "type": "game",
-            "first_poll": 3457,
-            "first_contest": "BGE 2K9",
-            "appearances": 5,
-            "official_appearances": 5
-        },
-        {
-            "id": 386,
-            "name": "Donkey Kong Country 2",
+            "id": 382,
+            "name": "Donkey Kong Country 2: Diddy's Kong Quest",
             "type": "game",
             "first_poll": 3458,
             "first_contest": "BGE 2K9",
-            "appearances": 1,
-            "official_appearances": 1
+            "appearances": 4,
+            "official_appearances": 4,
+            "aliases": [
+                "Donkey Kong Country 2"
+            ]
         },
         {
-            "id": 387,
-            "name": "GoldenEye 007",
-            "type": "game",
-            "first_poll": 3458,
-            "first_contest": "BGE 2K9",
-            "appearances": 5,
-            "official_appearances": 5
-        },
-        {
-            "id": 388,
+            "id": 383,
             "name": "Resident Evil 2",
             "type": "game",
             "first_poll": 3458,
@@ -3614,7 +3699,7 @@
             "official_appearances": 6
         },
         {
-            "id": 389,
+            "id": 384,
             "name": "Mario Kart 64",
             "type": "game",
             "first_poll": 3459,
@@ -3623,7 +3708,7 @@
             "official_appearances": 2
         },
         {
-            "id": 390,
+            "id": 385,
             "name": "Star Fox 64",
             "type": "game",
             "first_poll": 3459,
@@ -3632,7 +3717,7 @@
             "official_appearances": 1
         },
         {
-            "id": 391,
+            "id": 386,
             "name": "Suikoden",
             "type": "game",
             "first_poll": 3459,
@@ -3641,16 +3726,7 @@
             "official_appearances": 1
         },
         {
-            "id": 392,
-            "name": "Castlevania: Symphony of the Night",
-            "type": "game",
-            "first_poll": 3460,
-            "first_contest": "BGE 2K9",
-            "appearances": 6,
-            "official_appearances": 6
-        },
-        {
-            "id": 393,
+            "id": 387,
             "name": "Kirby Super Star",
             "type": "game",
             "first_poll": 3460,
@@ -3659,7 +3735,7 @@
             "official_appearances": 1
         },
         {
-            "id": 394,
+            "id": 388,
             "name": "Lufia II",
             "type": "game",
             "first_poll": 3461,
@@ -3668,7 +3744,7 @@
             "official_appearances": 1
         },
         {
-            "id": 395,
+            "id": 389,
             "name": "Super Mario World 2: Yoshi's Island",
             "type": "game",
             "first_poll": 3461,
@@ -3677,7 +3753,7 @@
             "official_appearances": 2
         },
         {
-            "id": 396,
+            "id": 390,
             "name": "Banjo-Kazooie",
             "type": "game",
             "first_poll": 3462,
@@ -3686,16 +3762,19 @@
             "official_appearances": 3
         },
         {
-            "id": 397,
+            "id": 391,
             "name": "Pokemon Red/Blue/Yellow",
             "type": "game",
             "first_poll": 3462,
             "first_contest": "BGE 2K9",
-            "appearances": 4,
-            "official_appearances": 4
+            "appearances": 9,
+            "official_appearances": 8,
+            "aliases": [
+                "Pokemon Red/Blue/Yellow/Green Version"
+            ]
         },
         {
-            "id": 398,
+            "id": 392,
             "name": "The Legend of Zelda: Majora's Mask",
             "type": "game",
             "first_poll": 3462,
@@ -3704,7 +3783,7 @@
             "official_appearances": 13
         },
         {
-            "id": 399,
+            "id": 393,
             "name": "Deus Ex",
             "type": "game",
             "first_poll": 3463,
@@ -3713,16 +3792,7 @@
             "official_appearances": 4
         },
         {
-            "id": 400,
-            "name": "Pokemon Gold/Silver",
-            "type": "game",
-            "first_poll": 3463,
-            "first_contest": "BGE 2K9",
-            "appearances": 2,
-            "official_appearances": 2
-        },
-        {
-            "id": 401,
+            "id": 394,
             "name": "Final Fantasy VIII",
             "type": "game",
             "first_poll": 3464,
@@ -3731,16 +3801,7 @@
             "official_appearances": 5
         },
         {
-            "id": 402,
-            "name": "SoulCalibur",
-            "type": "game",
-            "first_poll": 3464,
-            "first_contest": "BGE 2K9",
-            "appearances": 1,
-            "official_appearances": 1
-        },
-        {
-            "id": 403,
+            "id": 395,
             "name": "Chrono Cross",
             "type": "game",
             "first_poll": 3465,
@@ -3749,7 +3810,7 @@
             "official_appearances": 6
         },
         {
-            "id": 404,
+            "id": 396,
             "name": "Final Fantasy IX",
             "type": "game",
             "first_poll": 3465,
@@ -3758,16 +3819,7 @@
             "official_appearances": 9
         },
         {
-            "id": 405,
-            "name": "The Legend of Zelda: Ocarina of Time",
-            "type": "game",
-            "first_poll": 3465,
-            "first_contest": "BGE 2K9",
-            "appearances": 15,
-            "official_appearances": 13
-        },
-        {
-            "id": 406,
+            "id": 397,
             "name": "Silent Hill 2",
             "type": "game",
             "first_poll": 3466,
@@ -3776,7 +3828,7 @@
             "official_appearances": 3
         },
         {
-            "id": 407,
+            "id": 398,
             "name": "The Elder Scrolls III: Morrowind",
             "type": "game",
             "first_poll": 3466,
@@ -3785,16 +3837,7 @@
             "official_appearances": 4
         },
         {
-            "id": 408,
-            "name": "Grand Theft Auto: Vice City",
-            "type": "game",
-            "first_poll": 3467,
-            "first_contest": "BGE 2K9",
-            "appearances": 5,
-            "official_appearances": 5
-        },
-        {
-            "id": 409,
+            "id": 399,
             "name": "Paper Mario",
             "type": "game",
             "first_poll": 3467,
@@ -3803,16 +3846,19 @@
             "official_appearances": 5
         },
         {
-            "id": 410,
-            "name": "Diablo II: Lord of Destruction",
+            "id": 400,
+            "name": "Diablo II",
             "type": "game",
             "first_poll": 3468,
             "first_contest": "BGE 2K9",
-            "appearances": 3,
-            "official_appearances": 3
+            "appearances": 6,
+            "official_appearances": 6,
+            "aliases": [
+                "Diablo II: Lord of Destruction"
+            ]
         },
         {
-            "id": 411,
+            "id": 401,
             "name": "Grand Theft Auto III",
             "type": "game",
             "first_poll": 3468,
@@ -3821,25 +3867,7 @@
             "official_appearances": 3
         },
         {
-            "id": 412,
-            "name": "Halo: Combat Evolved",
-            "type": "game",
-            "first_poll": 3468,
-            "first_contest": "BGE 2K9",
-            "appearances": 8,
-            "official_appearances": 8
-        },
-        {
-            "id": 413,
-            "name": "Star Wars: Knights of the Old Republic",
-            "type": "game",
-            "first_poll": 3468,
-            "first_contest": "BGE 2K9",
-            "appearances": 6,
-            "official_appearances": 6
-        },
-        {
-            "id": 414,
+            "id": 402,
             "name": "Disgaea: Hour of Darkness",
             "type": "game",
             "first_poll": 3469,
@@ -3848,25 +3876,16 @@
             "official_appearances": 2
         },
         {
-            "id": 415,
-            "name": "The Legend of Zelda: The Wind Waker",
-            "type": "game",
-            "first_poll": 3469,
-            "first_contest": "BGE 2K9",
-            "appearances": 8,
-            "official_appearances": 8
-        },
-        {
-            "id": 416,
-            "name": "God of War",
+            "id": 403,
+            "name": "God of War (2005)",
             "type": "game",
             "first_poll": 3470,
             "first_contest": "BGE 2K9",
-            "appearances": 8,
-            "official_appearances": 8
+            "appearances": 4,
+            "official_appearances": 4
         },
         {
-            "id": 417,
+            "id": 404,
             "name": "Grand Theft Auto: San Andreas",
             "type": "game",
             "first_poll": 3470,
@@ -3875,7 +3894,7 @@
             "official_appearances": 5
         },
         {
-            "id": 418,
+            "id": 405,
             "name": "Tales of Symphonia",
             "type": "game",
             "first_poll": 3470,
@@ -3884,7 +3903,7 @@
             "official_appearances": 5
         },
         {
-            "id": 419,
+            "id": 406,
             "name": "The Elder Scrolls IV: Oblivion",
             "type": "game",
             "first_poll": 3470,
@@ -3893,7 +3912,7 @@
             "official_appearances": 7
         },
         {
-            "id": 420,
+            "id": 407,
             "name": "Halo 2",
             "type": "game",
             "first_poll": 3471,
@@ -3902,16 +3921,19 @@
             "official_appearances": 2
         },
         {
-            "id": 421,
-            "name": "Metal Gear Solid 3",
+            "id": 408,
+            "name": "Metal Gear Solid 3: Snake Eater",
             "type": "game",
             "first_poll": 3471,
             "first_contest": "BGE 2K9",
-            "appearances": 3,
-            "official_appearances": 3
+            "appearances": 13,
+            "official_appearances": 13,
+            "aliases": [
+                "Metal Gear Solid 3"
+            ]
         },
         {
-            "id": 422,
+            "id": 409,
             "name": "Okami",
             "type": "game",
             "first_poll": 3471,
@@ -3920,7 +3942,7 @@
             "official_appearances": 6
         },
         {
-            "id": 423,
+            "id": 410,
             "name": "World of Warcraft",
             "type": "game",
             "first_poll": 3471,
@@ -3929,7 +3951,7 @@
             "official_appearances": 5
         },
         {
-            "id": 424,
+            "id": 411,
             "name": "Gears of War",
             "type": "game",
             "first_poll": 3472,
@@ -3938,7 +3960,7 @@
             "official_appearances": 2
         },
         {
-            "id": 425,
+            "id": 412,
             "name": "Kingdom Hearts II",
             "type": "game",
             "first_poll": 3472,
@@ -3947,7 +3969,7 @@
             "official_appearances": 9
         },
         {
-            "id": 426,
+            "id": 413,
             "name": "Resident Evil 4",
             "type": "game",
             "first_poll": 3472,
@@ -3956,7 +3978,7 @@
             "official_appearances": 13
         },
         {
-            "id": 427,
+            "id": 414,
             "name": "Shadow of the Colossus",
             "type": "game",
             "first_poll": 3472,
@@ -3965,7 +3987,7 @@
             "official_appearances": 8
         },
         {
-            "id": 428,
+            "id": 415,
             "name": "Final Fantasy XII",
             "type": "game",
             "first_poll": 3473,
@@ -3974,7 +3996,7 @@
             "official_appearances": 5
         },
         {
-            "id": 429,
+            "id": 416,
             "name": "Half-Life 2",
             "type": "game",
             "first_poll": 3473,
@@ -3983,7 +4005,7 @@
             "official_appearances": 8
         },
         {
-            "id": 430,
+            "id": 417,
             "name": "Phoenix Wright: Ace Attorney",
             "type": "game",
             "first_poll": 3473,
@@ -3992,16 +4014,19 @@
             "official_appearances": 3
         },
         {
-            "id": 431,
+            "id": 418,
             "name": "The Legend of Zelda: Twilight Princess",
             "type": "game",
             "first_poll": 3473,
             "first_contest": "BGE 2K9",
-            "appearances": 11,
-            "official_appearances": 11
+            "appearances": 12,
+            "official_appearances": 12,
+            "aliases": [
+                "Zelda: Twilight Princess"
+            ]
         },
         {
-            "id": 432,
+            "id": 419,
             "name": "Grand Theft Auto IV",
             "type": "game",
             "first_poll": 3474,
@@ -4010,16 +4035,19 @@
             "official_appearances": 3
         },
         {
-            "id": 433,
-            "name": "Persona 4",
+            "id": 420,
+            "name": "Shin Megami Tensei: Persona 4",
             "type": "game",
             "first_poll": 3474,
             "first_contest": "BGE 2K9",
-            "appearances": 1,
-            "official_appearances": 1
+            "appearances": 6,
+            "official_appearances": 6,
+            "aliases": [
+                "Persona 4"
+            ]
         },
         {
-            "id": 434,
+            "id": 421,
             "name": "Street Fighter IV",
             "type": "game",
             "first_poll": 3474,
@@ -4028,7 +4056,7 @@
             "official_appearances": 3
         },
         {
-            "id": 435,
+            "id": 422,
             "name": "Super Smash Bros. Brawl",
             "type": "game",
             "first_poll": 3474,
@@ -4037,25 +4065,31 @@
             "official_appearances": 12
         },
         {
-            "id": 436,
-            "name": "Call of Duty 4",
+            "id": 423,
+            "name": "Call of Duty 4: Modern Warfare",
             "type": "game",
             "first_poll": 3475,
             "first_contest": "BGE 2K9",
-            "appearances": 3,
-            "official_appearances": 3
+            "appearances": 7,
+            "official_appearances": 7,
+            "aliases": [
+                "Call of Duty 4"
+            ]
         },
         {
-            "id": 437,
+            "id": 424,
             "name": "Pokemon Diamond/Pearl",
             "type": "game",
             "first_poll": 3475,
             "first_contest": "BGE 2K9",
-            "appearances": 1,
-            "official_appearances": 1
+            "appearances": 4,
+            "official_appearances": 4,
+            "aliases": [
+                "Pokemon Diamond/Pearl/Platinum"
+            ]
         },
         {
-            "id": 438,
+            "id": 425,
             "name": "Super Mario Galaxy",
             "type": "game",
             "first_poll": 3475,
@@ -4064,7 +4098,7 @@
             "official_appearances": 7
         },
         {
-            "id": 439,
+            "id": 426,
             "name": "Team Fortress 2",
             "type": "game",
             "first_poll": 3475,
@@ -4073,7 +4107,7 @@
             "official_appearances": 4
         },
         {
-            "id": 440,
+            "id": 427,
             "name": "BioShock",
             "type": "game",
             "first_poll": 3476,
@@ -4082,7 +4116,7 @@
             "official_appearances": 5
         },
         {
-            "id": 441,
+            "id": 428,
             "name": "LittleBigPlanet",
             "type": "game",
             "first_poll": 3476,
@@ -4091,16 +4125,19 @@
             "official_appearances": 2
         },
         {
-            "id": 442,
-            "name": "Metal Gear Solid 4",
+            "id": 429,
+            "name": "Metal Gear Solid 4: Guns of the Patriots",
             "type": "game",
             "first_poll": 3476,
             "first_contest": "BGE 2K9",
-            "appearances": 5,
-            "official_appearances": 5
+            "appearances": 9,
+            "official_appearances": 9,
+            "aliases": [
+                "Metal Gear Solid 4"
+            ]
         },
         {
-            "id": 443,
+            "id": 430,
             "name": "Portal",
             "type": "game",
             "first_poll": 3476,
@@ -4109,7 +4146,7 @@
             "official_appearances": 7
         },
         {
-            "id": 444,
+            "id": 431,
             "name": "Fallout 3",
             "type": "game",
             "first_poll": 3477,
@@ -4118,7 +4155,7 @@
             "official_appearances": 11
         },
         {
-            "id": 445,
+            "id": 432,
             "name": "Halo 3",
             "type": "game",
             "first_poll": 3477,
@@ -4127,7 +4164,7 @@
             "official_appearances": 5
         },
         {
-            "id": 446,
+            "id": 433,
             "name": "Left 4 Dead",
             "type": "game",
             "first_poll": 3477,
@@ -4136,7 +4173,7 @@
             "official_appearances": 2
         },
         {
-            "id": 447,
+            "id": 434,
             "name": "Mass Effect",
             "type": "game",
             "first_poll": 3477,
@@ -4145,52 +4182,7 @@
             "official_appearances": 6
         },
         {
-            "id": 448,
-            "name": "The Secret of Monkey Island",
-            "type": "game",
-            "first_poll": 3480,
-            "first_contest": "BGE 2K9",
-            "appearances": 1,
-            "official_appearances": 1
-        },
-        {
-            "id": 449,
-            "name": "The Legend of Zelda: A Link to the Past",
-            "type": "game",
-            "first_poll": 3482,
-            "first_contest": "BGE 2K9",
-            "appearances": 10,
-            "official_appearances": 10
-        },
-        {
-            "id": 450,
-            "name": "The Legend of Zelda: Link's Awakening",
-            "type": "game",
-            "first_poll": 3483,
-            "first_contest": "BGE 2K9",
-            "appearances": 2,
-            "official_appearances": 2
-        },
-        {
-            "id": 451,
-            "name": "The Legend of Zelda: Wind Waker",
-            "type": "game",
-            "first_poll": 3489,
-            "first_contest": "BGE 2K9",
-            "appearances": 1,
-            "official_appearances": 1
-        },
-        {
-            "id": 452,
-            "name": "Zelda: Twilight Princess",
-            "type": "game",
-            "first_poll": 3505,
-            "first_contest": "BGE 2K9",
-            "appearances": 1,
-            "official_appearances": 1
-        },
-        {
-            "id": 453,
+            "id": 435,
             "name": "Pokemon Trainer Red",
             "type": "character",
             "first_poll": 3732,
@@ -4199,7 +4191,7 @@
             "official_appearances": 10
         },
         {
-            "id": 454,
+            "id": 436,
             "name": "Captain John Price",
             "type": "character",
             "first_poll": 3733,
@@ -4208,7 +4200,7 @@
             "official_appearances": 1
         },
         {
-            "id": 455,
+            "id": 437,
             "name": "Sandal",
             "type": "character",
             "first_poll": 3736,
@@ -4217,7 +4209,7 @@
             "official_appearances": 1
         },
         {
-            "id": 456,
+            "id": 438,
             "name": "Lightning",
             "type": "character",
             "first_poll": 3738,
@@ -4226,7 +4218,7 @@
             "official_appearances": 4
         },
         {
-            "id": 457,
+            "id": 439,
             "name": "Fawful",
             "type": "character",
             "first_poll": 3743,
@@ -4235,7 +4227,7 @@
             "official_appearances": 2
         },
         {
-            "id": 458,
+            "id": 440,
             "name": "Claptrap",
             "type": "character",
             "first_poll": 3748,
@@ -4244,7 +4236,7 @@
             "official_appearances": 2
         },
         {
-            "id": 459,
+            "id": 441,
             "name": "Prinny",
             "type": "character",
             "first_poll": 3749,
@@ -4253,7 +4245,7 @@
             "official_appearances": 2
         },
         {
-            "id": 460,
+            "id": 442,
             "name": "Cid Highwind",
             "type": "character",
             "first_poll": 3750,
@@ -4262,7 +4254,7 @@
             "official_appearances": 1
         },
         {
-            "id": 461,
+            "id": 443,
             "name": "Charizard",
             "type": "character",
             "first_poll": 3760,
@@ -4271,7 +4263,7 @@
             "official_appearances": 10
         },
         {
-            "id": 462,
+            "id": 444,
             "name": "Jecht",
             "type": "character",
             "first_poll": 3766,
@@ -4280,7 +4272,7 @@
             "official_appearances": 3
         },
         {
-            "id": 463,
+            "id": 445,
             "name": "Eddie Riggs",
             "type": "character",
             "first_poll": 3767,
@@ -4289,7 +4281,7 @@
             "official_appearances": 1
         },
         {
-            "id": 464,
+            "id": 446,
             "name": "Ezio Auditore da Firenze",
             "type": "character",
             "first_poll": 3769,
@@ -4298,7 +4290,7 @@
             "official_appearances": 5
         },
         {
-            "id": 465,
+            "id": 447,
             "name": "Vault Boy",
             "type": "character",
             "first_poll": 3774,
@@ -4307,7 +4299,7 @@
             "official_appearances": 1
         },
         {
-            "id": 466,
+            "id": 448,
             "name": "Ellis",
             "type": "character",
             "first_poll": 3781,
@@ -4316,7 +4308,7 @@
             "official_appearances": 1
         },
         {
-            "id": 467,
+            "id": 449,
             "name": "Darth Revan",
             "type": "character",
             "first_poll": 3784,
@@ -4325,7 +4317,7 @@
             "official_appearances": 1
         },
         {
-            "id": 468,
+            "id": 450,
             "name": "Missingno",
             "type": "character",
             "first_poll": 3789,
@@ -4334,7 +4326,7 @@
             "official_appearances": 5
         },
         {
-            "id": 469,
+            "id": 451,
             "name": "Soap MacTavish",
             "type": "character",
             "first_poll": 3790,
@@ -4343,7 +4335,7 @@
             "official_appearances": 1
         },
         {
-            "id": 470,
+            "id": 452,
             "name": "Yuri Lowell",
             "type": "character",
             "first_poll": 3792,
@@ -4352,7 +4344,7 @@
             "official_appearances": 2
         },
         {
-            "id": 471,
+            "id": 453,
             "name": "inFamous",
             "type": "game",
             "first_poll": 4069,
@@ -4361,7 +4353,7 @@
             "official_appearances": 1
         },
         {
-            "id": 472,
+            "id": 454,
             "name": "Rock Band 2",
             "type": "game",
             "first_poll": 4070,
@@ -4370,7 +4362,7 @@
             "official_appearances": 1
         },
         {
-            "id": 473,
+            "id": 455,
             "name": "Batman: Arkham Asylum",
             "type": "game",
             "first_poll": 4071,
@@ -4379,7 +4371,7 @@
             "official_appearances": 3
         },
         {
-            "id": 474,
+            "id": 456,
             "name": "Psychonauts",
             "type": "game",
             "first_poll": 4071,
@@ -4388,7 +4380,7 @@
             "official_appearances": 1
         },
         {
-            "id": 475,
+            "id": 457,
             "name": "Fable",
             "type": "game",
             "first_poll": 4072,
@@ -4397,7 +4389,7 @@
             "official_appearances": 1
         },
         {
-            "id": 476,
+            "id": 458,
             "name": "The Legend of Dragoon",
             "type": "game",
             "first_poll": 4073,
@@ -4406,7 +4398,7 @@
             "official_appearances": 1
         },
         {
-            "id": 477,
+            "id": 459,
             "name": "Uncharted 2: Among Thieves",
             "type": "game",
             "first_poll": 4073,
@@ -4415,7 +4407,7 @@
             "official_appearances": 5
         },
         {
-            "id": 478,
+            "id": 460,
             "name": "Sonic Adventure 2",
             "type": "game",
             "first_poll": 4074,
@@ -4424,7 +4416,7 @@
             "official_appearances": 1
         },
         {
-            "id": 479,
+            "id": 461,
             "name": "Super Mario Sunshine",
             "type": "game",
             "first_poll": 4075,
@@ -4433,7 +4425,7 @@
             "official_appearances": 1
         },
         {
-            "id": 480,
+            "id": 462,
             "name": "Star Ocean: Till the End of Time",
             "type": "game",
             "first_poll": 4077,
@@ -4442,7 +4434,7 @@
             "official_appearances": 1
         },
         {
-            "id": 481,
+            "id": 463,
             "name": "Devil May Cry 3: Dante's Awakening",
             "type": "game",
             "first_poll": 4078,
@@ -4451,7 +4443,7 @@
             "official_appearances": 2
         },
         {
-            "id": 482,
+            "id": 464,
             "name": "Mother 3",
             "type": "game",
             "first_poll": 4078,
@@ -4460,7 +4452,7 @@
             "official_appearances": 2
         },
         {
-            "id": 483,
+            "id": 465,
             "name": "Demon's Souls",
             "type": "game",
             "first_poll": 4079,
@@ -4469,7 +4461,7 @@
             "official_appearances": 2
         },
         {
-            "id": 484,
+            "id": 466,
             "name": "Mega Man 9",
             "type": "game",
             "first_poll": 4079,
@@ -4478,7 +4470,7 @@
             "official_appearances": 2
         },
         {
-            "id": 485,
+            "id": 467,
             "name": "No More Heroes",
             "type": "game",
             "first_poll": 4080,
@@ -4487,7 +4479,7 @@
             "official_appearances": 1
         },
         {
-            "id": 486,
+            "id": 468,
             "name": "Resident Evil 5",
             "type": "game",
             "first_poll": 4081,
@@ -4496,7 +4488,7 @@
             "official_appearances": 1
         },
         {
-            "id": 487,
+            "id": 469,
             "name": "Left 4 Dead 2",
             "type": "game",
             "first_poll": 4084,
@@ -4505,7 +4497,7 @@
             "official_appearances": 1
         },
         {
-            "id": 488,
+            "id": 470,
             "name": "Guitar Hero II",
             "type": "game",
             "first_poll": 4085,
@@ -4514,7 +4506,7 @@
             "official_appearances": 1
         },
         {
-            "id": 489,
+            "id": 471,
             "name": "Warcraft III: Reign of Chaos",
             "type": "game",
             "first_poll": 4086,
@@ -4523,7 +4515,7 @@
             "official_appearances": 2
         },
         {
-            "id": 490,
+            "id": 472,
             "name": "Conker's Bad Fur Day",
             "type": "game",
             "first_poll": 4087,
@@ -4532,16 +4524,7 @@
             "official_appearances": 1
         },
         {
-            "id": 491,
-            "name": "Call of Duty 4: Modern Warfare",
-            "type": "game",
-            "first_poll": 4088,
-            "first_contest": "GOTD",
-            "appearances": 4,
-            "official_appearances": 4
-        },
-        {
-            "id": 492,
+            "id": 473,
             "name": "Prince of Persia: The Sands of Time",
             "type": "game",
             "first_poll": 4088,
@@ -4550,7 +4533,7 @@
             "official_appearances": 1
         },
         {
-            "id": 493,
+            "id": 474,
             "name": "Metroid Fusion",
             "type": "game",
             "first_poll": 4089,
@@ -4559,16 +4542,7 @@
             "official_appearances": 1
         },
         {
-            "id": 494,
-            "name": "Pokemon Diamond/Pearl/Platinum",
-            "type": "game",
-            "first_poll": 4089,
-            "first_contest": "GOTD",
-            "appearances": 3,
-            "official_appearances": 3
-        },
-        {
-            "id": 495,
+            "id": 475,
             "name": "Fire Emblem: Path of Radiance",
             "type": "game",
             "first_poll": 4090,
@@ -4577,7 +4551,7 @@
             "official_appearances": 2
         },
         {
-            "id": 496,
+            "id": 476,
             "name": "WWF No Mercy",
             "type": "game",
             "first_poll": 4090,
@@ -4586,7 +4560,7 @@
             "official_appearances": 1
         },
         {
-            "id": 497,
+            "id": 477,
             "name": "Valkyria Chronicles",
             "type": "game",
             "first_poll": 4091,
@@ -4595,7 +4569,7 @@
             "official_appearances": 3
         },
         {
-            "id": 498,
+            "id": 478,
             "name": "Mario Kart DS",
             "type": "game",
             "first_poll": 4092,
@@ -4604,7 +4578,7 @@
             "official_appearances": 1
         },
         {
-            "id": 499,
+            "id": 479,
             "name": "Beyond Good & Evil",
             "type": "game",
             "first_poll": 4093,
@@ -4613,7 +4587,7 @@
             "official_appearances": 1
         },
         {
-            "id": 500,
+            "id": 480,
             "name": "Pokemon Ruby/Sapphire/Emerald",
             "type": "game",
             "first_poll": 4094,
@@ -4622,7 +4596,7 @@
             "official_appearances": 2
         },
         {
-            "id": 501,
+            "id": 481,
             "name": "Dragon Age: Origins",
             "type": "game",
             "first_poll": 4095,
@@ -4631,7 +4605,7 @@
             "official_appearances": 3
         },
         {
-            "id": 502,
+            "id": 482,
             "name": "F-Zero GX",
             "type": "game",
             "first_poll": 4095,
@@ -4640,7 +4614,7 @@
             "official_appearances": 1
         },
         {
-            "id": 503,
+            "id": 483,
             "name": "Star Wars: Battlefront II",
             "type": "game",
             "first_poll": 4097,
@@ -4649,7 +4623,7 @@
             "official_appearances": 1
         },
         {
-            "id": 504,
+            "id": 484,
             "name": "Call of Duty: Modern Warfare 2",
             "type": "game",
             "first_poll": 4099,
@@ -4658,7 +4632,7 @@
             "official_appearances": 2
         },
         {
-            "id": 505,
+            "id": 485,
             "name": "Dissidia: Final Fantasy",
             "type": "game",
             "first_poll": 4099,
@@ -4667,7 +4641,7 @@
             "official_appearances": 1
         },
         {
-            "id": 506,
+            "id": 486,
             "name": "Castlevania: Dawn of Sorrow",
             "type": "game",
             "first_poll": 4100,
@@ -4676,7 +4650,7 @@
             "official_appearances": 1
         },
         {
-            "id": 507,
+            "id": 487,
             "name": "Viewtiful Joe",
             "type": "game",
             "first_poll": 4101,
@@ -4685,7 +4659,7 @@
             "official_appearances": 1
         },
         {
-            "id": 508,
+            "id": 488,
             "name": "Borderlands",
             "type": "game",
             "first_poll": 4102,
@@ -4694,7 +4668,7 @@
             "official_appearances": 2
         },
         {
-            "id": 509,
+            "id": 489,
             "name": "Tales of Vesperia",
             "type": "game",
             "first_poll": 4102,
@@ -4703,7 +4677,7 @@
             "official_appearances": 1
         },
         {
-            "id": 510,
+            "id": 490,
             "name": "Golden Sun",
             "type": "game",
             "first_poll": 4103,
@@ -4712,7 +4686,7 @@
             "official_appearances": 3
         },
         {
-            "id": 511,
+            "id": 491,
             "name": "Ratchet & Clank: Up Your Arsenal",
             "type": "game",
             "first_poll": 4103,
@@ -4721,7 +4695,7 @@
             "official_appearances": 2
         },
         {
-            "id": 512,
+            "id": 492,
             "name": "Dead Space",
             "type": "game",
             "first_poll": 4104,
@@ -4730,7 +4704,7 @@
             "official_appearances": 1
         },
         {
-            "id": 513,
+            "id": 493,
             "name": "Devil May Cry",
             "type": "game",
             "first_poll": 4105,
@@ -4739,7 +4713,7 @@
             "official_appearances": 1
         },
         {
-            "id": 514,
+            "id": 494,
             "name": "Tony Hawk's Pro Skater 2",
             "type": "game",
             "first_poll": 4106,
@@ -4748,7 +4722,7 @@
             "official_appearances": 1
         },
         {
-            "id": 515,
+            "id": 495,
             "name": "Civilization IV",
             "type": "game",
             "first_poll": 4107,
@@ -4757,7 +4731,7 @@
             "official_appearances": 1
         },
         {
-            "id": 516,
+            "id": 496,
             "name": "Shin Megami Tensei: Persona 3",
             "type": "game",
             "first_poll": 4107,
@@ -4766,8 +4740,8 @@
             "official_appearances": 3
         },
         {
-            "id": 517,
-            "name": "Phoenix Wright: Ace Attorney Trials and Tribulatio",
+            "id": 497,
+            "name": "Phoenix Wright: Ace Attorney Trials and Tribulations",
             "type": "game",
             "first_poll": 4108,
             "first_contest": "GOTD",
@@ -4775,7 +4749,7 @@
             "official_appearances": 2
         },
         {
-            "id": 518,
+            "id": 498,
             "name": "Jet Grind Radio",
             "type": "game",
             "first_poll": 4109,
@@ -4784,7 +4758,7 @@
             "official_appearances": 1
         },
         {
-            "id": 519,
+            "id": 499,
             "name": "Dead Rising",
             "type": "game",
             "first_poll": 4111,
@@ -4793,7 +4767,7 @@
             "official_appearances": 2
         },
         {
-            "id": 520,
+            "id": 500,
             "name": "The World Ends With You",
             "type": "game",
             "first_poll": 4111,
@@ -4805,7 +4779,7 @@
             ]
         },
         {
-            "id": 521,
+            "id": 501,
             "name": "Braid",
             "type": "game",
             "first_poll": 4112,
@@ -4814,16 +4788,7 @@
             "official_appearances": 1
         },
         {
-            "id": 522,
-            "name": "Shin Megami Tensei: Persona 4",
-            "type": "game",
-            "first_poll": 4112,
-            "first_contest": "GOTD",
-            "appearances": 5,
-            "official_appearances": 5
-        },
-        {
-            "id": 523,
+            "id": 502,
             "name": "Gears of War 2",
             "type": "game",
             "first_poll": 4113,
@@ -4832,7 +4797,7 @@
             "official_appearances": 1
         },
         {
-            "id": 524,
+            "id": 503,
             "name": "Crisis Core: Final Fantasy VII",
             "type": "game",
             "first_poll": 4114,
@@ -4841,7 +4806,7 @@
             "official_appearances": 1
         },
         {
-            "id": 525,
+            "id": 504,
             "name": "Baldur's Gate II: Shadows of Amn",
             "type": "game",
             "first_poll": 4115,
@@ -4850,7 +4815,7 @@
             "official_appearances": 2
         },
         {
-            "id": 526,
+            "id": 505,
             "name": "Plants vs. Zombies",
             "type": "game",
             "first_poll": 4116,
@@ -4859,16 +4824,7 @@
             "official_appearances": 1
         },
         {
-            "id": 527,
-            "name": "Metal Gear Solid 3: Snake Eater",
-            "type": "game",
-            "first_poll": 4117,
-            "first_contest": "GOTD",
-            "appearances": 10,
-            "official_appearances": 10
-        },
-        {
-            "id": 528,
+            "id": 506,
             "name": "TimeSplitters 2",
             "type": "game",
             "first_poll": 4117,
@@ -4877,7 +4833,7 @@
             "official_appearances": 1
         },
         {
-            "id": 529,
+            "id": 507,
             "name": "Marvel vs. Capcom 2",
             "type": "game",
             "first_poll": 4118,
@@ -4886,7 +4842,7 @@
             "official_appearances": 2
         },
         {
-            "id": 530,
+            "id": 508,
             "name": "New Super Mario Bros. Wii",
             "type": "game",
             "first_poll": 4118,
@@ -4895,7 +4851,7 @@
             "official_appearances": 1
         },
         {
-            "id": 531,
+            "id": 509,
             "name": "Katamari Damacy",
             "type": "game",
             "first_poll": 4119,
@@ -4904,7 +4860,7 @@
             "official_appearances": 1
         },
         {
-            "id": 532,
+            "id": 510,
             "name": "Animal Crossing",
             "type": "game",
             "first_poll": 4120,
@@ -4913,7 +4869,7 @@
             "official_appearances": 1
         },
         {
-            "id": 533,
+            "id": 511,
             "name": "Assassin's Creed",
             "type": "game",
             "first_poll": 4121,
@@ -4922,25 +4878,7 @@
             "official_appearances": 1
         },
         {
-            "id": 534,
-            "name": "Metal Gear Solid 4: Guns of the Patriots",
-            "type": "game",
-            "first_poll": 4121,
-            "first_contest": "GOTD",
-            "appearances": 4,
-            "official_appearances": 4
-        },
-        {
-            "id": 535,
-            "name": "Diablo II",
-            "type": "game",
-            "first_poll": 4122,
-            "first_contest": "GOTD",
-            "appearances": 3,
-            "official_appearances": 3
-        },
-        {
-            "id": 536,
+            "id": 512,
             "name": "Eternal Darkness: Sanity's Requiem",
             "type": "game",
             "first_poll": 4122,
@@ -4949,7 +4887,7 @@
             "official_appearances": 1
         },
         {
-            "id": 537,
+            "id": 513,
             "name": "Banjo-Tooie",
             "type": "game",
             "first_poll": 4123,
@@ -4958,16 +4896,7 @@
             "official_appearances": 1
         },
         {
-            "id": 538,
-            "name": "Metal Gear Solid 2: Sons of Liberty",
-            "type": "game",
-            "first_poll": 4123,
-            "first_contest": "GOTD",
-            "appearances": 5,
-            "official_appearances": 5
-        },
-        {
-            "id": 539,
+            "id": 514,
             "name": "The Sims",
             "type": "game",
             "first_poll": 4124,
@@ -4976,7 +4905,7 @@
             "official_appearances": 1
         },
         {
-            "id": 540,
+            "id": 515,
             "name": "Wii Sports",
             "type": "game",
             "first_poll": 4125,
@@ -4985,7 +4914,7 @@
             "official_appearances": 1
         },
         {
-            "id": 541,
+            "id": 516,
             "name": "Dragon Quest VIII: Journey of the Cursed King",
             "type": "game",
             "first_poll": 4126,
@@ -4994,7 +4923,7 @@
             "official_appearances": 3
         },
         {
-            "id": 542,
+            "id": 517,
             "name": "Mario Kart Wii",
             "type": "game",
             "first_poll": 4127,
@@ -5003,7 +4932,7 @@
             "official_appearances": 2
         },
         {
-            "id": 543,
+            "id": 518,
             "name": "Advance Wars",
             "type": "game",
             "first_poll": 4128,
@@ -5012,7 +4941,7 @@
             "official_appearances": 1
         },
         {
-            "id": 544,
+            "id": 519,
             "name": "God of War II",
             "type": "game",
             "first_poll": 4129,
@@ -5021,7 +4950,7 @@
             "official_appearances": 1
         },
         {
-            "id": 545,
+            "id": 520,
             "name": "Assassin's Creed II",
             "type": "game",
             "first_poll": 4130,
@@ -5030,7 +4959,7 @@
             "official_appearances": 3
         },
         {
-            "id": 546,
+            "id": 521,
             "name": "ICO",
             "type": "game",
             "first_poll": 4130,
@@ -5039,7 +4968,7 @@
             "official_appearances": 1
         },
         {
-            "id": 547,
+            "id": 522,
             "name": "Paper Mario: The Thousand-Year Door",
             "type": "game",
             "first_poll": 4131,
@@ -5048,7 +4977,7 @@
             "official_appearances": 4
         },
         {
-            "id": 548,
+            "id": 523,
             "name": "SoulCalibur II",
             "type": "game",
             "first_poll": 4132,
@@ -5057,7 +4986,7 @@
             "official_appearances": 1
         },
         {
-            "id": 549,
+            "id": 524,
             "name": "Santa Claus",
             "type": "character",
             "first_poll": 4196,
@@ -5066,7 +4995,7 @@
             "official_appearances": 0
         },
         {
-            "id": 550,
+            "id": 525,
             "name": "Earthworm Jim vs. Queen Slug-for-a-Butt",
             "type": "rivalry",
             "first_poll": 4510,
@@ -5075,7 +5004,7 @@
             "official_appearances": 1
         },
         {
-            "id": 551,
+            "id": 526,
             "name": "Mario vs. Bowser",
             "type": "rivalry",
             "first_poll": 4510,
@@ -5084,7 +5013,7 @@
             "official_appearances": 6
         },
         {
-            "id": 552,
+            "id": 527,
             "name": "Conker vs. The Great Mighty Poo",
             "type": "rivalry",
             "first_poll": 4511,
@@ -5093,7 +5022,7 @@
             "official_appearances": 1
         },
         {
-            "id": 553,
+            "id": 528,
             "name": "Ike vs. Black Knight",
             "type": "rivalry",
             "first_poll": 4511,
@@ -5102,7 +5031,7 @@
             "official_appearances": 2
         },
         {
-            "id": 554,
+            "id": 529,
             "name": "Jill Valentine vs. Nemesis",
             "type": "rivalry",
             "first_poll": 4512,
@@ -5111,7 +5040,7 @@
             "official_appearances": 1
         },
         {
-            "id": 555,
+            "id": 530,
             "name": "Kirby vs. Meta Knight",
             "type": "rivalry",
             "first_poll": 4512,
@@ -5120,7 +5049,7 @@
             "official_appearances": 2
         },
         {
-            "id": 556,
+            "id": 531,
             "name": "Katherine vs. Catherine",
             "type": "rivalry",
             "first_poll": 4513,
@@ -5129,7 +5058,7 @@
             "official_appearances": 1
         },
         {
-            "id": 557,
+            "id": 532,
             "name": "Sonic the Hedgehog vs. Dr. Robotnik",
             "type": "rivalry",
             "first_poll": 4513,
@@ -5138,7 +5067,7 @@
             "official_appearances": 3
         },
         {
-            "id": 558,
+            "id": 533,
             "name": "Captain Falcon vs. Black Shadow",
             "type": "rivalry",
             "first_poll": 4514,
@@ -5147,7 +5076,7 @@
             "official_appearances": 1
         },
         {
-            "id": 559,
+            "id": 534,
             "name": "Mega Man X vs. Zero",
             "type": "rivalry",
             "first_poll": 4514,
@@ -5156,7 +5085,7 @@
             "official_appearances": 4
         },
         {
-            "id": 560,
+            "id": 535,
             "name": "Bartz Klauser vs. Gilgamesh",
             "type": "rivalry",
             "first_poll": 4515,
@@ -5165,7 +5094,7 @@
             "official_appearances": 2
         },
         {
-            "id": 561,
+            "id": 536,
             "name": "Guybrush Threepwood vs. LeChuck",
             "type": "rivalry",
             "first_poll": 4515,
@@ -5174,7 +5103,7 @@
             "official_appearances": 1
         },
         {
-            "id": 562,
+            "id": 537,
             "name": "Donkey Kong vs. King K. Rool",
             "type": "rivalry",
             "first_poll": 4516,
@@ -5183,7 +5112,7 @@
             "official_appearances": 2
         },
         {
-            "id": 563,
+            "id": 538,
             "name": "Ezio Auditore da Firenze vs. Rodrigo Borgia",
             "type": "rivalry",
             "first_poll": 4516,
@@ -5192,7 +5121,7 @@
             "official_appearances": 1
         },
         {
-            "id": 564,
+            "id": 539,
             "name": "Leon Kennedy vs. Ada Wong",
             "type": "rivalry",
             "first_poll": 4517,
@@ -5201,7 +5130,7 @@
             "official_appearances": 1
         },
         {
-            "id": 565,
+            "id": 540,
             "name": "Sub-Zero vs. Scorpion",
             "type": "rivalry",
             "first_poll": 4517,
@@ -5210,7 +5139,7 @@
             "official_appearances": 3
         },
         {
-            "id": 566,
+            "id": 541,
             "name": "Jim Raynor vs. Sarah Kerrigan",
             "type": "rivalry",
             "first_poll": 4518,
@@ -5219,7 +5148,7 @@
             "official_appearances": 1
         },
         {
-            "id": 567,
+            "id": 542,
             "name": "Pokemon Trainer Red vs. Pokemon Trainer Blue",
             "type": "rivalry",
             "first_poll": 4518,
@@ -5228,7 +5157,7 @@
             "official_appearances": 5
         },
         {
-            "id": 568,
+            "id": 543,
             "name": "Cecil Harvey vs. Golbez",
             "type": "rivalry",
             "first_poll": 4519,
@@ -5237,7 +5166,7 @@
             "official_appearances": 1
         },
         {
-            "id": 569,
+            "id": 544,
             "name": "Luigi vs. Waluigi",
             "type": "rivalry",
             "first_poll": 4519,
@@ -5246,7 +5175,7 @@
             "official_appearances": 2
         },
         {
-            "id": 570,
+            "id": 545,
             "name": "Ratchet vs. Dr. Nefarious",
             "type": "rivalry",
             "first_poll": 4520,
@@ -5255,7 +5184,7 @@
             "official_appearances": 1
         },
         {
-            "id": 571,
+            "id": 546,
             "name": "Ryu vs. Ken",
             "type": "rivalry",
             "first_poll": 4520,
@@ -5264,7 +5193,7 @@
             "official_appearances": 3
         },
         {
-            "id": 572,
+            "id": 547,
             "name": "Fox McCloud vs. Wolf O'Donnell",
             "type": "rivalry",
             "first_poll": 4521,
@@ -5273,7 +5202,7 @@
             "official_appearances": 2
         },
         {
-            "id": 573,
+            "id": 548,
             "name": "Yuna vs. Seymour Guado",
             "type": "rivalry",
             "first_poll": 4521,
@@ -5282,7 +5211,7 @@
             "official_appearances": 1
         },
         {
-            "id": 574,
+            "id": 549,
             "name": "Samus Aran vs. Ridley",
             "type": "rivalry",
             "first_poll": 4522,
@@ -5291,7 +5220,7 @@
             "official_appearances": 4
         },
         {
-            "id": 575,
+            "id": 550,
             "name": "The Kid vs. The Guy",
             "type": "rivalry",
             "first_poll": 4522,
@@ -5300,7 +5229,7 @@
             "official_appearances": 1
         },
         {
-            "id": 576,
+            "id": 551,
             "name": "Terra Branford vs. Kefka Palazzo",
             "type": "rivalry",
             "first_poll": 4523,
@@ -5309,7 +5238,7 @@
             "official_appearances": 2
         },
         {
-            "id": 577,
+            "id": 552,
             "name": "Vyse vs. Galcian",
             "type": "rivalry",
             "first_poll": 4523,
@@ -5318,7 +5247,7 @@
             "official_appearances": 1
         },
         {
-            "id": 578,
+            "id": 553,
             "name": "Chris Redfield vs. Albert Wesker",
             "type": "rivalry",
             "first_poll": 4524,
@@ -5327,7 +5256,7 @@
             "official_appearances": 2
         },
         {
-            "id": 579,
+            "id": 554,
             "name": "Dan Hibiki vs. Sagat",
             "type": "rivalry",
             "first_poll": 4524,
@@ -5336,7 +5265,7 @@
             "official_appearances": 1
         },
         {
-            "id": 580,
+            "id": 555,
             "name": "Big Boss vs. The Boss",
             "type": "rivalry",
             "first_poll": 4525,
@@ -5345,7 +5274,7 @@
             "official_appearances": 3
         },
         {
-            "id": 581,
+            "id": 556,
             "name": "Tidus vs. Jecht",
             "type": "rivalry",
             "first_poll": 4525,
@@ -5354,7 +5283,7 @@
             "official_appearances": 1
         },
         {
-            "id": 582,
+            "id": 557,
             "name": "Arthas vs. Illidan",
             "type": "rivalry",
             "first_poll": 4526,
@@ -5363,7 +5292,7 @@
             "official_appearances": 1
         },
         {
-            "id": 583,
+            "id": 558,
             "name": "Link vs. Ganondorf",
             "type": "rivalry",
             "first_poll": 4526,
@@ -5372,7 +5301,7 @@
             "official_appearances": 6
         },
         {
-            "id": 584,
+            "id": 559,
             "name": "Amaterasu vs. Orochi",
             "type": "rivalry",
             "first_poll": 4527,
@@ -5381,7 +5310,7 @@
             "official_appearances": 2
         },
         {
-            "id": 585,
+            "id": 560,
             "name": "Tom Nook vs. Crazy Redd",
             "type": "rivalry",
             "first_poll": 4527,
@@ -5390,7 +5319,7 @@
             "official_appearances": 1
         },
         {
-            "id": 586,
+            "id": 561,
             "name": "Meat Boy vs. Dr. Fetus",
             "type": "rivalry",
             "first_poll": 4528,
@@ -5399,7 +5328,7 @@
             "official_appearances": 1
         },
         {
-            "id": 587,
+            "id": 562,
             "name": "Zidane Tribal vs. Kuja",
             "type": "rivalry",
             "first_poll": 4528,
@@ -5408,7 +5337,7 @@
             "official_appearances": 2
         },
         {
-            "id": 588,
+            "id": 563,
             "name": "Banjo vs. Gruntilda",
             "type": "rivalry",
             "first_poll": 4529,
@@ -5417,7 +5346,7 @@
             "official_appearances": 1
         },
         {
-            "id": 589,
+            "id": 564,
             "name": "Mega Man vs. Dr. Wily",
             "type": "rivalry",
             "first_poll": 4529,
@@ -5426,7 +5355,7 @@
             "official_appearances": 3
         },
         {
-            "id": 590,
+            "id": 565,
             "name": "Gordon Freeman vs. Dr. Breen",
             "type": "rivalry",
             "first_poll": 4530,
@@ -5435,7 +5364,7 @@
             "official_appearances": 1
         },
         {
-            "id": 591,
+            "id": 566,
             "name": "Phoenix Wright vs. Miles Edgeworth",
             "type": "rivalry",
             "first_poll": 4530,
@@ -5444,7 +5373,7 @@
             "official_appearances": 2
         },
         {
-            "id": 592,
+            "id": 567,
             "name": "Alucard vs. Dracula",
             "type": "rivalry",
             "first_poll": 4531,
@@ -5453,7 +5382,7 @@
             "official_appearances": 4
         },
         {
-            "id": 593,
+            "id": 568,
             "name": "Commander Shepard vs. Saren Arterius",
             "type": "rivalry",
             "first_poll": 4531,
@@ -5462,7 +5391,7 @@
             "official_appearances": 1
         },
         {
-            "id": 594,
+            "id": 569,
             "name": "Chell vs. GLaDOS",
             "type": "rivalry",
             "first_poll": 4532,
@@ -5474,7 +5403,7 @@
             ]
         },
         {
-            "id": 595,
+            "id": 570,
             "name": "Ness vs. Giygas",
             "type": "rivalry",
             "first_poll": 4532,
@@ -5483,7 +5412,7 @@
             "official_appearances": 1
         },
         {
-            "id": 596,
+            "id": 571,
             "name": "Frog vs. Magus",
             "type": "rivalry",
             "first_poll": 4533,
@@ -5492,7 +5421,7 @@
             "official_appearances": 3
         },
         {
-            "id": 597,
+            "id": 572,
             "name": "Raiden vs. Vamp",
             "type": "rivalry",
             "first_poll": 4533,
@@ -5501,7 +5430,7 @@
             "official_appearances": 1
         },
         {
-            "id": 598,
+            "id": 573,
             "name": "Cloud Strife vs. Sephiroth",
             "type": "rivalry",
             "first_poll": 4534,
@@ -5513,7 +5442,7 @@
             ]
         },
         {
-            "id": 599,
+            "id": 574,
             "name": "Lloyd Irving vs. Kratos Aurion",
             "type": "rivalry",
             "first_poll": 4534,
@@ -5522,7 +5451,7 @@
             "official_appearances": 1
         },
         {
-            "id": 600,
+            "id": 575,
             "name": "Kratos vs. Zeus",
             "type": "rivalry",
             "first_poll": 4535,
@@ -5531,7 +5460,7 @@
             "official_appearances": 2
         },
         {
-            "id": 601,
+            "id": 576,
             "name": "Professor Layton vs. Don Paolo",
             "type": "rivalry",
             "first_poll": 4535,
@@ -5540,7 +5469,7 @@
             "official_appearances": 1
         },
         {
-            "id": 602,
+            "id": 577,
             "name": "Crash Bandicoot vs. Dr. Neo Cortex",
             "type": "rivalry",
             "first_poll": 4536,
@@ -5549,7 +5478,7 @@
             "official_appearances": 1
         },
         {
-            "id": 603,
+            "id": 578,
             "name": "Pac-Man vs. Blinky",
             "type": "rivalry",
             "first_poll": 4536,
@@ -5558,7 +5487,7 @@
             "official_appearances": 2
         },
         {
-            "id": 604,
+            "id": 579,
             "name": "Crono vs. Lavos",
             "type": "rivalry",
             "first_poll": 4537,
@@ -5567,7 +5496,7 @@
             "official_appearances": 1
         },
         {
-            "id": 605,
+            "id": 580,
             "name": "Solid Snake vs. Liquid Snake",
             "type": "rivalry",
             "first_poll": 4537,
@@ -5576,7 +5505,7 @@
             "official_appearances": 3
         },
         {
-            "id": 606,
+            "id": 581,
             "name": "Laharl vs. Mid-Boss",
             "type": "rivalry",
             "first_poll": 4538,
@@ -5585,7 +5514,7 @@
             "official_appearances": 1
         },
         {
-            "id": 607,
+            "id": 582,
             "name": "Squall Leonhart vs. Seifer Almasy",
             "type": "rivalry",
             "first_poll": 4538,
@@ -5594,7 +5523,7 @@
             "official_appearances": 4
         },
         {
-            "id": 608,
+            "id": 583,
             "name": "Ramza Beoulve vs. Delita Hyral",
             "type": "rivalry",
             "first_poll": 4539,
@@ -5603,7 +5532,7 @@
             "official_appearances": 1
         },
         {
-            "id": 609,
+            "id": 584,
             "name": "Siegfried vs. Nightmare",
             "type": "rivalry",
             "first_poll": 4539,
@@ -5612,7 +5541,7 @@
             "official_appearances": 2
         },
         {
-            "id": 610,
+            "id": 585,
             "name": "Dante vs. Vergil",
             "type": "rivalry",
             "first_poll": 4540,
@@ -5621,7 +5550,7 @@
             "official_appearances": 2
         },
         {
-            "id": 611,
+            "id": 586,
             "name": "Sol Badguy vs. Ky Kiske",
             "type": "rivalry",
             "first_poll": 4540,
@@ -5630,7 +5559,7 @@
             "official_appearances": 1
         },
         {
-            "id": 612,
+            "id": 587,
             "name": "Sora vs. Riku",
             "type": "rivalry",
             "first_poll": 4541,
@@ -5639,7 +5568,7 @@
             "official_appearances": 3
         },
         {
-            "id": 613,
+            "id": 588,
             "name": "William B.J. Blazkowicz vs. Adolf",
             "type": "rivalry",
             "first_poll": 4541,
@@ -5648,7 +5577,7 @@
             "official_appearances": 1
         },
         {
-            "id": 614,
+            "id": 589,
             "name": "Isaac (Binding)",
             "type": "character",
             "first_poll": 5143,
@@ -5657,7 +5586,7 @@
             "official_appearances": 1
         },
         {
-            "id": 615,
+            "id": 590,
             "name": "Alan Wake",
             "type": "character",
             "first_poll": 5144,
@@ -5666,7 +5595,7 @@
             "official_appearances": 1
         },
         {
-            "id": 616,
+            "id": 591,
             "name": "Waluigi",
             "type": "character",
             "first_poll": 5144,
@@ -5675,7 +5604,7 @@
             "official_appearances": 2
         },
         {
-            "id": 617,
+            "id": 592,
             "name": "Demi-Fiend",
             "type": "character",
             "first_poll": 5145,
@@ -5684,7 +5613,7 @@
             "official_appearances": 1
         },
         {
-            "id": 618,
+            "id": 593,
             "name": "Solaire of Astora",
             "type": "character",
             "first_poll": 5145,
@@ -5693,7 +5622,7 @@
             "official_appearances": 1
         },
         {
-            "id": 619,
+            "id": 594,
             "name": "Juliet Starling",
             "type": "character",
             "first_poll": 5147,
@@ -5702,7 +5631,7 @@
             "official_appearances": 1
         },
         {
-            "id": 620,
+            "id": 595,
             "name": "Tharja",
             "type": "character",
             "first_poll": 5147,
@@ -5711,7 +5640,7 @@
             "official_appearances": 2
         },
         {
-            "id": 621,
+            "id": 596,
             "name": "Tiny Tina",
             "type": "character",
             "first_poll": 5147,
@@ -5720,7 +5649,7 @@
             "official_appearances": 1
         },
         {
-            "id": 622,
+            "id": 597,
             "name": "Hero",
             "type": "character",
             "first_poll": 5148,
@@ -5729,7 +5658,7 @@
             "official_appearances": 1
         },
         {
-            "id": 623,
+            "id": 598,
             "name": "Rinoa Heartilly",
             "type": "character",
             "first_poll": 5148,
@@ -5738,7 +5667,7 @@
             "official_appearances": 1
         },
         {
-            "id": 624,
+            "id": 599,
             "name": "Chie Satonaka",
             "type": "character",
             "first_poll": 5149,
@@ -5747,7 +5676,7 @@
             "official_appearances": 1
         },
         {
-            "id": 625,
+            "id": 600,
             "name": "Draven",
             "type": "character",
             "first_poll": 5149,
@@ -5756,7 +5685,7 @@
             "official_appearances": 6
         },
         {
-            "id": 626,
+            "id": 601,
             "name": "Face McShooty",
             "type": "character",
             "first_poll": 5150,
@@ -5765,7 +5694,7 @@
             "official_appearances": 1
         },
         {
-            "id": 627,
+            "id": 602,
             "name": "Jigglypuff",
             "type": "character",
             "first_poll": 5151,
@@ -5774,7 +5703,7 @@
             "official_appearances": 1
         },
         {
-            "id": 628,
+            "id": 603,
             "name": "Welkin Gunther",
             "type": "character",
             "first_poll": 5151,
@@ -5783,7 +5712,7 @@
             "official_appearances": 1
         },
         {
-            "id": 629,
+            "id": 604,
             "name": "Dan Hibiki",
             "type": "character",
             "first_poll": 5152,
@@ -5792,7 +5721,7 @@
             "official_appearances": 1
         },
         {
-            "id": 630,
+            "id": 605,
             "name": "Caim",
             "type": "character",
             "first_poll": 5153,
@@ -5801,7 +5730,7 @@
             "official_appearances": 1
         },
         {
-            "id": 631,
+            "id": 606,
             "name": "Dracula",
             "type": "character",
             "first_poll": 5153,
@@ -5810,7 +5739,7 @@
             "official_appearances": 2
         },
         {
-            "id": 632,
+            "id": 607,
             "name": "Lucina",
             "type": "character",
             "first_poll": 5153,
@@ -5819,7 +5748,7 @@
             "official_appearances": 2
         },
         {
-            "id": 633,
+            "id": 608,
             "name": "Barret Wallace",
             "type": "character",
             "first_poll": 5154,
@@ -5828,7 +5757,7 @@
             "official_appearances": 2
         },
         {
-            "id": 634,
+            "id": 609,
             "name": "Reimu Hakurei",
             "type": "character",
             "first_poll": 5154,
@@ -5837,7 +5766,7 @@
             "official_appearances": 1
         },
         {
-            "id": 635,
+            "id": 610,
             "name": "Dunban",
             "type": "character",
             "first_poll": 5156,
@@ -5846,7 +5775,7 @@
             "official_appearances": 1
         },
         {
-            "id": 636,
+            "id": 611,
             "name": "Chester",
             "type": "character",
             "first_poll": 5157,
@@ -5855,7 +5784,7 @@
             "official_appearances": 1
         },
         {
-            "id": 637,
+            "id": 612,
             "name": "Zero (999)",
             "type": "character",
             "first_poll": 5157,
@@ -5864,7 +5793,7 @@
             "official_appearances": 1
         },
         {
-            "id": 638,
+            "id": 613,
             "name": "Chrom",
             "type": "character",
             "first_poll": 5158,
@@ -5873,7 +5802,7 @@
             "official_appearances": 1
         },
         {
-            "id": 639,
+            "id": 614,
             "name": "Garrus Vakarian",
             "type": "character",
             "first_poll": 5159,
@@ -5882,7 +5811,7 @@
             "official_appearances": 3
         },
         {
-            "id": 640,
+            "id": 615,
             "name": "Archer",
             "type": "character",
             "first_poll": 5160,
@@ -5891,7 +5820,7 @@
             "official_appearances": 1
         },
         {
-            "id": 641,
+            "id": 616,
             "name": "Clementine",
             "type": "character",
             "first_poll": 5163,
@@ -5900,7 +5829,7 @@
             "official_appearances": 1
         },
         {
-            "id": 642,
+            "id": 617,
             "name": "Reyn",
             "type": "character",
             "first_poll": 5163,
@@ -5909,7 +5838,7 @@
             "official_appearances": 1
         },
         {
-            "id": 643,
+            "id": 618,
             "name": "Captain Viridian",
             "type": "character",
             "first_poll": 5165,
@@ -5918,7 +5847,7 @@
             "official_appearances": 1
         },
         {
-            "id": 644,
+            "id": 619,
             "name": "Peacock",
             "type": "character",
             "first_poll": 5165,
@@ -5927,7 +5856,7 @@
             "official_appearances": 1
         },
         {
-            "id": 645,
+            "id": 620,
             "name": "Locke Cole",
             "type": "character",
             "first_poll": 5166,
@@ -5936,7 +5865,7 @@
             "official_appearances": 1
         },
         {
-            "id": 646,
+            "id": 621,
             "name": "Elizabeth",
             "type": "character",
             "first_poll": 5167,
@@ -5945,7 +5874,7 @@
             "official_appearances": 2
         },
         {
-            "id": 647,
+            "id": 622,
             "name": "Poison",
             "type": "character",
             "first_poll": 5167,
@@ -5954,7 +5883,7 @@
             "official_appearances": 1
         },
         {
-            "id": 648,
+            "id": 623,
             "name": "Wheatley",
             "type": "character",
             "first_poll": 5169,
@@ -5963,7 +5892,7 @@
             "official_appearances": 1
         },
         {
-            "id": 649,
+            "id": 624,
             "name": "Commander Keen",
             "type": "character",
             "first_poll": 5170,
@@ -5972,7 +5901,7 @@
             "official_appearances": 1
         },
         {
-            "id": 650,
+            "id": 625,
             "name": "Bayonetta",
             "type": "character",
             "first_poll": 5172,
@@ -5981,7 +5910,7 @@
             "official_appearances": 5
         },
         {
-            "id": 651,
+            "id": 626,
             "name": "N",
             "type": "character",
             "first_poll": 5172,
@@ -5990,7 +5919,7 @@
             "official_appearances": 1
         },
         {
-            "id": 652,
+            "id": 627,
             "name": "Cole",
             "type": "character",
             "first_poll": 5173,
@@ -5999,7 +5928,7 @@
             "official_appearances": 1
         },
         {
-            "id": 653,
+            "id": 628,
             "name": "Ragna the Bloodedge",
             "type": "character",
             "first_poll": 5173,
@@ -6008,7 +5937,7 @@
             "official_appearances": 1
         },
         {
-            "id": 654,
+            "id": 629,
             "name": "Epona",
             "type": "character",
             "first_poll": 5175,
@@ -6017,7 +5946,7 @@
             "official_appearances": 2
         },
         {
-            "id": 655,
+            "id": 630,
             "name": "Mordin Solus",
             "type": "character",
             "first_poll": 5175,
@@ -6026,7 +5955,7 @@
             "official_appearances": 1
         },
         {
-            "id": 656,
+            "id": 631,
             "name": "Shulk",
             "type": "character",
             "first_poll": 5176,
@@ -6035,7 +5964,7 @@
             "official_appearances": 2
         },
         {
-            "id": 657,
+            "id": 632,
             "name": "Slime",
             "type": "character",
             "first_poll": 5177,
@@ -6044,7 +5973,7 @@
             "official_appearances": 1
         },
         {
-            "id": 658,
+            "id": 633,
             "name": "Yuri Hyuga",
             "type": "character",
             "first_poll": 5177,
@@ -6053,7 +5982,7 @@
             "official_appearances": 1
         },
         {
-            "id": 659,
+            "id": 634,
             "name": "Sen. Steven Armstrong",
             "type": "character",
             "first_poll": 5179,
@@ -6062,7 +5991,7 @@
             "official_appearances": 1
         },
         {
-            "id": 660,
+            "id": 635,
             "name": "Handsome Jack",
             "type": "character",
             "first_poll": 5180,
@@ -6071,7 +6000,7 @@
             "official_appearances": 1
         },
         {
-            "id": 661,
+            "id": 636,
             "name": "Francis York Morgan",
             "type": "character",
             "first_poll": 5181,
@@ -6080,7 +6009,7 @@
             "official_appearances": 1
         },
         {
-            "id": 662,
+            "id": 637,
             "name": "Lugia",
             "type": "character",
             "first_poll": 5181,
@@ -6089,7 +6018,7 @@
             "official_appearances": 2
         },
         {
-            "id": 663,
+            "id": 638,
             "name": "Squirtle",
             "type": "character",
             "first_poll": 5183,
@@ -6098,7 +6027,7 @@
             "official_appearances": 4
         },
         {
-            "id": 664,
+            "id": 639,
             "name": "Spring Breeze Dancin'",
             "type": "character",
             "first_poll": 5184,
@@ -6107,7 +6036,7 @@
             "official_appearances": 1
         },
         {
-            "id": 665,
+            "id": 640,
             "name": "Kat",
             "type": "character",
             "first_poll": 5185,
@@ -6116,7 +6045,7 @@
             "official_appearances": 1
         },
         {
-            "id": 666,
+            "id": 641,
             "name": "Yu Narukami",
             "type": "character",
             "first_poll": 5185,
@@ -6125,7 +6054,7 @@
             "official_appearances": 2
         },
         {
-            "id": 667,
+            "id": 642,
             "name": "Oliver",
             "type": "character",
             "first_poll": 5186,
@@ -6134,7 +6063,7 @@
             "official_appearances": 1
         },
         {
-            "id": 668,
+            "id": 643,
             "name": "Hades",
             "type": "character",
             "first_poll": 5187,
@@ -6143,7 +6072,7 @@
             "official_appearances": 1
         },
         {
-            "id": 669,
+            "id": 644,
             "name": "Missile",
             "type": "character",
             "first_poll": 5188,
@@ -6152,7 +6081,7 @@
             "official_appearances": 1
         },
         {
-            "id": 670,
+            "id": 645,
             "name": "Hal \"Otacon\" Emmerich",
             "type": "character",
             "first_poll": 5190,
@@ -6161,7 +6090,7 @@
             "official_appearances": 1
         },
         {
-            "id": 671,
+            "id": 646,
             "name": "Booker DeWitt",
             "type": "character",
             "first_poll": 5192,
@@ -6170,7 +6099,7 @@
             "official_appearances": 1
         },
         {
-            "id": 672,
+            "id": 647,
             "name": "Gilgamesh",
             "type": "character",
             "first_poll": 5192,
@@ -6179,7 +6108,7 @@
             "official_appearances": 2
         },
         {
-            "id": 673,
+            "id": 648,
             "name": "Groose",
             "type": "character",
             "first_poll": 5193,
@@ -6188,7 +6117,7 @@
             "official_appearances": 1
         },
         {
-            "id": 674,
+            "id": 649,
             "name": "Lu Bu",
             "type": "character",
             "first_poll": 5193,
@@ -6197,7 +6126,7 @@
             "official_appearances": 1
         },
         {
-            "id": 675,
+            "id": 650,
             "name": "Yoshimitsu",
             "type": "character",
             "first_poll": 5193,
@@ -6206,7 +6135,7 @@
             "official_appearances": 2
         },
         {
-            "id": 676,
+            "id": 651,
             "name": "Lee Everett",
             "type": "character",
             "first_poll": 5194,
@@ -6215,7 +6144,7 @@
             "official_appearances": 1
         },
         {
-            "id": 677,
+            "id": 652,
             "name": "Meat Boy",
             "type": "character",
             "first_poll": 5194,
@@ -6224,7 +6153,7 @@
             "official_appearances": 1
         },
         {
-            "id": 678,
+            "id": 653,
             "name": "Mr. Game & Watch",
             "type": "character",
             "first_poll": 5194,
@@ -6233,7 +6162,7 @@
             "official_appearances": 2
         },
         {
-            "id": 679,
+            "id": 654,
             "name": "Steve",
             "type": "character",
             "first_poll": 5195,
@@ -6242,7 +6171,7 @@
             "official_appearances": 1
         },
         {
-            "id": 680,
+            "id": 655,
             "name": "Pokemon Trainer Blue",
             "type": "character",
             "first_poll": 5196,
@@ -6251,7 +6180,7 @@
             "official_appearances": 3
         },
         {
-            "id": 681,
+            "id": 656,
             "name": "Wolf O'Donnell",
             "type": "character",
             "first_poll": 5196,
@@ -6260,7 +6189,7 @@
             "official_appearances": 1
         },
         {
-            "id": 682,
+            "id": 657,
             "name": "Isaac Clarke",
             "type": "character",
             "first_poll": 5197,
@@ -6269,7 +6198,7 @@
             "official_appearances": 1
         },
         {
-            "id": 683,
+            "id": 658,
             "name": "Catherine",
             "type": "character",
             "first_poll": 5198,
@@ -6278,7 +6207,7 @@
             "official_appearances": 2
         },
         {
-            "id": 684,
+            "id": 659,
             "name": "Vaas Montenegro",
             "type": "character",
             "first_poll": 5198,
@@ -6287,7 +6216,7 @@
             "official_appearances": 1
         },
         {
-            "id": 685,
+            "id": 660,
             "name": "Seifer Almasy",
             "type": "character",
             "first_poll": 5199,
@@ -6296,7 +6225,7 @@
             "official_appearances": 1
         },
         {
-            "id": 686,
+            "id": 661,
             "name": "Palutena",
             "type": "character",
             "first_poll": 5202,
@@ -6305,7 +6234,7 @@
             "official_appearances": 1
         },
         {
-            "id": 687,
+            "id": 662,
             "name": "Teemo",
             "type": "character",
             "first_poll": 5202,
@@ -6314,7 +6243,7 @@
             "official_appearances": 1
         },
         {
-            "id": 688,
+            "id": 663,
             "name": "Dragonborn",
             "type": "character",
             "first_poll": 5203,
@@ -6323,7 +6252,7 @@
             "official_appearances": 3
         },
         {
-            "id": 689,
+            "id": 664,
             "name": "Cirno",
             "type": "character",
             "first_poll": 5205,
@@ -6332,7 +6261,7 @@
             "official_appearances": 1
         },
         {
-            "id": 690,
+            "id": 665,
             "name": "Adam Jensen",
             "type": "character",
             "first_poll": 5207,
@@ -6341,7 +6270,7 @@
             "official_appearances": 1
         },
         {
-            "id": 691,
+            "id": 666,
             "name": "Marisa Kirisame",
             "type": "character",
             "first_poll": 5207,
@@ -6350,7 +6279,7 @@
             "official_appearances": 1
         },
         {
-            "id": 692,
+            "id": 667,
             "name": "Commander Video",
             "type": "character",
             "first_poll": 5209,
@@ -6359,7 +6288,7 @@
             "official_appearances": 1
         },
         {
-            "id": 693,
+            "id": 668,
             "name": "Adol Christin",
             "type": "character",
             "first_poll": 5210,
@@ -6368,7 +6297,7 @@
             "official_appearances": 1
         },
         {
-            "id": 694,
+            "id": 669,
             "name": "Creeper",
             "type": "character",
             "first_poll": 5212,
@@ -6377,7 +6306,7 @@
             "official_appearances": 1
         },
         {
-            "id": 695,
+            "id": 670,
             "name": "Corvo Attano",
             "type": "character",
             "first_poll": 5213,
@@ -6386,7 +6315,7 @@
             "official_appearances": 1
         },
         {
-            "id": 696,
+            "id": 671,
             "name": "Sissel",
             "type": "character",
             "first_poll": 5213,
@@ -6395,7 +6324,7 @@
             "official_appearances": 1
         },
         {
-            "id": 697,
+            "id": 672,
             "name": "Urdnot Wrex",
             "type": "character",
             "first_poll": 5214,
@@ -6404,7 +6333,7 @@
             "official_appearances": 2
         },
         {
-            "id": 698,
+            "id": 673,
             "name": "Magikarp",
             "type": "character",
             "first_poll": 5215,
@@ -6413,7 +6342,7 @@
             "official_appearances": 1
         },
         {
-            "id": 699,
+            "id": 674,
             "name": "Recette Lemongrass",
             "type": "character",
             "first_poll": 5216,
@@ -6422,7 +6351,7 @@
             "official_appearances": 1
         },
         {
-            "id": 700,
+            "id": 675,
             "name": "Mike Haggar",
             "type": "character",
             "first_poll": 5217,
@@ -6431,7 +6360,7 @@
             "official_appearances": 1
         },
         {
-            "id": 701,
+            "id": 676,
             "name": "Red Bird",
             "type": "character",
             "first_poll": 5217,
@@ -6440,7 +6369,7 @@
             "official_appearances": 1
         },
         {
-            "id": 702,
+            "id": 677,
             "name": "Boko",
             "type": "character",
             "first_poll": 5218,
@@ -6449,7 +6378,7 @@
             "official_appearances": 1
         },
         {
-            "id": 703,
+            "id": 678,
             "name": "Lyndis",
             "type": "character",
             "first_poll": 5220,
@@ -6458,7 +6387,7 @@
             "official_appearances": 1
         },
         {
-            "id": 704,
+            "id": 679,
             "name": "John Marston",
             "type": "character",
             "first_poll": 5221,
@@ -6467,7 +6396,7 @@
             "official_appearances": 2
         },
         {
-            "id": 705,
+            "id": 680,
             "name": "Nier",
             "type": "character",
             "first_poll": 5223,
@@ -6476,7 +6405,7 @@
             "official_appearances": 1
         },
         {
-            "id": 706,
+            "id": 681,
             "name": "Batman: Arkham City",
             "type": "game",
             "first_poll": 6053,
@@ -6485,16 +6414,7 @@
             "official_appearances": 4
         },
         {
-            "id": 707,
-            "name": "Pokemon Gold/Silver/Crystal Version",
-            "type": "game",
-            "first_poll": 6056,
-            "first_contest": "BGE 2K15",
-            "appearances": 2,
-            "official_appearances": 2
-        },
-        {
-            "id": 708,
+            "id": 682,
             "name": "The Last of Us",
             "type": "game",
             "first_poll": 6058,
@@ -6503,7 +6423,7 @@
             "official_appearances": 6
         },
         {
-            "id": 709,
+            "id": 683,
             "name": "Pokemon X/Y",
             "type": "game",
             "first_poll": 6062,
@@ -6512,7 +6432,7 @@
             "official_appearances": 1
         },
         {
-            "id": 710,
+            "id": 684,
             "name": "Planescape: Torment",
             "type": "game",
             "first_poll": 6063,
@@ -6521,7 +6441,7 @@
             "official_appearances": 1
         },
         {
-            "id": 711,
+            "id": 685,
             "name": "Super Smash Bros. for Wii U",
             "type": "game",
             "first_poll": 6063,
@@ -6530,7 +6450,7 @@
             "official_appearances": 3
         },
         {
-            "id": 712,
+            "id": 686,
             "name": "Super Mario Galaxy 2",
             "type": "game",
             "first_poll": 6064,
@@ -6539,7 +6459,7 @@
             "official_appearances": 4
         },
         {
-            "id": 713,
+            "id": 687,
             "name": "Minecraft",
             "type": "game",
             "first_poll": 6065,
@@ -6548,7 +6468,7 @@
             "official_appearances": 3
         },
         {
-            "id": 714,
+            "id": 688,
             "name": "Journey",
             "type": "game",
             "first_poll": 6066,
@@ -6557,7 +6477,7 @@
             "official_appearances": 3
         },
         {
-            "id": 715,
+            "id": 689,
             "name": "Age of Empires II: The Age of Kings",
             "type": "game",
             "first_poll": 6067,
@@ -6566,16 +6486,7 @@
             "official_appearances": 1
         },
         {
-            "id": 716,
-            "name": "Pokemon Red/Blue/Yellow/Green Version",
-            "type": "game",
-            "first_poll": 6068,
-            "first_contest": "BGE 2K15",
-            "appearances": 5,
-            "official_appearances": 4
-        },
-        {
-            "id": 717,
+            "id": 690,
             "name": "Portal 2",
             "type": "game",
             "first_poll": 6069,
@@ -6584,7 +6495,7 @@
             "official_appearances": 5
         },
         {
-            "id": 718,
+            "id": 691,
             "name": "The Walking Dead: A Telltale Games Series",
             "type": "game",
             "first_poll": 6070,
@@ -6593,7 +6504,7 @@
             "official_appearances": 2
         },
         {
-            "id": 719,
+            "id": 692,
             "name": "Life is Strange",
             "type": "game",
             "first_poll": 6071,
@@ -6602,7 +6513,7 @@
             "official_appearances": 2
         },
         {
-            "id": 720,
+            "id": 693,
             "name": "Mass Effect 3",
             "type": "game",
             "first_poll": 6072,
@@ -6611,7 +6522,7 @@
             "official_appearances": 3
         },
         {
-            "id": 721,
+            "id": 694,
             "name": "Undertale",
             "type": "game",
             "first_poll": 6072,
@@ -6620,7 +6531,7 @@
             "official_appearances": 8
         },
         {
-            "id": 722,
+            "id": 695,
             "name": "Animal Crossing: New Leaf",
             "type": "game",
             "first_poll": 6074,
@@ -6629,7 +6540,7 @@
             "official_appearances": 3
         },
         {
-            "id": 723,
+            "id": 696,
             "name": "The Elder Scrolls V: Skyrim",
             "type": "game",
             "first_poll": 6075,
@@ -6638,7 +6549,7 @@
             "official_appearances": 10
         },
         {
-            "id": 724,
+            "id": 697,
             "name": "Mario Kart 8",
             "type": "game",
             "first_poll": 6079,
@@ -6647,7 +6558,7 @@
             "official_appearances": 4
         },
         {
-            "id": 725,
+            "id": 698,
             "name": "Nine Hours, Nine Persons, Nine Doors",
             "type": "game",
             "first_poll": 6082,
@@ -6656,7 +6567,7 @@
             "official_appearances": 1
         },
         {
-            "id": 726,
+            "id": 699,
             "name": "Hearthstone: Heroes of Warcraft",
             "type": "game",
             "first_poll": 6083,
@@ -6665,7 +6576,7 @@
             "official_appearances": 2
         },
         {
-            "id": 727,
+            "id": 700,
             "name": "Monster Hunter 4 Ultimate",
             "type": "game",
             "first_poll": 6084,
@@ -6674,16 +6585,7 @@
             "official_appearances": 1
         },
         {
-            "id": 728,
-            "name": "Donkey Kong Country 2: Diddy's Kong Quest",
-            "type": "game",
-            "first_poll": 6087,
-            "first_contest": "BGE 2K15",
-            "appearances": 3,
-            "official_appearances": 3
-        },
-        {
-            "id": 729,
+            "id": 701,
             "name": "Xenoblade Chronicles",
             "type": "game",
             "first_poll": 6087,
@@ -6692,7 +6594,7 @@
             "official_appearances": 6
         },
         {
-            "id": 730,
+            "id": 702,
             "name": "Fire Emblem: Awakening",
             "type": "game",
             "first_poll": 6088,
@@ -6701,7 +6603,7 @@
             "official_appearances": 4
         },
         {
-            "id": 731,
+            "id": 703,
             "name": "Super Mario Maker",
             "type": "game",
             "first_poll": 6088,
@@ -6710,7 +6612,7 @@
             "official_appearances": 1
         },
         {
-            "id": 732,
+            "id": 704,
             "name": "Cave Story",
             "type": "game",
             "first_poll": 6091,
@@ -6719,16 +6621,7 @@
             "official_appearances": 1
         },
         {
-            "id": 733,
-            "name": "Final Fantasy IV",
-            "type": "game",
-            "first_poll": 6092,
-            "first_contest": "BGE 2K15",
-            "appearances": 2,
-            "official_appearances": 2
-        },
-        {
-            "id": 734,
+            "id": 705,
             "name": "Metal Gear Solid V: The Phantom Pain",
             "type": "game",
             "first_poll": 6093,
@@ -6737,7 +6630,7 @@
             "official_appearances": 5
         },
         {
-            "id": 735,
+            "id": 706,
             "name": "Dark Souls",
             "type": "game",
             "first_poll": 6094,
@@ -6746,7 +6639,7 @@
             "official_appearances": 8
         },
         {
-            "id": 736,
+            "id": 707,
             "name": "Sid Meier's Civilization V",
             "type": "game",
             "first_poll": 6094,
@@ -6755,7 +6648,7 @@
             "official_appearances": 2
         },
         {
-            "id": 737,
+            "id": 708,
             "name": "Bloodborne",
             "type": "game",
             "first_poll": 6097,
@@ -6764,7 +6657,7 @@
             "official_appearances": 4
         },
         {
-            "id": 738,
+            "id": 709,
             "name": "Grand Theft Auto V",
             "type": "game",
             "first_poll": 6099,
@@ -6773,16 +6666,7 @@
             "official_appearances": 5
         },
         {
-            "id": 739,
-            "name": "Super Mario RPG: Legend of the Seven Stars",
-            "type": "game",
-            "first_poll": 6100,
-            "first_contest": "BGE 2K15",
-            "appearances": 7,
-            "official_appearances": 6
-        },
-        {
-            "id": 740,
+            "id": 710,
             "name": "Shovel Knight",
             "type": "game",
             "first_poll": 6101,
@@ -6791,7 +6675,7 @@
             "official_appearances": 4
         },
         {
-            "id": 741,
+            "id": 711,
             "name": "The Binding of Isaac: Rebirth",
             "type": "game",
             "first_poll": 6103,
@@ -6800,7 +6684,7 @@
             "official_appearances": 2
         },
         {
-            "id": 742,
+            "id": 712,
             "name": "The Witcher 3: Wild Hunt",
             "type": "game",
             "first_poll": 6103,
@@ -6809,7 +6693,7 @@
             "official_appearances": 9
         },
         {
-            "id": 743,
+            "id": 713,
             "name": "BioShock Infinite",
             "type": "game",
             "first_poll": 6105,
@@ -6818,7 +6702,7 @@
             "official_appearances": 3
         },
         {
-            "id": 744,
+            "id": 714,
             "name": "Fallout: New Vegas",
             "type": "game",
             "first_poll": 6105,
@@ -6827,7 +6711,7 @@
             "official_appearances": 5
         },
         {
-            "id": 745,
+            "id": 715,
             "name": "Splatoon",
             "type": "game",
             "first_poll": 6107,
@@ -6836,7 +6720,7 @@
             "official_appearances": 1
         },
         {
-            "id": 746,
+            "id": 716,
             "name": "Borderlands 2",
             "type": "game",
             "first_poll": 6108,
@@ -6845,7 +6729,7 @@
             "official_appearances": 3
         },
         {
-            "id": 747,
+            "id": 717,
             "name": "Bayonetta 2",
             "type": "game",
             "first_poll": 6110,
@@ -6854,7 +6738,7 @@
             "official_appearances": 2
         },
         {
-            "id": 748,
+            "id": 718,
             "name": "Red Dead Redemption",
             "type": "game",
             "first_poll": 6110,
@@ -6863,7 +6747,7 @@
             "official_appearances": 4
         },
         {
-            "id": 749,
+            "id": 719,
             "name": "Destiny",
             "type": "game",
             "first_poll": 6113,
@@ -6872,7 +6756,7 @@
             "official_appearances": 2
         },
         {
-            "id": 750,
+            "id": 720,
             "name": "Mass Effect 2",
             "type": "game",
             "first_poll": 6114,
@@ -6881,7 +6765,7 @@
             "official_appearances": 8
         },
         {
-            "id": 751,
+            "id": 721,
             "name": "Zero Escape: Virtue's Last Reward",
             "type": "game",
             "first_poll": 6114,
@@ -6890,7 +6774,7 @@
             "official_appearances": 2
         },
         {
-            "id": 752,
+            "id": 722,
             "name": "1979",
             "type": "year",
             "first_poll": 6686,
@@ -6899,7 +6783,7 @@
             "official_appearances": 1
         },
         {
-            "id": 753,
+            "id": 723,
             "name": "2009",
             "type": "year",
             "first_poll": 6686,
@@ -6908,7 +6792,7 @@
             "official_appearances": 2
         },
         {
-            "id": 754,
+            "id": 724,
             "name": "1983",
             "type": "year",
             "first_poll": 6687,
@@ -6917,7 +6801,7 @@
             "official_appearances": 1
         },
         {
-            "id": 755,
+            "id": 725,
             "name": "1989",
             "type": "year",
             "first_poll": 6687,
@@ -6926,7 +6810,7 @@
             "official_appearances": 2
         },
         {
-            "id": 756,
+            "id": 726,
             "name": "1981",
             "type": "year",
             "first_poll": 6688,
@@ -6935,7 +6819,7 @@
             "official_appearances": 1
         },
         {
-            "id": 757,
+            "id": 727,
             "name": "2006",
             "type": "year",
             "first_poll": 6688,
@@ -6944,7 +6828,7 @@
             "official_appearances": 2
         },
         {
-            "id": 758,
+            "id": 728,
             "name": "1978",
             "type": "year",
             "first_poll": 6689,
@@ -6953,7 +6837,7 @@
             "official_appearances": 1
         },
         {
-            "id": 759,
+            "id": 729,
             "name": "2005",
             "type": "year",
             "first_poll": 6689,
@@ -6962,7 +6846,7 @@
             "official_appearances": 3
         },
         {
-            "id": 760,
+            "id": 730,
             "name": "1986",
             "type": "year",
             "first_poll": 6690,
@@ -6971,7 +6855,7 @@
             "official_appearances": 1
         },
         {
-            "id": 761,
+            "id": 731,
             "name": "1995",
             "type": "year",
             "first_poll": 6690,
@@ -6980,7 +6864,7 @@
             "official_appearances": 3
         },
         {
-            "id": 762,
+            "id": 732,
             "name": "1985",
             "type": "year",
             "first_poll": 6691,
@@ -6989,7 +6873,7 @@
             "official_appearances": 1
         },
         {
-            "id": 763,
+            "id": 733,
             "name": "1987",
             "type": "year",
             "first_poll": 6691,
@@ -6998,7 +6882,7 @@
             "official_appearances": 2
         },
         {
-            "id": 764,
+            "id": 734,
             "name": "2001",
             "type": "year",
             "first_poll": 6692,
@@ -7007,7 +6891,7 @@
             "official_appearances": 5
         },
         {
-            "id": 765,
+            "id": 735,
             "name": "2014",
             "type": "year",
             "first_poll": 6692,
@@ -7016,7 +6900,7 @@
             "official_appearances": 1
         },
         {
-            "id": 766,
+            "id": 736,
             "name": "2008",
             "type": "year",
             "first_poll": 6693,
@@ -7025,7 +6909,7 @@
             "official_appearances": 2
         },
         {
-            "id": 767,
+            "id": 737,
             "name": "1997",
             "type": "year",
             "first_poll": 6694,
@@ -7034,7 +6918,7 @@
             "official_appearances": 4
         },
         {
-            "id": 768,
+            "id": 738,
             "name": "1999",
             "type": "year",
             "first_poll": 6694,
@@ -7043,7 +6927,7 @@
             "official_appearances": 1
         },
         {
-            "id": 769,
+            "id": 739,
             "name": "2007",
             "type": "year",
             "first_poll": 6695,
@@ -7052,7 +6936,7 @@
             "official_appearances": 2
         },
         {
-            "id": 770,
+            "id": 740,
             "name": "2012",
             "type": "year",
             "first_poll": 6695,
@@ -7061,7 +6945,7 @@
             "official_appearances": 1
         },
         {
-            "id": 771,
+            "id": 741,
             "name": "1990",
             "type": "year",
             "first_poll": 6696,
@@ -7070,7 +6954,7 @@
             "official_appearances": 1
         },
         {
-            "id": 772,
+            "id": 742,
             "name": "2000",
             "type": "year",
             "first_poll": 6696,
@@ -7079,7 +6963,7 @@
             "official_appearances": 2
         },
         {
-            "id": 773,
+            "id": 743,
             "name": "1996",
             "type": "year",
             "first_poll": 6697,
@@ -7088,7 +6972,7 @@
             "official_appearances": 3
         },
         {
-            "id": 774,
+            "id": 744,
             "name": "1988",
             "type": "year",
             "first_poll": 6698,
@@ -7097,7 +6981,7 @@
             "official_appearances": 1
         },
         {
-            "id": 775,
+            "id": 745,
             "name": "1991",
             "type": "year",
             "first_poll": 6698,
@@ -7106,7 +6990,7 @@
             "official_appearances": 3
         },
         {
-            "id": 776,
+            "id": 746,
             "name": "2002",
             "type": "year",
             "first_poll": 6699,
@@ -7115,7 +6999,7 @@
             "official_appearances": 2
         },
         {
-            "id": 777,
+            "id": 747,
             "name": "2010",
             "type": "year",
             "first_poll": 6699,
@@ -7124,7 +7008,7 @@
             "official_appearances": 1
         },
         {
-            "id": 778,
+            "id": 748,
             "name": "1994",
             "type": "year",
             "first_poll": 6700,
@@ -7133,7 +7017,7 @@
             "official_appearances": 4
         },
         {
-            "id": 779,
+            "id": 749,
             "name": "2004",
             "type": "year",
             "first_poll": 6700,
@@ -7142,7 +7026,7 @@
             "official_appearances": 1
         },
         {
-            "id": 780,
+            "id": 750,
             "name": "2011",
             "type": "year",
             "first_poll": 6701,
@@ -7151,7 +7035,7 @@
             "official_appearances": 2
         },
         {
-            "id": 781,
+            "id": 751,
             "name": "1993",
             "type": "year",
             "first_poll": 6702,
@@ -7160,7 +7044,7 @@
             "official_appearances": 1
         },
         {
-            "id": 782,
+            "id": 752,
             "name": "1998",
             "type": "year",
             "first_poll": 6702,
@@ -7169,7 +7053,7 @@
             "official_appearances": 5
         },
         {
-            "id": 783,
+            "id": 753,
             "name": "1992",
             "type": "year",
             "first_poll": 6703,
@@ -7178,7 +7062,7 @@
             "official_appearances": 2
         },
         {
-            "id": 784,
+            "id": 754,
             "name": "2016",
             "type": "year",
             "first_poll": 6703,
@@ -7187,7 +7071,7 @@
             "official_appearances": 1
         },
         {
-            "id": 785,
+            "id": 755,
             "name": "2003",
             "type": "year",
             "first_poll": 6704,
@@ -7196,7 +7080,7 @@
             "official_appearances": 3
         },
         {
-            "id": 786,
+            "id": 756,
             "name": "2013",
             "type": "year",
             "first_poll": 6704,
@@ -7205,7 +7089,7 @@
             "official_appearances": 1
         },
         {
-            "id": 787,
+            "id": 757,
             "name": "2015",
             "type": "year",
             "first_poll": 6705,
@@ -7214,7 +7098,7 @@
             "official_appearances": 1
         },
         {
-            "id": 788,
+            "id": 758,
             "name": "Cuphead",
             "type": "character",
             "first_poll": 7238,
@@ -7223,7 +7107,7 @@
             "official_appearances": 1
         },
         {
-            "id": 789,
+            "id": 759,
             "name": "Chloe Price",
             "type": "character",
             "first_poll": 7239,
@@ -7232,7 +7116,7 @@
             "official_appearances": 1
         },
         {
-            "id": 790,
+            "id": 760,
             "name": "Victor Sullivan",
             "type": "character",
             "first_poll": 7243,
@@ -7241,7 +7125,7 @@
             "official_appearances": 1
         },
         {
-            "id": 791,
+            "id": 761,
             "name": "Primrose",
             "type": "character",
             "first_poll": 7246,
@@ -7250,7 +7134,7 @@
             "official_appearances": 1
         },
         {
-            "id": 792,
+            "id": 762,
             "name": "Noctis Lucis Caelum",
             "type": "character",
             "first_poll": 7248,
@@ -7259,7 +7143,7 @@
             "official_appearances": 1
         },
         {
-            "id": 793,
+            "id": 763,
             "name": "Monika",
             "type": "character",
             "first_poll": 7249,
@@ -7268,7 +7152,7 @@
             "official_appearances": 1
         },
         {
-            "id": 794,
+            "id": 764,
             "name": "Shantae",
             "type": "character",
             "first_poll": 7250,
@@ -7277,7 +7161,7 @@
             "official_appearances": 1
         },
         {
-            "id": 795,
+            "id": 765,
             "name": "James Sunderland",
             "type": "character",
             "first_poll": 7251,
@@ -7286,7 +7170,7 @@
             "official_appearances": 1
         },
         {
-            "id": 796,
+            "id": 766,
             "name": "Velvet Crowe",
             "type": "character",
             "first_poll": 7251,
@@ -7295,7 +7179,7 @@
             "official_appearances": 2
         },
         {
-            "id": 797,
+            "id": 767,
             "name": "Neptune",
             "type": "character",
             "first_poll": 7255,
@@ -7304,7 +7188,7 @@
             "official_appearances": 1
         },
         {
-            "id": 798,
+            "id": 768,
             "name": "Godot",
             "type": "character",
             "first_poll": 7259,
@@ -7313,7 +7197,7 @@
             "official_appearances": 1
         },
         {
-            "id": 799,
+            "id": 769,
             "name": "Kazuma Kiryu",
             "type": "character",
             "first_poll": 7261,
@@ -7322,7 +7206,7 @@
             "official_appearances": 1
         },
         {
-            "id": 800,
+            "id": 770,
             "name": "2B",
             "type": "character",
             "first_poll": 7262,
@@ -7331,7 +7215,7 @@
             "official_appearances": 3
         },
         {
-            "id": 801,
+            "id": 771,
             "name": "Cayde-6",
             "type": "character",
             "first_poll": 7262,
@@ -7340,7 +7224,7 @@
             "official_appearances": 1
         },
         {
-            "id": 802,
+            "id": 772,
             "name": "Joel",
             "type": "character",
             "first_poll": 7267,
@@ -7349,7 +7233,7 @@
             "official_appearances": 1
         },
         {
-            "id": 803,
+            "id": 773,
             "name": "Estelle Bright",
             "type": "character",
             "first_poll": 7268,
@@ -7358,7 +7242,7 @@
             "official_appearances": 1
         },
         {
-            "id": 804,
+            "id": 774,
             "name": "Guile",
             "type": "character",
             "first_poll": 7269,
@@ -7367,7 +7251,7 @@
             "official_appearances": 1
         },
         {
-            "id": 805,
+            "id": 775,
             "name": "Hat Kid",
             "type": "character",
             "first_poll": 7270,
@@ -7376,7 +7260,7 @@
             "official_appearances": 1
         },
         {
-            "id": 806,
+            "id": 776,
             "name": "Metal Sonic",
             "type": "character",
             "first_poll": 7272,
@@ -7385,7 +7269,7 @@
             "official_appearances": 1
         },
         {
-            "id": 807,
+            "id": 777,
             "name": "Aloy",
             "type": "character",
             "first_poll": 7274,
@@ -7394,7 +7278,7 @@
             "official_appearances": 1
         },
         {
-            "id": 808,
+            "id": 778,
             "name": "D.Va",
             "type": "character",
             "first_poll": 7274,
@@ -7403,7 +7287,7 @@
             "official_appearances": 2
         },
         {
-            "id": 809,
+            "id": 779,
             "name": "Captain Toad",
             "type": "character",
             "first_poll": 7276,
@@ -7412,7 +7296,7 @@
             "official_appearances": 2
         },
         {
-            "id": 810,
+            "id": 780,
             "name": "Shovel Knight",
             "type": "character",
             "first_poll": 7276,
@@ -7421,7 +7305,7 @@
             "official_appearances": 1
         },
         {
-            "id": 811,
+            "id": 781,
             "name": "Geralt",
             "type": "character",
             "first_poll": 7278,
@@ -7430,7 +7314,7 @@
             "official_appearances": 4
         },
         {
-            "id": 812,
+            "id": 782,
             "name": "Rosalina",
             "type": "character",
             "first_poll": 7278,
@@ -7439,7 +7323,7 @@
             "official_appearances": 1
         },
         {
-            "id": 813,
+            "id": 783,
             "name": "Sans",
             "type": "character",
             "first_poll": 7280,
@@ -7448,7 +7332,7 @@
             "official_appearances": 1
         },
         {
-            "id": 814,
+            "id": 784,
             "name": "Ren Amamiya / Joker",
             "type": "character",
             "first_poll": 7285,
@@ -7457,7 +7341,7 @@
             "official_appearances": 1
         },
         {
-            "id": 815,
+            "id": 785,
             "name": "Monokuma",
             "type": "character",
             "first_poll": 7287,
@@ -7466,7 +7350,7 @@
             "official_appearances": 1
         },
         {
-            "id": 816,
+            "id": 786,
             "name": "Goro Majima",
             "type": "character",
             "first_poll": 7288,
@@ -7475,7 +7359,7 @@
             "official_appearances": 1
         },
         {
-            "id": 817,
+            "id": 787,
             "name": "Isabelle",
             "type": "character",
             "first_poll": 7293,
@@ -7484,7 +7368,7 @@
             "official_appearances": 1
         },
         {
-            "id": 818,
+            "id": 788,
             "name": "Richter Belmont",
             "type": "character",
             "first_poll": 7295,
@@ -7493,7 +7377,7 @@
             "official_appearances": 1
         },
         {
-            "id": 819,
+            "id": 789,
             "name": "Metal Man",
             "type": "character",
             "first_poll": 7297,
@@ -7502,7 +7386,7 @@
             "official_appearances": 1
         },
         {
-            "id": 820,
+            "id": 790,
             "name": "King K. Rool",
             "type": "character",
             "first_poll": 7299,
@@ -7511,7 +7395,7 @@
             "official_appearances": 1
         },
         {
-            "id": 821,
+            "id": 791,
             "name": "Ellie",
             "type": "character",
             "first_poll": 7300,
@@ -7520,7 +7404,7 @@
             "official_appearances": 1
         },
         {
-            "id": 822,
+            "id": 792,
             "name": "Aqua",
             "type": "character",
             "first_poll": 7301,
@@ -7529,7 +7413,7 @@
             "official_appearances": 2
         },
         {
-            "id": 823,
+            "id": 793,
             "name": "Quiet",
             "type": "character",
             "first_poll": 7301,
@@ -7538,7 +7422,7 @@
             "official_appearances": 1
         },
         {
-            "id": 824,
+            "id": 794,
             "name": "The Legend of Zelda: Breath of the Wild",
             "type": "game",
             "first_poll": 7915,
@@ -7547,7 +7431,7 @@
             "official_appearances": 7
         },
         {
-            "id": 825,
+            "id": 795,
             "name": "The Outer Worlds",
             "type": "game",
             "first_poll": 7915,
@@ -7556,7 +7440,7 @@
             "official_appearances": 1
         },
         {
-            "id": 826,
+            "id": 796,
             "name": "Halo: Reach",
             "type": "game",
             "first_poll": 7916,
@@ -7565,7 +7449,7 @@
             "official_appearances": 2
         },
         {
-            "id": 827,
+            "id": 797,
             "name": "Final Fantasy XV",
             "type": "game",
             "first_poll": 7917,
@@ -7574,7 +7458,7 @@
             "official_appearances": 3
         },
         {
-            "id": 828,
+            "id": 798,
             "name": "What Remains of Edith Finch",
             "type": "game",
             "first_poll": 7917,
@@ -7583,7 +7467,7 @@
             "official_appearances": 1
         },
         {
-            "id": 829,
+            "id": 799,
             "name": "Hollow Knight",
             "type": "game",
             "first_poll": 7918,
@@ -7592,7 +7476,7 @@
             "official_appearances": 2
         },
         {
-            "id": 830,
+            "id": 800,
             "name": "Tales of Berseria",
             "type": "game",
             "first_poll": 7918,
@@ -7601,7 +7485,7 @@
             "official_appearances": 1
         },
         {
-            "id": 831,
+            "id": 801,
             "name": "Bravely Default: Flying Fairy",
             "type": "game",
             "first_poll": 7919,
@@ -7610,7 +7494,7 @@
             "official_appearances": 1
         },
         {
-            "id": 832,
+            "id": 802,
             "name": "Monster Hunter: World",
             "type": "game",
             "first_poll": 7919,
@@ -7619,7 +7503,7 @@
             "official_appearances": 3
         },
         {
-            "id": 833,
+            "id": 803,
             "name": "Ni no Kuni: Wrath of the White Witch",
             "type": "game",
             "first_poll": 7920,
@@ -7628,7 +7512,7 @@
             "official_appearances": 1
         },
         {
-            "id": 834,
+            "id": 804,
             "name": "Sekiro: Shadows Die Twice",
             "type": "game",
             "first_poll": 7920,
@@ -7637,7 +7521,7 @@
             "official_appearances": 2
         },
         {
-            "id": 835,
+            "id": 805,
             "name": "Bastion",
             "type": "game",
             "first_poll": 7921,
@@ -7646,7 +7530,7 @@
             "official_appearances": 2
         },
         {
-            "id": 836,
+            "id": 806,
             "name": "Dragon Quest XI: Echoes of an Elusive Age",
             "type": "game",
             "first_poll": 7922,
@@ -7655,7 +7539,7 @@
             "official_appearances": 4
         },
         {
-            "id": 837,
+            "id": 807,
             "name": "The Legend of Heroes: Trails in the Sky SC",
             "type": "game",
             "first_poll": 7922,
@@ -7664,7 +7548,7 @@
             "official_appearances": 1
         },
         {
-            "id": 838,
+            "id": 808,
             "name": "Resident Evil 7: biohazard",
             "type": "game",
             "first_poll": 7923,
@@ -7673,7 +7557,7 @@
             "official_appearances": 1
         },
         {
-            "id": 839,
+            "id": 809,
             "name": "Fallout 4",
             "type": "game",
             "first_poll": 7924,
@@ -7682,7 +7566,7 @@
             "official_appearances": 2
         },
         {
-            "id": 840,
+            "id": 810,
             "name": "VVVVVV",
             "type": "game",
             "first_poll": 7924,
@@ -7691,7 +7575,7 @@
             "official_appearances": 1
         },
         {
-            "id": 841,
+            "id": 811,
             "name": "Bloodstained: Ritual of the Night",
             "type": "game",
             "first_poll": 7925,
@@ -7700,7 +7584,7 @@
             "official_appearances": 1
         },
         {
-            "id": 842,
+            "id": 812,
             "name": "Fortnite",
             "type": "game",
             "first_poll": 7926,
@@ -7709,7 +7593,7 @@
             "official_appearances": 1
         },
         {
-            "id": 843,
+            "id": 813,
             "name": "Horizon Zero Dawn",
             "type": "game",
             "first_poll": 7926,
@@ -7718,7 +7602,7 @@
             "official_appearances": 3
         },
         {
-            "id": 844,
+            "id": 814,
             "name": "Danganronpa 2: Goodbye Despair",
             "type": "game",
             "first_poll": 7927,
@@ -7727,8 +7611,8 @@
             "official_appearances": 1
         },
         {
-            "id": 845,
-            "name": "DOOM",
+            "id": 815,
+            "name": "DOOM (2016)",
             "type": "game",
             "first_poll": 7928,
             "first_contest": "GOTD 2",
@@ -7736,7 +7620,7 @@
             "official_appearances": 2
         },
         {
-            "id": 846,
+            "id": 816,
             "name": "INSIDE",
             "type": "game",
             "first_poll": 7928,
@@ -7745,7 +7629,7 @@
             "official_appearances": 1
         },
         {
-            "id": 847,
+            "id": 817,
             "name": "Deus Ex: Human Revolution",
             "type": "game",
             "first_poll": 7929,
@@ -7754,7 +7638,7 @@
             "official_appearances": 1
         },
         {
-            "id": 848,
+            "id": 818,
             "name": "Call of Duty: Black Ops",
             "type": "game",
             "first_poll": 7930,
@@ -7763,7 +7647,7 @@
             "official_appearances": 1
         },
         {
-            "id": 849,
+            "id": 819,
             "name": "Super Smash Bros. Ultimate",
             "type": "game",
             "first_poll": 7931,
@@ -7772,7 +7656,7 @@
             "official_appearances": 6
         },
         {
-            "id": 850,
+            "id": 820,
             "name": "Tekken 7",
             "type": "game",
             "first_poll": 7931,
@@ -7781,7 +7665,7 @@
             "official_appearances": 1
         },
         {
-            "id": 851,
+            "id": 821,
             "name": "Bayonetta",
             "type": "game",
             "first_poll": 7932,
@@ -7790,7 +7674,7 @@
             "official_appearances": 1
         },
         {
-            "id": 852,
+            "id": 822,
             "name": "The Legend of Zelda: A Link Between Worlds",
             "type": "game",
             "first_poll": 7932,
@@ -7799,7 +7683,7 @@
             "official_appearances": 2
         },
         {
-            "id": 853,
+            "id": 823,
             "name": "Dead Space 2",
             "type": "game",
             "first_poll": 7933,
@@ -7808,7 +7692,7 @@
             "official_appearances": 1
         },
         {
-            "id": 854,
+            "id": 824,
             "name": "Marvel's Spider-Man",
             "type": "game",
             "first_poll": 7933,
@@ -7817,7 +7701,7 @@
             "official_appearances": 3
         },
         {
-            "id": 855,
+            "id": 825,
             "name": "Dota 2",
             "type": "game",
             "first_poll": 7934,
@@ -7826,7 +7710,7 @@
             "official_appearances": 1
         },
         {
-            "id": 856,
+            "id": 826,
             "name": "Octopath Traveler",
             "type": "game",
             "first_poll": 7935,
@@ -7835,7 +7719,7 @@
             "official_appearances": 2
         },
         {
-            "id": 857,
+            "id": 827,
             "name": "Dragon's Dogma",
             "type": "game",
             "first_poll": 7936,
@@ -7844,7 +7728,7 @@
             "official_appearances": 1
         },
         {
-            "id": 858,
+            "id": 828,
             "name": "Devil May Cry 5",
             "type": "game",
             "first_poll": 7937,
@@ -7853,7 +7737,7 @@
             "official_appearances": 2
         },
         {
-            "id": 859,
+            "id": 829,
             "name": "Donkey Kong Country: Tropical Freeze",
             "type": "game",
             "first_poll": 7937,
@@ -7862,7 +7746,7 @@
             "official_appearances": 1
         },
         {
-            "id": 860,
+            "id": 830,
             "name": "Mortal Kombat 11",
             "type": "game",
             "first_poll": 7938,
@@ -7871,7 +7755,7 @@
             "official_appearances": 1
         },
         {
-            "id": 861,
+            "id": 831,
             "name": "Super Mario Odyssey",
             "type": "game",
             "first_poll": 7938,
@@ -7880,7 +7764,7 @@
             "official_appearances": 4
         },
         {
-            "id": 862,
+            "id": 832,
             "name": "Baba Is You",
             "type": "game",
             "first_poll": 7939,
@@ -7889,7 +7773,7 @@
             "official_appearances": 1
         },
         {
-            "id": 863,
+            "id": 833,
             "name": "Cuphead",
             "type": "game",
             "first_poll": 7940,
@@ -7898,7 +7782,7 @@
             "official_appearances": 2
         },
         {
-            "id": 864,
+            "id": 834,
             "name": "XCOM 2",
             "type": "game",
             "first_poll": 7940,
@@ -7907,7 +7791,7 @@
             "official_appearances": 1
         },
         {
-            "id": 865,
+            "id": 835,
             "name": "FTL: Faster Than Light",
             "type": "game",
             "first_poll": 7941,
@@ -7916,7 +7800,7 @@
             "official_appearances": 1
         },
         {
-            "id": 866,
+            "id": 836,
             "name": "Persona 4 Golden",
             "type": "game",
             "first_poll": 7941,
@@ -7925,7 +7809,7 @@
             "official_appearances": 4
         },
         {
-            "id": 867,
+            "id": 837,
             "name": "Ghost Trick: Phantom Detective",
             "type": "game",
             "first_poll": 7942,
@@ -7934,7 +7818,7 @@
             "official_appearances": 1
         },
         {
-            "id": 868,
+            "id": 838,
             "name": "Splatoon 2",
             "type": "game",
             "first_poll": 7943,
@@ -7943,7 +7827,7 @@
             "official_appearances": 1
         },
         {
-            "id": 869,
+            "id": 839,
             "name": "Death Stranding",
             "type": "game",
             "first_poll": 7944,
@@ -7952,7 +7836,7 @@
             "official_appearances": 1
         },
         {
-            "id": 870,
+            "id": 840,
             "name": "Overwatch",
             "type": "game",
             "first_poll": 7944,
@@ -7961,7 +7845,7 @@
             "official_appearances": 2
         },
         {
-            "id": 871,
+            "id": 841,
             "name": "Dragon Age: Inquisition",
             "type": "game",
             "first_poll": 7945,
@@ -7970,7 +7854,7 @@
             "official_appearances": 1
         },
         {
-            "id": 872,
+            "id": 842,
             "name": "Ori and the Blind Forest",
             "type": "game",
             "first_poll": 7945,
@@ -7979,7 +7863,7 @@
             "official_appearances": 2
         },
         {
-            "id": 873,
+            "id": 843,
             "name": "Fire Emblem: Three Houses",
             "type": "game",
             "first_poll": 7946,
@@ -7988,7 +7872,7 @@
             "official_appearances": 3
         },
         {
-            "id": 874,
+            "id": 844,
             "name": "South Park: The Stick of Truth",
             "type": "game",
             "first_poll": 7946,
@@ -7997,7 +7881,7 @@
             "official_appearances": 1
         },
         {
-            "id": 875,
+            "id": 845,
             "name": "Assassin's Creed Odyssey",
             "type": "game",
             "first_poll": 7947,
@@ -8006,7 +7890,7 @@
             "official_appearances": 1
         },
         {
-            "id": 876,
+            "id": 846,
             "name": "Starcraft II: Wings of Liberty",
             "type": "game",
             "first_poll": 7948,
@@ -8015,7 +7899,7 @@
             "official_appearances": 1
         },
         {
-            "id": 877,
+            "id": 847,
             "name": "Stardew Valley",
             "type": "game",
             "first_poll": 7949,
@@ -8024,7 +7908,7 @@
             "official_appearances": 2
         },
         {
-            "id": 878,
+            "id": 848,
             "name": "Return of the Obra Dinn",
             "type": "game",
             "first_poll": 7950,
@@ -8033,7 +7917,7 @@
             "official_appearances": 1
         },
         {
-            "id": 879,
+            "id": 849,
             "name": "The Stanley Parable",
             "type": "game",
             "first_poll": 7951,
@@ -8042,7 +7926,7 @@
             "official_appearances": 1
         },
         {
-            "id": 880,
+            "id": 850,
             "name": "Dark Souls III",
             "type": "game",
             "first_poll": 7952,
@@ -8051,7 +7935,7 @@
             "official_appearances": 2
         },
         {
-            "id": 881,
+            "id": 851,
             "name": "Dishonored",
             "type": "game",
             "first_poll": 7952,
@@ -8060,7 +7944,7 @@
             "official_appearances": 1
         },
         {
-            "id": 882,
+            "id": 852,
             "name": "Nioh",
             "type": "game",
             "first_poll": 7953,
@@ -8069,7 +7953,16 @@
             "official_appearances": 2
         },
         {
-            "id": 883,
+            "id": 853,
+            "name": "God of War (2018)",
+            "type": "game",
+            "first_poll": 7954,
+            "first_contest": "GOTD 2",
+            "appearances": 4,
+            "official_appearances": 4
+        },
+        {
+            "id": 854,
             "name": "The Talos Principle",
             "type": "game",
             "first_poll": 7954,
@@ -8078,7 +7971,7 @@
             "official_appearances": 1
         },
         {
-            "id": 884,
+            "id": 855,
             "name": "Heavy Rain",
             "type": "game",
             "first_poll": 7955,
@@ -8087,7 +7980,7 @@
             "official_appearances": 1
         },
         {
-            "id": 885,
+            "id": 856,
             "name": "Persona 5",
             "type": "game",
             "first_poll": 7955,
@@ -8096,7 +7989,7 @@
             "official_appearances": 5
         },
         {
-            "id": 886,
+            "id": 857,
             "name": "Assassin's Creed IV: Black Flag",
             "type": "game",
             "first_poll": 7956,
@@ -8105,7 +7998,7 @@
             "official_appearances": 2
         },
         {
-            "id": 887,
+            "id": 858,
             "name": "Sonic Mania",
             "type": "game",
             "first_poll": 7957,
@@ -8114,7 +8007,7 @@
             "official_appearances": 3
         },
         {
-            "id": 888,
+            "id": 859,
             "name": "Ys VIII: Lacrimosa of DANA",
             "type": "game",
             "first_poll": 7957,
@@ -8123,7 +8016,7 @@
             "official_appearances": 1
         },
         {
-            "id": 889,
+            "id": 860,
             "name": "Slay the Spire",
             "type": "game",
             "first_poll": 7958,
@@ -8132,7 +8025,7 @@
             "official_appearances": 1
         },
         {
-            "id": 890,
+            "id": 861,
             "name": "Super Meat Boy",
             "type": "game",
             "first_poll": 7958,
@@ -8141,7 +8034,7 @@
             "official_appearances": 2
         },
         {
-            "id": 891,
+            "id": 862,
             "name": "Tomb Raider",
             "type": "game",
             "first_poll": 7959,
@@ -8150,7 +8043,7 @@
             "official_appearances": 1
         },
         {
-            "id": 892,
+            "id": 863,
             "name": "Disco Elysium",
             "type": "game",
             "first_poll": 7960,
@@ -8159,7 +8052,7 @@
             "official_appearances": 1
         },
         {
-            "id": 893,
+            "id": 864,
             "name": "Kingdom Hearts III",
             "type": "game",
             "first_poll": 7960,
@@ -8168,7 +8061,7 @@
             "official_appearances": 2
         },
         {
-            "id": 894,
+            "id": 865,
             "name": "Street Fighter V",
             "type": "game",
             "first_poll": 7961,
@@ -8177,7 +8070,7 @@
             "official_appearances": 1
         },
         {
-            "id": 895,
+            "id": 866,
             "name": "Dying Light",
             "type": "game",
             "first_poll": 7962,
@@ -8186,7 +8079,7 @@
             "official_appearances": 1
         },
         {
-            "id": 896,
+            "id": 867,
             "name": "Red Dead Redemption 2",
             "type": "game",
             "first_poll": 7962,
@@ -8195,7 +8088,7 @@
             "official_appearances": 3
         },
         {
-            "id": 897,
+            "id": 868,
             "name": "Hotline Miami",
             "type": "game",
             "first_poll": 7963,
@@ -8204,7 +8097,7 @@
             "official_appearances": 1
         },
         {
-            "id": 898,
+            "id": 869,
             "name": "Dragon Ball FighterZ",
             "type": "game",
             "first_poll": 7964,
@@ -8213,7 +8106,7 @@
             "official_appearances": 1
         },
         {
-            "id": 899,
+            "id": 870,
             "name": "Rocket League",
             "type": "game",
             "first_poll": 7964,
@@ -8222,7 +8115,7 @@
             "official_appearances": 2
         },
         {
-            "id": 900,
+            "id": 871,
             "name": "The Witness",
             "type": "game",
             "first_poll": 7965,
@@ -8231,7 +8124,7 @@
             "official_appearances": 1
         },
         {
-            "id": 901,
+            "id": 872,
             "name": "Yakuza 0",
             "type": "game",
             "first_poll": 7965,
@@ -8240,7 +8133,7 @@
             "official_appearances": 2
         },
         {
-            "id": 902,
+            "id": 873,
             "name": "Dead Cells",
             "type": "game",
             "first_poll": 7966,
@@ -8249,7 +8142,7 @@
             "official_appearances": 1
         },
         {
-            "id": 903,
+            "id": 874,
             "name": "Xenoblade Chronicles 2",
             "type": "game",
             "first_poll": 7967,
@@ -8258,7 +8151,7 @@
             "official_appearances": 1
         },
         {
-            "id": 904,
+            "id": 875,
             "name": "Terraria",
             "type": "game",
             "first_poll": 7968,
@@ -8267,7 +8160,7 @@
             "official_appearances": 1
         },
         {
-            "id": 905,
+            "id": 876,
             "name": "Diablo III",
             "type": "game",
             "first_poll": 7969,
@@ -8276,7 +8169,7 @@
             "official_appearances": 2
         },
         {
-            "id": 906,
+            "id": 877,
             "name": "Crusader Kings II",
             "type": "game",
             "first_poll": 7970,
@@ -8285,7 +8178,7 @@
             "official_appearances": 1
         },
         {
-            "id": 907,
+            "id": 878,
             "name": "Subnautica",
             "type": "game",
             "first_poll": 7971,
@@ -8294,7 +8187,7 @@
             "official_appearances": 1
         },
         {
-            "id": 908,
+            "id": 879,
             "name": "Fate / Grand Order",
             "type": "game",
             "first_poll": 7972,
@@ -8303,7 +8196,7 @@
             "official_appearances": 1
         },
         {
-            "id": 909,
+            "id": 880,
             "name": "Crypt of the NecroDancer",
             "type": "game",
             "first_poll": 7973,
@@ -8312,7 +8205,7 @@
             "official_appearances": 1
         },
         {
-            "id": 910,
+            "id": 881,
             "name": "Final Fantasy XIV Online: A Realm Reborn",
             "type": "game",
             "first_poll": 7973,
@@ -8321,7 +8214,7 @@
             "official_appearances": 2
         },
         {
-            "id": 911,
+            "id": 882,
             "name": "Uncharted 4: A Thief's End",
             "type": "game",
             "first_poll": 7974,
@@ -8330,7 +8223,7 @@
             "official_appearances": 1
         },
         {
-            "id": 912,
+            "id": 883,
             "name": "Night in the Woods",
             "type": "game",
             "first_poll": 7975,
@@ -8339,7 +8232,7 @@
             "official_appearances": 1
         },
         {
-            "id": 913,
+            "id": 884,
             "name": "Pokemon HeartGold / SoulSilver Version",
             "type": "game",
             "first_poll": 7975,
@@ -8348,7 +8241,7 @@
             "official_appearances": 4
         },
         {
-            "id": 914,
+            "id": 885,
             "name": "Celeste",
             "type": "game",
             "first_poll": 7976,
@@ -8357,7 +8250,7 @@
             "official_appearances": 1
         },
         {
-            "id": 915,
+            "id": 886,
             "name": "Rayman Legends",
             "type": "game",
             "first_poll": 7976,
@@ -8366,7 +8259,7 @@
             "official_appearances": 2
         },
         {
-            "id": 916,
+            "id": 887,
             "name": "Divinity: Original Sin II",
             "type": "game",
             "first_poll": 7977,
@@ -8375,7 +8268,7 @@
             "official_appearances": 2
         },
         {
-            "id": 917,
+            "id": 888,
             "name": "NieR: Automata",
             "type": "game",
             "first_poll": 7978,

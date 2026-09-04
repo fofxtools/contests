@@ -11,10 +11,12 @@
  * multi-way rosters are read from `updates`; matchnum > 2566 is the last row per
  * matchnum in `updates`. Entrant strings are normalized by ent() below
  * (HTML-entity-decoded, ellipsis folded to "...", whitespace collapsed, trimmed)
- * but not aliased. No winners, no votes. `official` = not in the hard-coded BONUS
- * list below. Each contest block carries `type` (character/game/series/rivalry/
- * year) — the pool an entrant registry keys identity on; a cross-pool bonus
- * match may override it with its own per-match `type`.
+ * and spelling variants are NOT merged (the alias map's job), but era_disambiguate()
+ * does rewrite the few raw strings that name a different entity per contest
+ * (e.g. "God of War" -> the 2005 game vs the 2018 reboot). No winners, no votes.
+ * `official` = not in the hard-coded BONUS list below. Each contest block carries
+ * `type` (character/game/series/rivalry/year) — the pool an entrant registry keys
+ * identity on; a cross-pool bonus match may override it with its own per-match `type`.
  *
  * Run from the repo root: php scripts/build-contest-matches.php
  */
@@ -85,6 +87,11 @@ $CONTEST_TYPE = [
 
 /* --- bonus poll ids: everything else is official. Shared with public/lib/contest.php. --- */
 require_once $ROOT . '/public/lib/bonus-polls.php';
+
+/* --- era_disambiguate($name, $poll): a raw string that names a different release
+   per contest (God of War 2005/2018, Doom 1993 / DOOM 2016). Shared with
+   public/lib/contest.php so /node/100 resolves them the same way. --- */
+require_once $ROOT . '/public/lib/era-splits.php';
 $BONUS = BONUS_POLLS;
 
 /* --- bonus matches whose entrants are not the contest's pool. GOTD poll 4196
@@ -179,6 +186,7 @@ foreach ($CONTESTS as $label => $codes) {
     $matches  = [];
     $offCount = 0;
     foreach ($rows as [$poll, $es]) {
+        $es         = array_map(fn ($n) => era_disambiguate($n, $poll), $es);
         $isOfficial = !isset($BONUS[$poll]);
         $offCount += $isOfficial ? 1 : 0;
         $m = ['poll' => $poll, 'official' => $isOfficial, 'entrants' => $es];
@@ -340,6 +348,12 @@ foreach ($CONTESTS as $label => $_) {
         $html[] = '<p class="note"><strong>' . $h($label) . ':</strong> ' . $h($out[$label]['note']) . '</p>';
     }
 }
+$eraBits = [];
+foreach (ERA_SPLITS as $eraRaw => $eraTargets) {
+    $eraBits[] = $h($eraRaw) . ' &rarr; ' . implode(' / ', array_map($h, array_keys($eraTargets)));
+}
+$html[] = '<p class="note"><strong>Era splits:</strong> a few titles use the same poll name for '
+        . 'different releases and are split here &mdash; ' . implode('; ', $eraBits) . '.</p>';
 $html[] = '<div class="controls">';
 $html[] = '<input type="search" id="q" placeholder="Filter by contest, entrant name or poll number…" aria-label="Filter matches">';
 $html[] = '<label><input type="checkbox" id="offonly"> Official matches only</label>';

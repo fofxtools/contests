@@ -60,15 +60,50 @@ $ALIAS = [
         'Tifa Lockhart'          => ['Tifa Lockheart'],
     ],
     'game' => [
-        'EarthBound'              => ['Earthbound'],
-        'The World Ends With You' => ['The World Ends with You'],
+        /* spelling / spacing / case */
+        'EarthBound'                  => ['Earthbound'],
+        'The World Ends With You'     => ['The World Ends with You'],
+        'SoulCalibur'                 => ['Soul Calibur'],   // both = the DC/arcade original; NOT Wikipedia's "Soulcalibur" (not in the data)
+        'GoldenEye 007'               => ['Goldeneye'],
+        'The Secret of Monkey Island' => ['Secret of Monkey Island'],
+
+        /* prefix / "The" — same game, fuller title as canonical */
+        'The Legend of Zelda: A Link to the Past' => ['A Link to the Past', 'Zelda: A Link to the Past'],
+        "The Legend of Zelda: Link's Awakening"   => ["Zelda: Link's Awakening"],
+        'The Legend of Zelda: Twilight Princess'  => ['Zelda: Twilight Princess'],
+        'The Legend of Zelda: Ocarina of Time'    => ['Ocarina of Time'],
+        'The Legend of Zelda: The Wind Waker'     => ['The Wind Waker', 'Wind Waker', 'The Legend of Zelda: Wind Waker'],
+        'Castlevania: Symphony of the Night'      => ['Symphony of the Night'],
+        'Star Wars: Knights of the Old Republic'  => ['Knights of the Old Republic'],
+        'Grand Theft Auto: Vice City'             => ['Vice City'],
+        'Halo: Combat Evolved'                    => ['Halo'],   // only one Halo existed in SpC2K4 (2004)
+        'Sonic the Hedgehog 2'                    => ['Sonic 2'],
+
+        /* NA numbering */
+        'Final Fantasy IV' => ['Final Fantasy II (IV)'],
+        'Final Fantasy VI' => ['Final Fantasy III (VI)'],
+
+        /* pure-elaboration subtitle — one game */
+        'Metal Gear Solid 2: Sons of Liberty'        => ['Metal Gear Solid 2'],
+        'Metal Gear Solid 3: Snake Eater'            => ['Metal Gear Solid 3'],
+        'Metal Gear Solid 4: Guns of the Patriots'   => ['Metal Gear Solid 4'],
+        "Donkey Kong Country 2: Diddy's Kong Quest"  => ['Donkey Kong Country 2'],
+        'Call of Duty 4: Modern Warfare'             => ['Call of Duty 4'],
+        'Super Mario RPG: Legend of the Seven Stars' => ['Super Mario RPG'],
+
+        /* judgement calls — merge base + expansion / bundle scopes; keep enhanced ports separate */
+        'Shin Megami Tensei: Persona 4' => ['Persona 4'],                       // same 2008 game (P4 Golden stays separate)
+        'Diablo II'                     => ['Diablo II: Lord of Destruction'],  // base + expansion, community treats as one
+        'Pokemon Gold/Silver'           => ['Pokemon Gold/Silver/Crystal', 'Pokemon Gold/Silver/Crystal Version'],
+        'Pokemon Red/Blue/Yellow'       => ['Pokemon Red/Blue/Yellow/Green Version'],
+        'Pokemon Diamond/Pearl'         => ['Pokemon Diamond/Pearl/Platinum'],
     ],
-    'series'  => [],
+    'series'  => [],   // single-contest pool (BSE2K6) — strings taken verbatim
     'rivalry' => [
         'Cloud Strife vs. Sephiroth' => ['Cloud vs. Sephiroth'],
         'Chell vs. GLaDOS'           => ['Chell vs. GlaDOS'],
     ],
-    'year' => [],
+    'year' => [],   // bare years — nothing to alias
 ];
 
 $ERA_SCOPED = [
@@ -77,6 +112,7 @@ $ERA_SCOPED = [
 ];
 
 $NEVER_MERGE = [
+    /* character pool */
     ['Kratos', 'Kratos Aurion'],
     ['Big Boss', 'The Boss'],
     ['Isaac (Golden Sun)', 'Isaac (Binding)', 'Isaac Clarke'],
@@ -87,6 +123,23 @@ $NEVER_MERGE = [
     ['Ryu', 'Ryu Hayabusa', 'Ryo Hazuki'],
     ['Link', 'Toon Link', 'Young Link', 'Classic Link', 'CD-I Link'],
     ['Pac-Man', 'Ms. Pac-Man'],
+
+    /* game pool — era splits + look-alike titles that must stay distinct */
+    ['Doom (1993)', 'DOOM (2016)'],
+    ['God of War (2005)', 'God of War (2018)'],
+    ['Batman: Arkham Asylum', 'Batman: Arkham City'],
+    ['Halo: Combat Evolved', 'Halo 2', 'Halo 3', 'Halo: Reach'],
+    ['Dragon Age: Origins', 'Dragon Age: Inquisition'],
+    ['Call of Duty 4: Modern Warfare', 'Call of Duty: Modern Warfare 2', 'Call of Duty: Black Ops'],
+    ['Fire Emblem', 'Fire Emblem: Awakening', 'Fire Emblem: Path of Radiance', 'Fire Emblem: Three Houses'],
+    ['Donkey Kong Country', "Donkey Kong Country 2: Diddy's Kong Quest", 'Donkey Kong Country: Tropical Freeze'],
+    ['Deus Ex', 'Deus Ex: Human Revolution'],
+    ['The Elder Scrolls III: Morrowind', 'The Elder Scrolls IV: Oblivion', 'The Elder Scrolls V: Skyrim'],
+    ['Final Fantasy VII', 'Crisis Core: Final Fantasy VII'],
+    ['Mass Effect', 'Mass Effect 2', 'Mass Effect 3'],
+    ['Portal', 'Portal 2'],
+    ['Mega Man 2', 'Mega Man 3', 'Mega Man 9'],
+    ['Mario Kart 64', 'Mario Kart DS', 'Mario Kart Wii', 'Mario Kart 8', 'Super Mario Kart'],
 ];
 
 /* variant string -> canonical, per pool */
@@ -181,7 +234,7 @@ $out[] = ' *                  collapse whitespace, trim) — matches build-conte
 $out[] = ' * entrant_canon()  entrant_norm() + resolve an alias to its canonical name.';
 $out[] = ' *';
 $out[] = ' * `php scripts/build-entrants.php` validates this file and emits the review';
-$out[] = ' * views data/entrants.{json,md}. Rationale: tmp/entrant-analysis/DECISIONS.md.';
+$out[] = ' * views data/entrants.{json,md}.';
 $out[] = ' */';
 $out[] = '';
 $out[] = 'declare(strict_types=1);';

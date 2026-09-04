@@ -53,6 +53,7 @@ table.amr tr.amr-bonus { background: #fff7e6; }
 .amr-bonus-tag { color: #8a5b00; font-size: .8em; cursor: help; }
 .amr-notes { font-size: .92em; }
 .amr-notes h3 { margin: 1.1em 0 .3em; }
+.amr-notes h4 { margin: .7em 0 .15em; font-size: 1em; }
 
 /* ------------------------------------------------------------------ */
 /*  Typography refresh (2026-08) — modern base size + capped measure.  */

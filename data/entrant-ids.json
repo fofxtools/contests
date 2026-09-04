@@ -566,7 +566,7 @@
     ],
     [
         "game",
-        "Super Mario RPG",
+        "Super Mario RPG: Legend of the Seven Stars",
         114
     ],
     [
@@ -576,7 +576,7 @@
     ],
     [
         "game",
-        "Sonic 2",
+        "Sonic the Hedgehog 2",
         116
     ],
     [
@@ -591,12 +591,12 @@
     ],
     [
         "game",
-        "A Link to the Past",
+        "Gunstar Heroes",
         119
     ],
     [
         "game",
-        "Gunstar Heroes",
+        "The Legend of Zelda: A Link to the Past",
         120
     ],
     [
@@ -611,7 +611,7 @@
     ],
     [
         "game",
-        "Doom",
+        "Doom (1993)",
         123
     ],
     [
@@ -641,7 +641,7 @@
     ],
     [
         "game",
-        "Pokemon Gold/Silver/Crystal",
+        "Pokemon Gold/Silver",
         129
     ],
     [
@@ -671,17 +671,17 @@
     ],
     [
         "game",
-        "Perfect Dark",
+        "Castlevania: Symphony of the Night",
         135
     ],
     [
         "game",
-        "Symphony of the Night",
+        "Perfect Dark",
         136
     ],
     [
         "game",
-        "Goldeneye",
+        "GoldenEye 007",
         137
     ],
     [
@@ -706,12 +706,12 @@
     ],
     [
         "game",
-        "Ocarina of Time",
+        "The Legend of Zelda: Ocarina of Time",
         142
     ],
     [
         "game",
-        "Halo",
+        "Halo: Combat Evolved",
         143
     ],
     [
@@ -726,7 +726,7 @@
     ],
     [
         "game",
-        "Soul Calibur",
+        "SoulCalibur",
         146
     ],
     [
@@ -736,7 +736,7 @@
     ],
     [
         "game",
-        "The Wind Waker",
+        "The Legend of Zelda: The Wind Waker",
         148
     ],
     [
@@ -771,17 +771,17 @@
     ],
     [
         "game",
-        "Knights of the Old Republic",
+        "Grand Theft Auto: Vice City",
         155
     ],
     [
         "game",
-        "Vice City",
+        "Star Wars: Knights of the Old Republic",
         156
     ],
     [
         "game",
-        "Metal Gear Solid 2",
+        "Metal Gear Solid 2: Sons of Liberty",
         157
     ],
     [
@@ -790,3798 +790,3653 @@
         158
     ],
     [
-        "game",
-        "Wind Waker",
+        "character",
+        "Luca Blight",
         159
     ],
     [
         "character",
-        "Luca Blight",
+        "JC Denton",
         160
     ],
     [
         "character",
-        "JC Denton",
+        "Earthworm Jim",
         161
     ],
     [
         "character",
-        "Earthworm Jim",
+        "Proto Man",
         162
     ],
     [
         "character",
-        "Proto Man",
+        "Frog",
         163
     ],
     [
         "character",
-        "Frog",
+        "Liquid Snake",
         164
     ],
     [
         "character",
-        "Liquid Snake",
+        "Tanner",
         165
     ],
     [
         "character",
-        "Tanner",
+        "Laharl",
         166
     ],
     [
         "character",
-        "Laharl",
+        "Kain",
         167
     ],
     [
         "character",
-        "Kain",
+        "Jak",
         168
     ],
     [
         "character",
-        "Jak",
+        "Vivi",
         169
     ],
     [
         "character",
-        "Vivi",
+        "Sly Cooper",
         170
     ],
     [
         "character",
-        "Sly Cooper",
+        "Viewtiful Joe",
         171
     ],
     [
         "character",
-        "Viewtiful Joe",
+        "HK-47",
         172
     ],
     [
         "character",
-        "HK-47",
+        "Ryu Hayabusa",
         173
     ],
     [
         "character",
-        "Ryu Hayabusa",
+        "Pyramid Head",
         174
     ],
     [
         "character",
-        "Pyramid Head",
+        "Andross",
         175
     ],
     [
         "character",
-        "Andross",
+        "Sigma",
         176
     ],
     [
         "character",
-        "Sigma",
+        "Nemesis",
         177
     ],
     [
         "character",
-        "Nemesis",
+        "Revolver Ocelot",
         178
     ],
     [
         "character",
-        "Revolver Ocelot",
+        "Dr. Wily",
         179
     ],
     [
         "character",
-        "Dr. Wily",
+        "Ultros",
         180
     ],
     [
         "character",
-        "Ultros",
+        "Ramirez",
         181
     ],
     [
         "character",
-        "Ramirez",
+        "Ghaleon",
         182
     ],
     [
         "character",
-        "Ghaleon",
+        "Vergil",
         183
     ],
     [
         "character",
-        "Vergil",
+        "Lavos",
         184
     ],
     [
         "character",
-        "Lavos",
+        "Mother Brain",
         185
     ],
     [
         "character",
-        "Mother Brain",
+        "Officer Tenpenny",
         186
     ],
     [
         "character",
-        "Officer Tenpenny",
+        "Mithos",
         187
     ],
     [
         "character",
-        "Mithos",
+        "Albert Wesker",
         188
     ],
     [
         "character",
-        "Albert Wesker",
+        "Albedo",
         189
     ],
     [
         "character",
-        "Albedo",
+        "M. Bison",
         190
     ],
     [
         "character",
-        "M. Bison",
+        "Diablo",
         191
     ],
     [
         "character",
-        "Diablo",
+        "Ridley",
         192
     ],
     [
         "character",
-        "Ridley",
+        "Giygas",
         193
     ],
     [
         "character",
-        "Giygas",
+        "Ansem",
         194
     ],
     [
         "character",
-        "Ansem",
+        "Dr. Robotnik",
         195
     ],
     [
         "character",
-        "Dr. Robotnik",
+        "Sin",
         196
     ],
     [
         "character",
-        "Sin",
+        "Kuja",
         197
     ],
     [
         "character",
-        "Kuja",
+        "Master Hand",
         198
     ],
     [
         "character",
-        "Master Hand",
+        "Joanna Dark",
         199
     ],
     [
         "character",
-        "Joanna Dark",
+        "Carl Johnson",
         200
     ],
     [
         "character",
-        "Carl Johnson",
+        "Lloyd Irving",
         201
     ],
     [
         "character",
-        "Lloyd Irving",
+        "Yuri",
         202
     ],
     [
         "character",
-        "Yuri",
+        "Riku",
         203
     ],
     [
         "character",
-        "Riku",
+        "Big Boss",
         204
     ],
     [
         "character",
-        "Big Boss",
+        "Manny Calavera",
         205
     ],
     [
         "character",
-        "Manny Calavera",
+        "Kratos",
         206
     ],
     [
         "character",
-        "Kratos",
+        "Agent 47",
         207
     ],
     [
         "character",
-        "Agent 47",
+        "Cecil Harvey",
         208
     ],
     [
         "character",
-        "Cecil Harvey",
+        "The King of All Cosmos",
         209
     ],
     [
         "character",
-        "The King of All Cosmos",
+        "Chun-Li",
         210
     ],
     [
         "character",
-        "Chun-Li",
+        "Rikku",
         211
     ],
     [
         "character",
-        "Rikku",
+        "Zidane Tribal",
         212
     ],
     [
         "character",
-        "Zidane Tribal",
+        "Terra Branford",
         213
     ],
     [
         "character",
-        "Terra Branford",
+        "Sarah Kerrigan",
         214
     ],
     [
         "character",
-        "Sarah Kerrigan",
+        "Vincent Valentine",
         215
     ],
     [
         "character",
-        "Vincent Valentine",
+        "Geno",
         216
     ],
     [
         "character",
-        "Geno",
+        "Jin Kazama",
         217
     ],
     [
         "character",
-        "Jin Kazama",
+        "Kratos Aurion",
         218
     ],
     [
         "character",
-        "Kratos Aurion",
+        "Tifa Lockhart",
         219
     ],
     [
         "character",
-        "Tifa Lockhart",
+        "Leon Kennedy",
         220
     ],
     [
-        "character",
-        "Leon Kennedy",
+        "series",
+        "Civilization",
         221
     ],
     [
         "series",
-        "Civilization",
+        "The Legend of Zelda",
         222
     ],
     [
         "series",
-        "The Legend of Zelda",
+        "Mega Man X",
         223
     ],
     [
         "series",
-        "Mega Man X",
+        "Suikoden",
         224
     ],
     [
         "series",
-        "Suikoden",
+        "Pokemon",
         225
     ],
     [
         "series",
-        "Pokemon",
+        "Star Ocean",
         226
     ],
     [
         "series",
-        "Star Ocean",
+        "Kirby",
         227
     ],
     [
         "series",
-        "Kirby",
+        "Metroid",
         228
     ],
     [
         "series",
-        "Metroid",
+        "Metal Gear",
         229
     ],
     [
         "series",
-        "Metal Gear",
+        "Soul Calibur",
         230
     ],
     [
         "series",
-        "Soul Calibur",
+        "Fire Emblem",
         231
     ],
     [
         "series",
-        "Fire Emblem",
+        "Silent Hill",
         232
     ],
     [
         "series",
-        "Silent Hill",
+        "Castlevania",
         233
     ],
     [
         "series",
-        "Castlevania",
+        "Halo",
         234
     ],
     [
         "series",
-        "Halo",
+        "Harvest Moon",
         235
     ],
     [
         "series",
-        "Harvest Moon",
+        "Kingdom Hearts",
         236
     ],
     [
         "series",
-        "Kingdom Hearts",
+        "Madden NFL",
         237
     ],
     [
         "series",
-        "Madden NFL",
+        "Super Mario Bros.",
         238
     ],
     [
         "series",
-        "Super Mario Bros.",
+        "Grand Theft Auto",
         239
     ],
     [
         "series",
-        "Grand Theft Auto",
+        "Warcraft",
         240
     ],
     [
         "series",
-        "Warcraft",
+        "Devil May Cry",
         241
     ],
     [
         "series",
-        "Devil May Cry",
+        "Sonic the Hedgehog",
         242
     ],
     [
         "series",
-        "Sonic the Hedgehog",
+        "Dragon Quest",
         243
     ],
     [
         "series",
-        "Dragon Quest",
+        "Super Smash Bros.",
         244
     ],
     [
         "series",
-        "Super Smash Bros.",
+        "Diablo",
         245
     ],
     [
         "series",
-        "Diablo",
+        "Final Fantasy",
         246
     ],
     [
         "series",
-        "Final Fantasy",
+        "Mario Kart",
         247
     ],
     [
         "series",
-        "Mario Kart",
+        "Mega Man",
         248
     ],
     [
         "series",
-        "Mega Man",
+        "Street Fighter",
         249
     ],
     [
         "series",
-        "Street Fighter",
+        "The Elder Scrolls",
         250
     ],
     [
         "series",
-        "The Elder Scrolls",
+        "Resident Evil",
         251
     ],
     [
         "series",
-        "Resident Evil",
-        252
-    ],
-    [
-        "series",
         "Shadow Hearts",
-        253
+        252
     ],
     [
         "character",
         "Nidoran F",
-        254
+        253
     ],
     [
         "character",
         "Ada Wong",
-        255
+        254
     ],
     [
         "character",
         "Jade",
-        256
+        255
     ],
     [
         "character",
         "Lenneth Valkyrie",
-        257
+        256
     ],
     [
         "character",
         "Kairi",
-        258
+        257
     ],
     [
         "character",
         "Ivy Valentine",
-        259
+        258
     ],
     [
         "character",
         "Celes Chere",
-        260
+        259
     ],
     [
         "character",
         "The Boss",
-        261
+        260
     ],
     [
         "character",
         "Sheena Fujibayashi",
-        262
+        261
     ],
     [
         "character",
         "Princess Daisy",
-        263
+        262
     ],
     [
         "character",
         "Princess Peach",
-        264
+        263
     ],
     [
         "character",
         "Carmen Sandiego",
-        265
+        264
     ],
     [
         "character",
         "Amy Rose",
-        266
+        265
     ],
     [
         "character",
         "Marle",
-        267
+        266
     ],
     [
         "character",
         "Roll",
-        268
+        267
     ],
     [
         "character",
         "Cortana",
-        269
+        268
     ],
     [
         "character",
         "Alyx Vance",
-        270
+        269
     ],
     [
         "character",
         "Soma Cruz",
-        271
+        270
     ],
     [
         "character",
         "Tingle",
-        272
+        271
     ],
     [
         "character",
         "Phoenix Wright",
-        273
+        272
     ],
     [
         "character",
         "Axel",
+        273
+    ],
+    [
+        "character",
+        "Prince of Persia",
         274
     ],
     [
         "character",
-        "Prince of Persia",
+        "Captain Falcon",
         275
     ],
     [
         "character",
-        "Captain Falcon",
+        "Sub-Zero",
         276
     ],
     [
         "character",
-        "Sub-Zero",
+        "Vaan",
         277
     ],
     [
         "character",
-        "Vaan",
+        "Arthas Menethil",
         278
     ],
     [
         "character",
-        "Arthas Menethil",
+        "Midna",
         279
     ],
     [
         "character",
-        "Midna",
+        "Marcus Fenix",
         280
     ],
     [
         "character",
-        "Marcus Fenix",
+        "Zelos Wilder",
         281
     ],
     [
         "character",
-        "Zelos Wilder",
+        "Midgar Zolom",
         282
     ],
     [
         "character",
-        "Midgar Zolom",
+        "Chris Redfield",
         283
     ],
     [
         "character",
-        "Chris Redfield",
+        "Mewtwo",
         284
     ],
     [
         "character",
-        "Mewtwo",
+        "Toad",
         285
     ],
     [
         "character",
-        "Toad",
+        "Meta Knight",
         286
     ],
     [
         "character",
-        "Meta Knight",
+        "Banjo",
         287
     ],
     [
         "character",
-        "Banjo",
+        "Wander",
         288
     ],
     [
         "character",
-        "Wander",
+        "Agent J",
         289
     ],
     [
         "character",
-        "Agent J",
+        "Bidoof",
         290
     ],
     [
         "character",
-        "Bidoof",
+        "Miles Edgeworth",
         291
     ],
     [
         "character",
-        "Miles Edgeworth",
+        "Mudkip",
         292
     ],
     [
         "character",
-        "Mudkip",
+        "Pit",
         293
     ],
     [
         "character",
-        "Pit",
+        "Thrall",
         294
     ],
     [
         "character",
-        "Thrall",
+        "Amaterasu",
         295
     ],
     [
         "character",
-        "Amaterasu",
+        "Matt",
         296
     ],
     [
         "character",
-        "Matt",
+        "Balthier Bunansa",
         297
     ],
     [
         "character",
-        "Balthier Bunansa",
+        "Frank West",
         298
     ],
     [
         "character",
-        "Frank West",
+        "Jade Curtiss",
         299
     ],
     [
         "character",
-        "Jade Curtiss",
+        "Serge",
         300
     ],
     [
         "character",
-        "Serge",
+        "L-Block",
         301
     ],
     [
         "character",
-        "L-Block",
+        "Nathan Hale",
         302
     ],
     [
         "character",
-        "Nathan Hale",
+        "Marth",
         303
     ],
     [
         "character",
-        "Marth",
+        "Prince of All Cosmos",
         304
     ],
     [
         "character",
-        "Prince of All Cosmos",
+        "Nightmare",
         305
     ],
     [
         "character",
-        "Nightmare",
+        "Rayman",
         306
     ],
     [
         "character",
-        "Rayman",
+        "Haseo",
         307
     ],
     [
         "character",
-        "Haseo",
+        "Roxas",
         308
     ],
     [
         "character",
-        "Roxas",
+        "Akuma",
         309
     ],
     [
         "character",
-        "Akuma",
+        "Daxter",
         310
     ],
     [
         "character",
-        "Daxter",
+        "Ike",
         311
     ],
     [
         "character",
-        "Ike",
+        "? Block",
         312
     ],
     [
         "character",
-        "? Block",
+        "Paddle",
         313
     ],
     [
         "character",
-        "Paddle",
+        "Weighted Companion Cube",
         314
     ],
     [
         "character",
-        "Weighted Companion Cube",
+        "Zack Fair",
         315
     ],
     [
         "character",
-        "Zack Fair",
+        "Luke fon Fabre",
         316
     ],
     [
         "character",
-        "Luke fon Fabre",
+        "Niko Bellic",
         317
     ],
     [
         "character",
-        "Niko Bellic",
+        "Altair",
         318
     ],
     [
         "character",
-        "Altair",
+        "Lucario",
         319
     ],
     [
         "character",
-        "Lucario",
+        "Sho Minamimoto",
         320
     ],
     [
         "character",
-        "Sho Minamimoto",
+        "Deckard Cain",
         321
     ],
     [
         "character",
-        "Deckard Cain",
+        "Fei Fong Wong",
         322
     ],
     [
         "character",
-        "Fei Fong Wong",
+        "Mega Man X",
         323
     ],
     [
         "character",
-        "Mega Man X",
+        "Raz",
         324
     ],
     [
         "character",
-        "Raz",
+        "Neku Sakuraba",
         325
     ],
     [
         "character",
-        "Neku Sakuraba",
+        "Falco Lombardi",
         326
     ],
     [
         "character",
-        "Falco Lombardi",
+        "GlaDOS",
         327
     ],
     [
         "character",
-        "GlaDOS",
+        "Big Daddy",
         328
     ],
     [
         "character",
-        "Big Daddy",
+        "Kaim Argonar",
         329
     ],
     [
         "character",
-        "Kaim Argonar",
+        "The Dog",
         330
     ],
     [
         "character",
-        "The Dog",
+        "Diddy Kong",
         331
     ],
     [
         "character",
-        "Diddy Kong",
+        "Spy",
         332
     ],
     [
         "character",
-        "Spy",
+        "Nero",
         333
     ],
     [
         "character",
-        "Nero",
+        "King Dedede",
         334
     ],
     [
         "character",
-        "King Dedede",
+        "Sackboy",
         335
     ],
     [
         "character",
-        "Sackboy",
+        "Tim",
         336
     ],
     [
         "character",
-        "Tim",
+        "Nathan Drake",
         337
     ],
     [
         "character",
-        "Nathan Drake",
+        "Axel Steel",
         338
     ],
     [
         "character",
-        "Axel Steel",
+        "Travis Touchdown",
         339
     ],
     [
         "character",
-        "Travis Touchdown",
+        "Jinjo",
         340
     ],
     [
         "character",
-        "Jinjo",
+        "Lucas",
         341
     ],
     [
         "character",
-        "Lucas",
+        "Kain Highwind",
         342
     ],
     [
         "character",
-        "Kain Highwind",
+        "Professor Layton",
         343
     ],
     [
         "character",
-        "Professor Layton",
+        "Captain MacMillan",
         344
     ],
     [
         "character",
-        "Captain MacMillan",
+        "Siegfried Schtauffen",
         345
     ],
     [
         "character",
-        "Siegfried Schtauffen",
+        "Hogger",
         346
     ],
     [
         "character",
-        "Hogger",
+        "Commander Shepard",
         347
     ],
     [
         "character",
-        "Commander Shepard",
+        "Sandbag",
         348
     ],
     [
         "character",
-        "Sandbag",
+        "Rydia",
         349
     ],
     [
         "character",
-        "Rydia",
+        "Nana",
         350
     ],
     [
         "character",
-        "Nana",
+        "Heavy",
         351
     ],
     [
         "character",
-        "Heavy",
+        "CD-I Link",
         352
     ],
     [
         "character",
-        "CD-I Link",
+        "Classic Link",
         353
     ],
     [
         "character",
-        "Classic Link",
+        "Toon Link",
         354
     ],
     [
         "character",
-        "Toon Link",
-        355
-    ],
-    [
-        "character",
         "Young Link",
-        356
+        355
     ],
     [
         "game",
         "Mike Tyson's Punch-Out!!",
-        357
+        356
     ],
     [
         "game",
         "Space Invaders",
-        358
+        357
     ],
     [
         "game",
         "Mega Man 2",
-        359
+        358
     ],
     [
         "game",
         "The Oregon Trail",
-        360
+        359
     ],
     [
         "game",
         "Ninja Gaiden",
-        361
+        360
     ],
     [
         "game",
         "Super Mario Bros.",
-        362
+        361
     ],
     [
         "game",
         "Dragon Warrior III",
-        363
+        362
     ],
     [
         "game",
         "Castlevania III",
-        364
+        363
     ],
     [
         "game",
         "Civilization",
-        365
+        364
     ],
     [
         "game",
         "Sonic the Hedgehog",
-        366
-    ],
-    [
-        "game",
-        "Secret of Monkey Island",
-        367
+        365
     ],
     [
         "game",
         "SimCity",
-        368
+        366
     ],
     [
         "game",
         "Tecmo Super Bowl",
-        369
-    ],
-    [
-        "game",
-        "Battletoads",
-        370
-    ],
-    [
-        "game",
-        "Prince of Persia",
-        371
-    ],
-    [
-        "game",
-        "Crystalis",
-        372
-    ],
-    [
-        "game",
-        "Final Fantasy II (IV)",
-        373
-    ],
-    [
-        "game",
-        "Mega Man 3",
-        374
-    ],
-    [
-        "game",
-        "Sonic the Hedgehog 3",
-        375
-    ],
-    [
-        "game",
-        "Super Mario Kart",
-        376
-    ],
-    [
-        "game",
-        "Donkey Kong Country",
-        377
-    ],
-    [
-        "game",
-        "Streets of Rage II",
-        378
-    ],
-    [
-        "game",
-        "Zelda: A Link to the Past",
-        379
-    ],
-    [
-        "game",
-        "Final Fantasy III (VI)",
-        380
-    ],
-    [
-        "game",
-        "Mega Man X",
-        381
-    ],
-    [
-        "game",
-        "Zelda: Link's Awakening",
-        382
-    ],
-    [
-        "game",
-        "Mortal Kombat II",
-        383
-    ],
-    [
-        "game",
-        "Shining Force II",
-        384
-    ],
-    [
-        "game",
-        "Sonic the Hedgehog 2",
-        385
-    ],
-    [
-        "game",
-        "Donkey Kong Country 2",
-        386
-    ],
-    [
-        "game",
-        "GoldenEye 007",
-        387
-    ],
-    [
-        "game",
-        "Resident Evil 2",
-        388
-    ],
-    [
-        "game",
-        "Mario Kart 64",
-        389
-    ],
-    [
-        "game",
-        "Star Fox 64",
-        390
-    ],
-    [
-        "game",
-        "Suikoden",
-        391
-    ],
-    [
-        "game",
-        "Castlevania: Symphony of the Night",
-        392
-    ],
-    [
-        "game",
-        "Kirby Super Star",
-        393
-    ],
-    [
-        "game",
-        "Lufia II",
-        394
-    ],
-    [
-        "game",
-        "Super Mario World 2: Yoshi's Island",
-        395
-    ],
-    [
-        "game",
-        "Banjo-Kazooie",
-        396
-    ],
-    [
-        "game",
-        "Pokemon Red/Blue/Yellow",
-        397
-    ],
-    [
-        "game",
-        "The Legend of Zelda: Majora's Mask",
-        398
-    ],
-    [
-        "game",
-        "Deus Ex",
-        399
-    ],
-    [
-        "game",
-        "Pokemon Gold/Silver",
-        400
-    ],
-    [
-        "game",
-        "Final Fantasy VIII",
-        401
-    ],
-    [
-        "game",
-        "SoulCalibur",
-        402
-    ],
-    [
-        "game",
-        "Chrono Cross",
-        403
-    ],
-    [
-        "game",
-        "Final Fantasy IX",
-        404
-    ],
-    [
-        "game",
-        "The Legend of Zelda: Ocarina of Time",
-        405
-    ],
-    [
-        "game",
-        "Silent Hill 2",
-        406
-    ],
-    [
-        "game",
-        "The Elder Scrolls III: Morrowind",
-        407
-    ],
-    [
-        "game",
-        "Grand Theft Auto: Vice City",
-        408
-    ],
-    [
-        "game",
-        "Paper Mario",
-        409
-    ],
-    [
-        "game",
-        "Diablo II: Lord of Destruction",
-        410
-    ],
-    [
-        "game",
-        "Grand Theft Auto III",
-        411
-    ],
-    [
-        "game",
-        "Halo: Combat Evolved",
-        412
-    ],
-    [
-        "game",
-        "Star Wars: Knights of the Old Republic",
-        413
-    ],
-    [
-        "game",
-        "Disgaea: Hour of Darkness",
-        414
-    ],
-    [
-        "game",
-        "The Legend of Zelda: The Wind Waker",
-        415
-    ],
-    [
-        "game",
-        "God of War",
-        416
-    ],
-    [
-        "game",
-        "Grand Theft Auto: San Andreas",
-        417
-    ],
-    [
-        "game",
-        "Tales of Symphonia",
-        418
-    ],
-    [
-        "game",
-        "The Elder Scrolls IV: Oblivion",
-        419
-    ],
-    [
-        "game",
-        "Halo 2",
-        420
-    ],
-    [
-        "game",
-        "Metal Gear Solid 3",
-        421
-    ],
-    [
-        "game",
-        "Okami",
-        422
-    ],
-    [
-        "game",
-        "World of Warcraft",
-        423
-    ],
-    [
-        "game",
-        "Gears of War",
-        424
-    ],
-    [
-        "game",
-        "Kingdom Hearts II",
-        425
-    ],
-    [
-        "game",
-        "Resident Evil 4",
-        426
-    ],
-    [
-        "game",
-        "Shadow of the Colossus",
-        427
-    ],
-    [
-        "game",
-        "Final Fantasy XII",
-        428
-    ],
-    [
-        "game",
-        "Half-Life 2",
-        429
-    ],
-    [
-        "game",
-        "Phoenix Wright: Ace Attorney",
-        430
-    ],
-    [
-        "game",
-        "The Legend of Zelda: Twilight Princess",
-        431
-    ],
-    [
-        "game",
-        "Grand Theft Auto IV",
-        432
-    ],
-    [
-        "game",
-        "Persona 4",
-        433
-    ],
-    [
-        "game",
-        "Street Fighter IV",
-        434
-    ],
-    [
-        "game",
-        "Super Smash Bros. Brawl",
-        435
-    ],
-    [
-        "game",
-        "Call of Duty 4",
-        436
-    ],
-    [
-        "game",
-        "Pokemon Diamond/Pearl",
-        437
-    ],
-    [
-        "game",
-        "Super Mario Galaxy",
-        438
-    ],
-    [
-        "game",
-        "Team Fortress 2",
-        439
-    ],
-    [
-        "game",
-        "BioShock",
-        440
-    ],
-    [
-        "game",
-        "LittleBigPlanet",
-        441
-    ],
-    [
-        "game",
-        "Metal Gear Solid 4",
-        442
-    ],
-    [
-        "game",
-        "Portal",
-        443
-    ],
-    [
-        "game",
-        "Fallout 3",
-        444
-    ],
-    [
-        "game",
-        "Halo 3",
-        445
-    ],
-    [
-        "game",
-        "Left 4 Dead",
-        446
-    ],
-    [
-        "game",
-        "Mass Effect",
-        447
+        367
     ],
     [
         "game",
         "The Secret of Monkey Island",
-        448
+        368
     ],
     [
         "game",
-        "The Legend of Zelda: A Link to the Past",
-        449
+        "Battletoads",
+        369
     ],
     [
         "game",
-        "The Legend of Zelda: Link's Awakening",
-        450
+        "Prince of Persia",
+        370
     ],
     [
         "game",
-        "The Legend of Zelda: Wind Waker",
-        451
-    ],
-    [
-        "game",
-        "Zelda: Twilight Princess",
-        452
-    ],
-    [
-        "character",
-        "Pokemon Trainer Red",
-        453
-    ],
-    [
-        "character",
-        "Captain John Price",
-        454
-    ],
-    [
-        "character",
-        "Sandal",
-        455
-    ],
-    [
-        "character",
-        "Lightning",
-        456
-    ],
-    [
-        "character",
-        "Fawful",
-        457
-    ],
-    [
-        "character",
-        "Claptrap",
-        458
-    ],
-    [
-        "character",
-        "Prinny",
-        459
-    ],
-    [
-        "character",
-        "Cid Highwind",
-        460
-    ],
-    [
-        "character",
-        "Charizard",
-        461
-    ],
-    [
-        "character",
-        "Jecht",
-        462
-    ],
-    [
-        "character",
-        "Eddie Riggs",
-        463
-    ],
-    [
-        "character",
-        "Ezio Auditore da Firenze",
-        464
-    ],
-    [
-        "character",
-        "Vault Boy",
-        465
-    ],
-    [
-        "character",
-        "Ellis",
-        466
-    ],
-    [
-        "character",
-        "Darth Revan",
-        467
-    ],
-    [
-        "character",
-        "Missingno",
-        468
-    ],
-    [
-        "character",
-        "Soap MacTavish",
-        469
-    ],
-    [
-        "character",
-        "Yuri Lowell",
-        470
-    ],
-    [
-        "game",
-        "inFamous",
-        471
-    ],
-    [
-        "game",
-        "Rock Band 2",
-        472
-    ],
-    [
-        "game",
-        "Batman: Arkham Asylum",
-        473
-    ],
-    [
-        "game",
-        "Psychonauts",
-        474
-    ],
-    [
-        "game",
-        "Fable",
-        475
-    ],
-    [
-        "game",
-        "The Legend of Dragoon",
-        476
-    ],
-    [
-        "game",
-        "Uncharted 2: Among Thieves",
-        477
-    ],
-    [
-        "game",
-        "Sonic Adventure 2",
-        478
-    ],
-    [
-        "game",
-        "Super Mario Sunshine",
-        479
-    ],
-    [
-        "game",
-        "Star Ocean: Till the End of Time",
-        480
-    ],
-    [
-        "game",
-        "Devil May Cry 3: Dante's Awakening",
-        481
-    ],
-    [
-        "game",
-        "Mother 3",
-        482
-    ],
-    [
-        "game",
-        "Demon's Souls",
-        483
-    ],
-    [
-        "game",
-        "Mega Man 9",
-        484
-    ],
-    [
-        "game",
-        "No More Heroes",
-        485
-    ],
-    [
-        "game",
-        "Resident Evil 5",
-        486
-    ],
-    [
-        "game",
-        "Left 4 Dead 2",
-        487
-    ],
-    [
-        "game",
-        "Guitar Hero II",
-        488
-    ],
-    [
-        "game",
-        "Warcraft III: Reign of Chaos",
-        489
-    ],
-    [
-        "game",
-        "Conker's Bad Fur Day",
-        490
-    ],
-    [
-        "game",
-        "Call of Duty 4: Modern Warfare",
-        491
-    ],
-    [
-        "game",
-        "Prince of Persia: The Sands of Time",
-        492
-    ],
-    [
-        "game",
-        "Metroid Fusion",
-        493
-    ],
-    [
-        "game",
-        "Pokemon Diamond/Pearl/Platinum",
-        494
-    ],
-    [
-        "game",
-        "Fire Emblem: Path of Radiance",
-        495
-    ],
-    [
-        "game",
-        "WWF No Mercy",
-        496
-    ],
-    [
-        "game",
-        "Valkyria Chronicles",
-        497
-    ],
-    [
-        "game",
-        "Mario Kart DS",
-        498
-    ],
-    [
-        "game",
-        "Beyond Good & Evil",
-        499
-    ],
-    [
-        "game",
-        "Pokemon Ruby/Sapphire/Emerald",
-        500
-    ],
-    [
-        "game",
-        "Dragon Age: Origins",
-        501
-    ],
-    [
-        "game",
-        "F-Zero GX",
-        502
-    ],
-    [
-        "game",
-        "Star Wars: Battlefront II",
-        503
-    ],
-    [
-        "game",
-        "Call of Duty: Modern Warfare 2",
-        504
-    ],
-    [
-        "game",
-        "Dissidia: Final Fantasy",
-        505
-    ],
-    [
-        "game",
-        "Castlevania: Dawn of Sorrow",
-        506
-    ],
-    [
-        "game",
-        "Viewtiful Joe",
-        507
-    ],
-    [
-        "game",
-        "Borderlands",
-        508
-    ],
-    [
-        "game",
-        "Tales of Vesperia",
-        509
-    ],
-    [
-        "game",
-        "Golden Sun",
-        510
-    ],
-    [
-        "game",
-        "Ratchet & Clank: Up Your Arsenal",
-        511
-    ],
-    [
-        "game",
-        "Dead Space",
-        512
-    ],
-    [
-        "game",
-        "Devil May Cry",
-        513
-    ],
-    [
-        "game",
-        "Tony Hawk's Pro Skater 2",
-        514
-    ],
-    [
-        "game",
-        "Civilization IV",
-        515
-    ],
-    [
-        "game",
-        "Shin Megami Tensei: Persona 3",
-        516
-    ],
-    [
-        "game",
-        "Phoenix Wright: Ace Attorney Trials and Tribulatio",
-        517
-    ],
-    [
-        "game",
-        "Jet Grind Radio",
-        518
-    ],
-    [
-        "game",
-        "Dead Rising",
-        519
-    ],
-    [
-        "game",
-        "The World Ends With You",
-        520
-    ],
-    [
-        "game",
-        "Braid",
-        521
-    ],
-    [
-        "game",
-        "Shin Megami Tensei: Persona 4",
-        522
-    ],
-    [
-        "game",
-        "Gears of War 2",
-        523
-    ],
-    [
-        "game",
-        "Crisis Core: Final Fantasy VII",
-        524
-    ],
-    [
-        "game",
-        "Baldur's Gate II: Shadows of Amn",
-        525
-    ],
-    [
-        "game",
-        "Plants vs. Zombies",
-        526
-    ],
-    [
-        "game",
-        "Metal Gear Solid 3: Snake Eater",
-        527
-    ],
-    [
-        "game",
-        "TimeSplitters 2",
-        528
-    ],
-    [
-        "game",
-        "Marvel vs. Capcom 2",
-        529
-    ],
-    [
-        "game",
-        "New Super Mario Bros. Wii",
-        530
-    ],
-    [
-        "game",
-        "Katamari Damacy",
-        531
-    ],
-    [
-        "game",
-        "Animal Crossing",
-        532
-    ],
-    [
-        "game",
-        "Assassin's Creed",
-        533
-    ],
-    [
-        "game",
-        "Metal Gear Solid 4: Guns of the Patriots",
-        534
-    ],
-    [
-        "game",
-        "Diablo II",
-        535
-    ],
-    [
-        "game",
-        "Eternal Darkness: Sanity's Requiem",
-        536
-    ],
-    [
-        "game",
-        "Banjo-Tooie",
-        537
-    ],
-    [
-        "game",
-        "Metal Gear Solid 2: Sons of Liberty",
-        538
-    ],
-    [
-        "game",
-        "The Sims",
-        539
-    ],
-    [
-        "game",
-        "Wii Sports",
-        540
-    ],
-    [
-        "game",
-        "Dragon Quest VIII: Journey of the Cursed King",
-        541
-    ],
-    [
-        "game",
-        "Mario Kart Wii",
-        542
-    ],
-    [
-        "game",
-        "Advance Wars",
-        543
-    ],
-    [
-        "game",
-        "God of War II",
-        544
-    ],
-    [
-        "game",
-        "Assassin's Creed II",
-        545
-    ],
-    [
-        "game",
-        "ICO",
-        546
-    ],
-    [
-        "game",
-        "Paper Mario: The Thousand-Year Door",
-        547
-    ],
-    [
-        "game",
-        "SoulCalibur II",
-        548
-    ],
-    [
-        "character",
-        "Santa Claus",
-        549
-    ],
-    [
-        "rivalry",
-        "Earthworm Jim vs. Queen Slug-for-a-Butt",
-        550
-    ],
-    [
-        "rivalry",
-        "Mario vs. Bowser",
-        551
-    ],
-    [
-        "rivalry",
-        "Conker vs. The Great Mighty Poo",
-        552
-    ],
-    [
-        "rivalry",
-        "Ike vs. Black Knight",
-        553
-    ],
-    [
-        "rivalry",
-        "Jill Valentine vs. Nemesis",
-        554
-    ],
-    [
-        "rivalry",
-        "Kirby vs. Meta Knight",
-        555
-    ],
-    [
-        "rivalry",
-        "Katherine vs. Catherine",
-        556
-    ],
-    [
-        "rivalry",
-        "Sonic the Hedgehog vs. Dr. Robotnik",
-        557
-    ],
-    [
-        "rivalry",
-        "Captain Falcon vs. Black Shadow",
-        558
-    ],
-    [
-        "rivalry",
-        "Mega Man X vs. Zero",
-        559
-    ],
-    [
-        "rivalry",
-        "Bartz Klauser vs. Gilgamesh",
-        560
-    ],
-    [
-        "rivalry",
-        "Guybrush Threepwood vs. LeChuck",
-        561
-    ],
-    [
-        "rivalry",
-        "Donkey Kong vs. King K. Rool",
-        562
-    ],
-    [
-        "rivalry",
-        "Ezio Auditore da Firenze vs. Rodrigo Borgia",
-        563
-    ],
-    [
-        "rivalry",
-        "Leon Kennedy vs. Ada Wong",
-        564
-    ],
-    [
-        "rivalry",
-        "Sub-Zero vs. Scorpion",
-        565
-    ],
-    [
-        "rivalry",
-        "Jim Raynor vs. Sarah Kerrigan",
-        566
-    ],
-    [
-        "rivalry",
-        "Pokemon Trainer Red vs. Pokemon Trainer Blue",
-        567
-    ],
-    [
-        "rivalry",
-        "Cecil Harvey vs. Golbez",
-        568
-    ],
-    [
-        "rivalry",
-        "Luigi vs. Waluigi",
-        569
-    ],
-    [
-        "rivalry",
-        "Ratchet vs. Dr. Nefarious",
-        570
-    ],
-    [
-        "rivalry",
-        "Ryu vs. Ken",
-        571
-    ],
-    [
-        "rivalry",
-        "Fox McCloud vs. Wolf O'Donnell",
-        572
-    ],
-    [
-        "rivalry",
-        "Yuna vs. Seymour Guado",
-        573
-    ],
-    [
-        "rivalry",
-        "Samus Aran vs. Ridley",
-        574
-    ],
-    [
-        "rivalry",
-        "The Kid vs. The Guy",
-        575
-    ],
-    [
-        "rivalry",
-        "Terra Branford vs. Kefka Palazzo",
-        576
-    ],
-    [
-        "rivalry",
-        "Vyse vs. Galcian",
-        577
-    ],
-    [
-        "rivalry",
-        "Chris Redfield vs. Albert Wesker",
-        578
-    ],
-    [
-        "rivalry",
-        "Dan Hibiki vs. Sagat",
-        579
-    ],
-    [
-        "rivalry",
-        "Big Boss vs. The Boss",
-        580
-    ],
-    [
-        "rivalry",
-        "Tidus vs. Jecht",
-        581
-    ],
-    [
-        "rivalry",
-        "Arthas vs. Illidan",
-        582
-    ],
-    [
-        "rivalry",
-        "Link vs. Ganondorf",
-        583
-    ],
-    [
-        "rivalry",
-        "Amaterasu vs. Orochi",
-        584
-    ],
-    [
-        "rivalry",
-        "Tom Nook vs. Crazy Redd",
-        585
-    ],
-    [
-        "rivalry",
-        "Meat Boy vs. Dr. Fetus",
-        586
-    ],
-    [
-        "rivalry",
-        "Zidane Tribal vs. Kuja",
-        587
-    ],
-    [
-        "rivalry",
-        "Banjo vs. Gruntilda",
-        588
-    ],
-    [
-        "rivalry",
-        "Mega Man vs. Dr. Wily",
-        589
-    ],
-    [
-        "rivalry",
-        "Gordon Freeman vs. Dr. Breen",
-        590
-    ],
-    [
-        "rivalry",
-        "Phoenix Wright vs. Miles Edgeworth",
-        591
-    ],
-    [
-        "rivalry",
-        "Alucard vs. Dracula",
-        592
-    ],
-    [
-        "rivalry",
-        "Commander Shepard vs. Saren Arterius",
-        593
-    ],
-    [
-        "rivalry",
-        "Chell vs. GLaDOS",
-        594
-    ],
-    [
-        "rivalry",
-        "Ness vs. Giygas",
-        595
-    ],
-    [
-        "rivalry",
-        "Frog vs. Magus",
-        596
-    ],
-    [
-        "rivalry",
-        "Raiden vs. Vamp",
-        597
-    ],
-    [
-        "rivalry",
-        "Cloud Strife vs. Sephiroth",
-        598
-    ],
-    [
-        "rivalry",
-        "Lloyd Irving vs. Kratos Aurion",
-        599
-    ],
-    [
-        "rivalry",
-        "Kratos vs. Zeus",
-        600
-    ],
-    [
-        "rivalry",
-        "Professor Layton vs. Don Paolo",
-        601
-    ],
-    [
-        "rivalry",
-        "Crash Bandicoot vs. Dr. Neo Cortex",
-        602
-    ],
-    [
-        "rivalry",
-        "Pac-Man vs. Blinky",
-        603
-    ],
-    [
-        "rivalry",
-        "Crono vs. Lavos",
-        604
-    ],
-    [
-        "rivalry",
-        "Solid Snake vs. Liquid Snake",
-        605
-    ],
-    [
-        "rivalry",
-        "Laharl vs. Mid-Boss",
-        606
-    ],
-    [
-        "rivalry",
-        "Squall Leonhart vs. Seifer Almasy",
-        607
-    ],
-    [
-        "rivalry",
-        "Ramza Beoulve vs. Delita Hyral",
-        608
-    ],
-    [
-        "rivalry",
-        "Siegfried vs. Nightmare",
-        609
-    ],
-    [
-        "rivalry",
-        "Dante vs. Vergil",
-        610
-    ],
-    [
-        "rivalry",
-        "Sol Badguy vs. Ky Kiske",
-        611
-    ],
-    [
-        "rivalry",
-        "Sora vs. Riku",
-        612
-    ],
-    [
-        "rivalry",
-        "William B.J. Blazkowicz vs. Adolf",
-        613
-    ],
-    [
-        "character",
-        "Isaac (Binding)",
-        614
-    ],
-    [
-        "character",
-        "Alan Wake",
-        615
-    ],
-    [
-        "character",
-        "Waluigi",
-        616
-    ],
-    [
-        "character",
-        "Demi-Fiend",
-        617
-    ],
-    [
-        "character",
-        "Solaire of Astora",
-        618
-    ],
-    [
-        "character",
-        "Juliet Starling",
-        619
-    ],
-    [
-        "character",
-        "Tharja",
-        620
-    ],
-    [
-        "character",
-        "Tiny Tina",
-        621
-    ],
-    [
-        "character",
-        "Hero",
-        622
-    ],
-    [
-        "character",
-        "Rinoa Heartilly",
-        623
-    ],
-    [
-        "character",
-        "Chie Satonaka",
-        624
-    ],
-    [
-        "character",
-        "Draven",
-        625
-    ],
-    [
-        "character",
-        "Face McShooty",
-        626
-    ],
-    [
-        "character",
-        "Jigglypuff",
-        627
-    ],
-    [
-        "character",
-        "Welkin Gunther",
-        628
-    ],
-    [
-        "character",
-        "Dan Hibiki",
-        629
-    ],
-    [
-        "character",
-        "Caim",
-        630
-    ],
-    [
-        "character",
-        "Dracula",
-        631
-    ],
-    [
-        "character",
-        "Lucina",
-        632
-    ],
-    [
-        "character",
-        "Barret Wallace",
-        633
-    ],
-    [
-        "character",
-        "Reimu Hakurei",
-        634
-    ],
-    [
-        "character",
-        "Dunban",
-        635
-    ],
-    [
-        "character",
-        "Chester",
-        636
-    ],
-    [
-        "character",
-        "Zero (999)",
-        637
-    ],
-    [
-        "character",
-        "Chrom",
-        638
-    ],
-    [
-        "character",
-        "Garrus Vakarian",
-        639
-    ],
-    [
-        "character",
-        "Archer",
-        640
-    ],
-    [
-        "character",
-        "Clementine",
-        641
-    ],
-    [
-        "character",
-        "Reyn",
-        642
-    ],
-    [
-        "character",
-        "Captain Viridian",
-        643
-    ],
-    [
-        "character",
-        "Peacock",
-        644
-    ],
-    [
-        "character",
-        "Locke Cole",
-        645
-    ],
-    [
-        "character",
-        "Elizabeth",
-        646
-    ],
-    [
-        "character",
-        "Poison",
-        647
-    ],
-    [
-        "character",
-        "Wheatley",
-        648
-    ],
-    [
-        "character",
-        "Commander Keen",
-        649
-    ],
-    [
-        "character",
-        "Bayonetta",
-        650
-    ],
-    [
-        "character",
-        "N",
-        651
-    ],
-    [
-        "character",
-        "Cole",
-        652
-    ],
-    [
-        "character",
-        "Ragna the Bloodedge",
-        653
-    ],
-    [
-        "character",
-        "Epona",
-        654
-    ],
-    [
-        "character",
-        "Mordin Solus",
-        655
-    ],
-    [
-        "character",
-        "Shulk",
-        656
-    ],
-    [
-        "character",
-        "Slime",
-        657
-    ],
-    [
-        "character",
-        "Yuri Hyuga",
-        658
-    ],
-    [
-        "character",
-        "Sen. Steven Armstrong",
-        659
-    ],
-    [
-        "character",
-        "Handsome Jack",
-        660
-    ],
-    [
-        "character",
-        "Francis York Morgan",
-        661
-    ],
-    [
-        "character",
-        "Lugia",
-        662
-    ],
-    [
-        "character",
-        "Squirtle",
-        663
-    ],
-    [
-        "character",
-        "Spring Breeze Dancin'",
-        664
-    ],
-    [
-        "character",
-        "Kat",
-        665
-    ],
-    [
-        "character",
-        "Yu Narukami",
-        666
-    ],
-    [
-        "character",
-        "Oliver",
-        667
-    ],
-    [
-        "character",
-        "Hades",
-        668
-    ],
-    [
-        "character",
-        "Missile",
-        669
-    ],
-    [
-        "character",
-        "Hal \"Otacon\" Emmerich",
-        670
-    ],
-    [
-        "character",
-        "Booker DeWitt",
-        671
-    ],
-    [
-        "character",
-        "Gilgamesh",
-        672
-    ],
-    [
-        "character",
-        "Groose",
-        673
-    ],
-    [
-        "character",
-        "Lu Bu",
-        674
-    ],
-    [
-        "character",
-        "Yoshimitsu",
-        675
-    ],
-    [
-        "character",
-        "Lee Everett",
-        676
-    ],
-    [
-        "character",
-        "Meat Boy",
-        677
-    ],
-    [
-        "character",
-        "Mr. Game & Watch",
-        678
-    ],
-    [
-        "character",
-        "Steve",
-        679
-    ],
-    [
-        "character",
-        "Pokemon Trainer Blue",
-        680
-    ],
-    [
-        "character",
-        "Wolf O'Donnell",
-        681
-    ],
-    [
-        "character",
-        "Isaac Clarke",
-        682
-    ],
-    [
-        "character",
-        "Catherine",
-        683
-    ],
-    [
-        "character",
-        "Vaas Montenegro",
-        684
-    ],
-    [
-        "character",
-        "Seifer Almasy",
-        685
-    ],
-    [
-        "character",
-        "Palutena",
-        686
-    ],
-    [
-        "character",
-        "Teemo",
-        687
-    ],
-    [
-        "character",
-        "Dragonborn",
-        688
-    ],
-    [
-        "character",
-        "Cirno",
-        689
-    ],
-    [
-        "character",
-        "Adam Jensen",
-        690
-    ],
-    [
-        "character",
-        "Marisa Kirisame",
-        691
-    ],
-    [
-        "character",
-        "Commander Video",
-        692
-    ],
-    [
-        "character",
-        "Adol Christin",
-        693
-    ],
-    [
-        "character",
-        "Creeper",
-        694
-    ],
-    [
-        "character",
-        "Corvo Attano",
-        695
-    ],
-    [
-        "character",
-        "Sissel",
-        696
-    ],
-    [
-        "character",
-        "Urdnot Wrex",
-        697
-    ],
-    [
-        "character",
-        "Magikarp",
-        698
-    ],
-    [
-        "character",
-        "Recette Lemongrass",
-        699
-    ],
-    [
-        "character",
-        "Mike Haggar",
-        700
-    ],
-    [
-        "character",
-        "Red Bird",
-        701
-    ],
-    [
-        "character",
-        "Boko",
-        702
-    ],
-    [
-        "character",
-        "Lyndis",
-        703
-    ],
-    [
-        "character",
-        "John Marston",
-        704
-    ],
-    [
-        "character",
-        "Nier",
-        705
-    ],
-    [
-        "game",
-        "Batman: Arkham City",
-        706
-    ],
-    [
-        "game",
-        "Pokemon Gold/Silver/Crystal Version",
-        707
-    ],
-    [
-        "game",
-        "The Last of Us",
-        708
-    ],
-    [
-        "game",
-        "Pokemon X/Y",
-        709
-    ],
-    [
-        "game",
-        "Planescape: Torment",
-        710
-    ],
-    [
-        "game",
-        "Super Smash Bros. for Wii U",
-        711
-    ],
-    [
-        "game",
-        "Super Mario Galaxy 2",
-        712
-    ],
-    [
-        "game",
-        "Minecraft",
-        713
-    ],
-    [
-        "game",
-        "Journey",
-        714
-    ],
-    [
-        "game",
-        "Age of Empires II: The Age of Kings",
-        715
-    ],
-    [
-        "game",
-        "Pokemon Red/Blue/Yellow/Green Version",
-        716
-    ],
-    [
-        "game",
-        "Portal 2",
-        717
-    ],
-    [
-        "game",
-        "The Walking Dead: A Telltale Games Series",
-        718
-    ],
-    [
-        "game",
-        "Life is Strange",
-        719
-    ],
-    [
-        "game",
-        "Mass Effect 3",
-        720
-    ],
-    [
-        "game",
-        "Undertale",
-        721
-    ],
-    [
-        "game",
-        "Animal Crossing: New Leaf",
-        722
-    ],
-    [
-        "game",
-        "The Elder Scrolls V: Skyrim",
-        723
-    ],
-    [
-        "game",
-        "Mario Kart 8",
-        724
-    ],
-    [
-        "game",
-        "Nine Hours, Nine Persons, Nine Doors",
-        725
-    ],
-    [
-        "game",
-        "Hearthstone: Heroes of Warcraft",
-        726
-    ],
-    [
-        "game",
-        "Monster Hunter 4 Ultimate",
-        727
-    ],
-    [
-        "game",
-        "Donkey Kong Country 2: Diddy's Kong Quest",
-        728
-    ],
-    [
-        "game",
-        "Xenoblade Chronicles",
-        729
-    ],
-    [
-        "game",
-        "Fire Emblem: Awakening",
-        730
-    ],
-    [
-        "game",
-        "Super Mario Maker",
-        731
-    ],
-    [
-        "game",
-        "Cave Story",
-        732
+        "Crystalis",
+        371
     ],
     [
         "game",
         "Final Fantasy IV",
-        733
+        372
+    ],
+    [
+        "game",
+        "Mega Man 3",
+        373
+    ],
+    [
+        "game",
+        "Sonic the Hedgehog 3",
+        374
+    ],
+    [
+        "game",
+        "Super Mario Kart",
+        375
+    ],
+    [
+        "game",
+        "Donkey Kong Country",
+        376
+    ],
+    [
+        "game",
+        "Streets of Rage II",
+        377
+    ],
+    [
+        "game",
+        "Mega Man X",
+        378
+    ],
+    [
+        "game",
+        "The Legend of Zelda: Link's Awakening",
+        379
+    ],
+    [
+        "game",
+        "Mortal Kombat II",
+        380
+    ],
+    [
+        "game",
+        "Shining Force II",
+        381
+    ],
+    [
+        "game",
+        "Donkey Kong Country 2: Diddy's Kong Quest",
+        382
+    ],
+    [
+        "game",
+        "Resident Evil 2",
+        383
+    ],
+    [
+        "game",
+        "Mario Kart 64",
+        384
+    ],
+    [
+        "game",
+        "Star Fox 64",
+        385
+    ],
+    [
+        "game",
+        "Suikoden",
+        386
+    ],
+    [
+        "game",
+        "Kirby Super Star",
+        387
+    ],
+    [
+        "game",
+        "Lufia II",
+        388
+    ],
+    [
+        "game",
+        "Super Mario World 2: Yoshi's Island",
+        389
+    ],
+    [
+        "game",
+        "Banjo-Kazooie",
+        390
+    ],
+    [
+        "game",
+        "Pokemon Red/Blue/Yellow",
+        391
+    ],
+    [
+        "game",
+        "The Legend of Zelda: Majora's Mask",
+        392
+    ],
+    [
+        "game",
+        "Deus Ex",
+        393
+    ],
+    [
+        "game",
+        "Final Fantasy VIII",
+        394
+    ],
+    [
+        "game",
+        "Chrono Cross",
+        395
+    ],
+    [
+        "game",
+        "Final Fantasy IX",
+        396
+    ],
+    [
+        "game",
+        "Silent Hill 2",
+        397
+    ],
+    [
+        "game",
+        "The Elder Scrolls III: Morrowind",
+        398
+    ],
+    [
+        "game",
+        "Paper Mario",
+        399
+    ],
+    [
+        "game",
+        "Diablo II",
+        400
+    ],
+    [
+        "game",
+        "Grand Theft Auto III",
+        401
+    ],
+    [
+        "game",
+        "Disgaea: Hour of Darkness",
+        402
+    ],
+    [
+        "game",
+        "God of War (2005)",
+        403
+    ],
+    [
+        "game",
+        "Grand Theft Auto: San Andreas",
+        404
+    ],
+    [
+        "game",
+        "Tales of Symphonia",
+        405
+    ],
+    [
+        "game",
+        "The Elder Scrolls IV: Oblivion",
+        406
+    ],
+    [
+        "game",
+        "Halo 2",
+        407
+    ],
+    [
+        "game",
+        "Metal Gear Solid 3: Snake Eater",
+        408
+    ],
+    [
+        "game",
+        "Okami",
+        409
+    ],
+    [
+        "game",
+        "World of Warcraft",
+        410
+    ],
+    [
+        "game",
+        "Gears of War",
+        411
+    ],
+    [
+        "game",
+        "Kingdom Hearts II",
+        412
+    ],
+    [
+        "game",
+        "Resident Evil 4",
+        413
+    ],
+    [
+        "game",
+        "Shadow of the Colossus",
+        414
+    ],
+    [
+        "game",
+        "Final Fantasy XII",
+        415
+    ],
+    [
+        "game",
+        "Half-Life 2",
+        416
+    ],
+    [
+        "game",
+        "Phoenix Wright: Ace Attorney",
+        417
+    ],
+    [
+        "game",
+        "The Legend of Zelda: Twilight Princess",
+        418
+    ],
+    [
+        "game",
+        "Grand Theft Auto IV",
+        419
+    ],
+    [
+        "game",
+        "Shin Megami Tensei: Persona 4",
+        420
+    ],
+    [
+        "game",
+        "Street Fighter IV",
+        421
+    ],
+    [
+        "game",
+        "Super Smash Bros. Brawl",
+        422
+    ],
+    [
+        "game",
+        "Call of Duty 4: Modern Warfare",
+        423
+    ],
+    [
+        "game",
+        "Pokemon Diamond/Pearl",
+        424
+    ],
+    [
+        "game",
+        "Super Mario Galaxy",
+        425
+    ],
+    [
+        "game",
+        "Team Fortress 2",
+        426
+    ],
+    [
+        "game",
+        "BioShock",
+        427
+    ],
+    [
+        "game",
+        "LittleBigPlanet",
+        428
+    ],
+    [
+        "game",
+        "Metal Gear Solid 4: Guns of the Patriots",
+        429
+    ],
+    [
+        "game",
+        "Portal",
+        430
+    ],
+    [
+        "game",
+        "Fallout 3",
+        431
+    ],
+    [
+        "game",
+        "Halo 3",
+        432
+    ],
+    [
+        "game",
+        "Left 4 Dead",
+        433
+    ],
+    [
+        "game",
+        "Mass Effect",
+        434
+    ],
+    [
+        "character",
+        "Pokemon Trainer Red",
+        435
+    ],
+    [
+        "character",
+        "Captain John Price",
+        436
+    ],
+    [
+        "character",
+        "Sandal",
+        437
+    ],
+    [
+        "character",
+        "Lightning",
+        438
+    ],
+    [
+        "character",
+        "Fawful",
+        439
+    ],
+    [
+        "character",
+        "Claptrap",
+        440
+    ],
+    [
+        "character",
+        "Prinny",
+        441
+    ],
+    [
+        "character",
+        "Cid Highwind",
+        442
+    ],
+    [
+        "character",
+        "Charizard",
+        443
+    ],
+    [
+        "character",
+        "Jecht",
+        444
+    ],
+    [
+        "character",
+        "Eddie Riggs",
+        445
+    ],
+    [
+        "character",
+        "Ezio Auditore da Firenze",
+        446
+    ],
+    [
+        "character",
+        "Vault Boy",
+        447
+    ],
+    [
+        "character",
+        "Ellis",
+        448
+    ],
+    [
+        "character",
+        "Darth Revan",
+        449
+    ],
+    [
+        "character",
+        "Missingno",
+        450
+    ],
+    [
+        "character",
+        "Soap MacTavish",
+        451
+    ],
+    [
+        "character",
+        "Yuri Lowell",
+        452
+    ],
+    [
+        "game",
+        "inFamous",
+        453
+    ],
+    [
+        "game",
+        "Rock Band 2",
+        454
+    ],
+    [
+        "game",
+        "Batman: Arkham Asylum",
+        455
+    ],
+    [
+        "game",
+        "Psychonauts",
+        456
+    ],
+    [
+        "game",
+        "Fable",
+        457
+    ],
+    [
+        "game",
+        "The Legend of Dragoon",
+        458
+    ],
+    [
+        "game",
+        "Uncharted 2: Among Thieves",
+        459
+    ],
+    [
+        "game",
+        "Sonic Adventure 2",
+        460
+    ],
+    [
+        "game",
+        "Super Mario Sunshine",
+        461
+    ],
+    [
+        "game",
+        "Star Ocean: Till the End of Time",
+        462
+    ],
+    [
+        "game",
+        "Devil May Cry 3: Dante's Awakening",
+        463
+    ],
+    [
+        "game",
+        "Mother 3",
+        464
+    ],
+    [
+        "game",
+        "Demon's Souls",
+        465
+    ],
+    [
+        "game",
+        "Mega Man 9",
+        466
+    ],
+    [
+        "game",
+        "No More Heroes",
+        467
+    ],
+    [
+        "game",
+        "Resident Evil 5",
+        468
+    ],
+    [
+        "game",
+        "Left 4 Dead 2",
+        469
+    ],
+    [
+        "game",
+        "Guitar Hero II",
+        470
+    ],
+    [
+        "game",
+        "Warcraft III: Reign of Chaos",
+        471
+    ],
+    [
+        "game",
+        "Conker's Bad Fur Day",
+        472
+    ],
+    [
+        "game",
+        "Prince of Persia: The Sands of Time",
+        473
+    ],
+    [
+        "game",
+        "Metroid Fusion",
+        474
+    ],
+    [
+        "game",
+        "Fire Emblem: Path of Radiance",
+        475
+    ],
+    [
+        "game",
+        "WWF No Mercy",
+        476
+    ],
+    [
+        "game",
+        "Valkyria Chronicles",
+        477
+    ],
+    [
+        "game",
+        "Mario Kart DS",
+        478
+    ],
+    [
+        "game",
+        "Beyond Good & Evil",
+        479
+    ],
+    [
+        "game",
+        "Pokemon Ruby/Sapphire/Emerald",
+        480
+    ],
+    [
+        "game",
+        "Dragon Age: Origins",
+        481
+    ],
+    [
+        "game",
+        "F-Zero GX",
+        482
+    ],
+    [
+        "game",
+        "Star Wars: Battlefront II",
+        483
+    ],
+    [
+        "game",
+        "Call of Duty: Modern Warfare 2",
+        484
+    ],
+    [
+        "game",
+        "Dissidia: Final Fantasy",
+        485
+    ],
+    [
+        "game",
+        "Castlevania: Dawn of Sorrow",
+        486
+    ],
+    [
+        "game",
+        "Viewtiful Joe",
+        487
+    ],
+    [
+        "game",
+        "Borderlands",
+        488
+    ],
+    [
+        "game",
+        "Tales of Vesperia",
+        489
+    ],
+    [
+        "game",
+        "Golden Sun",
+        490
+    ],
+    [
+        "game",
+        "Ratchet & Clank: Up Your Arsenal",
+        491
+    ],
+    [
+        "game",
+        "Dead Space",
+        492
+    ],
+    [
+        "game",
+        "Devil May Cry",
+        493
+    ],
+    [
+        "game",
+        "Tony Hawk's Pro Skater 2",
+        494
+    ],
+    [
+        "game",
+        "Civilization IV",
+        495
+    ],
+    [
+        "game",
+        "Shin Megami Tensei: Persona 3",
+        496
+    ],
+    [
+        "game",
+        "Phoenix Wright: Ace Attorney Trials and Tribulations",
+        497
+    ],
+    [
+        "game",
+        "Jet Grind Radio",
+        498
+    ],
+    [
+        "game",
+        "Dead Rising",
+        499
+    ],
+    [
+        "game",
+        "The World Ends With You",
+        500
+    ],
+    [
+        "game",
+        "Braid",
+        501
+    ],
+    [
+        "game",
+        "Gears of War 2",
+        502
+    ],
+    [
+        "game",
+        "Crisis Core: Final Fantasy VII",
+        503
+    ],
+    [
+        "game",
+        "Baldur's Gate II: Shadows of Amn",
+        504
+    ],
+    [
+        "game",
+        "Plants vs. Zombies",
+        505
+    ],
+    [
+        "game",
+        "TimeSplitters 2",
+        506
+    ],
+    [
+        "game",
+        "Marvel vs. Capcom 2",
+        507
+    ],
+    [
+        "game",
+        "New Super Mario Bros. Wii",
+        508
+    ],
+    [
+        "game",
+        "Katamari Damacy",
+        509
+    ],
+    [
+        "game",
+        "Animal Crossing",
+        510
+    ],
+    [
+        "game",
+        "Assassin's Creed",
+        511
+    ],
+    [
+        "game",
+        "Eternal Darkness: Sanity's Requiem",
+        512
+    ],
+    [
+        "game",
+        "Banjo-Tooie",
+        513
+    ],
+    [
+        "game",
+        "The Sims",
+        514
+    ],
+    [
+        "game",
+        "Wii Sports",
+        515
+    ],
+    [
+        "game",
+        "Dragon Quest VIII: Journey of the Cursed King",
+        516
+    ],
+    [
+        "game",
+        "Mario Kart Wii",
+        517
+    ],
+    [
+        "game",
+        "Advance Wars",
+        518
+    ],
+    [
+        "game",
+        "God of War II",
+        519
+    ],
+    [
+        "game",
+        "Assassin's Creed II",
+        520
+    ],
+    [
+        "game",
+        "ICO",
+        521
+    ],
+    [
+        "game",
+        "Paper Mario: The Thousand-Year Door",
+        522
+    ],
+    [
+        "game",
+        "SoulCalibur II",
+        523
+    ],
+    [
+        "character",
+        "Santa Claus",
+        524
+    ],
+    [
+        "rivalry",
+        "Earthworm Jim vs. Queen Slug-for-a-Butt",
+        525
+    ],
+    [
+        "rivalry",
+        "Mario vs. Bowser",
+        526
+    ],
+    [
+        "rivalry",
+        "Conker vs. The Great Mighty Poo",
+        527
+    ],
+    [
+        "rivalry",
+        "Ike vs. Black Knight",
+        528
+    ],
+    [
+        "rivalry",
+        "Jill Valentine vs. Nemesis",
+        529
+    ],
+    [
+        "rivalry",
+        "Kirby vs. Meta Knight",
+        530
+    ],
+    [
+        "rivalry",
+        "Katherine vs. Catherine",
+        531
+    ],
+    [
+        "rivalry",
+        "Sonic the Hedgehog vs. Dr. Robotnik",
+        532
+    ],
+    [
+        "rivalry",
+        "Captain Falcon vs. Black Shadow",
+        533
+    ],
+    [
+        "rivalry",
+        "Mega Man X vs. Zero",
+        534
+    ],
+    [
+        "rivalry",
+        "Bartz Klauser vs. Gilgamesh",
+        535
+    ],
+    [
+        "rivalry",
+        "Guybrush Threepwood vs. LeChuck",
+        536
+    ],
+    [
+        "rivalry",
+        "Donkey Kong vs. King K. Rool",
+        537
+    ],
+    [
+        "rivalry",
+        "Ezio Auditore da Firenze vs. Rodrigo Borgia",
+        538
+    ],
+    [
+        "rivalry",
+        "Leon Kennedy vs. Ada Wong",
+        539
+    ],
+    [
+        "rivalry",
+        "Sub-Zero vs. Scorpion",
+        540
+    ],
+    [
+        "rivalry",
+        "Jim Raynor vs. Sarah Kerrigan",
+        541
+    ],
+    [
+        "rivalry",
+        "Pokemon Trainer Red vs. Pokemon Trainer Blue",
+        542
+    ],
+    [
+        "rivalry",
+        "Cecil Harvey vs. Golbez",
+        543
+    ],
+    [
+        "rivalry",
+        "Luigi vs. Waluigi",
+        544
+    ],
+    [
+        "rivalry",
+        "Ratchet vs. Dr. Nefarious",
+        545
+    ],
+    [
+        "rivalry",
+        "Ryu vs. Ken",
+        546
+    ],
+    [
+        "rivalry",
+        "Fox McCloud vs. Wolf O'Donnell",
+        547
+    ],
+    [
+        "rivalry",
+        "Yuna vs. Seymour Guado",
+        548
+    ],
+    [
+        "rivalry",
+        "Samus Aran vs. Ridley",
+        549
+    ],
+    [
+        "rivalry",
+        "The Kid vs. The Guy",
+        550
+    ],
+    [
+        "rivalry",
+        "Terra Branford vs. Kefka Palazzo",
+        551
+    ],
+    [
+        "rivalry",
+        "Vyse vs. Galcian",
+        552
+    ],
+    [
+        "rivalry",
+        "Chris Redfield vs. Albert Wesker",
+        553
+    ],
+    [
+        "rivalry",
+        "Dan Hibiki vs. Sagat",
+        554
+    ],
+    [
+        "rivalry",
+        "Big Boss vs. The Boss",
+        555
+    ],
+    [
+        "rivalry",
+        "Tidus vs. Jecht",
+        556
+    ],
+    [
+        "rivalry",
+        "Arthas vs. Illidan",
+        557
+    ],
+    [
+        "rivalry",
+        "Link vs. Ganondorf",
+        558
+    ],
+    [
+        "rivalry",
+        "Amaterasu vs. Orochi",
+        559
+    ],
+    [
+        "rivalry",
+        "Tom Nook vs. Crazy Redd",
+        560
+    ],
+    [
+        "rivalry",
+        "Meat Boy vs. Dr. Fetus",
+        561
+    ],
+    [
+        "rivalry",
+        "Zidane Tribal vs. Kuja",
+        562
+    ],
+    [
+        "rivalry",
+        "Banjo vs. Gruntilda",
+        563
+    ],
+    [
+        "rivalry",
+        "Mega Man vs. Dr. Wily",
+        564
+    ],
+    [
+        "rivalry",
+        "Gordon Freeman vs. Dr. Breen",
+        565
+    ],
+    [
+        "rivalry",
+        "Phoenix Wright vs. Miles Edgeworth",
+        566
+    ],
+    [
+        "rivalry",
+        "Alucard vs. Dracula",
+        567
+    ],
+    [
+        "rivalry",
+        "Commander Shepard vs. Saren Arterius",
+        568
+    ],
+    [
+        "rivalry",
+        "Chell vs. GLaDOS",
+        569
+    ],
+    [
+        "rivalry",
+        "Ness vs. Giygas",
+        570
+    ],
+    [
+        "rivalry",
+        "Frog vs. Magus",
+        571
+    ],
+    [
+        "rivalry",
+        "Raiden vs. Vamp",
+        572
+    ],
+    [
+        "rivalry",
+        "Cloud Strife vs. Sephiroth",
+        573
+    ],
+    [
+        "rivalry",
+        "Lloyd Irving vs. Kratos Aurion",
+        574
+    ],
+    [
+        "rivalry",
+        "Kratos vs. Zeus",
+        575
+    ],
+    [
+        "rivalry",
+        "Professor Layton vs. Don Paolo",
+        576
+    ],
+    [
+        "rivalry",
+        "Crash Bandicoot vs. Dr. Neo Cortex",
+        577
+    ],
+    [
+        "rivalry",
+        "Pac-Man vs. Blinky",
+        578
+    ],
+    [
+        "rivalry",
+        "Crono vs. Lavos",
+        579
+    ],
+    [
+        "rivalry",
+        "Solid Snake vs. Liquid Snake",
+        580
+    ],
+    [
+        "rivalry",
+        "Laharl vs. Mid-Boss",
+        581
+    ],
+    [
+        "rivalry",
+        "Squall Leonhart vs. Seifer Almasy",
+        582
+    ],
+    [
+        "rivalry",
+        "Ramza Beoulve vs. Delita Hyral",
+        583
+    ],
+    [
+        "rivalry",
+        "Siegfried vs. Nightmare",
+        584
+    ],
+    [
+        "rivalry",
+        "Dante vs. Vergil",
+        585
+    ],
+    [
+        "rivalry",
+        "Sol Badguy vs. Ky Kiske",
+        586
+    ],
+    [
+        "rivalry",
+        "Sora vs. Riku",
+        587
+    ],
+    [
+        "rivalry",
+        "William B.J. Blazkowicz vs. Adolf",
+        588
+    ],
+    [
+        "character",
+        "Isaac (Binding)",
+        589
+    ],
+    [
+        "character",
+        "Alan Wake",
+        590
+    ],
+    [
+        "character",
+        "Waluigi",
+        591
+    ],
+    [
+        "character",
+        "Demi-Fiend",
+        592
+    ],
+    [
+        "character",
+        "Solaire of Astora",
+        593
+    ],
+    [
+        "character",
+        "Juliet Starling",
+        594
+    ],
+    [
+        "character",
+        "Tharja",
+        595
+    ],
+    [
+        "character",
+        "Tiny Tina",
+        596
+    ],
+    [
+        "character",
+        "Hero",
+        597
+    ],
+    [
+        "character",
+        "Rinoa Heartilly",
+        598
+    ],
+    [
+        "character",
+        "Chie Satonaka",
+        599
+    ],
+    [
+        "character",
+        "Draven",
+        600
+    ],
+    [
+        "character",
+        "Face McShooty",
+        601
+    ],
+    [
+        "character",
+        "Jigglypuff",
+        602
+    ],
+    [
+        "character",
+        "Welkin Gunther",
+        603
+    ],
+    [
+        "character",
+        "Dan Hibiki",
+        604
+    ],
+    [
+        "character",
+        "Caim",
+        605
+    ],
+    [
+        "character",
+        "Dracula",
+        606
+    ],
+    [
+        "character",
+        "Lucina",
+        607
+    ],
+    [
+        "character",
+        "Barret Wallace",
+        608
+    ],
+    [
+        "character",
+        "Reimu Hakurei",
+        609
+    ],
+    [
+        "character",
+        "Dunban",
+        610
+    ],
+    [
+        "character",
+        "Chester",
+        611
+    ],
+    [
+        "character",
+        "Zero (999)",
+        612
+    ],
+    [
+        "character",
+        "Chrom",
+        613
+    ],
+    [
+        "character",
+        "Garrus Vakarian",
+        614
+    ],
+    [
+        "character",
+        "Archer",
+        615
+    ],
+    [
+        "character",
+        "Clementine",
+        616
+    ],
+    [
+        "character",
+        "Reyn",
+        617
+    ],
+    [
+        "character",
+        "Captain Viridian",
+        618
+    ],
+    [
+        "character",
+        "Peacock",
+        619
+    ],
+    [
+        "character",
+        "Locke Cole",
+        620
+    ],
+    [
+        "character",
+        "Elizabeth",
+        621
+    ],
+    [
+        "character",
+        "Poison",
+        622
+    ],
+    [
+        "character",
+        "Wheatley",
+        623
+    ],
+    [
+        "character",
+        "Commander Keen",
+        624
+    ],
+    [
+        "character",
+        "Bayonetta",
+        625
+    ],
+    [
+        "character",
+        "N",
+        626
+    ],
+    [
+        "character",
+        "Cole",
+        627
+    ],
+    [
+        "character",
+        "Ragna the Bloodedge",
+        628
+    ],
+    [
+        "character",
+        "Epona",
+        629
+    ],
+    [
+        "character",
+        "Mordin Solus",
+        630
+    ],
+    [
+        "character",
+        "Shulk",
+        631
+    ],
+    [
+        "character",
+        "Slime",
+        632
+    ],
+    [
+        "character",
+        "Yuri Hyuga",
+        633
+    ],
+    [
+        "character",
+        "Sen. Steven Armstrong",
+        634
+    ],
+    [
+        "character",
+        "Handsome Jack",
+        635
+    ],
+    [
+        "character",
+        "Francis York Morgan",
+        636
+    ],
+    [
+        "character",
+        "Lugia",
+        637
+    ],
+    [
+        "character",
+        "Squirtle",
+        638
+    ],
+    [
+        "character",
+        "Spring Breeze Dancin'",
+        639
+    ],
+    [
+        "character",
+        "Kat",
+        640
+    ],
+    [
+        "character",
+        "Yu Narukami",
+        641
+    ],
+    [
+        "character",
+        "Oliver",
+        642
+    ],
+    [
+        "character",
+        "Hades",
+        643
+    ],
+    [
+        "character",
+        "Missile",
+        644
+    ],
+    [
+        "character",
+        "Hal \"Otacon\" Emmerich",
+        645
+    ],
+    [
+        "character",
+        "Booker DeWitt",
+        646
+    ],
+    [
+        "character",
+        "Gilgamesh",
+        647
+    ],
+    [
+        "character",
+        "Groose",
+        648
+    ],
+    [
+        "character",
+        "Lu Bu",
+        649
+    ],
+    [
+        "character",
+        "Yoshimitsu",
+        650
+    ],
+    [
+        "character",
+        "Lee Everett",
+        651
+    ],
+    [
+        "character",
+        "Meat Boy",
+        652
+    ],
+    [
+        "character",
+        "Mr. Game & Watch",
+        653
+    ],
+    [
+        "character",
+        "Steve",
+        654
+    ],
+    [
+        "character",
+        "Pokemon Trainer Blue",
+        655
+    ],
+    [
+        "character",
+        "Wolf O'Donnell",
+        656
+    ],
+    [
+        "character",
+        "Isaac Clarke",
+        657
+    ],
+    [
+        "character",
+        "Catherine",
+        658
+    ],
+    [
+        "character",
+        "Vaas Montenegro",
+        659
+    ],
+    [
+        "character",
+        "Seifer Almasy",
+        660
+    ],
+    [
+        "character",
+        "Palutena",
+        661
+    ],
+    [
+        "character",
+        "Teemo",
+        662
+    ],
+    [
+        "character",
+        "Dragonborn",
+        663
+    ],
+    [
+        "character",
+        "Cirno",
+        664
+    ],
+    [
+        "character",
+        "Adam Jensen",
+        665
+    ],
+    [
+        "character",
+        "Marisa Kirisame",
+        666
+    ],
+    [
+        "character",
+        "Commander Video",
+        667
+    ],
+    [
+        "character",
+        "Adol Christin",
+        668
+    ],
+    [
+        "character",
+        "Creeper",
+        669
+    ],
+    [
+        "character",
+        "Corvo Attano",
+        670
+    ],
+    [
+        "character",
+        "Sissel",
+        671
+    ],
+    [
+        "character",
+        "Urdnot Wrex",
+        672
+    ],
+    [
+        "character",
+        "Magikarp",
+        673
+    ],
+    [
+        "character",
+        "Recette Lemongrass",
+        674
+    ],
+    [
+        "character",
+        "Mike Haggar",
+        675
+    ],
+    [
+        "character",
+        "Red Bird",
+        676
+    ],
+    [
+        "character",
+        "Boko",
+        677
+    ],
+    [
+        "character",
+        "Lyndis",
+        678
+    ],
+    [
+        "character",
+        "John Marston",
+        679
+    ],
+    [
+        "character",
+        "Nier",
+        680
+    ],
+    [
+        "game",
+        "Batman: Arkham City",
+        681
+    ],
+    [
+        "game",
+        "The Last of Us",
+        682
+    ],
+    [
+        "game",
+        "Pokemon X/Y",
+        683
+    ],
+    [
+        "game",
+        "Planescape: Torment",
+        684
+    ],
+    [
+        "game",
+        "Super Smash Bros. for Wii U",
+        685
+    ],
+    [
+        "game",
+        "Super Mario Galaxy 2",
+        686
+    ],
+    [
+        "game",
+        "Minecraft",
+        687
+    ],
+    [
+        "game",
+        "Journey",
+        688
+    ],
+    [
+        "game",
+        "Age of Empires II: The Age of Kings",
+        689
+    ],
+    [
+        "game",
+        "Portal 2",
+        690
+    ],
+    [
+        "game",
+        "The Walking Dead: A Telltale Games Series",
+        691
+    ],
+    [
+        "game",
+        "Life is Strange",
+        692
+    ],
+    [
+        "game",
+        "Mass Effect 3",
+        693
+    ],
+    [
+        "game",
+        "Undertale",
+        694
+    ],
+    [
+        "game",
+        "Animal Crossing: New Leaf",
+        695
+    ],
+    [
+        "game",
+        "The Elder Scrolls V: Skyrim",
+        696
+    ],
+    [
+        "game",
+        "Mario Kart 8",
+        697
+    ],
+    [
+        "game",
+        "Nine Hours, Nine Persons, Nine Doors",
+        698
+    ],
+    [
+        "game",
+        "Hearthstone: Heroes of Warcraft",
+        699
+    ],
+    [
+        "game",
+        "Monster Hunter 4 Ultimate",
+        700
+    ],
+    [
+        "game",
+        "Xenoblade Chronicles",
+        701
+    ],
+    [
+        "game",
+        "Fire Emblem: Awakening",
+        702
+    ],
+    [
+        "game",
+        "Super Mario Maker",
+        703
+    ],
+    [
+        "game",
+        "Cave Story",
+        704
     ],
     [
         "game",
         "Metal Gear Solid V: The Phantom Pain",
-        734
+        705
     ],
     [
         "game",
         "Dark Souls",
-        735
+        706
     ],
     [
         "game",
         "Sid Meier's Civilization V",
-        736
+        707
     ],
     [
         "game",
         "Bloodborne",
-        737
+        708
     ],
     [
         "game",
         "Grand Theft Auto V",
-        738
-    ],
-    [
-        "game",
-        "Super Mario RPG: Legend of the Seven Stars",
-        739
+        709
     ],
     [
         "game",
         "Shovel Knight",
-        740
+        710
     ],
     [
         "game",
         "The Binding of Isaac: Rebirth",
-        741
+        711
     ],
     [
         "game",
         "The Witcher 3: Wild Hunt",
-        742
+        712
     ],
     [
         "game",
         "BioShock Infinite",
-        743
+        713
     ],
     [
         "game",
         "Fallout: New Vegas",
-        744
+        714
     ],
     [
         "game",
         "Splatoon",
-        745
+        715
     ],
     [
         "game",
         "Borderlands 2",
-        746
+        716
     ],
     [
         "game",
         "Bayonetta 2",
-        747
+        717
     ],
     [
         "game",
         "Red Dead Redemption",
-        748
+        718
     ],
     [
         "game",
         "Destiny",
-        749
+        719
     ],
     [
         "game",
         "Mass Effect 2",
-        750
+        720
     ],
     [
         "game",
         "Zero Escape: Virtue's Last Reward",
-        751
+        721
     ],
     [
         "year",
         "1979",
-        752
+        722
     ],
     [
         "year",
         "2009",
-        753
+        723
     ],
     [
         "year",
         "1983",
-        754
+        724
     ],
     [
         "year",
         "1989",
-        755
+        725
     ],
     [
         "year",
         "1981",
-        756
+        726
     ],
     [
         "year",
         "2006",
-        757
+        727
     ],
     [
         "year",
         "1978",
-        758
+        728
     ],
     [
         "year",
         "2005",
-        759
+        729
     ],
     [
         "year",
         "1986",
-        760
+        730
     ],
     [
         "year",
         "1995",
-        761
+        731
     ],
     [
         "year",
         "1985",
-        762
+        732
     ],
     [
         "year",
         "1987",
-        763
+        733
     ],
     [
         "year",
         "2001",
-        764
+        734
     ],
     [
         "year",
         "2014",
-        765
+        735
     ],
     [
         "year",
         "2008",
-        766
+        736
     ],
     [
         "year",
         "1997",
-        767
+        737
     ],
     [
         "year",
         "1999",
-        768
+        738
     ],
     [
         "year",
         "2007",
-        769
+        739
     ],
     [
         "year",
         "2012",
-        770
+        740
     ],
     [
         "year",
         "1990",
-        771
+        741
     ],
     [
         "year",
         "2000",
-        772
+        742
     ],
     [
         "year",
         "1996",
-        773
+        743
     ],
     [
         "year",
         "1988",
-        774
+        744
     ],
     [
         "year",
         "1991",
-        775
+        745
     ],
     [
         "year",
         "2002",
-        776
+        746
     ],
     [
         "year",
         "2010",
-        777
+        747
     ],
     [
         "year",
         "1994",
-        778
+        748
     ],
     [
         "year",
         "2004",
-        779
+        749
     ],
     [
         "year",
         "2011",
-        780
+        750
     ],
     [
         "year",
         "1993",
-        781
+        751
     ],
     [
         "year",
         "1998",
-        782
+        752
     ],
     [
         "year",
         "1992",
-        783
+        753
     ],
     [
         "year",
         "2016",
-        784
+        754
     ],
     [
         "year",
         "2003",
-        785
+        755
     ],
     [
         "year",
         "2013",
-        786
+        756
     ],
     [
         "year",
         "2015",
-        787
+        757
     ],
     [
         "character",
         "Cuphead",
-        788
+        758
     ],
     [
         "character",
         "Chloe Price",
-        789
+        759
     ],
     [
         "character",
         "Victor Sullivan",
-        790
+        760
     ],
     [
         "character",
         "Primrose",
-        791
+        761
     ],
     [
         "character",
         "Noctis Lucis Caelum",
-        792
+        762
     ],
     [
         "character",
         "Monika",
-        793
+        763
     ],
     [
         "character",
         "Shantae",
-        794
+        764
     ],
     [
         "character",
         "James Sunderland",
-        795
+        765
     ],
     [
         "character",
         "Velvet Crowe",
-        796
+        766
     ],
     [
         "character",
         "Neptune",
-        797
+        767
     ],
     [
         "character",
         "Godot",
-        798
+        768
     ],
     [
         "character",
         "Kazuma Kiryu",
-        799
+        769
     ],
     [
         "character",
         "2B",
-        800
+        770
     ],
     [
         "character",
         "Cayde-6",
-        801
+        771
     ],
     [
         "character",
         "Joel",
-        802
+        772
     ],
     [
         "character",
         "Estelle Bright",
-        803
+        773
     ],
     [
         "character",
         "Guile",
-        804
+        774
     ],
     [
         "character",
         "Hat Kid",
-        805
+        775
     ],
     [
         "character",
         "Metal Sonic",
-        806
+        776
     ],
     [
         "character",
         "Aloy",
-        807
+        777
     ],
     [
         "character",
         "D.Va",
-        808
+        778
     ],
     [
         "character",
         "Captain Toad",
-        809
+        779
     ],
     [
         "character",
         "Shovel Knight",
-        810
+        780
     ],
     [
         "character",
         "Geralt",
-        811
+        781
     ],
     [
         "character",
         "Rosalina",
-        812
+        782
     ],
     [
         "character",
         "Sans",
-        813
+        783
     ],
     [
         "character",
         "Ren Amamiya / Joker",
-        814
+        784
     ],
     [
         "character",
         "Monokuma",
-        815
+        785
     ],
     [
         "character",
         "Goro Majima",
-        816
+        786
     ],
     [
         "character",
         "Isabelle",
-        817
+        787
     ],
     [
         "character",
         "Richter Belmont",
-        818
+        788
     ],
     [
         "character",
         "Metal Man",
-        819
+        789
     ],
     [
         "character",
         "King K. Rool",
-        820
+        790
     ],
     [
         "character",
         "Ellie",
-        821
+        791
     ],
     [
         "character",
         "Aqua",
-        822
+        792
     ],
     [
         "character",
         "Quiet",
-        823
+        793
     ],
     [
         "game",
         "The Legend of Zelda: Breath of the Wild",
-        824
+        794
     ],
     [
         "game",
         "The Outer Worlds",
-        825
+        795
     ],
     [
         "game",
         "Halo: Reach",
-        826
+        796
     ],
     [
         "game",
         "Final Fantasy XV",
-        827
+        797
     ],
     [
         "game",
         "What Remains of Edith Finch",
-        828
+        798
     ],
     [
         "game",
         "Hollow Knight",
-        829
+        799
     ],
     [
         "game",
         "Tales of Berseria",
-        830
+        800
     ],
     [
         "game",
         "Bravely Default: Flying Fairy",
-        831
+        801
     ],
     [
         "game",
         "Monster Hunter: World",
-        832
+        802
     ],
     [
         "game",
         "Ni no Kuni: Wrath of the White Witch",
-        833
+        803
     ],
     [
         "game",
         "Sekiro: Shadows Die Twice",
-        834
+        804
     ],
     [
         "game",
         "Bastion",
-        835
+        805
     ],
     [
         "game",
         "Dragon Quest XI: Echoes of an Elusive Age",
-        836
+        806
     ],
     [
         "game",
         "The Legend of Heroes: Trails in the Sky SC",
-        837
+        807
     ],
     [
         "game",
         "Resident Evil 7: biohazard",
-        838
+        808
     ],
     [
         "game",
         "Fallout 4",
-        839
+        809
     ],
     [
         "game",
         "VVVVVV",
-        840
+        810
     ],
     [
         "game",
         "Bloodstained: Ritual of the Night",
-        841
+        811
     ],
     [
         "game",
         "Fortnite",
-        842
+        812
     ],
     [
         "game",
         "Horizon Zero Dawn",
-        843
+        813
     ],
     [
         "game",
         "Danganronpa 2: Goodbye Despair",
-        844
+        814
     ],
     [
         "game",
-        "DOOM",
-        845
+        "DOOM (2016)",
+        815
     ],
     [
         "game",
         "INSIDE",
-        846
+        816
     ],
     [
         "game",
         "Deus Ex: Human Revolution",
-        847
+        817
     ],
     [
         "game",
         "Call of Duty: Black Ops",
-        848
+        818
     ],
     [
         "game",
         "Super Smash Bros. Ultimate",
-        849
+        819
     ],
     [
         "game",
         "Tekken 7",
-        850
+        820
     ],
     [
         "game",
         "Bayonetta",
-        851
+        821
     ],
     [
         "game",
         "The Legend of Zelda: A Link Between Worlds",
-        852
+        822
     ],
     [
         "game",
         "Dead Space 2",
-        853
+        823
     ],
     [
         "game",
         "Marvel's Spider-Man",
-        854
+        824
     ],
     [
         "game",
         "Dota 2",
-        855
+        825
     ],
     [
         "game",
         "Octopath Traveler",
-        856
+        826
     ],
     [
         "game",
         "Dragon's Dogma",
-        857
+        827
     ],
     [
         "game",
         "Devil May Cry 5",
-        858
+        828
     ],
     [
         "game",
         "Donkey Kong Country: Tropical Freeze",
-        859
+        829
     ],
     [
         "game",
         "Mortal Kombat 11",
-        860
+        830
     ],
     [
         "game",
         "Super Mario Odyssey",
-        861
+        831
     ],
     [
         "game",
         "Baba Is You",
-        862
+        832
     ],
     [
         "game",
         "Cuphead",
-        863
+        833
     ],
     [
         "game",
         "XCOM 2",
-        864
+        834
     ],
     [
         "game",
         "FTL: Faster Than Light",
-        865
+        835
     ],
     [
         "game",
         "Persona 4 Golden",
-        866
+        836
     ],
     [
         "game",
         "Ghost Trick: Phantom Detective",
-        867
+        837
     ],
     [
         "game",
         "Splatoon 2",
-        868
+        838
     ],
     [
         "game",
         "Death Stranding",
-        869
+        839
     ],
     [
         "game",
         "Overwatch",
-        870
+        840
     ],
     [
         "game",
         "Dragon Age: Inquisition",
-        871
+        841
     ],
     [
         "game",
         "Ori and the Blind Forest",
-        872
+        842
     ],
     [
         "game",
         "Fire Emblem: Three Houses",
-        873
+        843
     ],
     [
         "game",
         "South Park: The Stick of Truth",
-        874
+        844
     ],
     [
         "game",
         "Assassin's Creed Odyssey",
-        875
+        845
     ],
     [
         "game",
         "Starcraft II: Wings of Liberty",
-        876
+        846
     ],
     [
         "game",
         "Stardew Valley",
-        877
+        847
     ],
     [
         "game",
         "Return of the Obra Dinn",
-        878
+        848
     ],
     [
         "game",
         "The Stanley Parable",
-        879
+        849
     ],
     [
         "game",
         "Dark Souls III",
-        880
+        850
     ],
     [
         "game",
         "Dishonored",
-        881
+        851
     ],
     [
         "game",
         "Nioh",
-        882
+        852
+    ],
+    [
+        "game",
+        "God of War (2018)",
+        853
     ],
     [
         "game",
         "The Talos Principle",
-        883
+        854
     ],
     [
         "game",
         "Heavy Rain",
-        884
+        855
     ],
     [
         "game",
         "Persona 5",
-        885
+        856
     ],
     [
         "game",
         "Assassin's Creed IV: Black Flag",
-        886
+        857
     ],
     [
         "game",
         "Sonic Mania",
-        887
+        858
     ],
     [
         "game",
         "Ys VIII: Lacrimosa of DANA",
-        888
+        859
     ],
     [
         "game",
         "Slay the Spire",
-        889
+        860
     ],
     [
         "game",
         "Super Meat Boy",
-        890
+        861
     ],
     [
         "game",
         "Tomb Raider",
-        891
+        862
     ],
     [
         "game",
         "Disco Elysium",
-        892
+        863
     ],
     [
         "game",
         "Kingdom Hearts III",
-        893
+        864
     ],
     [
         "game",
         "Street Fighter V",
-        894
+        865
     ],
     [
         "game",
         "Dying Light",
-        895
+        866
     ],
     [
         "game",
         "Red Dead Redemption 2",
-        896
+        867
     ],
     [
         "game",
         "Hotline Miami",
-        897
+        868
     ],
     [
         "game",
         "Dragon Ball FighterZ",
-        898
+        869
     ],
     [
         "game",
         "Rocket League",
-        899
+        870
     ],
     [
         "game",
         "The Witness",
-        900
+        871
     ],
     [
         "game",
         "Yakuza 0",
-        901
+        872
     ],
     [
         "game",
         "Dead Cells",
-        902
+        873
     ],
     [
         "game",
         "Xenoblade Chronicles 2",
-        903
+        874
     ],
     [
         "game",
         "Terraria",
-        904
+        875
     ],
     [
         "game",
         "Diablo III",
-        905
+        876
     ],
     [
         "game",
         "Crusader Kings II",
-        906
+        877
     ],
     [
         "game",
         "Subnautica",
-        907
+        878
     ],
     [
         "game",
         "Fate / Grand Order",
-        908
+        879
     ],
     [
         "game",
         "Crypt of the NecroDancer",
-        909
+        880
     ],
     [
         "game",
         "Final Fantasy XIV Online: A Realm Reborn",
-        910
+        881
     ],
     [
         "game",
         "Uncharted 4: A Thief's End",
-        911
+        882
     ],
     [
         "game",
         "Night in the Woods",
-        912
+        883
     ],
     [
         "game",
         "Pokemon HeartGold / SoulSilver Version",
-        913
+        884
     ],
     [
         "game",
         "Celeste",
-        914
+        885
     ],
     [
         "game",
         "Rayman Legends",
-        915
+        886
     ],
     [
         "game",
         "Divinity: Original Sin II",
-        916
+        887
     ],
     [
         "game",
         "NieR: Automata",
-        917
+        888
     ]
 ]

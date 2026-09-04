@@ -1,5 +1,26 @@
 # Changelog
 
+## [1.0.9] - 2026-09-04
+
+### Added
+
+- Game-pool entrant aliases — the same game under different titles now folds to
+  one entrant (game count: 379 → 350).
+- Era splits: `God of War` and `Doom`/`DOOM` resolve to the right release per
+  contest, e.g. `God of War (2005)` vs `God of War (2018)`.
+
+### Changed
+
+- All Match Results (`/node/100`): name aliases now resolve within each contest's
+  type, are grouped by type, and gain "Split by era" and "same name in more than
+  one type" notes.
+- Entrant ids renumbered to a dense 1–888 range.
+
+### Fixed
+
+- DB: Restored the truncated title *Phoenix Wright: Ace Attorney Trials and
+  Tribulations* and widened the `updates` entrant columns that clipped it.
+
 ## [1.0.8] - 2026-09-03
 
 ### Added
@@ -19,7 +40,7 @@
 
 ### Fixed
 
-- Garbled entrant names, corrected in the `matches` and `updates` database
+- DB: Garbled entrant names, corrected in the `matches` and `updates` database
   tables: HTML entities (`&quot;`, `&amp;`, `&#039;`), a Unicode ellipsis, and
   stray leading whitespace.
-- Removed a duplicate poll-snapshot row from `updates` (matchnum 1624).
+- DB: Removed a duplicate poll-snapshot row from `updates` (matchnum 1624).

@@ -8,6 +8,7 @@ declare(strict_types=1);
 require_once __DIR__ . '/db.php';
 require_once __DIR__ . '/bonus-polls.php';
 require_once __DIR__ . '/entrants.php';
+require_once __DIR__ . '/era-splits.php';
 
 /** Run a node's stored <?php ... ?> partial with the 4 fns in scope; capture its echo. */
 function contest_render_fn_node(string $file): string
@@ -613,20 +614,24 @@ const AMR_FLAG = [
 // that dropped its 3rd entrant; that row was deleted from `updates` (see cutover
 // notes) so the natural last row is now the correct 3-way result.
 
+/** DB contest code => [display name, year, entrant pool]. Both DB spellings of a
+ *  code are listed. The pool is the identity pool for that contest's entrants
+ *  (character/game/series/rivalry/year) — amr_canon() uses it to resolve aliases
+ *  within the right pool (BSE2K6 "Halo" the series must not fold to the game). */
 const AMR_CONTEST = [
-    'SC2K2'      => ['Summer 2002 Character Contest', 2002],
-    'SC2K3'      => ['Summer 2003 Character Contest', 2003], 'Summer 2K3' => ['Summer 2003 Character Contest', 2003],
-    'Spring 2K4' => ['Spring 2004 Game Contest', 2004], 'SC2K4' => ['Summer 2004 Character Contest', 2004],
-    'Spring 2K5' => ['Spring 2005 Character Contest', 2005], 'SC2K5' => ['Summer 2005 Character Contest', 2005],
-    'Summer 2K5' => ['Summer 2005 Character Contest', 2005],
-    'BSE2K6'     => ['Best Series Ever 2006', 2006], 'BSE 2K6' => ['Best Series Ever 2006', 2006],
-    'CB2K6'      => ['Character Battle 2006', 2006], 'CB 2K6' => ['Character Battle 2006', 2006],
-    'CB VI'      => ['Character Battle VI (2007)', 2007], 'CB VII' => ['Character Battle VII (2008)', 2008],
-    'BGE 2K9'    => ['Best. Game. Ever. (2009)', 2009], 'CB VIII' => ['Character Battle VIII (2010)', 2010],
-    'GOTD'       => ['Game of the Decade (2010)', 2010], 'Rivalry' => ['Rivalry Rumble (2011)', 2011],
-    'CB IX'      => ['Character Battle IX (2013)', 2013], 'BGE 2K15' => ['Best Game Ever (2015)', 2015],
-    'Best Year'  => ['Best Year in Gaming (2017)', 2017], 'CB X' => ['Character Battle X (2018)', 2018],
-    'GOTD 2'     => ['Game of the Decade 2 (2020)', 2020],
+    'SC2K2'      => ['Summer 2002 Character Contest', 2002, 'character'],
+    'SC2K3'      => ['Summer 2003 Character Contest', 2003, 'character'], 'Summer 2K3' => ['Summer 2003 Character Contest', 2003, 'character'],
+    'Spring 2K4' => ['Spring 2004 Game Contest', 2004, 'game'], 'SC2K4' => ['Summer 2004 Character Contest', 2004, 'character'],
+    'Spring 2K5' => ['Spring 2005 Character Contest', 2005, 'character'], 'SC2K5' => ['Summer 2005 Character Contest', 2005, 'character'],
+    'Summer 2K5' => ['Summer 2005 Character Contest', 2005, 'character'],
+    'BSE2K6'     => ['Best Series Ever 2006', 2006, 'series'], 'BSE 2K6' => ['Best Series Ever 2006', 2006, 'series'],
+    'CB2K6'      => ['Character Battle 2006', 2006, 'character'], 'CB 2K6' => ['Character Battle 2006', 2006, 'character'],
+    'CB VI'      => ['Character Battle VI (2007)', 2007, 'character'], 'CB VII' => ['Character Battle VII (2008)', 2008, 'character'],
+    'BGE 2K9'    => ['Best. Game. Ever. (2009)', 2009, 'game'], 'CB VIII' => ['Character Battle VIII (2010)', 2010, 'character'],
+    'GOTD'       => ['Game of the Decade (2010)', 2010, 'game'], 'Rivalry' => ['Rivalry Rumble (2011)', 2011, 'rivalry'],
+    'CB IX'      => ['Character Battle IX (2013)', 2013, 'character'], 'BGE 2K15' => ['Best Game Ever (2015)', 2015, 'game'],
+    'Best Year'  => ['Best Year in Gaming (2017)', 2017, 'year'], 'CB X' => ['Character Battle X (2018)', 2018, 'character'],
+    'GOTD 2'     => ['Game of the Decade 2 (2020)', 2020, 'game'],
 ];
 const AMR_PRE2007 = ['Summer 2K3', 'Spring 2K4', 'SC2K4', 'Spring 2K5', 'Summer 2K5', 'BSE 2K6', 'CB 2K6'];
 
@@ -679,8 +684,9 @@ function amr_rows(): array
 }
 
 /** variant string -> canonical, flattened across pools from ENTRANT_ALIASES
- *  (public/lib/entrants.php). Poolless: the AMR filter matches a typed name
- *  against every pool's aliases. */
+ *  (public/lib/entrants.php). Poolless — used only for the AMR filter box, where a
+ *  typed name has no pool and should match against every pool's aliases. Row
+ *  canonicalization uses amr_canon($name, $pool) instead. */
 function amr_alias_map(): array
 {
     static $flat = null;
@@ -697,27 +703,41 @@ function amr_alias_map(): array
 
     return $flat;
 }
-function amr_canon(string $name): string
+/** Canonical name for the AMR table. With $pool, resolve within that pool via the
+ *  registry's own entrant_canon() (correct for cross-pool look-alikes). Without a
+ *  pool (the filter box — user-typed, poolless), fall back to the flattened map. */
+function amr_canon(string $name, ?string $pool = null): string
 {
     $name = entrant_norm($name);
+    if ($pool !== null) {
+        return entrant_canon($pool, $name);
+    }
 
     return amr_alias_map()[$name] ?? $name;
 }
 
 function amr_mk(int $poll, string $ccode, string $date, array $ents): array
 {
+    // era splits: "God of War" etc. name a different release per contest. The DB
+    // stores the bare string, so resolve it here (same map as the build script)
+    // before it is displayed, sorted or canonicalized.
+    foreach ($ents as &$e) {
+        $e['name'] = era_disambiguate($e['name'], $poll);
+    }
+    unset($e);
+
     usort($ents, fn ($a, $b) => $b['votes'] <=> $a['votes']);          // winner first
     $total = array_sum(array_column($ents, 'votes'));
     foreach ($ents as &$e) {
         $e['pct'] = $total > 0 ? $e['votes'] / $total * 100 : 0.0;
     }
     unset($e);
-    [$cname, $cyear] = AMR_CONTEST[$ccode] ?? [$ccode, 9999];
+    [$cname, $cyear, $cpool] = AMR_CONTEST[$ccode] ?? [$ccode, 9999, null];
 
     return [
-        'poll'    => $poll, 'cname' => $cname, 'cyear' => $cyear, 'date' => $date,
+        'poll'    => $poll, 'cname' => $cname, 'cyear' => $cyear, 'date' => $date, 'pool' => $cpool,
         'ne'      => count($ents), 'ents' => $ents, 'total' => $total,
-        'canon'   => array_map(fn ($e) => amr_canon($e['name']), $ents),
+        'canon'   => array_map(fn ($e) => amr_canon($e['name'], $cpool), $ents),
         'margin'  => count($ents) >= 2 ? $ents[0]['pct'] - $ents[1]['pct'] : 100.0,
         'marginv' => count($ents) >= 2 ? $ents[0]['votes'] - $ents[1]['votes'] : 0,
         'bonus'   => BONUS_POLLS[$poll] ?? null,
@@ -752,7 +772,14 @@ function all_match_results(): void
     $allCount = $showBonus ? count($rows) : count(array_filter($rows, fn ($r) => $r['bonus'] === null));
 
     if ($fEnt !== '') {
-        $rows = array_values(array_filter($rows, fn ($r) => in_array($fEntC, $r['canon'], true)));
+        // match the typed name after poolless canonicalization, or verbatim (so a
+        // name that is itself a canonical in some pool — e.g. series "Halo" — still
+        // matches its row, whose canon is now pool-scoped)
+        $fEntN = entrant_norm($fEnt);
+        $rows  = array_values(array_filter(
+            $rows,
+            fn ($r) => in_array($fEntC, $r['canon'], true) || in_array($fEntN, $r['canon'], true)
+        ));
     }
     if ($fCon !== '') {
         $rows = array_values(array_filter($rows, fn ($r) => $r['cname'] === $fCon));
@@ -797,11 +824,11 @@ function all_match_results(): void
     $th    = fn (string $k, string $lbl) => "<th><a href='" . $u(['sort' => $k, 'dir' => ($sort === $k && $dir === 'asc') ? 'desc' : 'asc'])
         . "'>" . htmlspecialchars($lbl) . $arrow($k) . '</a></th>';
     // one stacked cell: every entrant on its own line, winner first (bold)
-    $rescell = function (array $ents) use ($u) {
+    $rescell = function (array $ents, ?string $pool) use ($u) {
         $lines = '';
         foreach ($ents as $k => $en) {
             $lines .= '<div' . ($k === 0 ? ' class="amr-win"' : '') . '>'
-                    . '<a href="' . $u(['entrant' => amr_canon($en['name'])]) . '">'
+                    . '<a href="' . $u(['entrant' => amr_canon($en['name'], $pool)]) . '">'
                     . htmlspecialchars($en['name'], ENT_QUOTES) . '</a> '
                     . "<span class='amr-sub'>" . number_format($en['votes']) . ' &middot; '
                     . number_format($en['pct'], 2) . '%</span></div>';
@@ -876,7 +903,7 @@ function all_match_results(): void
  <td class="amr-contest"><a href="<?= $u(['contest' => $r['cname']]) ?>"><?= htmlspecialchars($r['cname']) ?></a></td>
  <td class="amr-n"><?= htmlspecialchars($r['date']) ?></td>
  <td class="amr-n"><?= $r['ne'] ?></td>
- <?= $rescell($r['ents']) ?>
+ <?= $rescell($r['ents'], $r['pool']) ?>
  <td class="amr-n"><?= number_format($r['total']) ?></td>
  <td class="amr-n"><?= number_format($r['margin'], 2) ?>%</td>
  <td class="amr-n"><?= number_format($r['marginv']) ?></td>
@@ -887,18 +914,55 @@ function all_match_results(): void
 
 <div class="amr-notes">
 <h3>Name aliases</h3>
-<p>These spelling variants are treated as one entrant when you filter by name:</p>
+<p>These spelling variants are treated as one entrant when you filter by name.
+Aliases are scoped to the contest type, so the same name can resolve differently
+for a character, a game and a series.</p>
+<?php
+$aliasPools = ['character' => 'Characters', 'game' => 'Games', 'series' => 'Series', 'rivalry' => 'Rivalries', 'year' => 'Years'];
+    foreach ($aliasPools as $aliasPool => $aliasLabel):
+        $aliasGroups = ENTRANT_ALIASES[$aliasPool] ?? [];
+        if (!$aliasGroups) {
+            continue;
+        }
+        ksort($aliasGroups, SORT_STRING | SORT_FLAG_CASE); ?>
+<h4><?= $aliasLabel ?></h4>
+<ul>
+<?php foreach ($aliasGroups as $aliasCanon => $aliasVariants): ?>
+ <li><strong><?= htmlspecialchars($aliasCanon) ?></strong> &mdash; also <?= htmlspecialchars(implode(', ', $aliasVariants)) ?></li>
+<?php endforeach; ?>
+</ul>
+<?php endforeach; ?>
+<h3>Split by era</h3>
+<p>A few titles use the same poll name for different releases, so they are split
+here and counted separately:</p>
+<ul>
+<?php foreach (ERA_SPLITS as $eraRaw => $eraTargets): ?>
+ <li><code><?= htmlspecialchars($eraRaw) ?></code> &rarr;
+<?php
+    $eraParts = [];
+    $eraMulti = count($eraTargets) > 1;   // only annotate which polls when it actually varies
+    foreach ($eraTargets as $eraCanon => $eraPolls) {
+        $note = $eraMulti
+            ? ' <span class="amr-sub">(' . ($eraPolls === '*' ? 'all other polls' : 'polls ' . implode(', ', $eraPolls)) . ')</span>'
+            : '';
+        $eraParts[] = '<strong>' . htmlspecialchars($eraCanon) . '</strong>' . $note;
+    }
+    echo implode(' &middot; ', $eraParts); ?></li>
+<?php endforeach; ?>
+</ul>
+<h3>Same name in more than one contest type</h3>
+<p>The same name can be a character, a game and a series &mdash; each is a separate
+entrant, so filtering by one will not pull in the others:</p>
 <ul>
 <?php
-$aliasGroups = [];
-    foreach (ENTRANT_ALIASES as $byCanon) {
-        foreach ($byCanon as $aliasCanon => $aliasVariants) {
-            $aliasGroups[$aliasCanon] = array_merge($aliasGroups[$aliasCanon] ?? [], $aliasVariants);
-        }
+$xpool = [];
+    foreach (ENTRANTS as $xe) {
+        $xpool[$xe['name']][$xe['type']] = true;
     }
-    ksort($aliasGroups, SORT_STRING | SORT_FLAG_CASE);
-    foreach ($aliasGroups as $aliasCanon => $aliasVariants): ?>
- <li><strong><?= htmlspecialchars($aliasCanon) ?></strong> &mdash; also <?= htmlspecialchars(implode(', ', $aliasVariants)) ?></li>
+    $xpool = array_filter($xpool, fn ($t) => count($t) > 1);
+    ksort($xpool, SORT_STRING | SORT_FLAG_CASE);
+    foreach ($xpool as $xname => $xtypes): ?>
+ <li><strong><?= htmlspecialchars($xname) ?></strong> &mdash; <?= implode(', ', array_keys($xtypes)) ?></li>
 <?php endforeach; ?>
 </ul>
 <h3>CB 2006 Battle Royale</h3>

@@ -1,6 +1,6 @@
 # Canonical Match List by Contest
 
-_Generated 2026-09-03 04:45 UTC from the project database — do not edit by hand 
+_Generated 2026-09-04 04:29 UTC from the project database — do not edit by hand 
 (rebuild with `php scripts/build-contest-matches.php`)._
 
 Entrants are listed in database column order, which does not indicate the winner.
@@ -191,7 +191,7 @@ Type: game. 63 matches — 63 official, 0 bonus.
 | 12 | 1612 | official | Super Mario World vs The Simpsons |
 | 13 | 1613 | official | A Link to the Past vs Gunstar Heroes |
 | 14 | 1614 | official | Super Metroid vs Phantasy Star IV |
-| 15 | 1615 | official | Doom vs Earthbound |
+| 15 | 1615 | official | Doom (1993) vs Earthbound |
 | 16 | 1616 | official | Final Fantasy VI vs Mortal Kombat |
 | 17 | 1617 | official | Final Fantasy VII vs Suikoden II |
 | 18 | 1618 | official | Xenogears vs Pokemon Gold/Silver/Crystal |
@@ -216,7 +216,7 @@ Type: game. 63 matches — 63 official, 0 bonus.
 | 37 | 1637 | official | Chrono Trigger vs Super Mario RPG |
 | 38 | 1638 | official | Super Mario World vs Sonic 2 |
 | 39 | 1639 | official | A Link to the Past vs Super Metroid |
-| 40 | 1640 | official | Final Fantasy VI vs Doom |
+| 40 | 1640 | official | Final Fantasy VI vs Doom (1993) |
 | 41 | 1641 | official | Final Fantasy VII vs Xenogears |
 | 42 | 1642 | official | Metal Gear Solid vs Final Fantasy Tactics |
 | 43 | 1643 | official | Goldeneye vs Symphony of the Night |
@@ -694,7 +694,7 @@ Type: game. 64 matches — 63 official, 1 bonus.
 | 7 | 3452 | official | Battletoads vs Final Fantasy vs Prince of Persia vs Super Mario World |
 | 8 | 3453 | official | Crystalis vs Final Fantasy II (IV) vs Mega Man 3 vs River City Ransom |
 | 9 | 3454 | official | Gunstar Heroes vs Sonic the Hedgehog 3 vs Super Mario Kart vs Super Metroid |
-| 10 | 3455 | official | Donkey Kong Country vs Doom vs Streets of Rage II vs Zelda: A Link to the Past |
+| 10 | 3455 | official | Donkey Kong Country vs Doom (1993) vs Streets of Rage II vs Zelda: A Link to the Past |
 | 11 | 3456 | official | Final Fantasy III (VI) vs Mega Man X vs Phantasy Star IV vs Zelda: Link's Awakening |
 | 12 | 3457 | official | Mortal Kombat II vs Secret of Mana vs Shining Force II vs Sonic the Hedgehog 2 |
 | 13 | 3458 | official | Donkey Kong Country 2 vs GoldenEye 007 vs Resident Evil 2 vs Super Mario RPG |
@@ -709,7 +709,7 @@ Type: game. 64 matches — 63 official, 1 bonus.
 | 22 | 3467 | official | Grand Theft Auto: Vice City vs Kingdom Hearts vs Metroid Prime vs Paper Mario |
 | 23 | 3468 | official | Diablo II: Lord of Destruction vs Grand Theft Auto III vs Halo: Combat Evolved vs Star Wars: Knights of the Old Republic |
 | 24 | 3469 | official | Disgaea: Hour of Darkness vs Fire Emblem vs Super Smash Bros. Melee vs The Legend of Zelda: The Wind Waker |
-| 25 | 3470 | official | God of War vs Grand Theft Auto: San Andreas vs Tales of Symphonia vs The Elder Scrolls IV: Oblivion |
+| 25 | 3470 | official | God of War (2005) vs Grand Theft Auto: San Andreas vs Tales of Symphonia vs The Elder Scrolls IV: Oblivion |
 | 26 | 3471 | official | Halo 2 vs Metal Gear Solid 3 vs Okami vs World of Warcraft |
 | 27 | 3472 | official | Gears of War vs Kingdom Hearts II vs Resident Evil 4 vs Shadow of the Colossus |
 | 28 | 3473 | official | Final Fantasy XII vs Half-Life 2 vs Phoenix Wright: Ace Attorney vs The Legend of Zelda: Twilight Princess |
@@ -903,7 +903,7 @@ Type: game. 128 matches — 127 official, 1 bonus.
 | 11 | 4079 | official | Demon's Souls vs Mega Man 9 |
 | 12 | 4080 | official | Okami vs No More Heroes |
 | 13 | 4081 | official | Tales of Symphonia vs Resident Evil 5 |
-| 14 | 4082 | official | God of War vs Left 4 Dead |
+| 14 | 4082 | official | God of War (2005) vs Left 4 Dead |
 | 15 | 4083 | official | LittleBigPlanet vs Grand Theft Auto III |
 | 16 | 4084 | official | Half-Life 2 vs Left 4 Dead 2 |
 | 17 | 4085 | official | Super Smash Bros. Melee vs Guitar Hero II |
@@ -929,7 +929,7 @@ Type: game. 128 matches — 127 official, 1 bonus.
 | 37 | 4105 | official | Star Wars: Knights of the Old Republic vs Devil May Cry |
 | 38 | 4106 | official | Fire Emblem vs Tony Hawk's Pro Skater 2 |
 | 39 | 4107 | official | Shin Megami Tensei: Persona 3 vs Civilization IV |
-| 40 | 4108 | official | Final Fantasy IX vs Phoenix Wright: Ace Attorney Trials and Tribulatio |
+| 40 | 4108 | official | Final Fantasy IX vs Phoenix Wright: Ace Attorney Trials and Tribulations |
 | 41 | 4109 | official | Resident Evil 4 vs Jet Grind Radio |
 | 42 | 4110 | official | Grand Theft Auto: Vice City vs Silent Hill 2 |
 | 43 | 4111 | official | The World Ends With You vs Dead Rising |
@@ -960,7 +960,7 @@ Type: game. 128 matches — 127 official, 1 bonus.
 | 68 | 4136 | official | Halo 3 vs Halo: Combat Evolved |
 | 69 | 4137 | official | Metroid Prime vs Devil May Cry 3: Dante's Awakening |
 | 70 | 4138 | official | Mega Man 9 vs Okami |
-| 71 | 4139 | official | Tales of Symphonia vs God of War |
+| 71 | 4139 | official | Tales of Symphonia vs God of War (2005) |
 | 72 | 4140 | official | Grand Theft Auto III vs Half-Life 2 |
 | 73 | 4141 | official | Super Smash Bros. Melee vs The Elder Scrolls III: Morrowind |
 | 74 | 4142 | official | Perfect Dark vs Call of Duty 4: Modern Warfare |
@@ -989,7 +989,7 @@ Type: game. 128 matches — 127 official, 1 bonus.
 | 97 | 4165 | official | Fallout 3 vs Batman: Arkham Asylum |
 | 98 | 4166 | official | Uncharted 2: Among Thieves vs Halo: Combat Evolved |
 | 99 | 4167 | official | Metroid Prime vs Okami |
-| 100 | 4168 | official | God of War vs Half-Life 2 |
+| 100 | 4168 | official | God of War (2005) vs Half-Life 2 |
 | 101 | 4169 | official | Super Smash Bros. Melee vs Call of Duty 4: Modern Warfare |
 | 102 | 4170 | official | Pokemon Diamond/Pearl/Platinum vs Super Smash Bros. Brawl |
 | 103 | 4171 | official | Super Mario Galaxy vs The Legend of Zelda: Twilight Princess |
@@ -1267,7 +1267,7 @@ Type: game. 131 matches — 127 official, 4 bonus.
 | 37 | 6087 | official | Xenoblade Chronicles vs Donkey Kong Country 2: Diddy's Kong Quest |
 | 38 | 6088 | official | Fire Emblem: Awakening vs Super Mario Maker |
 | 39 | 6089 | official | Banjo-Kazooie vs Baldur's Gate II: Shadows of Amn |
-| 40 | 6090 | official | Castlevania: Symphony of the Night vs Phoenix Wright: Ace Attorney Trials and Tribulatio |
+| 40 | 6090 | official | Castlevania: Symphony of the Night vs Phoenix Wright: Ace Attorney Trials and Tribulations |
 | 41 | 6091 | official | The Legend of Zelda: A Link to the Past vs Cave Story |
 | 42 | 6092 | official | Deus Ex vs Final Fantasy IV |
 | 43 | 6093 | official | Metal Gear Solid V: The Phantom Pain vs Perfect Dark |
@@ -1578,7 +1578,7 @@ Type: game. 128 matches — 127 official, 1 bonus.
 | 11 | 7925 | official | Borderlands 2 vs Bloodstained: Ritual of the Night |
 | 12 | 7926 | official | Horizon Zero Dawn vs Fortnite |
 | 13 | 7927 | official | Resident Evil 2 vs Danganronpa 2: Goodbye Despair |
-| 14 | 7928 | official | DOOM vs INSIDE |
+| 14 | 7928 | official | DOOM (2016) vs INSIDE |
 | 15 | 7929 | official | Fire Emblem: Awakening vs Deus Ex: Human Revolution |
 | 16 | 7930 | official | Bloodborne vs Call of Duty: Black Ops |
 | 17 | 7931 | official | Super Smash Bros. Ultimate vs Tekken 7 |
@@ -1604,7 +1604,7 @@ Type: game. 128 matches — 127 official, 1 bonus.
 | 37 | 7951 | official | Fallout: New Vegas vs The Stanley Parable |
 | 38 | 7952 | official | Dark Souls III vs Dishonored |
 | 39 | 7953 | official | The Binding of Isaac: Rebirth vs Nioh |
-| 40 | 7954 | official | God of War vs The Talos Principle |
+| 40 | 7954 | official | God of War (2018) vs The Talos Principle |
 | 41 | 7955 | official | Persona 5 vs Heavy Rain |
 | 42 | 7956 | official | Assassin's Creed IV: Black Flag vs Sid Meier's Civilization V |
 | 43 | 7957 | official | Sonic Mania vs Ys VIII: Lacrimosa of DANA |
@@ -1635,7 +1635,7 @@ Type: game. 128 matches — 127 official, 1 bonus.
 | 68 | 7982 | official | Bastion vs Dragon Quest XI: Echoes of an Elusive Age |
 | 69 | 7983 | official | Mass Effect 2 vs Fallout 4 |
 | 70 | 7984 | official | Borderlands 2 vs Horizon Zero Dawn |
-| 71 | 7985 | official | Resident Evil 2 vs DOOM |
+| 71 | 7985 | official | Resident Evil 2 vs DOOM (2016) |
 | 72 | 7986 | official | Fire Emblem: Awakening vs Bloodborne |
 | 73 | 7987 | official | Super Smash Bros. Ultimate vs The Legend of Zelda: A Link Between Worlds |
 | 74 | 7988 | official | Marvel's Spider-Man vs Minecraft |
@@ -1648,7 +1648,7 @@ Type: game. 128 matches — 127 official, 1 bonus.
 | 81 | 7995 | official | The Witcher 3: Wild Hunt vs Mass Effect 3 |
 | 82 | 7996 | official | Stardew Valley vs Super Mario Galaxy 2 |
 | 83 | 7997 | official | Fallout: New Vegas vs Dark Souls III |
-| 84 | 7998 | official | Nioh vs God of War |
+| 84 | 7998 | official | Nioh vs God of War (2018) |
 | 85 | 7999 | official | Persona 5 vs Assassin's Creed IV: Black Flag |
 | 86 | 8000 | official | Sonic Mania vs Super Meat Boy |
 | 87 | 8001 | official | Portal 2 vs Kingdom Hearts III |
@@ -1670,7 +1670,7 @@ Type: game. 128 matches — 127 official, 1 bonus.
 | 103 | 8017 | official | Grand Theft Auto V vs Persona 4 Golden |
 | 104 | 8018 | official | Xenoblade Chronicles vs Fire Emblem: Three Houses |
 | 105 | 8019 | official | The Witcher 3: Wild Hunt vs Super Mario Galaxy 2 |
-| 106 | 8020 | official | Fallout: New Vegas vs God of War |
+| 106 | 8020 | official | Fallout: New Vegas vs God of War (2018) |
 | 107 | 8021 | official | Persona 5 vs Sonic Mania |
 | 108 | 8022 | official | Portal 2 vs Red Dead Redemption 2 |
 | 109 | 8023 | official | Dark Souls vs Metal Gear Solid V: The Phantom Pain |
@@ -1681,7 +1681,7 @@ Type: game. 128 matches — 127 official, 1 bonus.
 | 114 | 8028 | official | Mass Effect 2 vs Resident Evil 2 |
 | 115 | 8029 | official | Super Smash Bros. Ultimate vs Super Mario Odyssey |
 | 116 | 8030 | official | Persona 4 Golden vs Xenoblade Chronicles |
-| 117 | 8031 | official | The Witcher 3: Wild Hunt vs God of War |
+| 117 | 8031 | official | The Witcher 3: Wild Hunt vs God of War (2018) |
 | 118 | 8032 | official | Persona 5 vs Portal 2 |
 | 119 | 8033 | official | Dark Souls vs The Last of Us |
 | 120 | 8034 | official | The Elder Scrolls V: Skyrim vs Pokemon HeartGold / SoulSilver Version |
