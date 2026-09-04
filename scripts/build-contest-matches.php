@@ -31,6 +31,11 @@
  * the naive last-row date for 457/1085, is off by exactly the expected one-day
  * straggler for 621/1085, and by two days for the remaining 7 (never more).
  *
+ * `links.updates` (present and true only when set): whether this poll has any
+ * `updates` row at all, i.e. whether /node/22?matchnum={poll} has anything to
+ * show. 135/1528 matches (early SC2K2/SC2K3/SpC2K4 polls, before per-update vote
+ * tracking existed) have none.
+ *
  * Run from the repo root: php scripts/build-contest-matches.php
  */
 
@@ -245,6 +250,15 @@ $modeDate = function (int $matchnum) use ($modeDates): string {
     return $modeDates[$matchnum] ?? throw new RuntimeException("no mode date for matchnum $matchnum");
 };
 
+/* every matchnum with at least one `updates` row, across the whole table — not
+   scoped to BR/matchnum>2566 like $modeDates, since pollid <= 2566 non-BR
+   matches (sourced from `matches` above) can have `updates` rows too and need
+   the same links.updates check. */
+$hasUpdates = array_fill_keys(
+    array_map(fn ($r) => (int) $r['matchnum'], $pdo->query('SELECT DISTINCT matchnum FROM updates')->fetchAll()),
+    true
+);
+
 /* CB2K6 Battle Royale rosters (2562-2565) — last row per poll in `updates` */
 $sql = "SELECT u.matchnum, u.contest, u.entrant1, u.votes1, u.entrant2, u.votes2, u.entrant3, u.votes3,
                u.entrant4, u.votes4, u.entrant5, u.votes5, u.entrant6, u.votes6
@@ -302,6 +316,9 @@ foreach ($CONTESTS as $label => $codes) {
         }
         if (!$isOfficial) {
             $m['bonus_reason'] = $BONUS[$poll];
+        }
+        if (isset($hasUpdates[$poll])) {
+            $m['links'] = ['updates' => true];
         }
         $matches[] = $m;
     }

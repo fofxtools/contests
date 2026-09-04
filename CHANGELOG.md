@@ -1,5 +1,20 @@
 # Changelog
 
+## [1.1.1] - 2026-09-04
+
+### Added
+
+- All Match Results (`/node/100`): each match now links to its poll-update
+  history, vote graph, and Board 8 wiki writeup, where available.
+
+### Changed
+
+- "All Match Results" moved to the top of the Contest Resources menu.
+
+### Fixed
+
+- DB: matches table for poll 2070 now uses "Yuri Hyuga" instead of "Yuri".
+
 ## [1.1.0] - 2026-09-04
 
 ### Added

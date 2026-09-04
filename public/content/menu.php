@@ -28,6 +28,11 @@ return json_decode(<<<'JSON'
   "path": "/node/9",
   "children": [
    {
+    "title": "All Match Results",
+    "path": "/node/100",
+    "children": []
+   },
+   {
     "title": "Linear X-Stat Estimator",
     "path": "/node/53",
     "children": []
@@ -45,11 +50,6 @@ return json_decode(<<<'JSON'
    {
     "title": "X-Stats Explanation",
     "path": "/node/11",
-    "children": []
-   },
-   {
-    "title": "All Match Results",
-    "path": "/node/100",
     "children": []
    },
    {

@@ -1,6 +1,6 @@
 # Canonical Match List by Contest
 
-_Generated 2026-09-04 21:05 UTC from the project database — do not edit by hand 
+_Generated 2026-09-04 23:10 UTC from the project database — do not edit by hand 
 (rebuild with `php scripts/build-contest-matches.php`)._
 
 Entrants are listed in database column order, which does not indicate the winner.
@@ -359,7 +359,7 @@ Type: character. 66 matches — 66 official, 0 bonus.
 | 2 | 2067 | 2005-07-20 | official | Ness vs Carl Johnson | 54,881 vs 44,644 |
 | 3 | 2068 | 2005-07-21 | official | Zero vs Ryu Hayabusa | 57,507 vs 33,771 |
 | 4 | 2069 | 2005-07-22 | official | Lloyd Irving vs Albert Wesker | 46,373 vs 38,421 |
-| 5 | 2070 | 2005-07-23 | official | Samus vs Yuri | 74,493 vs 10,813 |
+| 5 | 2070 | 2005-07-23 | official | Samus vs Yuri Hyuga | 74,493 vs 10,813 |
 | 6 | 2071 | 2005-07-24 | official | Frog vs Riku | 48,604 vs 45,455 |
 | 7 | 2072 | 2005-07-25 | official | Ganondorf vs Yuna | 65,476 vs 41,503 |
 | 8 | 2073 | 2005-07-26 | official | Auron vs Big Boss | 67,639 vs 27,000 |

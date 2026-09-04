@@ -650,9 +650,51 @@ function amr_json_matches(): array
     return $data;
 }
 
+/** poll (int) => Board 8 wiki writeup URL, from data/board8-writeups.json (see
+ *  local/board8-build-writeups.php — a one-time curation pass, not rebuilt
+ *  automatically; local/board8-wiki-writeup-issues.md documents its caveats).
+ *  Decoded once per request, same deploy pattern as amr_json_matches(). */
+function amr_writeup_map(): array
+{
+    static $map = null;
+    if ($map === null) {
+        $path = dirname(__DIR__, 2) . '/data/board8-writeups.json';
+        $raw  = json_decode((string)file_get_contents($path), true) ?? [];
+        $map  = [];
+        foreach ($raw as $poll => $url) {
+            $map[(int)$poll] = (string)$url;
+        }
+    }
+
+    return $map;
+}
+
+/** poll => true, for every poll in data/contest-matches.json with links.updates
+ *  (i.e. it has at least one `updates` row — see that script's header comment).
+ *  Covers the whole file, not just the matchnum > 2566 / BR range, so the
+ *  `matches`-table loop below can use it too without its own DB check. */
+function amr_has_updates_map(): array
+{
+    static $map = null;
+    if ($map === null) {
+        $map = [];
+        foreach (amr_json_matches() as $c) {
+            foreach ($c['matches'] as $m) {
+                if ($m['links']['updates'] ?? false) {
+                    $map[(int)$m['poll']] = true;
+                }
+            }
+        }
+    }
+
+    return $map;
+}
+
 function amr_rows(): array
 {
-    $out = [];
+    $out        = [];
+    $hasUpdates = amr_has_updates_map();
+    $writeups   = amr_writeup_map();
 
     foreach (gfq('SELECT pollid,contest,date,entrant1,votes1,entrant2,votes2 FROM matches') as $m) {
         $mn = (int)$m['pollid'];
@@ -662,7 +704,7 @@ function amr_rows(): array
         $out[$mn] = amr_mk($mn, (string)$m['contest'], (string)$m['date'], [
             ['name' => (string)$m['entrant1'], 'votes' => (int)$m['votes1']],
             ['name' => (string)$m['entrant2'], 'votes' => (int)$m['votes2']],
-        ]);
+        ], $hasUpdates[$mn] ?? false, $writeups[$mn] ?? null);
     }
 
     // BR polls + everything after the 2006 cutover: read from the prebuilt
@@ -684,7 +726,7 @@ function amr_rows(): array
             foreach ($m['entrants'] as $i => $name) {
                 $ents[] = ['name' => (string)$name, 'votes' => (int)($m['votes'][$i] ?? 0)];
             }
-            $out[$mn] = amr_mk($mn, $label, (string)$m['date'], $ents);
+            $out[$mn] = amr_mk($mn, $label, (string)$m['date'], $ents, $m['links']['updates'] ?? false, $writeups[$mn] ?? null);
         }
     }
 
@@ -724,7 +766,7 @@ function amr_canon(string $name, ?string $pool = null): string
     return amr_alias_map()[$name] ?? $name;
 }
 
-function amr_mk(int $poll, string $ccode, string $date, array $ents): array
+function amr_mk(int $poll, string $ccode, string $date, array $ents, bool $hasUpdates = false, ?string $writeupUrl = null): array
 {
     // era splits: "God of War" etc. name a different release per contest. The DB
     // stores the bare string, so resolve it here (same map as the build script)
@@ -749,6 +791,8 @@ function amr_mk(int $poll, string $ccode, string $date, array $ents): array
         'margin'  => count($ents) >= 2 ? $ents[0]['pct'] - $ents[1]['pct'] : 100.0,
         'marginv' => count($ents) >= 2 ? $ents[0]['votes'] - $ents[1]['votes'] : 0,
         'bonus'   => BONUS_POLLS[$poll] ?? null,
+        'updates' => $hasUpdates,
+        'writeup' => $writeupUrl,
     ];
 }
 
@@ -907,6 +951,8 @@ function all_match_results(): void
  <td class="amr-n"><?= $i ?></td>
  <td class="amr-n"><a href="https://gamefaqs.gamespot.com/poll/<?= $r['poll'] ?>-" rel="nofollow"><?= $r['poll'] ?></a><?php
            if ($fl): ?> <span class="amr-flag" title="<?= htmlspecialchars($fl, ENT_QUOTES) ?>">&dagger;</span><?php endif;
+        if ($r['updates']): ?><br><a class="amr-sub" href="/node/22?matchnum=<?= $r['poll'] ?>" title="Poll updates for poll <?= $r['poll'] ?>">updates</a><br><a class="amr-sub" href="/graph/<?= $r['poll'] ?>?type=2&amp;seconds=60" title="Poll update graph for poll <?= $r['poll'] ?>">graph</a><?php endif;
+        if ($r['writeup'] !== null): ?><br><a class="amr-sub" href="<?= htmlspecialchars($r['writeup'], ENT_QUOTES) ?>" rel="nofollow" title="Board 8 wiki writeup">writeup</a><?php endif;
         if ($r['bonus'] !== null): ?><br><span class="amr-bonus-tag" title="<?= htmlspecialchars($r['bonus'], ENT_QUOTES) ?>">bonus</span><?php endif; ?></td>
  <td class="amr-contest"><a href="<?= $u(['contest' => $r['cname']]) ?>"><?= htmlspecialchars($r['cname']) ?></a></td>
  <td class="amr-n"><?= htmlspecialchars($r['date']) ?></td>
