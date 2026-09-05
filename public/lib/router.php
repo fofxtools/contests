@@ -43,8 +43,20 @@ function route(string $uri): array
     if ($path === '/paa/lifetime') {
         return ['handler' => 'paa_lifetime'];
     }
+    if ($path === '/paa/team-average') {
+        return ['handler' => 'team_paa_average'];
+    }
+    if ($path === '/paa/team-lifetime') {
+        return ['handler' => 'team_paa_lifetime'];
+    }
     if ($path === '/paa') {
         return ['redirect' => '/paa/lifetime'];
+    }
+    if ($path === '/oracle/predictions') {
+        return ['handler' => 'oracle_predictions'];
+    }
+    if ($path === '/oracle/team-predictions') {
+        return ['handler' => 'team_predictions'];
     }
 
     return ['handler' => '404'];

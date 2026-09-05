@@ -1,5 +1,19 @@
 # Changelog
 
+## [1.1.2] - 2026-09-05
+
+### Added
+
+- `/oracle/predictions`: every scored Oracle Challenge prediction ever, with
+  PAA, filterable by contest or user. The default (unfiltered, PAA-sorted)
+  view is cached, so it stays fast on the live server too.
+- Oracle Challenge team pages, alongside the individual ones above:
+  - `/oracle/team-predictions`: every scored team match ever, with PAA and
+    each member's own pick, filterable by contest or team.
+  - `/paa/team-lifetime` and `/paa/team-average`: career and per-match PAA
+    standings for two-player teams.
+  - Hovering a team's name now shows its two members.
+
 ## [1.1.1] - 2026-09-04
 
 ### Added

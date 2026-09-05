@@ -55,6 +55,18 @@ table.amr tr.amr-bonus { background: #fff7e6; }
 .amr-notes h3 { margin: 1.1em 0 .3em; }
 .amr-notes h4 { margin: .7em 0 .15em; font-size: 1em; }
 
+/* /oracle/predictions — All Predictions Ever */
+table.op td a { text-decoration: none; }
+table.op td a:hover { text-decoration: underline; }
+table.op { border-collapse: collapse; font-size: .92em; width: 100%; }
+table.op th, table.op td { border: 1px solid #bbb; padding: 3px 5px; vertical-align: top; overflow-wrap: break-word; }
+table.op thead th { background: #eee; text-align: left; }
+table.op td.op-n { text-align: right; white-space: nowrap; }
+table.op tr:nth-child(even) { background: #f9f9f9; }
+.op-pager { margin: .8em 0; }
+.op-pager a, .op-pager span.current { padding: .25em .6em; border: 1px solid #bbb; margin-right: .3em; text-decoration: none; }
+.op-pager span.current { background: #eee; font-weight: bold; }
+
 /* ------------------------------------------------------------------ */
 /*  Typography refresh (2026-08) — modern base size + capped measure.  */
 /*  Garland ships 12px/170% Verdana; this brings body copy up to the   */

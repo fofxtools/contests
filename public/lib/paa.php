@@ -2,21 +2,34 @@
 declare(strict_types=1);
 /*
  * lib/paa.php — Points-Above-Average: shared helpers + the /paa/lifetime and
- * /paa/average pages. DB connection is lib/oracle.php. No writes; no user input
- * in SQL.
+ * /paa/average pages (individual), and /paa/team-lifetime and /paa/team-average
+ * (two-player teams — kept in this same file since it's the same PAA concept,
+ * just against DailyTeamStandings instead of DailyStandings). DB connection is
+ * lib/oracle-db.php. No writes; no user input in SQL.
  *
  * PAA for a (user, match) = DailyStandings.MatchScore - Statistics.AverageScore.
- * Only scored rows count (MatchRanking > 0). Individual play only (team data is
- * in separate tables). No banned-user list exists in the source.
+ * Only scored rows count (MatchRanking > 0). No banned-user list exists in the
+ * source.
  *
- * The heavy aggregate (GROUP BY over ~93k rows, ~0.5s) is computed once and cached
- * to a JSON file. It's threshold-independent: every leaderboard view (lifetime /
- * average / any minimum) is derived from the ~615 cached rows in PHP. The source
- * data is frozen (contests are over), so there is no TTL: to rebuild, delete the
- * cache file.
+ * Team PAA is the same idea for a (team, match): TeamScore - the average team
+ * score for that match. There's no Statistics-equivalent table for teams, so
+ * that per-match average is computed inline (AVG(MatchScore) GROUP BY MatchId
+ * over DailyTeamStandings) rather than looked up. Teams only exist for the
+ * contests that ran a team competition (~33k scored team-rows vs ~111k
+ * individual), and a TeamId is a persistent pair of users that can recur
+ * across multiple contests under a slightly different name each time —
+ * Teams.Name is the display name used here (its most common form), separate
+ * from the per-contest TeamContests.TeamName.
+ *
+ * Both aggregates (individual ~93k rows ~0.5s; team ~33k rows, cheaper) are
+ * computed once each and cached to their own JSON files. Threshold-independent:
+ * every leaderboard view (lifetime / average / any minimum) is derived from the
+ * cached per-user/per-team rows in PHP. The source data is frozen (contests are
+ * over), so there is no TTL: delete the relevant cache file to rebuild.
  */
 
-require_once __DIR__ . '/oracle.php';
+require_once __DIR__ . '/oracle-db.php';
+require_once __DIR__ . '/oracle-functions.php'; // for team_members() — the hover tooltip on a team's name
 
 /** Aggregate cache path: <repo>/.cache/ locally, /home/sc2k5/.cache/ on the server. */
 function paa_cache_file(): string
@@ -154,6 +167,115 @@ function paa_table(array $rows, int $show = 25): string
     }
 
     return $h . '</tbody></table>';
+}
+
+/* ------------------------------------------------------------------ */
+/*  Team PAA: same idea, DailyTeamStandings instead of DailyStandings.  */
+/*  There is no Statistics-equivalent table for teams, so the per-match */
+/*  average is computed inline (AVG(MatchScore) GROUP BY MatchId) —     */
+/*  same cost shape as the individual query, still cached the same way. */
+/* ------------------------------------------------------------------ */
+
+/** Aggregate cache path for team PAA (mirrors paa_cache_file()). */
+function team_paa_cache_file(): string
+{
+    return dirname(__DIR__, 2) . '/.cache/team-paa-agg.json';
+}
+
+/**
+ * Per-team aggregate + the scored-match count, from the JSON cache.
+ * Shape: ['scored' => int, 'built' => iso8601, 'teams' => [ ['id','name','sum_paa','n'], ... ] ]
+ */
+function team_paa_cache(bool $rebuild = false): array
+{
+    static $mem = null;
+    if ($mem !== null && !$rebuild) {
+        return $mem;
+    }
+
+    if (!$rebuild && is_file(team_paa_cache_file())) {
+        $d = json_decode((string) file_get_contents(team_paa_cache_file()), true);
+        if (is_array($d) && isset($d['scored'], $d['teams']) && is_array($d['teams'])) {
+            return $mem = $d;
+        }
+    }
+
+    $db     = oracle_db();
+    $scored = (int) $db->query('SELECT COUNT(DISTINCT MatchId) FROM DailyTeamStandings WHERE MatchRanking > 0')->fetchColumn();
+    $teams  = $db->query(
+        'SELECT dts.TeamId                             AS id,
+                t.Name                                 AS name,
+                SUM(dts.MatchScore - ma.avg_score)      AS sum_paa,
+                COUNT(*)                                AS n
+         FROM DailyTeamStandings dts
+         JOIN Teams t ON t.TeamId = dts.TeamId
+         JOIN (SELECT MatchId, AVG(MatchScore) AS avg_score
+               FROM DailyTeamStandings WHERE MatchRanking > 0
+               GROUP BY MatchId) ma ON ma.MatchId = dts.MatchId
+         WHERE dts.MatchRanking > 0
+         GROUP BY dts.TeamId, t.Name'
+    )->fetchAll();
+
+    $mem = ['scored' => $scored, 'built' => date('c'), 'teams' => $teams];
+    @mkdir(dirname(team_paa_cache_file()), 0775, true);
+    @file_put_contents(team_paa_cache_file(), json_encode($mem));
+
+    return $mem;
+}
+
+/** Number of matches with a computed team average (the max possible "Matches" for a team). */
+function team_paa_scored_match_count(): int
+{
+    return (int) team_paa_cache()['scored'];
+}
+
+/**
+ * Team leaderboard rows, same shape/semantics as paa_leaderboard() but keyed
+ * on TeamId instead of UserId.
+ *
+ * @param 'total'|'avg' $metric
+ * @param int           $minMatches Only applied when $metric === 'avg'.
+ */
+function team_paa_leaderboard(string $metric, int $minMatches = 0, int $limit = 5000): array
+{
+    $limit = max(1, min(50000, $limit));
+    $out   = [];
+
+    foreach (team_paa_cache()['teams'] as $t) {
+        $n = (int) $t['n'];
+        if ($n < 1) {
+            continue;
+        }
+        if ($metric === 'avg' && $n < $minMatches) {
+            continue;
+        }
+
+        $sum       = (float) $t['sum_paa'];
+        $avg       = $sum / $n;
+        $metricVal = ($metric === 'total') ? $sum : $avg;
+
+        $out[] = [
+            'id'       => (int) $t['id'],
+            'Name'     => (string) $t['name'],
+            'PAA'      => round($metricVal, 2),
+            'TotalPAA' => round($sum, 2),
+            'AvgPAA'   => round($avg, 2),
+            'Matches'  => $n,
+            '_k'       => $metricVal,
+        ];
+    }
+
+    usort(
+        $out,
+        fn ($a, $b) => [$b['_k'], $b['Matches'], $a['Name']] <=> [$a['_k'], $a['Matches'], $b['Name']]
+    );
+
+    $out = array_slice($out, 0, $limit);
+    foreach ($out as &$r) {
+        unset($r['_k']);
+    }
+
+    return $out;
 }
 
 /**
@@ -323,6 +445,161 @@ averaged over all their matches.</p>
     } catch (Throwable $e) {
         return ['title' => $title,
             'body'      => '<p>The Oracle PAA standings are temporarily unavailable. '
+                     . 'Please try again later.</p>'];
+    }
+}
+
+/* ------------------------------------------------------------------ */
+/*  Page handler: /paa/team-lifetime  (career total PAA, all teams)   */
+/* ------------------------------------------------------------------ */
+
+function team_paa_lifetime_page(): array
+{
+    $title = 'Lifetime Team PAA Standings';
+
+    try {
+        $rows = team_paa_leaderboard('total', 0, 20000);
+
+        $cmp = [
+            'name'    => fn ($a, $b) => strcasecmp($a['Name'], $b['Name']),
+            'total'   => fn ($a, $b) => [$b['TotalPAA'], $b['Matches'], strtolower($a['Name'])] <=> [$a['TotalPAA'], $a['Matches'], strtolower($b['Name'])],
+            'matches' => fn ($a, $b) => [$b['Matches'], $b['TotalPAA'], strtolower($a['Name'])] <=> [$a['Matches'], $a['TotalPAA'], strtolower($b['Name'])],
+            'avg'     => fn ($a, $b) => [$b['AvgPAA'], $b['Matches'], strtolower($a['Name'])] <=> [$a['AvgPAA'], $a['Matches'], strtolower($b['Name'])],
+        ];
+        $sort = (string) ($_GET['sort'] ?? 'total');
+        if (!isset($cmp[$sort])) {
+            $sort = 'total';
+        }
+        $natural = $sort === 'name' ? 'asc' : 'desc';
+        $dir     = strtolower((string) ($_GET['dir'] ?? ''));
+        if ($dir !== 'asc' && $dir !== 'desc') {
+            $dir = $natural;
+        }
+
+        usort($rows, $cmp[$sort]);
+        if ($dir !== $natural) {
+            $rows = array_reverse($rows);
+        }
+
+        $hlink = function (string $k) use ($sort, $dir): string {
+            $nat = $k === 'name' ? 'asc' : 'desc';
+            $d   = $k === $sort ? ($dir === 'asc' ? 'desc' : 'asc') : $nat;
+
+            return '/paa/team-lifetime?sort=' . $k . '&amp;dir=' . $d;
+        };
+        $arrow = fn (string $k): string => $k === $sort ? ($dir === 'asc' ? ' &#9650;' : ' &#9660;') : '';
+        $th    = fn (string $k, string $lbl): string => '<th><a href="' . $hlink($k) . '">' . $lbl . $arrow($k) . '</a></th>';
+
+        ob_start(); ?>
+<p>Total <strong>Points Above Average</strong> for two-player teams from the
+<a href="https://oraclechallenge.com/" rel="nofollow">Oracle Challenge</a> (the contests that ran
+a team competition alongside the individual one). For every scored match a team predicted, how
+far the team&rsquo;s score sat above the field average for that match, summed over all their
+matches.</p>
+
+<p class="amr-views"><strong>See also:</strong>
+<a href="/paa/team-average">Average team PAA standings</a> (per-match rate) &middot;
+<a href="/oracle/team-predictions">All Team Match Results Ever</a>.</p>
+
+<p class="amr-meta"><?= number_format(count($rows)) ?> teams. Click a column heading to sort.</p>
+
+<div class="amr-wrap"><table class="amr">
+<thead><tr><th>#</th><?= $th('name', 'Team') ?><?= $th('total', 'Total&nbsp;PAA') ?><?= $th('matches', 'Matches') ?><?= $th('avg', 'Avg&nbsp;PAA') ?></tr></thead>
+<tbody>
+<?php $i = 0;
+        foreach ($rows as $r): $i++; ?>
+<tr>
+ <td class="amr-n"><?= $i ?></td>
+ <td title="<?= htmlspecialchars(implode(', ', array_column(team_members()[$r['id']] ?? [], 'name'))) ?>"><?= htmlspecialchars((string) $r['Name']) ?></td>
+ <td class="amr-n"><?= number_format((float) $r['TotalPAA'], 2) ?></td>
+ <td class="amr-n"><?= number_format((int) $r['Matches']) ?></td>
+ <td class="amr-n"><?= number_format((float) $r['AvgPAA'], 2) ?></td>
+</tr>
+<?php endforeach; ?>
+</tbody>
+</table></div>
+
+<?php
+        return ['title' => $title, 'body' => ob_get_clean()];
+    } catch (Throwable $e) {
+        return ['title' => $title,
+            'body'      => '<p>The Oracle Team PAA standings are temporarily unavailable. '
+                     . 'Please try again later.</p>'];
+    }
+}
+
+/* ------------------------------------------------------------------ */
+/*  Page handler: /paa/team-average  (mean PAA per match, min cut)    */
+/* ------------------------------------------------------------------ */
+
+function team_paa_average_page(): array
+{
+    $title = 'Average Team PAA Standings';
+
+    try {
+        $scored = team_paa_scored_match_count();
+        $half   = (int) ceil($scored / 2);
+
+        $min = isset($_GET['min']) ? max(1, min(20000, (int) $_GET['min'])) : 25;
+
+        $rows = team_paa_leaderboard('avg', $min, 20000);
+
+        $opts = [10, 25, 50, 100, $half];
+        $opts = array_values(array_unique($opts));
+        sort($opts);
+        $links = [];
+        foreach ($opts as $o) {
+            $lbl = ($o === $half) ? "$o <span class=\"amr-sub\">(half)</span>" : (string) $o;
+            if ($o === $min) {
+                $links[] = "<strong>$lbl</strong>";
+            } else {
+                $t       = ($o === $half) ? " title=\"half of all $scored scored matches\"" : '';
+                $links[] = "<a href=\"/paa/team-average?min=$o\"$t>$lbl</a>";
+            }
+        }
+        $linkRow = '<p class="amr-views"><strong>Minimum matches:</strong> '
+                 . implode(' &middot; ', $links) . '</p>';
+
+        $caption = '<p class="amr-meta">Showing <strong>' . number_format(count($rows))
+                 . '</strong> teams with at least <strong>' . number_format($min) . '</strong> matches'
+                 . ($min === $half ? ' (half of all ' . number_format($scored) . ')' : '') . '.</p>';
+
+        ob_start(); ?>
+<p>Average <strong>Points Above Average</strong> for two-player teams from the
+<a href="https://oraclechallenge.com/" rel="nofollow">Oracle Challenge</a>. For every scored
+match a team predicted, how far the team&rsquo;s score sat above the field average for that
+match, averaged over all their matches.</p>
+
+<p class="amr-views"><strong>See also:</strong>
+<a href="/paa/team-lifetime">Lifetime team PAA standings</a> (career total) &middot;
+<a href="/oracle/team-predictions">All Team Match Results Ever</a>.</p>
+
+<?= $linkRow ?>
+<?= $caption ?>
+
+<div class="amr-wrap"><table class="amr">
+<thead><tr><th>#</th><th>Team</th><th>Avg&nbsp;PAA</th><th>Matches</th></tr></thead>
+<tbody>
+<?php if (!$rows): ?>
+<tr><td colspan="4">No teams meet this threshold.</td></tr>
+<?php endif; ?>
+<?php $i = 0;
+        foreach ($rows as $r): $i++; ?>
+<tr>
+ <td class="amr-n"><?= $i ?></td>
+ <td title="<?= htmlspecialchars(implode(', ', array_column(team_members()[$r['id']] ?? [], 'name'))) ?>"><?= htmlspecialchars((string) $r['Name']) ?></td>
+ <td class="amr-n"><?= number_format((float) $r['PAA'], 2) ?></td>
+ <td class="amr-n"><?= number_format((int) $r['Matches']) ?></td>
+</tr>
+<?php endforeach; ?>
+</tbody>
+</table></div>
+
+<?php
+                return ['title' => $title, 'body' => ob_get_clean()];
+    } catch (Throwable $e) {
+        return ['title' => $title,
+            'body'      => '<p>The Oracle Team PAA standings are temporarily unavailable. '
                      . 'Please try again later.</p>'];
     }
 }

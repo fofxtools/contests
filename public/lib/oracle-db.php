@@ -3,9 +3,11 @@
 declare(strict_types=1);
 
 /*
- * lib/oracle.php — read-only connection to the Oracle Challenge contest DB
+ * lib/oracle-db.php — read-only connection to the Oracle Challenge contest DB
  * (oraclechallenge.com). Mirrors lib/db.php. Feature code that uses this lives
- * in lib/paa.php (Points Above Average) and any future oracle-*.php.
+ * in lib/paa.php (Points Above Average) and lib/oracle-functions.php
+ * (everything else Oracle-related — kept in one file by design, not split
+ * per page).
  */
 
 /** Read-only creds for the Oracle Challenge DB, from .dbconfig.php's 'oracle' key. */

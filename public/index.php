@@ -14,7 +14,7 @@ ini_set('display_errors', '0');
 require __DIR__ . '/lib/config.php';
 require __DIR__ . '/lib/router.php';
 require __DIR__ . '/lib/content.php';
-foreach (['contest', 'calc', 'graph', 'oracle', 'paa'] as $mod) {
+foreach (['contest', 'calc', 'graph', 'oracle-functions', 'paa'] as $mod) {
     $p = __DIR__ . "/lib/$mod.php";
     if (is_file($p)) {
         require $p;
@@ -85,6 +85,34 @@ switch ($r['handler']) {
 
     case 'paa_average':
         $p                 = paa_average_page();
+        [$title, $content] = [$p['title'], $p['body']];
+        $breadcrumb        = crumb(htmlspecialchars($title));
+
+        break;
+
+    case 'team_paa_lifetime':
+        $p                 = team_paa_lifetime_page();
+        [$title, $content] = [$p['title'], $p['body']];
+        $breadcrumb        = crumb(htmlspecialchars($title));
+
+        break;
+
+    case 'team_paa_average':
+        $p                 = team_paa_average_page();
+        [$title, $content] = [$p['title'], $p['body']];
+        $breadcrumb        = crumb(htmlspecialchars($title));
+
+        break;
+
+    case 'oracle_predictions':
+        $p                 = oracle_predictions_render();
+        [$title, $content] = [$p['title'], $p['body']];
+        $breadcrumb        = crumb(htmlspecialchars($title));
+
+        break;
+
+    case 'team_predictions':
+        $p                 = team_predictions_render();
         [$title, $content] = [$p['title'], $p['body']];
         $breadcrumb        = crumb(htmlspecialchars($title));
 
