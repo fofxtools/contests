@@ -1,7 +1,7 @@
 <?php
 
 /**
- * Five outputs from data/contest-matches.json:
+ * Seven outputs from data/contest-matches.json:
  *
  *   1. data/contest-matches-normalized.json — every match (1528, official and
  *      not), flattened and cleaned up for reuse by any rating-system
@@ -34,7 +34,10 @@
  *      (not counting the nominal 1500 starting point before their first
  *      match — a rating you never competed for isn't a "peak"), each as
  *      `{rating, poll, date}` so a graph can mark exactly where it happened,
- *      not just the bare number.
+ *      not just the bare number — and `last_match` (`{contest, poll, date}`),
+ *      the entrant's most recent appearance, so a standings view can show how
+ *      stale a rating is (a rating frozen since 2009 shouldn't read the same
+ *      as a live one).
  *
  *   3. data/elo-history.json — same pools/entrants as elo.json, but instead
  *      of a final summary, one ordered list per entrant of every match they
@@ -59,6 +62,17 @@
  *      deliberately self-contained (the win/loss/first-place/etc. stats in
  *      each are byte-identical — those are outcome facts, unaffected by the
  *      scoring — but every consumer can read one file without the other).
+ *
+ *   6. data/elo-voteshare-tuned.json
+ *   7. data/elo-history-voteshare-tuned.json — the "score-based" variant
+ *      again, IDENTICAL to #4/#5 in schema and in every parameter EXCEPT the
+ *      K-factor: K_TUNED (256) instead of K_FACTOR (32). A walk-forward tune
+ *      on all past contests found contest polls are predicted materially better
+ *      by a fast-adapting rating (recent form dominates) than by a slow
+ *      lifetime average — see tmp/elo-tune-notes.md and the K_TUNED comment.
+ *      Same 400 scale and 1500 start, so the numbers read like the binary pass
+ *      (~1400-1800). Kept in its own pair of files so #2 through #5 stay
+ *      exactly as they were; the site surfaces it as a separate `?method=`.
  *
  * A match's pool is its contest's `type` UNLESS the match itself carries a
  * `type` (a cross-pool bonus match — currently just GOTD poll 4196, "Link vs
@@ -164,8 +178,10 @@ printf("wrote data/contest-matches-normalized.json: %d matches\n", count($normal
 /*  EVERYTHING else is identical between the two runs — same settings  */
 /*  below, same code path. Only the one score function differs.        */
 /*                                                                      */
-/*   - start rating 1500, K = 32 (fixed, no variable K; the 400        */
-/*     logistic divisor is also fixed)                                 */
+/*   - start rating 1500, logistic divisor DIVISOR (400), all passes.  */
+/*     K = K_FACTOR (32) for the binary and vote-share passes; the     */
+/*     tuned vote-share pass (#6/#7) is the identical code with K =    */
+/*     K_TUNED (256) — see that constant's doc comment                 */
 /*   - the win/loss/draw and first-/last-place stats are tallied from  */
 /*     the raw vote counts, NOT from the score function's output, so   */
 /*     they come out byte-identical in both files (an outcome is an    */
@@ -220,7 +236,20 @@ printf("wrote data/contest-matches-normalized.json: %d matches\n", count($normal
 /* ------------------------------------------------------------------ */
 
 const START_RATING = 1500.0;
-const K_FACTOR     = 32.0;
+const DIVISOR      = 400.0;   // logistic divisor — the chess-Elo convention, all passes
+const K_FACTOR     = 32.0;    // binary + (untuned) vote-share passes
+
+/** The tuned vote-share pass (#6/#7) is the same code with an 8x-larger
+ *  K-factor. A walk-forward tune found contest polls are predicted materially
+ *  better by a fast-adapting rating that tracks recent form than by a slow
+ *  lifetime average (see tmp/elo-tune-notes.md for the numbers). K is the only
+ *  thing that changes; scale (400), start (1500) and everything else are
+ *  shared. Equivalently this is the standard model at a logistic divisor of
+ *  ~50 — the tune varied the divisor, and K=256 with divisor 400 is the
+ *  identical model on the conventional scale. K=256 keeps every rating and
+ *  prediction on the familiar 1500-centred ~1400-1800 range (in line with the
+ *  binary pass) with no rescaling step. */
+const K_TUNED = 256.0;
 
 /** Binary scoring: 1/0 win-loss, or 0.5/0.5 on an exact vote tie.
  *  @return array{0: float, 1: float} [scoreA, scoreB] */
@@ -249,7 +278,7 @@ function voteShareScore(int $votesA, int $votesB): array
 
 function expectedScore(float $ratingA, float $ratingB): float
 {
-    return 1.0 / (1.0 + 10 ** (($ratingB - $ratingA) / 400.0));
+    return 1.0 / (1.0 + 10 ** (($ratingB - $ratingA) / DIVISOR));
 }
 
 $byPool = [];
@@ -265,10 +294,12 @@ foreach ($normalized as $m) {
  * rule; see the "Elo pass" comment above.
  *
  * @param callable(int, int): array{0: float, 1: float} $scoreFn
+ * @param float                                         $k       K-factor. K_FACTOR (32) for the binary/vote-share passes;
+ *                                                               K_TUNED (256) for the tuned vote-share pass — see K_TUNED.
  *
  * @return array{summary: array<string, list<array<string, mixed>>>, history: array<string, list<array<string, mixed>>>}
  */
-function elo_run(array $byPool, array $entrantId, callable $scoreFn): array
+function elo_run(array $byPool, array $entrantId, callable $scoreFn, float $k = K_FACTOR): array
 {
     $eloResults     = [];   // pool => [name => ['rating', 'matches', ...stats]]
     $historyResults = [];   // pool => [{id, name, history: [{poll, date, contest, rating, delta, opponents}, ...]}]
@@ -312,8 +343,8 @@ function elo_run(array $byPool, array $entrantId, callable $scoreFn): array
                     [$scoreA, $scoreB] = $scoreFn($votes[$i], $votes[$j]);
                     $expA              = expectedScore($pre[$a], $pre[$b]);
                     $expB              = 1.0 - $expA;
-                    $delta[$a] += K_FACTOR * ($scoreA - $expA);
-                    $delta[$b] += K_FACTOR * ($scoreB - $expB);
+                    $delta[$a] += $k * ($scoreA - $expA);
+                    $delta[$b] += $k * ($scoreB - $expB);
 
                     // tallied from raw votes, not $scoreA — an outcome is the
                     // same regardless of which scoring rule this run is using,
@@ -410,6 +441,10 @@ function elo_run(array $byPool, array $entrantId, callable $scoreFn): array
             // other id-keyed site data without re-deriving it from the name
             $id = $entrantId["$pool|$name"] ?? throw new RuntimeException("no registry id for \"$name\" in pool \"$pool\" while building the Elo output");
 
+            // the entrant's most recent match — $history[$name] is chronological
+            // and always has >=1 row for anyone who has a rating
+            $lastMatch = $history[$name][count($history[$name]) - 1];
+
             $rows[] = [
                 'id' => $id,
                 // (string) cast: PHP silently coerces a purely-numeric string
@@ -423,6 +458,7 @@ function elo_run(array $byPool, array $entrantId, callable $scoreFn): array
                 'rating'          => round($final, 1),
                 'peak_rating'     => ['rating' => round($peak[$name]['rating'], 1), 'poll' => $peak[$name]['poll'], 'date' => $peak[$name]['date']],
                 'floor_rating'    => ['rating' => round($floor[$name]['rating'], 1), 'poll' => $floor[$name]['poll'], 'date' => $floor[$name]['date']],
+                'last_match'      => ['contest' => $lastMatch['contest'], 'poll' => $lastMatch['poll'], 'date' => $lastMatch['date']],
                 'matches'         => $stats[$name]['matches'],
                 'first_place'     => $stats[$name]['first_place'],
                 'last_place'      => $stats[$name]['last_place'],
@@ -479,15 +515,19 @@ function elo_print(string $label, array $summary): void
     }
 }
 
-$binary    = elo_run($byPool, $entrantId, pairwiseScore(...));
-$voteShare = elo_run($byPool, $entrantId, voteShareScore(...));
+$binary         = elo_run($byPool, $entrantId, pairwiseScore(...));
+$voteShare      = elo_run($byPool, $entrantId, voteShareScore(...));
+$voteShareTuned = elo_run($byPool, $entrantId, voteShareScore(...), K_TUNED);
 
 $enc = fn (array $d): string => json_encode($d, JSON_PRETTY_PRINT | JSON_UNESCAPED_SLASHES | JSON_UNESCAPED_UNICODE) . "\n";
 file_put_contents($ROOT . '/data/elo.json', $enc($binary['summary']));
 file_put_contents($ROOT . '/data/elo-history.json', $enc($binary['history']));
 file_put_contents($ROOT . '/data/elo-voteshare.json', $enc($voteShare['summary']));
 file_put_contents($ROOT . '/data/elo-history-voteshare.json', $enc($voteShare['history']));
-printf("wrote data/elo.json, data/elo-history.json, data/elo-voteshare.json, data/elo-history-voteshare.json\n\n");
+file_put_contents($ROOT . '/data/elo-voteshare-tuned.json', $enc($voteShareTuned['summary']));
+file_put_contents($ROOT . '/data/elo-history-voteshare-tuned.json', $enc($voteShareTuned['history']));
+printf("wrote data/elo.json, data/elo-history.json, data/elo-voteshare.json, data/elo-history-voteshare.json, data/elo-voteshare-tuned.json, data/elo-history-voteshare-tuned.json\n\n");
 
 elo_print('BINARY  (data/elo.json — rating predicts P(more votes))', $binary['summary']);
 elo_print('SCORE-BASED  (data/elo-voteshare.json — rating predicts expected vote share)', $voteShare['summary']);
+elo_print('SCORE-BASED, TUNED  (data/elo-voteshare-tuned.json — K=' . K_TUNED . ', tuned for poll-outcome prediction)', $voteShareTuned['summary']);

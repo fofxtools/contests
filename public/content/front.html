@@ -17,12 +17,14 @@ Oracle - Teams
 <h3>Elo Ratings</h3>
 <p>Elo ratings for every entrant, built from all official contest matches and kept in separate pools by type (character, game, series, rivalry, year).</p>
 <ul>
-<li><a href="/elo">Elo standings</a> - each entrant links to an individual rating-history graph.</li>
-<li><a href="/elo/compare">Head-to-head comparison</a> - chart several entrants&rsquo; rating histories together and get an estimated matchup between any two.</li>
+<li><a href="/elo?method=voteshare_tuned">Tuned Elo ratings</a> - the vote-share Elo ratings tuned to best match real poll outcomes.</li>
+<li><a href="/elo">Base Elo standings</a> - each entrant links to an individual rating-history graph.</li>
+<li><a href="/elo/compare?pool=character&amp;method=voteshare_tuned">Head-to-head comparison (tuned)</a> - chart several entrants&rsquo; rating histories together and get an estimated matchup between any two. <a href="/elo/compare?pool=character&amp;ids=47,15,1,93,44,62,63,55&amp;method=voteshare_tuned">Example.</a></li>
 </ul>
 <h3>Site Feature Notes</h3>
 <ul>
 <li>Each <a href='/graph/2922?type=2&amp;seconds=60'>poll-update graph</a> has a <strong>Smoothing</strong> control (all updates / 1 min / 5 min / 15 min) for the noisier matches. You can also set any interval by hand with <code>&amp;seconds=N</code> in the URL (e.g. <code>&amp;seconds=3600</code> for hourly).</li>
+<li>For graphs, you can click on the legend to hide an entrant.</li>
 <li>A copy of <span id="oldsite-link">the original site</span> is kept as an archive. Login - stats:stats <noscript>(JavaScript required for the link.)</noscript></li>
 </ul>
 <script>

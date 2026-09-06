@@ -1,5 +1,16 @@
 # Changelog
 
+## [1.1.4] - 2026-09-06
+
+### Added
+
+- Elo ratings: a third variant, **vote-share (tuned)**
+  (`?method=voteshare_tuned` on `/elo` and `/elo/compare`). The vote-share
+  model with its K-factor raised from 32 to 256, so the rating follows an
+  entrant's recent form instead of their career average — a walk-forward tune
+  found this predicts a real poll's split more accurately. Linked from the home
+  page.
+
 ## [1.1.3] - 2026-09-06
 
 ### Added

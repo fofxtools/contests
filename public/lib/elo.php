@@ -6,24 +6,26 @@ declare(strict_types=1);
  * lib/elo.php — three pages, all reading the precomputed data/elo*.json
  * (no DB, no live computation):
  *   /elo          — elo_standings_render(): sortable standings table, one pool
- *                   at a time (character default), current + peak columns,
- *                   ?method=voteshare for the vote-share variant.
+ *                   at a time (character default), current + peak columns.
  *   /elo/{id}     — elo_render(): a single entrant's rating-history graph.
  *   /elo/compare  — elo_compare_render(): several entrants' histories overlaid.
  *
- * lib/elo.php — /elo/{id}: a single entrant's Elo rating history graph.
- * MVP per tmp/elo-graphs-plan.md's Step 2. Reads the files
- * scripts/elo-compute.php produces — no DB access, no live computation, this
- * only renders what's already been computed. There are two rating variants,
- * selected by ?method=:
- *   binary    (default) — data/elo.json / data/elo-history.json; a match is
- *              scored 1/0 win-loss, so the rating predicts P(more votes).
- *   voteshare (?method=voteshare) — data/elo-voteshare.json /
- *              data/elo-history-voteshare.json; a match is scored by each
- *              side's share of the two entrants' combined vote (55/45 -> 0.55),
- *              so the rating predicts expected vote share. Identical in every
- *              parameter (K=32, 400 divisor, multi-way K/(n-1) normalization);
- *              only the per-pairing score differs.
+ * All three read the files scripts/elo-compute.php produces — no DB, no live
+ * computation. Three rating variants, selected by ?method= (see the helpers
+ * just below, and elo-compute.php's header for how each is computed):
+ *   binary          (default) — data/elo*.json; a match is scored 1/0
+ *                   win-loss, so the rating predicts P(more votes).
+ *   voteshare       (?method=voteshare) — data/elo-voteshare*.json; a match is
+ *                   scored by each side's share of the two entrants' combined
+ *                   vote (55/45 -> 0.55), so the rating predicts expected vote
+ *                   share. K=32, 400 divisor, multi-way K/(n-1) normalization.
+ *   voteshare_tuned (?method=voteshare_tuned) — data/elo-voteshare-tuned*.json;
+ *                   the vote-share model with K raised from 32 to 256 (a
+ *                   walk-forward tune found a fast-adapting rating predicts a
+ *                   real poll's split better than a slow career average). Same
+ *                   400 scale as the others, so it reads and predicts the same
+ *                   way, just with values that follow recent form — see
+ *                   tmp/elo-tune-notes.md.
  *
  * ?basis= controls which rating the "Estimated head-to-head" table on
  * /elo/compare reads: 'current' (default) is the rating after the entrant's
@@ -52,12 +54,66 @@ require_once __DIR__ . '/entrants.php';
 
 const ELO_POOLS = ['character', 'game', 'series', 'rivalry', 'year'];
 
-/** ?method= — which rating variant to load. 'voteshare' selects the
- *  score-based files; anything else (including absent) is the binary default.
- *  See this file's header comment for what the two mean. */
+/** The three rating variants selectable via ?method=. */
+const ELO_METHODS = ['binary', 'voteshare', 'voteshare_tuned'];
+
+/** ?method= — which rating variant to load. 'voteshare' / 'voteshare_tuned'
+ *  select the score-based files; anything else (including absent) is the binary
+ *  default. See this file's header comment for what they mean. */
 function elo_method(): string
 {
-    return ($_GET['method'] ?? '') === 'voteshare' ? 'voteshare' : 'binary';
+    $m = (string) ($_GET['method'] ?? '');
+
+    return in_array($m, ELO_METHODS, true) ? $m : 'binary';
+}
+
+/** URL query fragment carrying a non-default method through internal links:
+ *  '' for binary, '&method=…' otherwise. Pass $amp=true in raw-HTML attribute
+ *  context (a literal href string, not run through htmlspecialchars). */
+function elo_mq(string $method, bool $amp = false): string
+{
+    return $method === 'binary' ? '' : ($amp ? '&amp;' : '&') . 'method=' . $method;
+}
+
+/** Human suffix for page titles / axis labels. */
+function elo_method_suffix(string $method): string
+{
+    return match ($method) {
+        'voteshare'       => ' (vote-share)',
+        'voteshare_tuned' => ' (vote-share, tuned)',
+        default           => '',
+    };
+}
+
+/** Short label for the Rating: toggle row. */
+function elo_method_label(string $method): string
+{
+    return match ($method) {
+        'voteshare'       => 'Vote share',
+        'voteshare_tuned' => 'Vote share (tuned)',
+        default           => 'Binary (P more votes)',
+    };
+}
+
+/** Both vote-share variants predict expected share; binary predicts P(win). */
+function elo_is_share(string $method): bool
+{
+    return $method === 'voteshare' || $method === 'voteshare_tuned';
+}
+
+/** The "Rating: Binary | Vote share | Vote share (tuned)" toggle row.
+ *  $linkFor maps a method name to its href; $esc escapes it for an attribute. */
+function elo_method_toggle(string $current, callable $linkFor, callable $esc): string
+{
+    $parts = [];
+    foreach (ELO_METHODS as $mm) {
+        $lbl     = elo_method_label($mm);
+        $parts[] = $mm === $current
+            ? '<strong>' . $lbl . '</strong>'
+            : '<a href="' . $esc($linkFor($mm)) . '">' . $lbl . '</a>';
+    }
+
+    return '<p class="elo-toggle"><strong>Rating:</strong> ' . implode(' | ', $parts) . '</p>';
 }
 
 /** ?basis= — which rating the /elo/compare head-to-head table reads. 'peak'
@@ -75,7 +131,11 @@ function elo_data(string $method = 'binary'): array
 {
     static $cache = [];
     if (!isset($cache[$method])) {
-        $file           = $method === 'voteshare' ? 'elo-voteshare.json' : 'elo.json';
+        $file = match ($method) {
+            'voteshare'       => 'elo-voteshare.json',
+            'voteshare_tuned' => 'elo-voteshare-tuned.json',
+            default           => 'elo.json',
+        };
         $path           = dirname(__DIR__, 2) . '/data/' . $file;
         $cache[$method] = json_decode((string) file_get_contents($path), true) ?? [];
     }
@@ -88,7 +148,11 @@ function elo_history_data(string $method = 'binary'): array
 {
     static $cache = [];
     if (!isset($cache[$method])) {
-        $file           = $method === 'voteshare' ? 'elo-history-voteshare.json' : 'elo-history.json';
+        $file = match ($method) {
+            'voteshare'       => 'elo-history-voteshare.json',
+            'voteshare_tuned' => 'elo-history-voteshare-tuned.json',
+            default           => 'elo-history.json',
+        };
         $path           = dirname(__DIR__, 2) . '/data/' . $file;
         $cache[$method] = json_decode((string) file_get_contents($path), true) ?? [];
     }
@@ -130,7 +194,9 @@ function elo_contest_date_ranges(): array
 }
 
 /** Elo expected score of A vs B — P(A gets more votes than B) under the
- *  logistic model, the same formula scripts/elo-compute.php's updates use. */
+ *  logistic model, the same formula scripts/elo-compute.php's updates use.
+ *  All three variants sit on the same 400 scale (the tuned one differs only in
+ *  K), so no per-method divisor is needed here. */
 function elo_expected(float $ratingA, float $ratingB): float
 {
     return 1.0 / (1.0 + 10 ** (($ratingB - $ratingA) / 400.0));
@@ -294,9 +360,9 @@ function elo_render(int $id): array
     }
 
     $h       = fn (string $s): string => htmlspecialchars($s, ENT_QUOTES, 'UTF-8');
-    $mSuffix = $method === 'voteshare' ? '&method=voteshare' : '';
+    $mSuffix = elo_mq($method);
     $q       = fn (string $mode): string => '/elo/' . $id . '?x=' . $mode . $mSuffix;
-    $mLink   = fn (string $mm): string => '/elo/' . $id . '?x=' . $xMode . ($mm === 'voteshare' ? '&method=voteshare' : '');
+    $mLink   = fn (string $mm): string => '/elo/' . $id . '?x=' . $xMode . elo_mq($mm);
 
     ob_start(); ?>
 <p class="elo-summary">
@@ -312,16 +378,12 @@ Current rating: <strong><?= number_format($row['rating'], 1) ?></strong>
 &middot; <?= $row['two_way_wins'] ?>-<?= $row['two_way_losses'] ?> 2-way W-L
 &middot; <?= $row['pairwise_wins'] ?>-<?= $row['pairwise_losses'] ?>-<?= $row['pairwise_draws'] ?> pairwise
 </p>
-<p class="elo-toggle"><strong>Rating:</strong>
-<?php if ($method === 'binary'): ?><strong>Binary (P more votes)</strong><?php else: ?><a href="<?= $h($mLink('binary')) ?>">Binary (P more votes)</a><?php endif; ?>
-|
-<?php if ($method === 'voteshare'): ?><strong>Vote share</strong><?php else: ?><a href="<?= $h($mLink('voteshare')) ?>">Vote share</a><?php endif; ?>
-</p>
+<?= elo_method_toggle($method, $mLink, $h) ?>
 <p class="elo-toggle"><strong>X-axis:</strong>
 <?php if ($xMode === 'index'): ?><strong>By match #</strong><?php else: ?><a href="<?= $h($q('index')) ?>">By match #</a><?php endif; ?>
 |
 <?php if ($xMode === 'date'): ?><strong>By date</strong><?php else: ?><a href="<?= $h($q('date')) ?>">By date</a><?php endif; ?>
-&nbsp;&nbsp; <a href="/elo/compare?pool=<?= $h($row['pool']) ?>&amp;ids=<?= $id ?><?= $method === 'voteshare' ? '&amp;method=voteshare' : '' ?>">Compare with others</a>
+&nbsp;&nbsp; <a href="/elo/compare?pool=<?= $h($row['pool']) ?>&amp;ids=<?= $id ?><?= elo_mq($method, true) ?>">Compare with others</a>
 </p>
 
 <div class="graph-box"><canvas id="elograph"></canvas></div>
@@ -426,14 +488,14 @@ const elograph = new Chart(document.getElementById('elograph'), {
           callback: (v) => new Date((FIRST_DATE_TS + v * 86400) * 1000).toISOString().slice(0, 10),
         } : {},
       },
-      y: { title: { display: true, text: <?= json_encode($method === 'voteshare' ? 'Elo rating (vote-share)' : 'Elo rating') ?> } },
+      y: { title: { display: true, text: <?= json_encode('Elo rating' . elo_method_suffix($method)) ?> } },
     },
   },
 });
 </script>
 <?php
     return [
-        'title' => $row['name'] . ' — Elo rating' . ($method === 'voteshare' ? ' (vote-share)' : ''),
+        'title' => $row['name'] . ' — Elo rating' . elo_method_suffix($method),
         'body'  => ob_get_clean(),
         'code'  => 200,
     ];
@@ -458,11 +520,13 @@ function elo_standings_render(): array
     $rows = elo_data($method)[$pool] ?? [];
 
     // sortable columns — each comparator is that column's natural best-first
-    // order; name ties broken by name, rating ties by name
+    // order; ties broken by name
     $cmp = [
         'name'    => fn ($a, $b) => strcasecmp((string) $a['name'], (string) $b['name']),
         'current' => fn ($a, $b) => [$b['rating'], strtolower((string) $a['name'])] <=> [$a['rating'], strtolower((string) $b['name'])],
         'peak'    => fn ($a, $b) => [$b['peak_rating']['rating'], strtolower((string) $a['name'])] <=> [$a['peak_rating']['rating'], strtolower((string) $b['name'])],
+        'last'    => fn ($a, $b) => [$b['last_match']['date'], strtolower((string) $a['name'])] <=> [$a['last_match']['date'], strtolower((string) $b['name'])],
+        'matches' => fn ($a, $b) => [$b['matches'], strtolower((string) $a['name'])] <=> [$a['matches'], strtolower((string) $b['name'])],
     ];
     $sort = (string) ($_GET['sort'] ?? 'current');
     if (!isset($cmp[$sort])) {
@@ -489,8 +553,8 @@ function elo_standings_render(): array
         if ($p['pool'] !== 'character') {
             $q['pool'] = $p['pool'];
         }
-        if ($p['method'] === 'voteshare') {
-            $q['method'] = 'voteshare';
+        if ($p['method'] !== 'binary') {
+            $q['method'] = $p['method'];
         }
         if ($p['sort'] !== 'current') {
             $q['sort'] = $p['sort'];
@@ -521,43 +585,47 @@ function elo_standings_render(): array
     }
 
     ob_start(); ?>
-<p>Elo ratings for every entrant, computed from all official contest matches
-(start 1500, K=32). Ratings live in separate pools by type and are not
-comparable across pools. In the <strong>binary</strong> variant a match is
-scored 1/0 win-loss, so the rating tracks probability of getting more votes; in
-the <strong>vote-share</strong> variant it is scored by each side's share of the
-combined vote, so the rating tracks expected vote share.</p>
+<p>Elo ratings for every entrant, computed from all official contest matches,
+starting at 1500 with the chess-standard K-factor of 32. Ratings live in
+separate pools by type and are not comparable across pools. In the
+<strong>binary</strong> variant a match is scored 1/0 win-loss, so the rating
+tracks the probability of getting more votes; in the <strong>vote-share</strong>
+variant it is scored by each side&rsquo;s share of the combined vote, so the rating
+tracks expected vote share.</p>
+
+<p><strong>Vote share (tuned)</strong> is the vote-share model with its
+K-factor (sensitivity to individual results) raised from 32 to 256.
+A high K-factor makes recent matches count for much more, so the rating follows
+an entrant&rsquo;s current form rather than a stable career average.</p>
 
 <p class="amr-views"><strong>See also:</strong>
-<a href="/elo/compare?pool=<?= $hh($pool) ?><?= $method === 'voteshare' ? '&amp;method=voteshare' : '' ?>">Head-to-head comparison</a>
+<a href="/elo/compare?pool=<?= $hh($pool) ?><?= elo_mq($method, true) ?>">Head-to-head comparison</a>
 (chart histories, estimated matchups).</p>
 
 <p class="elo-summary"><strong>Pool:</strong> <?= implode(' &middot; ', $poolLinks) ?></p>
-<p class="elo-toggle"><strong>Rating:</strong>
-<?php if ($method === 'binary'): ?><strong>Binary (P more votes)</strong><?php else: ?><a href="<?= $hh($url(['method' => 'binary'])) ?>">Binary (P more votes)</a><?php endif; ?>
-|
-<?php if ($method === 'voteshare'): ?><strong>Vote share</strong><?php else: ?><a href="<?= $hh($url(['method' => 'voteshare'])) ?>">Vote share</a><?php endif; ?>
-</p>
+<?= elo_method_toggle($method, fn (string $mm) => $url(['method' => $mm]), $hh) ?>
 
-<p class="amr-meta"><?= number_format(count($rows)) ?> entrants. Click a column heading to sort. Peak shows the highest rating ever reached (hover for the date).</p>
+<p class="amr-meta"><?= number_format(count($rows)) ?> entrants. Click a column heading to sort. Peak shows the highest rating ever reached (hover for the date); Last seen is the entrant&rsquo;s most recent match &mdash; a rating frozen years ago is only as current as that.</p>
 
 <div class="amr-wrap"><table class="elo-standings">
-<thead><tr><th>#</th><?= $th('name', 'Entrant') ?><?= $th('current', 'Current') ?><?= $th('peak', 'Peak') ?></tr></thead>
+<thead><tr><th>#</th><?= $th('name', 'Entrant') ?><?= $th('current', 'Current') ?><?= $th('peak', 'Peak') ?><?= $th('last', 'Last seen') ?><?= $th('matches', 'Matches') ?></tr></thead>
 <tbody>
 <?php $i = 0;
     foreach ($rows as $r): $i++; ?>
 <tr>
  <td class="elo-n"><?= $i ?></td>
- <td><a href="/elo/<?= (int) $r['id'] ?><?= $method === 'voteshare' ? '?method=voteshare' : '' ?>"><?= $hh((string) $r['name']) ?></a></td>
+ <td><a href="/elo/<?= (int) $r['id'] ?><?= $method === 'binary' ? '' : '?method=' . $hh($method) ?>"><?= $hh((string) $r['name']) ?></a></td>
  <td class="elo-n"><?= number_format((float) $r['rating'], 1) ?></td>
  <td class="elo-n" title="<?= $hh((string) $r['peak_rating']['date']) ?>"><?= number_format((float) $r['peak_rating']['rating'], 1) ?></td>
+ <td title="<?= $hh((string) $r['last_match']['date']) ?>"><?= $hh((string) $r['last_match']['contest']) ?> (<?= substr((string) $r['last_match']['date'], 0, 4) ?>)</td>
+ <td class="elo-n"><?= number_format((int) $r['matches']) ?></td>
 </tr>
 <?php endforeach; ?>
 </tbody>
 </table></div>
 <?php
     return [
-        'title' => 'Elo Ratings' . ($method === 'voteshare' ? ' (vote-share)' : ''),
+        'title' => 'Elo Ratings' . elo_method_suffix($method),
         'body'  => ob_get_clean(),
         'code'  => 200,
     ];
@@ -692,14 +760,14 @@ function elo_compare_render(): array
     }
 
     // non-default view params that every internal link should carry through
-    $carry    = ($method === 'voteshare' ? '&method=voteshare' : '') . ($basis === 'peak' ? '&basis=peak' : '');
+    $carry    = elo_mq($method) . ($basis === 'peak' ? '&basis=peak' : '');
     $idsP     = implode(',', $ids);
     $poolLink = fn (string $p): string => '/elo/compare?pool=' . $p . $carry;
     $xLink    = fn (string $m): string => '/elo/compare?pool=' . $pool . '&ids=' . $idsP . '&x=' . $m . $carry;
     $mLink    = fn (string $mm): string => '/elo/compare?pool=' . $pool . '&ids=' . $idsP . '&x=' . $xMode
-        . ($mm === 'voteshare' ? '&method=voteshare' : '') . ($basis === 'peak' ? '&basis=peak' : '');
+        . elo_mq($mm) . ($basis === 'peak' ? '&basis=peak' : '');
     $bLink = fn (string $bb): string => '/elo/compare?pool=' . $pool . '&ids=' . $idsP . '&x=' . $xMode
-        . ($method === 'voteshare' ? '&method=voteshare' : '') . ($bb === 'peak' ? '&basis=peak' : '');
+        . elo_mq($method) . ($bb === 'peak' ? '&basis=peak' : '');
 
     $poolLinks = [];
     foreach (ELO_POOLS as $p) {
@@ -713,7 +781,7 @@ function elo_compare_render(): array
 
 <form method="get" action="/elo/compare">
 <input type="hidden" name="pool" value="<?= $hh($pool) ?>">
-<?php if ($method === 'voteshare'): ?><input type="hidden" name="method" value="voteshare"><?php endif; ?>
+<?php if ($method !== 'binary'): ?><input type="hidden" name="method" value="<?= $hh($method) ?>"><?php endif; ?>
 <?php if ($basis === 'peak'): ?><input type="hidden" name="basis" value="peak"><?php endif; ?>
 <p>Select up to 8 entrants to compare (Ctrl/Cmd-click, or Shift-click for a range), then <strong>Compare</strong>:</p>
 <select name="ids[]" multiple size="12" style="width:100%; max-width:420px;">
@@ -729,11 +797,7 @@ function elo_compare_render(): array
 <?php endif; ?>
 
 <?php if ($ids): ?>
-<p class="elo-toggle"><strong>Rating:</strong>
-<?php if ($method === 'binary'): ?><strong>Binary (P more votes)</strong><?php else: ?><a href="<?= $hh($mLink('binary')) ?>">Binary (P more votes)</a><?php endif; ?>
-|
-<?php if ($method === 'voteshare'): ?><strong>Vote share</strong><?php else: ?><a href="<?= $hh($mLink('voteshare')) ?>">Vote share</a><?php endif; ?>
-</p>
+<?= elo_method_toggle($method, $mLink, $hh) ?>
 <p class="elo-toggle"><strong>Basis:</strong>
 <?php if ($basis === 'current'): ?><strong>Current</strong><?php else: ?><a href="<?= $hh($bLink('current')) ?>">Current</a><?php endif; ?>
 |
@@ -748,7 +812,7 @@ function elo_compare_render(): array
 
 <p class="elo-toggle"><strong>View individually:</strong>
 <?php foreach ($ids as $i => $id): ?>
-<a href="/elo/<?= $id ?><?= $method === 'voteshare' ? '?method=voteshare' : '' ?>"><?= $hh($byId[$id]['name']) ?></a><?= $i < count($ids) - 1 ? ' &middot; ' : '' ?>
+<a href="/elo/<?= $id ?><?= $method === 'binary' ? '' : '?method=' . $hh($method) ?>"><?= $hh($byId[$id]['name']) ?></a><?= $i < count($ids) - 1 ? ' &middot; ' : '' ?>
 <?php endforeach; ?>
 </p>
 
@@ -822,7 +886,7 @@ new Chart(document.getElementById('elocompare'), {
           callback: (v) => new Date((FIRST_DATE_TS + v * 86400) * 1000).toISOString().slice(0, 10),
         } : {},
       },
-      y: { title: { display: true, text: <?= json_encode($method === 'voteshare' ? 'Elo rating (vote-share)' : 'Elo rating') ?> } },
+      y: { title: { display: true, text: <?= json_encode('Elo rating' . elo_method_suffix($method)) ?> } },
     },
   },
 });
@@ -837,7 +901,7 @@ new Chart(document.getElementById('elocompare'), {
 &middot; <strong><?= $hh($byId[$b]['name']) ?></strong> <?= round((1 - $pa) * 100) ?>%</p>
 <?php else: ?>
 <div class="amr-wrap"><table class="elo-matrix">
-<thead><tr><th><?= $method === 'voteshare' ? 'Expected vote share' : 'Win probability' ?></th>
+<thead><tr><th><?= elo_is_share($method) ? 'Expected vote share' : 'Win probability' ?></th>
 <?php foreach ($ids as $cid): ?><th>vs. <?= $hh($byId[$cid]['name']) ?></th><?php endforeach; ?>
 </tr></thead>
 <tbody>
@@ -858,12 +922,15 @@ new Chart(document.getElementById('elocompare'), {
 <?php $ratingCaveat = $basis === 'peak'
     ? 'Each rating is the entrant&rsquo;s peak &mdash; the highest it ever reached &mdash; and those peaks fall on different dates, so this is a &ldquo;both at their best&rdquo; matchup, not a forecast for any real poll.'
     : 'Each rating is the entrant&rsquo;s most recent value, which is not necessarily as of the same date &mdash; an entrant who last competed years ago carries a rating frozen from then.'; ?>
-<?php if ($method === 'voteshare'): ?>
+<?php if (elo_is_share($method)): ?>
 <p class="elo-matrix-note">Estimated share of the vote the first entrant would take
 against the second in a hypothetical head-to-head poll, from the Elo rating gap
 (<code>1 / (1 + 10^((R<sub>b</sub>&nbsp;&minus;&nbsp;R<sub>a</sub>) / 400))</code>).
 These are vote-share Elo ratings, so this is a predicted share of the vote, not a
-win probability. <?= $ratingCaveat ?></p>
+win probability.<?php if ($method === 'voteshare_tuned'): ?> These ratings weight
+recent form heavily (a high K-factor), which sharpens the estimate for a poll held
+now &mdash; see the note on <a href="/elo?method=voteshare_tuned">the standings
+page</a>.<?php endif; ?> <?= $ratingCaveat ?></p>
 <?php else: ?>
 <p class="elo-matrix-note">Estimated probability the first entrant gets more votes
 than the second in a hypothetical head-to-head poll, from the Elo rating gap
@@ -874,7 +941,7 @@ This is a win probability, not a predicted share of the vote. <?= $ratingCaveat 
 <?php endif; ?>
 <?php
     return [
-        'title' => 'Compare Elo ratings' . ($method === 'voteshare' ? ' (vote-share)' : ''),
+        'title' => 'Compare Elo ratings' . elo_method_suffix($method),
         'body'  => ob_get_clean(),
         'code'  => 200,
     ];
