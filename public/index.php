@@ -14,7 +14,7 @@ ini_set('display_errors', '0');
 require __DIR__ . '/lib/config.php';
 require __DIR__ . '/lib/router.php';
 require __DIR__ . '/lib/content.php';
-foreach (['contest', 'calc', 'graph', 'oracle-functions', 'paa'] as $mod) {
+foreach (['contest', 'calc', 'graph', 'oracle-functions', 'paa', 'elo'] as $mod) {
     $p = __DIR__ . "/lib/$mod.php";
     if (is_file($p)) {
         require $p;
@@ -130,6 +130,27 @@ switch ($r['handler']) {
             $content = '<p>Poll-update graphs for match ' . (int)$r['match'] . ' are being rebuilt &mdash; coming soon.</p>';
         }
         $breadcrumb = crumb(htmlspecialchars($title));
+
+        break;
+
+    case 'elo_standings':
+        $e                        = elo_standings_render();
+        [$title, $content, $code] = [$e['title'], $e['body'], $e['code']];
+        $breadcrumb               = crumb(htmlspecialchars($title));
+
+        break;
+
+    case 'elo':
+        $e                        = elo_render((int) $r['id']);
+        [$title, $content, $code] = [$e['title'], $e['body'], $e['code']];
+        $breadcrumb               = crumb(htmlspecialchars($title));
+
+        break;
+
+    case 'elo_compare':
+        $e                        = elo_compare_render();
+        [$title, $content, $code] = [$e['title'], $e['body'], $e['code']];
+        $breadcrumb               = crumb(htmlspecialchars($title));
 
         break;
 

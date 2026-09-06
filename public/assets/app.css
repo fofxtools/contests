@@ -23,6 +23,22 @@
 .graph-help { color: #555; font-size: .95em; }
 .graph-nav a[style] { text-decoration: underline; }
 
+/* /elo/compare — pairwise win-probability matrix */
+table.elo-matrix { border-collapse: collapse; font-size: .9em; margin: .4em 0 .6em; }
+table.elo-matrix th, table.elo-matrix td { border: 1px solid #bbb; padding: 3px 7px; text-align: center; white-space: nowrap; }
+table.elo-matrix thead th, table.elo-matrix tbody th { background: #eee; text-align: left; font-weight: bold; }
+table.elo-matrix td.elo-diag { background: #f4f4f4; color: #999; }
+.elo-matrix-note { color: #555; font-size: .9em; margin: .2em 0 1em; }
+
+/* /elo — sortable standings table */
+table.elo-standings { border-collapse: collapse; font-size: .92em; width: 100%; max-width: 40em; }
+table.elo-standings th, table.elo-standings td { border: 1px solid #bbb; padding: 3px 8px; }
+table.elo-standings thead th { background: #eee; }
+table.elo-standings th a { text-decoration: none; }
+table.elo-standings td a { text-decoration: none; }
+table.elo-standings td a:hover { text-decoration: underline; }
+table.elo-standings td.elo-n { text-align: right; white-space: nowrap; }
+
 /* /node/100 — All Match Results */
 .amr-views, .amr-meta, .amr-filter { margin: .35em 0; }
 .amr-meta { color: #555; font-size: .95em; }

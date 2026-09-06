@@ -53,6 +53,11 @@ return json_decode(<<<'JSON'
     "children": []
    },
    {
+    "title": "Elo Ratings",
+    "path": "/elo",
+    "children": []
+   },
+   {
     "title": "Sortable Tables for All Matches (2002–2006)",
     "path": "/node/19",
     "children": []

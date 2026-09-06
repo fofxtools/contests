@@ -1,5 +1,19 @@
 # Changelog
 
+## [1.1.3] - 2026-09-06
+
+### Added
+
+- Elo ratings for every entrant, from all official contest matches (start 1500,
+  K=32), kept in separate pools by type (character, game, series, rivalry, year):
+  - `/elo`: sortable standings — current and peak rating, one pool at a time.
+  - `/elo/{id}`: an entrant's full rating history as a graph, by match or by date.
+  - `/elo/compare`: several entrants' histories overlaid, with an estimated
+    head-to-head for any two.
+  - Two variants throughout: **binary** (rating tracks the chance of getting
+    more votes) and **vote-share** (rating tracks the expected share of the vote).
+- Elo ratings linked from the home page and the Contest Resources menu.
+
 ## [1.1.2] - 2026-09-05
 
 ### Added
