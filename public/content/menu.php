@@ -10,7 +10,7 @@ return json_decode(<<<'JSON'
  },
  {
   "title": "Board 8 Wiki",
-  "path": "http://board8.wikia.com/wiki/Main_Page",
+  "path": "http://board8.fandom.com/wiki/Main_Page",
   "children": []
  },
  {
@@ -30,6 +30,11 @@ return json_decode(<<<'JSON'
    {
     "title": "All Match Results",
     "path": "/node/100",
+    "children": []
+   },
+   {
+    "title": "All Match Pictures",
+    "path": "/node/102",
     "children": []
    },
    {
@@ -367,7 +372,7 @@ return json_decode(<<<'JSON'
    },
    {
     "title": "Bracket",
-    "path": "http://board8.wikia.com/wiki/Winter_2010_Contest",
+    "path": "http://board8.fandom.com/wiki/Winter_2010_Contest",
     "children": []
    },
    {
@@ -413,7 +418,7 @@ return json_decode(<<<'JSON'
    },
    {
     "title": "Bracket",
-    "path": "http://board8.wikia.com/wiki/Spring_2009_Contest",
+    "path": "http://board8.fandom.com/wiki/Spring_2009_Contest",
     "children": []
    },
    {
@@ -439,7 +444,7 @@ return json_decode(<<<'JSON'
    },
    {
     "title": "Bracket",
-    "path": "http://board8.wikia.com/wiki/Summer_2008_Contest",
+    "path": "http://board8.fandom.com/wiki/Fall_2008_Contest",
     "children": []
    }
   ]
@@ -460,7 +465,7 @@ return json_decode(<<<'JSON'
    },
    {
     "title": "Bracket",
-    "path": "http://board8.wikia.com/wiki/Summer_2007_Contest",
+    "path": "http://board8.fandom.com/wiki/Summer_2007_Contest",
     "children": []
    }
   ]

@@ -1,0 +1,12 @@
+# Hand-curated overrides merged into data/gallery/map.json by scripts/gallery-map.py.
+# Columns (tab-separated):  pattern  poll  confidence  note
+#   pattern      exact filename, or a prefix ending in *  (matched against filename)
+#   confidence   manual    = hand-confirmed
+#                tentative = hand-guess, use with a "?" downstream
+# A manual/tentative row overrides any auto (ordinal) resolution for that file.
+
+# --- consolation / bonus matches (filename # is one past the bracket) ---
+cb6-64*		2926	manual	CB VI "? Block" novelty poll
+bge09-64*	3509	manual	BGE 2K9 OoT vs FFVII 2-way rematch
+gotd-128*	4196	manual	GOTD "Link vs Santa Claus" bonus
+rivals-64*	4573	manual	Rivalry 3rd-place match

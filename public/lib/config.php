@@ -37,7 +37,7 @@ unset($__gf_local, $__gf_host, $__gf_db, $__gf_user, $__gf_pass);
 const PRIMARY_LINKS = [
     ['title' => 'Contest Match Pictures', 'href' => '/gallery/'],
     ['title' => 'OracleChallenge.com',    'href' => 'http://www.oraclechallenge.com'],
-    ['title' => 'Board 8 Wiki',           'href' => 'http://board8.wikia.com/wiki/Main_Page'],
+    ['title' => 'Board 8 Wiki',           'href' => 'http://board8.fandom.com/wiki/Main_Page'],
 ];
 const SECONDARY_LINKS = [
     ['title' => 'SC2K2',  'href' => '/contest/1'],

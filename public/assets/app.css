@@ -57,11 +57,10 @@ table.amr th:nth-child(1) { width: 2.2em; }   /* # */
 table.amr th:nth-child(2) { width: 3.6em; }   /* Poll */
 table.amr th:nth-child(3) { width: 10em; }    /* Contest */
 table.amr th:nth-child(4) { width: 5.3em; }   /* Date */
-table.amr th:nth-child(5) { width: 2em; }     /* n */
-table.amr th:nth-child(6) { width: 20em; }    /* Result */
-table.amr th:nth-child(7) { width: 4.3em; }   /* Total */
-table.amr th:nth-child(8) { width: 3.8em; }   /* Margin (%) */
-table.amr th:nth-child(9) { width: 4.6em; }   /* Margin (votes) */
+table.amr th:nth-child(5) { width: 20em; }    /* Result */
+table.amr th:nth-child(6) { width: 4.3em; }   /* Total */
+table.amr th:nth-child(7) { width: 3.8em; }   /* Margin (%) */
+table.amr th:nth-child(8) { width: 4.6em; }   /* Margin (votes) */
 table.amr td.amr-result > div { padding: 1px 0; }
 table.amr .amr-win { font-weight: bold; }
 .amr-sub { color: #777; font-size: .85em; white-space: nowrap; }
@@ -71,6 +70,18 @@ table.amr tr.amr-bonus { background: #fff7e6; }
 .amr-notes { font-size: .92em; }
 .amr-notes h3 { margin: 1.1em 0 .3em; }
 .amr-notes h4 { margin: .7em 0 .15em; font-size: 1em; }
+
+/* /node/102 — All Match Pictures (reuses table.amr, but 6 fluid columns) */
+table.amp { table-layout: auto; min-width: 34em; }
+table.amp th:nth-child(5), table.amp th:nth-child(6) { width: auto; }
+table.amp td.amr-result { min-width: 12em; }
+td.amp-pics { line-height: 0; }
+td.amp-pics.amp-none { line-height: normal; text-align: center; color: #999; }
+a.amp-th { display: inline-block; margin: 2px; line-height: 0; }
+a.amp-th img { height: 64px; width: auto; max-width: 220px; border: 1px solid #ccc; background: #eee; vertical-align: top; }
+a.amp-th.amp-faded img { opacity: .4; }
+span.amp-grp { display: inline-block; padding: 1px; border: 1px solid transparent; border-radius: 2px; }
+span.amp-grp.amp-hl { border-color: #1a73e8; background: #eaf1fb; }
 
 /* /oracle/predictions — All Predictions Ever */
 table.op td a { text-decoration: none; }

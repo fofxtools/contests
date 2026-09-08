@@ -29,6 +29,35 @@ const GAMEFAQS_LINKS = [
     19 => ['Stats' => 'gotd_20'],
 ];
 
+/**
+ * Contest tid -> Board 8 wiki contest page (board8.fandom.com/wiki/<slug>). One page
+ * per contest. The wiki's slugs for the two 2006 contests read a season early: its
+ * "Spring 2006" page is the Summer 2006 Best Series Ever contest (tid 7) and its
+ * "Summer 2006" page is Character Battle 2006 (tid 8) — the slug is just a URL key,
+ * our own names stand. See scripts/board8wiki-build-writeups.php for the per-match links.
+ */
+const BOARD8WIKI_LINKS = [
+    1  => 'Summer_2002_Contest',
+    2  => 'Summer_2003_Contest',
+    3  => 'Spring_2004_Contest',
+    4  => 'Summer_2004_Contest',
+    5  => 'Spring_2005_Contest',
+    6  => 'Summer_2005_Contest',
+    7  => 'Spring_2006_Contest',
+    8  => 'Summer_2006_Contest',
+    9  => 'Summer_2007_Contest',
+    10 => 'Fall_2008_Contest',
+    11 => 'Spring_2009_Contest',
+    12 => 'Winter_2010_Contest',
+    13 => 'Game_of_the_Decade',
+    14 => 'Rivalry_Rumble',
+    15 => 'Summer_2013_Contest',
+    16 => 'Fall_2015_Contest',
+    17 => 'Best_Year_in_Gaming',
+    18 => 'Character_Battle_X',
+    19 => 'Game_of_the_Decade_2',
+];
+
 function manifest(): array
 {
     static $m;
@@ -280,6 +309,10 @@ function render_front(): array
             $gf = '<td class="pu-none">-</td>';
         }
 
+        $b8 = ($slug = BOARD8WIKI_LINKS[$tid] ?? null)
+            ? '<td><a href="https://board8.fandom.com/wiki/' . $slug . '" rel="nofollow">wiki</a></td>'
+            : '<td class="pu-none">-</td>';
+
         $xs = xstats_for_tid($tid);
         if (!$xs) {
             $xc = '<td class="pu-none">-</td>';
@@ -293,12 +326,12 @@ function render_front(): array
             $xc = '<td>' . implode(' &middot; ', $links) . '</td>';
         }
 
-        $rows[] = "<tr><td>$name</td><td>$desc</td>$pu$gf$xc</tr>";
+        $rows[] = "<tr><td>$name</td><td>$desc</td>$pu$gf$b8$xc</tr>";
     }
 
     $contests = '<h3>Contests</h3>'
               . '<table class="contest-index"><thead><tr>'
-              . '<th>Contest</th><th>Description</th><th>Poll Updates</th><th>Official Links</th><th>X-Stats</th>'
+              . '<th>Contest</th><th>Description</th><th>Poll Updates</th><th>Official Links</th><th>Board 8 Wiki</th><th>X-Stats</th>'
               . '</tr></thead><tbody>' . implode("\n", $rows) . '</tbody></table>';
 
     $tpl = is_readable(CONTENT_DIR . '/front.html') ? file_get_contents(CONTENT_DIR . '/front.html') : '{{CONTESTS_TABLE}}';

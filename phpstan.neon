@@ -8,3 +8,4 @@ parameters:
     excludePaths:
         - vendor
         - tmp
+        - public/gallery

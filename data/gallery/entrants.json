@@ -1,0 +1,2140 @@
+{
+ "BGE 2K15": {
+  "_scheme": "NNN.jpg = entrant index (R1-pairing order); R_NNN[_V].jpg = round-R portrait; 129-131 = joke-poll entrants. index->name from the 64 R1 writeup titles.",
+  "entrants": {
+   "Chrono Trigger": {
+    "index": 1,
+    "base": "001.jpg",
+    "rounds": {
+     "3": "3_001.jpg",
+     "4": "4_001.jpg"
+    },
+    "variants": {}
+   },
+   "Ratchet & Clank: Up Your Arsenal": {
+    "index": 2,
+    "base": "002.jpg",
+    "rounds": {},
+    "variants": {}
+   },
+   "Dragon Quest VIII: Journey of the Cursed King": {
+    "index": 3,
+    "base": "003.jpg",
+    "rounds": {},
+    "variants": {}
+   },
+   "Shin Megami Tensei: Persona 3": {
+    "index": 4,
+    "base": "004.jpg",
+    "rounds": {},
+    "variants": {}
+   },
+   "Batman: Arkham City": {
+    "index": 5,
+    "base": "005.jpg",
+    "rounds": {},
+    "variants": {}
+   },
+   "Mega Man X": {
+    "index": 6,
+    "base": "006.jpg",
+    "rounds": {},
+    "variants": {}
+   },
+   "Final Fantasy X": {
+    "index": 7,
+    "base": "007.jpg",
+    "rounds": {
+     "3": "3_007.jpg"
+    },
+    "variants": {}
+   },
+   "Half-Life": {
+    "index": 8,
+    "base": "008.jpg",
+    "rounds": {},
+    "variants": {}
+   },
+   "Super Smash Bros. Melee": {
+    "index": 9,
+    "base": "009.jpg",
+    "rounds": {
+     "3": "3_009.jpg",
+     "4": "4_009.jpg",
+     "5": "5_009.jpg",
+     "6": "6_009.jpg"
+    },
+    "variants": {}
+   },
+   "Portal": {
+    "index": 10,
+    "base": "010.jpg",
+    "rounds": {},
+    "variants": {}
+   },
+   "Pokémon Gold/Silver/Crystal": {
+    "index": 11,
+    "base": "011.jpg",
+    "rounds": {},
+    "variants": {}
+   },
+   "The World Ends with You": {
+    "index": 12,
+    "base": "012.jpg",
+    "rounds": {},
+    "variants": {}
+   },
+   "Metal Gear Solid 4: Guns of the Patriots": {
+    "index": 13,
+    "base": "013.jpg",
+    "rounds": {},
+    "variants": {}
+   },
+   "Kingdom Hearts II": {
+    "index": 14,
+    "base": "014.jpg",
+    "rounds": {
+     "3": "3_014.jpg"
+    },
+    "variants": {}
+   },
+   "The Last of Us": {
+    "index": 15,
+    "base": "015.jpg",
+    "rounds": {},
+    "variants": {}
+   },
+   "Halo 3": {
+    "index": 16,
+    "base": "016.jpg",
+    "rounds": {},
+    "variants": {}
+   },
+   "Final Fantasy VI": {
+    "index": 17,
+    "base": "017.jpg",
+    "rounds": {
+     "3": "3_017.jpg",
+     "4": "4_017.jpg"
+    },
+    "variants": {}
+   },
+   "Assassin's Creed II": {
+    "index": 18,
+    "base": "018.jpg",
+    "rounds": {},
+    "variants": {}
+   },
+   "Paper Mario: The Thousand-Year Door": {
+    "index": 19,
+    "base": "019.jpg",
+    "rounds": {},
+    "variants": {}
+   },
+   "Tales of Symphonia": {
+    "index": 20,
+    "base": "020.jpg",
+    "rounds": {},
+    "variants": {}
+   },
+   "Star Wars: Knights of the Old Republic": {
+    "index": 21,
+    "base": "021.jpg",
+    "rounds": {},
+    "variants": {}
+   },
+   "Xenogears": {
+    "index": 22,
+    "base": "022.jpg",
+    "rounds": {},
+    "variants": {}
+   },
+   "The Legend of Zelda: The Wind Waker": {
+    "index": 23,
+    "base": "023.jpg",
+    "rounds": {
+     "3": "3_023.jpg"
+    },
+    "variants": {}
+   },
+   "Pokémon X/Y": {
+    "index": 24,
+    "base": "024.jpg",
+    "rounds": {},
+    "variants": {}
+   },
+   "Super Smash Bros. for Wii U": {
+    "index": 25,
+    "base": "025.jpg",
+    "rounds": {
+     "3": "3_025.jpg"
+    },
+    "variants": {}
+   },
+   "Planescape: Torment": {
+    "index": 26,
+    "base": "026.jpg",
+    "rounds": {},
+    "variants": {}
+   },
+   "Super Mario Galaxy 2": {
+    "index": 27,
+    "base": "027.jpg",
+    "rounds": {},
+    "variants": {}
+   },
+   "Mass Effect": {
+    "index": 28,
+    "base": "028.jpg",
+    "rounds": {},
+    "variants": {}
+   },
+   "Minecraft": {
+    "index": 29,
+    "base": "029.jpg",
+    "rounds": {},
+    "variants": {}
+   },
+   "Halo: Combat Evolved": {
+    "index": 30,
+    "base": "030.jpg",
+    "rounds": {},
+    "variants": {}
+   },
+   "Final Fantasy VII": {
+    "index": 31,
+    "base": "031.jpg",
+    "rounds": {
+     "3": "3_031.jpg",
+     "4": "4_031.jpg",
+     "5": "5_031.jpg"
+    },
+    "variants": {}
+   },
+   "Journey": {
+    "index": 32,
+    "base": "032.jpg",
+    "rounds": {},
+    "variants": {}
+   },
+   "Super Mario Bros. 3": {
+    "index": 33,
+    "base": "033.jpg",
+    "rounds": {},
+    "variants": {}
+   },
+   "Age of Empires II: The Age of Kings": {
+    "index": 34,
+    "base": "034.jpg",
+    "rounds": {},
+    "variants": {}
+   },
+   "Pokémon Red/Blue/Yellow/Green": {
+    "index": 35,
+    "base": "035.jpg",
+    "rounds": {
+     "3": "3_035.jpg",
+     "4": "4_035.jpg"
+    },
+    "variants": {}
+   },
+   "Tetris": {
+    "index": 36,
+    "base": "036.jpg",
+    "rounds": {},
+    "variants": {}
+   },
+   "Portal 2": {
+    "index": 37,
+    "base": "037.jpg",
+    "rounds": {},
+    "variants": {}
+   },
+   "Sonic the Hedgehog 2": {
+    "index": 38,
+    "base": "038.jpg",
+    "rounds": {
+     "3": "3_038.jpg"
+    },
+    "variants": {}
+   },
+   "Uncharted 2: Among Thieves": {
+    "index": 39,
+    "base": "039.jpg",
+    "rounds": {},
+    "variants": {}
+   },
+   "The Walking Dead: A Telltale Games Series": {
+    "index": 40,
+    "base": "040.jpg",
+    "rounds": {},
+    "variants": {}
+   },
+   "Fallout 3": {
+    "index": 41,
+    "base": "041.jpg",
+    "rounds": {},
+    "variants": {}
+   },
+   "Life is Strange": {
+    "index": 42,
+    "base": "042.jpg",
+    "rounds": {},
+    "variants": {}
+   },
+   "Undertale": {
+    "index": 43,
+    "base": "043.jpg",
+    "rounds": {
+     "3": "3_043.jpg",
+     "4": "4_043.jpg",
+     "5": "5_043.jpg",
+     "6": "6_043.jpg"
+    },
+    "variants": {
+     "7": [
+      "7_043_1.jpg",
+      "7_043_2.jpg",
+      "7_043_3.jpg",
+      "7_043_4.jpg"
+     ]
+    }
+   },
+   "Mass Effect 3": {
+    "index": 44,
+    "base": "044.jpg",
+    "rounds": {},
+    "variants": {}
+   },
+   "Grand Theft Auto: Vice City": {
+    "index": 45,
+    "base": "045.jpg",
+    "rounds": {},
+    "variants": {}
+   },
+   "Final Fantasy VIII": {
+    "index": 46,
+    "base": "046.jpg",
+    "rounds": {},
+    "variants": {}
+   },
+   "Super Mario World": {
+    "index": 47,
+    "base": "047.jpg",
+    "rounds": {
+     "3": "3_047.jpg"
+    },
+    "variants": {}
+   },
+   "Animal Crossing: New Leaf": {
+    "index": 48,
+    "base": "048.jpg",
+    "rounds": {},
+    "variants": {}
+   },
+   "The Elder Scrolls V: Skyrim": {
+    "index": 49,
+    "base": "049.jpg",
+    "rounds": {
+     "3": "3_049.jpg",
+     "4": "4_049.jpg"
+    },
+    "variants": {}
+   },
+   "Phoenix Wright: Ace Attorney": {
+    "index": 50,
+    "base": "050.jpg",
+    "rounds": {},
+    "variants": {}
+   },
+   "GoldenEye 007": {
+    "index": 51,
+    "base": "051.jpg",
+    "rounds": {},
+    "variants": {}
+   },
+   "Diablo II": {
+    "index": 52,
+    "base": "052.jpg",
+    "rounds": {},
+    "variants": {}
+   },
+   "Metroid Prime": {
+    "index": 53,
+    "base": "053.jpg",
+    "rounds": {
+     "3": "3_053.jpg"
+    },
+    "variants": {}
+   },
+   "The Elder Scrolls III: Morrowind": {
+    "index": 54,
+    "base": "054.jpg",
+    "rounds": {},
+    "variants": {}
+   },
+   "Half-Life 2": {
+    "index": 55,
+    "base": "055.jpg",
+    "rounds": {},
+    "variants": {}
+   },
+   "Demon's Souls": {
+    "index": 56,
+    "base": "056.jpg",
+    "rounds": {},
+    "variants": {}
+   },
+   "Super Mario 64": {
+    "index": 57,
+    "base": "057.jpg",
+    "rounds": {
+     "3": "3_057.jpg",
+     "4": "4_057.jpg",
+     "5": "5_057.jpg"
+    },
+    "variants": {}
+   },
+   "Mario Kart 8": {
+    "index": 58,
+    "base": "058.jpg",
+    "rounds": {},
+    "variants": {}
+   },
+   "Final Fantasy Tactics": {
+    "index": 59,
+    "base": "059.jpg",
+    "rounds": {},
+    "variants": {}
+   },
+   "Resident Evil 2": {
+    "index": 60,
+    "base": "060.jpg",
+    "rounds": {},
+    "variants": {}
+   },
+   "The Legend of Zelda: Twilight Princess": {
+    "index": 61,
+    "base": "061.jpg",
+    "rounds": {
+     "3": "3_061.jpg"
+    },
+    "variants": {}
+   },
+   "Skies of Arcadia": {
+    "index": 62,
+    "base": "062.jpg",
+    "rounds": {},
+    "variants": {}
+   },
+   "Shin Megami Tensei: Persona 4": {
+    "index": 63,
+    "base": "063.jpg",
+    "rounds": {},
+    "variants": {}
+   },
+   "Nine Hours, Nine Persons, Nine Doors": {
+    "index": 64,
+    "base": "064.jpg",
+    "rounds": {},
+    "variants": {}
+   },
+   "The Legend of Zelda: Ocarina of Time": {
+    "index": 65,
+    "base": "065.jpg",
+    "rounds": {
+     "3": "3_065.jpg",
+     "4": "4_065.jpg",
+     "5": "5_065.jpg",
+     "6": "6_065.jpg"
+    },
+    "variants": {
+     "7": [
+      "7_065_1.jpg",
+      "7_065_2.jpg",
+      "7_065_3.jpg",
+      "7_065_4.jpg"
+     ]
+    }
+   },
+   "Hearthstone: Heroes of Warcraft": {
+    "index": 66,
+    "base": "066.jpg",
+    "rounds": {},
+    "variants": {}
+   },
+   "Suikoden II": {
+    "index": 67,
+    "base": "067.jpg",
+    "rounds": {},
+    "variants": {}
+   },
+   "Monster Hunter 4 Ultimate": {
+    "index": 68,
+    "base": "068.jpg",
+    "rounds": {},
+    "variants": {}
+   },
+   "Okami": {
+    "index": 69,
+    "base": "069.jpg",
+    "rounds": {},
+    "variants": {}
+   },
+   "Warcraft III: Reign of Chaos": {
+    "index": 70,
+    "base": "070.jpg",
+    "rounds": {},
+    "variants": {}
+   },
+   "Final Fantasy IX": {
+    "index": 71,
+    "base": "071.jpg",
+    "rounds": {
+     "3": "3_071.jpg"
+    },
+    "variants": {}
+   },
+   "Kingdom Hearts": {
+    "index": 72,
+    "base": "072.jpg",
+    "rounds": {},
+    "variants": {}
+   },
+   "Xenoblade Chronicles": {
+    "index": 73,
+    "base": "073.jpg",
+    "rounds": {},
+    "variants": {}
+   },
+   "Donkey Kong Country 2: Diddy's Kong Quest": {
+    "index": 74,
+    "base": "074.jpg",
+    "rounds": {
+     "3": "3_074.jpg"
+    },
+    "variants": {}
+   },
+   "Fire Emblem: Awakening": {
+    "index": 75,
+    "base": "075.jpg",
+    "rounds": {},
+    "variants": {}
+   },
+   "Super Mario Maker": {
+    "index": 76,
+    "base": "076.jpg",
+    "rounds": {},
+    "variants": {}
+   },
+   "Banjo-Kazooie": {
+    "index": 77,
+    "base": "077.jpg",
+    "rounds": {},
+    "variants": {}
+   },
+   "Baldur's Gate II: Shadows of Amn": {
+    "index": 78,
+    "base": "078.jpg",
+    "rounds": {},
+    "variants": {}
+   },
+   "Castlevania: Symphony of the Night": {
+    "index": 79,
+    "base": "079.jpg",
+    "rounds": {
+     "3": "3_079.jpg",
+     "4": "4_079.jpg"
+    },
+    "variants": {}
+   },
+   "Phoenix Wright: Ace Attorney Trials and Tribulations": {
+    "index": 80,
+    "base": "080.jpg",
+    "rounds": {},
+    "variants": {}
+   },
+   "The Legend of Zelda: A Link to the Past": {
+    "index": 81,
+    "base": "081.jpg",
+    "rounds": {
+     "3": "3_081.jpg",
+     "4": "4_081.jpg",
+     "5": "5_081.jpg"
+    },
+    "variants": {}
+   },
+   "Cave Story": {
+    "index": 82,
+    "base": "082.jpg",
+    "rounds": {},
+    "variants": {}
+   },
+   "Deus Ex": {
+    "index": 83,
+    "base": "083.jpg",
+    "rounds": {},
+    "variants": {}
+   },
+   "Final Fantasy IV": {
+    "index": 84,
+    "base": "084.jpg",
+    "rounds": {},
+    "variants": {}
+   },
+   "Metal Gear Solid V: The Phantom Pain": {
+    "index": 85,
+    "base": "085.jpg",
+    "rounds": {},
+    "variants": {}
+   },
+   "Perfect Dark": {
+    "index": 86,
+    "base": "086.jpg",
+    "rounds": {},
+    "variants": {}
+   },
+   "Dark Souls": {
+    "index": 87,
+    "base": "087.jpg",
+    "rounds": {
+     "3": "3_087.jpg"
+    },
+    "variants": {}
+   },
+   "Sid Meier's Civilization V": {
+    "index": 88,
+    "base": "088.jpg",
+    "rounds": {},
+    "variants": {}
+   },
+   "Super Metroid": {
+    "index": 89,
+    "base": "089.jpg",
+    "rounds": {
+     "3": "3_089.jpg"
+    },
+    "variants": {}
+   },
+   "Call of Duty 4: Modern Warfare": {
+    "index": 90,
+    "base": "090.jpg",
+    "rounds": {},
+    "variants": {}
+   },
+   "Super Mario Galaxy": {
+    "index": 91,
+    "base": "091.jpg",
+    "rounds": {},
+    "variants": {}
+   },
+   "Dragon Age: Origins": {
+    "index": 92,
+    "base": "092.jpg",
+    "rounds": {},
+    "variants": {}
+   },
+   "Bloodborne": {
+    "index": 93,
+    "base": "093.jpg",
+    "rounds": {},
+    "variants": {}
+   },
+   "Final Fantasy XII": {
+    "index": 94,
+    "base": "094.jpg",
+    "rounds": {},
+    "variants": {}
+   },
+   "The Legend of Zelda: Majora's Mask": {
+    "index": 95,
+    "base": "095.jpg",
+    "rounds": {
+     "3": "3_095.jpg",
+     "4": "4_095.jpg"
+    },
+    "variants": {}
+   },
+   "Valkyria Chronicles": {
+    "index": 96,
+    "base": "096.jpg",
+    "rounds": {},
+    "variants": {}
+   },
+   "Grand Theft Auto V": {
+    "index": 97,
+    "base": "097.jpg",
+    "rounds": {},
+    "variants": {}
+   },
+   "Shenmue": {
+    "index": 98,
+    "base": "098.jpg",
+    "rounds": {},
+    "variants": {}
+   },
+   "The Elder Scrolls IV: Oblivion": {
+    "index": 99,
+    "base": "099.jpg",
+    "rounds": {},
+    "variants": {}
+   },
+   "Super Mario RPG: Legend of the Seven Stars": {
+    "index": 100,
+    "base": "100.jpg",
+    "rounds": {
+     "3": "3_100.jpg",
+     "4": "4_100.jpg",
+     "5": "5_100.jpg",
+     "6": "6_100.jpg"
+    },
+    "variants": {}
+   },
+   "Grand Theft Auto: San Andreas": {
+    "index": 101,
+    "base": "101.jpg",
+    "rounds": {},
+    "variants": {}
+   },
+   "Shovel Knight": {
+    "index": 102,
+    "base": "102.jpg",
+    "rounds": {},
+    "variants": {}
+   },
+   "World of Warcraft": {
+    "index": 103,
+    "base": "103.jpg",
+    "rounds": {},
+    "variants": {}
+   },
+   "Chrono Cross": {
+    "index": 104,
+    "base": "104.jpg",
+    "rounds": {
+     "3": "3_104.jpg"
+    },
+    "variants": {}
+   },
+   "The Witcher 3: Wild Hunt": {
+    "index": 105,
+    "base": "105.jpg",
+    "rounds": {},
+    "variants": {}
+   },
+   "The Binding of Isaac: Rebirth": {
+    "index": 106,
+    "base": "106.jpg",
+    "rounds": {},
+    "variants": {}
+   },
+   "Metal Gear Solid 2: Sons of Liberty": {
+    "index": 107,
+    "base": "107.jpg",
+    "rounds": {
+     "3": "3_107.jpg"
+    },
+    "variants": {}
+   },
+   "Resident Evil": {
+    "index": 108,
+    "base": "108.jpg",
+    "rounds": {},
+    "variants": {}
+   },
+   "Fallout: New Vegas": {
+    "index": 109,
+    "base": "109.jpg",
+    "rounds": {},
+    "variants": {}
+   },
+   "BioShock Infinite": {
+    "index": 110,
+    "base": "110.jpg",
+    "rounds": {},
+    "variants": {}
+   },
+   "Resident Evil 4": {
+    "index": 111,
+    "base": "111.jpg",
+    "rounds": {
+     "3": "3_111.jpg",
+     "4": "4_111.jpg"
+    },
+    "variants": {}
+   },
+   "Paper Mario": {
+    "index": 112,
+    "base": "112.jpg",
+    "rounds": {},
+    "variants": {}
+   },
+   "Metal Gear Solid": {
+    "index": 113,
+    "base": "113.jpg",
+    "rounds": {
+     "3": "3_113.jpg",
+     "4": "4_113.jpg"
+    },
+    "variants": {}
+   },
+   "Splatoon": {
+    "index": 114,
+    "base": "114.jpg",
+    "rounds": {},
+    "variants": {}
+   },
+   "EarthBound": {
+    "index": 115,
+    "base": "115.jpg",
+    "rounds": {},
+    "variants": {}
+   },
+   "Borderlands 2": {
+    "index": 116,
+    "base": "116.jpg",
+    "rounds": {},
+    "variants": {}
+   },
+   "Shadow of the Colossus": {
+    "index": 117,
+    "base": "117.jpg",
+    "rounds": {
+     "3": "3_117.jpg"
+    },
+    "variants": {}
+   },
+   "Team Fortress 2": {
+    "index": 118,
+    "base": "118.jpg",
+    "rounds": {},
+    "variants": {}
+   },
+   "Red Dead Redemption": {
+    "index": 119,
+    "base": "119.jpg",
+    "rounds": {},
+    "variants": {}
+   },
+   "Bayonetta 2": {
+    "index": 120,
+    "base": "120.jpg",
+    "rounds": {},
+    "variants": {}
+   },
+   "Metal Gear Solid 3: Snake Eater": {
+    "index": 121,
+    "base": "121.jpg",
+    "rounds": {
+     "3": "3_121.jpg",
+     "4": "4_121.jpg",
+     "5": "5_121.jpg"
+    },
+    "variants": {}
+   },
+   "Mother 3": {
+    "index": 122,
+    "base": "122.jpg",
+    "rounds": {},
+    "variants": {}
+   },
+   "BioShock": {
+    "index": 123,
+    "base": "123.jpg",
+    "rounds": {},
+    "variants": {}
+   },
+   "Silent Hill 2": {
+    "index": 124,
+    "base": "124.jpg",
+    "rounds": {},
+    "variants": {}
+   },
+   "Starcraft": {
+    "index": 125,
+    "base": "125.jpg",
+    "rounds": {},
+    "variants": {}
+   },
+   "Destiny": {
+    "index": 126,
+    "base": "126.jpg",
+    "rounds": {},
+    "variants": {}
+   },
+   "Mass Effect 2": {
+    "index": 127,
+    "base": "127.jpg",
+    "rounds": {
+     "3": "3_127.jpg"
+    },
+    "variants": {}
+   },
+   "Zero Escape: Virtue's Last Reward": {
+    "index": 128,
+    "base": "128.jpg",
+    "rounds": {},
+    "variants": {}
+   }
+  },
+  "joke_files": [
+   "129.jpg",
+   "130.jpg",
+   "131.jpg"
+  ],
+  "dup_files": [
+   "3_14.jpg"
+  ]
+ },
+ "Best Year": {
+  "_scheme": "entrant = year. r1_YYYY.jpg = round-1 portrait (reused in the Wildcard round and, tentatively, for round 2); rN_YYYY_{l,r}.jpg = round-N portrait (l/r = poll side, N in 3-5). YYYY.jpg bare = nomination art, not mapped. Round map in BYEAR_ROUND.",
+  "unused_files": [
+   "1972.jpg",
+   "1973.jpg",
+   "1974.jpg",
+   "1975.jpg",
+   "1976.jpg",
+   "1977.jpg",
+   "1978.jpg",
+   "1979.jpg",
+   "1980.jpg",
+   "1981.jpg",
+   "1982.jpg",
+   "1983.jpg",
+   "1984.jpg"
+  ],
+  "entrants": {
+   "1978": {
+    "nomination": "1978.jpg",
+    "base": "r1_1978.jpg",
+    "rounds": {}
+   },
+   "1979": {
+    "nomination": "1979.jpg",
+    "base": "r1_1979.jpg",
+    "rounds": {}
+   },
+   "1981": {
+    "nomination": "1981.jpg",
+    "base": "r1_1981.jpg",
+    "rounds": {}
+   },
+   "1983": {
+    "nomination": "1983.jpg",
+    "base": "r1_1983.jpg",
+    "rounds": {}
+   },
+   "1985": {
+    "nomination": null,
+    "base": "r1_1985.jpg",
+    "rounds": {}
+   },
+   "1986": {
+    "nomination": null,
+    "base": "r1_1986.jpg",
+    "rounds": {}
+   },
+   "1987": {
+    "nomination": null,
+    "base": "r1_1987.jpg",
+    "rounds": {}
+   },
+   "1988": {
+    "nomination": null,
+    "base": "r1_1988.jpg",
+    "rounds": {}
+   },
+   "1989": {
+    "nomination": null,
+    "base": "r1_1989.jpg",
+    "rounds": {}
+   },
+   "1990": {
+    "nomination": null,
+    "base": "r1_1990.jpg",
+    "rounds": {}
+   },
+   "1991": {
+    "nomination": null,
+    "base": "r1_1991.jpg",
+    "rounds": {
+     "3": [
+      "r3_1991_l.jpg",
+      "r3_1991_r.jpg"
+     ]
+    }
+   },
+   "1992": {
+    "nomination": null,
+    "base": "r1_1992.jpg",
+    "rounds": {}
+   },
+   "1993": {
+    "nomination": null,
+    "base": "r1_1993.jpg",
+    "rounds": {}
+   },
+   "1994": {
+    "nomination": null,
+    "base": "r1_1994.jpg",
+    "rounds": {
+     "3": [
+      "r3_1994_l.jpg",
+      "r3_1994_r.jpg"
+     ],
+     "4": [
+      "r4_1994_l.jpg",
+      "r4_1994_r.jpg"
+     ]
+    }
+   },
+   "1995": {
+    "nomination": null,
+    "base": "r1_1995.jpg",
+    "rounds": {
+     "3": [
+      "r3_1995_l.jpg",
+      "r3_1995_r.jpg"
+     ]
+    }
+   },
+   "1996": {
+    "nomination": null,
+    "base": "r1_1996.jpg",
+    "rounds": {
+     "3": [
+      "r3_1996_l.jpg",
+      "r3_1996_r.jpg"
+     ]
+    }
+   },
+   "1997": {
+    "nomination": null,
+    "base": "r1_1997.jpg",
+    "rounds": {
+     "3": [
+      "r3_1997_l.jpg",
+      "r3_1997_r.jpg"
+     ],
+     "4": [
+      "r4_1997_l.jpg",
+      "r4_1997_r.jpg"
+     ]
+    }
+   },
+   "1998": {
+    "nomination": null,
+    "base": "r1_1998.jpg",
+    "rounds": {
+     "3": [
+      "r3_1998_l.jpg",
+      "r3_1998_r.jpg"
+     ],
+     "4": [
+      "r4_1998_l.jpg",
+      "r4_1998_r.jpg"
+     ],
+     "5": [
+      "r5_1998_l.jpg",
+      "r5_1998_r.jpg"
+     ]
+    }
+   },
+   "1999": {
+    "nomination": null,
+    "base": "r1_1999.jpg",
+    "rounds": {}
+   },
+   "2000": {
+    "nomination": null,
+    "base": "r1_2000.jpg",
+    "rounds": {}
+   },
+   "2001": {
+    "nomination": null,
+    "base": "r1_2001.jpg",
+    "rounds": {
+     "3": [
+      "r3_2001_l.jpg",
+      "r3_2001_r.jpg"
+     ],
+     "4": [
+      "r4_2001_l.jpg",
+      "r4_2001_r.jpg"
+     ],
+     "5": [
+      "r5_2001_l.jpg",
+      "r5_2001_r.jpg"
+     ]
+    }
+   },
+   "2002": {
+    "nomination": null,
+    "base": "r1_2002.jpg",
+    "rounds": {}
+   },
+   "2003": {
+    "nomination": null,
+    "base": "r1_2003.jpg",
+    "rounds": {
+     "3": [
+      "r3_2003_l.jpg",
+      "r3_2003_r.jpg"
+     ]
+    }
+   },
+   "2004": {
+    "nomination": null,
+    "base": "r1_2004.jpg",
+    "rounds": {}
+   },
+   "2005": {
+    "nomination": null,
+    "base": "r1_2005.jpg",
+    "rounds": {}
+   },
+   "2006": {
+    "nomination": null,
+    "base": "r1_2006.jpg",
+    "rounds": {}
+   },
+   "2007": {
+    "nomination": null,
+    "base": "r1_2007.jpg",
+    "rounds": {}
+   },
+   "2008": {
+    "nomination": null,
+    "base": "r1_2008.jpg",
+    "rounds": {}
+   },
+   "2009": {
+    "nomination": null,
+    "base": "r1_2009.jpg",
+    "rounds": {}
+   },
+   "2010": {
+    "nomination": null,
+    "base": "r1_2010.jpg",
+    "rounds": {}
+   },
+   "2011": {
+    "nomination": null,
+    "base": "r1_2011.jpg",
+    "rounds": {}
+   },
+   "2012": {
+    "nomination": null,
+    "base": "r1_2012.jpg",
+    "rounds": {}
+   },
+   "2013": {
+    "nomination": null,
+    "base": "r1_2013.jpg",
+    "rounds": {}
+   },
+   "2014": {
+    "nomination": null,
+    "base": "r1_2014.jpg",
+    "rounds": {}
+   },
+   "2015": {
+    "nomination": null,
+    "base": "r1_2015.jpg",
+    "rounds": {}
+   },
+   "2016": {
+    "nomination": null,
+    "base": "r1_2016.jpg",
+    "rounds": {}
+   }
+  }
+ },
+ "CB X": {
+  "_scheme": "N.png = entrant index 1..128 (R1-pairing order), used for rounds 1-3; r4-N.png = round-4 portrait; 129-136 = the 8 all-time legends (Link/Mega Man/Cloud/Crono/Snake/Sonic/Samus/Mario) -- skipped, the Legends/Losers/GF matches use the wiki banner; <char>-<f|b>-<artist>[-V].png = user bg/fg layers (crowdsource). Placements are tentative.",
+  "entrants": {
+   "Dante": {
+    "index": 1,
+    "base": "1.png",
+    "r4": null,
+    "legend": false
+   },
+   "Cuphead": {
+    "index": 2,
+    "base": "2.png",
+    "r4": null,
+    "legend": false
+   },
+   "Chloe Price": {
+    "index": 3,
+    "base": "3.png",
+    "r4": null,
+    "legend": false
+   },
+   "Lightning": {
+    "index": 4,
+    "base": "4.png",
+    "r4": null,
+    "legend": false
+   },
+   "Spyro the Dragon": {
+    "index": 5,
+    "base": "5.png",
+    "r4": null,
+    "legend": false
+   },
+   "Chun-Li": {
+    "index": 6,
+    "base": "6.png",
+    "r4": null,
+    "legend": false
+   },
+   "Ganondorf": {
+    "index": 7,
+    "base": "7.png",
+    "r4": "r4-7.png",
+    "legend": false
+   },
+   "Neku Sakuraba": {
+    "index": 8,
+    "base": "8.png",
+    "r4": null,
+    "legend": false
+   },
+   "Vivi": {
+    "index": 9,
+    "base": "9.png",
+    "r4": "r4-9.png",
+    "legend": false
+   },
+   "Yu Narukami": {
+    "index": 10,
+    "base": "10.png",
+    "r4": null,
+    "legend": false
+   },
+   "Victor Sullivan": {
+    "index": 11,
+    "base": "11.png",
+    "r4": null,
+    "legend": false
+   },
+   "Aya Brea": {
+    "index": 12,
+    "base": "12.png",
+    "r4": null,
+    "legend": false
+   },
+   "Tidus": {
+    "index": 13,
+    "base": "13.png",
+    "r4": null,
+    "legend": false
+   },
+   "Donkey Kong": {
+    "index": 14,
+    "base": "14.png",
+    "r4": null,
+    "legend": false
+   },
+   "Leon Kennedy": {
+    "index": 15,
+    "base": "15.png",
+    "r4": null,
+    "legend": false
+   },
+   "Dragonborn": {
+    "index": 16,
+    "base": "16.png",
+    "r4": null,
+    "legend": false
+   },
+   "Zero": {
+    "index": 17,
+    "base": "17.png",
+    "r4": "r4-17.png",
+    "legend": false
+   },
+   "Primrose": {
+    "index": 18,
+    "base": "18.png",
+    "r4": null,
+    "legend": false
+   },
+   "Zidane Tribal": {
+    "index": 19,
+    "base": "19.png",
+    "r4": null,
+    "legend": false
+   },
+   "Knuckles the Echidna": {
+    "index": 20,
+    "base": "20.png",
+    "r4": null,
+    "legend": false
+   },
+   "Noctis Lucis Caelum": {
+    "index": 21,
+    "base": "21.png",
+    "r4": null,
+    "legend": false
+   },
+   "Master Hand": {
+    "index": 22,
+    "base": "22.png",
+    "r4": null,
+    "legend": false
+   },
+   "Monika": {
+    "index": 23,
+    "base": "23.png",
+    "r4": null,
+    "legend": false
+   },
+   "Wario": {
+    "index": 24,
+    "base": "24.png",
+    "r4": null,
+    "legend": false
+   },
+   "Yoshi": {
+    "index": 25,
+    "base": "25.png",
+    "r4": null,
+    "legend": false
+   },
+   "Shantae": {
+    "index": 26,
+    "base": "26.png",
+    "r4": null,
+    "legend": false
+   },
+   "Velvet Crowe": {
+    "index": 27,
+    "base": "27.png",
+    "r4": null,
+    "legend": false
+   },
+   "James Sunderland": {
+    "index": 28,
+    "base": "28.png",
+    "r4": null,
+    "legend": false
+   },
+   "Pikachu": {
+    "index": 29,
+    "base": "29.png",
+    "r4": "r4-29.png",
+    "legend": false
+   },
+   "Scorpion": {
+    "index": 30,
+    "base": "30.png",
+    "r4": null,
+    "legend": false
+   },
+   "Kratos": {
+    "index": 31,
+    "base": "31.png",
+    "r4": null,
+    "legend": false
+   },
+   "John Marston": {
+    "index": 32,
+    "base": "32.png",
+    "r4": null,
+    "legend": false
+   },
+   "Sora": {
+    "index": 33,
+    "base": "33.png",
+    "r4": null,
+    "legend": false
+   },
+   "Ryo Hazuki": {
+    "index": 34,
+    "base": "34.png",
+    "r4": null,
+    "legend": false
+   },
+   "Neptune": {
+    "index": 35,
+    "base": "35.png",
+    "r4": null,
+    "legend": false
+   },
+   "Pokemon Trainer Red": {
+    "index": 36,
+    "base": "36.png",
+    "r4": "r4-36.png",
+    "legend": false
+   },
+   "Crash Bandicoot": {
+    "index": 37,
+    "base": "37.png",
+    "r4": null,
+    "legend": false
+   },
+   "Cecil Harvey": {
+    "index": 38,
+    "base": "38.png",
+    "r4": null,
+    "legend": false
+   },
+   "Big Boss": {
+    "index": 39,
+    "base": "39.png",
+    "r4": null,
+    "legend": false
+   },
+   "Ridley": {
+    "index": 40,
+    "base": "40.png",
+    "r4": null,
+    "legend": false
+   },
+   "Alucard": {
+    "index": 41,
+    "base": "41.png",
+    "r4": "r4-41.png",
+    "legend": false
+   },
+   "Princess Peach": {
+    "index": 42,
+    "base": "42.png",
+    "r4": null,
+    "legend": false
+   },
+   "Yuna": {
+    "index": 43,
+    "base": "43.png",
+    "r4": null,
+    "legend": false
+   },
+   "Godot": {
+    "index": 44,
+    "base": "44.png",
+    "r4": null,
+    "legend": false
+   },
+   "Kefka": {
+    "index": 45,
+    "base": "45.png",
+    "r4": null,
+    "legend": false
+   },
+   "L-Block": {
+    "index": 46,
+    "base": "46.png",
+    "r4": null,
+    "legend": false
+   },
+   "Kazuma Kiryu": {
+    "index": 47,
+    "base": "47.png",
+    "r4": null,
+    "legend": false
+   },
+   "Bomberman": {
+    "index": 48,
+    "base": "48.png",
+    "r4": null,
+    "legend": false
+   },
+   "2B": {
+    "index": 49,
+    "base": "49.png",
+    "r4": null,
+    "legend": false
+   },
+   "Cayde-6": {
+    "index": 50,
+    "base": "50.png",
+    "r4": null,
+    "legend": false
+   },
+   "Shadow the Hedgehog": {
+    "index": 51,
+    "base": "51.png",
+    "r4": null,
+    "legend": false
+   },
+   "Ness": {
+    "index": 52,
+    "base": "52.png",
+    "r4": null,
+    "legend": false
+   },
+   "Terra Branford": {
+    "index": 53,
+    "base": "53.png",
+    "r4": null,
+    "legend": false
+   },
+   "Charizard": {
+    "index": 54,
+    "base": "54.png",
+    "r4": null,
+    "legend": false
+   },
+   "Bowser": {
+    "index": 55,
+    "base": "55.png",
+    "r4": "r4-55.png",
+    "legend": false
+   },
+   "Gordon Freeman": {
+    "index": 56,
+    "base": "56.png",
+    "r4": null,
+    "legend": false
+   },
+   "Phoenix Wright": {
+    "index": 57,
+    "base": "57.png",
+    "r4": null,
+    "legend": false
+   },
+   "Chris Redfield": {
+    "index": 58,
+    "base": "58.png",
+    "r4": null,
+    "legend": false
+   },
+   "Ike": {
+    "index": 59,
+    "base": "59.png",
+    "r4": null,
+    "legend": false
+   },
+   "Joel": {
+    "index": 60,
+    "base": "60.png",
+    "r4": null,
+    "legend": false
+   },
+   "Estelle Bright": {
+    "index": 61,
+    "base": "61.png",
+    "r4": null,
+    "legend": false
+   },
+   "Isaac": {
+    "index": 62,
+    "base": "62.png",
+    "r4": null,
+    "legend": false
+   },
+   "Kirby": {
+    "index": 63,
+    "base": "63.png",
+    "r4": "r4-63.png",
+    "legend": false
+   },
+   "Guile": {
+    "index": 64,
+    "base": "64.png",
+    "r4": null,
+    "legend": false
+   },
+   "Squall Leonhart": {
+    "index": 65,
+    "base": "65.png",
+    "r4": null,
+    "legend": false
+   },
+   "Hat Kid": {
+    "index": 66,
+    "base": "66.png",
+    "r4": null,
+    "legend": false
+   },
+   "Garrus Vakarian": {
+    "index": 67,
+    "base": "67.png",
+    "r4": null,
+    "legend": false
+   },
+   "Ramza Beoulve": {
+    "index": 68,
+    "base": "68.png",
+    "r4": null,
+    "legend": false
+   },
+   "Metal Sonic": {
+    "index": 69,
+    "base": "69.png",
+    "r4": null,
+    "legend": false
+   },
+   "The Boss": {
+    "index": 70,
+    "base": "70.png",
+    "r4": null,
+    "legend": false
+   },
+   "Zelda": {
+    "index": 71,
+    "base": "71.png",
+    "r4": "r4-71.png",
+    "legend": false
+   },
+   "Ezio Auditore da Firenze": {
+    "index": 72,
+    "base": "72.png",
+    "r4": null,
+    "legend": false
+   },
+   "Aloy": {
+    "index": 73,
+    "base": "73.png",
+    "r4": null,
+    "legend": false
+   },
+   "D.Va": {
+    "index": 74,
+    "base": "74.png",
+    "r4": null,
+    "legend": false
+   },
+   "Jill Valentine": {
+    "index": 75,
+    "base": "75.png",
+    "r4": null,
+    "legend": false
+   },
+   "Fox McCloud": {
+    "index": 76,
+    "base": "76.png",
+    "r4": null,
+    "legend": false
+   },
+   "Shovel Knight": {
+    "index": 77,
+    "base": "77.png",
+    "r4": null,
+    "legend": false
+   },
+   "Captain Toad": {
+    "index": 78,
+    "base": "78.png",
+    "r4": null,
+    "legend": false
+   },
+   "Waluigi": {
+    "index": 79,
+    "base": "79.png",
+    "r4": null,
+    "legend": false
+   },
+   "Aeris Gainsborough": {
+    "index": 80,
+    "base": "80.png",
+    "r4": "r4-80.png",
+    "legend": false
+   },
+   "Geralt": {
+    "index": 81,
+    "base": "81.png",
+    "r4": "r4-81.png",
+    "legend": false
+   },
+   "Rosalina": {
+    "index": 82,
+    "base": "82.png",
+    "r4": null,
+    "legend": false
+   },
+   "Ryu Hayabusa": {
+    "index": 83,
+    "base": "83.png",
+    "r4": null,
+    "legend": false
+   },
+   "Simon Belmont": {
+    "index": 84,
+    "base": "84.png",
+    "r4": null,
+    "legend": false
+   },
+   "Sans": {
+    "index": 85,
+    "base": "85.png",
+    "r4": null,
+    "legend": false
+   },
+   "Pac-Man": {
+    "index": 86,
+    "base": "86.png",
+    "r4": null,
+    "legend": false
+   },
+   "Bayonetta": {
+    "index": 87,
+    "base": "87.png",
+    "r4": null,
+    "legend": false
+   },
+   "Riku": {
+    "index": 88,
+    "base": "88.png",
+    "r4": null,
+    "legend": false
+   },
+   "Auron": {
+    "index": 89,
+    "base": "89.png",
+    "r4": "r4-89.png",
+    "legend": false
+   },
+   "Lucina": {
+    "index": 90,
+    "base": "90.png",
+    "r4": null,
+    "legend": false
+   },
+   "Magus": {
+    "index": 91,
+    "base": "91.png",
+    "r4": null,
+    "legend": false
+   },
+   "Vincent Valentine": {
+    "index": 92,
+    "base": "92.png",
+    "r4": null,
+    "legend": false
+   },
+   "Shulk": {
+    "index": 93,
+    "base": "93.png",
+    "r4": null,
+    "legend": false
+   },
+   "Sub-Zero": {
+    "index": 94,
+    "base": "94.png",
+    "r4": null,
+    "legend": false
+   },
+   "Joker": {
+    "index": 95,
+    "base": "95.png",
+    "r4": null,
+    "legend": false
+   },
+   "Claire Redfield": {
+    "index": 96,
+    "base": "96.png",
+    "r4": null,
+    "legend": false
+   },
+   "Luigi": {
+    "index": 97,
+    "base": "97.png",
+    "r4": "r4-97.png",
+    "legend": false
+   },
+   "Miles Edgeworth": {
+    "index": 98,
+    "base": "98.png",
+    "r4": null,
+    "legend": false
+   },
+   "Frog": {
+    "index": 99,
+    "base": "99.png",
+    "r4": null,
+    "legend": false
+   },
+   "Monokuma": {
+    "index": 100,
+    "base": "100.png",
+    "r4": null,
+    "legend": false
+   },
+   "Master Chief": {
+    "index": 101,
+    "base": "101.png",
+    "r4": null,
+    "legend": false
+   },
+   "Goro Majima": {
+    "index": 102,
+    "base": "102.png",
+    "r4": null,
+    "legend": false
+   },
+   "Nathan Drake": {
+    "index": 103,
+    "base": "103.png",
+    "r4": null,
+    "legend": false
+   },
+   "Miles \"Tails\" Prower": {
+    "index": 104,
+    "base": "104.png",
+    "r4": null,
+    "legend": false
+   },
+   "Tifa Lockheart": {
+    "index": 105,
+    "base": "105.png",
+    "r4": "r4-105.png",
+    "legend": false
+   },
+   "Geno": {
+    "index": 106,
+    "base": "106.png",
+    "r4": null,
+    "legend": false
+   },
+   "GLaDOS": {
+    "index": 107,
+    "base": "107.png",
+    "r4": null,
+    "legend": false
+   },
+   "Mewtwo": {
+    "index": 108,
+    "base": "108.png",
+    "r4": null,
+    "legend": false
+   },
+   "King Dedede": {
+    "index": 109,
+    "base": "109.png",
+    "r4": null,
+    "legend": false
+   },
+   "Revolver Ocelot": {
+    "index": 110,
+    "base": "110.png",
+    "r4": null,
+    "legend": false
+   },
+   "Mega Man X": {
+    "index": 111,
+    "base": "111.png",
+    "r4": null,
+    "legend": false
+   },
+   "Isabelle": {
+    "index": 112,
+    "base": "112.png",
+    "r4": null,
+    "legend": false
+   },
+   "Sephiroth": {
+    "index": 113,
+    "base": "113.png",
+    "r4": "r4-113.png",
+    "legend": false
+   },
+   "Albert Wesker": {
+    "index": 114,
+    "base": "114.png",
+    "r4": null,
+    "legend": false
+   },
+   "Richter Belmont": {
+    "index": 115,
+    "base": "115.png",
+    "r4": null,
+    "legend": false
+   },
+   "Captain Falcon": {
+    "index": 116,
+    "base": "116.png",
+    "r4": null,
+    "legend": false
+   },
+   "Amaterasu": {
+    "index": 117,
+    "base": "117.png",
+    "r4": null,
+    "legend": false
+   },
+   "Draven": {
+    "index": 118,
+    "base": "118.png",
+    "r4": null,
+    "legend": false
+   },
+   "Lara Croft": {
+    "index": 119,
+    "base": "119.png",
+    "r4": null,
+    "legend": false
+   },
+   "Metal Man": {
+    "index": 120,
+    "base": "120.png",
+    "r4": null,
+    "legend": false
+   },
+   "Ryu": {
+    "index": 121,
+    "base": "121.png",
+    "r4": "r4-121.png",
+    "legend": false
+   },
+   "Lloyd Irving": {
+    "index": 122,
+    "base": "122.png",
+    "r4": null,
+    "legend": false
+   },
+   "Commander Shepard": {
+    "index": 123,
+    "base": "123.png",
+    "r4": null,
+    "legend": false
+   },
+   "King K. Rool": {
+    "index": 124,
+    "base": "124.png",
+    "r4": null,
+    "legend": false
+   },
+   "Ellie": {
+    "index": 125,
+    "base": "125.png",
+    "r4": null,
+    "legend": false
+   },
+   "KOS-MOS": {
+    "index": 126,
+    "base": "126.png",
+    "r4": null,
+    "legend": false
+   },
+   "Aqua": {
+    "index": 127,
+    "base": "127.png",
+    "r4": null,
+    "legend": false
+   },
+   "Quiet": {
+    "index": 128,
+    "base": "128.png",
+    "r4": null,
+    "legend": false
+   },
+   "Link": {
+    "index": 129,
+    "base": "129.png",
+    "r4": null,
+    "legend": true
+   },
+   "Mega Man": {
+    "index": 130,
+    "base": "130.png",
+    "r4": null,
+    "legend": true
+   },
+   "Cloud Strife": {
+    "index": 131,
+    "base": "131.png",
+    "r4": null,
+    "legend": true
+   },
+   "Crono": {
+    "index": 132,
+    "base": "132.png",
+    "r4": null,
+    "legend": true
+   },
+   "Solid Snake": {
+    "index": 133,
+    "base": "133.png",
+    "r4": null,
+    "legend": true
+   },
+   "Sonic the Hedgehog": {
+    "index": 134,
+    "base": "134.png",
+    "r4": null,
+    "legend": true
+   },
+   "Samus Aran": {
+    "index": 135,
+    "base": "135.png",
+    "r4": null,
+    "legend": true
+   },
+   "Mario": {
+    "index": 136,
+    "base": "136.png",
+    "r4": null,
+    "legend": true
+   }
+  },
+  "skip_files": [
+   "logo-30.png"
+  ],
+  "legend_files": [
+   "129.png",
+   "130.png",
+   "131.png",
+   "132.png",
+   "133.png",
+   "134.png",
+   "135.png",
+   "136.png"
+  ],
+  "legend_polls": {
+   "129.png": [
+    "7358",
+    "7370",
+    "7378",
+    "7384",
+    "7387"
+   ],
+   "130.png": [
+    "7359",
+    "7366",
+    "7374",
+    "7380"
+   ],
+   "131.png": [
+    "7360",
+    "7371",
+    "7378",
+    "7382",
+    "7385",
+    "7386",
+    "7387"
+   ],
+   "132.png": [
+    "7361",
+    "7371",
+    "7375",
+    "7380",
+    "7382"
+   ],
+   "133.png": [
+    "7362",
+    "7368",
+    "7376",
+    "7381"
+   ],
+   "134.png": [
+    "7363",
+    "7372",
+    "7376"
+   ],
+   "135.png": [
+    "7364",
+    "7373",
+    "7377",
+    "7381",
+    "7383"
+   ],
+   "136.png": [
+    "7365",
+    "7373",
+    "7379",
+    "7383",
+    "7385"
+   ]
+  },
+  "legend_id": {
+   "129.png": 47,
+   "130.png": 57,
+   "131.png": 15,
+   "132.png": 21,
+   "133.png": 31,
+   "134.png": 50,
+   "135.png": 54,
+   "136.png": 1
+  },
+  "alt_art_files": [
+   "alucard-b-sprite-axem.png",
+   "alucard-b-ulti.png",
+   "alucard-f-sprite-ulti.png",
+   "alucard-f-zen.png",
+   "auron-b-ange.png",
+   "auron-b-ulti.png",
+   "auron-f-anon-sprite.png",
+   "auron-f-zen.png",
+   "bowser-b-ange-3.png",
+   "bowser-b-sprite-ulti.png",
+   "bowser-b-ulti.png",
+   "bowser-f-ange-3.png",
+   "bowser-f-nick.png",
+   "bowser-f-sprite-ulti.png",
+   "cloud-b-ange-2.png",
+   "cloud-b-ange.png",
+   "cloud-b-ulti-4.png",
+   "cloud-f-ange.png",
+   "cloud-f-ulti-4.png",
+   "cloud-f-ulti-4a.png",
+   "cloud-f-ulti-sprite.png",
+   "crono-b-menji.png",
+   "crono-b-ulti-3.png",
+   "crono-b-ulti-sprite.png",
+   "crono-f-ange.png",
+   "crono-f-moon-3.png",
+   "crono-f-ulti-sprite.png",
+   "ganon-b-ange.png",
+   "ganon-b-sprite-ange.png",
+   "ganon-f-sprite-ulti.png",
+   "ganon-f-zen.png",
+   "link-b-ange-4.png",
+   "link-b-ange-sprite.png",
+   "link-b-ulti.png",
+   "link-f-boss-4.png",
+   "link-f-squirrel-4.png",
+   "link-f-ulti-sprite.png",
+   "link-f-ulti.png",
+   "mario-b-ange-sprite.png",
+   "mario-b-boss.png",
+   "mario-b-ulti-4.png",
+   "mario-f-cody-4.png",
+   "mario-f-ulti-sprite.png",
+   "mario-f-ulti-sprite3.png",
+   "mario-f-ulti.png",
+   "mario-f-zen-4.png",
+   "mega-b-sprite-ange.png",
+   "mega-b-ulti-3.png",
+   "mega-b-ulti.png",
+   "mega-f-ange.png",
+   "mega-f-sprite-ulti.png",
+   "mega-f-ulti-3.png",
+   "pika-b-boss.png",
+   "pika-b-hombad-sprite.png",
+   "pika-f-gavs.png",
+   "pika-f-ulti-sprite.png",
+   "pikachu-b-ulti-3.png",
+   "pikachu-f-ange-3.png",
+   "samus-b-ange-sprite.png",
+   "samus-b-ulti.png",
+   "samus-f-ulti-sprite.png",
+   "samus-f-ulti.png",
+   "sephiroth-b-anagram.png",
+   "sephiroth-b-ulti.png",
+   "sephiroth-f-ange.png",
+   "sephiroth-f-anon-sprite.png",
+   "snake-b-ange.png",
+   "snake-b-ulti.png",
+   "snake-f-ulti-sprite.png",
+   "snake-f-ulti.png",
+   "sonic-b-boss-sprite.png",
+   "sonic-b-ulti.png",
+   "sonic-f-ulti-sprite.png",
+   "sonic-f-zen.png",
+   "tifa-b-ange.png",
+   "tifa-b-ulti.png",
+   "tifa-f-ange.png",
+   "tifa-f-anon-sprite.png",
+   "zelda-b-ange-sprite.png",
+   "zelda-b-ange.png",
+   "zelda-b-boss-4.png",
+   "zelda-f-squirrel-4.png",
+   "zelda-f-ulti-sprite.png",
+   "zelda-f-ulti.png",
+   "zelda-f-zen-4.png"
+  ]
+ }
+}

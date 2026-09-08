@@ -650,15 +650,15 @@ function amr_json_matches(): array
     return $data;
 }
 
-/** poll (int) => Board 8 wiki writeup URL, from data/board8-writeups.json (see
- *  local/board8-build-writeups.php — a one-time curation pass, not rebuilt
- *  automatically; local/board8-wiki-writeup-issues.md documents its caveats).
+/** poll (int) => Board 8 wiki writeup URL, from data/board8wiki-writeups.json (see
+ *  scripts/board8wiki-build-writeups.php — a one-time curation pass, not rebuilt
+ *  automatically; scripts/board8wiki-writeup-issues.md documents its caveats).
  *  Decoded once per request, same deploy pattern as amr_json_matches(). */
 function amr_writeup_map(): array
 {
     static $map = null;
     if ($map === null) {
-        $path = dirname(__DIR__, 2) . '/data/board8-writeups.json';
+        $path = dirname(__DIR__, 2) . '/data/board8wiki-writeups.json';
         $raw  = json_decode((string)file_get_contents($path), true) ?? [];
         $map  = [];
         foreach ($raw as $poll => $url) {
@@ -766,6 +766,25 @@ function amr_canon(string $name, ?string $pool = null): string
     return amr_alias_map()[$name] ?? $name;
 }
 
+/** Canonical entrant registry id (ENTRANTS in public/lib/entrants.php — the same
+ *  ids data/gallery/map.json's `entrant_ids` use). Resolves within $pool (the
+ *  contest's identity pool); null if the name/pool isn't in the registry. */
+function amr_entrant_id(string $name, ?string $pool): ?int
+{
+    static $rev = null;
+    if ($rev === null) {
+        $rev = [];
+        foreach (ENTRANTS as $id => $e) {
+            $rev[$e['type']][entrant_norm($e['name'])] = $id;
+        }
+    }
+    if ($pool === null) {
+        return null;
+    }
+
+    return $rev[$pool][entrant_norm(amr_canon($name, $pool))] ?? null;
+}
+
 function amr_mk(int $poll, string $ccode, string $date, array $ents, bool $hasUpdates = false, ?string $writeupUrl = null): array
 {
     // era splits: "God of War" etc. name a different release per contest. The DB
@@ -783,6 +802,13 @@ function amr_mk(int $poll, string $ccode, string $date, array $ents, bool $hasUp
     }
     unset($e);
     [$cname, $cyear, $cpool] = AMR_CONTEST[$ccode] ?? [$ccode, 9999, null];
+
+    // canonical registry id per entrant (null if unknown) — lets /node/102 align
+    // gallery pics (keyed by entrant id in data/gallery/map.json) to the row.
+    foreach ($ents as &$e) {
+        $e['id'] = amr_entrant_id($e['name'], $cpool);
+    }
+    unset($e);
 
     return [
         'poll'    => $poll, 'cname' => $cname, 'cyear' => $cyear, 'date' => $date, 'pool' => $cpool,
@@ -889,12 +915,15 @@ function all_match_results(): void
         return '<td class="amr-result">' . $lines . '</td>';
     };
 
+    // carry the entrant / contest / bonus filter across to /node/102
+    $ampQ    = array_filter(['entrant' => $fEnt, 'contest' => $fCon, 'bonus' => $showBonus ? '1' : '']);
+    $ampHref = htmlspecialchars('/node/102' . ($ampQ ? '?' . http_build_query($ampQ) : ''), ENT_QUOTES);
+
     ob_start(); ?>
 <p>Entrants are listed by final votes, so the first line is the winner. Click a column heading to sort, or an entrant / contest to filter.</p>
+<p class="amr-views"><strong>See also:</strong> <a href="<?= $ampHref ?>">All Match Pictures</a> &mdash; the same matches with their contest artwork.</p>
 
 <p class="amr-views"><strong>Quick views:</strong>
- <a href="<?= $u(['sort' => 'poll', 'dir' => 'asc']) ?>">chronological</a> &middot;
- <a href="<?= $u(['sort' => 'contest', 'dir' => 'asc']) ?>">by contest</a> &middot;
  <a href="<?= $u(['sort' => 'total', 'dir' => 'desc']) ?>">highest turnout</a> &middot;
  <a href="<?= $u(['sort' => 'ne', 'dir' => 'desc']) ?>">multi-entrant first</a></p>
 
@@ -934,7 +963,6 @@ function all_match_results(): void
  <?= $th('poll', 'Poll') ?>
  <?= $th('contest', 'Contest') ?>
  <?= $th('date', 'Date') ?>
- <?= $th('ne', 'n') ?>
  <?= $th('winner', 'Result') ?>
  <?= $th('total', 'Total') ?>
  <?= $th('margin', 'Margin (%)') ?>
@@ -942,7 +970,7 @@ function all_match_results(): void
 </tr></thead>
 <tbody>
 <?php if (!$rows): ?>
-<tr><td colspan="9">No matches for this filter.</td></tr>
+<tr><td colspan="8">No matches for this filter.</td></tr>
 <?php endif; ?>
 <?php $i = 0;
     foreach ($rows as $r): $i++;
@@ -956,7 +984,6 @@ function all_match_results(): void
         if ($r['bonus'] !== null): ?><br><span class="amr-bonus-tag" title="<?= htmlspecialchars($r['bonus'], ENT_QUOTES) ?>">bonus</span><?php endif; ?></td>
  <td class="amr-contest"><a href="<?= $u(['contest' => $r['cname']]) ?>"><?= htmlspecialchars($r['cname']) ?></a></td>
  <td class="amr-n"><?= htmlspecialchars($r['date']) ?></td>
- <td class="amr-n"><?= $r['ne'] ?></td>
  <?= $rescell($r['ents'], $r['pool']) ?>
  <td class="amr-n"><?= number_format($r['total']) ?></td>
  <td class="amr-n"><?= number_format($r['margin'], 2) ?>%</td>
@@ -1042,4 +1069,244 @@ hidden by default. Use the <em>show bonus</em> link above the table to include t
 </div>
 <?php
         echo ob_get_clean();
+}
+
+/** data/gallery/map.json — Coppermine gallery images keyed by poll id (see
+ *  docs/gallery-mapping.md). Decoded once per request; same sibling-`data/`
+ *  deploy pattern as amr_json_matches(). */
+function amp_gallery_map(): array
+{
+    static $g = null;
+    if ($g === null) {
+        $path = dirname(__DIR__, 2) . '/data/gallery/map.json';
+        $g    = json_decode((string)@file_get_contents($path), true) ?: [];
+        $g += ['images' => [], 'skipped' => []];
+    }
+
+    return $g;
+}
+
+/** /node/102 — "All Match Pictures". Every contest match with its poll artwork.
+ *  Reuses amr_rows() (and its filter / bonus / era machinery) and joins the
+ *  gallery map by poll; pics align to the row's entrants by canonical id. */
+function all_match_pictures(): void
+{
+    $S = [
+        'poll'    => fn ($a, $b) => $a['poll'] <=> $b['poll'],
+        'contest' => fn ($a, $b) => [$a['cyear'], $a['cname'], $a['poll']] <=> [$b['cyear'], $b['cname'], $b['poll']],
+        'date'    => fn ($a, $b) => [$a['date'], $a['poll']] <=> [$b['date'], $b['poll']],
+        'pics'    => fn ($a, $b) => $a['npics'] <=> $b['npics'],
+    ];
+    $sort = (string)($_GET['sort'] ?? 'poll');
+    if (!isset($S[$sort])) {
+        $sort = 'poll';
+    }
+    $dir = strtolower((string)($_GET['dir'] ?? 'asc')) === 'desc' ? 'desc' : 'asc';
+
+    $fEnt      = trim((string)($_GET['entrant'] ?? ''));
+    $fCon      = trim((string)($_GET['contest'] ?? ''));
+    $fEntC     = amr_canon($fEnt);
+    $showBonus = ($_GET['bonus'] ?? '') === '1';
+
+    $G            = amp_gallery_map();
+    $imagesByPoll = $G['images'];
+    $fadedByPoll  = [];                                  // CB X legend portraits: unmapped, shown faded
+    foreach ($G['skipped'] as $s) {
+        foreach ($s['polls'] ?? [] as $p) {
+            $fadedByPoll[(string)$p][] = $s;
+        }
+    }
+
+    $rows = amr_rows();
+    foreach ($rows as &$r) {
+        $ims = $imagesByPoll[(string)$r['poll']] ?? [];
+        $ims = array_values(array_filter(
+            $ims,
+            fn ($im) => strpos((string)($im['variant'] ?? ''), 'logo') === false      // logos: not shown here
+        ));
+        $r['_pics'] = $ims;
+        $r['npics'] = count($ims) + count($fadedByPoll[(string)$r['poll']] ?? []);
+    }
+    unset($r);
+
+    $allCount = $showBonus ? count($rows) : count(array_filter($rows, fn ($r) => $r['bonus'] === null));
+
+    if ($fEnt !== '') {
+        $fEntN = entrant_norm($fEnt);
+        $rows  = array_values(array_filter(
+            $rows,
+            fn ($r) => in_array($fEntC, $r['canon'], true) || in_array($fEntN, $r['canon'], true)
+        ));
+    }
+    if ($fCon !== '') {
+        $rows = array_values(array_filter($rows, fn ($r) => $r['cname'] === $fCon));
+    }
+    $bonusHidden = 0;
+    if (!$showBonus) {
+        $before      = count($rows);
+        $rows        = array_values(array_filter($rows, fn ($r) => $r['bonus'] === null));
+        $bonusHidden = $before - count($rows);
+    }
+
+    usort($rows, $S[$sort]);
+    if ($dir === 'desc') {
+        $rows = array_reverse($rows);
+    }
+
+    $cur = ['sort' => $sort, 'dir' => $dir, 'entrant' => $fEnt, 'contest' => $fCon, 'bonus' => $showBonus ? '1' : ''];
+    $url = function (array $ov) use ($cur) {
+        $p = array_merge($cur, $ov);
+        $p = array_filter($p, fn ($v) => $v !== '' && $v !== null);
+        if (($p['sort'] ?? 'poll') === 'poll') {
+            unset($p['sort']);
+        }
+        if (($p['dir'] ?? 'asc') === 'asc') {
+            unset($p['dir']);
+        }
+
+        return '/node/102' . ($p ? '?' . http_build_query($p) : '');
+    };
+    $u = fn (array $ov) => htmlspecialchars($url($ov), ENT_QUOTES);
+
+    $amrQ    = array_filter(['entrant' => $fEnt, 'contest' => $fCon, 'bonus' => $showBonus ? '1' : '']);
+    $amrHref = htmlspecialchars('/node/100' . ($amrQ ? '?' . http_build_query($amrQ) : ''), ENT_QUOTES);
+
+    $arrow = fn (string $k) => $sort === $k ? ($dir === 'asc' ? ' &#9650;' : ' &#9660;') : '';
+    $th    = fn (string $k, string $lbl) => "<th><a href='" . $u(['sort' => $k, 'dir' => ($sort === $k && $dir === 'asc') ? 'desc' : 'asc'])
+        . "'>" . htmlspecialchars($lbl) . $arrow($k) . '</a></th>';
+
+    $thumb = function (array $im, bool $faded): string {
+        $isWiki = ($im['source'] ?? '') === 'wiki';
+        $full   = $isWiki ? (string)$im['url'] : '/gallery/albums/' . $im['dir'] . $im['file'];
+        $src    = $isWiki ? (string)$im['url'] : '/gallery/albums/' . $im['dir'] . 'thumb_' . $im['file'];
+
+        return '<a class="amp-th' . ($faded ? ' amp-faded' : '') . '" target="_blank" rel="noopener nofollow"'
+             . ' href="' . htmlspecialchars($full, ENT_QUOTES) . '">'
+             . '<img loading="lazy" src="' . htmlspecialchars($src, ENT_QUOTES) . '"'
+             . ' alt="' . htmlspecialchars((string)$im['file'], ENT_QUOTES) . '"></a>';
+    };
+
+    $picsCell = function (array $r) use ($thumb, $fadedByPoll, $fEnt) {
+        $faded = $fadedByPoll[(string)$r['poll']] ?? [];
+        if (!$r['_pics'] && !$faded) {
+            return '<td class="amp-pics amp-none">&mdash;</td>';
+        }
+        // with an entrant filter, the Pictures cell shows only that entrant's own
+        // portraits (+ the whole-match banner) — not the opponent's.
+        $onlyId  = $fEnt !== '' ? amr_entrant_id($fEnt, $r['pool']) : null;
+        $banners = [];
+        $perEnt  = [];
+        foreach ($r['_pics'] as $im) {
+            $eids = $im['entrant_ids'] ?? [];
+            if (count($eids) === 1) {
+                $perEnt[$eids[0]][] = $im;
+            } else {
+                $banners[] = $im;
+            }
+        }
+
+        $out = '';
+        foreach ($banners as $im) {
+            $out .= $thumb($im, false);
+        }
+        foreach ($r['ents'] as $e) {                          // Result-column order (winner first)
+            $gid = $e['id'];
+            if ($gid === null || empty($perEnt[$gid])) {
+                continue;
+            }
+            if ($onlyId !== null && $onlyId !== $gid) {
+                unset($perEnt[$gid]);
+
+                continue;
+            }
+            $hl = ($onlyId !== null) ? ' amp-hl' : '';
+            $out .= '<span class="amp-grp' . $hl . '" title="' . htmlspecialchars($e['name'], ENT_QUOTES) . '">';
+            foreach ($perEnt[$gid] as $im) {
+                $out .= $thumb($im, false);
+            }
+            $out .= '</span>';
+            unset($perEnt[$gid]);
+        }
+        foreach ($perEnt as $gid => $group) {                 // ids that matched no row entrant
+            if ($onlyId !== null && $onlyId !== $gid) {
+                continue;                                     // under a filter, keep only that entrant's
+            }
+            foreach ($group as $im) {
+                $out .= $thumb($im, false);
+            }
+        }
+        foreach ($faded as $s) {
+            if ($onlyId !== null && ($s['entrant_ids'][0] ?? null) !== $onlyId) {
+                continue;
+            }
+            $out .= $thumb($s, true);
+        }
+
+        return $out === ''
+            ? '<td class="amp-pics amp-none">&mdash;</td>'
+            : '<td class="amp-pics">' . $out . '</td>';
+    };
+
+    $rescell = function (array $ents, ?string $pool) use ($u) {
+        $lines = '';
+        foreach ($ents as $k => $en) {
+            $lines .= '<div' . ($k === 0 ? ' class="amr-win"' : '') . '>'
+                    . '<a href="' . $u(['entrant' => amr_canon($en['name'], $pool)]) . '">'
+                    . htmlspecialchars($en['name'], ENT_QUOTES) . '</a></div>';
+        }
+
+        return '<td class="amr-result">' . $lines . '</td>';
+    };
+
+    ob_start(); ?>
+<p>Every contest match with its poll artwork &mdash; a composite banner per match, plus
+per-entrant portraits for the 2015&ndash;2018 contests. Click a picture to open it full
+size, or an entrant / contest to filter. Some pairings show only the Board 8 wiki banner
+(with the gallery portraits faded beside it).</p>
+<p class="amr-views"><strong>See also:</strong> <a href="<?= $amrHref ?>">All Match Results</a> &mdash; the same matches with vote counts and margins.</p>
+<p class="amr-views"><strong>Sort:</strong>
+ <a href="<?= $u(['sort' => 'pics', 'dir' => 'desc']) ?>">most pictures</a></p>
+
+<?php if ($fEnt !== '' || $fCon !== ''): ?>
+<p class="amr-filter"><strong>Filtered:</strong>
+<?php if ($fEnt !== ''): ?> entrant = <strong><?= htmlspecialchars($fEntC) ?></strong> <a href="<?= $u(['entrant' => '']) ?>" title="remove this filter">[&times;]</a><?php endif; ?>
+<?php if ($fCon !== ''): ?> <?= $fEnt !== '' ? '&middot;' : '' ?> contest = <strong><?= htmlspecialchars($fCon) ?></strong> <a href="<?= $u(['contest' => '']) ?>" title="remove this filter">[&times;]</a><?php endif; ?>
+ &nbsp; &mdash; <?= number_format(count($rows)) ?> of <?= number_format($allCount) ?> matches &nbsp; <a href="/node/102">show all</a></p>
+<?php endif; ?>
+
+<p class="amr-meta"><?= number_format(count($rows)) ?> matches
+<?php if ($showBonus): ?> &middot; incl. bonus &mdash; <a href="<?= $u(['bonus' => '']) ?>">hide bonus</a>
+<?php elseif ($bonusHidden): ?> &middot; <?= number_format($bonusHidden) ?> bonus <?= $bonusHidden === 1 ? 'match' : 'matches' ?> hidden &mdash; <a href="<?= $u(['bonus' => '1']) ?>">show bonus</a>
+<?php endif; ?></p>
+
+<div class="amr-wrap"><table class="amr amp">
+<thead><tr>
+ <th>#</th>
+ <?= $th('poll', 'Poll') ?>
+ <?= $th('contest', 'Contest') ?>
+ <?= $th('date', 'Date') ?>
+ <th>Result</th>
+ <?= $th('pics', 'Pictures') ?>
+</tr></thead>
+<tbody>
+<?php if (!$rows): ?>
+<tr><td colspan="6">No matches for this filter.</td></tr>
+<?php endif; ?>
+<?php $i = 0;
+    foreach ($rows as $r): $i++; ?>
+<tr<?= $r['bonus'] !== null ? ' class="amr-bonus"' : '' ?>>
+ <td class="amr-n"><?= $i ?></td>
+ <td class="amr-n"><a href="https://gamefaqs.gamespot.com/poll/<?= $r['poll'] ?>-" rel="nofollow"><?= $r['poll'] ?></a><?php
+        if ($r['writeup'] !== null): ?><br><a class="amr-sub" href="<?= htmlspecialchars($r['writeup'], ENT_QUOTES) ?>" rel="nofollow" title="Board 8 wiki writeup">writeup</a><?php endif;
+        if ($r['bonus'] !== null): ?><br><span class="amr-bonus-tag" title="<?= htmlspecialchars($r['bonus'], ENT_QUOTES) ?>">bonus</span><?php endif; ?></td>
+ <td class="amr-contest"><a href="<?= $u(['contest' => $r['cname']]) ?>"><?= htmlspecialchars($r['cname']) ?></a></td>
+ <td class="amr-n"><?= htmlspecialchars($r['date']) ?></td>
+ <?= $rescell($r['ents'], $r['pool']) ?>
+ <?= $picsCell($r) ?>
+</tr>
+<?php endforeach; ?>
+</tbody>
+</table></div>
+<?php
+    echo ob_get_clean();
 }

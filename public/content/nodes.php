@@ -651,6 +651,17 @@ return json_decode(<<<'JSON'
   "format": "FilteredHTML",
   "type": "static",
   "file": "nodes/101.html"
+ },
+ "102": {
+  "nid": 102,
+  "title": "All Match Pictures",
+  "tid": 0,
+  "format": "PHP",
+  "type": "fn",
+  "file": "nodes/102.php",
+  "fns": [
+   "all_match_pictures"
+  ]
  }
 }
 JSON, true);

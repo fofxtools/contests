@@ -1,5 +1,28 @@
 # Changelog
 
+## [1.1.5] - 2026-09-08
+
+### Added
+
+- All Match Pictures (`/node/102`): every contest match with its poll artwork —
+  a composite banner per match, plus per-entrant portraits for the 2015–2018
+  contests. Filterable by entrant or contest, and cross-linked with All Match
+  Results. Linked from the home page and the Contest Resources menu.
+- Home page Contests table: a **Board 8 Wiki** column linking each contest's
+  wiki overview page.
+
+### Changed
+
+- All Match Results (`/node/100`): dropped the "n" (entrant count) column and
+  the sort shortcuts above the table — click a column heading to sort.
+- Board 8 wiki links throughout now point to `board8.fandom.com` (the old
+  `board8.wikia.com` no longer resolves).
+
+### Fixed
+
+- Facts and Trivia (`/node/47`): filled in links that had gone missing and
+  removed some dead placeholder text.
+
 ## [1.1.4] - 2026-09-06
 
 ### Added
