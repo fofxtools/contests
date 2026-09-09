@@ -26,6 +26,7 @@ limited (default 1s between requests).
   .venv/bin/python scripts/board8wiki-fetch-images.py --dry-run
   .venv/bin/python scripts/board8wiki-fetch-images.py --all         # full corpus
 """
+
 from __future__ import annotations
 
 import argparse
@@ -51,7 +52,7 @@ UA = (
     "(+https://gamefaqscontests.com; GameFAQs user creativename) archival"
 )
 MAX_RETRIES = 4
-CIRCUIT_BREAKER = 5           # consecutive hard failures -> abort
+CIRCUIT_BREAKER = 5  # consecutive hard failures -> abort
 DEFAULT_SLEEP = 1.0
 
 
@@ -68,7 +69,11 @@ def refs_from_records(all_refs: bool) -> dict[str, dict]:
     recs = json.loads(RECORDS.read_text())
     want = set(recs)
     if not all_refs:
-        mapped = set(json.loads(GALLERY_MAP.read_text())["images"]) if GALLERY_MAP.exists() else set()
+        mapped = (
+            set(json.loads(GALLERY_MAP.read_text())["images"])
+            if GALLERY_MAP.exists()
+            else set()
+        )
         want = {p for p in recs if p not in mapped}
     out: dict[str, dict] = {}
     for poll in want:
@@ -94,14 +99,14 @@ class Fetcher:
             except requests.RequestException as exc:
                 if attempt == MAX_RETRIES:
                     raise
-                wait = 2 ** attempt + random.random()
+                wait = 2**attempt + random.random()
                 print(f"    ! {exc.__class__.__name__}; retry in {wait:.0f}s")
                 time.sleep(wait)
                 continue
             if resp.status_code in (429, 500, 502, 503, 504):
                 if attempt == MAX_RETRIES:
                     return resp
-                wait = 2 ** attempt + random.random()
+                wait = 2**attempt + random.random()
                 print(f"    ! HTTP {resp.status_code}; retry in {wait:.0f}s")
                 time.sleep(wait)
                 continue
@@ -109,8 +114,13 @@ class Fetcher:
         return resp
 
     def api_real_url(self, name: str) -> str | None:
-        q = {"action": "query", "format": "json", "prop": "imageinfo",
-             "iiprop": "url|mime", "titles": f"File:{name}"}
+        q = {
+            "action": "query",
+            "format": "json",
+            "prop": "imageinfo",
+            "iiprop": "url|mime",
+            "titles": f"File:{name}",
+        }
         resp = self._get(f"{API}?{urllib.parse.urlencode(q)}")
         if not resp.ok:
             return None
@@ -125,7 +135,7 @@ class Fetcher:
         """-> {bytes, sha256, mime} or None (missing on the wiki)."""
         sep = "&" if "?" in bare_url else "?"
         for url in (f"{bare_url}{sep}format=original", None):
-            if url is None:                       # bare failed -> ask the API
+            if url is None:  # bare failed -> ask the API
                 real = self.api_real_url(name)
                 if not real:
                     return None
@@ -140,14 +150,22 @@ class Fetcher:
             if not ctype.startswith("image/"):
                 raise RuntimeError(f"non-image {ctype!r} for {name}")
             body = resp.content
-            return {"bytes": len(body), "sha256": hashlib.sha256(body).hexdigest(),
-                    "mime": ctype, "body": body}
+            return {
+                "bytes": len(body),
+                "sha256": hashlib.sha256(body).hexdigest(),
+                "mime": ctype,
+                "body": body,
+            }
         return None
 
     def fetch_webp(self, bare_url: str) -> bytes | None:
         """The CDN's auto-transcoded webp (bare URL, no ?format=original)."""
         resp = self._get(bare_url, headers={"Accept": "image/webp,*/*"})
-        if resp.ok and resp.headers.get("content-type", "").split(";")[0].strip() == "image/webp":
+        if (
+            resp.ok
+            and resp.headers.get("content-type", "").split(";")[0].strip()
+            == "image/webp"
+        ):
             return resp.content
         return None
 
@@ -158,10 +176,20 @@ class Fetcher:
 def main() -> int:
     ap = argparse.ArgumentParser()
     ap.add_argument("--sleep", type=float, default=DEFAULT_SLEEP)
-    ap.add_argument("--limit", type=int, default=0, help="stop after N downloads (smoke test)")
-    ap.add_argument("--fresh", action="store_true", help="re-download even if the file exists")
-    ap.add_argument("--all", action="store_true", help="every wiki image, not just the wiki-only polls")
-    ap.add_argument("--no-webp", action="store_true", help="skip the companion .webp copies")
+    ap.add_argument(
+        "--limit", type=int, default=0, help="stop after N downloads (smoke test)"
+    )
+    ap.add_argument(
+        "--fresh", action="store_true", help="re-download even if the file exists"
+    )
+    ap.add_argument(
+        "--all",
+        action="store_true",
+        help="every wiki image, not just the wiki-only polls",
+    )
+    ap.add_argument(
+        "--no-webp", action="store_true", help="skip the companion .webp copies"
+    )
     ap.add_argument("--dry-run", action="store_true")
     args = ap.parse_args()
 
@@ -188,8 +216,13 @@ def main() -> int:
     def record_local(name: str, polls: list, src: str) -> None:
         body = (OUTDIR / name).read_bytes()
         ext = Path(name).suffix.lower().lstrip(".")
-        e = {"polls": polls, "bytes": len(body), "sha256": hashlib.sha256(body).hexdigest(),
-             "mime": f"image/{'jpeg' if ext == 'jpg' else ext}", "src": src}
+        e = {
+            "polls": polls,
+            "bytes": len(body),
+            "sha256": hashlib.sha256(body).hexdigest(),
+            "mime": f"image/{'jpeg' if ext == 'jpg' else ext}",
+            "src": src,
+        }
         wp = OUTDIR / f"{name}.webp"
         if wp.exists():
             e["webp_bytes"] = wp.stat().st_size
@@ -202,8 +235,10 @@ def main() -> int:
             continue
         todo.append((name, meta))
 
-    print(f"{len(refs)} unique images referenced; {len(refs) - len(todo)} already on disk; "
-          f"{len(todo)} to fetch" + ("  (+ .webp copies)" if want_webp else ""))
+    print(
+        f"{len(refs)} unique images referenced; {len(refs) - len(todo)} already on disk; "
+        f"{len(todo)} to fetch" + ("  (+ .webp copies)" if want_webp else "")
+    )
     if args.dry_run:
         for name, meta in todo[:40]:
             print(f"  would fetch {name}  (polls {', '.join(meta['polls'][:4])})")
@@ -235,8 +270,13 @@ def main() -> int:
                 f.polite_sleep()
                 continue
             (OUTDIR / name).write_bytes(res["body"])
-            entry = {"polls": meta["polls"], "bytes": res["bytes"], "sha256": res["sha256"],
-                     "mime": res["mime"], "src": meta["url"]}
+            entry = {
+                "polls": meta["polls"],
+                "bytes": res["bytes"],
+                "sha256": res["sha256"],
+                "mime": res["mime"],
+                "src": meta["url"],
+            }
             if webp:
                 (OUTDIR / f"{name}.webp").write_bytes(webp)
                 entry["webp_bytes"] = len(webp)
@@ -244,15 +284,19 @@ def main() -> int:
             got += 1
             if i % 25 == 0 or got <= 3:
                 wp = f" +{len(webp):,}w" if webp else ""
-                print(f"  [{i}/{len(todo)}] {name}  {res['bytes']:,}B {res['mime']}{wp}")
+                print(
+                    f"  [{i}/{len(todo)}] {name}  {res['bytes']:,}B {res['mime']}{wp}"
+                )
             f.polite_sleep()
     except KeyboardInterrupt:
         print("\n-- interrupted, writing manifest --")
 
     MANIFEST.write_text(json.dumps(dict(sorted(manifest.items())), indent=1) + "\n")
     total_bytes = sum(m.get("bytes", 0) for m in manifest.values())
-    print(f"\ndownloaded {got}, missing {missing}, manifest {len(manifest)} entries, "
-          f"{total_bytes / 1e6:.1f} MB on disk")
+    print(
+        f"\ndownloaded {got}, missing {missing}, manifest {len(manifest)} entries, "
+        f"{total_bytes / 1e6:.1f} MB on disk"
+    )
     print(f"wrote {MANIFEST}")
     return 0
 

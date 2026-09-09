@@ -11,6 +11,7 @@ Not routed through the CMS -- plain static file.
 
   .venv/bin/python scripts/gallery-audit.py
 """
+
 from __future__ import annotations
 
 import html
@@ -28,15 +29,40 @@ ALBUMS = ROOT / "public" / "gallery" / "albums"
 OUT = ROOT / "data" / "gallery" / "audit.html"
 
 AID_CONTEST = {
-    1: "SpC2K5", 2: "SC2K4", 3: "SpC2K4", 4: "SC2K3", 5: "SC2K2", 6: "SC2K5",
-    7: "BSE2K6", 8: "CB2K6", 9: "CB VI", 10: "CB VII", 11: "BGE 2K9",
-    12: "CB VIII", 13: "GOTD", 14: "Rivalry", 15: "CB IX", 16: "BGE 2K15",
-    17: "Best Year", 18: "CB X", 19: "GOTD 2",
+    1: "SpC2K5",
+    2: "SC2K4",
+    3: "SpC2K4",
+    4: "SC2K3",
+    5: "SC2K2",
+    6: "SC2K5",
+    7: "BSE2K6",
+    8: "CB2K6",
+    9: "CB VI",
+    10: "CB VII",
+    11: "BGE 2K9",
+    12: "CB VIII",
+    13: "GOTD",
+    14: "Rivalry",
+    15: "CB IX",
+    16: "BGE 2K15",
+    17: "Best Year",
+    18: "CB X",
+    19: "GOTD 2",
 }
 PREFIX = {
-    1: "b", 2: "sum04b", 3: "spr04b", 4: "sum03b", 5: "sum02b",
-    7: "bse", 8: "cb5", 9: "cb6-", 10: "cb7-", 11: "bge09-",
-    12: "cb8-", 13: "gotd-", 14: "rivals-",
+    1: "b",
+    2: "sum04b",
+    3: "spr04b",
+    4: "sum03b",
+    5: "sum02b",
+    7: "bse",
+    8: "cb5",
+    9: "cb6-",
+    10: "cb7-",
+    11: "bge09-",
+    12: "cb8-",
+    13: "gotd-",
+    14: "rivals-",
 }
 
 
@@ -56,7 +82,11 @@ def parse_key(aid: int, fn: str):
     if aid == 17:
         m = re.match(r"^(?:r(\d+)_)?(\d{4})(_[lr])?$", s)
         if m:
-            return m.group(2), (("r" + m.group(1)) if m.group(1) else "") + (m.group(3) or ""), "entrant"
+            return (
+                m.group(2),
+                (("r" + m.group(1)) if m.group(1) else "") + (m.group(3) or ""),
+                "entrant",
+            )
     if aid == 18:
         if re.match(r"^\d+$", s):
             return s, "", "entrant"
@@ -70,7 +100,11 @@ def parse_key(aid: int, fn: str):
     if aid == 16:
         m = re.match(r"^(\d+)_(\d+)(?:_(\d+))?$", s)
         if m:
-            return f"r{int(m.group(1))}m{int(m.group(2)):03d}", m.group(3) or "", "roundlocal"
+            return (
+                f"r{int(m.group(1))}m{int(m.group(2)):03d}",
+                m.group(3) or "",
+                "roundlocal",
+            )
         m = re.match(r"^(\d+)$", s)
         if m:
             return f"{int(m.group(1)):03d}", "", "entrant"
@@ -84,7 +118,7 @@ def parse_key(aid: int, fn: str):
             return s, "", "skip"
         pre = PREFIX[aid]
         if s.startswith(pre):
-            m = re.match(r"^(\d+)(.*)$", s[len(pre):])
+            m = re.match(r"^(\d+)(.*)$", s[len(pre) :])
             if m:
                 return f"{int(m.group(1)):03d}", m.group(2).lstrip("-_"), "match"
     return s, "", "unparsed"
@@ -93,10 +127,16 @@ def parse_key(aid: int, fn: str):
 def main() -> None:
     pics = json.loads(INVENTORY.read_text())["pics"]
     records = json.loads(RECORDS.read_text())
-    gmap = json.loads(MAP.read_text()) if MAP.exists() else {"images": {}, "unresolved": []}
+    gmap = (
+        json.loads(MAP.read_text())
+        if MAP.exists()
+        else {"images": {}, "unresolved": []}
+    )
 
     # file -> (poll, confidence)   and   file -> reason
-    resolved_by_file: dict[str, list] = defaultdict(list)     # file -> [(poll, confidence), ...]
+    resolved_by_file: dict[str, list] = defaultdict(
+        list
+    )  # file -> [(poll, confidence), ...]
     for poll, imgs in gmap.get("images", {}).items():
         for im in imgs:
             resolved_by_file[im["file"]].append((poll, im.get("confidence", "?")))
@@ -124,12 +164,20 @@ def main() -> None:
         for e in r["entrants"]:
             nm = (f"({e['seed']})" if e.get("seed") else "") + html.escape(e["name"])
             segs.append(f"<b>{nm}</b>" if e["finish"] == 1 else nm)
-        return " &rsaquo; ".join(segs) + f' <span class="pmeta">#{poll} &middot; {r["date"]}</span>'
+        return (
+            " &rsaquo; ".join(segs)
+            + f' <span class="pmeta">#{poll} &middot; {r["date"]}</span>'
+        )
 
     ejson = json.loads(ENTRANTS.read_text()) if ENTRANTS.exists() else {}
-    bge15_idx = {d["index"]: nm for nm, d in ejson.get("BGE 2K15", {}).get("entrants", {}).items()}
+    bge15_idx = {
+        d["index"]: nm
+        for nm, d in ejson.get("BGE 2K15", {}).get("entrants", {}).items()
+    }
     byear_set = set(ejson.get("Best Year", {}).get("entrants", {}))
-    cbx_idx = {d["index"]: nm for nm, d in ejson.get("CB X", {}).get("entrants", {}).items()}
+    cbx_idx = {
+        d["index"]: nm for nm, d in ejson.get("CB X", {}).get("entrants", {}).items()
+    }
 
     def resolve_ents(aid: int, key: str, kind: str) -> str:
         if kind == "pollid":
@@ -137,31 +185,46 @@ def main() -> None:
         if kind == "match":
             d = re.sub(r"\D", "", key)
             poll = ordinal.get((AID_CONTEST[aid], int(d))) if d else None
-            return ents_html(poll) if poll else '<span class="hint">consolation / out of range</span>'
-        if aid == 16 and kind == "entrant":                    # BGE 2K15 NNN.jpg -> entrant
+            return (
+                ents_html(poll)
+                if poll
+                else '<span class="hint">consolation / out of range</span>'
+            )
+        if aid == 16 and kind == "entrant":  # BGE 2K15 NNN.jpg -> entrant
             nm = bge15_idx.get(int(key)) if key.isdigit() else None
-            return (f'{html.escape(nm)} <span class="pmeta">BGE 2K15 entrant #{int(key)}</span>'
-                    if nm else '<span class="hint">joke-poll entrant</span>')
-        if aid == 16 and kind == "roundlocal":                 # BGE 2K15 R_MMM.jpg
+            return (
+                f'{html.escape(nm)} <span class="pmeta">BGE 2K15 entrant #{int(key)}</span>'
+                if nm
+                else '<span class="hint">joke-poll entrant</span>'
+            )
+        if aid == 16 and kind == "roundlocal":  # BGE 2K15 R_MMM.jpg
             mm = re.match(r"r(\d+)m(\d+)", key)
             nm = bge15_idx.get(int(mm.group(2))) if mm else None
-            return (f'{html.escape(nm)} <span class="pmeta">round {int(mm.group(1))} portrait</span>'
-                    if nm else '<span class="hint">round-local &mdash; unmapped</span>')
-        if aid == 17 and kind == "entrant":                    # Best Year: key = year
-            return (f'year {html.escape(key)} <span class="pmeta">Best Year entrant</span>'
-                    if key in byear_set
-                    else f'<span class="hint">{html.escape(key)} &mdash; non-bracket candidate year</span>')
-        if aid == 18 and kind == "entrant":                    # CB X: key = N.png index
+            return (
+                f'{html.escape(nm)} <span class="pmeta">round {int(mm.group(1))} portrait</span>'
+                if nm
+                else '<span class="hint">round-local &mdash; unmapped</span>'
+            )
+        if aid == 17 and kind == "entrant":  # Best Year: key = year
+            return (
+                f'year {html.escape(key)} <span class="pmeta">Best Year entrant</span>'
+                if key in byear_set
+                else f'<span class="hint">{html.escape(key)} &mdash; non-bracket candidate year</span>'
+            )
+        if aid == 18 and kind == "entrant":  # CB X: key = N.png index
             nm = cbx_idx.get(int(key)) if key.isdigit() else None
             if nm:
                 return f'{html.escape(nm)} <span class="pmeta">CB X entrant #{int(key)}</span>'
             return '<span class="hint">Legends bracket extra portrait (unmapped)</span>'
-        if aid == 18 and kind == "roundlocal":                 # CB X: rN-IDX.png
+        if aid == 18 and kind == "roundlocal":  # CB X: rN-IDX.png
             mm = re.match(r"r(\d+)-(\d+)", key)
             nm = cbx_idx.get(int(mm.group(2))) if mm else None
-            return (f'{html.escape(nm)} <span class="pmeta">round {int(mm.group(1))} portrait</span>'
-                    if nm else '<span class="hint">round-local &mdash; unmapped</span>')
-        if aid == 18 and kind == "named":                      # CB X alt-art submission
+            return (
+                f'{html.escape(nm)} <span class="pmeta">round {int(mm.group(1))} portrait</span>'
+                if nm
+                else '<span class="hint">round-local &mdash; unmapped</span>'
+            )
+        if aid == 18 and kind == "named":  # CB X alt-art submission
             return f'<span class="hint">{html.escape(key)} &mdash; alt-art submission (crowdsource)</span>'
         if kind == "roundlocal":
             return '<span class="hint">round-local &mdash; unmapped (phase 2/3)</span>'
@@ -178,12 +241,16 @@ def main() -> None:
         titles[aid] = pic["album"]
         key, variant, kind = parse_key(aid, fn)
         ctime = (pic.get("ctime") or "")[:10]
-        groups.setdefault(aid, {}).setdefault(key, []).append((fn, d, w, h, variant, kind, ctime))
+        groups.setdefault(aid, {}).setdefault(key, []).append(
+            (fn, d, w, h, variant, kind, ctime)
+        )
 
     def thumb(d: str, fn: str) -> str:
         if (ALBUMS / d / f"thumb_{fn}").exists():
             return f"/gallery/albums/{d}thumb_{fn}"
-        alt = re.sub(r"_(\d+)\.", lambda m: f"_{int(m.group(1)):03d}.", fn)   # 3_14 -> 3_014
+        alt = re.sub(
+            r"_(\d+)\.", lambda m: f"_{int(m.group(1)):03d}.", fn
+        )  # 3_14 -> 3_014
         if alt != fn and (ALBUMS / d / f"thumb_{alt}").exists():
             return f"/gallery/albums/{d}thumb_{alt}"
         return f"/gallery/albums/{d}{fn}"
@@ -214,8 +281,8 @@ def main() -> None:
  .hint{{color:#b00;font-size:11px;font-style:italic}}
 </style>
 <h1>Coppermine gallery audit</h1>
-<p class=sum>Grouped by filename key. <b>map.json:</b> {st.get('resolved','?')} resolved,
-{st.get('unresolved','?')} unresolved, {st.get('polls_with_images','?')} polls with images.
+<p class=sum>Grouped by filename key. <b>map.json:</b> {st.get("resolved", "?")} resolved,
+{st.get("unresolved", "?")} unresolved, {st.get("polls_with_images", "?")} polls with images.
 Red-bordered thumb + tinted key = a Board 8 wiki image with the same filename stem.
 Grey row = not resolved to a poll (Phase 2/3).</p>
 """]
@@ -223,11 +290,18 @@ Grey row = not resolved to a poll (Phase 2/3).</p>
     for aid in sorted(groups):
         g = groups[aid]
         n_img = sum(len(v) for v in g.values())
-        n_res = sum(1 for v in g.values() for (fn, *_ ) in v if fn in resolved_by_file)
-        n_coll = sum(1 for v in g.values() for (fn, *_ ) in v if fn.lower().rsplit(".", 1)[0] in wiki_by_stem)
+        n_res = sum(1 for v in g.values() for (fn, *_) in v if fn in resolved_by_file)
+        n_coll = sum(
+            1
+            for v in g.values()
+            for (fn, *_) in v
+            if fn.lower().rsplit(".", 1)[0] in wiki_by_stem
+        )
         parts.append(f"<h2>aid {aid} &mdash; {titles[aid]}</h2>")
-        parts.append(f"<p class=sum>{len(g)} keys &middot; {n_img} images &middot; "
-                     f"{n_res} resolved to a poll &middot; {n_coll} wiki-stem collisions</p>")
+        parts.append(
+            f"<p class=sum>{len(g)} keys &middot; {n_img} images &middot; "
+            f"{n_res} resolved to a poll &middot; {n_coll} wiki-stem collisions</p>"
+        )
         if aid == 17:
             parts.append(
                 "<p class=sum><b>Best Year notes:</b> entrant = year. <code>YYYY.jpg</code> "
@@ -236,7 +310,8 @@ Grey row = not resolved to a poll (Phase 2/3).</p>
                 "9 bare years never played. <code>r1_YYYY.jpg</code> (slim 232&times;600) = round-1 "
                 "portrait; it is reused (tentatively) for round 2, since there is no <code>r2_</code> "
                 "set. <code>r3/r4/r5_YYYY_{l,r}.jpg</code> = per-round portrait, l/r = poll side. "
-                "Green = <code>r1_</code> on an actual round-1 match; amber = everything else.</p>")
+                "Green = <code>r1_</code> on an actual round-1 match; amber = everything else.</p>"
+            )
         if aid == 18:
             parts.append(
                 "<p class=sum><b>CB X notes:</b> <code>N.png</code> (1&ndash;128) = entrant "
@@ -247,9 +322,12 @@ Grey row = not resolved to a poll (Phase 2/3).</p>
                 "the Board 8 wiki that the AMR uses instead. Rounds 5+ are left for crowdsourcing. "
                 "<code>&lt;char&gt;-b-&lt;artist&gt;.png</code> / <code>-f-</code> = user-submitted "
                 "<b>b</b>ackground / <b>f</b>oreground layers that get composited together "
-                "(assumption from the wiki); which match each was for is unknown &mdash; crowdsource.</p>")
-        parts.append("<table><tr><th>key</th><th>n</th><th>map</th>"
-                     "<th>entrants (finish order, winner bold)</th><th>gallery</th><th>wiki (same stem)</th></tr>")
+                "(assumption from the wiki); which match each was for is unknown &mdash; crowdsource.</p>"
+            )
+        parts.append(
+            "<table><tr><th>key</th><th>n</th><th>map</th>"
+            "<th>entrants (finish order, winner bold)</th><th>gallery</th><th>wiki (same stem)</th></tr>"
+        )
 
         def sortkey(k: str):
             return [int(t) if t.isdigit() else t for t in re.split(r"(\d+)", k)]
@@ -265,35 +343,49 @@ Grey row = not resolved to a poll (Phase 2/3).</p>
                 for p, c in resolved_by_file.get(fn, []):
                     polls_hit.add(p)
                     confs.add(c)
-                gcells += (f'<span class=th><a href="/gallery/albums/{d}{fn}" target=_blank>'
-                           f'<img loading=lazy src="{thumb(d, fn)}" title="{fn}  {w}x{h}  var={variant or "-"}"></a>'
-                           f'<small>{ctime}</small></span>')
+                gcells += (
+                    f'<span class=th><a href="/gallery/albums/{d}{fn}" target=_blank>'
+                    f'<img loading=lazy src="{thumb(d, fn)}" title="{fn}  {w}x{h}  var={variant or "-"}"></a>'
+                    f"<small>{ctime}</small></span>"
+                )
                 if stem in wiki_by_stem and stem not in seen_wiki:
                     seen_wiki.add(stem)
                     wp, wu = wiki_by_stem[stem]
                     wcells += f'<a href="{wu}" target=_blank><img class=wiki loading=lazy src="{wu}" title="wiki poll {wp}  {fn}"></a>'
             any_res = bool(polls_hit)
-            plist = ", ".join(sorted(polls_hit, key=lambda p: int(p) if p.isdigit() else 0))
+            plist = ", ".join(
+                sorted(polls_hit, key=lambda p: int(p) if p.isdigit() else 0)
+            )
             if "tentative" in confs:
-                mapcell = f'<span class=warn>&#8776; poll {plist} (tentative)</span>'
+                mapcell = f"<span class=warn>&#8776; poll {plist} (tentative)</span>"
             elif "manual" in confs:
-                mapcell = f'<span class=ok>&#10003; poll {plist} (manual)</span>'
+                mapcell = f"<span class=ok>&#10003; poll {plist} (manual)</span>"
             elif any_res:
-                mapcell = f'<span class=ok>&#10003; poll {plist}</span>'
+                mapcell = f"<span class=ok>&#10003; poll {plist}</span>"
             elif kind == "skip":
-                mapcell = '<span class=skip>skipped (logo/intro)</span>'
+                mapcell = "<span class=skip>skipped (logo/intro)</span>"
             else:
-                mapcell = f'<span class=no>&#8213; {html.escape(reason_by_file.get(items[0][0], kind))}</span>'
-            cls = " class=collision" if seen_wiki else (" class=unres" if not any_res and kind != "skip" else "")
-            parts.append(f'<tr{cls}><td class="k">{key}<span class="badge">{kind}</span></td>'
-                         f'<td>{len(items)}</td><td>{mapcell}</td>'
-                         f'<td class="ents">{resolve_ents(aid, key, kind)}</td>'
-                         f'<td>{gcells}</td><td>{wcells}</td></tr>')
+                mapcell = f"<span class=no>&#8213; {html.escape(reason_by_file.get(items[0][0], kind))}</span>"
+            cls = (
+                " class=collision"
+                if seen_wiki
+                else (" class=unres" if not any_res and kind != "skip" else "")
+            )
+            parts.append(
+                f'<tr{cls}><td class="k">{key}<span class="badge">{kind}</span></td>'
+                f"<td>{len(items)}</td><td>{mapcell}</td>"
+                f'<td class="ents">{resolve_ents(aid, key, kind)}</td>'
+                f"<td>{gcells}</td><td>{wcells}</td></tr>"
+            )
         parts.append("</table>")
 
     OUT.write_text("".join(parts))
-    print(f"wrote {OUT}  ({sum(len(g) for g in groups.values())} key-groups, {len(pics)} images)")
-    print("view  http://localhost:8000/data/gallery/audit.html   (php -S localhost:8000 -t public serve.php)")
+    print(
+        f"wrote {OUT}  ({sum(len(g) for g in groups.values())} key-groups, {len(pics)} images)"
+    )
+    print(
+        "view  http://localhost:8000/data/gallery/audit.html   (php -S localhost:8000 -t public serve.php)"
+    )
 
 
 if __name__ == "__main__":

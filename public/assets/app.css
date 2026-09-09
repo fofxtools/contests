@@ -44,10 +44,12 @@ table.elo-standings td:nth-child(5) { white-space: nowrap; }
 .amr-views, .amr-meta, .amr-filter { margin: .35em 0; }
 .amr-meta { color: #555; font-size: .95em; }
 .amr-filter { background: #eef4fb; border: 1px solid #b9d0e8; padding: .4em .7em; }
+form.amr-views input[name="entrant"] { min-width: 14em; padding: .1em .35em; }
+form.amr-views button { margin-left: .3em; }
 table.amr td a { text-decoration: none; }
 table.amr td a:hover { text-decoration: underline; }
 .amr-wrap { overflow-x: auto; margin: .6em 0 1em; }
-table.amr { border-collapse: collapse; font-size: .92em; table-layout: fixed; width: 100%; min-width: 50em; }
+table.amr { border-collapse: collapse; font-size: .92em; table-layout: fixed; width: 100%; min-width: 68em; }
 table.amr th, table.amr td { border: 1px solid #bbb; padding: 3px 5px; vertical-align: top; overflow-wrap: break-word; }
 table.amr thead th { background: #eee; }
 table.amr th a { text-decoration: none; }
@@ -61,8 +63,16 @@ table.amr th:nth-child(5) { width: 20em; }    /* Result */
 table.amr th:nth-child(6) { width: 4.3em; }   /* Total */
 table.amr th:nth-child(7) { width: 3.8em; }   /* Margin (%) */
 table.amr th:nth-child(8) { width: 4.6em; }   /* Margin (votes) */
-table.amr td.amr-result > div { padding: 1px 0; }
+table.amr th:nth-child(9) { width: 6em; }     /* Bracket Pick % */
+table.amr th:nth-child(10) { width: 10em; }   /* Oracle Consensus (per-entrant) */
+table.amr th:nth-child(11) { width: 3.8em; }  /* Oracle MAE (consensus error) */
+table.amr td.amr-result > div,
+table.amr td.amr-oracle > div,
+table.amr td.amr-bracket > div { padding: 1px 0; }
 table.amr .amr-win { font-weight: bold; }
+table.amr td.amr-oracle,
+table.amr td.amr-bracket { white-space: normal; }
+table.amr td.amr-omiss { color: #b00; }
 .amr-sub { color: #777; font-size: .85em; white-space: nowrap; }
 .amr-flag { color: #b30; font-weight: bold; cursor: help; }
 table.amr tr.amr-bonus { background: #fff7e6; }

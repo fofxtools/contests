@@ -23,6 +23,7 @@ Resumable (skip if both outputs exist). Needs: mwparserfromhell, pandoc.
   .venv/bin/python scripts/board8wiki-clean.py --limit 5 --sample     # review file only
   .venv/bin/python scripts/board8wiki-clean.py --kind contest --fresh
 """
+
 from __future__ import annotations
 
 import argparse
@@ -40,23 +41,37 @@ CLEAN_DIR = ROOT / "storage" / "board8wiki" / "clean"
 MD_DIR = ROOT / "storage" / "board8wiki" / "md"
 SAMPLE_FILE = ROOT / "storage" / "board8wiki" / "clean-samples.md"
 
-DEFAULT_MAX_CHARS = 0          # 0 = no cap. Capping only saves ~6% of corpus tokens
-                              # (~$0.06 at batch pricing) and risks clipping a long
-                              # but on-topic analysis, so it's off by default. Pass
-                              # --max-chars N to bound runaway writeups.
+DEFAULT_MAX_CHARS = 0  # 0 = no cap. Capping only saves ~6% of corpus tokens
+# (~$0.06 at batch pricing) and risks clipping a long
+# but on-topic analysis, so it's off by default. Pass
+# --max-chars N to bound runaway writeups.
 
 _INFOBOX_RE = re.compile(r"\{\|[^\n]*?\binfobox\b.*?\n\|\}", re.DOTALL | re.IGNORECASE)
 _COMMENT_RE = re.compile(r"<!--.*?-->", re.DOTALL)
 _MAGIC_RE = re.compile(r"__[A-Z]+__")
 _BR_RE = re.compile(r"<\s*br\s*/?\s*>", re.IGNORECASE)
-_UNWRAP_TAGS = ("center", "small", "font", "b", "i", "u", "sub", "sup", "span", "big", "s")
-_UNWRAP_RE = re.compile(r"</?\s*(?:" + "|".join(_UNWRAP_TAGS) + r")\b[^>]*>", re.IGNORECASE)
+_UNWRAP_TAGS = (
+    "center",
+    "small",
+    "font",
+    "b",
+    "i",
+    "u",
+    "sub",
+    "sup",
+    "span",
+    "big",
+    "s",
+)
+_UNWRAP_RE = re.compile(
+    r"</?\s*(?:" + "|".join(_UNWRAP_TAGS) + r")\b[^>]*>", re.IGNORECASE
+)
 _BLANKS_RE = re.compile(r"\n{3,}")
 
 
 def flatten_infobox(match: re.Match) -> str:
     """`{| ... infobox ... |}` -> bullet list of its `! key | value` rows."""
-    body = re.sub(r"\n\|\}\s*$", "", match.group(0))          # drop the closing |}
+    body = re.sub(r"\n\|\}\s*$", "", match.group(0))  # drop the closing |}
     out = []
     for row in re.split(r"\n\|-\s*\n", body):
         m = re.search(r"!\s*(.+?)\s*\n\|\s*(.+)", row, re.DOTALL)
@@ -68,7 +83,7 @@ def flatten_infobox(match: re.Match) -> str:
         key = re.sub(r"\s+", " ", key).strip().strip(":").strip()
         val = re.sub(r"\s+", " ", val).strip()
         if key and val:
-            out.append(f"* '''{key}:''' {val}")          # mediawiki markup -> pandoc renders it
+            out.append(f"* '''{key}:''' {val}")  # mediawiki markup -> pandoc renders it
     return ("\n\n" + "\n".join(out) + "\n\n") if out else ""
 
 
@@ -96,7 +111,7 @@ def clean_wikitext(raw: str, *, drop_templates: bool, max_chars: int | None) -> 
                 code.remove(link)
             except ValueError:
                 pass
-        else:                                                # [[Mario|the plumber]] / [[Mario]] -> text
+        else:  # [[Mario|the plumber]] / [[Mario]] -> text
             try:
                 code.replace(link, str(link.text or link.title))
             except ValueError:
@@ -121,18 +136,26 @@ def clean_wikitext(raw: str, *, drop_templates: bool, max_chars: int | None) -> 
 
     if max_chars and len(text) > max_chars:
         cut = text.rfind("\n\n", 0, max_chars)
-        text = text[: cut if cut > max_chars // 2 else max_chars].rstrip() + "\n\n[... writeup truncated ...]\n"
+        text = (
+            text[: cut if cut > max_chars // 2 else max_chars].rstrip()
+            + "\n\n[... writeup truncated ...]\n"
+        )
     return text
 
 
 def to_markdown(wikitext: str) -> str:
     proc = subprocess.run(
         ["pandoc", "-f", "mediawiki", "-t", "gfm", "--wrap=none"],
-        input=wikitext, capture_output=True, text=True,
+        input=wikitext,
+        capture_output=True,
+        text=True,
+        check=False,  # returncode handled below
     )
     if proc.returncode != 0:
         raise RuntimeError(f"pandoc failed: {proc.stderr.strip()[:300]}")
-    md = re.sub(r"(?m)^<!-- -->$\n?", "", proc.stdout)      # pandoc's list separator artifact
+    md = re.sub(
+        r"(?m)^<!-- -->$\n?", "", proc.stdout
+    )  # pandoc's list separator artifact
     return _BLANKS_RE.sub("\n\n", md).strip() + "\n"
 
 
@@ -140,7 +163,7 @@ def process(row: dict, max_chars: int) -> tuple[str, str]:
     is_contest = row["kind"] == "contest"
     cleaned = clean_wikitext(
         row["wikitext"],
-        drop_templates=True,                       # icon/nav templates are noise for both kinds
+        drop_templates=True,  # icon/nav templates are noise for both kinds
         max_chars=None if is_contest else max_chars,
     )
     header = f"# {row['resolved_title']}\n\n_source: {row['requested_title']} (revid {row['revid']})_\n\n"
@@ -148,12 +171,25 @@ def process(row: dict, max_chars: int) -> tuple[str, str]:
 
 
 def main() -> int:
-    ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
+    ap = argparse.ArgumentParser(
+        description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter
+    )
     ap.add_argument("--kind", choices=("writeup", "contest"), help="only this kind")
     ap.add_argument("--limit", type=int, default=0)
-    ap.add_argument("--max-chars", type=int, default=DEFAULT_MAX_CHARS, help="writeup body cap; 0 = no cap (default)")
-    ap.add_argument("--fresh", action="store_true", help="rewrite even if outputs exist")
-    ap.add_argument("--sample", action="store_true", help="write before/after to clean-samples.md, don't touch clean/ or md/")
+    ap.add_argument(
+        "--max-chars",
+        type=int,
+        default=DEFAULT_MAX_CHARS,
+        help="writeup body cap; 0 = no cap (default)",
+    )
+    ap.add_argument(
+        "--fresh", action="store_true", help="rewrite even if outputs exist"
+    )
+    ap.add_argument(
+        "--sample",
+        action="store_true",
+        help="write before/after to clean-samples.md, don't touch clean/ or md/",
+    )
     args = ap.parse_args()
 
     if not INPUT.exists():
@@ -178,7 +214,7 @@ def main() -> int:
             continue
         try:
             clean_txt, md_txt = process(r, args.max_chars)
-        except Exception as e:                                   # noqa: BLE001
+        except Exception as e:  # noqa: BLE001
             print(f"  ! {r['kind']} {r['key']}: {e.__class__.__name__}: {e}")
             failed += 1
             continue
@@ -196,10 +232,14 @@ def main() -> int:
         done += 1
 
     if args.sample:
-        SAMPLE_FILE.write_text("# board8wiki clean — before/after samples\n" + "".join(samples))
+        SAMPLE_FILE.write_text(
+            "# board8wiki clean — before/after samples\n" + "".join(samples)
+        )
         print(f"wrote {SAMPLE_FILE}  ({done} samples)")
     else:
-        print(f"cleaned {done}  skipped {skipped}  failed {failed}  -> {CLEAN_DIR}/  {MD_DIR}/")
+        print(
+            f"cleaned {done}  skipped {skipped}  failed {failed}  -> {CLEAN_DIR}/  {MD_DIR}/"
+        )
     return 1 if failed else 0
 
 

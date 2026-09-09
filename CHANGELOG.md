@@ -1,5 +1,26 @@
 # Changelog
 
+## [1.1.6] - 2026-09-09
+
+### Added
+
+- All Match Results (`/node/100`): three columns for how each match was
+  predicted — **Bracket Pick %** (share of official pre-contest bracket entries
+  that picked the winner), **Oracle Consensus** (the Oracle Challenge crowd's
+  predicted vote share, per entrant), and **Oracle MAE** (how far that consensus
+  landed from the real result). All sortable; blank where there's no data.
+- All Match Results and All Match Pictures: a filter bar above the table — a
+  contest link list and a type-to-search entrant box.
+- All Match Results: "Show" links to list only two-entrant or only
+  multi-entrant matches.
+
+### Changed
+
+- All Match Results / All Match Pictures: clicking an entrant or contest now
+  filters by id rather than by name, so entrants that share a name across
+  contest types (or contain punctuation) resolve correctly.
+- All Match Results: reworked the quick-view links above the table.
+
 ## [1.1.5] - 2026-09-08
 
 ### Added

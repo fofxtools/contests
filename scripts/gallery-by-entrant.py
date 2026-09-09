@@ -10,6 +10,7 @@ Served at  /data/gallery/by-entrant.html  (data/ is symlinked into the docroot).
 
   .venv/bin/python scripts/gallery-by-entrant.py
 """
+
 from __future__ import annotations
 
 import html
@@ -35,7 +36,7 @@ def thumb(im: dict) -> str:
     d, fn = im["dir"], im["file"]
     if (ALBUMS / d / f"thumb_{fn}").exists():
         return f"/gallery/albums/{d}thumb_{fn}"
-    alt = re.sub(r"_(\d+)\.", lambda m: f"_{int(m.group(1)):03d}.", fn)   # 3_14 -> 3_014
+    alt = re.sub(r"_(\d+)\.", lambda m: f"_{int(m.group(1)):03d}.", fn)  # 3_14 -> 3_014
     if alt != fn and (ALBUMS / d / f"thumb_{alt}").exists():
         return f"/gallery/albums/{d}thumb_{alt}"
     return f"/gallery/albums/{d}{fn}"
@@ -58,13 +59,17 @@ def main() -> None:
                 by_ent[eid].append((c, dt, poll, im))
 
     # order entrants: by type, then name
-    ents = sorted(by_ent, key=lambda i: (type_by_id.get(i, "zz"), name_by_id.get(i, "").lower()))
+    ents = sorted(
+        by_ent, key=lambda i: (type_by_id.get(i, "zz"), name_by_id.get(i, "").lower())
+    )
     type_tally = Counter(type_by_id.get(i, "?") for i in ents)
     total_registry = Counter(t for t, _n, _i in id_rows)
     missing = {t: total_registry[t] - type_tally.get(t, 0) for t in total_registry}
 
-    tallies = " &middot; ".join(f"{type_tally.get(t, 0)}/{total_registry[t]} {t}"
-                                for t in sorted(total_registry))
+    tallies = " &middot; ".join(
+        f"{type_tally.get(t, 0)}/{total_registry[t]} {t}"
+        for t in sorted(total_registry)
+    )
     parts = [f"""<!doctype html><meta charset=utf-8><title>gallery by entrant</title>
 <style>
  body{{font:13px/1.45 system-ui;margin:1rem;background:#fafafa}}
@@ -97,14 +102,18 @@ Amber = tentative. Red border = Board 8 wiki image. Grouped by contest within ea
 
         nm = html.escape(name_by_id.get(eid, f"id {eid}"))
         ty = type_by_id.get(eid, "?")
-        parts.append(f'<h2>{nm} <span class=id>#{eid}</span><span class=ty>{ty}</span></h2>')
+        parts.append(
+            f"<h2>{nm} <span class=id>#{eid}</span><span class=ty>{ty}</span></h2>"
+        )
 
         cells, cur_c = [], None
         for c, _dt, poll, im in rows:
             if c != cur_c:
                 if cur_c is not None:
                     cells.append("</div>")
-                cells.append(f'<div class=grp><span class=ctx>{html.escape(c)}</span><br>')
+                cells.append(
+                    f"<div class=grp><span class=ctx>{html.escape(c)}</span><br>"
+                )
                 cur_c = c
             cls = CONF_CLASS.get(im.get("confidence", ""), "warn")
             wiki = " wiki" if im.get("source") == "wiki" else ""
@@ -113,19 +122,26 @@ Amber = tentative. Red border = Board 8 wiki image. Grouped by contest within ea
             cells.append(
                 f'<span class=th><a href="{im["url"]}" target=_blank>'
                 f'<img class="{wiki.strip()}" loading=lazy src="{thumb(im)}" title="{html.escape(im["file"])}"></a>'
-                f'<small><span class=poll>{poll}</span> '
-                f'<span class="{cls}">{im.get("confidence","?")}</span>'
-                f'{"" if solo else " &middot; group"}'
-                + (f'<br>{note}' if note else "") + '</small></span>')
+                f"<small><span class=poll>{poll}</span> "
+                f'<span class="{cls}">{im.get("confidence", "?")}</span>'
+                f"{'' if solo else ' &middot; group'}"
+                + (f"<br>{note}" if note else "")
+                + "</small></span>"
+            )
         cells.append("</div>")
         parts.append("".join(cells))
 
-    parts.append(f'<p class=sum>Registry entrants with no mapped image: '
-                 + ", ".join(f"{missing[t]} {t}" for t in sorted(missing) if missing[t]) + "</p>")
+    parts.append(
+        "<p class=sum>Registry entrants with no mapped image: "
+        + ", ".join(f"{missing[t]} {t}" for t in sorted(missing) if missing[t])
+        + "</p>"
+    )
 
     OUT.write_text("".join(parts))
-    print(f"wrote {OUT}  ({len(ents)} entrants, "
-          f"{sum(len(v) for v in by_ent.values())} image references)")
+    print(
+        f"wrote {OUT}  ({len(ents)} entrants, "
+        f"{sum(len(v) for v in by_ent.values())} image references)"
+    )
     print("view  http://localhost:8000/data/gallery/by-entrant.html")
 
 
