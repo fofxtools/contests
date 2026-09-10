@@ -4,8 +4,9 @@ Stage 1 of the Board 8 corpus pipeline: turn the raw fetched wikitext into
 denoised text (for the extraction model) + readable markdown (for humans).
 
 In : storage/board8wiki/pages.jsonl   (from board8wiki-fetch.py)
-Out: storage/board8wiki/clean/<poll|tid>.wikitext   -- template/image/ref stripped
-     storage/board8wiki/md/<poll|tid>.md            -- pandoc -f mediawiki -t gfm
+Out: storage/board8wiki/clean/<poll|tid>.wikitext          -- template/image/ref stripped (intermediate, gitignored)
+     data/board8wiki/markdown/writeups/<poll>.md            -- pandoc -f mediawiki -t gfm (committed archive)
+     data/board8wiki/markdown/contests/<tid>.md
 
 What gets removed: {{templates}} (nav boxes, character-icon calls), [[File:/Image:]]
 links, <gallery>, <ref>, HTML comments, __NOTOC__/__TOC__, [[Category:...]].
@@ -37,8 +38,11 @@ import mwparserfromhell
 
 ROOT = Path(__file__).resolve().parents[1]
 INPUT = ROOT / "storage" / "board8wiki" / "pages.jsonl"
-CLEAN_DIR = ROOT / "storage" / "board8wiki" / "clean"
-MD_DIR = ROOT / "storage" / "board8wiki" / "md"
+CLEAN_DIR = (
+    ROOT / "storage" / "board8wiki" / "clean"
+)  # .wikitext intermediate, gitignored
+MD_DIR = ROOT / "data" / "board8wiki" / "markdown"  # committed archive
+MD_SUBDIR = {"writeup": "writeups", "contest": "contests"}  # by pages.jsonl row kind
 SAMPLE_FILE = ROOT / "storage" / "board8wiki" / "clean-samples.md"
 
 DEFAULT_MAX_CHARS = 0  # 0 = no cap. Capping only saves ~6% of corpus tokens
@@ -195,7 +199,8 @@ def main() -> int:
     if not INPUT.exists():
         sys.exit(f"missing {INPUT} -- run board8wiki-fetch.py first")
     CLEAN_DIR.mkdir(parents=True, exist_ok=True)
-    MD_DIR.mkdir(parents=True, exist_ok=True)
+    for sub in MD_SUBDIR.values():
+        (MD_DIR / sub).mkdir(parents=True, exist_ok=True)
 
     rows = [json.loads(x) for x in INPUT.read_text().splitlines() if x.strip()]
     rows = [r for r in rows if not r["missing"] and r["wikitext"]]
@@ -208,7 +213,8 @@ def main() -> int:
     done = skipped = failed = 0
     for r in rows:
         stem = str(r["key"])
-        cpath, mpath = CLEAN_DIR / f"{stem}.wikitext", MD_DIR / f"{stem}.md"
+        cpath = CLEAN_DIR / f"{stem}.wikitext"
+        mpath = MD_DIR / MD_SUBDIR[r["kind"]] / f"{stem}.md"
         if not args.sample and not args.fresh and cpath.exists() and mpath.exists():
             skipped += 1
             continue

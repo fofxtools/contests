@@ -1,0 +1,798 @@
+[
+  {
+    "poll": 2890,
+    "contest": "CB VI",
+    "round": "Round One",
+    "division": "Division 7",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": true,
+    "narrative": "Much of the writeup is an extended aside explaining who Haseo is; its match discussion emphasizes Ryu Hayabusa unexpectedly overpowering the split Kingdom Hearts field and making his later rematch with Riku look settled.",
+    "headline": "Ryu overwhelms the split Kingdom Hearts field",
+    "tags": [
+      "statement-win",
+      "format-effect"
+    ]
+  },
+  {
+    "poll": 2891,
+    "contest": "CB VI",
+    "round": "Round One",
+    "division": "Division 8",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Squall settled a long-running strength debate with Aeris, while Akuma's debut was respectable despite a field crowded with Square characters. The writeup treats Akuma's showing as evidence that better bracket placement could have produced wins.",
+    "headline": "Squall settles the Aeris debate while Akuma debuts well",
+    "tags": [
+      "debut",
+      "strength-debate"
+    ]
+  },
+  {
+    "poll": 2892,
+    "contest": "CB VI",
+    "round": "Round One",
+    "division": "Division 8",
+    "voting_anomalies": [
+      "pic_factor"
+    ],
+    "anomaly_note": "The writeup says Wesker's ugly match picture may have hurt him in his close fight with Lara for the second advancing spot.",
+    "off_topic": false,
+    "narrative": "Sora controlled the match while Wesker briefly made the fight with Lara genuinely competitive. Lara eventually pulled away, but the writeup regards Wesker's showing as surprisingly strong despite a potentially damaging picture.",
+    "headline": "Lara survives Wesker after a surprisingly competitive fight",
+    "tags": [
+      "close-match",
+      "underperformance"
+    ]
+  },
+  {
+    "poll": 2893,
+    "contest": "CB VI",
+    "round": "Round One",
+    "division": "Division 8",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "A supposedly weak fourpack produced one of the round's funniest matches, with Duke unexpectedly taking control while Gordon Freeman disappointed again. Ike also impressed with a strong daytime push even though he never completed the comeback.",
+    "headline": "Duke shocks Gordon while Ike nearly makes it chaotic",
+    "tags": [
+      "upset",
+      "gfnw",
+      "comeback"
+    ]
+  },
+  {
+    "poll": 2894,
+    "contest": "CB VI",
+    "round": "Round One",
+    "division": "Division 8",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Sonic and Sub-Zero advanced comfortably, but Sonic's performance was far weaker than expected for a Noble Nine character. The writeup treats it as another warning that the Sonic cast was declining badly.",
+    "headline": "Sonic advances but delivers another warning sign",
+    "tags": [
+      "underperformance",
+      "warning-sign"
+    ]
+  },
+  {
+    "poll": 2895,
+    "contest": "CB VI",
+    "round": "Division 1 Semi Final",
+    "division": null,
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Mega Man and Yoshi advanced with little suspense after Knuckles's weak opening-round showing had already killed most of the debate. Knuckles again disappointed and never seriously threatened Yoshi.",
+    "headline": "Mega Man and Yoshi cruise as Knuckles disappoints again",
+    "tags": [
+      "underperformance"
+    ]
+  },
+  {
+    "poll": 2896,
+    "contest": "CB VI",
+    "round": "Division 1 Semi Final",
+    "division": null,
+    "voting_anomalies": [
+      "lff"
+    ],
+    "anomaly_note": "The writeup says Samus drained Nintendo support from Midna, worsening Midna's position against the outside contenders.",
+    "off_topic": false,
+    "narrative": "Samus dominated while Scorpion comfortably secured the other advancing spot. Midna's earlier weakness and the Nintendo vote drain from Samus left her with little realistic path forward.",
+    "headline": "Samus dominates while Scorpion advances past a weakened Midna",
+    "tags": [
+      "statement-win"
+    ]
+  },
+  {
+    "poll": 2897,
+    "contest": "CB VI",
+    "round": "Division 2 Semi Final",
+    "division": null,
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Cloud dominated as expected, while the real contest was a three-way fight for the other advancing position. Marcus Fenix used his strong daytime trend to erase Ocelot's advantage and complete the comeback.",
+    "headline": "Fenix rides the day vote past Ocelot for second",
+    "tags": [
+      "comeback",
+      "close-match"
+    ]
+  },
+  {
+    "poll": 2898,
+    "contest": "CB VI",
+    "round": "Division 2 Semi Final",
+    "division": null,
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Auron looked excellent, but the lasting story was Ryu beating Bowser again even after the Nintendo overlap from their earlier meeting was gone. The writeup finds the result difficult to explain beyond the volatility of the four-way format.",
+    "headline": "Ryu beats Bowser again in another four-way mystery",
+    "tags": [
+      "upset",
+      "format-effect",
+      "statement-win"
+    ]
+  },
+  {
+    "poll": 2899,
+    "contest": "CB VI",
+    "round": "Division 3 Semi Final",
+    "division": null,
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Sephiroth and Fox advanced exactly as expected in a match the writeup considers almost completely predetermined. Sephiroth nevertheless looked especially strong against a field otherwise composed entirely of Nintendo characters.",
+    "headline": "Sephiroth and Fox advance through a predictable Nintendo field",
+    "tags": [
+      "statement-win"
+    ]
+  },
+  {
+    "poll": 2900,
+    "contest": "CB VI",
+    "round": "Division 3 Semi Final",
+    "division": null,
+    "voting_anomalies": [
+      "pic_factor"
+    ],
+    "anomaly_note": "The writeup calls Big Boss's Naked Snake image one of the clearest picture-factor examples, saying the strong recognizable picture helped turn the matchup against Magus decisively in Big Boss's favor.",
+    "off_topic": false,
+    "narrative": "Mario cruised while Big Boss demolished Magus for the other advancing spot. The writeup treats the newly revealed Naked Snake picture as the defining factor that transformed expectations before the poll even began.",
+    "headline": "Naked Snake picture sends Big Boss past Magus",
+    "tags": [
+      "upset",
+      "picture-driven"
+    ]
+  },
+  {
+    "poll": 2901,
+    "contest": "CB VI",
+    "round": "Division 4 Semi Final",
+    "division": null,
+    "voting_anomalies": [
+      "rally",
+      "cheating_alleged"
+    ],
+    "anomaly_note": "The writeup attributes Bidoof's extraordinary early surge to suspected offsite rallying, especially from 4chan, and also records suspicions of vote stuffing.",
+    "off_topic": false,
+    "narrative": "Link and Vincent ultimately advanced comfortably, but Bidoof briefly turned the match into chaos by challenging Vincent early and even beating Link in the opening vote. The writeup remembers the surge as one of the contest's most surreal joke-character moments.",
+    "headline": "Bidoof's suspected offsite push briefly terrifies Vincent",
+    "tags": [
+      "joke-character",
+      "early-surge"
+    ]
+  },
+  {
+    "poll": 2902,
+    "contest": "CB VI",
+    "round": "Division 4 Semi Final",
+    "division": null,
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Crono and Zero advanced as expected, but Zero stayed close enough to make Crono look vulnerable before his anticipated showdown with Vincent. Raiden also emerged as a major disappointment after failing to separate convincingly from HK-47.",
+    "headline": "Zero makes Crono look vulnerable before Vincent",
+    "tags": [
+      "warning-sign",
+      "underperformance"
+    ]
+  },
+  {
+    "poll": 2903,
+    "contest": "CB VI",
+    "round": "Division 5 Semi Final",
+    "division": null,
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Mudkip turned the opening hours into a genuine scare by leading the Nintendo favorites, but Ganondorf recovered overnight and Luigi's morning vote erased Mudkip's remaining advantage. The writeup treats the match as proof that joke characters could no longer be dismissed.",
+    "headline": "Mudkip scares Nintendo before Luigi's morning comeback",
+    "tags": [
+      "joke-character",
+      "comeback",
+      "warning-sign"
+    ]
+  },
+  {
+    "poll": 2904,
+    "contest": "CB VI",
+    "round": "Division 5 Semi Final",
+    "division": null,
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Master Chief followed his strong opening round with an even more convincing performance against improved competition. The writeup treats him as the clear star of the contest to that point and a heavy favorite to take the division.",
+    "headline": "Master Chief confirms his breakout with another dominant showing",
+    "tags": [
+      "breakout-performance",
+      "statement-win"
+    ]
+  },
+  {
+    "poll": 2905,
+    "contest": "CB VI",
+    "round": "Division 6 Semi Final",
+    "division": null,
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Dante ran away with first, while Amaterasu, Ada and Balthier spent much of the match in a tight fight for the other advancing spot. Amaterasu eventually emerged from what the writeup remembers as a genuine upset and one of the round's better races.",
+    "headline": "Amaterasu survives a long three-way fight for second",
+    "tags": [
+      "upset",
+      "close-match"
+    ]
+  },
+  {
+    "poll": 2906,
+    "contest": "CB VI",
+    "round": "Division 6 Semi Final",
+    "division": null,
+    "voting_anomalies": [
+      "lff"
+    ],
+    "anomaly_note": "The writeup says Vivi and Tidus split Square support badly enough that neither could catch Pikachu, allowing the outside Pokémon entrant to take the second advancing spot.",
+    "off_topic": false,
+    "narrative": "Leon won comfortably while Pikachu capitalized on the divided Square field to advance again. The writeup presents Tidus and Vivi as holding each other back and turning Pikachu's favorable draw into another survival.",
+    "headline": "Square vote splitting sends Pikachu through again",
+    "tags": [
+      "format-effect",
+      "pokemon-rise"
+    ]
+  },
+  {
+    "poll": 2907,
+    "contest": "CB VI",
+    "round": "Division 7 Semi Final",
+    "division": null,
+    "voting_anomalies": [
+      "lff"
+    ],
+    "anomaly_note": "The writeup explicitly says Donkey Kong drained Nintendo support from Kirby, costing Kirby the advancing spot and allowing L-Block to move on.",
+    "off_topic": false,
+    "narrative": "Kratos took first, but the important result was L-Block advancing again while Kirby was weakened by Donkey Kong. The writeup marks this as the point when L-Block stopped looking like a harmless joke and became a serious contest threat.",
+    "headline": "Nintendo vote splitting turns L-Block into a real threat",
+    "tags": [
+      "l-block",
+      "joke-character",
+      "breakout-performance"
+    ]
+  },
+  {
+    "poll": 2908,
+    "contest": "CB VI",
+    "round": "Division 7 Semi Final",
+    "division": null,
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Snake advanced easily, while Riku reversed his opening-round loss to Ryu Hayabusa and took the other spot. The writeup treats the reversal as another example of how unreliable direct comparisons could become in the four-way format.",
+    "headline": "Riku reverses the Ryu result as four-way logic breaks again",
+    "tags": [
+      "upset",
+      "format-effect"
+    ]
+  },
+  {
+    "poll": 2909,
+    "contest": "CB VI",
+    "round": "Division 8 Semi Final",
+    "division": null,
+    "voting_anomalies": [
+      "lff"
+    ],
+    "anomaly_note": "The writeup argues that Squall's presence hurt fellow Square entrant Aeris far more than Sora, helping Sora reverse their old matchup and advance comfortably.",
+    "off_topic": false,
+    "narrative": "Squall took control immediately, while Sora decisively reversed his old loss to Aeris. Aeris nearly fell behind Lara as well, making the writeup treat the result as a sharp confirmation of her decline.",
+    "headline": "Sora reverses Aeris as Squall drains her support",
+    "tags": [
+      "rivalry-reversal",
+      "underperformance"
+    ]
+  },
+  {
+    "poll": 2910,
+    "contest": "CB VI",
+    "round": "Division 8 Semi Final",
+    "division": null,
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Sonic crushed Sub-Zero much more convincingly than in their opening-round meeting after his Smash announcement changed the atmosphere around him. The writeup still finds the surrounding results too inconsistent to decide whether Sonic had truly returned to elite form.",
+    "headline": "Brawl hype transforms Sonic's rematch with Sub-Zero",
+    "tags": [
+      "brawl-boost",
+      "warning-sign"
+    ]
+  },
+  {
+    "poll": 2911,
+    "contest": "CB VI",
+    "round": "Division 1 Final",
+    "division": null,
+    "voting_anomalies": [
+      "lff"
+    ],
+    "anomaly_note": "The writeup says Yoshi's Nintendo support hurt Samus more than Mega Man, making their early first-place battle much tighter than it otherwise would have been.",
+    "off_topic": false,
+    "narrative": "Samus and Mega Man produced a dramatic early duel before Samus eventually established control, while Yoshi and Scorpion fell away. The result strengthened the case that Samus had moved clearly ahead of Mega Man despite the unfavorable Nintendo overlap.",
+    "headline": "Samus survives Mega Man despite Yoshi's Nintendo vote drain",
+    "tags": [
+      "strength-debate",
+      "close-match"
+    ]
+  },
+  {
+    "poll": 2912,
+    "contest": "CB VI",
+    "round": "Division 2 Final",
+    "division": null,
+    "voting_anomalies": [
+      "lff"
+    ],
+    "anomaly_note": "The writeup says Cloud's shared Final Fantasy support held Auron down, allowing outside entrant Ryu to benefit and claim the other advancing position.",
+    "off_topic": false,
+    "narrative": "Cloud overwhelmed the field and further fueled speculation that he could challenge Link. Ryu advanced ahead of Auron, with the writeup treating Cloud's effect on Auron as central to the result.",
+    "headline": "Cloud dominates while Final Fantasy overlap helps Ryu advance",
+    "tags": [
+      "statement-win",
+      "title-hype"
+    ]
+  },
+  {
+    "poll": 2913,
+    "contest": "CB VI",
+    "round": "Division 3 Final",
+    "division": null,
+    "voting_anomalies": [
+      "sff"
+    ],
+    "anomaly_note": "The writeup says Mario heavily suppressed fellow Nintendo entrant Fox, leaving Fox far weaker than his prior-round performance suggested.",
+    "off_topic": false,
+    "narrative": "Sephiroth beat Mario comfortably in a result that had become predictable by match day. The more notable secondary story was Fox collapsing in Mario's presence after looking strong against Nintendo opposition earlier.",
+    "headline": "Sephiroth handles Mario while Mario crushes Fox's support",
+    "tags": [
+      "statement-win",
+      "underperformance"
+    ]
+  },
+  {
+    "poll": 2914,
+    "contest": "CB VI",
+    "round": "Division 4 Final",
+    "division": null,
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "The anticipated Crono-Vincent showdown delivered a close race for the second advancing position, and Vincent ultimately broke through. The writeup treats the result as the first true breach of the Noble Nine and a major contest milestone.",
+    "headline": "Vincent breaks the Noble Nine by eliminating Crono",
+    "tags": [
+      "upset",
+      "noble-nine-break",
+      "close-match"
+    ]
+  },
+  {
+    "poll": 2915,
+    "contest": "CB VI",
+    "round": "Division 5 Final",
+    "division": null,
+    "voting_anomalies": [
+      "pic_factor"
+    ],
+    "anomaly_note": "The writeup says Ganondorf's ugly pig sprite hurt him badly against Luigi and likely reversed a matchup Ganondorf had previously won.",
+    "off_topic": false,
+    "narrative": "Master Chief took first, while Luigi defeated Ganondorf in the fight for the other advancing spot. The writeup repeatedly points to Ganondorf's unfavorable first-appearance sprite as the decisive handicap.",
+    "headline": "Pig Ganon picture helps Luigi reverse their matchup",
+    "tags": [
+      "upset",
+      "sprite-round"
+    ]
+  },
+  {
+    "poll": 2916,
+    "contest": "CB VI",
+    "round": "Division 6 Final",
+    "division": null,
+    "voting_anomalies": [
+      "lff"
+    ],
+    "anomaly_note": "The writeup says the three Capcom entrants divided overlapping support, creating the opening that allowed outside entrant Pikachu to beat them all.",
+    "off_topic": false,
+    "narrative": "Pikachu produced one of the contest's biggest shocks by taking first over a field of Capcom characters. The writeup treats the result as a major turning point in Pokémon's growing contest reputation.",
+    "headline": "Capcom vote splitting powers Pikachu to a stunning first",
+    "tags": [
+      "upset",
+      "pokemon-rise",
+      "statement-win"
+    ]
+  },
+  {
+    "poll": 2917,
+    "contest": "CB VI",
+    "round": "Division 7 Final",
+    "division": null,
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Snake eventually won, but L-Block dominated the opening and advanced with ease over Kratos and Riku. The writeup marks this as the first match where the joke entrant looked capable of threatening the contest's established elite directly.",
+    "headline": "L-Block nearly challenges Snake and becomes an elite threat",
+    "tags": [
+      "l-block",
+      "joke-character",
+      "breakout-performance"
+    ]
+  },
+  {
+    "poll": 2918,
+    "contest": "CB VI",
+    "round": "Division 8 Final",
+    "division": null,
+    "voting_anomalies": [
+      "lff"
+    ],
+    "anomaly_note": "The writeup says Sora drained enough Square support from Squall that Squall probably would have beaten Sonic without Sora in the poll.",
+    "off_topic": false,
+    "narrative": "Sonic held off Squall for first, but Squall remained unexpectedly competitive despite sharing support with Sora. The writeup treats Sonic's narrow-looking advantage as another sign that four-way matches exposed his weaknesses.",
+    "headline": "Sora's vote drain helps Sonic hold off Squall",
+    "tags": [
+      "underperformance",
+      "warning-sign"
+    ]
+  },
+  {
+    "poll": 2919,
+    "contest": "CB VI",
+    "round": "Quarter Final",
+    "division": null,
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Cloud and Samus advanced through a quarterfinal that played out almost exactly as expected. The lasting story was Mega Man's poor showing, which ended any serious argument that he still belonged alongside Samus.",
+    "headline": "Mega Man collapses as Cloud and Samus advance easily",
+    "tags": [
+      "underperformance",
+      "strength-debate"
+    ]
+  },
+  {
+    "poll": 2920,
+    "contest": "CB VI",
+    "round": "Quarter Final",
+    "division": null,
+    "voting_anomalies": [
+      "lff"
+    ],
+    "anomaly_note": "The writeup says Mario clearly weakened fellow Nintendo entrant Link, narrowing Link's advantage over Sephiroth and briefly making Link look vulnerable.",
+    "off_topic": false,
+    "narrative": "Link and Sephiroth advanced as expected, but Mario held up better against Link than many anticipated. The writeup treats Link's diminished dominance as the first meaningful encouragement for people hoping Cloud could beat him later.",
+    "headline": "Mario's vote drain makes Link look briefly vulnerable",
+    "tags": [
+      "warning-sign",
+      "title-hype"
+    ]
+  },
+  {
+    "poll": 2921,
+    "contest": "CB VI",
+    "round": "Quarter Final",
+    "division": null,
+    "voting_anomalies": [
+      "lff"
+    ],
+    "anomaly_note": "The writeup says Pikachu continued to siphon Nintendo support from Luigi, helping Dante take the second advancing position and eliminating Luigi.",
+    "off_topic": false,
+    "narrative": "Master Chief took first while Dante survived for the other advancing spot. Luigi led early but could not overcome the continued presence of Pikachu, whose run ended while also dragging a major Nintendo character out with it.",
+    "headline": "Pikachu's Nintendo vote drain helps eliminate Luigi",
+    "tags": [
+      "elimination",
+      "format-effect"
+    ]
+  },
+  {
+    "poll": 2922,
+    "contest": "CB VI",
+    "round": "Quarter Final",
+    "division": null,
+    "voting_anomalies": [
+      "rally"
+    ],
+    "anomaly_note": "The writeup describes L-Block's growing Internet support as an active rally and says a late counter-push helped stop Snake's comeback.",
+    "off_topic": false,
+    "narrative": "L-Block led from the opening minutes and held off a long Snake comeback to take first. The writeup identifies this as the match where the joke entrant became a genuine Internet-backed force capable of defeating Noble Nine characters.",
+    "headline": "L-Block rallies past Snake and shatters bracket expectations",
+    "tags": [
+      "l-block",
+      "upset",
+      "bracket-buster"
+    ]
+  },
+  {
+    "poll": 2923,
+    "contest": "CB VI",
+    "round": "Semi Final",
+    "division": null,
+    "voting_anomalies": [
+      "sff"
+    ],
+    "anomaly_note": "The writeup says Link heavily suppressed Samus through their overlapping Nintendo support, even though Samus still performed surprisingly well relative to Sephiroth.",
+    "off_topic": false,
+    "narrative": "Link and Cloud advanced through a semifinal whose top order was never seriously in doubt. Samus nevertheless outperformed Sephiroth, providing the only notable wrinkle in an otherwise predictable heavyweight match.",
+    "headline": "Link and Cloud advance while Samus surprisingly tops Sephiroth",
+    "tags": [
+      "semifinal",
+      "statement-win"
+    ]
+  },
+  {
+    "poll": 2924,
+    "contest": "CB VI",
+    "round": "Semi Final",
+    "division": null,
+    "voting_anomalies": [
+      "rally"
+    ],
+    "anomaly_note": "The writeup says outside attention from Kotaku, 4chan, Vote for the Worst and other sites expanded L-Block's support, including a visible surge after a Kotaku link.",
+    "off_topic": false,
+    "narrative": "L-Block's Internet momentum exploded as outside sites discovered the run, and Snake was left fighting Master Chief for the other final spot. The writeup treats this as the moment the joke had grown beyond Board 8 into a broad online bandwagon.",
+    "headline": "Internet attention sends L-Block charging into the final",
+    "tags": [
+      "l-block",
+      "semifinal",
+      "bandwagon"
+    ]
+  },
+  {
+    "poll": 2925,
+    "contest": "CB VI",
+    "round": "Final",
+    "division": null,
+    "voting_anomalies": [
+      "rally"
+    ],
+    "anomaly_note": "The writeup explicitly describes the final as driven by massive rallying and broad Internet support for L-Block, which overwhelmed Link's attempted comeback.",
+    "off_topic": false,
+    "narrative": "L-Block completed its improbable run by beating Link in a final dominated by an enormous Internet bandwagon. The writeup remembers the result as the ultimate joke-character triumph and the defining match of the contest.",
+    "headline": "L-Block's Internet rally dethrones Link in the final",
+    "tags": [
+      "champion",
+      "l-block",
+      "record-turnout"
+    ]
+  },
+  {
+    "poll": 2926,
+    "contest": "CB VI",
+    "round": "Bonus",
+    "division": null,
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "The bonus poll gave the contest's joke objects one last showcase, with ? Block mounting a comeback against the newly crowned L-Block. The writeup treats the result as amusing backlash rather than anything that diminished L-Block's championship.",
+    "headline": "? Block gets revenge on L-Block in the bonus poll",
+    "tags": [
+      "bonus",
+      "comeback",
+      "joke-entrant"
+    ]
+  },
+  {
+    "poll": 3244,
+    "contest": "CB VII",
+    "round": "Round One",
+    "division": "Division 1",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "The opening match immediately produced a surprise, with Zack outperforming the expected Nintendo advantage and establishing himself as much stronger than many anticipated. Cecil, meanwhile, disappointed badly despite renewed Final Fantasy IV visibility.",
+    "headline": "Zack opens 2008 with an immediate bracket surprise",
+    "tags": [
+      "upset",
+      "breakout-performance",
+      "underperformance"
+    ]
+  },
+  {
+    "poll": 3245,
+    "contest": "CB VII",
+    "round": "Round One",
+    "division": "Division 1",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Link began his post-L-Block campaign in dominant fashion, while Zidane unexpectedly beat Shadow for the other advancing position. The writeup treats Shadow's failure as a major early bracket bust and another sign of Sonic Team's decline.",
+    "headline": "Zidane shocks Shadow while Link resumes dominating",
+    "tags": [
+      "upset",
+      "underperformance",
+      "bracket-buster"
+    ]
+  },
+  {
+    "poll": 3246,
+    "contest": "CB VII",
+    "round": "Round One",
+    "division": "Division 1",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "A heavily debated fodder match became genuinely strange when Duke surged into contention and Kefka collapsed to the bottom. Marth eventually took first, but Duke's unexpected advancement became the match's defining surprise.",
+    "headline": "Duke shocks the field as Kefka collapses",
+    "tags": [
+      "upset",
+      "kefka-collapse",
+      "breakout-performance"
+    ]
+  },
+  {
+    "poll": 3247,
+    "contest": "CB VII",
+    "round": "Round One",
+    "division": "Division 1",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Altair dominated his contest debut while Lucario barely held off Isaac for the second advancing spot. The writeup regards Lucario as one of the contest's biggest disappointments given Pokémon's strength and his prominent Smash appearance.",
+    "headline": "Altair dominates his debut while Lucario barely survives",
+    "tags": [
+      "debut",
+      "underperformance",
+      "breakout-performance"
+    ]
+  },
+  {
+    "poll": 3248,
+    "contest": "CB VII",
+    "round": "Round One",
+    "division": "Division 2",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Luigi and Liquid advanced in an otherwise predictable match, but Liquid stayed much closer to Luigi than expected. The writeup treats Liquid's strength as a new complication for the Nintendo-heavy matchup waiting in the next round.",
+    "headline": "Liquid's strong showing complicates Luigi's next round",
+    "tags": [
+      "statement-win",
+      "warning-sign"
+    ]
+  },
+  {
+    "poll": 3249,
+    "contest": "CB VII",
+    "round": "Round One",
+    "division": "Division 2",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Bowser and Phoenix advanced with almost no suspense, giving the contest a rare straightforward result. The writeup's main takeaway is that Phoenix now looked more like a naturally competitive entrant than a Board 8 novelty.",
+    "headline": "Bowser cruises while Phoenix looks increasingly legitimate",
+    "tags": [
+      "board-favorite",
+      "statement-win"
+    ]
+  },
+  {
+    "poll": 3250,
+    "contest": "CB VII",
+    "round": "Round One",
+    "division": "Division 2",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Mario won as expected, but Zelda resisted the feared fanbase suppression and comfortably held the second advancing spot over Knuckles. The writeup treats the result as another blow to Sonic Team's standing and a strong performance for Zelda.",
+    "headline": "Zelda resists Mario and ends Knuckles's opening-round streak",
+    "tags": [
+      "statement-win",
+      "underperformance"
+    ]
+  },
+  {
+    "poll": 3251,
+    "contest": "CB VII",
+    "round": "Round One",
+    "division": "Division 2",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Mega Man X dominated while Mudkip comfortably claimed the other advancing spot, confirming that the joke character still had substantial support. The writeup nevertheless argues that Mudkip's bracket placement made another L-Block-style run unrealistic.",
+    "headline": "Mudkip advances but lacks the bracket for another L-Block run",
+    "tags": [
+      "joke-character",
+      "statement-win"
+    ]
+  },
+  {
+    "poll": 3252,
+    "contest": "CB VII",
+    "round": "Round One",
+    "division": "Division 3",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Samus and Nightmare advanced through one of the round's least eventful matches. The writeup finds little to learn beyond Samus taking care of business and the weaker entrants remaining firmly in fodder territory.",
+    "headline": "Samus and Nightmare advance through an uneventful opener",
+    "tags": []
+  },
+  {
+    "poll": 3253,
+    "contest": "CB VII",
+    "round": "Round One",
+    "division": "Division 3",
+    "voting_anomalies": [
+      "pic_factor"
+    ],
+    "anomaly_note": "The writeup says the eventual match picture hurt Ganondorf while giving KOS-MOS no meaningful advantage over Frog, even though KOS-MOS supporters had expected her image to help.",
+    "off_topic": false,
+    "narrative": "Ganondorf won comfortably while Frog held off KOS-MOS without the expected daytime collapse. The delayed match picture caused controversy, but once it appeared the writeup says it did little to change the Frog-KOS-MOS race.",
+    "headline": "Frog holds off KOS-MOS despite the picture controversy",
+    "tags": [
+      "statement-win"
+    ]
+  },
+  {
+    "poll": 3254,
+    "contest": "CB VII",
+    "round": "Round One",
+    "division": "Division 3",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Vincent advanced as expected, but Falco looked substantially stronger than anticipated and GLaDOS also exceeded the writeup's low expectations. Wander remained complete fodder, making the middle of the field more interesting than the winner.",
+    "headline": "Falco and GLaDOS outperform expectations behind Vincent",
+    "tags": [
+      "breakout-performance",
+      "underperformance"
+    ]
+  },
+  {
+    "poll": 3255,
+    "contest": "CB VII",
+    "round": "Round One",
+    "division": "Division 3",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Scorpion took first, while Gordon Freeman continued his post-GFNW rehabilitation with another strong advancement. The writeup sees the Orange Box era as having transformed Gordon from a perennial choke artist into a genuinely respectable entrant.",
+    "headline": "Gordon's resurgence continues behind Scorpion",
+    "tags": [
+      "gfnw",
+      "orange-box-boost"
+    ]
+  },
+  {
+    "poll": 3256,
+    "contest": "CB VII",
+    "round": "Round One",
+    "division": "Division 4",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Crono and Amaterasu advanced through a largely predictable match, with neither Frank West nor Kaim posing a meaningful threat. The writeup treats it as another routine Noble Nine opening-round performance.",
+    "headline": "Crono and Amaterasu cruise through a predictable opener",
+    "tags": []
+  }
+]

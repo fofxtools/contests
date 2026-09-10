@@ -1,0 +1,801 @@
+[
+  {
+    "poll": 5159,
+    "contest": "CB IX",
+    "round": "Round One",
+    "division": null,
+    "voting_anomalies": [
+      "pic_factor"
+    ],
+    "anomaly_note": "The writeup explicitly credits Sub-Zero's classic-costume picture with helping him, saying the old look made him substantially more dangerous in the matchup.",
+    "off_topic": false,
+    "narrative": "Sub-Zero beat Garrus in a result the writeup finds disappointing given Mass Effect's broader strength that year. Garrus still looked respectable, while Sub-Zero's showing reinforced his status as the stronger Mortal Kombat contest character.",
+    "headline": "Sub-Zero's classic look helps sink Garrus",
+    "tags": [
+      "picture-driven",
+      "mass-effect"
+    ]
+  },
+  {
+    "poll": 5160,
+    "contest": "CB IX",
+    "round": "Round One",
+    "division": null,
+    "voting_anomalies": [
+      "sff"
+    ],
+    "anomaly_note": "The writeup says Meta Knight was once again being SFFed in a first-round Nintendo matchup, this time under Bowser.",
+    "off_topic": false,
+    "narrative": "Bowser won comfortably while Meta Knight again failed to get a clean read because of Nintendo overlap. Archer's respectable showing is treated more as a byproduct of the bad setup than as evidence of major strength.",
+    "headline": "Bowser SFFs Meta Knight in another bad draw",
+    "tags": [
+      "bad-draw",
+      "meta-knight"
+    ]
+  },
+  {
+    "poll": 5161,
+    "contest": "CB IX",
+    "round": "Round One",
+    "division": null,
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Sephiroth won easily, but Midna and Little Mac still held up far better than the writeup thought should be possible against a former champion. The match is framed as another unmistakable sign of Final Fantasy VII decline.",
+    "headline": "Sephiroth wins while Final Fantasy VII decline deepens",
+    "tags": [
+      "ff7-decline",
+      "underperformance"
+    ]
+  },
+  {
+    "poll": 5162,
+    "contest": "CB IX",
+    "round": "Round One",
+    "division": null,
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Morrigan comfortably beat Edgeworth and Agent 47 despite substantial pre-match support for an upset. The writeup treats her win as another example of people underrating a long-established midcard character.",
+    "headline": "Morrigan punishes another overthought upset pick",
+    "tags": [
+      "guru-buster",
+      "statement-win"
+    ]
+  },
+  {
+    "poll": 5163,
+    "contest": "CB IX",
+    "round": "Round One",
+    "division": null,
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Spyro crushed a heavily debated field and made the Clementine upset case look badly overhyped. The writeup treats the result as early proof that recent Western-game buzz was translating poorly into character-contest strength.",
+    "headline": "Spyro crushes Clementine and the Walking Dead hype",
+    "tags": [
+      "guru-buster",
+      "western-flop"
+    ]
+  },
+  {
+    "poll": 5164,
+    "contest": "CB IX",
+    "round": "Round One",
+    "division": null,
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": true,
+    "narrative": "After noting Luigi's completely routine win, the writeup mostly digresses into discussion of Final Fantasy XII and Beyond Good & Evil.",
+    "headline": "A routine Luigi win becomes an FFXII digression",
+    "tags": []
+  },
+  {
+    "poll": 5165,
+    "contest": "CB IX",
+    "round": "Round One",
+    "division": null,
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Big Boss dominated while Captain Viridian unexpectedly took second in the Expert Challenge ordering over Peacock. The writeup treats the lower-place upset as a minor curiosity beside Big Boss's overwhelming showing.",
+    "headline": "Big Boss dominates as Viridian surprises Peacock",
+    "tags": [
+      "expert-mode",
+      "upset"
+    ]
+  },
+  {
+    "poll": 5166,
+    "contest": "CB IX",
+    "round": "Round One",
+    "division": null,
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Ness beat Locke without the trouble some expected from Old Square's recent improvement. The writeup uses the result to argue that Final Fantasy VI characters without Dissidia exposure still lacked meaningful contest strength.",
+    "headline": "Ness dismisses the Locke upset case quickly",
+    "tags": [
+      "statement-win",
+      "old-square"
+    ]
+  },
+  {
+    "poll": 5167,
+    "contest": "CB IX",
+    "round": "Round One",
+    "division": null,
+    "voting_anomalies": [
+      "rally"
+    ],
+    "anomaly_note": "The writeup says Poison received an early 4chan rally that produced one large cut before the push faded and stopped affecting the match.",
+    "off_topic": false,
+    "narrative": "Elizabeth won and Poison took second in an otherwise settled match, while Thrall disappointed again. The only meaningful disturbance was a short-lived 4chan push for Poison.",
+    "headline": "Elizabeth wins after a brief Poison rally",
+    "tags": [
+      "4chan",
+      "warcraft-decline"
+    ]
+  },
+  {
+    "poll": 5168,
+    "contest": "CB IX",
+    "round": "Round One",
+    "division": null,
+    "voting_anomalies": [
+      "lff",
+      "pic_factor"
+    ],
+    "anomaly_note": "The writeup says Peach LFFed Kirby, helping Terra look unusually strong against him. It also explicitly calls Kirby's simple spherical design a major picture advantage.",
+    "off_topic": false,
+    "narrative": "Kirby won, but Terra's performance was the surprise as she benefited from Peach draining Nintendo support from Kirby. The writeup treats Terra's Dissidia-era strength as increasingly legitimate.",
+    "headline": "Terra shines while Peach drains Kirby's support",
+    "tags": [
+      "dissidia-boost",
+      "statement-loss",
+      "picture-driven"
+    ]
+  },
+  {
+    "poll": 5169,
+    "contest": "CB IX",
+    "round": "Round One",
+    "division": null,
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Crash finally produced another memorable contest win by upsetting Wheatley after years of mostly losing early. Tommy Vercetti's weak last-place showing is treated as further proof that Grand Theft Auto characters had collapsed.",
+    "headline": "Crash upsets Wheatley and earns a rare contest moment",
+    "tags": [
+      "upset",
+      "crash-redemption",
+      "gta-decline"
+    ]
+  },
+  {
+    "poll": 5170,
+    "contest": "CB IX",
+    "round": "Round One",
+    "division": null,
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Snake delivered a dominant opening and immediately looked more dangerous than Link had in his own first-round match. The writeup treats the performance as serious evidence that Snake could contend for the contest if the bracket broke correctly.",
+    "headline": "Snake opens with a statement and fuels title talk",
+    "tags": [
+      "statement-win",
+      "title-hype"
+    ]
+  },
+  {
+    "poll": 5171,
+    "contest": "CB IX",
+    "round": "Round One",
+    "division": null,
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Captain Falcon built a substantial early lead, but Alucard erased it overnight and then survived an unexpectedly weak Nintendo daytime response. The narrow finish became the contest's first true photo finish and one of its most entertaining early matches.",
+    "headline": "Alucard survives Falcon in the first true photo finish",
+    "tags": [
+      "close-match",
+      "photo-finish",
+      "match-of-round"
+    ]
+  },
+  {
+    "poll": 5172,
+    "contest": "CB IX",
+    "round": "Round One",
+    "division": null,
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Bayonetta comfortably beat N and Wander in a matchup many had overcomplicated because of Pokémon fear. The writeup treats the result as a straightforward victory for the most recognizable and currently relevant entrant.",
+    "headline": "Bayonetta dispatches N and punctures Pokefear",
+    "tags": [
+      "pokefear",
+      "statement-win"
+    ]
+  },
+  {
+    "poll": 5173,
+    "contest": "CB IX",
+    "round": "Round One",
+    "division": null,
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "GLaDOS crushed Cole and Ragna after Wheatley's earlier flop, reinforcing the writeup's view that Portal's character strength was concentrated heavily in GLaDOS herself. The match otherwise generated little suspense.",
+    "headline": "GLaDOS restores Portal pride after Wheatley's flop",
+    "tags": [
+      "portal-strength",
+      "statement-win"
+    ]
+  },
+  {
+    "poll": 5174,
+    "contest": "CB IX",
+    "round": "Round One",
+    "division": null,
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Ike narrowly held off Proto Man in a slow-moving fight that never quite became a full comeback. The writeup treats Proto Man's performance as unexpectedly strong and Ike's as a major warning sign.",
+    "headline": "Ike barely holds off an unexpectedly strong Proto Man",
+    "tags": [
+      "close-match",
+      "ike-underperformance",
+      "proto-man"
+    ]
+  },
+  {
+    "poll": 5175,
+    "contest": "CB IX",
+    "round": "Round One",
+    "division": null,
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Epona won comfortably over Mordin and Niko after years of Board 8 nomination campaigning finally put the horse into the bracket. The writeup treats the result as a harmless payoff to an old community joke rather than a serious L-Block successor.",
+    "headline": "Epona turns years of nomination campaigning into a win",
+    "tags": [
+      "nomination-rally",
+      "board8",
+      "joke-entrant"
+    ]
+  },
+  {
+    "poll": 5176,
+    "contest": "CB IX",
+    "round": "Round One",
+    "division": null,
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Altair won while Ratchet beat a heavily hyped Shulk for second in the Expert Challenge ordering. The writeup notes that even Shulk's best-possible presentation could not rescue the Xenoblade hype.",
+    "headline": "Shulk hype collapses despite the Monado picture",
+    "tags": [
+      "xenoblade-hype",
+      "expert-mode",
+      "underperformance"
+    ]
+  },
+  {
+    "poll": 5177,
+    "contest": "CB IX",
+    "round": "Round One",
+    "division": null,
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Lara Croft delivered her strongest-looking contest performance in years after the series reboot, while Slime took second in the Expert Challenge ordering. The writeup treats Lara's resurgence as the main surprise.",
+    "headline": "The Tomb Raider reboot revives Lara's contest strength",
+    "tags": [
+      "reboot-boost",
+      "lara-revival",
+      "expert-mode"
+    ]
+  },
+  {
+    "poll": 5178,
+    "contest": "CB IX",
+    "round": "Round One",
+    "division": null,
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Kefka upset both Zack and Ryu Hayabusa in a result that wrecked the prevailing guru logic and continued his reputation for producing bizarre contest outcomes. The writeup credits Dissidia and improved presentation as plausible background factors without declaring a picture anomaly here.",
+    "headline": "Kefka trolls the bracket with another impossible-looking upset",
+    "tags": [
+      "upset",
+      "guru-buster",
+      "kefka-chaos"
+    ]
+  },
+  {
+    "poll": 5179,
+    "contest": "CB IX",
+    "round": "Round One",
+    "division": null,
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Cloud won the expected blowout, but the writeup still considered the performance too weak for a former top-tier character facing extreme fodder. The match becomes another warning about Final Fantasy VII's decline.",
+    "headline": "Cloud wins big and still looks worryingly weak",
+    "tags": [
+      "ff7-decline",
+      "underperformance",
+      "warning-sign"
+    ]
+  },
+  {
+    "poll": 5180,
+    "contest": "CB IX",
+    "round": "Round One",
+    "division": null,
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Frog won easily while Viewtiful Joe unexpectedly beat Handsome Jack for second in the Expert Challenge ordering. The result gave Joe a rare positive contest moment and undercut the broader Borderlands character hype.",
+    "headline": "Viewtiful Joe surprises Handsome Jack behind Frog",
+    "tags": [
+      "upset",
+      "joe-redemption",
+      "borderlands-flop"
+    ]
+  },
+  {
+    "poll": 5181,
+    "contest": "CB IX",
+    "round": "Round One",
+    "division": null,
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Lugia crushed Sly and York far more decisively than some expected, reinforcing the contest-wide fear of Pokémon strength. Sly's second-place Expert Challenge finish is treated as a small consolation after years away from the bracket.",
+    "headline": "Lugia turns Pokefear into another blowout",
+    "tags": [
+      "pokemon-rise",
+      "pokefear",
+      "expert-mode"
+    ]
+  },
+  {
+    "poll": 5182,
+    "contest": "CB IX",
+    "round": "Round One",
+    "division": null,
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Dante routed Laharl and Raz, but the writeup refused to read much into another first-round blowout because Dante had repeatedly looked strong before later choking. The entire match is framed around the coming Squirtle test.",
+    "headline": "Dante wins big but nobody trusts the blowout",
+    "tags": [
+      "dante-choke",
+      "warning-sign"
+    ]
+  },
+  {
+    "poll": 5183,
+    "contest": "CB IX",
+    "round": "Round One",
+    "division": null,
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Squirtle beat Ramza comfortably enough to make the upcoming Dante matchup look dangerous immediately. The writeup treats the result as another piece of evidence that Pokémon strength was surging across the bracket.",
+    "headline": "Squirtle makes Dante's next match look dangerous",
+    "tags": [
+      "pokemon-rise",
+      "warning-sign"
+    ]
+  },
+  {
+    "poll": 5184,
+    "contest": "CB IX",
+    "round": "Round One",
+    "division": null,
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Zidane won while Ridley took second in the Expert Challenge ordering and performed more respectably than his old contest history suggested. The Board 8 joke entrant Spring Breeze Dancin' finished last as expected.",
+    "headline": "Ridley earns respect behind a routine Zidane win",
+    "tags": [
+      "statement-loss",
+      "expert-mode",
+      "joke-entrant"
+    ]
+  },
+  {
+    "poll": 5185,
+    "contest": "CB IX",
+    "round": "Round One",
+    "division": null,
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Shadow beat Yu and Kat in a weak field that the writeup considered far less debatable than pre-match Pokémon-style fear had made it seem. The result gave Shadow a rare clean contest win without saying much about his broader strength.",
+    "headline": "Shadow wins a weak field without much drama",
+    "tags": [
+      "low-drama",
+      "statement-win"
+    ]
+  },
+  {
+    "poll": 5186,
+    "contest": "CB IX",
+    "round": "Round One",
+    "division": null,
+    "voting_anomalies": [
+      "sff"
+    ],
+    "anomaly_note": "The writeup explicitly says Wesker was heavily SFFed by fellow Resident Evil entrant Leon, leaving Wesker far weaker than his standalone strength.",
+    "off_topic": false,
+    "narrative": "Leon won a badly drawn same-series match that effectively denied Wesker a fair first-round opportunity. Even under severe overlap, Wesker still beat Oliver for second in the Expert Challenge ordering.",
+    "headline": "Leon SFFs Wesker in a brutal same-series draw",
+    "tags": [
+      "bad-draw",
+      "same-series",
+      "expert-mode"
+    ]
+  },
+  {
+    "poll": 5187,
+    "contest": "CB IX",
+    "round": "Round One",
+    "division": null,
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Gordon Freeman won comfortably, while Simon Belmont held second despite an unpopular match picture and pre-match fears of a Hades upset. The writeup treats Hades's failure as an early warning for the Kid Icarus cast.",
+    "headline": "Gordon cruises as Hades fails to threaten Simon",
+    "tags": [
+      "picture-controversy",
+      "underperformance"
+    ]
+  },
+  {
+    "poll": 5188,
+    "contest": "CB IX",
+    "round": "Round One",
+    "division": null,
+    "voting_anomalies": [
+      "pic_factor"
+    ],
+    "anomaly_note": "The writeup explicitly calls Missile's cute-dog presentation the ultimate picture factor and treats it as part of why he could beat Kerrigan.",
+    "off_topic": true,
+    "narrative": "The writeup is mostly an enormous StarCraft and Blizzard rant; the actual match is remembered for Missile unexpectedly taking second over Kerrigan behind a highly favorable cute-dog presentation.",
+    "headline": "A dog picture helps Missile embarrass Kerrigan",
+    "tags": [
+      "upset",
+      "dogfaqs",
+      "blizzard-collapse"
+    ]
+  },
+  {
+    "poll": 5189,
+    "contest": "CB IX",
+    "round": "Round One",
+    "division": null,
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Pikachu had first place secured, but Lloyd and Big Daddy produced a genuine photo finish for second in the Expert Challenge ordering. Lloyd's early lead survived a slow Big Daddy comeback by the narrowest margin.",
+    "headline": "Lloyd barely survives Big Daddy behind Pikachu",
+    "tags": [
+      "close-match",
+      "expert-mode",
+      "comeback-denied"
+    ]
+  },
+  {
+    "poll": 5190,
+    "contest": "CB IX",
+    "round": "Round One",
+    "division": null,
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Magus finally won a heavily debated match by beating Otacon and Jade comfortably enough to make the pre-match panic look excessive. The writeup treats the victory as rare positive news in Magus's long history of contest disappointments.",
+    "headline": "Magus finally wins a debated matchup cleanly",
+    "tags": [
+      "magus-redemption",
+      "statement-win"
+    ]
+  },
+  {
+    "poll": 5191,
+    "contest": "CB IX",
+    "round": "Round One",
+    "division": null,
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Sora beat Scorpion and Aya without any meaningful suspense, and the writeup dismisses speculation that Aya would drain enough Square support to matter. The match is mostly treated as a routine Kingdom Hearts win.",
+    "headline": "Sora handles Scorpion in a routine three-way",
+    "tags": [
+      "low-drama"
+    ]
+  },
+  {
+    "poll": 5192,
+    "contest": "CB IX",
+    "round": "Round One",
+    "division": null,
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Gilgamesh demolished the heavily favored Booker DeWitt and turned the division into an upset zone immediately. The writeup treats Booker's collapse as another example of recent Western protagonists failing badly in character contests.",
+    "headline": "Gilgamesh crushes Booker and starts the division chaos",
+    "tags": [
+      "upset",
+      "guru-buster",
+      "western-flop"
+    ]
+  },
+  {
+    "poll": 5193,
+    "contest": "CB IX",
+    "round": "Round One",
+    "division": null,
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Yoshimitsu stunned the heavily favored Groose, while Lu Bu also passed the Zelda entrant for second in the Expert Challenge ordering. The writeup celebrates the result as a Board 8-friendly rejection of Zelda name recognition.",
+    "headline": "Yoshimitsu and Lu Bu both embarrass Groose",
+    "tags": [
+      "upset",
+      "board8",
+      "zelda-flop"
+    ]
+  },
+  {
+    "poll": 5194,
+    "contest": "CB IX",
+    "round": "Round One",
+    "division": null,
+    "voting_anomalies": [
+      "lff"
+    ],
+    "anomaly_note": "The writeup says Meat Boy's similar oddball appeal stole support from Game & Watch, and argues that Game & Watch would have beaten Lee much more decisively without him.",
+    "off_topic": false,
+    "narrative": "Mr. Game & Watch upset Lee Everett despite sharing part of his natural novelty audience with Meat Boy. The writeup treats the result as another example of recent Western-game popularity failing to translate into character-contest votes.",
+    "headline": "Game & Watch beats Lee despite Meat Boy vote drain",
+    "tags": [
+      "upset",
+      "western-flop",
+      "smash-strength"
+    ]
+  },
+  {
+    "poll": 5195,
+    "contest": "CB IX",
+    "round": "Round One",
+    "division": null,
+    "voting_anomalies": [
+      "lff"
+    ],
+    "anomaly_note": "The writeup says Steve stole votes from Pac-Man through similar broad casual appeal and argues that Pac-Man likely wins the matchup without Steve in the poll.",
+    "off_topic": false,
+    "narrative": "Nathan Drake survived a long, slow fight with Pac-Man, while Steve's presence is blamed for helping keep Pac-Man from completing the upset. The result stayed close enough to preserve Pac-Man's reputation as a dangerous wildcard.",
+    "headline": "Nathan Drake survives Pac-Man with help from Steve's vote drain",
+    "tags": [
+      "close-match",
+      "pac-man-wildcard"
+    ]
+  },
+  {
+    "poll": 5196,
+    "contest": "CB IX",
+    "round": "Round One",
+    "division": null,
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Pokémon Trainer Blue beat Fox even though Wolf created what many expected to be a highly favorable Nintendo-overlap setup. The writeup's larger point is that Blue's strength remained hard to read because the bracket handed him such unusual conditions.",
+    "headline": "Blue beats Fox in a heavily distorted Nintendo matchup",
+    "tags": [
+      "pokemon-rise",
+      "bad-draw",
+      "strength-debate"
+    ]
+  },
+  {
+    "poll": 5197,
+    "contest": "CB IX",
+    "round": "Round One",
+    "division": null,
+    "voting_anomalies": [
+      "sff"
+    ],
+    "anomaly_note": "The writeup explicitly says Sandbag was SFFed by Samus, making Sandbag's second-place Expert Challenge finish more impressive.",
+    "off_topic": false,
+    "narrative": "Samus dominated as expected, but Sandbag still beat Isaac Clarke for second in the Expert Challenge ordering despite Nintendo overlap. The writeup treats that as another sign of Sandbag's unusually durable joke support.",
+    "headline": "Sandbag survives Samus SFF to take second",
+    "tags": [
+      "joke-character",
+      "expert-mode"
+    ]
+  },
+  {
+    "poll": 5198,
+    "contest": "CB IX",
+    "round": "Round One",
+    "division": null,
+    "voting_anomalies": [
+      "pic_factor"
+    ],
+    "anomaly_note": "The writeup says Catherine had a huge picture advantage and later credits her visual appeal as part of why she won the close matchup.",
+    "off_topic": false,
+    "narrative": "Catherine and Neku spent hours trading tiny leads before Catherine finally pulled away late. The upset is presented as a rare fodder match where a cult following and strong presentation combined into a memorable win.",
+    "headline": "Catherine's picture edge helps her outlast Neku",
+    "tags": [
+      "upset",
+      "close-match",
+      "picture-driven"
+    ]
+  },
+  {
+    "poll": 5199,
+    "contest": "CB IX",
+    "round": "Round One",
+    "division": null,
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Knuckles won as expected, but Celes unexpectedly took second in the Expert Challenge ordering over Seifer. The writeup treats Seifer's collapse as one of the contest's most embarrassing failures of supposedly obvious expert logic.",
+    "headline": "Celes shocks Seifer behind an easy Knuckles win",
+    "tags": [
+      "expert-upset",
+      "seifer-flop",
+      "guru-buster"
+    ]
+  },
+  {
+    "poll": 5200,
+    "contest": "CB IX",
+    "round": "Round One",
+    "division": null,
+    "voting_anomalies": [
+      "lff"
+    ],
+    "anomaly_note": "The writeup says Tails and Bomberman had overlapping appeal and that their shared support helped Ezio pull away after Tails briefly led.",
+    "off_topic": false,
+    "narrative": "Ezio beat Tails and Bomberman after a short early challenge, with the writeup blaming some of Tails's weakness on the similar third entrant. The result also undercut attempts to revive Tails through old extrapolated statistics.",
+    "headline": "Bomberman vote drain helps Ezio beat Tails",
+    "tags": [
+      "overlap",
+      "statement-win"
+    ]
+  },
+  {
+    "poll": 5201,
+    "contest": "CB IX",
+    "round": "Round One",
+    "division": null,
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Auron dominated Roxas and Ocelot, while the infamous Ocelot picture became the main discussion point despite the writeup explicitly rejecting it as enough to explain the result. Auron's strength is treated as the real story.",
+    "headline": "Auron dominates while Ocelot's picture steals the discussion",
+    "tags": [
+      "picture-controversy",
+      "statement-win"
+    ]
+  },
+  {
+    "poll": 5202,
+    "contest": "CB IX",
+    "round": "Round One",
+    "division": null,
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "L-Block won while the expected League of Legends rally for Teemo never materialized, leaving Teemo in last place behind Palutena. The writeup treats the failed rally expectation as the match's defining joke.",
+    "headline": "The Teemo rally never arrives and L-Block wins",
+    "tags": [
+      "failed-rally",
+      "joke-character",
+      "league"
+    ]
+  },
+  {
+    "poll": 5203,
+    "contest": "CB IX",
+    "round": "Round One",
+    "division": null,
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Dragonborn won, but performed far below the hype created by Skyrim's enormous popularity. Tom Nook took second in the Expert Challenge ordering, and the writeup immediately downgraded Dragonborn's chances against Tifa.",
+    "headline": "Dragonborn wins but Skyrim hype collapses",
+    "tags": [
+      "underperformance",
+      "skyrim-hype",
+      "warning-sign"
+    ]
+  },
+  {
+    "poll": 5204,
+    "contest": "CB IX",
+    "round": "Round One",
+    "division": null,
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Yuna beat Master Chief and Claire in a result the writeup says simply felt inevitable given Chief's long history of volatile strength and anti-voting. The match added another disappointment to Halo's contest record.",
+    "headline": "Yuna hands Master Chief another predictable disappointment",
+    "tags": [
+      "master-chief-decline",
+      "anti-vote"
+    ]
+  },
+  {
+    "poll": 5205,
+    "contest": "CB IX",
+    "round": "Round One",
+    "division": null,
+    "voting_anomalies": [
+      "cheating_alleged"
+    ],
+    "anomaly_note": "The writeup says fraudulent votes were removed from Cirno during the match and attributes the stuffing to a Touhou supporter, while extra notes acknowledge that the identity of the stuffer remained debatable.",
+    "off_topic": false,
+    "narrative": "Tifa dominated Chun-Li and Cirno, but the match is remembered mainly for fraudulent Cirno votes being removed. The controversy did not threaten Tifa's overwhelming win.",
+    "headline": "Tifa dominates while Cirno vote stuffing is removed",
+    "tags": [
+      "cheating-controversy",
+      "statement-win"
+    ]
+  },
+  {
+    "poll": 5206,
+    "contest": "CB IX",
+    "round": "Round One",
+    "division": null,
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Mario produced a completely routine top-seed blowout over Duke and Fawful, giving no hint that his next match would become one of the contest's major shocks. The writeup is striking mainly in hindsight.",
+    "headline": "Mario looks untouchable immediately before the Vivi shock",
+    "tags": [
+      "statement-win",
+      "hindsight-reversal"
+    ]
+  },
+  {
+    "poll": 5207,
+    "contest": "CB IX",
+    "round": "Round One",
+    "division": null,
+    "voting_anomalies": [
+      "cheating_alleged"
+    ],
+    "anomaly_note": "The writeup says fraudulent Marisa votes were removed both during and after the poll, with the site administrator explicitly announcing the vote stuffing while the match was live.",
+    "off_topic": false,
+    "narrative": "Vivi won comfortably over Adam Jensen and Marisa, but the match was repeatedly disrupted by fraudulent votes for Marisa being removed. The writeup treats the cheating as the main story before Vivi's later breakout.",
+    "headline": "Vivi wins as Marisa vote stuffing disrupts the poll",
+    "tags": [
+      "cheating-controversy",
+      "vivi-run"
+    ]
+  },
+  {
+    "poll": 5208,
+    "contest": "CB IX",
+    "round": "Round One",
+    "division": null,
+    "voting_anomalies": [
+      "cheating_alleged"
+    ],
+    "anomaly_note": "The writeup says fraudulent votes for Guybrush were removed during the match, while also stating that Guybrush still would have beaten Max Payne without them.",
+    "off_topic": false,
+    "narrative": "Ganondorf won easily, while Guybrush finally earned a meaningful contest success by taking second in the Expert Challenge ordering over Max Payne. The removed fraudulent votes tainted the match without changing that placement.",
+    "headline": "Guybrush finally succeeds despite removed fraudulent votes",
+    "tags": [
+      "cheating-controversy",
+      "first-win",
+      "expert-mode"
+    ]
+  }
+]

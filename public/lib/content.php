@@ -310,7 +310,8 @@ function render_front(): array
         }
 
         $b8 = ($slug = BOARD8WIKI_LINKS[$tid] ?? null)
-            ? '<td><a href="https://board8.fandom.com/wiki/' . $slug . '" rel="nofollow">wiki</a></td>'
+            ? '<td><a href="https://board8.fandom.com/wiki/' . $slug . '" rel="nofollow">wiki</a>'
+              . ' &middot; <a href="/data/board8wiki/markdown/contests/' . $tid . '.md" title="the wiki overview as plain Markdown (our archive)">md</a></td>'
             : '<td class="pu-none">-</td>';
 
         $xs = xstats_for_tid($tid);

@@ -1,0 +1,790 @@
+[
+  {
+    "poll": 6092,
+    "contest": "BGE 2K15",
+    "round": "Round One",
+    "division": "Division 6",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Final Fantasy IV turned a matchup the writeup considered completely noncompetitive into an easy rout of Deus Ex. The commentary also celebrates FFIV's durability and laments that its next draw prevented a more informative contest run.",
+    "headline": "Final Fantasy IV dispatches Deus Ex without drama",
+    "tags": [
+      "statement-win",
+      "bad-draw"
+    ]
+  },
+  {
+    "poll": 6093,
+    "contest": "BGE 2K15",
+    "round": "Round One",
+    "division": "Division 6",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Metal Gear Solid V beat Perfect Dark but looked far weaker than expected for a recent mainline Metal Gear release. The writeup treats the result as another sign that the series had declined rather than received the hoped-for boost.",
+    "headline": "Metal Gear Solid V wins but badly disappoints",
+    "tags": [
+      "underperformance",
+      "mgs-decline",
+      "warning-sign"
+    ]
+  },
+  {
+    "poll": 6094,
+    "contest": "BGE 2K15",
+    "round": "Round One",
+    "division": "Division 6",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Dark Souls comfortably doubled Civilization V and immediately looked capable of exploiting Metal Gear Solid V's weakness in the next round. The writeup treats the showing as an impressive debut for a recent game.",
+    "headline": "Dark Souls opens strongly and targets Metal Gear",
+    "tags": [
+      "debut",
+      "statement-win",
+      "warning-sign"
+    ]
+  },
+  {
+    "poll": 6095,
+    "contest": "BGE 2K15",
+    "round": "Round One",
+    "division": "Division 6",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Super Metroid demolished Call of Duty 4 far more severely than expected and transformed its contest reputation overnight. The writeup treats the performance as evidence of both Call of Duty decline and a major Super Metroid resurgence.",
+    "headline": "Super Metroid delivers a shocking first-round rout",
+    "tags": [
+      "statement-win",
+      "metroid-rebound",
+      "call-of-duty-slump"
+    ]
+  },
+  {
+    "poll": 6096,
+    "contest": "BGE 2K15",
+    "round": "Round One",
+    "division": "Division 6",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Super Mario Galaxy handled Dragon Age about as expected, but Super Metroid's simultaneous blowout made the win look ordinary by comparison. The writeup immediately shifted the next-round favorite toward Super Metroid.",
+    "headline": "Galaxy wins while Super Metroid steals the spotlight",
+    "tags": [
+      "statement-win",
+      "warning-sign"
+    ]
+  },
+  {
+    "poll": 6097,
+    "contest": "BGE 2K15",
+    "round": "Round One",
+    "division": "Division 6",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Final Fantasy XII beat the newer Bloodborne in a matchup the writeup uses as another example of nostalgia overpowering recent-game acclaim. The result also continued the perfect first-round run for Final Fantasy entries.",
+    "headline": "Final Fantasy XII uses nostalgia to beat Bloodborne",
+    "tags": [
+      "old-games",
+      "statement-win"
+    ]
+  },
+  {
+    "poll": 6098,
+    "contest": "BGE 2K15",
+    "round": "Round One",
+    "division": "Division 6",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Majora's Mask crushed Valkyria Chronicles in a routine top-seed blowout and largely matched its prior contest reputation. The writeup's main complaint is that the bracket wasted Majora by placing it near another Zelda heavyweight.",
+    "headline": "Majora's Mask cruises through an unfortunate bracket path",
+    "tags": [
+      "statement-win",
+      "bad-draw"
+    ]
+  },
+  {
+    "poll": 6099,
+    "contest": "BGE 2K15",
+    "round": "Round One",
+    "division": "Division 7",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Grand Theft Auto V beat Shenmue but looked embarrassingly weak for a top seed against such limited opposition. The writeup treats the result as immediate confirmation that GTA5 was doomed in Round Two.",
+    "headline": "Grand Theft Auto V wins and still gets exposed",
+    "tags": [
+      "underperformance",
+      "gta-decline",
+      "warning-sign"
+    ]
+  },
+  {
+    "poll": 6100,
+    "contest": "BGE 2K15",
+    "round": "Round One",
+    "division": "Division 7",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Super Mario RPG won a heavily debated matchup with Oblivion and became the clear favorite to escape the surrounding eightpack. Its severe overnight percentage bleed is attributed to the game's historically poor European availability rather than a real comeback.",
+    "headline": "Super Mario RPG beats Oblivion and seizes the division",
+    "tags": [
+      "upset",
+      "division-favorite",
+      "europe-effect"
+    ]
+  },
+  {
+    "poll": 6101,
+    "contest": "BGE 2K15",
+    "round": "Round One",
+    "division": "Division 7",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "San Andreas beat Shovel Knight but again looked far too weak for a major Grand Theft Auto title. The writeup treats the result as another clear demonstration of the site's long-running anti-GTA sentiment.",
+    "headline": "San Andreas wins while GTA decline becomes comical",
+    "tags": [
+      "underperformance",
+      "gta-decline",
+      "anti-vote"
+    ]
+  },
+  {
+    "poll": 6102,
+    "contest": "BGE 2K15",
+    "round": "Round One",
+    "division": "Division 7",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Chrono Cross comfortably upset World of Warcraft despite overwhelming casual confidence in WoW. The writeup celebrates the result as an expert-friendly rejection of casual brand recognition and a perfect bracket break for Chrono Cross.",
+    "headline": "Chrono Cross humiliates World of Warcraft",
+    "tags": [
+      "upset",
+      "casual-miss",
+      "wow-decline"
+    ]
+  },
+  {
+    "poll": 6103,
+    "contest": "BGE 2K15",
+    "round": "Round One",
+    "division": "Division 7",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "The Witcher 3 crushed The Binding of Isaac and looked unusually strong for a current-year release. The writeup also flags the game's known rally potential as a future threat, but no rally was needed in this match.",
+    "headline": "The Witcher 3 opens with rare modern-game strength",
+    "tags": [
+      "statement-win",
+      "recent-game",
+      "rally-potential"
+    ]
+  },
+  {
+    "poll": 6104,
+    "contest": "BGE 2K15",
+    "round": "Round One",
+    "division": "Division 7",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Metal Gear Solid 2 beat Resident Evil but bled support throughout the match and continued the series' disappointing contest. The result made the coming Witcher 3 matchup look much more dangerous than expected.",
+    "headline": "Metal Gear Solid 2 wins without looking convincing",
+    "tags": [
+      "underperformance",
+      "mgs-decline",
+      "warning-sign"
+    ]
+  },
+  {
+    "poll": 6105,
+    "contest": "BGE 2K15",
+    "round": "Round One",
+    "division": "Division 7",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Fallout: New Vegas beat BioShock Infinite in a matchup the writeup felt had been settled by fresh Fallout 4 attention and BioShock's weaker sequel reputation. The result stayed close enough to be respectable but never looked like an upset.",
+    "headline": "Fallout 4 momentum carries New Vegas past BioShock Infinite",
+    "tags": [
+      "release-boost",
+      "statement-win"
+    ]
+  },
+  {
+    "poll": 6106,
+    "contest": "BGE 2K15",
+    "round": "Round One",
+    "division": "Division 7",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Resident Evil 4 beat Paper Mario but lost enough support to create an immediate warning about its deeper prospects. The writeup uses comparisons with other Mario RPGs to argue that RE4 already looked weaker than its prior contest form.",
+    "headline": "Resident Evil 4 wins with an early warning sign",
+    "tags": [
+      "underperformance",
+      "warning-sign",
+      "strength-debate"
+    ]
+  },
+  {
+    "poll": 6107,
+    "contest": "BGE 2K15",
+    "round": "Round One",
+    "division": "Division 8",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Metal Gear Solid crushed Splatoon and became the only Metal Gear entry the writeup thought looked genuinely solid in Round One. The result offered a brief exception to the series-wide decline narrative.",
+    "headline": "Metal Gear Solid becomes the series' lone bright spot",
+    "tags": [
+      "statement-win",
+      "mgs-bright-spot"
+    ]
+  },
+  {
+    "poll": 6108,
+    "contest": "BGE 2K15",
+    "round": "Round One",
+    "division": "Division 8",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "EarthBound overturned the Board 8 favorite and crushed Borderlands 2, finally translating its cult reputation into a meaningful contest win. The writeup treats the result as one of the clearest signs of the contest's enormous SNES and nostalgia boost.",
+    "headline": "EarthBound finally breaks out by crushing Borderlands 2",
+    "tags": [
+      "upset",
+      "breakout-performance",
+      "year-of-snes"
+    ]
+  },
+  {
+    "poll": 6109,
+    "contest": "BGE 2K15",
+    "round": "Round One",
+    "division": "Division 8",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Shadow of the Colossus demolished Team Fortress 2 and revived memories of its earlier deep run. The writeup immediately began looking ahead to whether it could again challenge Metal Gear opposition.",
+    "headline": "Shadow of the Colossus revives its upset reputation",
+    "tags": [
+      "statement-win",
+      "cinderella-hype"
+    ]
+  },
+  {
+    "poll": 6110,
+    "contest": "BGE 2K15",
+    "round": "Round One",
+    "division": "Division 8",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Red Dead Redemption beat Bayonetta 2 comfortably after the writeup had overthought the possibility of a Wii U upset. The result validated RDR as a legitimate midcard game while further embarrassing the Wii U.",
+    "headline": "Red Dead Redemption restores order against Bayonetta 2",
+    "tags": [
+      "statement-win",
+      "wii-u-slump"
+    ]
+  },
+  {
+    "poll": 6111,
+    "contest": "BGE 2K15",
+    "round": "Round One",
+    "division": "Division 8",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Metal Gear Solid 3 beat Mother 3 by a wide margin but still performed far below what the writeup expected against a Japan-only title. The result became another major warning that the entire Metal Gear series had weakened.",
+    "headline": "Metal Gear Solid 3 wins an embarrassing blowout",
+    "tags": [
+      "underperformance",
+      "mgs-decline",
+      "warning-sign"
+    ]
+  },
+  {
+    "poll": 6112,
+    "contest": "BGE 2K15",
+    "round": "Round One",
+    "division": "Division 8",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "BioShock beat Silent Hill 2 in a straightforward matchup, though Silent Hill performed better than its old contest history suggested. The win set up a more interesting test against a vulnerable Metal Gear Solid 3.",
+    "headline": "BioShock advances while Silent Hill earns some respect",
+    "tags": [
+      "statement-win",
+      "statement-loss"
+    ]
+  },
+  {
+    "poll": 6113,
+    "contest": "BGE 2K15",
+    "round": "Round One",
+    "division": "Division 8",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "StarCraft destroyed Destiny far more decisively than expected and suddenly looked capable of threatening Mass Effect 2. The writeup treats the blowout as a welcome revival for a game with an old rally-driven contest legacy.",
+    "headline": "StarCraft crushes Destiny and revives its old menace",
+    "tags": [
+      "statement-win",
+      "starcraft-rebound",
+      "warning-sign"
+    ]
+  },
+  {
+    "poll": 6114,
+    "contest": "BGE 2K15",
+    "round": "Round One",
+    "division": "Division 8",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Mass Effect 2 demolished Virtue's Last Reward in the final match of Round One. The blowout itself was routine, but the writeup saw StarCraft and Metal Gear Solid 3 as meaningful threats waiting in the division.",
+    "headline": "Mass Effect 2 closes Round One with an easy rout",
+    "tags": [
+      "statement-win",
+      "round-closer"
+    ]
+  },
+  {
+    "poll": 6115,
+    "contest": "BGE 2K15",
+    "round": "Round Two",
+    "division": "Division 1",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Chrono Trigger annihilated Dragon Quest VIII and produced one of the rare post-opening-round blowouts of this scale. Both analyses explicitly resist treating SFF as the main explanation and instead frame Chrono Trigger as operating at elite strength.",
+    "headline": "Chrono Trigger enters god mode against Dragon Quest VIII",
+    "tags": [
+      "statement-win",
+      "record",
+      "title-hype"
+    ]
+  },
+  {
+    "poll": 6116,
+    "contest": "BGE 2K15",
+    "round": "Round Two",
+    "division": "Division 1",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Final Fantasy X beat Mega Man X but looked disastrously weak relative to expectations, while Mega Man X exited with its reputation greatly improved. The result effectively ended belief that FFX could stop Chrono Trigger.",
+    "headline": "Mega Man X exposes a badly weakened Final Fantasy X",
+    "tags": [
+      "underperformance",
+      "mega-man-rebound",
+      "warning-sign"
+    ]
+  },
+  {
+    "poll": 6117,
+    "contest": "BGE 2K15",
+    "round": "Round Two",
+    "division": "Division 1",
+    "voting_anomalies": [
+      "rally"
+    ],
+    "anomaly_note": "The writeup says Melee fans organized a noticeable rally despite already leading comfortably, boosting Melee substantially over its natural level against Pokémon GSC.",
+    "off_topic": false,
+    "narrative": "Melee was already winning comfortably when its fanbase began a successful rally that inflated the final result. The writeup later treats this as an early trial run for the far larger Melee rallying still to come.",
+    "headline": "Melee's rally turns a safe win into a statement",
+    "tags": [
+      "rally-trial",
+      "melee-run"
+    ]
+  },
+  {
+    "poll": 6118,
+    "contest": "BGE 2K15",
+    "round": "Round Two",
+    "division": "Division 1",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Kingdom Hearts II beat The Last of Us comfortably and removed any realistic thought of an upset. The writeup still credits The Last of Us with impressive strength for a recent, original franchise.",
+    "headline": "Kingdom Hearts II handles a respectable Last of Us",
+    "tags": [
+      "statement-win",
+      "statement-loss"
+    ]
+  },
+  {
+    "poll": 6119,
+    "contest": "BGE 2K15",
+    "round": "Round Two",
+    "division": "Division 2",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Final Fantasy VI handled Thousand-Year Door exactly as expected in a largely uneventful setup match. The writeup immediately turns toward the much more meaningful Wind Waker comparison waiting next.",
+    "headline": "Final Fantasy VI cruises toward the Wind Waker test",
+    "tags": [
+      "low-drama",
+      "rematch-setup"
+    ]
+  },
+  {
+    "poll": 6120,
+    "contest": "BGE 2K15",
+    "round": "Round Two",
+    "division": "Division 2",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Wind Waker beat KOTOR by roughly the margin expected and did little to settle the upcoming debate with Final Fantasy VI. The writeup treats the result as useful mainly because the next match remained genuinely uncertain.",
+    "headline": "Wind Waker beats KOTOR without settling the FFVI debate",
+    "tags": [
+      "strength-debate",
+      "statement-win"
+    ]
+  },
+  {
+    "poll": 6121,
+    "contest": "BGE 2K15",
+    "round": "Round Two",
+    "division": "Division 2",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Smash 4 beat Mass Effect in a respectable but unspectacular result for both games. The writeup sees the Wii U title as legitimately strong, while Mass Effect's loss still validated its prior upset of Galaxy 2.",
+    "headline": "Smash 4 survives a respectable Mass Effect challenge",
+    "tags": [
+      "statement-win",
+      "statement-loss"
+    ]
+  },
+  {
+    "poll": 6122,
+    "contest": "BGE 2K15",
+    "round": "Round Two",
+    "division": "Division 2",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Final Fantasy VII crushed Halo and produced what the writeup considers its strongest natural performance of the contest. The result briefly restored championship confidence before the rally-driven chaos of later rounds.",
+    "headline": "Final Fantasy VII crushes Halo and restores title confidence",
+    "tags": [
+      "statement-win",
+      "title-hype",
+      "halo-decline"
+    ]
+  },
+  {
+    "poll": 6123,
+    "contest": "BGE 2K15",
+    "round": "Round Two",
+    "division": "Division 3",
+    "voting_anomalies": [
+      "rally"
+    ],
+    "anomaly_note": "The writeup says Undertale's outside rally spilled into this simultaneous poll and heavily boosted Pokémon RBY, turning an already likely Pokémon win into a much larger blowout.",
+    "off_topic": false,
+    "narrative": "Pokémon RBY was already beating Mario 3 before outside traffic arrived, but Undertale spillover transformed the result into a rout. The writeup treats the natural matchup as a legitimate Pokémon win and the final margin as heavily distorted.",
+    "headline": "Undertale spillover turns Pokémon's win into a rout",
+    "tags": [
+      "rally-spillover",
+      "pokemon-rise",
+      "upset"
+    ]
+  },
+  {
+    "poll": 6124,
+    "contest": "BGE 2K15",
+    "round": "Round Two",
+    "division": "Division 3",
+    "voting_anomalies": [
+      "rally"
+    ],
+    "anomaly_note": "The writeup says Undertale rally spillover modestly favored Sonic 2 over Uncharted 2, making an already comfortable Sonic win somewhat larger.",
+    "off_topic": false,
+    "narrative": "Sonic 2 was already winning decisively before the simultaneous rally traffic arrived, then gained a few more points from spillover. The writeup treats the underlying result as a genuine old-games victory rather than a rally-created upset.",
+    "headline": "Sonic 2 wins big with a small rally boost",
+    "tags": [
+      "rally-spillover",
+      "old-games",
+      "statement-win"
+    ]
+  },
+  {
+    "poll": 6125,
+    "contest": "BGE 2K15",
+    "round": "Round Two",
+    "division": "Division 3",
+    "voting_anomalies": [
+      "rally"
+    ],
+    "anomaly_note": "The writeup says Undertale's massive outside rally erased Fallout 3's huge lead in only a few hours and continued accelerating after taking first.",
+    "off_topic": false,
+    "narrative": "Fallout 3 looked safe for most of the match before Undertale's rally transformed the poll into a historic comeback and then a decisive win. The result launched the rally momentum that would dominate the rest of the contest.",
+    "headline": "Undertale rallies from a huge deficit to beat Fallout 3",
+    "tags": [
+      "rally-classic",
+      "comeback",
+      "undertale-run"
+    ]
+  },
+  {
+    "poll": 6126,
+    "contest": "BGE 2K15",
+    "round": "Round Two",
+    "division": "Division 3",
+    "voting_anomalies": [
+      "rally"
+    ],
+    "anomaly_note": "The writeup says Undertale's simultaneous rally traffic heavily favored Super Mario World, inflating an already comfortable win over Final Fantasy VIII.",
+    "off_topic": false,
+    "narrative": "Super Mario World was already controlling Final Fantasy VIII before rally spillover made the margin substantially larger. The result fueled enormous anticipation for Mario World's coming encounter with Undertale.",
+    "headline": "Rally spillover boosts Mario World before the Undertale showdown",
+    "tags": [
+      "rally-spillover",
+      "title-hype"
+    ]
+  },
+  {
+    "poll": 6127,
+    "contest": "BGE 2K15",
+    "round": "Round Two",
+    "division": "Division 4",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Skyrim produced its strongest performance of the contest by comfortably beating GoldenEye and silencing the upset murmurs created by its weak opener. The writeup notes that this match was notably unaffected by rally spillover.",
+    "headline": "Skyrim shuts down the GoldenEye upset talk",
+    "tags": [
+      "statement-win",
+      "rebound"
+    ]
+  },
+  {
+    "poll": 6128,
+    "contest": "BGE 2K15",
+    "round": "Round Two",
+    "division": "Division 4",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Metroid Prime decisively won its rematch with Half-Life 2 and erased the memory of their much closer earlier contest meeting. The result established Prime as a credible threat to Skyrim in the next round.",
+    "headline": "Metroid Prime wins the Half-Life rematch decisively",
+    "tags": [
+      "rematch",
+      "statement-win",
+      "warning-sign"
+    ]
+  },
+  {
+    "poll": 6129,
+    "contest": "BGE 2K15",
+    "round": "Round Two",
+    "division": "Division 4",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Super Mario 64 crushed Final Fantasy Tactics, though its percentage bleed gave a small opening for later Twilight Princess speculation. The writeup otherwise treats Mario 64 as the obvious division heavyweight.",
+    "headline": "Mario 64 crushes Tactics but shows one small crack",
+    "tags": [
+      "statement-win",
+      "warning-sign"
+    ]
+  },
+  {
+    "poll": 6130,
+    "contest": "BGE 2K15",
+    "round": "Round Two",
+    "division": "Division 4",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Twilight Princess doubled Persona 4 and exceeded its old Game of the Decade comparison. The result validated Persona somewhat while still leaving the writeup convinced Mario 64 was far stronger.",
+    "headline": "Twilight Princess routs Persona but still trails Mario 64",
+    "tags": [
+      "statement-win",
+      "strength-debate"
+    ]
+  },
+  {
+    "poll": 6131,
+    "contest": "BGE 2K15",
+    "round": "Round Two",
+    "division": "Division 5",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Ocarina of Time beat Suikoden II but looked shockingly weak for the site's traditional top game. The writeup interprets the performance as the first strong evidence of widespread anti-Zelda voting and contest fatigue.",
+    "headline": "Ocarina wins while Zelda fatigue finally surfaces",
+    "tags": [
+      "underperformance",
+      "anti-vote",
+      "warning-sign"
+    ]
+  },
+  {
+    "poll": 6132,
+    "contest": "BGE 2K15",
+    "round": "Round Two",
+    "division": "Division 5",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Final Fantasy IX beat Okami comfortably enough to confirm its modern rise in strength, while Okami again avoided being completely blown out. The result sent FFIX into Round Three with more credibility than in older contests.",
+    "headline": "Final Fantasy IX confirms its modern strength",
+    "tags": [
+      "ff9-boost",
+      "statement-win"
+    ]
+  },
+  {
+    "poll": 6133,
+    "contest": "BGE 2K15",
+    "round": "Round Two",
+    "division": "Division 5",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Donkey Kong Country 2 survived another close match, this time against Fire Emblem Awakening, and continued one of the contest's most unexpected runs. The writeup explicitly frames DKC2 as resisting the Nintendo SFF reputation rather than suffering from it.",
+    "headline": "DKC2 survives Awakening and keeps the miracle run alive",
+    "tags": [
+      "close-match",
+      "year-of-snes",
+      "dkc2-run"
+    ]
+  },
+  {
+    "poll": 6134,
+    "contest": "BGE 2K15",
+    "round": "Round Two",
+    "division": "Division 5",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Symphony of the Night handled Banjo-Kazooie comfortably despite some pre-match upset buzz. The writeup treats the result as another demonstration of how much internet respect the Castlevania classic had accumulated.",
+    "headline": "Symphony of the Night dismisses the Banjo hype",
+    "tags": [
+      "statement-win",
+      "castlevania-respect"
+    ]
+  },
+  {
+    "poll": 6135,
+    "contest": "BGE 2K15",
+    "round": "Round Two",
+    "division": "Division 6",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "A Link to the Past beat Final Fantasy IV easily, but the writeup still considered the performance too ordinary for a championship favorite. The result joins Ocarina's showing as evidence of growing Zelda fatigue.",
+    "headline": "Link to the Past wins but fuels Zelda-fatigue concerns",
+    "tags": [
+      "underperformance",
+      "anti-vote",
+      "warning-sign"
+    ]
+  },
+  {
+    "poll": 6136,
+    "contest": "BGE 2K15",
+    "round": "Round Two",
+    "division": "Division 6",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Dark Souls comfortably eliminated Metal Gear Solid V and confirmed that the new Metal Gear entry had never gained meaningful contest strength. The writeup treats Dark Souls as a rare modern game capable of surviving NostalgiaFAQs.",
+    "headline": "Dark Souls ends Metal Gear Solid V quietly",
+    "tags": [
+      "upset",
+      "mgs-decline",
+      "recent-game"
+    ]
+  },
+  {
+    "poll": 6137,
+    "contest": "BGE 2K15",
+    "round": "Round Two",
+    "division": "Division 6",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Super Metroid crushed Super Mario Galaxy and finally broke the long-standing expectation that Metroid would collapse against Mario. The writeup treats this as a landmark result that ended much of the site's belief in automatic Mario dominance.",
+    "headline": "Super Metroid breaks the Mario hierarchy",
+    "tags": [
+      "upset",
+      "landmark-match",
+      "metroid-rebound"
+    ]
+  },
+  {
+    "poll": 6138,
+    "contest": "BGE 2K15",
+    "round": "Round Two",
+    "division": "Division 6",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Majora's Mask handled Final Fantasy XII easily and became the only Zelda entry the writeup thought looked genuinely strong in Round Two. The result largely validated its prior Game of the Decade strength.",
+    "headline": "Majora's Mask becomes Zelda's Round Two bright spot",
+    "tags": [
+      "statement-win",
+      "zelda-bright-spot"
+    ]
+  },
+  {
+    "poll": 6139,
+    "contest": "BGE 2K15",
+    "round": "Round Two",
+    "division": "Division 7",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Super Mario RPG beat the top-seeded GTA V exactly as Board 8 expected, turning casual bracket confidence into another easy target. The writeup treats the upset as obvious to experts despite the seeding.",
+    "headline": "Super Mario RPG knocks out top-seeded GTA V",
+    "tags": [
+      "upset",
+      "casual-miss",
+      "gta-decline"
+    ]
+  },
+  {
+    "poll": 6140,
+    "contest": "BGE 2K15",
+    "round": "Round Two",
+    "division": "Division 7",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Chrono Cross comfortably upset San Andreas and completed a second straight demolition of casual-favored opponents. The writeup attributes the result to GTA's severe anti-voting and Chrono Cross receiving the perfect bracket path.",
+    "headline": "Chrono Cross humiliates San Andreas and casual brackets",
+    "tags": [
+      "upset",
+      "gta-decline",
+      "casual-miss"
+    ]
+  },
+  {
+    "poll": 6141,
+    "contest": "BGE 2K15",
+    "round": "Round Two",
+    "division": "Division 7",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Metal Gear Solid 2 narrowly beat The Witcher 3 despite widespread attempts by Witcher fans to attract outside support. The writeup stresses that the hoped-for developer rally never materialized, making the result a case study in how difficult successful rallying can be.",
+    "headline": "MGS2 survives the Witcher rally that never happened",
+    "tags": [
+      "failed-rally",
+      "close-match",
+      "mgs-decline"
+    ]
+  }
+]

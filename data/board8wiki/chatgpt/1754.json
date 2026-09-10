@@ -1,0 +1,775 @@
+[
+  {
+    "poll": 1754,
+    "contest": "SC2K4",
+    "round": null,
+    "division": "20XX Division",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Mega Man demolished Tidus far more decisively than most of Board 8 expected, vindicating Heroic Mario's unusually confident prediction. The writeup treats Tidus's collapse as one of the contest's hardest results to explain.",
+    "headline": "Mega Man crushes Tidus and vindicates Heroic Mario",
+    "tags": [
+      "tidus-collapse",
+      "prediction-call"
+    ]
+  },
+  {
+    "poll": 1755,
+    "contest": "SC2K4",
+    "round": null,
+    "division": "20XX Division",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Zero handled Vercetti almost exactly as Board 8 expected in a match the writeup calls one of the contest's dullest. Its main significance was completing the obvious setup for Mega Man versus Zero.",
+    "headline": "Zero handles Vercetti and completes the Mega Man setup",
+    "tags": [
+      "bracket-setup"
+    ]
+  },
+  {
+    "poll": 1756,
+    "contest": "SC2K4",
+    "round": null,
+    "division": "20XX Division",
+    "voting_anomalies": [
+      "rally",
+      "cheating_alleged"
+    ],
+    "anomaly_note": "The writeup says Halo sites linked to the poll during Master Chief's comeback, creating an outside rally. It also explicitly describes blatant multi-voting on both sides, especially in the final hour.",
+    "off_topic": false,
+    "narrative": "Frog survived Master Chief in an all-time classic filled with huge momentum swings and a frantic finish. The writeup celebrates the drama while also arguing that outside Halo promotion and rampant multi-voting make the true result impossible to separate cleanly from the controversy.",
+    "headline": "Frog survives Master Chief in a controversial all-time classic",
+    "tags": [
+      "historic-match",
+      "close-match",
+      "bracket-buster"
+    ]
+  },
+  {
+    "poll": 1757,
+    "contest": "SC2K4",
+    "round": null,
+    "division": "20XX Division",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Solid Snake beat Knuckles yet again, but the writeup is mostly exasperated that the same second-round pairing kept recurring. Knuckles looked better than in their earlier meetings, leaving open whether he improved or Snake declined.",
+    "headline": "Snake beats Knuckles again as the rematch fatigue peaks",
+    "tags": [
+      "rematch",
+      "rivalry-fatigue"
+    ]
+  },
+  {
+    "poll": 1758,
+    "contest": "SC2K4",
+    "round": null,
+    "division": "Midgar Division",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Cloud disposed of Vyse exactly as expected, leaving little to discuss beyond comparisons with Link. The writeup argues that merely meeting expectations was no longer enough because Link had been exceeding his own.",
+    "headline": "Cloud beats Vyse but loses ground in the Link comparison",
+    "tags": [
+      "title-rivalry",
+      "underperformance"
+    ]
+  },
+  {
+    "poll": 1759,
+    "contest": "SC2K4",
+    "round": null,
+    "division": "Midgar Division",
+    "voting_anomalies": [
+      "pic_factor"
+    ],
+    "anomaly_note": "The writeup says Kirby and Squall were dead even before the match picture appeared, after which Squall began pulling away, and explicitly suggests that the picture may have mattered.",
+    "off_topic": false,
+    "narrative": "Squall beat Kirby in another predictable Midgar match, though Kirby performed better than expected. The writeup's main curiosity is that Squall only began separating after the match picture appeared.",
+    "headline": "Squall beats Kirby after the match picture shifts momentum",
+    "tags": [
+      "underperformance"
+    ]
+  },
+  {
+    "poll": 1760,
+    "contest": "SC2K4",
+    "round": null,
+    "division": "Midgar Division",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Auron beat Ness in a result everyone expected, but Ness performed better than the old projections suggested. The writeup treats the outcome as another example of the bracket making individual strength difficult to interpret.",
+    "headline": "Auron beats Ness in another hard-to-read Midgar result",
+    "tags": [
+      "stats-uncertainty"
+    ]
+  },
+  {
+    "poll": 1761,
+    "contest": "SC2K4",
+    "round": null,
+    "division": "Midgar Division",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Sephiroth beat Vivi comfortably, but Vivi held up better than many expected against a fellow Square entrant. The writeup uses the result to argue that Square fanbases are less easily compressed than Nintendo fanbases.",
+    "headline": "Sephiroth advances while Vivi resists the expected Square squeeze",
+    "tags": [
+      "square-fanbase",
+      "underperformance"
+    ]
+  },
+  {
+    "poll": 1762,
+    "contest": "SC2K4",
+    "round": null,
+    "division": "Chaos Division",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Sonic beat Ryu without serious danger, but the writeup saw the performance as insufficient to threaten a surging Samus. The result reinforced the sense that Sonic had remained steady while Samus had improved.",
+    "headline": "Sonic beats Ryu but fails to answer the Samus surge",
+    "tags": [
+      "underperformance",
+      "division-race"
+    ]
+  },
+  {
+    "poll": 1763,
+    "contest": "SC2K4",
+    "round": null,
+    "division": "Chaos Division",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Dante eliminated Tails in a match the writeup considered completely predictable and largely uninteresting. Its only real distinction was finally carrying Dante beyond the second round.",
+    "headline": "Dante dispatches Tails in a routine second-round win",
+    "tags": [
+      "milestone"
+    ]
+  },
+  {
+    "poll": 1764,
+    "contest": "SC2K4",
+    "round": null,
+    "division": "Chaos Division",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Sora turned a matchup many expected Ryu Hayabusa to control into one of the contest's biggest surprises. The writeup treats the decisive win as proof that Sora had made an enormous jump in strength since the previous year.",
+    "headline": "Sora routs Ryu Hayabusa in a major surprise",
+    "tags": [
+      "upset",
+      "breakout-performance"
+    ]
+  },
+  {
+    "poll": 1765,
+    "contest": "SC2K4",
+    "round": null,
+    "division": "Chaos Division",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Samus annihilated Sam Fisher so thoroughly that early voters briefly suspected a broken poll. The writeup treats the blowout as confirmation that Samus was surging and had become the clear favorite to take the Chaos division.",
+    "headline": "Samus crushes Fisher and takes command of Chaos",
+    "tags": [
+      "breakout-performance",
+      "division-favorite"
+    ]
+  },
+  {
+    "poll": 1766,
+    "contest": "SC2K4",
+    "round": "Hyrule Division Semi Final",
+    "division": null,
+    "voting_anomalies": [
+      "sff"
+    ],
+    "anomaly_note": "The writeup explicitly calls Link versus Yoshi a straight SFF match and says the fanbase effect was even harsher than most expected, heavily suppressing Yoshi.",
+    "off_topic": false,
+    "narrative": "Link destroyed Yoshi in a predictable same-company matchup, but the degree of suppression surprised even people expecting SFF. The writeup treats the result as another intimidating sign of Link's championship strength.",
+    "headline": "Link overwhelms Yoshi in harsher-than-expected SFF",
+    "tags": [
+      "title-favorite"
+    ]
+  },
+  {
+    "poll": 1767,
+    "contest": "SC2K4",
+    "round": "Hyrule Division Semi Final",
+    "division": null,
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Crono finally defeated Mario after their two legendary earlier meetings, but the long-awaited rematch was anticlimactic. Crono controlled the match while the writeup framed the result as overdue revenge and the likely end of the rivalry's classic era.",
+    "headline": "Crono finally beats Mario in an anticlimactic revenge match",
+    "tags": [
+      "rivalry",
+      "revenge",
+      "historic-series"
+    ]
+  },
+  {
+    "poll": 1768,
+    "contest": "SC2K4",
+    "round": "20XX Division Semi Final",
+    "division": null,
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Mega Man beat Zero as expected, but Zero resisted far better than a typical same-family opponent. The writeup argues that their distinct series fanbases may explain why the anticipated SFF barely appeared and why Mega Man looked vulnerable afterward.",
+    "headline": "Mega Man beats Zero as the expected SFF barely appears",
+    "tags": [
+      "reverse-sff-debate",
+      "underperformance"
+    ]
+  },
+  {
+    "poll": 1769,
+    "contest": "SC2K4",
+    "round": "20XX Division Semi Final",
+    "division": null,
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Solid Snake survived Frog, but Frog's ability to stay competitive made Snake look like one of the contest's biggest disappointments. The writeup uses the match to criticize overly literal reliance on extrapolated standings.",
+    "headline": "Snake survives Frog but suffers another damaging performance",
+    "tags": [
+      "underperformance",
+      "x-stats-debate"
+    ]
+  },
+  {
+    "poll": 1770,
+    "contest": "SC2K4",
+    "round": "Midgar Division Semi Final",
+    "division": null,
+    "voting_anomalies": [
+      "sff"
+    ],
+    "anomaly_note": "The writeup explicitly frames Cloud versus Squall as a matchup with a massive amount of SFF, with Cloud dominating the fellow Final Fantasy entrant.",
+    "off_topic": false,
+    "narrative": "Cloud easily beat Squall in a heavily shared-fanbase matchup, but the result did little to improve his standing against Link. The writeup remembers the match mainly as another predictable step toward the planned final.",
+    "headline": "Cloud dominates Squall in a predictable SFF matchup",
+    "tags": [
+      "title-rivalry",
+      "bracket-setup"
+    ]
+  },
+  {
+    "poll": 1771,
+    "contest": "SC2K4",
+    "round": "Midgar Division Semi Final",
+    "division": null,
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Sephiroth beat Auron exactly as the bracket seemed designed to produce, leaving little suspense. The writeup's main takeaway is that Sephiroth looked clearly weaker than Cloud against a common opponent.",
+    "headline": "Sephiroth beats Auron but loses ground to Cloud",
+    "tags": [
+      "title-rivalry",
+      "underperformance"
+    ]
+  },
+  {
+    "poll": 1772,
+    "contest": "SC2K4",
+    "round": "Chaos Division Semi Final",
+    "division": null,
+    "voting_anomalies": [
+      "pic_factor"
+    ],
+    "anomaly_note": "The writeup says Dante's match picture was exceptionally poor and suggests it may explain why Sonic performed better than the old projections expected.",
+    "off_topic": false,
+    "narrative": "Sonic beat Dante in another predictable Chaos match and briefly renewed hope that he could challenge Samus. The writeup immediately tempers that optimism by pointing to Dante's poor picture as a possible reason for Sonic's apparent overperformance.",
+    "headline": "Sonic beats Dante as a bad picture muddies the comparison",
+    "tags": [
+      "division-race"
+    ]
+  },
+  {
+    "poll": 1773,
+    "contest": "SC2K4",
+    "round": "Chaos Division Semi Final",
+    "division": null,
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Samus dispatched Sora without drama and quickly erased the renewed optimism around Sonic. The writeup views the match as confirmation that Samus should win the division comfortably, even if Cloud remained beyond her reach.",
+    "headline": "Samus handles Sora and reinforces her Chaos advantage",
+    "tags": [
+      "division-favorite"
+    ]
+  },
+  {
+    "poll": 1774,
+    "contest": "SC2K4",
+    "round": "Midgar Division Final",
+    "division": null,
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Link crushed Crono in another late-round match whose winner was never seriously in doubt. The writeup treats the result as overwhelming evidence that Link had improved and remained well ahead of Cloud entering the final stages.",
+    "headline": "Link crushes Crono and strengthens his championship favorite status",
+    "tags": [
+      "title-favorite",
+      "underperformance"
+    ]
+  },
+  {
+    "poll": 1775,
+    "contest": "SC2K4",
+    "round": "20XX Division Final",
+    "division": null,
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Mega Man beat Solid Snake in a repeat of the previous year's divisional final, with the writeup treating Snake's showing as another major flop. It also mocks the persistent tendency to underestimate Mega Man in bracket predictions.",
+    "headline": "Mega Man beats Snake again as Snake's decline continues",
+    "tags": [
+      "rematch",
+      "underperformance"
+    ]
+  },
+  {
+    "poll": 1776,
+    "contest": "SC2K4",
+    "round": "Midgar Division Final",
+    "division": null,
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Cloud defeated Sephiroth comfortably despite the rematch carrying at least some plausible upset intrigue. The writeup says the win restored confidence in Cloud just before the expected showdown with Link.",
+    "headline": "Cloud handles Sephiroth and restores confidence before Link",
+    "tags": [
+      "rematch",
+      "title-rivalry"
+    ]
+  },
+  {
+    "poll": 1777,
+    "contest": "SC2K4",
+    "round": "Chaos Division Final",
+    "division": null,
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Samus decisively settled her famous rivalry with Sonic after their controversial classic two years earlier. The writeup credits Samus's run of new games and Sonic's stagnation, while dismissing excuses for the lopsided rematch.",
+    "headline": "Samus decisively settles her old rivalry with Sonic",
+    "tags": [
+      "rematch",
+      "rivalry",
+      "samus-rise"
+    ]
+  },
+  {
+    "poll": 1778,
+    "contest": "SC2K4",
+    "round": "Tournament Semi Final",
+    "division": null,
+    "voting_anomalies": [
+      "sff"
+    ],
+    "anomaly_note": "The writeup explicitly says there was a definite degree of SFF in Link's overwhelming win over Mega Man, though it argues Link's own rise mattered even more.",
+    "off_topic": false,
+    "narrative": "Link demolished Mega Man and effectively ended any remaining uncertainty about the contest favorite. The writeup attributes part of the rout to SFF but argues that Link's broader rise in strength was the more important story.",
+    "headline": "Link destroys Mega Man and all but claims favorite status",
+    "tags": [
+      "title-favorite",
+      "semifinal"
+    ]
+  },
+  {
+    "poll": 1779,
+    "contest": "SC2K4",
+    "round": "Tournament Semi Final",
+    "division": null,
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Samus briefly made the semifinal look interesting with an early lead, but Cloud quickly took control and advanced as expected. The writeup treats the rest of the match as little more than preparation for the long-planned Link final.",
+    "headline": "Cloud ends Samus's brief resistance and reaches the final",
+    "tags": [
+      "semifinal",
+      "bracket-setup"
+    ]
+  },
+  {
+    "poll": 1780,
+    "contest": "SC2K4",
+    "round": "Tournament Final",
+    "division": null,
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Link avenged his previous loss to Cloud and confirmed the strength he had shown throughout the contest. Cloud briefly threatened a comeback, but Link's daytime surge settled the championship without the picture excuses that had shadowed their earlier meeting.",
+    "headline": "Link avenges Cloud loss and wins the championship",
+    "tags": [
+      "contest-final",
+      "champion",
+      "revenge"
+    ]
+  },
+  {
+    "poll": 1989,
+    "contest": "SpC2K5",
+    "round": null,
+    "division": "Mushroom Division",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Bowser opened the villains contest by obliterating Pyramid Head, whose nomination the writeup credits largely to a dedicated Board 8 supporter. The result immediately placed Pyramid Head among the weakest entrants the contest had seen.",
+    "headline": "Bowser crushes Pyramid Head to open the villains contest",
+    "tags": [
+      "contest-opener",
+      "fodder"
+    ]
+  },
+  {
+    "poll": 1990,
+    "contest": "SpC2K5",
+    "round": null,
+    "division": "Mushroom Division",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Sigma beat Andross but performed far worse than the pre-contest hype around Mega Man X suggested. The writeup calls the win pyrrhic and treats it as an early warning that Sigma had little chance against Bowser.",
+    "headline": "Sigma beats Andross but immediately loses his contender hype",
+    "tags": [
+      "underperformance",
+      "low-turnout"
+    ]
+  },
+  {
+    "poll": 1991,
+    "contest": "SpC2K5",
+    "round": null,
+    "division": "Mushroom Division",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Revolver Ocelot beat Nemesis but looked much weaker than Board 8 expected, throwing his projected path through the division into doubt. The writeup spends much of the match reopening arguments about Nemesis, Wesker, and Dr. Wily rather than celebrating Ocelot's win.",
+    "headline": "Ocelot beats Nemesis but sends his own stock tumbling",
+    "tags": [
+      "underperformance",
+      "strength-debate"
+    ]
+  },
+  {
+    "poll": 1992,
+    "contest": "SpC2K5",
+    "round": null,
+    "division": "Mushroom Division",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Dr. Wily handled Ultros cleanly and looked stronger than Ocelot had the previous day. The writeup treats the match mostly as a preview that shifted confidence toward Wily in their looming second-round meeting.",
+    "headline": "Wily handles Ultros and gains momentum before Ocelot",
+    "tags": [
+      "strength-debate",
+      "round-two-hype"
+    ]
+  },
+  {
+    "poll": 1993,
+    "contest": "SpC2K5",
+    "round": null,
+    "division": "Jenova Division",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Sephiroth annihilated Ramirez in a deliberately lopsided matchup born from a Board 8 request. The writeup treats the result as confirmation that the overwhelming pre-contest favorite showed no sign of vulnerability.",
+    "headline": "Sephiroth destroys Ramirez and looks untouchable",
+    "tags": [
+      "title-favorite",
+      "board-request"
+    ]
+  },
+  {
+    "poll": 1994,
+    "contest": "SpC2K5",
+    "round": null,
+    "division": "Jenova Division",
+    "voting_anomalies": [
+      "pic_factor"
+    ],
+    "anomaly_note": "The writeup says Ghaleon's exceptionally poor match picture effectively erased whatever upset chance he had, while Vergil received the much more flattering image.",
+    "off_topic": false,
+    "narrative": "Vergil comfortably beat Ghaleon after a late wave of debate had given the cult RPG villain some support. The writeup argues that Ghaleon's terrible picture only made an already difficult matchup worse.",
+    "headline": "Vergil beats Ghaleon after a disastrous picture hurts the underdog",
+    "tags": [
+      "cult-character",
+      "debut"
+    ]
+  },
+  {
+    "poll": 1995,
+    "contest": "SpC2K5",
+    "round": null,
+    "division": "Jenova Division",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Lavos beat Mother Brain as expected, but the match was considerably more competitive than many anticipated. The writeup uses Mother Brain's resistance mainly to raise expectations for Ridley in the later Ridley-Diablo matchup.",
+    "headline": "Lavos beats Mother Brain as the unexpected closeness raises questions",
+    "tags": [
+      "strength-debate",
+      "preview-match"
+    ]
+  },
+  {
+    "poll": 1996,
+    "contest": "SpC2K5",
+    "round": null,
+    "division": "Jenova Division",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Liquid Snake crushed Officer Tenpenny and initially justified the lofty reputation he had gained from his close 2004 loss to Frog. The writeup notes that nothing in this opener hinted at the weakness Liquid would show later.",
+    "headline": "Liquid Snake crushes Tenpenny and validates his early hype",
+    "tags": [
+      "breakout-performance"
+    ]
+  },
+  {
+    "poll": 1997,
+    "contest": "SpC2K5",
+    "round": null,
+    "division": "Ruin Division",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Kefka beat Mithos comfortably but steadily lost ground as the day progressed, failing to look convincing for a top seed. The writeup says the result immediately encouraged arguments that Wesker could eliminate him in the next round.",
+    "headline": "Kefka beats Mithos but opens the door to upset talk",
+    "tags": [
+      "underperformance",
+      "upset-hype"
+    ]
+  },
+  {
+    "poll": 1998,
+    "contest": "SpC2K5",
+    "round": null,
+    "division": "Ruin Division",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Wesker defeated Luca Blight but performed so poorly that the writeup immediately abandoned the idea of him threatening Kefka. A hyped potential contender became one of the contest's early disappointments in a single match.",
+    "headline": "Wesker beats Luca but destroys his own contender hype",
+    "tags": [
+      "underperformance",
+      "cult-character"
+    ]
+  },
+  {
+    "poll": 1999,
+    "contest": "SpC2K5",
+    "round": null,
+    "division": "Ruin Division",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "M. Bison demolished Albedo and sparked a night of Psycho Crusher jokes and Board 8 fads. The writeup also notes that Bison steadily lost ground later, a warning sign that would matter in his next matchup.",
+    "headline": "Bison crushes Albedo and launches a night of Board 8 fads",
+    "tags": [
+      "board-fad",
+      "breakout-performance"
+    ]
+  },
+  {
+    "poll": 2000,
+    "contest": "SpC2K5",
+    "round": null,
+    "division": "Ruin Division",
+    "voting_anomalies": [
+      "rally"
+    ],
+    "anomaly_note": "The writeup says diabloii.net linked directly to the poll during the match, adding outside support for Diablo. It also stresses that Diablo had already taken firm control before the rally appeared.",
+    "off_topic": false,
+    "narrative": "Diablo turned a heavily debated matchup with Ridley into a clear win and emerged as a serious divisional threat. An outside Diablo-site rally arrived later, but the writeup argues that the match had already been decided on its own merits.",
+    "headline": "Diablo beats Ridley before an outside rally pads the win",
+    "tags": [
+      "upset",
+      "division-contender"
+    ]
+  },
+  {
+    "poll": 2001,
+    "contest": "SpC2K5",
+    "round": null,
+    "division": "Triforce Division",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Ganondorf obliterated Giygas in a matchup the writeup considered barely worth holding. The result simply reinforced Ganondorf's status as a pre-contest lock for the final while placing Giygas among the weakest entrants.",
+    "headline": "Ganondorf crushes Giygas in a foregone conclusion",
+    "tags": [
+      "title-favorite",
+      "fodder"
+    ]
+  },
+  {
+    "poll": 2002,
+    "contest": "SpC2K5",
+    "round": null,
+    "division": "Triforce Division",
+    "voting_anomalies": [
+      "pic_factor"
+    ],
+    "anomaly_note": "The writeup says CATS finally received the recognizable picture fans associated with him rather than his old image, and argues that this likely made a major difference in his unusually strong showing.",
+    "off_topic": false,
+    "narrative": "Ansem eventually escaped CATS, but CATS led for hours and came far closer to a real win than Board 8 believed possible. The writeup remembers the match almost entirely as CATS proving that joke support could become meaningful against the right opponent.",
+    "headline": "CATS nearly shocks Ansem and proves he can threaten someone",
+    "tags": [
+      "near-upset",
+      "joke-character",
+      "board-favorite"
+    ]
+  },
+  {
+    "poll": 2003,
+    "contest": "SpC2K5",
+    "round": null,
+    "division": "Triforce Division",
+    "voting_anomalies": [
+      "rally",
+      "pic_factor"
+    ],
+    "anomaly_note": "The writeup says Sin was badly hurt by one of the contest's worst match pictures, which reduced him to an unrecognizable dorsal fin. It also says a vocal Sin supporter tried to rally votes from outside websites during the match.",
+    "off_topic": false,
+    "narrative": "Robotnik held off Sin in a close matchup dominated by Board 8 arguments around one loud Sin supporter. The writeup says Sin mounted a respectable recovery despite a disastrous picture, while an attempted outside rally failed to overturn the result.",
+    "headline": "Robotnik survives Sin amid a disastrous picture and rally attempt",
+    "tags": [
+      "close-match",
+      "board-drama"
+    ]
+  },
+  {
+    "poll": 2004,
+    "contest": "SpC2K5",
+    "round": null,
+    "division": "Triforce Division",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Master Hand stunned Kuja in the round's defining upset after almost everyone dismissed the glove as an automatic loss. The writeup remembers the result as both absurd and unforgettable, turning a supposedly obvious match into the contest's biggest board explosion.",
+    "headline": "Master Hand humiliates Kuja in the contest's defining upset",
+    "tags": [
+      "historic-upset",
+      "bracket-buster",
+      "board-explosion"
+    ]
+  },
+  {
+    "poll": 2005,
+    "contest": "SpC2K5",
+    "round": "Mushroom Division Semi Final",
+    "division": null,
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Bowser crushed Sigma and deepened the sense that the villains contest was producing strength patterns unlike prior character contests. The writeup treats Sigma as one of the event's biggest disappointments and Bowser as increasingly formidable.",
+    "headline": "Bowser destroys Sigma and strengthens the new-voting-trend debate",
+    "tags": [
+      "underperformance",
+      "division-favorite"
+    ]
+  },
+  {
+    "poll": 2006,
+    "contest": "SpC2K5",
+    "round": "Mushroom Division Semi Final",
+    "division": null,
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Revolver Ocelot beat Dr. Wily more comfortably than the pre-match debate suggested, turning another hyped matchup into a dud. The writeup focuses less on Ocelot's strength than on Wily joining the growing list of disappointing Mega Man entrants.",
+    "headline": "Ocelot handles Wily as another Mega Man villain disappoints",
+    "tags": [
+      "underperformance",
+      "upset"
+    ]
+  },
+  {
+    "poll": 2007,
+    "contest": "SpC2K5",
+    "round": "Jenova Division Semi Final",
+    "division": null,
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Sephiroth buried Vergil in a match whose result the writeup considered completely predetermined. Vergil had fulfilled his bracket role by beating Ghaleon, and this round offered no sign that Sephiroth would later encounter trouble.",
+    "headline": "Sephiroth buries Vergil in a completely predetermined matchup",
+    "tags": [
+      "title-favorite"
+    ]
+  },
+  {
+    "poll": 2008,
+    "contest": "SpC2K5",
+    "round": "Jenova Division Semi Final",
+    "division": null,
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Liquid Snake defeated Lavos, but Lavos pushed him hard enough to undermine the lofty strength implied by the previous year's extrapolated standings. The writeup uses the match as a case study in how transitive statistical adjustments can produce misleading rankings.",
+    "headline": "Liquid survives Lavos as his inflated reputation takes a hit",
+    "tags": [
+      "x-stats-debate",
+      "underperformance"
+    ]
+  },
+  {
+    "poll": 2009,
+    "contest": "SpC2K5",
+    "round": "Ruin Division Semi Final",
+    "division": null,
+    "voting_anomalies": [
+      "pic_factor"
+    ],
+    "anomaly_note": "The writeup says Kefka received an exceptionally strong picture and suggests it was partly responsible for his unusually dominant performance against Wesker.",
+    "off_topic": false,
+    "narrative": "Kefka demolished Wesker and erased the upset hype that had surrounded the matchup before the contest. The writeup calls it one of Kefka's best performances and says his unusually favorable picture may have contributed.",
+    "headline": "Kefka destroys Wesker with help from an unusually strong picture",
+    "tags": [
+      "breakout-performance",
+      "upset-hype"
+    ]
+  },
+  {
+    "poll": 2010,
+    "contest": "SpC2K5",
+    "round": "Ruin Division Semi Final",
+    "division": null,
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Bison and Diablo traded momentum through one of the contest's few genuinely competitive matches before Diablo finally broke away. The writeup emphasizes Bison's determined comeback attempt and Diablo's even stronger response once the afternoon vote arrived.",
+    "headline": "Diablo withstands Bison's comeback and pulls away late",
+    "tags": [
+      "close-match",
+      "comeback"
+    ]
+  },
+  {
+    "poll": 2011,
+    "contest": "SpC2K5",
+    "round": "Triforce Division Semi Final",
+    "division": null,
+    "voting_anomalies": [
+      "pic_factor"
+    ],
+    "anomaly_note": "The writeup says Ganondorf's pig-like Ganon picture was widely blamed for an underperformance against Ansem, hurting the favorite despite the easy win.",
+    "off_topic": false,
+    "narrative": "Ganondorf crushed Ansem as expected, though the writeup thought the favorite should have looked even stronger after Ansem's struggle with CATS. Much of the discussion blames Ganondorf's pig-form picture for the comparatively disappointing showing.",
+    "headline": "Ganondorf crushes Ansem despite a picture blamed for underperformance",
+    "tags": [
+      "underperformance",
+      "title-favorite"
+    ]
+  }
+]

@@ -9,6 +9,9 @@ RedirectMatch 404 ^/templates/(.*)$
 RedirectMatch 404 ^/build-notes/(.*)$
 RedirectMatch 404 ^/content/(.*)$
 
+# serve the archived Board 8 wiki Markdown inline as text, not as a download
+AddType "text/plain; charset=utf-8" .md
+
 <FilesMatch "^\.(gfpw|dbconfig\.php)$">
   Require all denied
 </FilesMatch>

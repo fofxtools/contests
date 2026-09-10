@@ -49,27 +49,30 @@ form.amr-views button { margin-left: .3em; }
 table.amr td a { text-decoration: none; }
 table.amr td a:hover { text-decoration: underline; }
 .amr-wrap { overflow-x: auto; margin: .6em 0 1em; }
-table.amr { border-collapse: collapse; font-size: .92em; table-layout: fixed; width: 100%; min-width: 68em; }
+table.amr { border-collapse: collapse; font-size: .92em; table-layout: fixed; width: 100%; min-width: 82em; }
 table.amr th, table.amr td { border: 1px solid #bbb; padding: 3px 5px; vertical-align: top; overflow-wrap: break-word; }
 table.amr thead th { background: #eee; }
 table.amr th a { text-decoration: none; }
 table.amr td.amr-n { text-align: right; white-space: nowrap; }
-/* fixed column widths; the Result column (6th) absorbs the remaining space */
+/* fixed column widths; the Result column (7th) absorbs the remaining space */
 table.amr th:nth-child(1) { width: 2.2em; }   /* # */
-table.amr th:nth-child(2) { width: 3.6em; }   /* Poll */
+table.amr th:nth-child(2) { width: 5.6em; }   /* Poll (+ writeup / (md) sub-links) */
 table.amr th:nth-child(3) { width: 10em; }    /* Contest */
 table.amr th:nth-child(4) { width: 5.3em; }   /* Date */
-table.amr th:nth-child(5) { width: 20em; }    /* Result */
-table.amr th:nth-child(6) { width: 4.3em; }   /* Total */
-table.amr th:nth-child(7) { width: 3.8em; }   /* Margin (%) */
-table.amr th:nth-child(8) { width: 4.6em; }   /* Margin (votes) */
-table.amr th:nth-child(9) { width: 6em; }     /* Bracket Pick % */
-table.amr th:nth-child(10) { width: 10em; }   /* Oracle Consensus (per-entrant) */
-table.amr th:nth-child(11) { width: 3.8em; }  /* Oracle MAE (consensus error) */
+table.amr th:nth-child(5) { width: 7.5em; }   /* Round */
+table.amr th:nth-child(6) { width: 6em; }     /* Division */
+table.amr th:nth-child(7) { width: 20em; }    /* Result */
+table.amr th:nth-child(8) { width: 4.3em; }   /* Total */
+table.amr th:nth-child(9) { width: 3.8em; }   /* Margin (%) */
+table.amr th:nth-child(10) { width: 4.6em; }  /* Margin (votes) */
+table.amr th:nth-child(11) { width: 6em; }    /* Bracket Pick % */
+table.amr th:nth-child(12) { width: 10em; }   /* Oracle Consensus (per-entrant) */
+table.amr th:nth-child(13) { width: 3.8em; }  /* Oracle MAE (consensus error) */
 table.amr td.amr-result > div,
 table.amr td.amr-oracle > div,
 table.amr td.amr-bracket > div { padding: 1px 0; }
 table.amr .amr-win { font-weight: bold; }
+table.amr td.amr-rd { white-space: normal; }
 table.amr td.amr-oracle,
 table.amr td.amr-bracket { white-space: normal; }
 table.amr td.amr-omiss { color: #b00; }
@@ -81,9 +84,9 @@ table.amr tr.amr-bonus { background: #fff7e6; }
 .amr-notes h3 { margin: 1.1em 0 .3em; }
 .amr-notes h4 { margin: .7em 0 .15em; font-size: 1em; }
 
-/* /node/102 — All Match Pictures (reuses table.amr, but 6 fluid columns) */
-table.amp { table-layout: auto; min-width: 34em; }
-table.amp th:nth-child(5), table.amp th:nth-child(6) { width: auto; }
+/* /node/102 — All Match Pictures (reuses table.amr, but 8 fluid columns) */
+table.amp { table-layout: auto; min-width: 44em; }
+table.amp th:nth-child(7), table.amp th:nth-child(8) { width: auto; }
 table.amp td.amr-result { min-width: 12em; }
 td.amp-pics { line-height: 0; }
 td.amp-pics.amp-none { line-height: normal; text-align: center; color: #999; }
@@ -92,6 +95,48 @@ a.amp-th img { height: 64px; width: auto; max-width: 220px; border: 1px solid #c
 a.amp-th.amp-faded img { opacity: .4; }
 span.amp-grp { display: inline-block; padding: 1px; border: 1px solid transparent; border-radius: 2px; }
 span.amp-grp.amp-hl { border-color: #1a73e8; background: #eaf1fb; }
+
+/* /node/104 — AI Contest Summaries */
+.b8w-jump { margin: .6em 0 1.2em; color: #555; font-size: .95em; }
+.b8w-jump a { text-decoration: none; }
+.b8w-contest { margin: 0 0 1.6em; max-width: 44em; }
+.b8w-contest h3 { margin: 0 0 .15em; }
+.b8w-meta { margin: .1em 0; color: #666; font-size: .9em; }
+.b8w-meta a { text-decoration: none; }
+.b8w-sub { color: #777; font-size: .9em; }
+.b8w-tagline { margin: .2em 0 .5em; color: #444; }
+.b8w-notable { margin: .5em 0 0; font-size: .92em; color: #555; }
+.b8w-notable ul { margin: .15em 0 0; padding-left: 1.5em; }
+.b8w-notable li { margin: .1em 0; }
+.b8w-notable a { text-decoration: none; }
+table.b8w-dl { border-collapse: collapse; font-size: .92em; width: 100%; max-width: 40em; margin: .6em 0 1em; }
+table.b8w-dl th, table.b8w-dl td { border: 1px solid #bbb; padding: 3px 8px; }
+table.b8w-dl thead th { background: #eee; text-align: left; }
+table.b8w-dl td.b8w-num, table.b8w-dl th.b8w-num { text-align: right; white-space: nowrap; }
+table.b8w-dl td a { text-decoration: none; }
+table.b8w-dl tr.b8w-all { background: #f4f4f4; font-weight: bold; }
+
+/* /node/105 — AI Match Summaries */
+table.aims { border-collapse: collapse; font-size: .92em; width: 100%; min-width: 64em; }
+table.aims th, table.aims td { border: 1px solid #bbb; padding: 3px 6px; vertical-align: top; overflow-wrap: break-word; }
+table.aims thead th { background: #eee; }
+table.aims th a { text-decoration: none; }
+table.aims td a { text-decoration: none; }
+table.aims td a:hover { text-decoration: underline; }
+table.aims td.amr-n { text-align: right; white-space: nowrap; }
+table.aims td.aims-c { white-space: nowrap; }
+table.aims td.aims-rd { white-space: normal; }
+table.aims td.aims-res { min-width: 12em; white-space: normal; }
+table.aims td.aims-res > div { padding: 1px 0; }
+table.aims td.aims-hl { min-width: 16em; }
+table.aims .amr-win { font-weight: bold; }
+table.aims th.aims-anom, table.aims td.aims-anom { text-align: center; width: 2.6em; cursor: help; }
+table.aims td.aims-anom a { color: #197; font-weight: bold; }
+table.aims tr.amr-bonus { background: #fff7e6; }
+table.aims tr.aims-narr td { background: #f6f9fc; }
+table.aims tr.aims-narr p { margin: .25em 0; max-width: 60em; }
+.aims-note { color: #555; font-size: .95em; }
+.aims-ot { color: #b30; font-weight: bold; cursor: help; }
 
 /* /oracle/predictions — All Predictions Ever */
 table.op td a { text-decoration: none; }

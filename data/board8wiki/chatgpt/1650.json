@@ -1,0 +1,772 @@
+[
+  {
+    "poll": 1650,
+    "contest": "SpC2K4",
+    "round": "Division 8 Semi Final",
+    "division": null,
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Zelda dismissed Tetris and looked like the clear favorite to take its division. The writeup treats the result as another step in Zelda's dominant opening run, with Mario 3 offering the only real counterargument.",
+    "headline": "Zelda routs Tetris and strengthens its divisional favorite status",
+    "tags": [
+      "zelda-dominance",
+      "division-favorite"
+    ]
+  },
+  {
+    "poll": 1651,
+    "contest": "SpC2K4",
+    "round": "Division 16 Semi Final",
+    "division": null,
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Chrono Trigger turned a heavily debated matchup into a comfortable win and restored confidence after earlier daytime weakness. The writeup says Super Mario World had looked like a plausible upset pick, but Chrono Trigger established itself as a true divisional favorite.",
+    "headline": "Chrono Trigger dismisses Mario World and restores contender status",
+    "tags": [
+      "division-favorite",
+      "board-hype"
+    ]
+  },
+  {
+    "poll": 1652,
+    "contest": "SpC2K4",
+    "round": "Division 16 Semi Final",
+    "division": null,
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Final Fantasy VI's sustained early lead punctured Zelda's aura of invincibility before A Link to the Past recovered and pulled away. The writeup also remembers the notoriously poor official artwork as an impetus for later user-created match pictures.",
+    "headline": "Link to the Past survives Final Fantasy VI's early challenge",
+    "tags": [
+      "picture-controversy",
+      "zelda-vulnerability",
+      "close-match"
+    ]
+  },
+  {
+    "poll": 1653,
+    "contest": "SpC2K4",
+    "round": "Division 32-64 Semi Final",
+    "division": null,
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Final Fantasy VII crushed Metal Gear Solid and, in the writeup's view, became the unmistakable favorite for the entire contest. The performance was framed as a direct challenge to Ocarina of Time to show comparable strength the next day.",
+    "headline": "Final Fantasy VII crushes Metal Gear Solid and seizes favorite status",
+    "tags": [
+      "title-favorite",
+      "breakout-performance"
+    ]
+  },
+  {
+    "poll": 1654,
+    "contest": "SpC2K4",
+    "round": "Division 32-64 Semi Final",
+    "division": null,
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Ocarina of Time handled GoldenEye easily, but the writeup judged the showing insufficient to answer Final Fantasy VII's previous performance. The match is remembered mainly as the final setup for the division's anticipated showdown.",
+    "headline": "Ocarina wins easily but fails to answer Final Fantasy VII",
+    "tags": [
+      "rivalry-hype",
+      "underperformance"
+    ]
+  },
+  {
+    "poll": 1655,
+    "contest": "SpC2K4",
+    "round": "Division 128 Semi Final",
+    "division": null,
+    "voting_anomalies": [
+      "rally"
+    ],
+    "anomaly_note": "The writeup attributes Starcraft's decisive late comeback to organized Battle.net promotion and heavy Saturday-night traffic. It explicitly rejects cheating as the explanation for this particular match.",
+    "off_topic": false,
+    "narrative": "Starcraft shocked The Wind Waker with another late comeback, extending its improbable run and ending Zelda's unbeaten start. The writeup credits Battle.net rallying for making the difference and treats the result as Starcraft's arrival as a legitimate contest force.",
+    "headline": "Starcraft rallies past Wind Waker and extends its miracle run",
+    "tags": [
+      "cinderella-run",
+      "historic-upset",
+      "comeback"
+    ]
+  },
+  {
+    "poll": 1656,
+    "contest": "SpC2K4",
+    "round": "Division 128 Semi Final",
+    "division": null,
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Melee overturned the old assumption that Final Fantasy X would beat it comfortably. After an early lead, a comeback, and long stretches of near-even voting, Melee held off the late Square vote and advanced to face Starcraft.",
+    "headline": "Melee edges Final Fantasy X and overturns old expectations",
+    "tags": [
+      "upset",
+      "close-match",
+      "bracket-buster"
+    ]
+  },
+  {
+    "poll": 1657,
+    "contest": "SpC2K4",
+    "round": "Division 8 Final",
+    "division": null,
+    "voting_anomalies": [
+      "sff"
+    ],
+    "anomaly_note": "The writeup explicitly says SFF finally worked against a Zelda title, with Super Mario Bros. 3 benefiting in the all-Nintendo matchup against the original Zelda.",
+    "off_topic": false,
+    "narrative": "Super Mario Bros. 3 won a highly anticipated divisional final with surprising ease and further ended Zelda's early aura of invincibility. The writeup treats the matchup as a clear case where shared Nintendo support favored Mario.",
+    "headline": "Mario 3 beats Zelda and ends its early aura",
+    "tags": [
+      "division-final",
+      "zelda-decline"
+    ]
+  },
+  {
+    "poll": 1658,
+    "contest": "SpC2K4",
+    "round": "Division 16 Final",
+    "division": null,
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Chrono Trigger and A Link to the Past stayed virtually dead even for hours, repeatedly answering each other's small pushes. The writeup calls it one of the contest's greatest wire-to-wire matches before Chrono Trigger finally separated itself late.",
+    "headline": "Chrono Trigger survives an all-time duel with Link to the Past",
+    "tags": [
+      "classic-match",
+      "close-match",
+      "lead-changes"
+    ]
+  },
+  {
+    "poll": 1659,
+    "contest": "SpC2K4",
+    "round": "Division 32-64 Final",
+    "division": null,
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Final Fantasy VII beat Ocarina of Time without the drama expected from the contest's supposed true final. The writeup treats the result as confirmation of Final Fantasy VII's superiority in this field and as another sign of Zelda's sudden collapse.",
+    "headline": "Final Fantasy VII handles Ocarina in the anticipated showdown",
+    "tags": [
+      "division-final",
+      "title-favorite",
+      "zelda-decline"
+    ]
+  },
+  {
+    "poll": 1660,
+    "contest": "SpC2K4",
+    "round": "Division 128 Final",
+    "division": null,
+    "voting_anomalies": [
+      "rally",
+      "cheating_alleged"
+    ],
+    "anomaly_note": "The writeup says Starcraft was promoted through Battle.net and multiple Starcraft sites, while a separate sudden proxy-vote surge was identified as cheating. The controversy cast doubt over the legitimacy of parts of Starcraft's run even though Melee still won.",
+    "off_topic": false,
+    "narrative": "Melee ended Starcraft's Cinderella run in a chaotic divisional final dominated by outside promotion, flame wars, and a detected cheating surge. The writeup remembers the match as both a strong Melee win and a damaging controversy around Starcraft's run.",
+    "headline": "Melee ends Starcraft's run amid rallying and cheating controversy",
+    "tags": [
+      "cinderella-run",
+      "controversy",
+      "close-match"
+    ]
+  },
+  {
+    "poll": 1661,
+    "contest": "SpC2K4",
+    "round": "Tournament Semi Final",
+    "division": null,
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "The hoped-for third Mario-versus-Crono-style classic never materialized. Chrono Trigger took control after the opening exchange and stayed ahead, producing an anticlimactic semifinal despite the rivalry surrounding it.",
+    "headline": "Chrono Trigger wins an anticlimactic Mario 3 semifinal",
+    "tags": [
+      "rivalry",
+      "underwhelming-finish"
+    ]
+  },
+  {
+    "poll": 1662,
+    "contest": "SpC2K4",
+    "round": "Tournament Semi Final",
+    "division": null,
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Final Fantasy VII dispatched Melee in a semifinal the writeup considered essentially predetermined. Melee's failure to make the match competitive reinforced the contemporary belief that it could not challenge an elite game.",
+    "headline": "Final Fantasy VII brushes aside Melee on its finals path",
+    "tags": [
+      "title-favorite",
+      "underperformance"
+    ]
+  },
+  {
+    "poll": 1663,
+    "contest": "SpC2K4",
+    "round": "Tournament Final",
+    "division": null,
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Chrono Trigger briefly resisted, but Final Fantasy VII ultimately controlled the championship match as expected. The writeup spends more time reflecting on the contest itself than on a final it considered straightforward.",
+    "headline": "Final Fantasy VII defeats Chrono Trigger for the championship",
+    "tags": [
+      "contest-final",
+      "champion"
+    ]
+  },
+  {
+    "poll": 1718,
+    "contest": "SC2K4",
+    "round": null,
+    "division": "Hyrule Division",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Link obliterated joke entrant CATS after an early poll glitch obscured the opening votes. The writeup's main interest is that CATS gave Link and Cloud a common opponent, immediately fueling comparisons between the two championship favorites.",
+    "headline": "Link crushes CATS and opens the Link-Cloud comparison",
+    "tags": [
+      "contest-opener",
+      "title-favorite",
+      "joke-entrant"
+    ]
+  },
+  {
+    "poll": 1719,
+    "contest": "SC2K4",
+    "round": null,
+    "division": "Hyrule Division",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Ganondorf beat Alucard in a respectable matchup between two characters the writeup considered badly underseeded. Much of the discussion centers on the bracket apparently being arranged to produce Link versus Ganondorf in the next round.",
+    "headline": "Ganondorf beats Alucard in a matchup of underseeded characters",
+    "tags": [
+      "underseeded",
+      "bracket-setup"
+    ]
+  },
+  {
+    "poll": 1720,
+    "contest": "SC2K4",
+    "round": null,
+    "division": "Hyrule Division",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Yoshi routed Ryo Hazuki in a result the writeup sees mainly as further evidence of Ryo's decline into contest fodder. It argues that a character losing this badly to a mid-level Nintendo entrant no longer merits repeated appearances.",
+    "headline": "Yoshi routs Ryo as his contest decline continues",
+    "tags": [
+      "declining-character"
+    ]
+  },
+  {
+    "poll": 1721,
+    "contest": "SC2K4",
+    "round": null,
+    "division": "Hyrule Division",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Luigi beat Pac-Man in a routine match but looked weaker than the writeup expected, raising concern before his heavily debated meeting with Yoshi. Pac-Man, meanwhile, is portrayed as a fading former top seed still capable of respectable support.",
+    "headline": "Luigi beats Pac-Man but raises concerns before Yoshi",
+    "tags": [
+      "underperformance",
+      "declining-icon"
+    ]
+  },
+  {
+    "poll": 1722,
+    "contest": "SC2K4",
+    "round": null,
+    "division": "Hyrule Division",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Magus dominated Luca Blight in a low-interest match before his difficult second-round draw. The writeup uses Luca's weak showing and the quiet poll to argue that vocal cult support does not translate into broad contest strength.",
+    "headline": "Magus crushes Luca Blight as cult support falls short",
+    "tags": [
+      "low-turnout",
+      "cult-character"
+    ]
+  },
+  {
+    "poll": 1723,
+    "contest": "SC2K4",
+    "round": null,
+    "division": "Hyrule Division",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Crono demolished Conker and strengthened the argument that his previous result against Kefka did not require an SFF explanation. The writeup also criticizes Crono's seeding as an obvious attempt to force another Mario-Crono matchup.",
+    "headline": "Crono crushes Conker and advances toward another Mario rematch",
+    "tags": [
+      "underseeded",
+      "bracket-setup"
+    ]
+  },
+  {
+    "poll": 1724,
+    "contest": "SC2K4",
+    "round": null,
+    "division": "Hyrule Division",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Bowser overwhelmed Guybrush in a matchup the writeup considers a product of manipulated seeding rather than competitive bracket design. Guybrush is portrayed as overseeded fodder, while Bowser's reward is an intentionally unfavorable Mario matchup.",
+    "headline": "Bowser crushes Guybrush in another obvious bracket setup",
+    "tags": [
+      "overseeded",
+      "bracket-setup"
+    ]
+  },
+  {
+    "poll": 1725,
+    "contest": "SC2K4",
+    "round": null,
+    "division": "Hyrule Division",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Mario finally delivered the kind of overwhelming first-round performance the writeup had long expected from him against a non-Nintendo opponent. The result is used to reassess earlier supposedly weak Mario showings as evidence that those opponents were stronger than believed.",
+    "headline": "Mario finally delivers a convincing non-Nintendo opening blowout",
+    "tags": [
+      "breakout-performance"
+    ]
+  },
+  {
+    "poll": 1726,
+    "contest": "SC2K4",
+    "round": null,
+    "division": "20XX Division",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Mega Man comfortably defeated Earthworm Jim, though the writeup spends much of its time celebrating Jim as a welcome contest newcomer and fan favorite. It ultimately judges Mega Man's showing impressive rather than weak.",
+    "headline": "Mega Man wins while Earthworm Jim earns affectionate praise",
+    "tags": [
+      "debut",
+      "fan-favorite"
+    ]
+  },
+  {
+    "poll": 1727,
+    "contest": "SC2K4",
+    "round": null,
+    "division": "20XX Division",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Tidus won the contest's first heavily debated matchup, taking control early enough that Shadow's later resistance never became a real comeback. The writeup says the final closeness overstated the drama but still gave both characters credit for holding up outside their expected voting periods.",
+    "headline": "Tidus controls a heavily hyped matchup with Shadow",
+    "tags": [
+      "close-match",
+      "board-hype"
+    ]
+  },
+  {
+    "poll": 1728,
+    "contest": "SC2K4",
+    "round": null,
+    "division": "20XX Division",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Tommy Vercetti beat Max Payne, but the writeup considers Max's respectable showing the more important result. Max avoided the feared same-company collapse and strengthened his case for remaining in the field, while Vercetti looked weaker than his old hype suggested.",
+    "headline": "Vercetti wins while Max Payne restores some contest credibility",
+    "tags": [
+      "underperformance",
+      "respectable-loss"
+    ]
+  },
+  {
+    "poll": 1729,
+    "contest": "SC2K4",
+    "round": null,
+    "division": "20XX Division",
+    "voting_anomalies": [
+      "sff"
+    ],
+    "anomaly_note": "The writeup explicitly describes Zero versus Proto Man as a first-round SFF blowout within the Mega Man family, arguing that Proto Man's poor result understates his standalone strength.",
+    "off_topic": false,
+    "narrative": "Zero dominated Proto Man in a same-series matchup whose result the writeup warns should not be used to dismiss Proto Man as ordinary fodder. It treats the match as another example of the bracket manufacturing predictable company-based pairings.",
+    "headline": "Zero overwhelms Proto Man in a same-series SFF matchup",
+    "tags": [
+      "debut",
+      "company-bracket"
+    ]
+  },
+  {
+    "poll": 1730,
+    "contest": "SC2K4",
+    "round": null,
+    "division": "20XX Division",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Frog and Liquid Snake unexpectedly produced a wire-to-wire classic, repeatedly trading momentum and staying nearly dead even for hours. Frog finally created a small late cushion and barely survived Liquid's last push, giving both newcomers immediate contest credibility.",
+    "headline": "Frog barely survives Liquid Snake in an instant classic",
+    "tags": [
+      "close-match",
+      "historic-match",
+      "debut"
+    ]
+  },
+  {
+    "poll": 1731,
+    "contest": "SC2K4",
+    "round": null,
+    "division": "20XX Division",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Master Chief crushed Crash Bandicoot and looked far more formidable than the site's usual anti-Xbox reputation suggested. The writeup focuses equally on Master Chief's rising stock and Crash's dramatic fall from former high seed to expendable fodder.",
+    "headline": "Master Chief crushes Crash and raises his contest stock",
+    "tags": [
+      "breakout-performance",
+      "declining-icon"
+    ]
+  },
+  {
+    "poll": 1732,
+    "contest": "SC2K4",
+    "round": "Round One",
+    "division": "20XX",
+    "voting_anomalies": [
+      "pic_factor"
+    ],
+    "anomaly_note": "The writeup says Kefka's recurring lettuce picture may have helped him attract unusually strong early support, before Knuckles took control later in the match.",
+    "off_topic": false,
+    "narrative": "Kefka surprised the board by leading early and forcing Knuckles to recover despite expectations of an easy Knuckles win. The writeup ultimately treats Knuckles' showing as disappointing and debates whether Kefka's picture and broader Square support helped explain the resistance.",
+    "headline": "Knuckles recovers from Kefka's surprising early resistance",
+    "tags": [
+      "underperformance",
+      "bracket-buster"
+    ]
+  },
+  {
+    "poll": 1733,
+    "contest": "SC2K4",
+    "round": null,
+    "division": "20XX Division",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Solid Snake annihilated Tanner in a blowout the writeup treats as evidence of Tanner's exceptional weakness rather than Snake's true ceiling. The mismatch became a lasting Board 8 reference point for hopeless new entrants and entertainingly lopsided polls.",
+    "headline": "Snake destroys Tanner and creates a lasting fodder benchmark",
+    "tags": [
+      "record",
+      "joke-entrant",
+      "historic-match"
+    ]
+  },
+  {
+    "poll": 1734,
+    "contest": "SC2K4",
+    "round": null,
+    "division": "Midgar Division",
+    "voting_anomalies": [
+      "pic_factor"
+    ],
+    "anomaly_note": "The writeup says Duke Nukem's milk-carton match picture drew humorous support, helping him take an early lead and plausibly contributing to Cloud's slight underperformance.",
+    "off_topic": false,
+    "narrative": "Cloud still routed Duke Nukem, but Duke's memorable milk-carton picture gave the underdog an unusual opening burst and complicated early Link-Cloud comparisons. The writeup frames the match as the start of a contest-long contest between the two favorites' performances.",
+    "headline": "Cloud routs Duke despite a memorable milk-carton picture boost",
+    "tags": [
+      "title-favorite",
+      "rivalry-hype"
+    ]
+  },
+  {
+    "poll": 1735,
+    "contest": "SC2K4",
+    "round": null,
+    "division": "Midgar Division",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Vyse beat Laharl without much difficulty in what the writeup dismisses as a matchup between two cult characters with limited broader support. Vyse's previous contest exposure and greater familiarity are presented as enough to make the result predictable.",
+    "headline": "Vyse handles Laharl in a low-stakes cult-character matchup",
+    "tags": [
+      "cult-match"
+    ]
+  },
+  {
+    "poll": 1736,
+    "contest": "SC2K4",
+    "round": null,
+    "division": "Midgar Division",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Kirby comfortably beat Kain in another routine early-round result. The writeup treats the match mainly as evidence that Legacy of Kain characters occupy contest slots without showing enough strength to justify them.",
+    "headline": "Kirby comfortably dispatches Kain in another routine opener",
+    "tags": []
+  },
+  {
+    "poll": 1737,
+    "contest": "SC2K4",
+    "round": null,
+    "division": "Midgar Division",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Squall beat Bomberman but performed noticeably below the writeup's expectations from the previous year's standings. The result raised doubts about whether Squall had lost strength and reinforced frustration with a bracket designed to funnel him toward Cloud.",
+    "headline": "Squall beats Bomberman but raises new strength concerns",
+    "tags": [
+      "underperformance",
+      "company-bracket"
+    ]
+  },
+  {
+    "poll": 1738,
+    "contest": "SC2K4",
+    "round": null,
+    "division": "Midgar Division",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Ness turned a heavily debated matchup into a convincing victory over Jak. The writeup argues that the board overvalued mainstream sales and undervalued how well a cult RPG character known to GameFAQs users could perform against another weak 3D platformer.",
+    "headline": "Ness exposes the hype around Jak with a convincing win",
+    "tags": [
+      "overhyped",
+      "breakout-performance"
+    ]
+  },
+  {
+    "poll": 1739,
+    "contest": "SC2K4",
+    "round": null,
+    "division": "Midgar Division",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Auron beat Scorpion much more decisively than prior standings suggested and suddenly looked substantially stronger than expected. The writeup interprets the result mainly through possible distortion in Auron's previous Cloud matchup and Scorpion's continuing decline.",
+    "headline": "Auron crushes expectations against Scorpion and boosts his stock",
+    "tags": [
+      "breakout-performance"
+    ]
+  },
+  {
+    "poll": 1740,
+    "contest": "SC2K4",
+    "round": null,
+    "division": "Midgar Division",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Vivi turned a supposedly close match into a decisive win over Donkey Kong, immediately establishing himself as a serious newcomer. The writeup sees the result as both evidence of Vivi's appeal and another demonstration that Donkey Kong's icon status does not translate reliably into contest strength.",
+    "headline": "Vivi surprises Donkey Kong and makes an immediate impact",
+    "tags": [
+      "upset",
+      "debut",
+      "bracket-buster"
+    ]
+  },
+  {
+    "poll": 1741,
+    "contest": "SC2K4",
+    "round": null,
+    "division": "Midgar Division",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Sephiroth obliterated Sly Cooper in a match the writeup considers entirely predetermined. Its main complaint is that the company-based division reduced Sephiroth's early path to meaningless setup matches before the expected confrontation with Cloud.",
+    "headline": "Sephiroth obliterates Sly in a predetermined Midgar matchup",
+    "tags": [
+      "company-bracket"
+    ]
+  },
+  {
+    "poll": 1742,
+    "contest": "SC2K4",
+    "round": null,
+    "division": "Chaos Division",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Sonic comfortably crushed Terry Bogard in another predetermined first-round match. The writeup's greater interest is that the Chaos Division finally introduced a section of the bracket with genuine uncertainty about later rounds.",
+    "headline": "Sonic crushes Terry as the Chaos Division begins",
+    "tags": [
+      "division-race"
+    ]
+  },
+  {
+    "poll": 1743,
+    "contest": "SC2K4",
+    "round": null,
+    "division": "Chaos Division",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Ryu beat KOS-MOS as expected, but the writeup uses the result mainly to infer that Samus had grown much stronger than older standings indicated. That implication sharply reduced the plausibility of Sonic upsetting her later in the division.",
+    "headline": "Ryu beats KOS-MOS while Samus emerges as the bigger story",
+    "tags": [
+      "samus-hype"
+    ]
+  },
+  {
+    "poll": 1744,
+    "contest": "SC2K4",
+    "round": null,
+    "division": "Chaos Division",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Tails upset heavily favored Viewtiful Joe and finally earned his first contest win. The writeup says earlier results had begun to expose Tails as underestimated, but the reversal still destroyed many expectations and became a notable prediction upset.",
+    "headline": "Tails upsets Viewtiful Joe and finally earns a win",
+    "tags": [
+      "upset",
+      "bracket-buster",
+      "first-win"
+    ]
+  },
+  {
+    "poll": 1745,
+    "contest": "SC2K4",
+    "round": null,
+    "division": "Chaos Division",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Dante destroyed Ratchet in another straightforward opening match, though the writeup warns against reading too much into the margin. Ratchet is grouped with the contest's other badly performing 3D platformer characters rather than treated as evidence of elite Dante strength.",
+    "headline": "Dante destroys Ratchet in another routine first-round mismatch",
+    "tags": [
+      "3d-platformer-decline"
+    ]
+  },
+  {
+    "poll": 1746,
+    "contest": "SC2K4",
+    "round": null,
+    "division": "Chaos Division",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Sora beat newcomer HK-47 comfortably, but the writeup says the matchup offered little reliable information because HK-47 had no contest baseline. Attention immediately shifted to whether Sora's previous results had understated his real strength before the next round.",
+    "headline": "Sora handles HK-47 but leaves his true strength unresolved",
+    "tags": [
+      "uncertain-strength"
+    ]
+  },
+  {
+    "poll": 1747,
+    "contest": "SC2K4",
+    "round": null,
+    "division": "Chaos Division",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Ryu Hayabusa and Jill Valentine produced a celebrated marathon after a server glitch forced their fiercely contested poll to be restarted. The second poll featured another series of major swings before Ryu survived Jill's final comeback attempt by the narrowest of margins.",
+    "headline": "Ryu survives Jill after a glitch, restart, and marathon battle",
+    "tags": [
+      "historic-match",
+      "poll-restart",
+      "close-match"
+    ]
+  },
+  {
+    "poll": 1748,
+    "contest": "SC2K4",
+    "round": null,
+    "division": "Chaos Division",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Sam Fisher extended the Gordon Freeman Never Wins joke, but Freeman's unexpectedly competitive opening made Fisher look weak in his own right. The writeup treats the match more as another chapter in Freeman's losing legend than as a strong Fisher performance.",
+    "headline": "Sam Fisher extends GFNW but looks weak doing it",
+    "tags": [
+      "gfnw",
+      "underperformance"
+    ]
+  },
+  {
+    "poll": 1749,
+    "contest": "SC2K4",
+    "round": null,
+    "division": "Chaos Division",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Samus demolished former top seed Lara Croft far more decisively than the writeup expected, turning an obvious win into a major statement about Samus's rising strength. Lara's showing is framed as another step in a steep decline from her early contest status.",
+    "headline": "Samus crushes Lara and reveals a dramatic strength surge",
+    "tags": [
+      "breakout-performance",
+      "declining-icon"
+    ]
+  },
+  {
+    "poll": 1750,
+    "contest": "SC2K4",
+    "round": null,
+    "division": "Hyrule Division",
+    "voting_anomalies": [
+      "sff"
+    ],
+    "anomaly_note": "The writeup calls Link's destruction of fellow Zelda character Ganondorf the largest SFF beating yet seen, arguing that Ganondorf's normal strength was almost completely suppressed by Link.",
+    "off_topic": false,
+    "narrative": "Link annihilated Ganondorf so thoroughly that the writeup treats the result as both a historic SFF extreme and a championship statement. Ganondorf's standalone strength effectively vanished against the flagship character of his own series.",
+    "headline": "Link obliterates Ganondorf in a historic SFF mismatch",
+    "tags": [
+      "record",
+      "historic-match"
+    ]
+  },
+  {
+    "poll": 1751,
+    "contest": "SC2K4",
+    "round": null,
+    "division": "Hyrule Division",
+    "voting_anomalies": [
+      "sff"
+    ],
+    "anomaly_note": "The writeup explicitly describes Yoshi versus Luigi as an SFF affair between Nintendo characters, though it notes that older extrapolated standings still predicted the matchup unusually well.",
+    "off_topic": false,
+    "narrative": "Yoshi beat Luigi in a heavily debated Nintendo matchup that ultimately followed the available statistical clues more closely than the hype suggested. The writeup calls the result disappointingly predictable despite the same-fanbase conditions.",
+    "headline": "Yoshi beats Luigi in a predictable Nintendo SFF matchup",
+    "tags": [
+      "upset"
+    ]
+  },
+  {
+    "poll": 1752,
+    "contest": "SC2K4",
+    "round": null,
+    "division": "Hyrule Division",
+    "voting_anomalies": [
+      "sff"
+    ],
+    "anomaly_note": "The writeup explicitly says Magus was hit by SFF against fellow Chrono Trigger character Crono, making the lopsided result a poor measure of Magus's standalone strength.",
+    "off_topic": false,
+    "narrative": "Crono crushed Magus in a matchup the writeup considers another casualty of the company-based bracket. Magus briefly led with Board 8 support, but the eventual SFF blowout left no useful opportunity to test his real strength.",
+    "headline": "Crono crushes Magus in another severe same-series SFF match",
+    "tags": [
+      "underseeded",
+      "bracket-setup"
+    ]
+  },
+  {
+    "poll": 1753,
+    "contest": "SC2K4",
+    "round": null,
+    "division": "Hyrule Division",
+    "voting_anomalies": [
+      "sff"
+    ],
+    "anomaly_note": "The writeup says Bowser was SFF'd heavily by Mario in their same-franchise matchup, and treats the result mainly as a distorted comparison point for the upcoming Mario-Crono rematch.",
+    "off_topic": false,
+    "narrative": "Mario routed Bowser in another predetermined Hyrule Division matchup, with the writeup again criticizing the bracket for sacrificing strong villains to company-based pairings. The result's main use was as an imperfect SFF comparison before Mario met Crono.",
+    "headline": "Mario routs Bowser in another bracket-driven SFF mismatch",
+    "tags": [
+      "company-bracket",
+      "bracket-setup"
+    ]
+  }
+]

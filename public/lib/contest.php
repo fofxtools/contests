@@ -1061,22 +1061,44 @@ function amr_bracket_stats(): array
     return $map;
 }
 
+/** poll id => {round_label, round_ord, division, battle, source} from
+ *  data/board8wiki/round-division.json (built by scripts/extract-round-division.py).
+ *  Present for every poll; `division` is null for divisionless contests
+ *  (Best Year) and cross-division rounds. Decoded once per request. */
+function amr_rounddiv(): array
+{
+    static $map = null;
+    if ($map === null) {
+        $path = dirname(__DIR__, 2) . '/data/board8wiki/round-division.json';
+        $raw  = json_decode((string)@file_get_contents($path), true) ?: [];
+        $map  = [];
+        foreach ($raw as $poll => $s) {
+            $map[(int)$poll] = $s;
+        }
+    }
+
+    return $map;
+}
+
 function all_match_results(): void
 {
     $O  = amr_oracle_stats();
     $B  = amr_bracket_stats();
+    $RD = amr_rounddiv();
     $ok = fn (array $r, string $f) => $O[$r['poll']][$f] ?? null;    // null when no Oracle data
     $S  = [
-        'poll'    => fn ($a, $b) => $a['poll'] <=> $b['poll'],
-        'contest' => fn ($a, $b) => [$a['cyear'], $a['cname'], $a['poll']] <=> [$b['cyear'], $b['cname'], $b['poll']],
-        'date'    => fn ($a, $b) => [$a['date'], $a['poll']] <=> [$b['date'], $b['poll']],
-        'total'   => fn ($a, $b) => $a['total'] <=> $b['total'],
-        'margin'  => fn ($a, $b) => $a['margin'] <=> $b['margin'],
-        'marginv' => fn ($a, $b) => $a['marginv'] <=> $b['marginv'],
-        'winner'  => fn ($a, $b) => strcasecmp($a['ents'][0]['name'] ?? '', $b['ents'][0]['name'] ?? ''),
-        'ne'      => fn ($a, $b) => $a['ne'] <=> $b['ne'],
-        'bracket' => fn ($a, $b) => ($B[$a['poll']]['winner_pct'] ?? null) <=> ($B[$b['poll']]['winner_pct'] ?? null),
-        'omae'    => fn ($a, $b) => $ok($a, 'mae') <=> $ok($b, 'mae'),
+        'poll'     => fn ($a, $b) => $a['poll'] <=> $b['poll'],
+        'contest'  => fn ($a, $b) => [$a['cyear'], $a['cname'], $a['poll']] <=> [$b['cyear'], $b['cname'], $b['poll']],
+        'date'     => fn ($a, $b) => [$a['date'], $a['poll']] <=> [$b['date'], $b['poll']],
+        'round'    => fn ($a, $b) => [$RD[$a['poll']]['round_ord'] ?? PHP_INT_MAX, $a['poll']] <=> [$RD[$b['poll']]['round_ord'] ?? PHP_INT_MAX, $b['poll']],
+        'division' => fn ($a, $b) => strcasecmp((string)($RD[$a['poll']]['division'] ?? ''), (string)($RD[$b['poll']]['division'] ?? '')) ?: ($a['poll'] <=> $b['poll']),
+        'total'    => fn ($a, $b) => $a['total'] <=> $b['total'],
+        'margin'   => fn ($a, $b) => $a['margin'] <=> $b['margin'],
+        'marginv'  => fn ($a, $b) => $a['marginv'] <=> $b['marginv'],
+        'winner'   => fn ($a, $b) => strcasecmp($a['ents'][0]['name'] ?? '', $b['ents'][0]['name'] ?? ''),
+        'ne'       => fn ($a, $b) => $a['ne'] <=> $b['ne'],
+        'bracket'  => fn ($a, $b) => ($B[$a['poll']]['winner_pct'] ?? null) <=> ($B[$b['poll']]['winner_pct'] ?? null),
+        'omae'     => fn ($a, $b) => $ok($a, 'mae') <=> $ok($b, 'mae'),
     ];
     $sort = (string)($_GET['sort'] ?? 'poll');
     if (!isset($S[$sort])) {
@@ -1126,7 +1148,12 @@ function all_match_results(): void
     if ($dir === 'desc') {
         $rows = array_reverse($rows);
     }
-    $sortMap = ['omae' => $O, 'bracket' => $B];   // columns backed by a sparse map: no-data rows sort last, either dir
+    // columns backed by a sparse map: no-data rows sort last, either dir
+    $sortMap = [
+        'omae'     => $O,
+        'bracket'  => $B,
+        'division' => array_filter($RD, fn ($s) => ($s['division'] ?? null) !== null),
+    ];
     if (isset($sortMap[$sort])) {
         $m    = $sortMap[$sort];
         $rows = array_merge(
@@ -1244,6 +1271,8 @@ function all_match_results(): void
  <?= $th('poll', 'Poll') ?>
  <?= $th('contest', 'Contest') ?>
  <?= $th('date', 'Date') ?>
+ <?= $th('round', 'Round', 'Bracket round. From the site match DB (2002-2006), the official bracket pages (2007-2020), or the Board 8 wiki writeup infobox (GOTD). Battle Royale and bonus matches are labelled as such.') ?>
+ <?= $th('division', 'Division', 'Bracket division. Blank for divisionless contests (Best Year) and cross-division rounds (Quarterfinal onward).') ?>
  <?= $th('winner', 'Result') ?>
  <?= $th('total', 'Total') ?>
  <?= $th('margin', 'Margin (%)') ?>
@@ -1254,22 +1283,25 @@ function all_match_results(): void
 </tr></thead>
 <tbody>
 <?php if (!$rows): ?>
-<tr><td colspan="11">No matches for this filter.</td></tr>
+<tr><td colspan="13">No matches for this filter.</td></tr>
 <?php endif; ?>
 <?php $i = 0;
     foreach ($rows as $r): $i++;
         $fl = AMR_FLAG[$r['poll']] ?? null;
         $o  = $O[$r['poll']] ?? null;
-        $b  = $B[$r['poll']] ?? null; ?>
+        $b  = $B[$r['poll']] ?? null;
+        $rd = $RD[$r['poll']] ?? null; ?>
 <tr<?= $r['bonus'] !== null ? ' class="amr-bonus"' : '' ?>>
  <td class="amr-n"><?= $i ?></td>
  <td class="amr-n"><a href="https://gamefaqs.gamespot.com/poll/<?= $r['poll'] ?>-" rel="nofollow"><?= $r['poll'] ?></a><?php
            if ($fl): ?> <span class="amr-flag" title="<?= htmlspecialchars($fl, ENT_QUOTES) ?>">&dagger;</span><?php endif;
         if ($r['updates']): ?><br><a class="amr-sub" href="/node/22?matchnum=<?= $r['poll'] ?>" title="Poll updates for poll <?= $r['poll'] ?>">updates</a><br><a class="amr-sub" href="/graph/<?= $r['poll'] ?>?type=2&amp;seconds=60" title="Poll update graph for poll <?= $r['poll'] ?>">graph</a><?php endif;
-        if ($r['writeup'] !== null): ?><br><a class="amr-sub" href="<?= htmlspecialchars($r['writeup'], ENT_QUOTES) ?>" rel="nofollow" title="Board 8 wiki writeup">writeup</a><?php endif;
+        if ($r['writeup'] !== null): ?><br><a class="amr-sub" href="<?= htmlspecialchars($r['writeup'], ENT_QUOTES) ?>" rel="nofollow" title="Board 8 wiki writeup">writeup</a> (<a class="amr-sub" href="/data/board8wiki/markdown/writeups/<?= $r['poll'] ?>.md" title="that writeup as plain Markdown (our archive)">md</a>)<?php endif;
         if ($r['bonus'] !== null): ?><br><span class="amr-bonus-tag" title="<?= htmlspecialchars($r['bonus'], ENT_QUOTES) ?>">bonus</span><?php endif; ?></td>
  <td class="amr-contest"><a href="<?= $u(['contest_id' => $r['tid']]) ?>"><?= htmlspecialchars($r['cname']) ?></a></td>
  <td class="amr-n"><?= htmlspecialchars($r['date']) ?></td>
+ <td class="amr-rd"><?= $rd ? htmlspecialchars($rd['round_label']) : '&mdash;' ?></td>
+ <td class="amr-rd"><?= $rd && $rd['division'] !== null ? htmlspecialchars($rd['division']) : '&mdash;' ?></td>
  <?= $rescell($r['ents']) ?>
  <td class="amr-n"><?= number_format($r['total']) ?></td>
  <td class="amr-n"><?= number_format($r['margin'], 2) ?>%</td>
@@ -1314,6 +1346,13 @@ function all_match_results(): void
 </table></div>
 
 <div class="amr-notes">
+<h3>Round &amp; Division</h3>
+<p>Bracket position for every match. Round and division for 2002&ndash;2006 come
+from the site's match database; 2007&ndash;2020 are read from the archived official
+bracket pages; Game of the Decade (2010) is taken from the Board 8 wiki writeup
+infoboxes. Division is blank for Best Year in Gaming (no divisions) and for
+cross-division rounds from the Quarterfinal on. Battle Royale and bonus matches
+are labelled and sort last by round.</p>
 <h3>Bracket Pick %</h3>
 <p>Correct picks by battle from the GameFAQs official stats pages. Blank for
 Character Battle IX (2013), Game of the Decade 2 (2020) and a few bonus polls,
@@ -1431,11 +1470,14 @@ function amp_gallery_map(): array
  *  gallery map by poll; pics align to the row's entrants by canonical id. */
 function all_match_pictures(): void
 {
-    $S = [
-        'poll'    => fn ($a, $b) => $a['poll'] <=> $b['poll'],
-        'contest' => fn ($a, $b) => [$a['cyear'], $a['cname'], $a['poll']] <=> [$b['cyear'], $b['cname'], $b['poll']],
-        'date'    => fn ($a, $b) => [$a['date'], $a['poll']] <=> [$b['date'], $b['poll']],
-        'pics'    => fn ($a, $b) => $a['npics'] <=> $b['npics'],
+    $RD = amr_rounddiv();
+    $S  = [
+        'poll'     => fn ($a, $b) => $a['poll'] <=> $b['poll'],
+        'contest'  => fn ($a, $b) => [$a['cyear'], $a['cname'], $a['poll']] <=> [$b['cyear'], $b['cname'], $b['poll']],
+        'date'     => fn ($a, $b) => [$a['date'], $a['poll']] <=> [$b['date'], $b['poll']],
+        'round'    => fn ($a, $b) => [$RD[$a['poll']]['round_ord'] ?? PHP_INT_MAX, $a['poll']] <=> [$RD[$b['poll']]['round_ord'] ?? PHP_INT_MAX, $b['poll']],
+        'division' => fn ($a, $b) => strcasecmp((string)($RD[$a['poll']]['division'] ?? ''), (string)($RD[$b['poll']]['division'] ?? '')) ?: ($a['poll'] <=> $b['poll']),
+        'pics'     => fn ($a, $b) => $a['npics'] <=> $b['npics'],
     ];
     $sort = (string)($_GET['sort'] ?? 'poll');
     if (!isset($S[$sort])) {
@@ -1488,6 +1530,13 @@ function all_match_pictures(): void
     usort($rows, $S[$sort]);
     if ($dir === 'desc') {
         $rows = array_reverse($rows);
+    }
+    if ($sort === 'division') {   // divisionless rows sort last, either direction
+        $has  = array_filter($RD, fn ($s) => ($s['division'] ?? null) !== null);
+        $rows = array_merge(
+            array_values(array_filter($rows, fn ($r) => isset($has[$r['poll']]))),
+            array_values(array_filter($rows, fn ($r) => !isset($has[$r['poll']])))
+        );
     }
 
     $cur = [
@@ -1632,22 +1681,27 @@ wiki banner (with the gallery portraits faded beside it).</p>
  <?= $th('poll', 'Poll') ?>
  <?= $th('contest', 'Contest') ?>
  <?= $th('date', 'Date') ?>
+ <?= $th('round', 'Round') ?>
+ <?= $th('division', 'Division') ?>
  <th>Result</th>
  <?= $th('pics', 'Pictures') ?>
 </tr></thead>
 <tbody>
 <?php if (!$rows): ?>
-<tr><td colspan="6">No matches for this filter.</td></tr>
+<tr><td colspan="8">No matches for this filter.</td></tr>
 <?php endif; ?>
 <?php $i = 0;
     foreach ($rows as $r): $i++; ?>
 <tr<?= $r['bonus'] !== null ? ' class="amr-bonus"' : '' ?>>
  <td class="amr-n"><?= $i ?></td>
  <td class="amr-n"><a href="https://gamefaqs.gamespot.com/poll/<?= $r['poll'] ?>-" rel="nofollow"><?= $r['poll'] ?></a><?php
-        if ($r['writeup'] !== null): ?><br><a class="amr-sub" href="<?= htmlspecialchars($r['writeup'], ENT_QUOTES) ?>" rel="nofollow" title="Board 8 wiki writeup">writeup</a><?php endif;
+        if ($r['writeup'] !== null): ?><br><a class="amr-sub" href="<?= htmlspecialchars($r['writeup'], ENT_QUOTES) ?>" rel="nofollow" title="Board 8 wiki writeup">writeup</a> (<a class="amr-sub" href="/data/board8wiki/markdown/writeups/<?= $r['poll'] ?>.md" title="that writeup as plain Markdown (our archive)">md</a>)<?php endif;
         if ($r['bonus'] !== null): ?><br><span class="amr-bonus-tag" title="<?= htmlspecialchars($r['bonus'], ENT_QUOTES) ?>">bonus</span><?php endif; ?></td>
  <td class="amr-contest"><a href="<?= $u(['contest_id' => $r['tid']]) ?>"><?= htmlspecialchars($r['cname']) ?></a></td>
  <td class="amr-n"><?= htmlspecialchars($r['date']) ?></td>
+<?php $rd = $RD[$r['poll']] ?? null; ?>
+ <td class="amr-rd"><?= $rd ? htmlspecialchars($rd['round_label']) : '&mdash;' ?></td>
+ <td class="amr-rd"><?= $rd && $rd['division'] !== null ? htmlspecialchars($rd['division']) : '&mdash;' ?></td>
  <?= $rescell($r['ents']) ?>
  <?= $picsCell($r) ?>
 </tr>

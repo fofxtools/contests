@@ -1,0 +1,728 @@
+[
+  {
+    "poll": 2451,
+    "contest": "BSE2K6",
+    "round": null,
+    "division": "Mushroom Division Final",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Super Smash Bros. performed far better than expected against Mario and resisted the heavy SFF that many had predicted. The writeup says the result established Smash as a major series while largely killing talk of Mario upsetting Final Fantasy.",
+    "headline": "Smash resists expected SFF and dents Mario's title hopes",
+    "tags": [
+      "statement-win",
+      "title-hopes"
+    ]
+  },
+  {
+    "poll": 2452,
+    "contest": "BSE2K6",
+    "round": null,
+    "division": "Ultima Division Final",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Final Fantasy dispatched Resident Evil in a routine division final and completed the expected group of top seeds in the semifinals. The writeup treats the match mainly as another apparent confirmation that Final Fantasy remained championship material.",
+    "headline": "Final Fantasy cruises past Resident Evil into the semifinals",
+    "tags": [
+      "division-winner"
+    ]
+  },
+  {
+    "poll": 2453,
+    "contest": "BSE2K6",
+    "round": null,
+    "division": "Tournament Semi Final",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Zelda comfortably eliminated Metal Gear but looked a little less overwhelming than in earlier rounds. The writeup still saw Final Fantasy as the likely favorite for the final at this point, before the other semifinal changed that perception.",
+    "headline": "Zelda handles Metal Gear and advances to the final",
+    "tags": [
+      "semifinal",
+      "finalist"
+    ]
+  },
+  {
+    "poll": 2454,
+    "contest": "BSE2K6",
+    "round": null,
+    "division": "Tournament Semi Final",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Final Fantasy beat Mario, but Mario's unexpectedly strong challenge convinced the writeup that Final Fantasy was far more vulnerable than believed. The result effectively transformed the coming Zelda final from an underdog bid into a highly credible upset opportunity.",
+    "headline": "Final Fantasy survives Mario but exposes itself before Zelda",
+    "tags": [
+      "semifinal",
+      "warning-sign",
+      "final-setup"
+    ]
+  },
+  {
+    "poll": 2455,
+    "contest": "BSE2K6",
+    "round": null,
+    "division": "Tournament Final",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Zelda took control early, survived Final Fantasy's night push, and finished the championship with the stronger daytime vote. The writeup treats the win as one of the era's biggest upsets and as a symbolic confirmation of GameFAQs' growing Nintendo tilt.",
+    "headline": "Zelda upsets Final Fantasy to win Best Series Ever",
+    "tags": [
+      "contest-final",
+      "champion",
+      "upset"
+    ]
+  },
+  {
+    "poll": 2499,
+    "contest": "CB2K6",
+    "round": "Round One",
+    "division": "Spazer Division",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Samus opened the contest with an easy win over joke entrant Nidoran F, whose nomination had been heavily rallied before the bracket began. The writeup rejects the idea that Samus's less-than-absurd dominance revealed anything meaningful about her strength.",
+    "headline": "Samus handles Nidoran without settling any strength debates",
+    "tags": [
+      "contest-opener",
+      "joke-entrant"
+    ]
+  },
+  {
+    "poll": 2500,
+    "contest": "CB2K6",
+    "round": "Round One",
+    "division": "Spazer Division",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Ada beat a little-known Jade without difficulty, leaving the writeup unsure whether Ada was strong or Jade was simply very weak. The main useful observation was another poor Resident Evil daytime performance.",
+    "headline": "Ada dispatches Jade in an uninformative opening match",
+    "tags": []
+  },
+  {
+    "poll": 2501,
+    "contest": "CB2K6",
+    "round": "Round One",
+    "division": "Spazer Division",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Rikku overwhelmed an obscure Lenneth and reinforced the idea that her prior strong showing was no fluke. The writeup treats the result as a quiet but convincing confirmation of Rikku's midcard strength.",
+    "headline": "Rikku routs Lenneth and validates her earlier contest strength",
+    "tags": [
+      "validation"
+    ]
+  },
+  {
+    "poll": 2502,
+    "contest": "CB2K6",
+    "round": "Round One",
+    "division": "Spazer Division",
+    "voting_anomalies": [
+      "cheating_alleged"
+    ],
+    "anomaly_note": "The writeup says Smurf bragged about vote-stuffing for Claire and was banned during the match, while noting that whether he actually altered any votes remained unknown.",
+    "off_topic": false,
+    "narrative": "Kairi and Claire traded control through sharply different voting periods before Kingdom Hearts' daytime strength turned the late match decisively toward Kairi. The writeup also records a vote-stuffing allegation involving a Claire supporter.",
+    "headline": "Kairi survives Claire before the Kingdom Hearts day vote erupts",
+    "tags": [
+      "close-match",
+      "comeback"
+    ]
+  },
+  {
+    "poll": 2503,
+    "contest": "CB2K6",
+    "round": "Round One",
+    "division": "Limit Division",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Tifa produced the first performance the writeup considered truly dominant, while Ivy and the broader Soul Calibur cast looked increasingly weak. The unusually high interest around the match picture is treated more as spectacle than as an explanation for the result.",
+    "headline": "Tifa crushes Ivy and delivers an early statement performance",
+    "tags": [
+      "statement-win"
+    ]
+  },
+  {
+    "poll": 2504,
+    "contest": "CB2K6",
+    "round": "Round One",
+    "division": "Limit Division",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "The Boss beat Celes comfortably after a pre-match debate the writeup considered badly overhyped. Much of the analysis argues that Final Fantasy VI's ensemble cast had repeatedly failed to translate the game's popularity into strong character results.",
+    "headline": "The Boss handles Celes and punctures another Final Fantasy hype job",
+    "tags": [
+      "hype-bust"
+    ]
+  },
+  {
+    "poll": 2505,
+    "contest": "CB2K6",
+    "round": "Round One",
+    "division": "Limit Division",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Jill beat Sheena without being threatened, but her weak daytime performance concerned the writeup. The result is framed as an early warning that Jill could struggle badly if she reached a genuinely close match later.",
+    "headline": "Jill beats Sheena but her day vote raises concerns",
+    "tags": [
+      "warning-sign"
+    ]
+  },
+  {
+    "poll": 2506,
+    "contest": "CB2K6",
+    "round": "Round One",
+    "division": "Limit Division",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": true,
+    "narrative": "The writeup is mostly a personal rant about Peach, Daisy, Mario, and Luigi; the match itself is treated as an effortless Peach win that strengthened confidence in her next round.",
+    "headline": "Peach crushes Daisy while the writeup mostly wanders elsewhere",
+    "tags": []
+  },
+  {
+    "poll": 2507,
+    "contest": "CB2K6",
+    "round": "Round One",
+    "division": "Triforce Division",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Zelda demolished Carmen Sandiego in what the writeup calls one of the contest's most dominant performances. The showing immediately fueled a serious bandwagon that Zelda might threaten Samus later in the bracket.",
+    "headline": "Zelda destroys Carmen and launches a serious Samus upset bandwagon",
+    "tags": [
+      "statement-win",
+      "title-threat"
+    ]
+  },
+  {
+    "poll": 2508,
+    "contest": "CB2K6",
+    "round": "Round One",
+    "division": "Triforce Division",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Terra beat Kerrigan in a match preceded by enough picture complaints that the official image was changed. The writeup says the altered picture did not rescue Kerrigan and instead treats the result as another example of weak PC-character strength.",
+    "headline": "Terra beats Kerrigan after a noisy match-picture controversy",
+    "tags": [
+      "picture-controversy"
+    ]
+  },
+  {
+    "poll": 2509,
+    "contest": "CB2K6",
+    "round": "Round One",
+    "division": "Triforce Division",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "KOS-MOS beat Amy more easily than the writeup expected, helped by Amy's poor standing even among Sonic fans. Amy's strong daytime recovery was the only notable trend and foreshadowed how important that voting bloc could become later.",
+    "headline": "KOS-MOS beats Amy despite a late Sonic day-vote recovery",
+    "tags": []
+  },
+  {
+    "poll": 2510,
+    "contest": "CB2K6",
+    "round": "Round One",
+    "division": "Triforce Division",
+    "voting_anomalies": [
+      "sff"
+    ],
+    "anomaly_note": "The writeup says Aeris and Marle showed some SFF from their overlapping Square and role-playing fanbases, but characterizes the effect as minimal rather than a major suppression.",
+    "off_topic": false,
+    "narrative": "Aeris beat Marle comfortably, with only a small amount of SFF according to the writeup. More concerning for Aeris was her failure to dominate the daytime vote, which weakened confidence that she could challenge Zelda later.",
+    "headline": "Aeris beats Marle but fails to strengthen her Zelda case",
+    "tags": [
+      "warning-sign"
+    ]
+  },
+  {
+    "poll": 2511,
+    "contest": "CB2K6",
+    "round": "Round One",
+    "division": "Aeon Division",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Yuna quietly delivered a dominant opening win over Roll after being dismissed as a weak top seed. The writeup treats the performance as an early sign that Yuna was stronger than the division's reputation suggested.",
+    "headline": "Yuna quietly crushes Roll and answers early doubts",
+    "tags": [
+      "statement-win"
+    ]
+  },
+  {
+    "poll": 2512,
+    "contest": "CB2K6",
+    "round": "Round One",
+    "division": "Aeon Division",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Joanna beat Cortana without much difficulty after brief early hopes for a closer match. The writeup frames Cortana's failure as another example of Halo-related entrants being overrated by people who confuse game popularity with character strength.",
+    "headline": "Joanna handles Cortana and extends Halo's character-level struggles",
+    "tags": [
+      "halo-struggles"
+    ]
+  },
+  {
+    "poll": 2513,
+    "contest": "CB2K6",
+    "round": "Round One",
+    "division": "Aeon Division",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Chun-Li beat Kasumi as expected and was never in danger, though her poor daytime vote gave back some of the early margin. The writeup considers the match largely routine despite pre-match discussion of possible fighting-game overlap.",
+    "headline": "Chun-Li handles Kasumi despite another weak Street Fighter day vote",
+    "tags": []
+  },
+  {
+    "poll": 2514,
+    "contest": "CB2K6",
+    "round": "Round One",
+    "division": "Aeon Division",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Lara looked dominant against Alyx, but the writeup argues that the performance was deceptive because Alyx was obscure and the match drew little interest. It rejects the result as evidence of a true Lara resurgence.",
+    "headline": "Lara crushes Alyx without proving she has truly returned",
+    "tags": [
+      "deceptive-result"
+    ]
+  },
+  {
+    "poll": 2515,
+    "contest": "CB2K6",
+    "round": "Round One",
+    "division": "Patriot Division",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Snake overwhelmed Soma in a stronger opening performance than his familiar early-round fodder beatings. The writeup still notes his history of fading later, but treats the result as the first hint that this contest might be different.",
+    "headline": "Snake crushes Soma and hints that this run may differ",
+    "tags": [
+      "statement-win",
+      "foreshadowing"
+    ]
+  },
+  {
+    "poll": 2516,
+    "contest": "CB2K6",
+    "round": "Round One",
+    "division": "Patriot Division",
+    "voting_anomalies": [
+      "sff"
+    ],
+    "anomaly_note": "The writeup explicitly calls the result an SFF beating, with Squall suppressing fellow Final Fantasy lead Tidus far beyond what their ordinary statistical gap suggested.",
+    "off_topic": false,
+    "narrative": "Squall crushed Tidus in what the writeup calls an SFF beating through and through. The result further buried Tidus's old reputation while briefly making a later Squall upset of Snake seem plausible.",
+    "headline": "Squall SFFs Tidus and briefly fuels upset talk against Snake",
+    "tags": [
+      "statement-win"
+    ]
+  },
+  {
+    "poll": 2517,
+    "contest": "CB2K6",
+    "round": "Round One",
+    "division": "Patriot Division",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Yoshi beat Riku in a seeding upset but steadily lost ground after a blistering start. The writeup treats Riku's resistance as a moral victory and as a warning that Yoshi's coming match with Dante had become much less comfortable.",
+    "headline": "Yoshi beats Riku but loses confidence before facing Dante",
+    "tags": [
+      "underperformance",
+      "seeding-upset"
+    ]
+  },
+  {
+    "poll": 2518,
+    "contest": "CB2K6",
+    "round": "Round One",
+    "division": "Patriot Division",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Dante beat Ryu Hayabusa almost exactly as the writeup's prior expectations suggested. The routine result kept Dante looking steadier than Yoshi heading into their debated second-round meeting.",
+    "headline": "Dante handles Hayabusa and keeps the edge over Yoshi",
+    "tags": [
+      "bracket-setup"
+    ]
+  },
+  {
+    "poll": 2519,
+    "contest": "CB2K6",
+    "round": "Round One",
+    "division": "Destiny Division",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Sora beat the widely disliked Tingle in a completely stable and predictable match. The writeup finds almost no useful trend information in the result beyond another easy Kingdom Hearts win.",
+    "headline": "Sora dispatches Tingle in a remarkably uneventful opener",
+    "tags": []
+  },
+  {
+    "poll": 2520,
+    "contest": "CB2K6",
+    "round": "Round One",
+    "division": "Destiny Division",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Gordon Freeman ended the long-running GFNW joke by beating Board 8 favorite Phoenix Wright after an early Phoenix lead. The writeup argues that the Phoenix upset hype was mostly fad power rather than a realistic assessment of the matchup.",
+    "headline": "Gordon finally wins and ends the original GFNW joke",
+    "tags": [
+      "first-win",
+      "gfnw"
+    ]
+  },
+  {
+    "poll": 2521,
+    "contest": "CB2K6",
+    "round": "Round One",
+    "division": "Destiny Division",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Ryu beat Kratos without serious danger even though casual brackets had strongly favored Kratos. The writeup is more interested in Kratos's powerful daytime recovery, which suggested he could become dangerous in a genuinely winnable future match.",
+    "headline": "Ryu beats bracket favorite Kratos despite a strong day vote",
+    "tags": [
+      "bracket-buster"
+    ]
+  },
+  {
+    "poll": 2522,
+    "contest": "CB2K6",
+    "round": "Round One",
+    "division": "Destiny Division",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Mega Man beat Axel, but his strong early showing steadily deteriorated once the morning and daytime votes arrived. The writeup treats the decline as an overlooked warning of the much larger collapse that would become obvious later.",
+    "headline": "Mega Man beats Axel while showing an early warning sign",
+    "tags": [
+      "warning-sign",
+      "foreshadowing"
+    ]
+  },
+  {
+    "poll": 2523,
+    "contest": "CB2K6",
+    "round": "Round One",
+    "division": "Blast Division",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Sonic steamrolled perennial fodder CATS after the customary brief opening lead. The writeup discusses the familiar CATS picture debate but ultimately says the hybrid image makes the result too ambiguous for useful conclusions.",
+    "headline": "Sonic steamrolls CATS without resolving the old picture debate",
+    "tags": [
+      "joke-fodder"
+    ]
+  },
+  {
+    "poll": 2524,
+    "contest": "CB2K6",
+    "round": "Round One",
+    "division": "Blast Division",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Vincent won a heavily debated match after Ganondorf's early advantage faded with the opening Nintendo surge. The upset exposed problems in the old statistics and immediately triggered a large Vincent-over-Sonic bandwagon.",
+    "headline": "Vincent upsets Ganondorf and launches a Noble Nine breaker bandwagon",
+    "tags": [
+      "upset",
+      "x-stats-bust",
+      "nn-breaker-hype"
+    ]
+  },
+  {
+    "poll": 2525,
+    "contest": "CB2K6",
+    "round": "Round One",
+    "division": "Blast Division",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Kirby beat Prince of Persia but steadily lost ground after a stronger opening. The writeup credits Prince with proving respectable midcard strength while treating Kirby's performance as another bad sign before the next round.",
+    "headline": "Kirby beats Prince but gives his backers another warning",
+    "tags": [
+      "underperformance"
+    ]
+  },
+  {
+    "poll": 2526,
+    "contest": "CB2K6",
+    "round": "Round One",
+    "division": "Blast Division",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Luigi demolished a favored Zero in the kind of debated match he had historically failed to win. The writeup treats the result as both a personal breakthrough for Luigi and a serious embarrassment for the statistical consensus.",
+    "headline": "Luigi stuns Zero and finally wins a major debated match",
+    "tags": [
+      "upset",
+      "breakthrough",
+      "x-stats-bust"
+    ]
+  },
+  {
+    "poll": 2527,
+    "contest": "CB2K6",
+    "round": "Round One",
+    "division": "Time Division",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Crono comfortably beat Captain Falcon in his debut as a top seed. The only concern in the writeup is Crono's familiar daytime weakness, which allowed Falcon to recover substantially after the early stages.",
+    "headline": "Crono cruises past Falcon but again shows a weak day vote",
+    "tags": [
+      "warning-sign"
+    ]
+  },
+  {
+    "poll": 2528,
+    "contest": "CB2K6",
+    "round": "Round One",
+    "division": "Time Division",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Bowser beat Leon, but Leon performed much better than the old projections suggested. Combined with Kirby's earlier showing, the result made the writeup question how legitimate their inflated prior-year statistical reputations had been.",
+    "headline": "Bowser wins as Leon exposes more doubts about old stats",
+    "tags": [
+      "underperformance",
+      "stats-doubt"
+    ]
+  },
+  {
+    "poll": 2529,
+    "contest": "CB2K6",
+    "round": "Round One",
+    "division": "Time Division",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Auron beat Alucard comfortably, continuing a long decline from Alucard's early-contest upset reputation. The writeup is left debating whether Alucard had truly weakened or whether earlier statistical distortions had simply hidden his real level.",
+    "headline": "Auron beats Alucard as the old upset hero keeps fading",
+    "tags": [
+      "decline"
+    ]
+  },
+  {
+    "poll": 2530,
+    "contest": "CB2K6",
+    "round": "Round One",
+    "division": "Time Division",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Sub-Zero upset Master Chief after taking control early and surviving the familiar Halo afternoon push. The writeup treats the loss as another chapter in Halo's recurring early-round failures and a memorable winning debut for Sub-Zero.",
+    "headline": "Sub-Zero upsets Master Chief and extends Halo's contest misery",
+    "tags": [
+      "upset",
+      "bracket-buster",
+      "debut-win"
+    ]
+  },
+  {
+    "poll": 2531,
+    "contest": "CB2K6",
+    "round": "Spazer Division Semi Final",
+    "division": null,
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Samus disposed of Ada in another expected win, but the writeup considers Ada's performance disappointing after Resident Evil's recent momentum. It mentions possible overlap as one explanation but explicitly leaves the cause unresolved.",
+    "headline": "Samus crushes Ada while Resident Evil momentum stalls",
+    "tags": [
+      "underperformance"
+    ]
+  },
+  {
+    "poll": 2532,
+    "contest": "CB2K6",
+    "round": "Spazer Division Semi Final",
+    "division": null,
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Rikku handled Kairi almost exactly as the writeup expected, while the famous Kingdom Hearts day vote barely changed the match. The only surprise was how many brackets had trusted Kairi to advance.",
+    "headline": "Rikku handles Kairi and shrugs off the Kingdom Hearts day vote",
+    "tags": []
+  },
+  {
+    "poll": 2533,
+    "contest": "CB2K6",
+    "round": "Limit Division Semi Final",
+    "division": null,
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": true,
+    "narrative": "The writeup treats Tifa's easy win as obvious, then spends most of its space arguing about a hypothetical physical fight between Tifa and The Boss rather than the poll itself.",
+    "headline": "Tifa wins easily while the writeup turns to fight hypotheticals",
+    "tags": []
+  },
+  {
+    "poll": 2534,
+    "contest": "CB2K6",
+    "round": "Limit Division Semi Final",
+    "division": null,
+    "voting_anomalies": [
+      "rally",
+      "cheating_alleged"
+    ],
+    "anomaly_note": "The writeup quotes CJayC describing heavy rallying on both sides and attempted vote-stuffing for both Jill and Peach. It says the blocked fraudulent votes did not alter the official result, while acknowledging lingering uncertainty over whether every improper vote was caught.",
+    "off_topic": false,
+    "narrative": "Peach and Jill traded control through radically different voting periods before a frantic final push left Jill just short. The writeup calls it a classic and records both heavy rallying and attempted vote-stuffing around the finish.",
+    "headline": "Peach survives Jill in a classic marred by cheating attempts",
+    "tags": [
+      "classic",
+      "close-match",
+      "comeback"
+    ]
+  },
+  {
+    "poll": 2535,
+    "contest": "CB2K6",
+    "round": "Triforce Division Semi Final",
+    "division": null,
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Zelda demolished Terra far more convincingly than the old projections suggested. The writeup says the performance transformed Zelda from an obvious division favorite into a serious threat to Samus's title hopes.",
+    "headline": "Zelda crushes Terra and puts real pressure on Samus",
+    "tags": [
+      "statement-win",
+      "title-threat"
+    ]
+  },
+  {
+    "poll": 2536,
+    "contest": "CB2K6",
+    "round": "Triforce Division Semi Final",
+    "division": null,
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Aeris beat KOS-MOS but performed much worse than the writeup believed she needed to before facing Zelda. Although some fans blamed the picture, the author rejects that explanation and treats the result as a straightforward warning of trouble ahead.",
+    "headline": "Aeris beats KOS-MOS but looks doomed against Zelda",
+    "tags": [
+      "underperformance",
+      "warning-sign"
+    ]
+  },
+  {
+    "poll": 2537,
+    "contest": "CB2K6",
+    "round": "Aeon Division Semi Final",
+    "division": null,
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Yuna demolished Joanna and continued answering claims that she was the weakest top seed. The writeup treats the result as enough to make Yuna the clear favorite to take the division.",
+    "headline": "Yuna crushes Joanna and takes control of her division",
+    "tags": [
+      "statement-win",
+      "division-favorite"
+    ]
+  },
+  {
+    "poll": 2538,
+    "contest": "CB2K6",
+    "round": "Aeon Division Semi Final",
+    "division": null,
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Chun-Li beat Lara, but a steady daytime collapse made the match much less impressive than the opening suggested. The writeup says the weak finish effectively killed the remaining Chun-Li-over-Yuna upset case.",
+    "headline": "Chun-Li beats Lara but loses her Yuna upset case",
+    "tags": [
+      "underperformance",
+      "warning-sign"
+    ]
+  },
+  {
+    "poll": 2539,
+    "contest": "CB2K6",
+    "round": "Patriot Division Semi Final",
+    "division": null,
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Snake crushed Squall in a match that had drawn meaningful upset discussion beforehand. The writeup calls it the first clear sign that Snake had made a major leap in strength during this contest.",
+    "headline": "Snake crushes Squall and reveals his major contest boost",
+    "tags": [
+      "statement-win",
+      "breakout-performance"
+    ]
+  },
+  {
+    "poll": 2540,
+    "contest": "CB2K6",
+    "round": "Patriot Division Semi Final",
+    "division": null,
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Yoshi upset Dante after dominating the Nintendo-friendly voting periods and surviving Dante's slow attempts to erase the leads. The writeup treats the result as a vindication of long-running claims that Yoshi's old statistics had understated him.",
+    "headline": "Yoshi upsets Dante and vindicates years of hidden strength claims",
+    "tags": [
+      "upset",
+      "bracket-buster",
+      "nintendo-boost"
+    ]
+  },
+  {
+    "poll": 2541,
+    "contest": "CB2K6",
+    "round": "Destiny Division Semi Final",
+    "division": null,
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Sora comfortably ended Gordon Freeman's brief taste of success and then pulled farther away with the Kingdom Hearts day vote. The writeup treats the loss as another turning point in the fading GFNW tradition.",
+    "headline": "Sora ends Gordon's brief winning era with little trouble",
+    "tags": [
+      "gfnw"
+    ]
+  },
+  {
+    "poll": 2542,
+    "contest": "CB2K6",
+    "round": "Destiny Division Semi Final",
+    "division": null,
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Mega Man beat Ryu, but his steady loss of ground was another warning that his old strength was fading. The writeup says people initially blamed the poor showing partly on his bad picture, only realizing later that the decline was real.",
+    "headline": "Mega Man beats Ryu while another collapse warning goes ignored",
+    "tags": [
+      "warning-sign",
+      "decline"
+    ]
+  },
+  {
+    "poll": 2543,
+    "contest": "CB2K6",
+    "round": "Blast Division Semi Final",
+    "division": null,
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Sonic beat Vincent in a match whose final closeness overstated the actual danger, since Sonic controlled it from early on. Vincent nevertheless gained more Noble Nine breaker hype, while Sonic's own prospects against the bracket's elite took a hit.",
+    "headline": "Sonic beats Vincent but leaves both characters with changed expectations",
+    "tags": [
+      "nn-breaker-hype",
+      "underperformance"
+    ]
+  }
+]

@@ -30,6 +30,12 @@ Also joins in, per poll, three read-only context figures for the extraction mode
      absolute error vs the real result, and predictor count. Names are remapped
      to ours (exact -> substring -> difflib -> position); null where no Oracle
      data (all of Summer 2002, half of 2003, bonus/novelty polls).
+  - `round` / `round_ord` / `division` / `battle`  bracket position
+     (data/board8wiki/round-division.json, built by scripts/extract-round-division.py
+     -- run it first). `round` is a label ("Round 1", "Division Final",
+     "Quarterfinal", "Final", "Battle Royale", ...); `round_ord` sorts it;
+     `division` is null for divisionless contests (Best Year) and cross-division
+     rounds; `battle` is the official bracket battle number (null for BR/bonus).
 
 In : data/contest-matches-normalized.json
      data/board8wiki-writeups.json          (poll -> wiki url, for title + seeds)
@@ -37,6 +43,7 @@ In : data/contest-matches-normalized.json
      storage/board8wiki/pages.jsonl         (raw wikitext, for the banner; optional)
      data/bracket-pick-stats.json           (poll -> official bracket picks; optional)
      data/oracle-match-stats.json           (Oracle consensus per match; optional)
+     data/board8wiki/round-division.json    (poll -> round / division; optional)
 Out: data/board8wiki/match-records.json     (keyed by poll, string)
 
   .venv/bin/python scripts/board8wiki-records.py
@@ -61,6 +68,7 @@ MANIFEST = ROOT / "data" / "board8wiki" / "manifest.json"
 PAGES = ROOT / "storage" / "board8wiki" / "pages.jsonl"
 BRACKET = ROOT / "data" / "bracket-pick-stats.json"
 ORACLE = ROOT / "data" / "oracle-match-stats.json"
+ROUNDDIV = ROOT / "data" / "board8wiki" / "round-division.json"
 OUT = ROOT / "data" / "board8wiki" / "match-records.json"
 
 _IMG_RE = re.compile(r"\[\[(?:Image|File):\s*([^\]|\n]+?)\s*(?:\||\]\])", re.IGNORECASE)
@@ -247,6 +255,7 @@ def main() -> int:
         if ORACLE.exists()
         else {}
     )
+    rounddiv = json.loads(ROUNDDIV.read_text()) if ROUNDDIV.exists() else {}
     if not bracket:
         print(
             f"note: {BRACKET.relative_to(ROOT)} not found -- bracket_pick fields will be null"
@@ -254,6 +263,10 @@ def main() -> int:
     if not oracle:
         print(
             f"note: {ORACLE.relative_to(ROOT)} not found -- oracle field will be null"
+        )
+    if not rounddiv:
+        print(
+            f"note: {ROUNDDIV.relative_to(ROOT)} not found -- round/division fields will be null"
         )
 
     # contest median match total, over official non-Battle-Royale matches -- the
@@ -273,7 +286,9 @@ def main() -> int:
         "oracle_count_skip": 0,
         "oracle_name_fallback": 0,
         "oracle_topslot_warn": 0,
+        "round_division": 0,
     }
+    rounddiv_missing: list[int] = []
 
     out: dict[str, dict] = {}
     for poll, m in matches.items():
@@ -360,6 +375,13 @@ def main() -> int:
                 }
                 stats["oracle"] += 1
 
+        # --- bracket round / division ----------------------------------
+        rd = rounddiv.get(str(poll))
+        if rd:
+            stats["round_division"] += 1
+        elif rounddiv:
+            rounddiv_missing.append(poll)
+
         rec = {
             "poll": poll,
             "date": m["date"],
@@ -382,6 +404,10 @@ def main() -> int:
             "turnout_ratio": turnout_ratio,
             "bracket_pick_pct": bracket_pick_pct,
             "bracket_advancers": bracket_advancers,
+            "round": rd["round_label"] if rd else None,
+            "round_ord": rd["round_ord"] if rd else None,
+            "division": rd["division"] if rd else None,
+            "battle": rd["battle"] if rd else None,
             "oracle": oracle_obj,
             "wiki_title": title,
             "wiki_url": url,
@@ -405,10 +431,15 @@ def main() -> int:
     )
     print(
         f"context joins: bracket_pick_pct {stats['bracket']}, bracket_advancers {stats['advancers']}, "
-        f"oracle {stats['oracle']}  "
+        f"oracle {stats['oracle']}, round/division {stats['round_division']}  "
         f"(oracle skipped on count mismatch: {stats['oracle_count_skip']}, "
         f"name-fallback used: {stats['oracle_name_fallback']}, winner disagreements: {stats['oracle_topslot_warn']})"
     )
+    if rounddiv_missing:
+        print(
+            f"  ! {len(rounddiv_missing)} polls with no round/division entry: "
+            f"{' '.join(str(p) for p in sorted(rounddiv_missing)[:30])}"
+        )
     print(
         f"turnout_ratio: {sum(1 for r in out.values() if r['turnout_ratio'] is not None)} of {len(out)} "
         f"(contests with a median: {len(median_total)})"

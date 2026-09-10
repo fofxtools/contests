@@ -1,0 +1,52 @@
+[
+  {
+    "poll": 8040,
+    "contest": "GOTD 2",
+    "round": "Semifinals",
+    "division": "Contest Semifinal",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "The Witcher 3 beat Skyrim comfortably in the semifinal after spending the entire contest steadily overturning pre-contest expectations. The writeup attributes Witcher's rise to several reinforcing factors, including Netflix exposure, broader respect, Switch availability and Bethesda fatigue, while treating possible SFF as only speculative.",
+    "headline": "Witcher 3 beats Skyrim and completes its pre-final rise",
+    "tags": [
+      "semifinal",
+      "witcher-run",
+      "skyrim"
+    ]
+  },
+  {
+    "poll": 8041,
+    "contest": "GOTD 2",
+    "round": "Finals",
+    "division": "Contest Final",
+    "voting_anomalies": [
+      "rally"
+    ],
+    "anomaly_note": "The writeup says Witcher 3 fans rallied heavily throughout the final and materially cut Breath of the Wild's natural margin, even though the rally never put the winner in danger.",
+    "off_topic": false,
+    "narrative": "Breath of the Wild completed its dominant championship run, but Witcher 3's rally made the final substantially more respectable than the opening suggested. The writeup treats Witcher as the contest's breakout star even in defeat.",
+    "headline": "Breath of the Wild wins despite a heavy Witcher rally",
+    "tags": [
+      "champion",
+      "rally",
+      "witcher-run"
+    ]
+  },
+  {
+    "poll": 8090,
+    "contest": "GOTD 2",
+    "round": "Bonus",
+    "division": "Bonus",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Breath of the Wild crushed Majora's Mask in the post-contest bonus between the winners of two Game of the Decade contests. The writeup is split on whether the same-series matchup involved meaningful SFF, so the cause is left unresolved rather than tagged.",
+    "headline": "Breath of the Wild routs Majora's Mask in the bonus",
+    "tags": [
+      "bonus",
+      "zelda",
+      "strength-debate"
+    ]
+  }
+]

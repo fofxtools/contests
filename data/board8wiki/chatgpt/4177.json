@@ -1,0 +1,793 @@
+[
+  {
+    "poll": 4177,
+    "contest": "GOTD",
+    "round": "Round Three",
+    "division": "West Division Semifinal",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Paper Mario's run ended against Metal Gear Solid 3, but the writeup treats its performance as fully legitimate after the earlier World of Warcraft upset. It also mocks how badly casual brackets had overestimated WoW's chances in this section.",
+    "headline": "Paper Mario exits with its credibility intact",
+    "tags": [
+      "statement-loss",
+      "casual-miss",
+      "paper-mario-run"
+    ]
+  },
+  {
+    "poll": 4178,
+    "contest": "GOTD",
+    "round": "Round Three",
+    "division": "West Division Semifinal",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Shadow of the Colossus followed its MGS2 upset by beating Metal Gear Solid 4 and turning a possible fluke into the contest's defining Cinderella run. A late MGS4 rally cut into the lead but is explicitly dismissed as meaningless.",
+    "headline": "Shadow of the Colossus confirms its Cinderella run",
+    "tags": [
+      "upset",
+      "cinderella-run",
+      "guru-buster"
+    ]
+  },
+  {
+    "poll": 4179,
+    "contest": "GOTD",
+    "round": "Round Three",
+    "division": "Northwest Division Semifinal",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Majora's Mask ended the heavily hyped Pokémon GSC run almost immediately and overturned the comparisons many people had drawn from the prior four-way contest. The writeup treats the result as another major rejection of four-way extrapolation.",
+    "headline": "Majora's Mask destroys the Pokémon GSC hype",
+    "tags": [
+      "upset",
+      "pokemon-collapse",
+      "four-way-rejection"
+    ]
+  },
+  {
+    "poll": 4180,
+    "contest": "GOTD",
+    "round": "Round Three",
+    "division": "NorthwestDivision Semifinal",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Wind Waker handled Oblivion without the competitive drama some had expected before the contest. Oblivion improved during the day but never became one of the Western games the writeup considered especially impressive.",
+    "headline": "Wind Waker quietly ends Oblivion's hoped-for challenge",
+    "tags": [
+      "low-drama",
+      "underperformance"
+    ]
+  },
+  {
+    "poll": 4181,
+    "contest": "GOTD",
+    "round": "Round Four",
+    "division": "North Division Final",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "The poll disappeared entirely for the opening hour, but the eventual match gave Fallout 3 its first clear statement against a proven contest game. The writeup treats the result as the moment serious upset talk against Fallout largely died.",
+    "headline": "Fallout 3 delivers its first fully convincing statement",
+    "tags": [
+      "poll-glitch",
+      "statement-win",
+      "title-hype"
+    ]
+  },
+  {
+    "poll": 4182,
+    "contest": "GOTD",
+    "round": "Round Four",
+    "division": "Northeast Division Final",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Metroid Prime controlled the match, while Half-Life 2's late gains suggested that a different time window might have produced a much closer result. The writeup explicitly says the heavily discussed pictures did not matter.",
+    "headline": "Prime advances as Half-Life 2 exposes a timing problem",
+    "tags": [
+      "time-of-day",
+      "close-finish"
+    ]
+  },
+  {
+    "poll": 4183,
+    "contest": "GOTD",
+    "round": "Round Four",
+    "division": "East Division Final",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Melee built the early lead, but Brawl's European and morning strength completed the comeback and settled the rivalry for the bracket. The writeup argues that the timing format may have mattered enough to make the result less definitive than the rivalry deserved.",
+    "headline": "Brawl comes back on Melee in a divisive rivalry match",
+    "tags": [
+      "rivalry",
+      "comeback",
+      "time-of-day"
+    ]
+  },
+  {
+    "poll": 4184,
+    "contest": "GOTD",
+    "round": "Round Four",
+    "division": "Southeast Division Final",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Twilight Princess overwhelmed Kingdom Hearts II far more decisively than their earlier four-way meeting had suggested. The writeup uses the result as another example of Zelda's exceptional 1v1 strength and the unreliability of four-way comparisons.",
+    "headline": "Twilight Princess makes the four-way comparison look useless",
+    "tags": [
+      "statement-win",
+      "four-way-rejection"
+    ]
+  },
+  {
+    "poll": 4185,
+    "contest": "GOTD",
+    "round": "Round Four",
+    "division": "South Division Final",
+    "voting_anomalies": [
+      "sff"
+    ],
+    "anomaly_note": "The writeup treats this as a Square SFF matchup, noting that Final Fantasy IX was suppressed by Final Fantasy X even if the effect was milder than some older Square pairings.",
+    "off_topic": false,
+    "narrative": "The same-series divisional final was never presented as a serious rivalry, and Final Fantasy IX was simply outclassed by Final Fantasy X. The writeup mostly uses the match to criticize how easy the division had been for FFX.",
+    "headline": "Final Fantasy X cruises through a mild Square SFF match",
+    "tags": [
+      "same-series",
+      "statement-win"
+    ]
+  },
+  {
+    "poll": 4186,
+    "contest": "GOTD",
+    "round": "Round Four",
+    "division": "Southwest Division Final",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Portal's run ended against Resident Evil 4, but the writeup still considers the showing highly respectable and much stronger than old four-way statistics would have implied. It treats Portal as one of the contest's major success stories.",
+    "headline": "Portal exits with one of the contest's best runs",
+    "tags": [
+      "portal-run",
+      "statement-loss"
+    ]
+  },
+  {
+    "poll": 4187,
+    "contest": "GOTD",
+    "round": "Round Four",
+    "division": "West Division Final",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Metal Gear Solid 3 ended the Shadow of the Colossus Cinderella run in a match the writeup believes was heavily shaped by being held at night. Shadow stayed close, but MGS3's overnight strength controlled the decisive portion.",
+    "headline": "Night voting ends the Shadow of the Colossus run",
+    "tags": [
+      "cinderella-run",
+      "time-of-day",
+      "close-match"
+    ]
+  },
+  {
+    "poll": 4188,
+    "contest": "GOTD",
+    "round": "Round Four",
+    "division": "Northwest Division Final",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Majora's Mask settled a long-running Zelda-series debate by beating Wind Waker decisively. The writeup argues the result did not require any special contest bandwagon because Majora was simply the more beloved title.",
+    "headline": "Majora's Mask settles the Wind Waker debate",
+    "tags": [
+      "series-rivalry",
+      "statement-win"
+    ]
+  },
+  {
+    "poll": 4189,
+    "contest": "GOTD",
+    "round": "Round Five",
+    "division": "Contest Quarterfinal",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Fallout 3 survived a strong Metroid Prime challenge, with the writeup again arguing that match timing may have changed the outcome. The recent New Vegas release is also cited as a plausible boost for Fallout.",
+    "headline": "Fallout 3 survives Prime in a timing-sensitive quarterfinal",
+    "tags": [
+      "close-match",
+      "time-of-day",
+      "release-boost"
+    ]
+  },
+  {
+    "poll": 4190,
+    "contest": "GOTD",
+    "round": "Round Five",
+    "division": "Contest Quarterfinal",
+    "voting_anomalies": [
+      "sff"
+    ],
+    "anomaly_note": "The writeup says Brawl versus Twilight Princess can be considered SFF because of their shared Nintendo/Wii audience, with Brawl suppressing Zelda's support.",
+    "off_topic": false,
+    "narrative": "Twilight Princess briefly led before Brawl took over and won comfortably. The result made Brawl look increasingly difficult to stop and strengthened the belief that it was the contest favorite.",
+    "headline": "Brawl suppresses Twilight Princess and strengthens its title case",
+    "tags": [
+      "statement-win",
+      "title-hype"
+    ]
+  },
+  {
+    "poll": 4191,
+    "contest": "GOTD",
+    "round": "Round Five",
+    "division": "Contest Quarterfinal",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Final Fantasy X erased the pre-match Resident Evil 4 upset hype almost immediately and produced the writeup's strongest championship-looking performance of its run. RE4 is treated as a major disappointment for failing to make the match competitive.",
+    "headline": "Final Fantasy X destroys the Resident Evil 4 upset hype",
+    "tags": [
+      "statement-win",
+      "title-hype",
+      "underperformance"
+    ]
+  },
+  {
+    "poll": 4192,
+    "contest": "GOTD",
+    "round": "Round Five",
+    "division": "Contest Quarterfinal",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Majora's Mask overwhelmed Metal Gear Solid 3 and fully emerged as a credible championship threat. The writeup considers MGS3 the one quarterfinalist that looked clearly out of place this deep in the bracket.",
+    "headline": "Majora's Mask turns into a genuine title threat",
+    "tags": [
+      "statement-win",
+      "title-hype",
+      "underperformance"
+    ]
+  },
+  {
+    "poll": 4193,
+    "contest": "GOTD",
+    "round": "Round Six",
+    "division": "Contest Semifinal",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Fallout 3 performed far better against Brawl than the writeup expected and resisted even Brawl's normally dominant daytime strength. The result is framed as an excellent loss and as evidence of growing voter fatigue with Nintendo and Square dominance.",
+    "headline": "Fallout 3 gives Brawl a major semifinal warning",
+    "tags": [
+      "statement-loss",
+      "anti-vote",
+      "warning-sign"
+    ]
+  },
+  {
+    "poll": 4194,
+    "contest": "GOTD",
+    "round": "Round Six",
+    "division": "Contest Semifinal",
+    "voting_anomalies": [
+      "rally"
+    ],
+    "anomaly_note": "The writeup says Majora's Mask was rallied more heavily and that its fans pushed harder during the decisive stages of the close semifinal.",
+    "off_topic": false,
+    "narrative": "Final Fantasy X controlled much of the first half, Majora's Mask mounted a huge daytime comeback, and FFX nearly answered again late. The writeup calls it the best match of the contest and a throwback to the site's classic close-match era.",
+    "headline": "Majora's Mask rallies through an all-time semifinal classic",
+    "tags": [
+      "match-of-contest",
+      "close-match",
+      "comeback"
+    ]
+  },
+  {
+    "poll": 4195,
+    "contest": "GOTD",
+    "round": "Championship",
+    "division": "Contest Final",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Majora's Mask carried its momentum into the final and built enough of an early advantage to survive Brawl's later daytime recovery. The writeup frames the result as both a Good-vs-Evil fanbase victory and a symbolic win for older games over newer ones.",
+    "headline": "Majora's Mask wins the Game of the Decade crown",
+    "tags": [
+      "champion",
+      "old-games",
+      "title-match"
+    ]
+  },
+  {
+    "poll": 4196,
+    "contest": "GOTD",
+    "round": "Bonus Match",
+    "division": "Bonus",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Santa Claus performed respectably against Link in the Christmas bonus despite never being treated as a real upset threat. The writeup uses the match to argue for a future contest that allows broader fictional characters.",
+    "headline": "Santa holds up respectably against Link in the bonus",
+    "tags": [
+      "bonus",
+      "broad-spectrum"
+    ]
+  },
+  {
+    "poll": 4510,
+    "contest": "Rivalry",
+    "round": "Round One",
+    "division": "North",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Mario and Bowser opened the rivalry contest with the expected blowout, but the writeup focuses on the embarrassingly low turnout even for a marquee Nintendo pairing. It blames the contest format rather than overall site traffic.",
+    "headline": "Mario opens with a blowout and alarming turnout",
+    "tags": [
+      "contest-opener",
+      "record",
+      "low-turnout"
+    ]
+  },
+  {
+    "poll": 4511,
+    "contest": "Rivalry",
+    "round": "Round One",
+    "division": "North",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Ike and Black Knight quickly ended a matchup that had received more pre-contest debate than the writeup thought it deserved. Conker still managed one of his better contest showings before another hopeless bracket draw.",
+    "headline": "Ike ends the Conker debate almost immediately",
+    "tags": [
+      "statement-win",
+      "bad-draw"
+    ]
+  },
+  {
+    "poll": 4512,
+    "contest": "Rivalry",
+    "round": "Round One",
+    "division": "North",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Kirby and Meta Knight turned a debated opener against Jill and Nemesis into a rout. The writeup remembers the match mostly for a disastrous guru pick and for how quickly the supposed uncertainty vanished.",
+    "headline": "Kirby and Meta Knight punish a risky guru pick",
+    "tags": [
+      "guru-buster",
+      "statement-win"
+    ]
+  },
+  {
+    "poll": 4513,
+    "contest": "Rivalry",
+    "round": "Round One",
+    "division": "North",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Sonic and Robotnik dominated as expected, but the Catherine pairing still produced a respectable showing for such a niche Atlus entry. The writeup treats that result as a small feel-good story rather than a competitive threat.",
+    "headline": "The Catherine pair earns a respectable niche showing",
+    "tags": [
+      "niche-success",
+      "statement-loss"
+    ]
+  },
+  {
+    "poll": 4514,
+    "contest": "Rivalry",
+    "round": "Round One",
+    "division": "Northeast",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Mega Man X and Zero produced one of the strongest opening-round performances and validated the guru effort that had helped nominate them. The writeup also considers them one of the bracket's genuinely strong rivalries.",
+    "headline": "Mega Man X and Zero validate their guru nomination",
+    "tags": [
+      "guru-nomination",
+      "statement-win",
+      "rivalry"
+    ]
+  },
+  {
+    "poll": 4515,
+    "contest": "Rivalry",
+    "round": "Round One",
+    "division": "Northeast",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Bartz and Gilgamesh comfortably advanced while the writeup again complains that Guybrush keeps receiving nominations despite repeated weak contest performances. The match itself produced little suspense.",
+    "headline": "Bartz and Gilgamesh expose Guybrush again",
+    "tags": [
+      "guybrush-decline",
+      "low-drama"
+    ]
+  },
+  {
+    "poll": 4516,
+    "contest": "Rivalry",
+    "round": "Round One",
+    "division": "Northeast",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Donkey Kong and King K. Rool settled a heavily debated matchup quickly, with the writeup crediting K. Rool as a genuinely liked partner while Rodrigo Borgia dragged down Ezio's side. The result becomes an example of rivalry quality overcoming a stronger individual character.",
+    "headline": "King K. Rool helps Donkey Kong erase the Ezio debate",
+    "tags": [
+      "rivalry-strength",
+      "anchor-effect",
+      "statement-win"
+    ]
+  },
+  {
+    "poll": 4517,
+    "contest": "Rivalry",
+    "round": "Round One",
+    "division": "Northeast",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Sub-Zero and Scorpion won comfortably, while the writeup spends most of its match analysis arguing that Leon and Ada were never a real rivalry. The result is presented as another failure of the bracket's rivalry concept.",
+    "headline": "The Mortal Kombat pair exposes a weak rivalry concept",
+    "tags": [
+      "rivalry-mismatch",
+      "statement-win"
+    ]
+  },
+  {
+    "poll": 4518,
+    "contest": "Rivalry",
+    "round": "Round One",
+    "division": "East",
+    "voting_anomalies": [
+      "pic_factor"
+    ],
+    "anomaly_note": "The writeup says the match picture was heavily in favor of Red and Blue, giving the Pokémon trainers a clear presentation advantage over Raynor and Kerrigan.",
+    "off_topic": false,
+    "narrative": "Red and Blue still faded substantially after a huge start, which the writeup found surprising given how favorable their picture was. The showing is treated as an early hint that the trainers relied heavily on momentum.",
+    "headline": "The trainers fade despite a major picture advantage",
+    "tags": [
+      "underperformance",
+      "picture-driven",
+      "pokemon-rise"
+    ]
+  },
+  {
+    "poll": 4519,
+    "contest": "Rivalry",
+    "round": "Round One",
+    "division": "East",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Luigi and Waluigi survived what became the closest match of the contest's early rounds, while Cecil and Golbez performed far better than expected. The writeup uses the matchup as proof of how little competitive drama the format was producing.",
+    "headline": "A Waluigi match becomes the contest's early thriller",
+    "tags": [
+      "close-match",
+      "format-failure",
+      "statement-loss"
+    ]
+  },
+  {
+    "poll": 4520,
+    "contest": "Rivalry",
+    "round": "Round One",
+    "division": "East",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Ryu and Ken delivered a dominant opening that initially looked even more impressive than the Pokémon trainers' first-round result. The writeup later treats that comparison as misleading once the rest of the bracket played out.",
+    "headline": "Ryu and Ken open with a misleadingly huge statement",
+    "tags": [
+      "statement-win",
+      "hindsight-reversal"
+    ]
+  },
+  {
+    "poll": 4521,
+    "contest": "Rivalry",
+    "round": "Round One",
+    "division": "East",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Fox and Wolf beat a side built around the stronger Yuna but weakened by Seymour, which the writeup uses as another example of a balanced rivalry beating a star-and-anchor pairing. Much of the commentary also revisits the controversial match picture without claiming it changed the vote.",
+    "headline": "Fox and Wolf punish a star-and-anchor pairing",
+    "tags": [
+      "rivalry-strength",
+      "anchor-effect",
+      "picture-controversy"
+    ]
+  },
+  {
+    "poll": 4522,
+    "contest": "Rivalry",
+    "round": "Round One",
+    "division": "Southeast",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Samus and Ridley overwhelmed the joke-game pairing and gave no early indication that Ridley might later hold Samus back. The writeup treats the result as another example of how easily a strong rivalry could destroy weak opposition.",
+    "headline": "Samus and Ridley give no early warning signs",
+    "tags": [
+      "statement-win",
+      "rivalry-strength"
+    ]
+  },
+  {
+    "poll": 4523,
+    "contest": "Rivalry",
+    "round": "Round One",
+    "division": "Southeast",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Terra and Kefka produced an unexpectedly enormous blowout that the writeup celebrates as evidence that Dissidia had finally made the Final Fantasy VI cast contest-relevant. Any possible SFF against the weaker side is treated as secondary to that broader revival.",
+    "headline": "Terra and Kefka finally look contest-legitimate",
+    "tags": [
+      "dissidia-boost",
+      "statement-win",
+      "ff6-revival"
+    ]
+  },
+  {
+    "poll": 4524,
+    "contest": "Rivalry",
+    "round": "Round One",
+    "division": "Southeast",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Chris and Wesker demolished Dan and Sagat, turning a Board 8 joke-nomination success into one of the writeup's biggest disappointments of the contest. The rally discussed in the source concerns getting Dan and Sagat nominated, not match voting.",
+    "headline": "Dan and Sagat turn a nomination joke into a flop",
+    "tags": [
+      "nomination-rally",
+      "underperformance",
+      "turd-of-contest"
+    ]
+  },
+  {
+    "poll": 4525,
+    "contest": "Rivalry",
+    "round": "Round One",
+    "division": "Southeast",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Big Boss and The Boss won a heavily debated opener despite The Boss being viewed as the weak link of their pair. The writeup again blames Tidus's persistent anti-voting for preventing the Final Fantasy X rivalry from converting its individual strength.",
+    "headline": "Tidus anti-voting sinks another debatable matchup",
+    "tags": [
+      "anti-vote",
+      "rivalry-strength"
+    ]
+  },
+  {
+    "poll": 4526,
+    "contest": "Rivalry",
+    "round": "Round One",
+    "division": "South",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Link and Ganondorf opened with the expected rout, but the writeup again focuses on poor turnout and a widely disliked match picture. Neither issue is presented as threatening the result.",
+    "headline": "Link dominates amid low turnout and an ugly picture",
+    "tags": [
+      "low-turnout",
+      "statement-win",
+      "bad-picture"
+    ]
+  },
+  {
+    "poll": 4527,
+    "contest": "Rivalry",
+    "round": "Round One",
+    "division": "South",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Amaterasu and Orochi advanced despite Orochi being described as a major anchor, while Tom Nook and Crazy Redd benefited from a joke nomination campaign. The source does not describe that campaign as a match-vote rally.",
+    "headline": "Amaterasu survives an anchor against a joke-nominated pair",
+    "tags": [
+      "anchor-effect",
+      "nomination-rally",
+      "low-turnout"
+    ]
+  },
+  {
+    "poll": 4528,
+    "contest": "Rivalry",
+    "round": "Round One",
+    "division": "South",
+    "voting_anomalies": [
+      "pic_factor"
+    ],
+    "anomaly_note": "The writeup explicitly says Zidane and Kuja performed better before the match picture appeared, then dropped immediately once their unattractive Trance artwork was shown.",
+    "off_topic": false,
+    "narrative": "Zidane and Kuja won, but the writeup considers their performance terrible and directly attributes part of the weakness to the match picture. The source treats this as unusually visible evidence of picture factor.",
+    "headline": "A bad picture drags down Zidane and Kuja",
+    "tags": [
+      "underperformance",
+      "picture-driven"
+    ]
+  },
+  {
+    "poll": 4529,
+    "contest": "Rivalry",
+    "round": "Round One",
+    "division": "South",
+    "voting_anomalies": [
+      "sff"
+    ],
+    "anomaly_note": "The writeup says Banjo has faced Nintendo SFF in every contest match and treats Mega Man's Nintendo-adjacent fanbase as another case suppressing Banjo and Gruntilda.",
+    "off_topic": false,
+    "narrative": "Mega Man and Wily advanced comfortably, while the writeup laments that Banjo again received a matchup that obscured his standalone strength. The result is framed as another wasted opportunity to test Banjo fairly.",
+    "headline": "Banjo runs into another Nintendo-style SFF matchup",
+    "tags": [
+      "bad-draw",
+      "statement-win"
+    ]
+  },
+  {
+    "poll": 4530,
+    "contest": "Rivalry",
+    "round": "Round One",
+    "division": "Southwest",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Phoenix and Edgeworth finally gave Phoenix a meaningful contest win by beating a Gordon Freeman side crippled by Dr. Breen. The writeup treats the result as one of the best demonstrations that two coherent rivals could overcome one much stronger character paired with an anchor.",
+    "headline": "Phoenix finally wins by exploiting Gordon's anchor",
+    "tags": [
+      "rivalry-strength",
+      "anchor-effect",
+      "first-real-win"
+    ]
+  },
+  {
+    "poll": 4531,
+    "contest": "Rivalry",
+    "round": "Round One",
+    "division": "Southwest",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Alucard and Dracula comfortably beat a Shepard side dragged down by Saren. The writeup again uses the match to argue that a strong individual could not reliably carry an unbalanced rivalry team.",
+    "headline": "Saren's weakness drags Shepard below Alucard",
+    "tags": [
+      "anchor-effect",
+      "rivalry-strength"
+    ]
+  },
+  {
+    "poll": 4532,
+    "contest": "Rivalry",
+    "round": "Round One",
+    "division": "Southwest",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Chell and GLaDOS advanced, but the writeup found the performance difficult to interpret and weaker than expected after Portal 2's release. Most of the enthusiasm is reserved for the match picture rather than the result.",
+    "headline": "Portal advances without looking especially convincing",
+    "tags": [
+      "underperformance",
+      "picture-praise"
+    ]
+  },
+  {
+    "poll": 4533,
+    "contest": "Rivalry",
+    "round": "Round One",
+    "division": "Southwest",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Frog and Magus advanced but looked weak enough to keep the Southwest wide open. The writeup notes that Raiden and Vamp had shown some legitimacy in the vote-ins and treats the next Portal matchup as genuinely uncertain.",
+    "headline": "Frog and Magus advance without seizing the division",
+    "tags": [
+      "underperformance",
+      "division-race"
+    ]
+  },
+  {
+    "poll": 4534,
+    "contest": "Rivalry",
+    "round": "Round One",
+    "division": "West",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Cloud and Sephiroth won easily, but the writeup considers their showing shockingly weak for a top pairing and immediately writes off their chances against Link. The broader explanation is growing anti-Final-Fantasy-VII voting.",
+    "headline": "Cloud and Sephiroth fire a major warning salvo",
+    "tags": [
+      "underperformance",
+      "anti-vote",
+      "warning-sign"
+    ]
+  },
+  {
+    "poll": 4535,
+    "contest": "Rivalry",
+    "round": "Round One",
+    "division": "West",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Kratos and Zeus advanced without difficulty, though the writeup notes Kratos's characteristically poor board vote. The bracket placement made the result largely irrelevant beyond that observation.",
+    "headline": "Kratos advances through another low-impact matchup",
+    "tags": [
+      "anti-vote",
+      "low-drama"
+    ]
+  },
+  {
+    "poll": 4536,
+    "contest": "Rivalry",
+    "round": "Round One",
+    "division": "West",
+    "voting_anomalies": [
+      "pic_factor"
+    ],
+    "anomaly_note": "The writeup says Pac-Man was effectively guaranteed the better picture and treats his favorable classic sprite presentation as another factor making the matchup feel predetermined.",
+    "off_topic": false,
+    "narrative": "Pac-Man and Blinky advanced in a very low-turnout match that the writeup never regarded as a serious tossup despite pre-match debate. Crash's faded relevance and Pac-Man's presentation both made the result feel inevitable.",
+    "headline": "Pac-Man's picture edge helps make the matchup feel predetermined",
+    "tags": [
+      "picture-driven",
+      "low-turnout",
+      "statement-win"
+    ]
+  },
+  {
+    "poll": 4537,
+    "contest": "Rivalry",
+    "round": "Round One",
+    "division": "West",
+    "voting_anomalies": [
+      "pic_factor"
+    ],
+    "anomaly_note": "The writeup says Crono and Lavos received one of the most unbalanced picture advantages imaginable, favoring their side even though Lavos remained too large an anchor to overcome.",
+    "off_topic": false,
+    "narrative": "Snake and Liquid comfortably ended another Crono run despite the source saying Crono had a major picture advantage. The writeup treats the loss as a bleak sign that Crono's old Noble Nine strength was gone for good.",
+    "headline": "Crono loses despite a huge picture advantage",
+    "tags": [
+      "crono-decline",
+      "noble-nine-decline",
+      "picture-driven"
+    ]
+  },
+  {
+    "poll": 4538,
+    "contest": "Rivalry",
+    "round": "Round One",
+    "division": "Northwest",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Squall and Seifer advanced but looked much weaker than expected against Laharl and Mid-Boss. The writeup retrospectively treats the performance as an early warning that the next Kingdom Hearts matchup could be far more dangerous than assumed.",
+    "headline": "Squall and Seifer open with a warning salvo",
+    "tags": [
+      "underperformance",
+      "warning-sign"
+    ]
+  },
+  {
+    "poll": 4539,
+    "contest": "Rivalry",
+    "round": "Round One",
+    "division": "Northwest",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": true,
+    "narrative": "The writeup is mostly an extended defense of Ramza and Delita as genuine rivals, with only a brief note that the Soul Calibur pair advanced.",
+    "headline": "The writeup mostly defends Ramza and Delita's rivalry",
+    "tags": [
+      "rivalry-discussion"
+    ]
+  }
+]

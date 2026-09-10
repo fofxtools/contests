@@ -14,7 +14,7 @@ ini_set('display_errors', '0');
 require __DIR__ . '/lib/config.php';
 require __DIR__ . '/lib/router.php';
 require __DIR__ . '/lib/content.php';
-foreach (['contest', 'calc', 'graph', 'oracle-functions', 'paa', 'elo'] as $mod) {
+foreach (['contest', 'calc', 'graph', 'oracle-functions', 'paa', 'elo', 'board8wiki'] as $mod) {
     $p = __DIR__ . "/lib/$mod.php";
     if (is_file($p)) {
         require $p;

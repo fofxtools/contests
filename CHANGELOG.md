@@ -1,5 +1,36 @@
 # Changelog
 
+## [1.1.7] - 2026-09-10
+
+### Added
+
+- **AI Contest Summaries** (`/node/104`): a plain-language recap of every
+  GameFAQs contest, written by an AI from the Board 8 wiki's overview pages —
+  champion, tagline, a few paragraphs, and its notable matches. Also has a
+  download table of the Board 8 wiki writeups as plain Markdown (per contest or
+  all at once) for feeding into your own AI chat.
+- **AI Match Summaries** (`/node/105`): a one-line AI headline for every match
+  plus flags for the things that skewed the vote — same-fanbase (SFF) and
+  low-fanbase (LFF) factor, outside rallies, cheating claims, and picture
+  factor. Filter by contest, entrant, flag, or round; each row expands to the
+  full write-up narrative.
+- All Match Results and All Match Pictures: **Round** and **Division** columns —
+  the bracket round (Round 1 … Division Final … Final, plus Battle Royale and
+  bonus matches) and division for every match, sortable.
+- **Wayback Links** page (`/node/103`): Internet Archive copies of the old
+  contest fan sites that have since gone offline (SolarShadow, MMXCalibur, the
+  GameFAQs Contest Archives, the Porta Dei fanfiction projects), plus the
+  archived Contest Analysis Crew discussion topics.
+- A `(md)` link next to each write-up link (All Match Results / All Match
+  Pictures) and each contest's wiki link (home page), pointing at a
+  plain-Markdown copy of that Board 8 wiki page.
+
+### Changed
+
+- The old "Contest Links" page (`/node/9`) is now **Contest Resources** — a
+  clean index of the on-site tools. Its dead external links moved to the new
+  Wayback Links page.
+
 ## [1.1.6] - 2026-09-09
 
 ### Added

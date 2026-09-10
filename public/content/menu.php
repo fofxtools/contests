@@ -38,6 +38,16 @@ return json_decode(<<<'JSON'
     "children": []
    },
    {
+    "title": "AI Contest Summaries",
+    "path": "/node/104",
+    "children": []
+   },
+   {
+    "title": "AI Match Summaries",
+    "path": "/node/105",
+    "children": []
+   },
+   {
     "title": "Linear X-Stat Estimator",
     "path": "/node/53",
     "children": []
@@ -85,6 +95,11 @@ return json_decode(<<<'JSON'
    {
     "title": "Facts and Trivia",
     "path": "/node/47",
+    "children": []
+   },
+   {
+    "title": "Wayback Links",
+    "path": "/node/103",
     "children": []
    },
    {

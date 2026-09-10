@@ -1,0 +1,787 @@
+[
+  {
+    "poll": 4077,
+    "contest": "GOTD",
+    "round": "Round 1",
+    "division": "Northeast",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Metroid Prime opened the Northeast with the dominant performance expected from a divisional favorite. The writeup treats the match mainly as confirmation that the real questions would come against the stronger games later in the bracket.",
+    "headline": "Metroid Prime opens the Northeast with authority",
+    "tags": [
+      "statement-win",
+      "division-favorite"
+    ]
+  },
+  {
+    "poll": 4078,
+    "contest": "GOTD",
+    "round": "Round 1",
+    "division": "Northeast",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Devil May Cry 3 won comfortably but looked much weaker than the writeup and prediction community had expected against an unreleased-in-America Mother 3. The result made DMC3 one of the round's clearest underperformers.",
+    "headline": "Devil May Cry 3 wins but badly underperforms",
+    "tags": [
+      "underperformance",
+      "warning-sign"
+    ]
+  },
+  {
+    "poll": 4079,
+    "contest": "GOTD",
+    "round": "Round 1",
+    "division": "Northeast",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "A widely debated tossup became much less dramatic once Mega Man 9 took control early. The writeup remembers the match more for how thoroughly it punished a substantial expert lean toward the other side than for any sustained suspense.",
+    "headline": "Mega Man 9 settles a supposed tossup quickly",
+    "tags": [
+      "upset",
+      "guru-buster"
+    ]
+  },
+  {
+    "poll": 4080,
+    "contest": "GOTD",
+    "round": "Round 1",
+    "division": "Northeast",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Okami handled the match exactly as expected and continued its steady rise in GameFAQs legitimacy. The showing also sharply reduced any remaining belief in a Mega Man 9 upset next round.",
+    "headline": "Okami keeps gaining legitimacy in a routine win",
+    "tags": [
+      "okami-rise",
+      "statement-win"
+    ]
+  },
+  {
+    "poll": 4081,
+    "contest": "GOTD",
+    "round": "Round 1",
+    "division": "Northeast",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Tales of Symphonia survived a matchup where Resident Evil 5 had become a fashionable upset pick. The writeup sees the result as the beginning of a genuinely competitive lower half of the Northeast bracket.",
+    "headline": "Tales survives Resident Evil 5 and keeps the bracket open",
+    "tags": [
+      "close-match",
+      "division-race"
+    ]
+  },
+  {
+    "poll": 4082,
+    "contest": "GOTD",
+    "round": "Round 1",
+    "division": "Northeast",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "God of War produced a stable, unsurprising performance against weak opposition. Its clean result made the upcoming Tales of Symphonia matchup look more favorable for God of War than it had before the round.",
+    "headline": "God of War strengthens its case against Tales",
+    "tags": [
+      "statement-win",
+      "division-race"
+    ]
+  },
+  {
+    "poll": 4083,
+    "contest": "GOTD",
+    "round": "Round 1",
+    "division": "Northeast",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Grand Theft Auto III briefly inspired exaggerated early-match hype before settling into a much more ordinary performance. The writeup treats the final impression as further evidence that Half-Life 2 was the stronger lower-bracket threat.",
+    "headline": "Grand Theft Auto III's hot start quickly fades",
+    "tags": [
+      "early-overreaction",
+      "underperformance"
+    ]
+  },
+  {
+    "poll": 4084,
+    "contest": "GOTD",
+    "round": "Round 1",
+    "division": "Northeast",
+    "voting_anomalies": [
+      "sff"
+    ],
+    "anomaly_note": "The writeup explicitly frames Half-Life 2 versus Left 4 Dead 2 as an SFF match, with the stronger Valve title suppressing the weaker one.",
+    "off_topic": false,
+    "narrative": "Half-Life 2 looked extremely strong in an intrafran­chise matchup and became the clear favorite to emerge from the Northeast's lower half. The writeup also uses the result to fuel speculation about a later Metroid Prime comparison.",
+    "headline": "Half-Life 2 dominates its Valve sibling",
+    "tags": [
+      "statement-win",
+      "division-favorite"
+    ]
+  },
+  {
+    "poll": 4085,
+    "contest": "GOTD",
+    "round": "Round 1",
+    "division": "East",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Melee delivered one of the contest's largest blowouts and immediately framed the East as a coming Melee-versus-Brawl showdown. The writeup also treats the result as further evidence that rhythm games had collapsed on GameFAQs.",
+    "headline": "Melee opens with a historic blowout",
+    "tags": [
+      "record",
+      "statement-win",
+      "rhythm-decline"
+    ]
+  },
+  {
+    "poll": 4086,
+    "contest": "GOTD",
+    "round": "Round 1",
+    "division": "East",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Morrowind came back from a bad opening to win a close PC-versus-PC matchup that Board 8 had leaned the other way on. The writeup is especially amused that a Blizzard game lost a close contest without the expected rally magic.",
+    "headline": "Morrowind reverses Warcraft in a strange PC duel",
+    "tags": [
+      "upset",
+      "close-match",
+      "blizzard-decline"
+    ]
+  },
+  {
+    "poll": 4087,
+    "contest": "GOTD",
+    "round": "Round 1",
+    "division": "East",
+    "voting_anomalies": [
+      "sff"
+    ],
+    "anomaly_note": "The writeup explicitly calls Perfect Dark versus Conker an N64 SFF match, with the stronger shared-console title suppressing the weaker one.",
+    "off_topic": false,
+    "narrative": "Perfect Dark advanced through a matchup the writeup considered almost useless for strength analysis because of the N64 overlap. The commentary finds the presentation more memorable than the competitive result.",
+    "headline": "N64 SFF makes Perfect Dark-Conker hard to read",
+    "tags": [
+      "low-drama",
+      "format-effect"
+    ]
+  },
+  {
+    "poll": 4088,
+    "contest": "GOTD",
+    "round": "Round 1",
+    "division": "East",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Call of Duty 4 won but performed far below the enormous casual confidence placed in it. The writeup treats the showing as another clear example of GameFAQs hostility toward the Call of Duty series.",
+    "headline": "Call of Duty 4 wins and still embarrasses itself",
+    "tags": [
+      "underperformance",
+      "call-of-duty-slump",
+      "anti-vote"
+    ]
+  },
+  {
+    "poll": 4089,
+    "contest": "GOTD",
+    "round": "Round 1",
+    "division": "East",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Pokémon Diamond, Pearl and Platinum looked much weaker than expected against Metroid Fusion. The writeup treats the result as an early warning that the post-RBY Pokémon games had lost strength rather than as a fluke.",
+    "headline": "Pokémon DPP opens with a major warning sign",
+    "tags": [
+      "underperformance",
+      "pokemon-decline",
+      "warning-sign"
+    ]
+  },
+  {
+    "poll": 4090,
+    "contest": "GOTD",
+    "round": "Round 1",
+    "division": "East",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "A matchup that had attracted some Board 8 debate turned into a complete Fire Emblem rout almost immediately. The writeup treats the result as proof that wrestling games had very little contest appeal.",
+    "headline": "Fire Emblem obliterates a debated wrestling matchup",
+    "tags": [
+      "statement-win",
+      "guru-buster",
+      "sports-weakness"
+    ]
+  },
+  {
+    "poll": 4091,
+    "contest": "GOTD",
+    "round": "Round 1",
+    "division": "East",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Valkyria Chronicles survived a low-interest fodder matchup that the writeup uses to popularize the 'top option' heuristic. The match stayed relatively close on paper but generated almost no rallying or broader attention.",
+    "headline": "Valkyria Chronicles cements the top-option heuristic",
+    "tags": [
+      "top-option",
+      "low-turnout",
+      "fodder-match"
+    ]
+  },
+  {
+    "poll": 4092,
+    "contest": "GOTD",
+    "round": "Round 1",
+    "division": "East",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Brawl produced an extraordinary performance against a legitimate Mario Kart game and immediately looked at least as impressive as Melee. The writeup sees the result as the stronger opening statement in their looming divisional showdown.",
+    "headline": "Brawl answers Melee with an even stronger opening",
+    "tags": [
+      "statement-win",
+      "title-hype",
+      "smash-rivalry"
+    ]
+  },
+  {
+    "poll": 4093,
+    "contest": "GOTD",
+    "round": "Round 1",
+    "division": "Southeast",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Super Mario Galaxy's opening performance was widely read as disappointing at the time because the opposition was assumed to be very weak. The writeup emphasizes how misleading that interpretation looked once Galaxy's later strength became clear.",
+    "headline": "Galaxy's supposedly weak opener ages very differently",
+    "tags": [
+      "underperformance",
+      "hindsight-reversal"
+    ]
+  },
+  {
+    "poll": 4094,
+    "contest": "GOTD",
+    "round": "Round 1",
+    "division": "Southeast",
+    "voting_anomalies": [
+      "rally"
+    ],
+    "anomaly_note": "The writeup explicitly says 4chan rallied Pokémon Ruby/Sapphire/Emerald during the close match, contributing to the swing against Grand Theft Auto IV.",
+    "off_topic": false,
+    "narrative": "A heavily debated matchup swung sharply after the afternoon vote and outside support arrived for Pokémon. The writeup celebrates the result as another humiliation for Grand Theft Auto and as a major bracket upset.",
+    "headline": "A 4chan rally helps Pokémon RSE flip GTA IV",
+    "tags": [
+      "upset",
+      "4chan",
+      "bracket-buster"
+    ]
+  },
+  {
+    "poll": 4095,
+    "contest": "GOTD",
+    "round": "Round 1",
+    "division": "Southeast",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": true,
+    "narrative": "The writeup is mostly an extended joke about a Board 8 user's long-running Dragon Age rants, with the actual match serving mainly as the setup.",
+    "headline": "The writeup mostly turns into an Anagram comedy bit",
+    "tags": []
+  },
+  {
+    "poll": 4096,
+    "contest": "GOTD",
+    "round": "Round 1",
+    "division": "Southeast",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Twilight Princess delivered an elite-looking blowout that triggered another round of ZeldaFAQs complaints. The writeup nevertheless treats the strength shown here as genuinely important for the later Smash matchup.",
+    "headline": "Twilight Princess fuels ZeldaFAQs complaints and title hype",
+    "tags": [
+      "statement-win",
+      "zelda-dominance",
+      "title-hype"
+    ]
+  },
+  {
+    "poll": 4097,
+    "contest": "GOTD",
+    "round": "Round 1",
+    "division": "Southeast",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "BioShock's convincing opener generated immediate speculation that it could beat both Kingdom Hearts games. The writeup sees the performance as evidence that voters were taking the 'Game of the Decade' framing seriously.",
+    "headline": "BioShock opens strong and sparks Kingdom Hearts speculation",
+    "tags": [
+      "statement-win",
+      "game-of-decade-boost",
+      "title-hype"
+    ]
+  },
+  {
+    "poll": 4098,
+    "contest": "GOTD",
+    "round": "Round 1",
+    "division": "Southeast",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Kingdom Hearts II handled Halo 2 in a surprisingly trendless daytime match despite both series having strong expected afternoon behavior. The writeup considers the result poor evidence for comparing the two Kingdom Hearts games because Halo was so heavily anti-voted.",
+    "headline": "Kingdom Hearts II beats Halo without revealing much",
+    "tags": [
+      "low-drama",
+      "anti-vote"
+    ]
+  },
+  {
+    "poll": 4099,
+    "contest": "GOTD",
+    "round": "Round 1",
+    "division": "Southeast",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Modern Warfare 2 won, but Dissidia performed far better than the enormous casual confidence behind Call of Duty suggested it should. The writeup treats the result as another striking example of the site's growing anti-Call-of-Duty sentiment.",
+    "headline": "Dissidia exposes Call of Duty's GameFAQs weakness",
+    "tags": [
+      "underperformance",
+      "call-of-duty-slump",
+      "anti-vote"
+    ]
+  },
+  {
+    "poll": 4100,
+    "contest": "GOTD",
+    "round": "Round 1",
+    "division": "Southeast",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Kingdom Hearts delivered a much stronger-looking opener than its sequel had and became the clear favorite in their eventual head-to-head matchup. The writeup especially notes its powerful afternoon trend.",
+    "headline": "Kingdom Hearts seizes control of the sequel debate",
+    "tags": [
+      "statement-win",
+      "strength-debate"
+    ]
+  },
+  {
+    "poll": 4101,
+    "contest": "GOTD",
+    "round": "Round 1",
+    "division": "South",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Final Fantasy X recovered from a weak opening but still looked less imposing than a potential contest champion was expected to look. The writeup treats the early struggle as the first clear sign that FFX was vulnerable.",
+    "headline": "Final Fantasy X wins but looks vulnerable",
+    "tags": [
+      "underperformance",
+      "warning-sign",
+      "title-hype"
+    ]
+  },
+  {
+    "poll": 4102,
+    "contest": "GOTD",
+    "round": "Round 1",
+    "division": "South",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Borderlands won one of the few first-round 8/9 matches that behaved roughly as expected. The writeup uses the result mainly to reiterate that Board 8 tends to overrate the Tales series.",
+    "headline": "Borderlands restores order to a chaotic 8/9 round",
+    "tags": [
+      "statement-win",
+      "tales-weakness"
+    ]
+  },
+  {
+    "poll": 4103,
+    "contest": "GOTD",
+    "round": "Round 1",
+    "division": "South",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Golden Sun looked unexpectedly legitimate against weak but recognizable opposition. The writeup immediately turns the result into a warning for Grand Theft Auto: San Andreas in the next round.",
+    "headline": "Golden Sun looks far stronger than expected",
+    "tags": [
+      "breakout-performance",
+      "warning-sign"
+    ]
+  },
+  {
+    "poll": 4104,
+    "contest": "GOTD",
+    "round": "Round 1",
+    "division": "South",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "San Andreas produced only an average performance at exactly the wrong time, with a new Golden Sun release looming over their next matchup. The writeup treats the result as a serious blow to GTA's chances.",
+    "headline": "San Andreas fails to answer Golden Sun's challenge",
+    "tags": [
+      "underperformance",
+      "warning-sign",
+      "release-timing"
+    ]
+  },
+  {
+    "poll": 4105,
+    "contest": "GOTD",
+    "round": "Round 1",
+    "division": "South",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Knights of the Old Republic won but steadily bled strength throughout the match. The writeup sees the decline as a major warning before its projected clash with Final Fantasy IX.",
+    "headline": "KOTOR wins but bleeds away its upset case",
+    "tags": [
+      "underperformance",
+      "warning-sign"
+    ]
+  },
+  {
+    "poll": 4106,
+    "contest": "GOTD",
+    "round": "Round 1",
+    "division": "South",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Fire Emblem made a previously debated matchup with Tony Hawk look easy after its sister title had already crushed WWF No Mercy. The writeup treats the result as another rejection of sports and sports-adjacent games on the site.",
+    "headline": "Fire Emblem makes Tony Hawk look overmatched",
+    "tags": [
+      "statement-win",
+      "sports-weakness"
+    ]
+  },
+  {
+    "poll": 4107,
+    "contest": "GOTD",
+    "round": "Round 1",
+    "division": "South",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Persona 3 won a low-interest tossup that the writeup again uses to champion the 'top option' heuristic in pure fodder matches. The result mattered more for bracket psychology than for either game's strength.",
+    "headline": "Persona 3 gives the top-option rule another win",
+    "tags": [
+      "top-option",
+      "fodder-match",
+      "upset"
+    ]
+  },
+  {
+    "poll": 4108,
+    "contest": "GOTD",
+    "round": "Round 1",
+    "division": "South",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Final Fantasy IX handled Phoenix Wright comfortably but again displayed its famously weak afternoon trend. The writeup treats that pattern as an important warning for its upcoming daytime match with KOTOR.",
+    "headline": "Final Fantasy IX's day-vote weakness shows again",
+    "tags": [
+      "day-vote",
+      "warning-sign"
+    ]
+  },
+  {
+    "poll": 4109,
+    "contest": "GOTD",
+    "round": "Round 1",
+    "division": "Southwest",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Resident Evil 4 delivered the kind of emphatic opening expected from a serious title contender. The writeup argues that the 'Game of the Decade' framing may have boosted the game's already substantial respect.",
+    "headline": "Resident Evil 4 opens like a true title contender",
+    "tags": [
+      "statement-win",
+      "title-hype",
+      "game-of-decade-boost"
+    ]
+  },
+  {
+    "poll": 4110,
+    "contest": "GOTD",
+    "round": "Round 1",
+    "division": "Southwest",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Vice City performed so poorly that the writeup calls it one of the contest's biggest stinkers. The result is used as further evidence that Grand Theft Auto had become one of GameFAQs' most heavily disliked series.",
+    "headline": "Vice City delivers one of the contest's worst performances",
+    "tags": [
+      "underperformance",
+      "gta-decline",
+      "anti-vote"
+    ]
+  },
+  {
+    "poll": 4111,
+    "contest": "GOTD",
+    "round": "Round 1",
+    "division": "Southwest",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "The World Ends With You and Dead Rising produced a long, genuinely competitive match with several lead changes and a strong overnight Square push. The writeup treats the result as the real beginning of a tightly contested three-game section of the bracket.",
+    "headline": "Dead Rising survives a long TWEWY battle",
+    "tags": [
+      "close-match",
+      "division-race"
+    ]
+  },
+  {
+    "poll": 4112,
+    "contest": "GOTD",
+    "round": "Round 1",
+    "division": "Southwest",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Persona 4 advanced as expected but did not dominate enough to become a clear favorite over Dead Rising. The writeup sees the performance as mildly disappointing given Braid's presumed weakness.",
+    "headline": "Persona 4 advances without settling the next round",
+    "tags": [
+      "underperformance",
+      "division-race"
+    ]
+  },
+  {
+    "poll": 4113,
+    "contest": "GOTD",
+    "round": "Round 1",
+    "division": "Southwest",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Portal crushed a game that had performed very well in the vote-ins and immediately locked down the Southwest's lower half. The writeup sees both its cult status and recent free availability as plausible contributors to its surge.",
+    "headline": "Portal explodes into a serious divisional threat",
+    "tags": [
+      "statement-win",
+      "breakout-performance",
+      "division-favorite"
+    ]
+  },
+  {
+    "poll": 4114,
+    "contest": "GOTD",
+    "round": "Round 1",
+    "division": "Southwest",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Final Fantasy XII won but looked weak enough against Crisis Core that the writeup labels the result a Pyrrhic victory. The showing effectively made Portal the clear favorite for their later matchup.",
+    "headline": "Final Fantasy XII wins a Pyrrhic victory",
+    "tags": [
+      "underperformance",
+      "warning-sign",
+      "division-race"
+    ]
+  },
+  {
+    "poll": 4115,
+    "contest": "GOTD",
+    "round": "Round 1",
+    "division": "Southwest",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Skies of Arcadia built a huge early advantage and then spent the rest of the match steadily giving it back. The writeup remembers the percentage collapse as unusually dramatic even though Baldur's Gate II never quite completed the comeback.",
+    "headline": "Skies survives a dramatic Baldur's Gate collapse",
+    "tags": [
+      "close-match",
+      "comeback-denied",
+      "top-option"
+    ]
+  },
+  {
+    "poll": 4116,
+    "contest": "GOTD",
+    "round": "Round 1",
+    "division": "Southwest",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Mass Effect's prediction support reflected a major boost from its sequel, but the actual performance fell well short of that reputation. The writeup considers this enough to make Portal the clear lower-bracket favorite.",
+    "headline": "Mass Effect underperforms despite sequel-fueled hype",
+    "tags": [
+      "underperformance",
+      "release-boost",
+      "warning-sign"
+    ]
+  },
+  {
+    "poll": 4117,
+    "contest": "GOTD",
+    "round": "Round 1",
+    "division": "West",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Metal Gear Solid 3 won easily yet still looked weak for a top seed against a vote-in survivor. The writeup calls this an early warning for the entire Metal Gear division and for the series' contest strength.",
+    "headline": "Metal Gear Solid 3 opens with a warning sign",
+    "tags": [
+      "underperformance",
+      "mgs-decline",
+      "warning-sign"
+    ]
+  },
+  {
+    "poll": 4118,
+    "contest": "GOTD",
+    "round": "Round 1",
+    "division": "West",
+    "voting_anomalies": [
+      "rally"
+    ],
+    "anomaly_note": "The writeup says Shoryuken.com organized an effective rally for Marvel vs. Capcom 2, producing the decisive late swing against New Super Mario Bros. Wii.",
+    "off_topic": false,
+    "narrative": "A close Mario lead gradually disappeared once the fighting-game community began rallying for Marvel vs. Capcom 2. The writeup remembers the result as one of the contest's largest public rally successes and a major bracket killer.",
+    "headline": "SRK rallies Marvel past New Super Mario Bros. Wii",
+    "tags": [
+      "upset",
+      "rally-classic",
+      "bracket-buster"
+    ]
+  },
+  {
+    "poll": 4119,
+    "contest": "GOTD",
+    "round": "Round 1",
+    "division": "West",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Paper Mario looked far stronger than many pre-contest projections had suggested and immediately weakened the case for a World of Warcraft upset next round. The writeup also notes how much Katamari's old Board 8 popularity had faded.",
+    "headline": "Paper Mario looks far more legitimate than expected",
+    "tags": [
+      "statement-win",
+      "warning-sign"
+    ]
+  },
+  {
+    "poll": 4120,
+    "contest": "GOTD",
+    "round": "Round 1",
+    "division": "West",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "World of Warcraft badly underperformed against one of Nintendo's weakest contest entrants despite receiving enormous bracket confidence. The writeup treats the result as a striking demonstration of how much anti-WoW sentiment mattered on GameFAQs.",
+    "headline": "World of Warcraft collapses under massive anti-voting",
+    "tags": [
+      "underperformance",
+      "anti-vote",
+      "wow-decline"
+    ]
+  },
+  {
+    "poll": 4121,
+    "contest": "GOTD",
+    "round": "Round 1",
+    "division": "West",
+    "voting_anomalies": [
+      "pic_factor"
+    ],
+    "anomaly_note": "The writeup explicitly says Metal Gear Solid 4 had a picture disadvantage against Assassin's Creed, though it argues that the disadvantage does not fully excuse MGS4's weak showing.",
+    "off_topic": false,
+    "narrative": "Metal Gear Solid 4 won but looked substantially weaker than its 2009 form, reinforcing the emerging narrative that the entire series had declined. The writeup acknowledges the unfavorable picture while still treating the performance as poor.",
+    "headline": "Metal Gear Solid 4 underperforms despite a picture disadvantage",
+    "tags": [
+      "underperformance",
+      "mgs-decline",
+      "picture-driven"
+    ]
+  },
+  {
+    "poll": 4122,
+    "contest": "GOTD",
+    "round": "Round 1",
+    "division": "West",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Diablo II produced a notably strong opening while the other Blizzard games were struggling badly. The writeup treats it as evidence that Diablo had benefited more than its Blizzard siblings from the contest's decade framing.",
+    "headline": "Diablo II becomes Blizzard's bright spot",
+    "tags": [
+      "statement-win",
+      "blizzard-bright-spot",
+      "game-of-decade-boost"
+    ]
+  },
+  {
+    "poll": 4123,
+    "contest": "GOTD",
+    "round": "Round 1",
+    "division": "West",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Metal Gear Solid 2 looked solid enough against Banjo-Tooie that nothing in the first round hinted at its coming loss to Shadow of the Colossus. The writeup emphasizes how misleading the opening-round evidence turned out to be.",
+    "headline": "Metal Gear Solid 2 gives no warning of what comes next",
+    "tags": [
+      "statement-win",
+      "hindsight-reversal"
+    ]
+  },
+  {
+    "poll": 4124,
+    "contest": "GOTD",
+    "round": "Round 1",
+    "division": "West",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Shadow of the Colossus handled The Sims comfortably despite surprisingly weak prediction support. The writeup stresses that the result still offered almost no reason to expect the major upset waiting in the next round.",
+    "headline": "Shadow of the Colossus wins without revealing its future upset",
+    "tags": [
+      "hindsight-reversal",
+      "statement-win"
+    ]
+  },
+  {
+    "poll": 4125,
+    "contest": "GOTD",
+    "round": "Round 1",
+    "division": "Northwest",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Majora's Mask opened with a performance the writeup retrospectively identifies as championship caliber. The result is presented as the first real evidence that the supposedly secondary Zelda title could win the entire contest.",
+    "headline": "Majora's Mask opens with championship-level strength",
+    "tags": [
+      "statement-win",
+      "title-hype",
+      "champion-foreshadowing"
+    ]
+  },
+  {
+    "poll": 4126,
+    "contest": "GOTD",
+    "round": "Round 1",
+    "division": "Northwest",
+    "voting_anomalies": [
+      "sff"
+    ],
+    "anomaly_note": "The writeup explicitly calls Chrono Cross versus Dragon Quest VIII a JRPG SFF match, with the stronger shared-audience title suppressing the weaker one.",
+    "off_topic": false,
+    "narrative": "Chrono Cross delivered one of the rare first-round 8/9 results that behaved roughly as expected. The writeup mostly celebrates the absence of another bracket disaster after a long run of chaotic 8/9 matches.",
+    "headline": "Chrono Cross restores order in an SFF-tinged 8/9 match",
+    "tags": [
+      "low-drama",
+      "bracket-relief"
+    ]
+  }
+]

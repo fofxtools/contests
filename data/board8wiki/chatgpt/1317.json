@@ -1,0 +1,749 @@
+[
+  {
+    "poll": 1317,
+    "contest": "SC2K3",
+    "round": null,
+    "division": "East Division",
+    "voting_anomalies": [
+      "sff"
+    ],
+    "anomaly_note": "The writeup retrospectively identifies Aeris versus Sora as an SFF match, arguing that Sora's connection to Aeris through Kingdom Hearts made him look weaker than he would against an unrelated opponent.",
+    "off_topic": false,
+    "narrative": "Aeris handled Sora as expected and continued the pattern of outperforming her low seed. The writeup later came to view Sora's poor showing as an SFF result that understated his actual contest strength.",
+    "headline": "Aeris beats Sora in a retrospectively recognized SFF match",
+    "tags": [
+      "underseeded"
+    ]
+  },
+  {
+    "poll": 1318,
+    "contest": "SC2K3",
+    "round": null,
+    "division": "East Division",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Master Chief narrowly avoided an upset against Felix in a match the writeup says exposed intense anti-Xbox and anti-Halo sentiment. The result badly damaged Chief's pre-contest reputation despite the win.",
+    "headline": "Master Chief survives Felix amid heavy anti-Xbox sentiment",
+    "tags": [
+      "underperformance",
+      "anti-xbox"
+    ]
+  },
+  {
+    "poll": 1319,
+    "contest": "SC2K3",
+    "round": null,
+    "division": "East Division",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Zero decisively beat a Scorpion who had been heavily favored because of his surprising 2002 run. The writeup treats the result as the end of Scorpion's brief time as a serious contest threat and the start of Zero's strong career.",
+    "headline": "Zero exposes Scorpion's 2002 run as misleading",
+    "tags": [
+      "upset",
+      "breakout-performance"
+    ]
+  },
+  {
+    "poll": 1320,
+    "contest": "SC2K3",
+    "round": null,
+    "division": "East Division",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Sonic beat a badly underseeded Ken without serious trouble, though his slow start created some concern among people hoping he could challenge Cloud. The writeup ultimately viewed the performance as acceptable given Ken's strength.",
+    "headline": "Sonic handles badly underseeded Ken despite a slow start",
+    "tags": [
+      "underseeded"
+    ]
+  },
+  {
+    "poll": 1321,
+    "contest": "SC2K3",
+    "round": null,
+    "division": "South Division",
+    "voting_anomalies": [
+      "sff"
+    ],
+    "anomaly_note": "The writeup explicitly calls Mario's victory over fellow Nintendo entrant Olimar a mundane SFF beating and says SFF was in full swing during the match.",
+    "off_topic": false,
+    "narrative": "Mario opened the heavily anticipated South Division by crushing Olimar. The writeup treats the result as a routine SFF blowout that revealed little about how Mario would fare against the division's elite opposition.",
+    "headline": "Mario opens the South with a routine SFF blowout",
+    "tags": [
+      "title-favorite"
+    ]
+  },
+  {
+    "poll": 1322,
+    "contest": "SC2K3",
+    "round": null,
+    "division": "South Division",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Shadow demolished a heavily favored Wario in one of the board's largest first-round surprises. The writeup says Wario's poor match picture made supporters nervous beforehand, but treats Shadow's strength and Wario's failure as the main story.",
+    "headline": "Shadow demolishes heavily favored Wario in a major surprise",
+    "tags": [
+      "upset",
+      "breakout-performance"
+    ]
+  },
+  {
+    "poll": 1323,
+    "contest": "SC2K3",
+    "round": null,
+    "division": "South Division",
+    "voting_anomalies": [
+      "pic_factor"
+    ],
+    "anomaly_note": "The writeup says Kefka's infamous 'lettuce' match picture hurt him badly, turning what had been treated as a comfortable win into a close, contested match against Pac-Man.",
+    "off_topic": false,
+    "narrative": "Kefka survived Pac-Man after an infamous match picture badly damaged confidence in the heavily hyped newcomer. Pac-Man mounted a long comeback attempt before Kefka recovered late, while the image became a lasting Board 8 running joke.",
+    "headline": "Kefka survives Pac-Man after the infamous Lettuce Kefka picture",
+    "tags": [
+      "close-match",
+      "board-tradition",
+      "picture-controversy"
+    ]
+  },
+  {
+    "poll": 1324,
+    "contest": "SC2K3",
+    "round": null,
+    "division": "South Division",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Crono cruised past Tom Nook in a match the writeup treats as little more than a formality before the expected Mario rematch. It then spends substantial time on Nook's more memorable connection to an unrelated Board 8 user contest.",
+    "headline": "Crono cruises past Nook in an uneventful formality",
+    "tags": []
+  },
+  {
+    "poll": 1325,
+    "contest": "SC2K3",
+    "round": null,
+    "division": "South Division",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Alucard comfortably beat Bomberman while remaining less trusted than his previous contest results warranted. The writeup treats the victory as another steady step toward the much more debated Alucard-Kirby matchup.",
+    "headline": "Alucard handles Bomberman and moves toward the real fourpack test",
+    "tags": [
+      "underestimated"
+    ]
+  },
+  {
+    "poll": 1326,
+    "contest": "SC2K3",
+    "round": null,
+    "division": "South Division",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Kirby beat a heavily hyped Ramza, but the writeup considered Ramza's resistance surprisingly strong for a cult newcomer. The result ended the Ramza upset talk while raising doubts about Kirby before facing Alucard.",
+    "headline": "Kirby stops Ramza but leaves doubts before Alucard",
+    "tags": [
+      "underperformance",
+      "hype"
+    ]
+  },
+  {
+    "poll": 1327,
+    "contest": "SC2K3",
+    "round": null,
+    "division": "South Division",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Max Payne beat Gordon Freeman in a match that looked close on paper but was never seriously in doubt. The writeup remembers it chiefly as the point where the long-running 'Gordon Freeman Never Wins' joke truly took hold.",
+    "headline": "Max Payne wins as the GFNW legend takes hold",
+    "tags": [
+      "gfnw",
+      "board-tradition"
+    ]
+  },
+  {
+    "poll": 1328,
+    "contest": "SC2K3",
+    "round": null,
+    "division": "South Division",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Sephiroth crushed Raziel exactly as expected and remained one of the division's dominant favorites. The writeup's lasting historical note is that a perfect percentage prediction around this match helped inspire the Oracle Challenge.",
+    "headline": "Sephiroth crushes Raziel as the Oracle Challenge is born",
+    "tags": [
+      "board-tradition",
+      "oracle-origin"
+    ]
+  },
+  {
+    "poll": 1329,
+    "contest": "SC2K3",
+    "round": null,
+    "division": "West Division",
+    "voting_anomalies": [
+      "sff"
+    ],
+    "anomaly_note": "The writeup explicitly says Raiden was heavily SFFed by fellow Metal Gear character Solid Snake, while noting that Raiden still performed better than many expected.",
+    "off_topic": false,
+    "narrative": "Snake routed Raiden in an expected same-series mismatch. The writeup emphasizes that the result was a severe SFF beating, though Raiden retained enough support to avoid the historically extreme percentage some expected.",
+    "headline": "Snake routs Raiden in a severe same-series SFF match",
+    "tags": []
+  },
+  {
+    "poll": 1330,
+    "contest": "SC2K3",
+    "round": "Round One",
+    "division": "West Division",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Knuckles won one of the most evenly debated first-round matches after spending much of the night in a near-stalemate with Yuna. His powerful day vote then turned the close contest into a comfortable finish.",
+    "headline": "Knuckles breaks a deadlock with Yuna through the day vote",
+    "tags": [
+      "toss-up",
+      "day-vote"
+    ]
+  },
+  {
+    "poll": 1331,
+    "contest": "SC2K3",
+    "round": "Round One",
+    "division": "West Division",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Ryu demolished Duke Nukem far more convincingly than many expected. The writeup treats the performance as an overlooked warning that the supposedly obvious Dante-Ryu result in the next round was far from settled.",
+    "headline": "Ryu crushes Duke and quietly warns the Dante backers",
+    "tags": [
+      "breakout-performance"
+    ]
+  },
+  {
+    "poll": 1332,
+    "contest": "SC2K3",
+    "round": "Round One",
+    "division": "West Division",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Dante answered Ryu's impressive opener with a dominant win over Ryo Hazuki. The result restored confidence in Dante before their second-round meeting, even though the writeup retrospectively says he had been overrated.",
+    "headline": "Dante answers Ryu's strong opener with his own rout",
+    "tags": [
+      "rivalry-hype"
+    ]
+  },
+  {
+    "poll": 1333,
+    "contest": "SC2K3",
+    "round": "Round One",
+    "division": "West Division",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Donkey Kong beat Vyse as expected but did not produce the overwhelming showing supporters wanted before a possible match with Tommy Vercetti. The writeup therefore left the once-unthinkable DK upset case alive without strongly endorsing it.",
+    "headline": "Donkey Kong beats Vyse without settling the Vercetti debate",
+    "tags": [
+      "rivalry-hype"
+    ]
+  },
+  {
+    "poll": 1334,
+    "contest": "SC2K3",
+    "round": "Round One",
+    "division": "West Division",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Vercetti beat Kite but performed far below the level expected from a character once hyped to challenge Mega Man and Snake. The writeup says the result exposed his pre-contest reputation and made Donkey Kong a credible threat.",
+    "headline": "Vercetti beats Kite but sees his contender hype collapse",
+    "tags": [
+      "underperformance",
+      "overhyped"
+    ]
+  },
+  {
+    "poll": 1335,
+    "contest": "SC2K3",
+    "round": "Round One",
+    "division": "West Division",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Zelda decisively beat a Lara Croft whose reputation had already fallen sharply from her former top-seed status. The writeup frames the loss as another sign of Lara's rapid decline while Zelda benefited from intense contemporary Zelda enthusiasm.",
+    "headline": "Zelda dispatches Lara as her former star power fades",
+    "tags": [
+      "declining-icon"
+    ]
+  },
+  {
+    "poll": 1336,
+    "contest": "SC2K3",
+    "round": "Round One",
+    "division": "West Division",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Mega Man annihilated Mr. Resetti, yet the writeup remembers the performance as a strange disappointment because expectations after 2002 were even more extreme. The match closed a first round full of upsets and inflated newcomer hype.",
+    "headline": "Mega Man crushes Resetti yet somehow disappoints expectations",
+    "tags": [
+      "underperformance"
+    ]
+  },
+  {
+    "poll": 1337,
+    "contest": "SC2K3",
+    "round": null,
+    "division": "North Division",
+    "voting_anomalies": [
+      "sff"
+    ],
+    "anomaly_note": "The writeup explicitly treats Link's rout of fellow Nintendo entrant Fox as an SFF result, while arguing that the size of the win remained impressive despite the overlap.",
+    "off_topic": false,
+    "narrative": "Link opened the second round by overwhelming Fox and reinforcing his status as the contest favorite. The writeup acknowledges heavy Nintendo SFF but says the performance still looked dominant enough to keep repeat-title expectations intact.",
+    "headline": "Link overwhelms Fox despite another heavy Nintendo SFF matchup",
+    "tags": [
+      "title-favorite"
+    ]
+  },
+  {
+    "poll": 1338,
+    "contest": "SC2K3",
+    "round": null,
+    "division": "North Division",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Magus survived a dramatic Ganondorf comeback after his early lead nearly vanished during the morning vote. The razor-thin win punctured the enormous Magus-versus-Link hype even as it produced one of the contest's most memorable close matches.",
+    "headline": "Magus barely survives Ganondorf after a day-long comeback battle",
+    "tags": [
+      "close-match",
+      "comeback",
+      "hype-collapse"
+    ]
+  },
+  {
+    "poll": 1339,
+    "contest": "SC2K3",
+    "round": null,
+    "division": "North Division",
+    "voting_anomalies": [
+      "cheating_alleged"
+    ],
+    "anomaly_note": "The writeup says Squall's upset of Luigi triggered cheating accusations on a scale rivaling any match in contest history, alongside mass account suicides, trolling, and other board chaos.",
+    "off_topic": false,
+    "narrative": "Squall stunned the overwhelmingly favored Luigi and immediately turned a normal match into one of Board 8's largest explosions. The upset generated extraordinary cheating accusations and permanently changed both characters' contest reputations.",
+    "headline": "Squall shocks Luigi and triggers a historic board meltdown",
+    "tags": [
+      "upset",
+      "board-meltdown",
+      "kingdom-hearts-factor"
+    ]
+  },
+  {
+    "poll": 1340,
+    "contest": "SC2K3",
+    "round": null,
+    "division": "North Division",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Samus decisively ended the brief KOS-MOS hype created by her first-round upset of Crash. The writeup saw the win as a partial recovery from Samus's disappointing opener and as evidence that Squall was unlikely to upset her next.",
+    "headline": "Samus ends KOS-MOS hype with a decisive win",
+    "tags": []
+  },
+  {
+    "poll": 1341,
+    "contest": "SC2K3",
+    "round": null,
+    "division": "East Division",
+    "voting_anomalies": [
+      "sff"
+    ],
+    "anomaly_note": "The writeup explicitly describes Cloud's victory over fellow Final Fantasy entrant Auron as an SFF beating that overwhelmed any hoped-for reverse-SFF upset effect.",
+    "off_topic": false,
+    "narrative": "Cloud comfortably dismissed Auron in a match some had hoped could produce a same-company upset. Instead, the writeup says conventional SFF took over and strengthened the case that Cloud sat near the top of Square's hierarchy.",
+    "headline": "Cloud dismisses Auron in a straightforward Square SFF beating",
+    "tags": []
+  },
+  {
+    "poll": 1342,
+    "contest": "SC2K3",
+    "round": null,
+    "division": "East Division",
+    "voting_anomalies": [
+      "sff"
+    ],
+    "anomaly_note": "The writeup says Bowser caught Yoshi and then laid an SFF beatdown on him, overturning expectations built from an earlier favorite-Mario-character poll.",
+    "off_topic": false,
+    "narrative": "Bowser quickly erased Yoshi's brief opening lead and won a matchup most of the board had expected Yoshi to take. The writeup treats the result as both an upset of prevailing assumptions and a clear SFF performance.",
+    "headline": "Bowser overturns Yoshi expectations with an SFF victory",
+    "tags": [
+      "upset",
+      "breakout-performance"
+    ]
+  },
+  {
+    "poll": 1343,
+    "contest": "SC2K3",
+    "round": null,
+    "division": "East Division",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Aeris comfortably beat a Master Chief whose narrow escape against Felix had already destroyed most upset expectations. Chief showed some resistance after a terrible start, but the writeup treats the match mainly as another strong Aeris fourpack win.",
+    "headline": "Aeris comfortably ends Master Chief's overhyped first contest",
+    "tags": [
+      "underseeded",
+      "overhyped"
+    ]
+  },
+  {
+    "poll": 1344,
+    "contest": "SC2K3",
+    "round": null,
+    "division": "East Division",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Sonic beat Zero but looked dramatically weaker than expected as Zero steadily cut into what began as a comfortable advantage. The writeup calls it a Pyrrhic victory that effectively ended serious Sonic-over-Cloud hopes.",
+    "headline": "Sonic survives Zero but loses his remaining aura of dominance",
+    "tags": [
+      "underperformance",
+      "pyrrhic-victory"
+    ]
+  },
+  {
+    "poll": 1345,
+    "contest": "SC2K3",
+    "round": null,
+    "division": "South Division",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Mario beat Shadow but performed so poorly that the result immediately fueled Crono upset talk. The writeup speculates that a reverse-SFF effect may explain Shadow's unusually strong showing, but treats the mechanism as uncertain.",
+    "headline": "Mario beats Shadow but suddenly looks vulnerable to Crono",
+    "tags": [
+      "underperformance",
+      "rivalry-hype"
+    ]
+  },
+  {
+    "poll": 1346,
+    "contest": "SC2K3",
+    "round": null,
+    "division": "South Division",
+    "voting_anomalies": [
+      "sff"
+    ],
+    "anomaly_note": "The writeup retrospectively treats Crono's blowout of Kefka as an SFF match, while noting that Square SFF was still disputed and poorly understood at the time.",
+    "off_topic": false,
+    "narrative": "Crono obliterated a Kefka whose first-round struggle had already ended most upset expectations. The unusually severe result sparked arguments about Square SFF and set up the heavily anticipated Mario-Crono rematch.",
+    "headline": "Crono crushes Kefka as Square SFF becomes a major debate",
+    "tags": [
+      "rivalry-hype"
+    ]
+  },
+  {
+    "poll": 1347,
+    "contest": "SC2K3",
+    "round": null,
+    "division": "South Division",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Alucard won a heavily debated match with Kirby after an almost even opening. Though the final result looked close, the writeup says Alucard established control almost immediately and captured his fourpack for a second straight year.",
+    "headline": "Alucard beats Kirby and wins another surprising fourpack",
+    "tags": [
+      "upset",
+      "fourpack-win"
+    ]
+  },
+  {
+    "poll": 1348,
+    "contest": "SC2K3",
+    "round": null,
+    "division": "South Division",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Sephiroth demolished Max Payne in a match the writeup considered almost entirely predetermined. Its main significance was completing the path toward the long-awaited Mario-Crono-Sephiroth endgame in the South.",
+    "headline": "Sephiroth crushes Max Payne and completes the South's elite trio",
+    "tags": [
+      "title-favorite"
+    ]
+  },
+  {
+    "poll": 1349,
+    "contest": "SC2K3",
+    "round": null,
+    "division": "West Division",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Snake comfortably beat Knuckles in the first rematch in Character Battle history, producing little suspense because the same matchup had already ended decisively the year before. The writeup treats Knuckles as another stepping stone toward Snake's eventual Mega Man test.",
+    "headline": "Snake repeats his Knuckles win in the first Character Battle rematch",
+    "tags": [
+      "first-rematch"
+    ]
+  },
+  {
+    "poll": 1350,
+    "contest": "SC2K3",
+    "round": null,
+    "division": "West Division",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Ryu upset a Dante whom both the board and bracket field had largely treated as the obvious winner. The writeup remembers it as a surprisingly quiet upset because Ryu stayed in control and the board generated little outrage.",
+    "headline": "Ryu upsets Dante in an unexpectedly quiet result",
+    "tags": [
+      "upset"
+    ]
+  },
+  {
+    "poll": 1351,
+    "contest": "SC2K3",
+    "round": null,
+    "division": "West Division",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Vercetti and Donkey Kong traded the lead repeatedly in one of the era's best seesaw matches before Vercetti finally pulled away with the evening vote. The near-upset completed Vercetti's fall from supposed contender to obvious overhype.",
+    "headline": "Vercetti survives Donkey Kong after a classic seesaw battle",
+    "tags": [
+      "close-match",
+      "lead-changes",
+      "overhyped"
+    ]
+  },
+  {
+    "poll": 1352,
+    "contest": "SC2K3",
+    "round": null,
+    "division": "West Division",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Mega Man beat Zelda without the usual overwhelming dominance associated with his early contest career. The writeup considered the result mildly disappointing while allowing that Zelda's strength may simply have been underestimated.",
+    "headline": "Mega Man beats Zelda but finally looks merely mortal",
+    "tags": [
+      "underperformance"
+    ]
+  },
+  {
+    "poll": 1353,
+    "contest": "SC2K3",
+    "round": "North Division Semi Final",
+    "division": null,
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Link ended the once-enormous Magus upset hype with a comfortable win, though Magus still performed better than expected. The writeup leaves the reason for that overperformance unresolved, mentioning both board hype and possible sprite-picture effects without settling on either.",
+    "headline": "Link ends Magus hype despite an unexpectedly respectable showing",
+    "tags": [
+      "hype-collapse"
+    ]
+  },
+  {
+    "poll": 1354,
+    "contest": "SC2K3",
+    "round": "North Division Semi Final",
+    "division": null,
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Samus beat Squall as expected, but Squall's strong showing confirmed that his earlier Luigi upset was not a fluke. The writeup notes complaints about Samus's sprite picture but does not treat the image as a demonstrated cause of the result.",
+    "headline": "Samus beats Squall as his breakout run gains legitimacy",
+    "tags": [
+      "breakout-run"
+    ]
+  },
+  {
+    "poll": 1355,
+    "contest": "SC2K3",
+    "round": "East Division Semi Final",
+    "division": null,
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Cloud destroyed a Bowser whom much of the board had strongly supported, making the scale of the win especially striking. The writeup discusses a severe picture mismatch but stops short of attributing the result primarily to it.",
+    "headline": "Cloud crushes Bowser and sharply raises his title stock",
+    "tags": [
+      "title-favorite",
+      "breakout-performance"
+    ]
+  },
+  {
+    "poll": 1356,
+    "contest": "SC2K3",
+    "round": "East Division Semi Final",
+    "division": null,
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Sonic narrowly held off Aeris in another performance that confirmed how far he had slipped from his pre-2002 reputation. Aeris's strong resistance made an upcoming Sonic win over Cloud look extremely unlikely.",
+    "headline": "Sonic survives Aeris but looks doomed against Cloud",
+    "tags": [
+      "underperformance",
+      "declining-power"
+    ]
+  },
+  {
+    "poll": 1357,
+    "contest": "SC2K3",
+    "round": "South Division Semi Final",
+    "division": null,
+    "voting_anomalies": [
+      "rally",
+      "cheating_alleged"
+    ],
+    "anomaly_note": "The writeup describes supporters on both sides frantically rallying for votes during the late collapse of Crono's lead. It also records extensive cheating accusations around Mario's comeback, while noting that CJayC said his check found no cheating in the decisive extra period.",
+    "off_topic": false,
+    "narrative": "Mario and Crono produced an enormous rematch in which Crono appeared to have the win secured before Mario erased a late lead and survived a controversially extended poll. Rallying, cheating allegations, and the disputed timing made it one of Board 8's most controversial matches.",
+    "headline": "Mario survives Crono in a chaotic and controversial rematch",
+    "tags": [
+      "close-match",
+      "controversy",
+      "rivalry"
+    ]
+  },
+  {
+    "poll": 1358,
+    "contest": "SC2K3",
+    "round": "South Division Semi Final",
+    "division": null,
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Sephiroth dispatched Alucard in a match largely ignored because it followed the Mario-Crono controversy. The writeup mainly uses the result to strengthen Sephiroth's case before facing Mario in the divisional final.",
+    "headline": "Sephiroth handles Alucard while attention remains on Mario-Crono",
+    "tags": [
+      "title-favorite"
+    ]
+  },
+  {
+    "poll": 1359,
+    "contest": "SC2K3",
+    "round": "West Division Semi Final",
+    "division": null,
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Snake comfortably beat Ryu despite pre-match concern that his poor sprite image could hurt him. The writeup says the feared picture effect did not materialize here, though the performance did little to improve Snake's chances against Mega Man.",
+    "headline": "Snake handles Ryu despite fears over his sprite picture",
+    "tags": []
+  },
+  {
+    "poll": 1360,
+    "contest": "SC2K3",
+    "round": "West Division Semi Final",
+    "division": null,
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Mega Man demolished Vercetti and completed the collapse of the pre-contest hype that once had Vercetti winning the division. The writeup treats the match as an easy tune-up before Mega Man's real test against Snake.",
+    "headline": "Mega Man crushes Vercetti and buries his old contender hype",
+    "tags": [
+      "hype-collapse"
+    ]
+  },
+  {
+    "poll": 1361,
+    "contest": "SC2K3",
+    "round": "North Division Final",
+    "division": null,
+    "voting_anomalies": [
+      "sff"
+    ],
+    "anomaly_note": "The writeup explicitly says SFF took hold after Samus kept the opening close and later argues that Link SFFed her heavily enough to distort her apparent contest strength.",
+    "off_topic": false,
+    "narrative": "Link beat Samus in a long-awaited matchup that stayed competitive only briefly before Nintendo SFF took over. The writeup considers the result another sign of Link's dominance while arguing that Samus looked weaker than she really was.",
+    "headline": "Link beats Samus as Nintendo SFF ends the upset hope",
+    "tags": [
+      "title-favorite"
+    ]
+  },
+  {
+    "poll": 1362,
+    "contest": "SC2K3",
+    "round": "East Division Final",
+    "division": null,
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Cloud turned a briefly hopeful Sonic challenge into a devastating rout, confirming Sonic's decline and dramatically raising expectations for Cloud against Link. The writeup treats this as the point where Cloud's 2003 strength became impossible to dismiss.",
+    "headline": "Cloud destroys Sonic and ignites serious Cloud-over-Link talk",
+    "tags": [
+      "breakout-performance",
+      "title-favorite"
+    ]
+  },
+  {
+    "poll": 1363,
+    "contest": "SC2K3",
+    "round": "South Division Final",
+    "division": null,
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Sephiroth unexpectedly demolished Mario in what had been expected to resemble the previous year's Mario-Cloud classic. The result became the writeup's clearest evidence yet for a broad Kingdom Hearts-era boost to several Square characters.",
+    "headline": "Sephiroth demolishes Mario and crystallizes the Kingdom Hearts Factor",
+    "tags": [
+      "kingdom-hearts-factor",
+      "surprise-margin"
+    ]
+  },
+  {
+    "poll": 1364,
+    "contest": "SC2K3",
+    "round": "South Division Final",
+    "division": null,
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Mega Man beat Snake in a steady match that produced little drama but finally sent him back to Sephiroth for a rematch of their near-upset from 2002. The writeup treats the coming Final Four as far more interesting than the match itself.",
+    "headline": "Mega Man handles Snake and earns his Sephiroth rematch",
+    "tags": [
+      "rematch-hype"
+    ]
+  },
+  {
+    "poll": 1365,
+    "contest": "SC2K3",
+    "round": "Semi Final",
+    "division": null,
+    "voting_anomalies": [
+      "rally",
+      "cheating_alleged",
+      "pic_factor"
+    ],
+    "anomaly_note": "The writeup says both sides engaged in heavy rallying and records widespread cheating accusations, while treating those accusations as roughly symmetric blame rather than proven fraud. It also says Link's Wind Waker image versus Cloud's Kingdom Hearts image may have cost Link a small but meaningful amount of support.",
+    "off_topic": false,
+    "narrative": "Cloud shocked the contest by beating the seemingly invincible Link after taking control almost immediately and resisting the expected Zelda day-vote comeback. Heavy rallying, cheating allegations, and a disputed picture imbalance became part of the explanation for one of the contest's defining upsets.",
+    "headline": "Cloud topples Link in the contest's defining upset",
+    "tags": [
+      "historic-upset",
+      "record",
+      "title-changing"
+    ]
+  },
+  {
+    "poll": 1366,
+    "contest": "SC2K3",
+    "round": "Semi Final",
+    "division": null,
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Sephiroth dominated Mega Man in a rematch that had been nearly even one year earlier. The writeup treats the dramatic swing as some of the strongest evidence for the Kingdom Hearts Factor before the all-FF7 championship match.",
+    "headline": "Sephiroth routs Mega Man and strengthens the Kingdom Hearts case",
+    "tags": [
+      "kingdom-hearts-factor",
+      "rematch"
+    ]
+  }
+]

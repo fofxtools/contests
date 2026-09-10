@@ -1,0 +1,753 @@
+[
+  {
+    "poll": 2012,
+    "contest": "SpC2K5",
+    "round": "Triforce Division Semi Final",
+    "division": null,
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Robotnik ended Master Hand's surprise run without much trouble, but the writeup focuses on how much ground Robotnik surrendered later in the poll. That late fade made his coming match with Ganondorf look hopeless.",
+    "headline": "Robotnik ends Master Hand's run but raises new doubts",
+    "tags": [
+      "cinderella-end",
+      "underperformance"
+    ]
+  },
+  {
+    "poll": 2013,
+    "contest": "SpC2K5",
+    "round": "Mushroom Division Final",
+    "division": null,
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Bowser turned what had once looked like a possible upset spot into an easy division-clinching win. The writeup treats Ocelot's collapse as evidence that Bowser may have grown stronger since earlier contests.",
+    "headline": "Bowser routs Ocelot and cruises to the division title",
+    "tags": [
+      "division-winner",
+      "bowser-rise"
+    ]
+  },
+  {
+    "poll": 2014,
+    "contest": "SpC2K5",
+    "round": "Jenova Division Final",
+    "division": null,
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Sephiroth crushed Liquid far more thoroughly than old projections suggested, leaving the writeup struggling to explain what had happened to Liquid and the 2004 20XX group. The result reinforced Sephiroth's overwhelming status while making earlier statistics look suspect.",
+    "headline": "Sephiroth crushes Liquid and deepens the 20XX mystery",
+    "tags": [
+      "underperformance",
+      "stats-confusion"
+    ]
+  },
+  {
+    "poll": 2015,
+    "contest": "SpC2K5",
+    "round": "Ruin Division Final",
+    "division": null,
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Kefka led early, but Diablo's familiar daytime strength erased the lead and eventually turned the match into a comfortable win. The writeup celebrates Diablo's unlikely run to the Final Four after very few brackets had trusted him to get this far.",
+    "headline": "Diablo overtakes Kefka and completes an unlikely Final Four run",
+    "tags": [
+      "cinderella-run",
+      "division-winner",
+      "bracket-buster"
+    ]
+  },
+  {
+    "poll": 2016,
+    "contest": "SpC2K5",
+    "round": "Triforce Division Final",
+    "division": null,
+    "voting_anomalies": [
+      "pic_factor"
+    ],
+    "anomaly_note": "The writeup says Ganondorf dominated despite an ugly Wind Waker picture and suggests Robotnik would have looked even worse against a stronger SSBM-style Ganondorf image.",
+    "off_topic": true,
+    "narrative": "The writeup spends most of its time reviewing years of disappointing Sonic-series contest performances, using Robotnik's lopsided loss to Ganondorf as the latest example.",
+    "headline": "Robotnik's rout becomes another chapter in Sonic-series disappointment",
+    "tags": [
+      "underperformance",
+      "series-retrospective"
+    ]
+  },
+  {
+    "poll": 2017,
+    "contest": "SpC2K5",
+    "round": "Tournament Semi Final",
+    "division": null,
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Sephiroth was always expected to advance, but Bowser briefly held him even and produced a memorable exact tie at the thousand-vote mark. The writeup treats that early moment as the real legacy of an otherwise straightforward semifinal.",
+    "headline": "Bowser gives Sephiroth a legendary early tie before fading",
+    "tags": [
+      "board-moment",
+      "semifinal"
+    ]
+  },
+  {
+    "poll": 2018,
+    "contest": "SpC2K5",
+    "round": "Tournament Semi Final",
+    "division": null,
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Diablo's surprising run ended abruptly against Ganondorf, who controlled the semifinal from the start. The writeup sees the match mainly as confirmation that the expected Sephiroth-Ganondorf final was inevitable.",
+    "headline": "Ganondorf ends Diablo's surprise run without much resistance",
+    "tags": [
+      "cinderella-end",
+      "semifinal"
+    ]
+  },
+  {
+    "poll": 2019,
+    "contest": "SpC2K5",
+    "round": "Tournament Final",
+    "division": null,
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Ganondorf gave Sephiroth some resistance early, but Sephiroth pulled away and won the villains championship as expected. The writeup is more interested in why Sephiroth looked less dominant against Bowser and Ganondorf than against his earlier opponents.",
+    "headline": "Sephiroth beats Ganondorf to claim the villains championship",
+    "tags": [
+      "contest-final",
+      "champion"
+    ]
+  },
+  {
+    "poll": 2066,
+    "contest": "SC2K5",
+    "round": null,
+    "division": "Mushroom Division",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Mario opened the contest with the expected blowout, and the writeup mainly watches turnout and whether the result strengthened his case as the favorite. It also notes the Gamespot banner and the unusual ability to keep voting after the poll had technically ended.",
+    "headline": "Mario opens the contest with an emphatic win over Joanna",
+    "tags": [
+      "contest-opener",
+      "title-favorite"
+    ]
+  },
+  {
+    "poll": 2067,
+    "contest": "SC2K5",
+    "round": null,
+    "division": "Mushroom Division",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": true,
+    "narrative": "Ness's upset over CJ becomes the jumping-off point for a long discussion of the board's race arguments, representation in games, and whether Grand Theft Auto simply underperforms on GameFAQs.",
+    "headline": "Ness upsets CJ as the writeup turns to race controversy",
+    "tags": [
+      "upset",
+      "board-controversy"
+    ]
+  },
+  {
+    "poll": 2068,
+    "contest": "SC2K5",
+    "round": null,
+    "division": "Mushroom Division",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Zero beat Ryu Hayabusa comfortably in a deliberately uneventful match after the previous day's chaos. The writeup nevertheless saw Ryu's late recovery as a mild warning that Zero might be somewhat overrated.",
+    "headline": "Zero beats Ryu Hayabusa but leaves mild strength questions",
+    "tags": [
+      "underperformance"
+    ]
+  },
+  {
+    "poll": 2069,
+    "contest": "SC2K5",
+    "round": null,
+    "division": "Mushroom Division",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Lloyd never seriously risked losing, but Wesker performed much better than the writeup expected against the Tales protagonist. The result was treated as a clear Lloyd underperformance and another sign that recent statistics were hard to trust.",
+    "headline": "Lloyd beats Wesker but badly misses Board 8 expectations",
+    "tags": [
+      "underperformance",
+      "stats-confusion"
+    ]
+  },
+  {
+    "poll": 2070,
+    "contest": "SC2K5",
+    "round": null,
+    "division": "Zebes Division",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Samus demolished Yuri and strengthened the case that she could win the entire contest. The writeup treats the performance as an impressive answer to people who thought Mario should be favored in their anticipated matchup.",
+    "headline": "Samus crushes Yuri and strengthens her championship case",
+    "tags": [
+      "title-favorite",
+      "breakout-performance"
+    ]
+  },
+  {
+    "poll": 2071,
+    "contest": "SC2K5",
+    "round": null,
+    "division": "Zebes Division",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Frog survived Riku, but Riku's sustained pressure convinced the writeup that Frog's celebrated 2004 strength had been badly overstated. Instead of reinforcing Frog's reputation, the close win turned him into one of the contest's biggest statistical question marks.",
+    "headline": "Frog survives Riku but sees his old reputation collapse",
+    "tags": [
+      "underperformance",
+      "stats-collapse"
+    ]
+  },
+  {
+    "poll": 2072,
+    "contest": "SC2K5",
+    "round": null,
+    "division": "Zebes Division",
+    "voting_anomalies": [
+      "cheating_alleged"
+    ],
+    "anomaly_note": "The writeup says TRE identified numerous examples of blatant cheating coming from Yuna's side of the poll.",
+    "off_topic": false,
+    "narrative": "Ganondorf beat Yuna as expected while the writeup debated whether the result helped or hurt his standing against Auron. It also explicitly points to suspicious voting on Yuna's side.",
+    "headline": "Ganondorf beats Yuna amid strength debate and cheating claims",
+    "tags": [
+      "bracket-setup"
+    ]
+  },
+  {
+    "poll": 2073,
+    "contest": "SC2K5",
+    "round": null,
+    "division": "Zebes Division",
+    "voting_anomalies": [
+      "pic_factor"
+    ],
+    "anomaly_note": "The writeup argues that Big Boss's unrecognizable cartoon-style picture hurt him and that a recognizable Naked Snake image would have performed better against Auron.",
+    "off_topic": false,
+    "narrative": "Auron cruised past Big Boss in what the writeup treats mostly as a preview of Auron's coming match with Ganondorf. Big Boss's poor picture is singled out as a reason not to read too much into the size of the win.",
+    "headline": "Auron cruises past Big Boss as the Ganondorf matchup looms",
+    "tags": [
+      "bracket-setup"
+    ]
+  },
+  {
+    "poll": 2074,
+    "contest": "SC2K5",
+    "round": null,
+    "division": "Gear Division",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Snake predictably overwhelmed Manny, but the writeup treats Manny's appearance itself as a victory after a long Board 8 nomination campaign. Much of the discussion pushes back against claims that Snake's huge win was somehow disappointing.",
+    "headline": "Snake crushes Manny after Board 8 finally gets him in",
+    "tags": [
+      "board-campaign",
+      "debut"
+    ]
+  },
+  {
+    "poll": 2075,
+    "contest": "SC2K5",
+    "round": null,
+    "division": "Gear Division",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Zelda turned a heavily debated matchup into an easy win, badly undercutting the statistical case for Vivi. The writeup interprets the result as evidence of both Zelda's growth and the wider Nintendo boost that was becoming a major contest storyline.",
+    "headline": "Zelda crushes Vivi and undercuts the statistical case against her",
+    "tags": [
+      "nintendo-boost",
+      "x-stats-bust"
+    ]
+  },
+  {
+    "poll": 2076,
+    "contest": "SC2K5",
+    "round": null,
+    "division": "Gear Division",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Alucard beat Kratos, but Kratos's strong daytime showing made the favorite look far less convincing than expected. The writeup saw the result as a warning that Alucard was aging and would be vulnerable against Sora.",
+    "headline": "Alucard beats Kratos but looks vulnerable heading toward Sora",
+    "tags": [
+      "underperformance",
+      "debut"
+    ]
+  },
+  {
+    "poll": 2077,
+    "contest": "SC2K5",
+    "round": null,
+    "division": "Gear Division",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Sora handled Agent 47 comfortably, yet the writeup still considered the performance mediocre for the matchup. More importantly, Riku's earlier showing against Frog had already shifted the coming Sora-Alucard debate strongly toward Sora.",
+    "headline": "Sora handles Agent 47 as attention shifts to Alucard",
+    "tags": [
+      "underperformance",
+      "bracket-setup"
+    ]
+  },
+  {
+    "poll": 2078,
+    "contest": "SC2K5",
+    "round": null,
+    "division": "Dream Division",
+    "voting_anomalies": [
+      "pic_factor"
+    ],
+    "anomaly_note": "The writeup calls Cecil's Amano image one of the worst match pictures in the contest and accepts that the picture likely contributed to how badly he underperformed against Kirby.",
+    "off_topic": false,
+    "narrative": "Kirby demolished Cecil far beyond expectations and immediately looked much stronger than his seeding reputation suggested. The writeup credits both Kirby's rise and Cecil's terrible picture while treating the result as an early sign of a broad Nintendo boost.",
+    "headline": "Kirby destroys Cecil and ignites Nintendo boost talk",
+    "tags": [
+      "breakout-performance",
+      "nintendo-boost"
+    ]
+  },
+  {
+    "poll": 2079,
+    "contest": "SC2K5",
+    "round": null,
+    "division": "Dream Division",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Tidus won comfortably, but the writeup turns the King of All Cosmos into a running joke while arguing that Tidus still performed too poorly to beat Kirby. The result became another strike against Tidus's old reputation as an elite-level character.",
+    "headline": "Tidus beats the King but loses more confidence before Kirby",
+    "tags": [
+      "underperformance",
+      "running-joke"
+    ]
+  },
+  {
+    "poll": 2080,
+    "contest": "SC2K5",
+    "round": null,
+    "division": "Dream Division",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Bowser beat Chun-Li almost exactly as expected, leaving the writeup with little new information about his strength. The real focus remained the anticipated second-round showdown with Ryu.",
+    "headline": "Bowser handles Chun-Li without settling the Ryu debate",
+    "tags": [
+      "bracket-setup"
+    ]
+  },
+  {
+    "poll": 2081,
+    "contest": "SC2K5",
+    "round": null,
+    "division": "Dream Division",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Ryu beat Rikku but fell dramatically short of Board 8's expectations as his percentage kept sliding through the day. The writeup saw the performance as effectively ending the case for Ryu over Bowser before their match even arrived.",
+    "headline": "Ryu beats Rikku but badly damages his case against Bowser",
+    "tags": [
+      "underperformance",
+      "bracket-setup"
+    ]
+  },
+  {
+    "poll": 2082,
+    "contest": "SC2K5",
+    "round": null,
+    "division": "Flood Division",
+    "voting_anomalies": [
+      "pic_factor"
+    ],
+    "anomaly_note": "The writeup explicitly argues that CATS's recognizable face picture helps him perform much better than the eggplant-style image used in other contests.",
+    "off_topic": false,
+    "narrative": "Master Chief won easily enough, but CATS performed much better than expected and made the top seed look unimpressive. The writeup strongly credits CATS's recognizable face picture for helping him outperform his old numbers.",
+    "headline": "CATS overperforms again as Master Chief looks vulnerable",
+    "tags": [
+      "underperformance"
+    ]
+  },
+  {
+    "poll": 2083,
+    "contest": "SC2K5",
+    "round": null,
+    "division": "Flood Division",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Donkey Kong beat Sam Fisher in a match the writeup repeatedly calls dull. DK started above expectations but gradually gave enough back that the result offered little confidence about his next round.",
+    "headline": "Donkey Kong beats Sam Fisher in an uneventful matchup",
+    "tags": []
+  },
+  {
+    "poll": 2084,
+    "contest": "SC2K5",
+    "round": null,
+    "division": "Flood Division",
+    "voting_anomalies": [
+      "cheating_alleged"
+    ],
+    "anomaly_note": "The writeup documents extensive vote-stuffing and exploit use around both entrants, including votes removed by CJayC and admitted multi-voting by several users. It treats cheating as central to the match's final hours and aftermath.",
+    "off_topic": false,
+    "narrative": "Kefka and Vercetti produced a long, volatile comeback battle that became one of the contest's biggest Board 8 explosions. The drama was ultimately overshadowed by confirmed and alleged vote-stuffing on both sides, turning a classic close match into a major cheating controversy.",
+    "headline": "Kefka and Vercetti classic erupts into a cheating scandal",
+    "tags": [
+      "historic-match",
+      "close-match",
+      "board-explosion"
+    ]
+  },
+  {
+    "poll": 2085,
+    "contest": "SC2K5",
+    "round": null,
+    "division": "Flood Division",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Crono easily dispatched Zidane in a remarkably steady poll after the chaos of Kefka-Vercetti. The writeup mainly wonders whether shared Square support suppressed Zidane, without reaching a firm conclusion.",
+    "headline": "Crono calmly dispatches Zidane after the previous day's chaos",
+    "tags": []
+  },
+  {
+    "poll": 2086,
+    "contest": "SC2K5",
+    "round": null,
+    "division": "Devil Division",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Dante crushed Terra and quickly ended what little upset speculation had existed around the matchup. The writeup treats Terra's weakness as another example of an ensemble-cast Final Fantasy character failing to translate game popularity into contest strength.",
+    "headline": "Dante crushes Terra and ends the upset speculation quickly",
+    "tags": [
+      "underperformance"
+    ]
+  },
+  {
+    "poll": 2087,
+    "contest": "SC2K5",
+    "round": null,
+    "division": "Devil Division",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Vincent flattened Kerrigan in a match that many had overthought because of StarCraft's earlier contest success. The writeup treats Vincent's debut as a statement performance and Kerrigan's result as a major failure of Board 8 expectations.",
+    "headline": "Vincent obliterates Kerrigan in a statement contest debut",
+    "tags": [
+      "debut",
+      "breakout-performance",
+      "underperformance"
+    ]
+  },
+  {
+    "poll": 2088,
+    "contest": "SC2K5",
+    "round": null,
+    "division": "Devil Division",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Knuckles stunned a board that had essentially treated Magus as a lock and even a possible division winner. Magus led early before Knuckles's daytime strength took over, producing one of the contest's most memorable bracket-busting upsets.",
+    "headline": "Knuckles shocks Magus in a historic bracket-busting upset",
+    "tags": [
+      "upset",
+      "bracket-buster",
+      "historic-match"
+    ]
+  },
+  {
+    "poll": 2089,
+    "contest": "SC2K5",
+    "round": null,
+    "division": "Devil Division",
+    "voting_anomalies": [
+      "sff"
+    ],
+    "anomaly_note": "The writeup says Squall likely applied some SFF to Geno, a Square-created side character from Super Mario RPG, and uses that as evidence for how Squall might have treated Magus.",
+    "off_topic": false,
+    "narrative": "Squall overwhelmed Geno in a match whose main question was how much shared-fanbase suppression would appear. The result also helped frame the now-unpredictable Devil Division after Magus's upset loss.",
+    "headline": "Squall overwhelms Geno as SFF shapes the Devil Division",
+    "tags": [
+      "bracket-setup"
+    ]
+  },
+  {
+    "poll": 2090,
+    "contest": "SC2K5",
+    "round": null,
+    "division": "Chaos Division",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Sonic easily beat Jin, but Jin held up better than an unsupported newcomer was expected to. The writeup treats the result as mildly concerning for Sonic ahead of the anticipated Mega Man showdown.",
+    "headline": "Sonic beats Jin but leaves questions before Mega Man",
+    "tags": [
+      "underperformance",
+      "title-race"
+    ]
+  },
+  {
+    "poll": 2091,
+    "contest": "SC2K5",
+    "round": null,
+    "division": "Chaos Division",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Diablo beat Kratos Aurion without serious trouble and largely matched expectations from his strong villains-contest run. The writeup sees the result as a useful confirmation of Diablo's strength rather than a major storyline of its own.",
+    "headline": "Diablo handles Kratos and validates his spring performance",
+    "tags": []
+  },
+  {
+    "poll": 2092,
+    "contest": "SC2K5",
+    "round": null,
+    "division": "Chaos Division",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Tifa's long-awaited contest debut became a rout as she performed far beyond expectations against Vyse. The writeup immediately debates whether Tifa was truly elite or whether Vyse had simply been overrated for years.",
+    "headline": "Tifa crushes Vyse in a spectacular contest debut",
+    "tags": [
+      "debut",
+      "breakout-performance"
+    ]
+  },
+  {
+    "poll": 2093,
+    "contest": "SC2K5",
+    "round": null,
+    "division": "Chaos Division",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Luigi demolished KOS-MOS despite projections that had the matchup much closer. The writeup treats the result as one of the clearest early examples of the contest-wide Nintendo boost and a warning that Tifa's next match might not be easy.",
+    "headline": "Luigi routs KOS-MOS and strengthens the Nintendo boost case",
+    "tags": [
+      "breakout-performance",
+      "nintendo-boost"
+    ]
+  },
+  {
+    "poll": 2094,
+    "contest": "SC2K5",
+    "round": null,
+    "division": "20XX Division",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Mega Man crushed Conker but slipped below the performance the writeup wanted from him, giving new life to Sonic supporters. The result was treated mainly as an imperfect preview of their eventual divisional clash.",
+    "headline": "Mega Man crushes Conker but gives Sonic supporters hope",
+    "tags": [
+      "underperformance",
+      "title-race"
+    ]
+  },
+  {
+    "poll": 2095,
+    "contest": "SC2K5",
+    "round": null,
+    "division": "20XX Division",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Leon extended Gordon Freeman's famous losing streak, though Gordon once again performed better than a supposedly hopeless underdog should. The writeup turns the recurring GFNW joke into the main story of another Freeman defeat.",
+    "headline": "Leon extends Gordon Freeman's endlessly recurring losing streak",
+    "tags": [
+      "gfnw",
+      "recurring-joke"
+    ]
+  },
+  {
+    "poll": 2096,
+    "contest": "SC2K5",
+    "round": null,
+    "division": "20XX Division",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Yoshi handled Laharl almost exactly as expected in one of the first round's least eventful matches. The writeup treats it as little more than another easy Nintendo win before Yoshi's projected meeting with Mega Man.",
+    "headline": "Yoshi handles Laharl in a routine first-round mismatch",
+    "tags": []
+  },
+  {
+    "poll": 2097,
+    "contest": "SC2K5",
+    "round": null,
+    "division": "20XX Division",
+    "voting_anomalies": [
+      "pic_factor"
+    ],
+    "anomaly_note": "The writeup argues that Ocelot's faded old-man picture hurt him in the close loss and says a recognizable in-game Metal Gear image likely would have improved his performance enough to win.",
+    "off_topic": false,
+    "narrative": "Pac-Man upset heavily favored Ocelot in a close first-round finale that eliminated the remaining perfect brackets. The writeup celebrates Pac-Man's overdue major win while blaming Ocelot's poor picture for at least part of the upset.",
+    "headline": "Pac-Man shocks Ocelot and wipes out the perfect brackets",
+    "tags": [
+      "upset",
+      "bracket-buster",
+      "perfects-ended"
+    ]
+  },
+  {
+    "poll": 2098,
+    "contest": "SC2K5",
+    "round": "Mushroom Division Semi Final",
+    "division": null,
+    "voting_anomalies": [
+      "sff"
+    ],
+    "anomaly_note": "The writeup explicitly says Mario SFFed Ness and argues that the suppression was even stronger than prior same-fanbase results involving Ness.",
+    "off_topic": false,
+    "narrative": "Mario annihilated Ness in a result the writeup treats as an extreme SFF beating. The performance strengthened Mario's championship case while making Ness's earlier upset over CJ look even stranger statistically.",
+    "headline": "Mario obliterates Ness with exceptionally strong SFF",
+    "tags": [
+      "title-favorite"
+    ]
+  },
+  {
+    "poll": 2099,
+    "contest": "SC2K5",
+    "round": "Mushroom Division Semi Final",
+    "division": null,
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Zero dispatched Lloyd exactly as the bracket had seemed to prescribe from the start. The writeup mainly uses the match to reassess Lloyd's place among Tales characters and to leave Zero's real test for Mario.",
+    "headline": "Zero dispatches Lloyd and advances toward the inevitable Mario test",
+    "tags": [
+      "bracket-setup"
+    ]
+  },
+  {
+    "poll": 2100,
+    "contest": "SC2K5",
+    "round": "Zebes Division Semi Final",
+    "division": null,
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Samus demolished Frog and erased the mystique built by Frog's string of close 2004 matches. The writeup treats the rout as another sign that Frog had been badly overrated and as strong evidence that Samus remained a championship threat.",
+    "headline": "Samus demolishes Frog and shatters his old contest mystique",
+    "tags": [
+      "underperformance",
+      "title-favorite"
+    ]
+  },
+  {
+    "poll": 2101,
+    "contest": "SC2K5",
+    "round": "Zebes Division Semi Final",
+    "division": null,
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Ganondorf beat Auron more comfortably than the pre-match debate suggested, turning the first match of the much-hyped Gauntlet into an anticlimax. The writeup still credits Auron with legitimate strength while sending Ganondorf onward to Samus.",
+    "headline": "Ganondorf beats Auron as the hyped Gauntlet starts flat",
+    "tags": [
+      "gauntlet",
+      "title-race"
+    ]
+  },
+  {
+    "poll": 2102,
+    "contest": "SC2K5",
+    "round": "Gear Division Semi Final",
+    "division": null,
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Snake quickly dismantled a Zelda upset bandwagon that had grown from mismatched old statistics and concern over his ugly picture. The writeup treats the match as another example of Board 8 talking itself into a close contest that never materialized.",
+    "headline": "Snake crushes the Zelda bandwagon in another Gauntlet dud",
+    "tags": [
+      "gauntlet",
+      "bandwagon-bust"
+    ]
+  },
+  {
+    "poll": 2103,
+    "contest": "SC2K5",
+    "round": "Gear Division Semi Final",
+    "division": null,
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Sora turned one of the contest's most debated statistical matchups into a clear win over Alucard. The writeup argues that recent Kingdom Hearts momentum and Alucard's stagnation mattered far more than the old x-stats.",
+    "headline": "Sora beats Alucard and delivers another blow to x-stats",
+    "tags": [
+      "gauntlet",
+      "x-stats-bust"
+    ]
+  },
+  {
+    "poll": 2104,
+    "contest": "SC2K5",
+    "round": "Dream Division Semi Final",
+    "division": null,
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Kirby decisively beat Tidus after the board had once treated Tidus as the overwhelming favorite. The writeup sees the result as both a major Kirby validation and another humiliation in Tidus's long decline from his 2003 reputation.",
+    "headline": "Kirby crushes Tidus and completes a dramatic expectations reversal",
+    "tags": [
+      "gauntlet",
+      "upset",
+      "underperformance"
+    ]
+  },
+  {
+    "poll": 2105,
+    "contest": "SC2K5",
+    "round": "Dream Division Semi Final",
+    "division": null,
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Bowser beat Ryu without the close fight that had once made the matchup a major bracket debate. The writeup treats the anticlimax as one more piece of evidence for a site-wide Nintendo boost and another failure of the Gauntlet hype.",
+    "headline": "Bowser handles Ryu as the Gauntlet ends anticlimactically",
+    "tags": [
+      "gauntlet",
+      "nintendo-boost"
+    ]
+  },
+  {
+    "poll": 2106,
+    "contest": "SC2K5",
+    "round": "Flood Division Semi Final",
+    "division": null,
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Donkey Kong unexpectedly built a substantial lead, only for Master Chief's daytime strength to erase it and carry him past DK. The writeup remembers the match as a rare surprise after the failed Gauntlet and as a record-setting comeback and vote swing.",
+    "headline": "Master Chief erases Donkey Kong's lead in a record comeback",
+    "tags": [
+      "comeback",
+      "record",
+      "close-match"
+    ]
+  },
+  {
+    "poll": 2107,
+    "contest": "SC2K5",
+    "round": "Flood Division Semi Final",
+    "division": null,
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Crono easily disposed of Vercetti in a quiet follow-up to the chaos required for Vercetti to reach him. The writeup treats the match mainly as confirmation that Crono still belonged among the contest's elite characters.",
+    "headline": "Crono dispatches Vercetti and confirms his elite standing",
+    "tags": []
+  }
+]

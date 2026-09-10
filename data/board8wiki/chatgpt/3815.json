@@ -1,0 +1,790 @@
+[
+  {
+    "poll": 3815,
+    "contest": "CB VIII",
+    "round": null,
+    "division": "Midgar Division",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Captain Falcon finally received a clean 1v1 opportunity after years of bad Nintendo-heavy draws and used it to beat Riku convincingly. The writeup treats the result as both Falcon validation and another sign of Kingdom Hearts decline.",
+    "headline": "Captain Falcon validates himself as Kingdom Hearts slips",
+    "tags": [
+      "breakout-performance",
+      "kingdom-hearts-decline"
+    ]
+  },
+  {
+    "poll": 3816,
+    "contest": "CB VIII",
+    "round": null,
+    "division": "Midgar Division",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Leon handled Sackboy without much difficulty, but the writeup thought Leon still looked slightly off compared with expectations. That muted performance ended most remaining hype for him upsetting the Ryu-Dante winner.",
+    "headline": "Leon advances but loses his upset hype",
+    "tags": [
+      "underperformance",
+      "warning-sign"
+    ]
+  },
+  {
+    "poll": 3817,
+    "contest": "CB VIII",
+    "round": null,
+    "division": "Midgar Division",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": true,
+    "narrative": "Most of the writeup recounts the Canada-USA Olympic hockey final, then uses the game to explain the 'Hockey Factor': Dante improved while North American voters were occupied, before Ryu recovered after the game ended.",
+    "headline": "Olympic hockey creates the memorable Hockey Factor",
+    "tags": [
+      "hockey-factor",
+      "close-match",
+      "comeback"
+    ]
+  },
+  {
+    "poll": 3818,
+    "contest": "CB VIII",
+    "round": null,
+    "division": "Gear Division",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Snake again started poorly with the board vote before recovering into a solid win. The writeup finds Fox a difficult measuring stick because so many of his prior losses involved Nintendo overlap.",
+    "headline": "Snake shrugs off another weak board vote",
+    "tags": [
+      "warning-sign",
+      "statement-win"
+    ]
+  },
+  {
+    "poll": 3819,
+    "contest": "CB VIII",
+    "round": null,
+    "division": "Gear Division",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Pikachu won without the dramatic daytime surge often associated with Pokémon, while Shepard continued his enormous improvement after Mass Effect 2. The writeup treats Shepard's respectable loss as one of the more impressive growth stories in the field.",
+    "headline": "Shepard's Mass Effect 2 boost survives a Pikachu test",
+    "tags": [
+      "release-boost",
+      "breakout-performance",
+      "pokemon-rise"
+    ]
+  },
+  {
+    "poll": 3820,
+    "contest": "CB VIII",
+    "round": null,
+    "division": "Gear Division",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Auron won about as comfortably as expected, which the writeup saw as insufficient evidence for an upset of Squall. Zero's respectable showing instead reinforced the idea that his recent weakness had been exaggerated by bad Nintendo-heavy draws.",
+    "headline": "Auron meets expectations while Zero restores some credibility",
+    "tags": [
+      "strength-debate",
+      "zero-rebound"
+    ]
+  },
+  {
+    "poll": 3821,
+    "contest": "CB VIII",
+    "round": null,
+    "division": "Gear Division",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Squall won comfortably but looked surprisingly weak against Terra despite his history of crushing lesser Final Fantasy characters. The result reopened doubts about whether Squall was safely above Auron.",
+    "headline": "Terra makes Squall look unexpectedly vulnerable",
+    "tags": [
+      "underperformance",
+      "strength-debate",
+      "warning-sign"
+    ]
+  },
+  {
+    "poll": 3822,
+    "contest": "CB VIII",
+    "round": null,
+    "division": "Jenova Division",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Sephiroth failed to suppress Vincent nearly as hard as expected, and the writeup explicitly rejects ordinary SFF as a sufficient explanation. It instead frames the result as evidence that severe anti-voting had become a structural weakness for Sephiroth and Final Fantasy VII.",
+    "headline": "Vincent exposes Sephiroth's growing anti-vote problem",
+    "tags": [
+      "anti-vote",
+      "underperformance",
+      "warning-sign"
+    ]
+  },
+  {
+    "poll": 3823,
+    "contest": "CB VIII",
+    "round": null,
+    "division": "Jenova Division",
+    "voting_anomalies": [
+      "rally"
+    ],
+    "anomaly_note": "The writeup says rallying aided Missingno's decisive sequence of afternoon gains against Yoshi, while also stressing that rallying was not the main reason Missingno won.",
+    "off_topic": false,
+    "narrative": "Yoshi resisted the Missingno bandwagon far better than expected and held the lead for hours, but Missingno eventually broke through during the Pokémon afternoon vote. The writeup insists the win reflected legitimate strength more than a joke rally.",
+    "headline": "Missingno rallies past Yoshi but wins on real strength",
+    "tags": [
+      "close-match",
+      "pokemon-rise",
+      "bandwagon"
+    ]
+  },
+  {
+    "poll": 3824,
+    "contest": "CB VIII",
+    "round": null,
+    "division": "Jenova Division",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Big Daddy overcame an early Ness lead and turned a close start into a comfortable advancement. The writeup highlights the striking contrast in their match picture but does not claim the image decided the result.",
+    "headline": "Big Daddy overcomes Ness after a close opening",
+    "tags": [
+      "upset",
+      "close-match",
+      "low-seed-run"
+    ]
+  },
+  {
+    "poll": 3825,
+    "contest": "CB VIII",
+    "round": null,
+    "division": "Jenova Division",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Tifa ended Gordon Freeman's run in a match the writeup viewed as predictable after Gordon nearly lost to Peach. Gordon's weak showing also undercut the significance of his recent outside-contest success.",
+    "headline": "Tifa ends Gordon Freeman's revived hype",
+    "tags": [
+      "statement-win",
+      "underperformance"
+    ]
+  },
+  {
+    "poll": 3826,
+    "contest": "CB VIII",
+    "round": "Hyrule Division Semifinal",
+    "division": null,
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Link advanced comfortably, but the writeup regarded the result as another slightly weak showing by his historical standards. Mega Man X's performance kept alive the possibility that Link had lost a little of his old invincibility.",
+    "headline": "Link advances while Mega Man X raises another question",
+    "tags": [
+      "warning-sign",
+      "strength-debate"
+    ]
+  },
+  {
+    "poll": 3827,
+    "contest": "CB VIII",
+    "round": "Hyrule Division Semifinal",
+    "division": null,
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Luigi eliminated Weighted Companion Cube without any sign of the old joke-character surge. The writeup treats the loss as further proof that the Cube was now operating on ordinary strength rather than a bandwagon.",
+    "headline": "Luigi extinguishes the Cube's remaining joke hype",
+    "tags": [
+      "joke-character",
+      "decline",
+      "statement-win"
+    ]
+  },
+  {
+    "poll": 3828,
+    "contest": "CB VIII",
+    "round": "Chaos Division Semifinal",
+    "division": null,
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Years of Ganondorf-over-Sonic upset hype collapsed when Sonic controlled the match from the start. The writeup treats the result as a major correction to the idea that four-way contests had revealed Sonic to be much weaker.",
+    "headline": "Sonic crushes years of Ganondorf upset hype",
+    "tags": [
+      "statement-win",
+      "hype-collapse",
+      "noble-nine"
+    ]
+  },
+  {
+    "poll": 3829,
+    "contest": "CB VIII",
+    "round": "Chaos Division Semifinal",
+    "division": null,
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Kirby beat Vivi without difficulty, but failed to look strong enough to preserve serious hopes of upsetting Sonic. The writeup treats Kirby's old four-way bandwagon strength as clearly gone.",
+    "headline": "Kirby advances but his Sonic case disappears",
+    "tags": [
+      "underperformance",
+      "warning-sign",
+      "bandwagon-fade"
+    ]
+  },
+  {
+    "poll": 3830,
+    "contest": "CB VIII",
+    "round": "Mushroom Division Semifinal",
+    "division": null,
+    "voting_anomalies": [
+      "sff"
+    ],
+    "anomaly_note": "The writeup explicitly calls Mario's win over fellow Nintendo entrant Ike a total SFF beating.",
+    "off_topic": false,
+    "narrative": "Mario crushed Ike in a result the writeup considered inevitable once they met. The scale of the Nintendo suppression made the matchup effectively noncompetitive.",
+    "headline": "Mario buries Ike with total Nintendo SFF",
+    "tags": [
+      "statement-win"
+    ]
+  },
+  {
+    "poll": 3831,
+    "contest": "CB VIII",
+    "round": "Mushroom Division Semifinal",
+    "division": null,
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Mega Man produced a third straight performance far above the writeup's expectations and overwhelmed Ryu Hayabusa. Rather than settling on SFF or picture factor, the writeup treats the streak itself as proof that Mega Man had returned near his old strength.",
+    "headline": "Mega Man's rebound becomes impossible to dismiss",
+    "tags": [
+      "mega-man-rebound",
+      "statement-win"
+    ]
+  },
+  {
+    "poll": 3832,
+    "contest": "CB VIII",
+    "round": "Heart Division Semifinal",
+    "division": null,
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Bowser completed a bracket-busting upset that had become increasingly predictable after Sora's poor first two rounds. The writeup treats the loss as the clearest sign yet that Kingdom Hearts had fallen sharply.",
+    "headline": "Bowser eliminates Sora and deepens Kingdom Hearts decline",
+    "tags": [
+      "upset",
+      "bracket-buster",
+      "kingdom-hearts-decline"
+    ]
+  },
+  {
+    "poll": 3833,
+    "contest": "CB VIII",
+    "round": "Heart Division Semifinal",
+    "division": null,
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Charizard decisively eliminated former champion L-Block in what the writeup frames as a literal changing of the guard between two bandwagon-friendly entrants. L-Block's long decline was now impossible to miss.",
+    "headline": "Charizard replaces L-Block as the new bandwagon star",
+    "tags": [
+      "charizard-run",
+      "former-champion",
+      "changing-guard"
+    ]
+  },
+  {
+    "poll": 3834,
+    "contest": "CB VIII",
+    "round": "Varia Division Semifinal",
+    "division": null,
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Samus crushed Sub-Zero and briefly looked strong enough to challenge even Cloud's level. Although she cooled from that early pace, the writeup still considers the result one of her strongest performances.",
+    "headline": "Samus posts another elite-looking performance",
+    "tags": [
+      "statement-win",
+      "title-hype"
+    ]
+  },
+  {
+    "poll": 3835,
+    "contest": "CB VIII",
+    "round": "Varia Division Semifinal",
+    "division": null,
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Zelda advanced as expected, but Jecht performed much better than his prior results suggested and ignored the usual daytime trend expectations. The writeup suspects the contemporaneous Final Fantasy release helped explain the odd showing.",
+    "headline": "Jecht surprises Zelda on Final Fantasy release day",
+    "tags": [
+      "release-day",
+      "underperformance"
+    ]
+  },
+  {
+    "poll": 3836,
+    "contest": "CB VIII",
+    "round": "Midgar Division Semifinal",
+    "division": null,
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Cloud won comfortably, but Captain Falcon still performed better than several much more established characters had managed against him. The writeup treats Falcon's showing as further evidence that Cloud had weakened.",
+    "headline": "Captain Falcon adds to the evidence of Cloud decline",
+    "tags": [
+      "cloud-decline",
+      "statement-loss"
+    ]
+  },
+  {
+    "poll": 3837,
+    "contest": "CB VIII",
+    "round": "Midgar Division Semifinal",
+    "division": null,
+    "voting_anomalies": [
+      "pic_factor"
+    ],
+    "anomaly_note": "The writeup says Leon's ugly Resident Evil: Gaiden sprite hurt his chances and suggests the matchup might have been different with more even pictures.",
+    "off_topic": false,
+    "narrative": "Ryu won clearly, but Leon resisted far better than the disastrous sprite led people to expect and even held up well during his preferred daytime period. The writeup leaves open whether a fairer picture could have made the match significantly closer.",
+    "headline": "Leon survives an awful sprite but Ryu advances",
+    "tags": [
+      "picture-driven",
+      "statement-loss"
+    ]
+  },
+  {
+    "poll": 3838,
+    "contest": "CB VIII",
+    "round": "Gear Division Semifinal",
+    "division": null,
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Pikachu briefly led Snake behind a strong opening vote before Snake finally took control and pulled away. The writeup remembers the opening as entertaining but ultimately sees Snake's recovery as convincing.",
+    "headline": "Pikachu scares Snake before Snake takes control",
+    "tags": [
+      "early-surge",
+      "statement-win"
+    ]
+  },
+  {
+    "poll": 3839,
+    "contest": "CB VIII",
+    "round": "Gear Division Semifinal",
+    "division": null,
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Squall settled a long-running near-elite debate by beating Auron in a match that finished close but was rarely in serious doubt after the opening exchanges. The writeup treats Squall as clearly the stronger of the two.",
+    "headline": "Squall settles the Auron strength debate",
+    "tags": [
+      "close-match",
+      "strength-debate"
+    ]
+  },
+  {
+    "poll": 3840,
+    "contest": "CB VIII",
+    "round": "Jenova Division Semifinal",
+    "division": null,
+    "voting_anomalies": [
+      "rally"
+    ],
+    "anomaly_note": "The writeup says Missingno's rallying was organized in advance and powered a substantial early lead, though the push was nowhere near enough to survive Sephiroth's overnight strength.",
+    "off_topic": false,
+    "narrative": "Missingno built the expected early lead through bandwagon support, but Sephiroth erased it decisively once the night vote arrived. The writeup treats the loss as the end of Missingno's remarkable run and as fuel for even more anti-Sephiroth sentiment.",
+    "headline": "Missingno's planned rally collapses against Sephiroth",
+    "tags": [
+      "bandwagon",
+      "comeback",
+      "run-ends"
+    ]
+  },
+  {
+    "poll": 3841,
+    "contest": "CB VIII",
+    "round": "Jenova Division Semifinal",
+    "division": null,
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Tifa beat Big Daddy, but the writeup thought she looked oddly weak compared with her prior performance. It attributes the flat showing to backlash from Missingno supporters after Sephiroth had eliminated their favorite.",
+    "headline": "Tifa advances through apparent Missingno backlash",
+    "tags": [
+      "backlash",
+      "underperformance"
+    ]
+  },
+  {
+    "poll": 3842,
+    "contest": "CB VIII",
+    "round": "Hyrule Division Final",
+    "division": null,
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Link finally produced the dominant performance the writeup had been waiting for and overwhelmed Luigi. The result largely erased doubts created by Link's earlier, more ordinary-looking matches.",
+    "headline": "Link returns to godslayer form against Luigi",
+    "tags": [
+      "statement-win",
+      "title-hype"
+    ]
+  },
+  {
+    "poll": 3843,
+    "contest": "CB VIII",
+    "round": "Chaos Division Final",
+    "division": null,
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Sonic beat Kirby comfortably and completed the collapse of years of hype that Ganondorf or Kirby might break the Noble Nine through him. The writeup treats Sonic as restored to roughly his traditional place.",
+    "headline": "Sonic shuts down the Kirby upset case",
+    "tags": [
+      "statement-win",
+      "hype-collapse",
+      "noble-nine"
+    ]
+  },
+  {
+    "poll": 3844,
+    "contest": "CB VIII",
+    "round": "Mushroom Division Final",
+    "division": null,
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Mega Man's excellent run made the divisional final look more interesting than it had pre-contest, but Mario still won as expected. The writeup treats the result as another example of Mario resisting would-be upsets regardless of surrounding form.",
+    "headline": "Mario stops Mega Man's comeback to elite form",
+    "tags": [
+      "mega-man-rebound",
+      "statement-win"
+    ]
+  },
+  {
+    "poll": 3845,
+    "contest": "CB VIII",
+    "round": "Heart Division Final",
+    "division": null,
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Charizard upset Bowser on the release day of Pokémon HeartGold and SoulSilver, which the writeup treats as exceptionally favorable timing for the Pokémon bandwagon. The convincing win completed one of the bracket's least likely divisional runs.",
+    "headline": "HeartGold and SoulSilver timing powers Charizard past Bowser",
+    "tags": [
+      "upset",
+      "release-day",
+      "charizard-run"
+    ]
+  },
+  {
+    "poll": 3846,
+    "contest": "CB VIII",
+    "round": "Varia Division Final",
+    "division": null,
+    "voting_anomalies": [
+      "sff"
+    ],
+    "anomaly_note": "The writeup says Samus appears to have SFFed Zelda, contributing to a much stronger result than their earlier 1v1 history suggested.",
+    "off_topic": false,
+    "narrative": "Samus beat Zelda far more decisively than their previous meeting suggested was normal. The writeup sees a mix of Zelda decline and newly visible Nintendo suppression from Samus, further strengthening Samus's case against Cloud.",
+    "headline": "Samus SFFs Zelda and strengthens her Cloud case",
+    "tags": [
+      "statement-win",
+      "title-hype"
+    ]
+  },
+  {
+    "poll": 3847,
+    "contest": "CB VIII",
+    "round": "Midgar Division Final",
+    "division": null,
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Cloud produced one of his strongest matches of the contest by overwhelming the usually consistent Ryu. The writeup treats it as a much-needed reminder that Cloud remained elite despite visible decline elsewhere.",
+    "headline": "Cloud delivers his strongest-looking performance against Ryu",
+    "tags": [
+      "statement-win",
+      "cloud-decline"
+    ]
+  },
+  {
+    "poll": 3848,
+    "contest": "CB VIII",
+    "round": "Gear Division Final",
+    "division": null,
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Snake improved again against Squall in their latest rematch and looked strong throughout. The writeup treats the result as the point where a Snake upset of Sephiroth became the dominant expectation.",
+    "headline": "Snake strengthens again and turns Sephiroth into the underdog",
+    "tags": [
+      "rematch",
+      "title-hype",
+      "statement-win"
+    ]
+  },
+  {
+    "poll": 3849,
+    "contest": "CB VIII",
+    "round": "Jenova Division Final",
+    "division": null,
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Sephiroth struggled badly against Tifa in what the writeup calls his worst performance, framing the weakness as extreme anti-voting magnified by anger over Missingno's elimination. The result effectively ended confidence in Sephiroth beating Snake.",
+    "headline": "Tifa exposes Sephiroth's anti-vote collapse",
+    "tags": [
+      "anti-vote",
+      "underperformance",
+      "warning-sign"
+    ]
+  },
+  {
+    "poll": 3850,
+    "contest": "CB VIII",
+    "round": "Contest Quarterfinal",
+    "division": null,
+    "voting_anomalies": [
+      "sff"
+    ],
+    "anomaly_note": "The writeup endorses SFF as a plausible explanation for Link's unusually severe beating of Sonic, noting that Link looked invincible mainly against overlapping characters such as Luigi and Sonic.",
+    "off_topic": false,
+    "narrative": "Link crushed Sonic far more severely than a normal Noble Nine matchup suggested, restoring his aura of invincibility. The writeup views fanbase suppression as an important part of why the gap became so extreme.",
+    "headline": "Link SFFs Sonic in a crushing quarterfinal",
+    "tags": [
+      "statement-win",
+      "noble-nine"
+    ]
+  },
+  {
+    "poll": 3851,
+    "contest": "CB VIII",
+    "round": "Contest Quarterfinal",
+    "division": null,
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Charizard's bandwagon could not seriously threaten Mario, but the Pokémon star still performed well enough to complete a remarkable contest run. The writeup treats the loss as further proof that Pokémon had become one of the site's strongest franchises.",
+    "headline": "Charizard loses to Mario but completes Pokémon's breakout",
+    "tags": [
+      "charizard-run",
+      "pokemon-rise",
+      "statement-loss"
+    ]
+  },
+  {
+    "poll": 3852,
+    "contest": "CB VIII",
+    "round": "Contest Quarterfinal",
+    "division": null,
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Samus repeatedly fought Cloud back to even during the opening hours and came closer to the upset than their older history suggested possible. Cloud finally took control during his strongest overnight period, but the writeup regards Samus's resistance as a major statement.",
+    "headline": "Samus pushes Cloud hard before the night vote wins",
+    "tags": [
+      "close-match",
+      "statement-loss",
+      "title-hype"
+    ]
+  },
+  {
+    "poll": 3853,
+    "contest": "CB VIII",
+    "round": "Contest Quarterfinal",
+    "division": null,
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Snake defeated Sephiroth in a matchup that had shifted from pre-contest dream upset to expected result as Sephiroth deteriorated. The writeup treats Snake's control as decisive and immediately turns attention toward whether he could beat Cloud.",
+    "headline": "Snake finally breaks Sephiroth and targets Cloud",
+    "tags": [
+      "upset",
+      "noble-nine-break",
+      "title-hype"
+    ]
+  },
+  {
+    "poll": 3854,
+    "contest": "CB VIII",
+    "round": "Contest Semifinal",
+    "division": null,
+    "voting_anomalies": [
+      "sff"
+    ],
+    "anomaly_note": "The writeup invokes Link's 'King of SFF' reputation to explain why Mario again performed much worse against Link than people hoped.",
+    "off_topic": false,
+    "narrative": "The rematch of the original character-contest final produced much the same hierarchy, with Link suppressing Mario and winning comfortably. The writeup notes that even widespread anti-Link sentiment did little to change the matchup.",
+    "headline": "Link SFFs Mario in another one-sided semifinal",
+    "tags": [
+      "rematch",
+      "statement-win"
+    ]
+  },
+  {
+    "poll": 3855,
+    "contest": "CB VIII",
+    "round": "Contest Semifinal",
+    "division": null,
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Snake spent hours trading the lead with Cloud and even stalled through Cloud's normally dominant overnight period, creating genuine upset hope. Cloud's morning strength finally broke the deadlock and ended Snake's deep run.",
+    "headline": "Cloud survives Snake after a long semifinal deadlock",
+    "tags": [
+      "close-match",
+      "semifinal",
+      "snake-run"
+    ]
+  },
+  {
+    "poll": 3856,
+    "contest": "CB VIII",
+    "round": "Contest Final",
+    "division": null,
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Link defeated Cloud yet again, but Cloud recovered from a poor opening to make the final much more respectable than expected. The writeup's larger complaint is that Link's dominance had become so repetitive that he no longer belonged in ordinary brackets.",
+    "headline": "Link beats Cloud again as bracket fatigue peaks",
+    "tags": [
+      "champion",
+      "rematch",
+      "link-fatigue"
+    ]
+  },
+  {
+    "poll": 4069,
+    "contest": "GOTD",
+    "round": "Round One",
+    "division": "North Division",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Fallout 3 opened the Game of the Decade contest with a dominant win and immediately established itself as a serious entry. The writeup notes the unusual absence of Nintendo from the traditional opening slot.",
+    "headline": "Fallout 3 opens Game of the Decade with authority",
+    "tags": [
+      "contest-opener",
+      "statement-win"
+    ]
+  },
+  {
+    "poll": 4070,
+    "contest": "GOTD",
+    "round": "Round 1",
+    "division": "North",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Deus Ex upset Rock Band 2 and joined the long tradition of second-match bracket wreckers. The writeup says the apparent closeness was misleading because Deus Ex built a lead early and merely gave some of it back later, while Europe's stronger support proved important.",
+    "headline": "Deus Ex extends the second-match jinx",
+    "tags": [
+      "upset",
+      "second-match-jinx",
+      "rhythm-decline"
+    ]
+  },
+  {
+    "poll": 4071,
+    "contest": "GOTD",
+    "round": "Round 1",
+    "division": "North",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Batman overwhelmed Psychonauts in a match the writeup considered almost entirely devoid of useful information. Psychonauts was simply too weak to reveal much about Batman's later prospects.",
+    "headline": "Batman cruises through an uninformative opener",
+    "tags": [
+      "low-drama",
+      "statement-win"
+    ]
+  },
+  {
+    "poll": 4072,
+    "contest": "GOTD",
+    "round": "Round 1",
+    "division": "North",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Team Fortress 2 and Fable traded the lead repeatedly for nearly the entire poll, producing one of the closest wire-to-wire matches the writeup could remember. Team Fortress 2's dedicated fanbase and bracket support proved just enough to survive.",
+    "headline": "Team Fortress 2 survives an all-time Fable thriller",
+    "tags": [
+      "close-match",
+      "record",
+      "match-of-contest"
+    ]
+  },
+  {
+    "poll": 4073,
+    "contest": "GOTD",
+    "round": "Round 1",
+    "division": "North",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Uncharted 2 beat The Legend of Dragoon, but the writeup considered Dragoon's respectable showing proof that its vote-in success had been legitimate. Uncharted remained on course for the deeper run many expected.",
+    "headline": "Legend of Dragoon validates itself in defeat",
+    "tags": [
+      "statement-loss",
+      "vote-in-validation"
+    ]
+  },
+  {
+    "poll": 4074,
+    "contest": "GOTD",
+    "round": "Round 1",
+    "division": "North",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Street Fighter IV upset Sonic Adventure 2 in a result the writeup treats as both long-overdue redemption for the series and a harsh verdict on 3D Sonic games. The match also became a major guru failure.",
+    "headline": "Street Fighter IV shocks Sonic Adventure 2",
+    "tags": [
+      "upset",
+      "guru-buster",
+      "sonic-decline"
+    ]
+  },
+  {
+    "poll": 4075,
+    "contest": "GOTD",
+    "round": "Round 1",
+    "division": "North",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Halo 3 beat Super Mario Sunshine and immediately punctured the strong pre-contest hype behind Sunshine. The writeup treats the result as the beginning of a rare positive contest for Halo.",
+    "headline": "Halo 3 ends Super Mario Sunshine hype immediately",
+    "tags": [
+      "upset",
+      "hype-collapse",
+      "halo-rebound"
+    ]
+  },
+  {
+    "poll": 4076,
+    "contest": "GOTD",
+    "round": "Round 1",
+    "division": "North",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Halo: Combat Evolved handled Ninja Gaiden without reproducing the character-contest chaos associated with Master Chief and Ryu Hayabusa. The straightforward result instead set up the more meaningful Halo-versus-Halo comparison ahead.",
+    "headline": "Halo wins quietly and sets up the series showdown",
+    "tags": [
+      "low-drama",
+      "halo-rebound"
+    ]
+  }
+]

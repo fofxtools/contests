@@ -97,7 +97,7 @@ return json_decode(<<<'JSON'
  },
  "9": {
   "nid": 9,
-  "title": "Contest Links",
+  "title": "Contest Resources",
   "tid": 0,
   "format": "FilteredHTML",
   "type": "static",
@@ -661,6 +661,36 @@ return json_decode(<<<'JSON'
   "file": "nodes/102.php",
   "fns": [
    "all_match_pictures"
+  ]
+ },
+ "103": {
+  "nid": 103,
+  "title": "Wayback Links",
+  "tid": 0,
+  "format": "FilteredHTML",
+  "type": "static",
+  "file": "nodes/103.html"
+ },
+ "104": {
+  "nid": 104,
+  "title": "AI Contest Summaries",
+  "tid": 0,
+  "format": "PHP",
+  "type": "fn",
+  "file": "nodes/104.php",
+  "fns": [
+   "board8wiki_summaries"
+  ]
+ },
+ "105": {
+  "nid": 105,
+  "title": "AI Match Summaries",
+  "tid": 0,
+  "format": "PHP",
+  "type": "fn",
+  "file": "nodes/105.php",
+  "fns": [
+   "board8wiki_match_summaries"
   ]
  }
 }

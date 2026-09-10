@@ -1,0 +1,804 @@
+[
+  {
+    "poll": 7363,
+    "contest": "CB X",
+    "round": null,
+    "division": null,
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Sonic beat Auron without serious danger, but the writeup considers the showing weak for a Noble Nine character. Auron's respectable resistance reinforced doubts about Sonic's 2018 form.",
+    "headline": "Sonic beats Auron but looks unimpressive",
+    "tags": [
+      "underperformance",
+      "sonic-decline"
+    ]
+  },
+  {
+    "poll": 7364,
+    "contest": "CB X",
+    "round": null,
+    "division": null,
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Samus demolished Tifa and erased memories of their much closer 2006 meeting. The writeup treats the rout as proof that Tifa's excellent main-bracket run still had a clear ceiling against truly elite opposition.",
+    "headline": "Samus crushes Tifa and exposes her ceiling",
+    "tags": [
+      "statement-win",
+      "tifa-run"
+    ]
+  },
+  {
+    "poll": 7365,
+    "contest": "CB X",
+    "round": null,
+    "division": null,
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Mario finally avenged years of losses to Sephiroth by beating him decisively. The writeup frames the result as the emotional payoff to one of Mario's oldest contest frustrations and another sign of Sephiroth's decline.",
+    "headline": "Mario finally gets his revenge on Sephiroth",
+    "tags": [
+      "rematch",
+      "revenge",
+      "sephiroth-decline"
+    ]
+  },
+  {
+    "poll": 7366,
+    "contest": "CB X",
+    "round": null,
+    "division": null,
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Mega Man routed Ganondorf in the losers bracket and made the pre-match expectations look far too conservative. The writeup spends much of its analysis rejecting claims that Ganondorf's sprite picture caused the poor result.",
+    "headline": "Mega Man routs Ganondorf and rejects the sprite excuse",
+    "tags": [
+      "statement-win",
+      "sprite-controversy"
+    ]
+  },
+  {
+    "poll": 7367,
+    "contest": "CB X",
+    "round": null,
+    "division": null,
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Bowser eventually pulled away from Alucard, but Alucard stayed competitive long enough to validate his surprising divisional run. The writeup treats the loss as a strong final statement for Alucard rather than an embarrassment.",
+    "headline": "Bowser ends Alucard's run after a respectable fight",
+    "tags": [
+      "alucard-run",
+      "statement-loss",
+      "close-start"
+    ]
+  },
+  {
+    "poll": 7368,
+    "contest": "CB X",
+    "round": null,
+    "division": null,
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Solid Snake crushed Auron and used the matchup as another counterexample to complaints that Snake's old sprite hurts him. The writeup treats Auron as the weakest Legends Bracket entrant and Snake as clearly above him.",
+    "headline": "Snake crushes Auron and buries the sprite excuse",
+    "tags": [
+      "statement-win",
+      "sprite-controversy"
+    ]
+  },
+  {
+    "poll": 7369,
+    "contest": "CB X",
+    "round": null,
+    "division": null,
+    "voting_anomalies": [
+      "sff"
+    ],
+    "anomaly_note": "The writeup explicitly calls Tifa's win the first confirmed case of Reverse SFF, with the usual same-fanbase hierarchy flipping against Sephiroth.",
+    "off_topic": false,
+    "narrative": "Tifa upset Sephiroth after controlling the early hours and held on despite his later recovery. The writeup treats the result as the burial of Sephiroth's old elite status and one of Tifa's defining wins.",
+    "headline": "Tifa reverses SFF and finally beats Sephiroth",
+    "tags": [
+      "upset",
+      "tifa-run",
+      "sephiroth-decline"
+    ]
+  },
+  {
+    "poll": 7370,
+    "contest": "CB X",
+    "round": null,
+    "division": null,
+    "voting_anomalies": [
+      "sff"
+    ],
+    "anomaly_note": "The writeup says Pikachu likely suffered a small amount of Nintendo SFF under Link, while emphasizing that Pokémon resisted the effect unusually well.",
+    "off_topic": false,
+    "narrative": "Link overwhelmed Pikachu and continued his untouchable 2018 run. Pikachu's result is still framed positively because he had already broken the Noble Nine and appeared to resist most of Link's usual same-fanbase suppression.",
+    "headline": "Link crushes Pikachu despite limited SFF",
+    "tags": [
+      "link-dominance",
+      "pikachu-run"
+    ]
+  },
+  {
+    "poll": 7371,
+    "contest": "CB X",
+    "round": null,
+    "division": null,
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Cloud beat Crono much more comfortably than the pre-match upset discussion suggested. The writeup explicitly rejects SFF as the explanation and credits Cloud's Smash appearance with restoring enough strength to dominate the matchup.",
+    "headline": "Cloud crushes Crono and validates his Smash boost",
+    "tags": [
+      "statement-win",
+      "smash-boost"
+    ]
+  },
+  {
+    "poll": 7372,
+    "contest": "CB X",
+    "round": null,
+    "division": null,
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Zelda demolished Sonic in the largest of the contest's Noble Nine-breaking results. The writeup treats Zelda as plainly stronger rather than rally-assisted and calls the loss one of Sonic's worst career performances.",
+    "headline": "Zelda humiliates Sonic and keeps rewriting the hierarchy",
+    "tags": [
+      "noble-nine-break",
+      "zelda-run",
+      "sonic-decline"
+    ]
+  },
+  {
+    "poll": 7373,
+    "contest": "CB X",
+    "round": null,
+    "division": null,
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Mario beat Samus in their long-awaited 1v1 rematch, but the match stayed close enough to validate years of arguments that Samus could compete with him. The writeup treats the result as an unusually satisfying resolution to their old rivalry.",
+    "headline": "Mario narrowly settles the old Samus debate",
+    "tags": [
+      "rematch",
+      "rivalry",
+      "close-match"
+    ]
+  },
+  {
+    "poll": 7374,
+    "contest": "CB X",
+    "round": null,
+    "division": null,
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Mega Man reversed his earlier loss to Pikachu and controlled the rematch after the opening minutes. The writeup calls the revenge satisfying but less meaningful because it happened in the losers bracket.",
+    "headline": "Mega Man reverses the Pikachu result",
+    "tags": [
+      "rematch",
+      "revenge"
+    ]
+  },
+  {
+    "poll": 7375,
+    "contest": "CB X",
+    "round": null,
+    "division": null,
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Crono beat Bowser in an almost exact repeat of their earlier Legends Bracket match. The writeup criticizes the double-elimination layout for producing a rematch with nearly identical trends and no new information.",
+    "headline": "Crono repeats the same Bowser win almost exactly",
+    "tags": [
+      "rematch",
+      "low-drama",
+      "format-critique"
+    ]
+  },
+  {
+    "poll": 7376,
+    "contest": "CB X",
+    "round": null,
+    "division": null,
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Solid Snake beat Sonic more decisively than Zelda had, reigniting arguments about the usefulness of extrapolated statistics after Zelda had beaten Snake directly. The writeup uses the result to emphasize that individual matchups do not obey clean transitive logic.",
+    "headline": "Snake beats Sonic and breaks the transitive logic",
+    "tags": [
+      "statement-win",
+      "x-stats-debate"
+    ]
+  },
+  {
+    "poll": 7377,
+    "contest": "CB X",
+    "round": null,
+    "division": null,
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Samus crushed Tifa again in a nearly identical rematch of their earlier Legends Bracket meeting. The writeup sees the repeat as unnecessary but definitive proof that Tifa was not on Samus's level.",
+    "headline": "Samus repeats her Tifa rout almost exactly",
+    "tags": [
+      "rematch",
+      "statement-win",
+      "tifa-ceiling"
+    ]
+  },
+  {
+    "poll": 7378,
+    "contest": "CB X",
+    "round": null,
+    "division": null,
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Link continued the long-running Link-Cloud rivalry with another dominant win and looked more overwhelming than ever. The writeup treats Cloud's inability to threaten him as evidence that Link remained completely untouchable without extraordinary outside intervention.",
+    "headline": "Link dominates Cloud again and looks untouchable",
+    "tags": [
+      "link-dominance",
+      "rematch",
+      "title-hype"
+    ]
+  },
+  {
+    "poll": 7379,
+    "contest": "CB X",
+    "round": null,
+    "division": null,
+    "voting_anomalies": [
+      "rally"
+    ],
+    "anomaly_note": "The writeup explicitly says Zelda received porn-site rallies during the match, while also stating that she was strong enough to beat Mario without them.",
+    "off_topic": false,
+    "narrative": "Zelda beat Mario after leading essentially the entire match and pulled away late to deepen her extraordinary 2018 run. The writeup treats the win as a genuine strength result even though some outside rallying also occurred.",
+    "headline": "Zelda beats Mario with a late rally tailwind",
+    "tags": [
+      "zelda-run",
+      "noble-nine-break",
+      "close-match"
+    ]
+  },
+  {
+    "poll": 7380,
+    "contest": "CB X",
+    "round": null,
+    "division": null,
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Crono erased Mega Man's lead, survived a long stretch of back-and-forth voting, and finally won a close match late. The writeup celebrates the result as rare clutch success for a character associated with painful contest losses.",
+    "headline": "Crono finally wins a close match late",
+    "tags": [
+      "close-match",
+      "comeback",
+      "crono-redemption"
+    ]
+  },
+  {
+    "poll": 7381,
+    "contest": "CB X",
+    "round": null,
+    "division": null,
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Samus crushed Solid Snake and reinforced the writeup's long-held view that Snake loses much of his support against Nintendo characters. Historical rallying from their 2013 meeting is discussed, but not treated as part of this match.",
+    "headline": "Samus crushes Snake in a bad Nintendo matchup",
+    "tags": [
+      "statement-win",
+      "snake-decline"
+    ]
+  },
+  {
+    "poll": 7382,
+    "contest": "CB X",
+    "round": null,
+    "division": null,
+    "voting_anomalies": [
+      "sff"
+    ],
+    "anomaly_note": "The writeup says there was likely a small amount of SFF between Cloud and Crono because their fanbases overlap as flagship Square RPG protagonists.",
+    "off_topic": false,
+    "narrative": "Cloud beat Crono again by almost the same margin as their sprite-round meeting. The writeup uses the near-identical rematch to reject claims that the earlier sprite pictures materially distorted the result.",
+    "headline": "Cloud repeats the Crono win with only minor SFF",
+    "tags": [
+      "rematch",
+      "sprite-controversy"
+    ]
+  },
+  {
+    "poll": 7383,
+    "contest": "CB X",
+    "round": null,
+    "division": null,
+    "voting_anomalies": [
+      "rally",
+      "cheating_alleged"
+    ],
+    "anomaly_note": "The writeup describes active late match vote pushes, including Samus rallies, porn-site rallies, workplace solicitation and the author's own last-minute requests for Mario votes. It also reports contemporaneous accusations that Mario supporters were vote stuffing, though no fraud is established.",
+    "off_topic": false,
+    "narrative": "Mario survived Samus by the narrowest margin after hours of lead changes and an extraordinary final stretch. The writeup treats it as the best match of the contest and a reopening of their supposedly settled rivalry.",
+    "headline": "Mario survives Samus in a chaotic all-time classic",
+    "tags": [
+      "match-of-contest",
+      "close-match",
+      "rivalry"
+    ]
+  },
+  {
+    "poll": 7384,
+    "contest": "CB X",
+    "round": null,
+    "division": null,
+    "voting_anomalies": [
+      "sff"
+    ],
+    "anomaly_note": "The writeup frames Link as the site's strongest SFF character and treats Zelda's ability to retain substantial support in a direct same-series match as unusually impressive resistance.",
+    "off_topic": false,
+    "narrative": "Link erased Zelda's brief opening lead and won the Legends Bracket comfortably. The writeup treats Zelda's relatively strong same-series showing as one more sign that her 2018 boost was real.",
+    "headline": "Link SFFs Zelda but cannot erase her breakout",
+    "tags": [
+      "zelda-run",
+      "link-dominance",
+      "legends-final"
+    ]
+  },
+  {
+    "poll": 7385,
+    "contest": "CB X",
+    "round": null,
+    "division": null,
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Cloud finally beat Mario in their long-awaited 1v1 rematch, reversing the old trend pattern and surviving Mario's late reputation for clutch finishes. The writeup credits Cloud's Smash-era boost and possible anti-Mario sentiment rather than a confirmed current rally.",
+    "headline": "Cloud finally gets his Mario rematch revenge",
+    "tags": [
+      "rematch",
+      "revenge",
+      "close-match"
+    ]
+  },
+  {
+    "poll": 7386,
+    "contest": "CB X",
+    "round": null,
+    "division": null,
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Cloud erased Zelda's early lead with the same night-to-day trend reversal he had just used against Mario. The writeup treats the loss as Zelda finally running out of momentum after her extraordinary run rather than evidence that her breakout was false.",
+    "headline": "Cloud ends Zelda's run with another comeback",
+    "tags": [
+      "comeback",
+      "zelda-run",
+      "cloud-run"
+    ]
+  },
+  {
+    "poll": 7387,
+    "contest": "CB X",
+    "round": null,
+    "division": null,
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Link beat Cloud again in the grand final and completed an overwhelmingly dominant championship run. The writeup treats Cloud merely breaking through Link's usual ceiling as the only real drama and uses the finale to reflect on the contest's collapsing turnout.",
+    "headline": "Link closes the contest with another Cloud win",
+    "tags": [
+      "champion",
+      "title-match",
+      "low-turnout"
+    ]
+  },
+  {
+    "poll": 7915,
+    "contest": "GOTD 2",
+    "round": "Round One",
+    "division": "Division 1",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Breath of the Wild opened the contest with an enormous rout and immediately looked like the obvious championship favorite. The writeup frames the result as the start of a Zelda redemption tour after the prior games contest.",
+    "headline": "Breath of the Wild opens in championship form",
+    "tags": [
+      "contest-opener",
+      "statement-win",
+      "title-hype"
+    ]
+  },
+  {
+    "poll": 7916,
+    "contest": "GOTD 2",
+    "round": "Round One",
+    "division": "Division 1",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Halo: Reach beat Life is Strange despite significant pre-match distrust rooted in Halo's long history of underperforming on GameFAQs. The writeup treats the win as routine enough while still emphasizing how far Halo's reputation had fallen.",
+    "headline": "Halo survives another round of anti-Halo doubt",
+    "tags": [
+      "anti-vote",
+      "statement-win",
+      "halo-decline"
+    ]
+  },
+  {
+    "poll": 7917,
+    "contest": "GOTD 2",
+    "round": "Round One",
+    "division": "Division 1",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Final Fantasy XV beat one of the bracket's weakest-looking indie entries but not by enough to impress the writeup. The result is treated as the first warning that FFXV might struggle badly against Hollow Knight.",
+    "headline": "Final Fantasy XV wins with an immediate warning",
+    "tags": [
+      "underperformance",
+      "warning-sign",
+      "ff15"
+    ]
+  },
+  {
+    "poll": 7918,
+    "contest": "GOTD 2",
+    "round": "Round One",
+    "division": "Division 1",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Hollow Knight crushed Tales of Berseria after many Board 8 experts had talked themselves out of the obvious pick. The blowout immediately made the coming Final Fantasy XV matchup look much more dangerous.",
+    "headline": "Hollow Knight embarrasses Board 8 and looks dangerous",
+    "tags": [
+      "statement-win",
+      "guru-miss",
+      "indie-breakout"
+    ]
+  },
+  {
+    "poll": 7919,
+    "contest": "GOTD 2",
+    "round": "Round One",
+    "division": "Division 1",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Monster Hunter: World beat Bravely Default in a stable newcomer matchup whose trends closely mirrored the simultaneous Sekiro poll. The writeup sees the result as solid but not decisive evidence for the next round.",
+    "headline": "Monster Hunter wins a mirror-image newcomer matchup",
+    "tags": [
+      "debut",
+      "statement-win",
+      "strength-debate"
+    ]
+  },
+  {
+    "poll": 7920,
+    "contest": "GOTD 2",
+    "round": "Round One",
+    "division": "Division 1",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Sekiro beat Ni no Kuni in almost the same pattern as Monster Hunter's simultaneous win, leaving their future head-to-head hard to project. The writeup's most distinctive commentary is the unusually strong Board 8 dislike for Ni no Kuni.",
+    "headline": "Sekiro wins a nearly identical newcomer matchup",
+    "tags": [
+      "debut",
+      "statement-win",
+      "board8-dislike"
+    ]
+  },
+  {
+    "poll": 7921,
+    "contest": "GOTD 2",
+    "round": "Round One",
+    "division": "Division 1",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Bastion upset The Walking Dead and reinforced the writeup's view that the franchise's mainstream popularity never translated into GameFAQs contest strength. The result also rewarded skepticism toward supposedly safer casual picks.",
+    "headline": "Bastion upsets The Walking Dead and punishes the safe pick",
+    "tags": [
+      "upset",
+      "casual-miss",
+      "walking-dead-flop"
+    ]
+  },
+  {
+    "poll": 7922,
+    "contest": "GOTD 2",
+    "round": "Round One",
+    "division": "Division 1",
+    "voting_anomalies": [
+      "sff"
+    ],
+    "anomaly_note": "The writeup explicitly says the matchup reeks of SFF, arguing that Dragon Quest XI and Trails in the Sky SC appeal to an unusually overlapping JRPG audience.",
+    "off_topic": false,
+    "narrative": "Dragon Quest XI crushed the Board 8-backed Trails in the Sky SC and finally gave Dragon Quest a genuinely strong contest performance. The writeup views the blowout as partly amplified by extreme fanbase overlap.",
+    "headline": "Dragon Quest XI SFFs Trails and finally looks strong",
+    "tags": [
+      "statement-win",
+      "board8-flop",
+      "jrpg-overlap"
+    ]
+  },
+  {
+    "poll": 7923,
+    "contest": "GOTD 2",
+    "round": "Round One",
+    "division": "Division 2",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Mass Effect 2 beat Resident Evil 7 but looked far too weak for a supposed division favorite facing a 16-seed. The writeup treats Resident Evil 7 as clearly underseeded and the result as an immediate warning for Mass Effect.",
+    "headline": "Mass Effect 2 wins and immediately looks vulnerable",
+    "tags": [
+      "underperformance",
+      "misseeding",
+      "warning-sign"
+    ]
+  },
+  {
+    "poll": 7924,
+    "contest": "GOTD 2",
+    "round": "Round One",
+    "division": "Division 2",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Fallout 4 handled VVVVVV and initially seemed to avoid the Bethesda backlash many expected. The writeup later treats that apparent stability as misleading once Fallout's deeper weaknesses became clearer.",
+    "headline": "Fallout 4 hides its Bethesda problem for one round",
+    "tags": [
+      "statement-win",
+      "hindsight-reversal"
+    ]
+  },
+  {
+    "poll": 7925,
+    "contest": "GOTD 2",
+    "round": "Round One",
+    "division": "Division 2",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Borderlands 2 beat Bloodstained but performed much worse than expected for the fourpack favorite. The writeup treats Bloodstained as respectable while still calling the result a major warning for Borderlands.",
+    "headline": "Borderlands 2 wins with a major warning sign",
+    "tags": [
+      "underperformance",
+      "warning-sign",
+      "bloodstained-respect"
+    ]
+  },
+  {
+    "poll": 7926,
+    "contest": "GOTD 2",
+    "round": "Round One",
+    "division": "Division 2",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Horizon Zero Dawn obliterated Fortnite after rally fear and casual recognition had made the matchup look more uncertain on paper than it really was. The writeup treats the rout as another sign that GameFAQs' remaining voters strongly reject casualbait.",
+    "headline": "Horizon crushes Fortnite and the rally fear",
+    "tags": [
+      "casualbait",
+      "failed-rally",
+      "statement-win"
+    ]
+  },
+  {
+    "poll": 7927,
+    "contest": "GOTD 2",
+    "round": "Round One",
+    "division": "Division 2",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Resident Evil 2 crushed Danganronpa 2 and immediately looked much stronger than Mass Effect 2 had in the same division. The writeup treats the result as confirmation that the remake's acclaim translated into major contest strength.",
+    "headline": "Resident Evil 2 opens with a huge statement",
+    "tags": [
+      "statement-win",
+      "resident-evil-rebound",
+      "warning-sign"
+    ]
+  },
+  {
+    "poll": 7928,
+    "contest": "GOTD 2",
+    "round": "Round One",
+    "division": "Division 2",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "DOOM demolished INSIDE and looked far stronger than many had expected from a modern shooter. The writeup later concludes that INSIDE was simply one of the weakest games in the bracket rather than a meaningful strength test.",
+    "headline": "DOOM crushes one of the bracket's weakest games",
+    "tags": [
+      "statement-win",
+      "fodder"
+    ]
+  },
+  {
+    "poll": 7929,
+    "contest": "GOTD 2",
+    "round": "Round One",
+    "division": "Division 2",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Fire Emblem: Awakening beat Deus Ex but failed to look strong enough for the deeper run many bracketmakers wanted. The writeup treats the result as a clear warning after simultaneous games in the division posted much stronger performances.",
+    "headline": "Awakening wins but badly hurts its deep-run case",
+    "tags": [
+      "underperformance",
+      "warning-sign"
+    ]
+  },
+  {
+    "poll": 7930,
+    "contest": "GOTD 2",
+    "round": "Round One",
+    "division": "Division 2",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Bloodborne crushed Black Ops while the writeup marvels at how completely Call of Duty's old contest relevance had vanished. The result also exposed casual bracketmakers who still gave the famous shooter too much credit.",
+    "headline": "Bloodborne crushes Call of Duty's fading reputation",
+    "tags": [
+      "statement-win",
+      "call-of-duty-decline",
+      "casual-miss"
+    ]
+  },
+  {
+    "poll": 7931,
+    "contest": "GOTD 2",
+    "round": "Round One",
+    "division": "Division 3",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Smash Ultimate annihilated Tekken 7 and looked every bit like the division's overwhelming favorite. Much of the writeup uses the result to celebrate Smash's dominance over traditional fighting-game expectations.",
+    "headline": "Smash Ultimate opens with a fighting-game rout",
+    "tags": [
+      "statement-win",
+      "title-hype",
+      "smash-dominance"
+    ]
+  },
+  {
+    "poll": 7932,
+    "contest": "GOTD 2",
+    "round": "Round One",
+    "division": "Division 3",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "A Link Between Worlds comfortably beat Bayonetta despite the latter's Nintendo and Smash associations. The writeup explicitly says the match did not look like SFF and instead treats both games as legitimate within their natural strength.",
+    "headline": "A Link Between Worlds beats Bayonetta without SFF",
+    "tags": [
+      "statement-win",
+      "zelda-strength",
+      "bayonetta-respect"
+    ]
+  },
+  {
+    "poll": 7933,
+    "contest": "GOTD 2",
+    "round": "Round One",
+    "division": "Division 3",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Marvel's Spider-Man demolished Dead Space 2 and gave a licensed superhero game an unusually strong contest showing. The writeup uses the result to argue that high-quality licensed games can possess real GameFAQs strength.",
+    "headline": "Spider-Man gives licensed games a major statement",
+    "tags": [
+      "statement-win",
+      "licensed-game"
+    ]
+  },
+  {
+    "poll": 7934,
+    "contest": "GOTD 2",
+    "round": "Round One",
+    "division": "Division 3",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Minecraft crushed Dota 2 despite the writeup's complaint that Minecraft should not have been eligible under the contest's release-year rules. Dota never received the rally some feared and is treated as another example of rallybait collapsing naturally.",
+    "headline": "Minecraft crushes Dota amid an eligibility complaint",
+    "tags": [
+      "statement-win",
+      "eligibility-controversy",
+      "failed-rally"
+    ]
+  },
+  {
+    "poll": 7935,
+    "contest": "GOTD 2",
+    "round": "Round One",
+    "division": "Division 3",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Octopath Traveler upset defending champion Undertale after the outside rally that defined 2015 never materialized. The writeup treats Undertale's relatively respectable loss as evidence that it retained a real fanbase even after its rally era ended.",
+    "headline": "Octopath topples Undertale without a rally",
+    "tags": [
+      "upset",
+      "former-champion",
+      "failed-rally"
+    ]
+  },
+  {
+    "poll": 7936,
+    "contest": "GOTD 2",
+    "round": "Round One",
+    "division": "Division 3",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Shovel Knight beat Dragon's Dogma comfortably, though the writeup considers the performance merely solid rather than evidence of the huge indie strength some had expected. Undertale's simultaneous loss overshadowed most discussion of the match.",
+    "headline": "Shovel Knight advances while Undertale steals the attention",
+    "tags": [
+      "statement-win",
+      "indie-strength"
+    ]
+  },
+  {
+    "poll": 7937,
+    "contest": "GOTD 2",
+    "round": "Round One",
+    "division": "Division 3",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Devil May Cry 5 beat Tropical Freeze in a debated matchup and gave the series long-awaited redemption after years of weak game-contest results. The writeup treats the win as a major correction to Devil May Cry's poor historical reputation.",
+    "headline": "Devil May Cry 5 finally redeems the series",
+    "tags": [
+      "upset",
+      "series-redemption",
+      "guru-miss"
+    ]
+  },
+  {
+    "poll": 7938,
+    "contest": "GOTD 2",
+    "round": "Round One",
+    "division": "Division 3",
+    "voting_anomalies": [
+      "sff"
+    ],
+    "anomaly_note": "The writeup says Mortal Kombat 11 was buried under layers of SFF against Super Mario Odyssey, making its already poor showing even harder to interpret naturally.",
+    "off_topic": false,
+    "narrative": "Super Mario Odyssey produced an enormous rout that immediately made people reconsider whether Smash Ultimate was the obvious divisional favorite. Mortal Kombat's collapse was so severe that the writeup treats it as one of the strangest results of the round.",
+    "headline": "Odyssey buries Mortal Kombat under heavy SFF",
+    "tags": [
+      "statement-win",
+      "title-hype",
+      "mortal-kombat-collapse"
+    ]
+  },
+  {
+    "poll": 7939,
+    "contest": "GOTD 2",
+    "round": "Round One",
+    "division": "Division 4",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Grand Theft Auto V beat Baba Is You but was briefly embarrassed by Board 8 anti-GTA voting at the start. The writeup treats the result as another example of GTA's unusual inability to produce clean blowouts even against extremely weak opposition.",
+    "headline": "GTA V wins but cannot escape anti-GTA voting",
+    "tags": [
+      "anti-vote",
+      "underperformance",
+      "gta-strength"
+    ]
+  }
+]

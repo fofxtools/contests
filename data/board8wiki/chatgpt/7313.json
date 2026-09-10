@@ -1,0 +1,796 @@
+[
+  {
+    "poll": 7313,
+    "contest": "CB X",
+    "round": null,
+    "division": null,
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Kefka followed his first-round escape with a routine blowout of Bomberman. The writeup finds the near-repeat of Kefka's prior percentage on L-Block funnier than the actual match.",
+    "headline": "Kefka cruises through his free second-round win",
+    "tags": [
+      "low-drama",
+      "statement-win"
+    ]
+  },
+  {
+    "poll": 7314,
+    "contest": "CB X",
+    "round": null,
+    "division": null,
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "2B upset the Board 8 favorite Ness and established herself as a legitimate midcard character, though the writeup still considers her badly overseeded as a top seed. The win is attributed to real strength rather than any outside intervention.",
+    "headline": "2B upsets Ness but still looks overseeded",
+    "tags": [
+      "upset",
+      "2b-rise",
+      "misseeding"
+    ]
+  },
+  {
+    "poll": 7315,
+    "contest": "CB X",
+    "round": null,
+    "division": null,
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Bowser decisively avenged his old loss to Charizard and ended hopes of another deep Pokémon run from the dragon. The writeup treats Bowser as fully legitimate and Charizard's earlier peak as heavily timing-dependent.",
+    "headline": "Bowser avenges Charizard and restores the hierarchy",
+    "tags": [
+      "rematch",
+      "statement-win",
+      "charizard-decline"
+    ]
+  },
+  {
+    "poll": 7316,
+    "contest": "CB X",
+    "round": null,
+    "division": null,
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Phoenix Wright narrowly advanced over Ike because registered-user votes counted double, even though Ike won the raw vote. The writeup treats the result as a rules-driven flip and another major disappointment in Ike's contest history.",
+    "headline": "Registered-user weighting flips Phoenix over Ike",
+    "tags": [
+      "format-effect",
+      "close-match",
+      "ike-underperformance"
+    ]
+  },
+  {
+    "poll": 7317,
+    "contest": "CB X",
+    "round": null,
+    "division": null,
+    "voting_anomalies": [
+      "sff"
+    ],
+    "anomaly_note": "The writeup explicitly calls Kirby versus Isaac an SFF match, arguing that Kirby's handheld-heavy Nintendo fanbase strongly overlaps with Golden Sun's audience.",
+    "off_topic": false,
+    "narrative": "Kirby demolished Isaac in a matchup the writeup considers heavily distorted by shared Nintendo and handheld appeal. The blowout further strengthened Kirby's status as a division favorite.",
+    "headline": "Kirby SFFs Isaac in a handheld-heavy matchup",
+    "tags": [
+      "statement-win",
+      "division-favorite"
+    ]
+  },
+  {
+    "poll": 7318,
+    "contest": "CB X",
+    "round": null,
+    "division": null,
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Squall beat Garrus as expected but failed to dominate as strongly as the writeup anticipated. The result is remembered as an early warning sign that Squall's top-seed run was much shakier than it appeared.",
+    "headline": "Squall beats Garrus but shows a warning sign",
+    "tags": [
+      "underperformance",
+      "warning-sign"
+    ]
+  },
+  {
+    "poll": 7319,
+    "contest": "CB X",
+    "round": null,
+    "division": null,
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Zelda crushed The Boss and made her coming match with Squall look increasingly favorable. The writeup treats Breath of the Wild and broader Nintendo momentum as convincing explanations for Zelda's dramatic rise.",
+    "headline": "Zelda crushes The Boss and looks near-elite",
+    "tags": [
+      "statement-win",
+      "zelda-boost",
+      "title-hype"
+    ]
+  },
+  {
+    "poll": 7320,
+    "contest": "CB X",
+    "round": null,
+    "division": null,
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": true,
+    "narrative": "The writeup is mostly an enormous political and Blizzard retrospective; the actual match is summarized as Fox crushing a weak D.Va after the feared rally never appeared.",
+    "headline": "Fox crushes D.Va inside a massive Blizzard rant",
+    "tags": [
+      "failed-rally",
+      "blizzard-rant"
+    ]
+  },
+  {
+    "poll": 7321,
+    "contest": "CB X",
+    "round": null,
+    "division": null,
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Aerith beat Captain Toad without much movement and became the first 15-seed to win three matches. The writeup treats her run as a historic seeding oddity even though the path itself was unusually weak.",
+    "headline": "Aerith becomes the first 15-seed with three wins",
+    "tags": [
+      "record",
+      "misseeding",
+      "aerith-run"
+    ]
+  },
+  {
+    "poll": 7322,
+    "contest": "CB X",
+    "round": null,
+    "division": null,
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Simon led early and kept Geralt tied for hours before Geralt took control late at night. The writeup celebrates the match as another close, entertaining step in Geralt's newcomer run.",
+    "headline": "Geralt outlasts Simon in another close duel",
+    "tags": [
+      "close-match",
+      "geralt-run",
+      "comeback"
+    ]
+  },
+  {
+    "poll": 7323,
+    "contest": "CB X",
+    "round": null,
+    "division": null,
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Bayonetta beat Pac-Man in a match that stayed close by percentage but never developed into an actual rally or comeback. The writeup is more puzzled by Pac-Man's unexpected strength than impressed by the drama.",
+    "headline": "Bayonetta wins a close-looking but static match",
+    "tags": [
+      "close-percentage",
+      "pac-man-boost"
+    ]
+  },
+  {
+    "poll": 7324,
+    "contest": "CB X",
+    "round": null,
+    "division": null,
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Auron comfortably beat Vincent and reinforced the writeup's view that Vincent had fallen sharply from his mid-2000s peak. Board 8 overwhelmingly expected the result despite old faith in Final Fantasy VII's intra-series strength.",
+    "headline": "Auron exposes Vincent's long-term decline",
+    "tags": [
+      "vincent-decline",
+      "statement-win"
+    ]
+  },
+  {
+    "poll": 7325,
+    "contest": "CB X",
+    "round": null,
+    "division": null,
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Sub-Zero doubled Claire in the straightforward result the writeup expected from this fourpack. Claire's easy defeat is used as another example of Resident Evil's damaged contest strength.",
+    "headline": "Sub-Zero dispatches Claire exactly as expected",
+    "tags": [
+      "statement-win",
+      "resident-evil-decline"
+    ]
+  },
+  {
+    "poll": 7326,
+    "contest": "CB X",
+    "round": null,
+    "division": null,
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Luigi beat Frog comfortably in a routine matchup that offered little suspense. The source's 'Green SFF' line is a color joke rather than a substantive claim about shared fanbases.",
+    "headline": "Luigi handles Frog in a routine second-round win",
+    "tags": [
+      "low-drama",
+      "statement-win"
+    ]
+  },
+  {
+    "poll": 7327,
+    "contest": "CB X",
+    "round": null,
+    "division": null,
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Tails upset Master Chief and controlled the match from early on, turning a fan-favorite gamble into one of the writeup's most satisfying picks. The result also continued Master Chief's long contest decline.",
+    "headline": "Tails upsets Master Chief and reaches Round Three",
+    "tags": [
+      "upset",
+      "tails-run",
+      "master-chief-decline"
+    ]
+  },
+  {
+    "poll": 7328,
+    "contest": "CB X",
+    "round": null,
+    "division": null,
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Tifa crushed Mewtwo in a matchup many had once imagined favoring the Pokémon character. The writeup uses the result to reject Mewtwo's rally-inflated 2013 reputation and to establish Tifa as a serious threat.",
+    "headline": "Tifa demolishes Mewtwo and exposes old hype",
+    "tags": [
+      "statement-win",
+      "tifa-run",
+      "mewtwo-decline"
+    ]
+  },
+  {
+    "poll": 7329,
+    "contest": "CB X",
+    "round": null,
+    "division": null,
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Mega Man X overwhelmed Ocelot and finally produced a clean comparison that made X look near-elite. Ocelot's poor showing added to the wider Metal Gear decline narrative.",
+    "headline": "Mega Man X crushes Ocelot and looks near-elite",
+    "tags": [
+      "statement-win",
+      "mega-man-x",
+      "mgs-decline"
+    ]
+  },
+  {
+    "poll": 7330,
+    "contest": "CB X",
+    "round": null,
+    "division": null,
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Sephiroth briefly allowed Captain Falcon an opening before settling into the expected comfortable win. The writeup treats the result as evidence that claims of Sephiroth's collapse had been exaggerated.",
+    "headline": "Sephiroth dismisses Captain Falcon and the decline talk",
+    "tags": [
+      "statement-win",
+      "sephiroth-strength"
+    ]
+  },
+  {
+    "poll": 7331,
+    "contest": "CB X",
+    "round": null,
+    "division": null,
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Amaterasu beat Lara despite low pre-contest confidence, but the writeup considers the modest margin another example of Amaterasu rarely producing decisive results. Lara's modern games are said to have done little for her contest standing.",
+    "headline": "Amaterasu survives Lara without looking dominant",
+    "tags": [
+      "upset",
+      "amaterasu-run",
+      "lara-decline"
+    ]
+  },
+  {
+    "poll": 7332,
+    "contest": "CB X",
+    "round": null,
+    "division": null,
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Ryu crushed Commander Shepard and made Mass Effect's character decline look severe. The writeup treats Ryu's Smash exposure as part of a broader rise while Shepard never recovered old strength.",
+    "headline": "Ryu overwhelms Shepard and exposes Mass Effect decline",
+    "tags": [
+      "statement-win",
+      "mass-effect-decline",
+      "smash-boost"
+    ]
+  },
+  {
+    "poll": 7333,
+    "contest": "CB X",
+    "round": null,
+    "division": null,
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "KOS-MOS upset Aqua and reached Round Three for the first time, despite much of the writeup framing her as an unlikely survivor of an exceptionally weak fourpack. The result is linked to renewed visibility from guest appearances rather than cheating.",
+    "headline": "KOS-MOS upsets Aqua and reaches Round Three",
+    "tags": [
+      "upset",
+      "kos-mos-run",
+      "weak-fourpack"
+    ]
+  },
+  {
+    "poll": 7334,
+    "contest": "CB X",
+    "round": null,
+    "division": null,
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Ganondorf comfortably eliminated the contest's top overall seed Dante in a match that barely moved. The writeup treats the loss as proof Dante was badly overseeded rather than evidence of a close divisional race.",
+    "headline": "Ganondorf exposes Dante as an unworthy top seed",
+    "tags": [
+      "upset",
+      "misseeding",
+      "statement-win"
+    ]
+  },
+  {
+    "poll": 7335,
+    "contest": "CB X",
+    "round": null,
+    "division": null,
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Vivi beat Donkey Kong for the third time in nearly identical fashion, continuing one of the contest's strangest recurring rivalries. The writeup concludes that Donkey Kong's apparent revival had been overstated.",
+    "headline": "Vivi beats Donkey Kong for the third time",
+    "tags": [
+      "rematch",
+      "vivi-dk-rivalry",
+      "dk-rebound"
+    ]
+  },
+  {
+    "poll": 7336,
+    "contest": "CB X",
+    "round": null,
+    "division": null,
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Zero comfortably ended Wario's run through a weak part of the bracket and looked exactly like the reliable upper-midcard favorite expected of him. Wario's respectable share still surprised the writeup.",
+    "headline": "Zero ends Wario's lucky run without trouble",
+    "tags": [
+      "statement-win",
+      "low-drama"
+    ]
+  },
+  {
+    "poll": 7337,
+    "contest": "CB X",
+    "round": null,
+    "division": null,
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Pikachu beat Yoshi in their long-awaited first direct matchup and looked like the only Pokémon character consistently meeting high expectations. The Detective Pikachu trailer arriving the same day is noted as favorable timing.",
+    "headline": "Pikachu beats Yoshi and keeps Pokémon hopes alive",
+    "tags": [
+      "pokemon-rise",
+      "statement-win",
+      "release-timing"
+    ]
+  },
+  {
+    "poll": 7338,
+    "contest": "CB X",
+    "round": null,
+    "division": null,
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Red beat Big Boss but struggled enough to make both Pokémon and Metal Gear strength difficult to interpret. The writeup uses the close result as evidence that Red's multiway reputation had overstated his 1v1 power.",
+    "headline": "Red survives Big Boss and raises more strength questions",
+    "tags": [
+      "close-match",
+      "underperformance",
+      "strength-debate"
+    ]
+  },
+  {
+    "poll": 7339,
+    "contest": "CB X",
+    "round": null,
+    "division": null,
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Alucard crushed pre-contest favorite Kefka and turned what had looked like a wide-open division into his breakout run. The writeup attributes Alucard's rise to a mix of Castlevania revival, Netflix exposure and Smash visibility.",
+    "headline": "Alucard crushes Kefka and seizes the division",
+    "tags": [
+      "upset",
+      "alucard-run",
+      "breakout-performance"
+    ]
+  },
+  {
+    "poll": 7340,
+    "contest": "CB X",
+    "round": null,
+    "division": null,
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "2B performed respectably in defeat against Bowser and convinced the writeup she belonged in the midcard. At the same time, the loss confirmed that her top seed was far too generous.",
+    "headline": "2B earns legitimacy while Bowser exposes her seeding",
+    "tags": [
+      "statement-loss",
+      "misseeding",
+      "2b-rise"
+    ]
+  },
+  {
+    "poll": 7341,
+    "contest": "CB X",
+    "round": null,
+    "division": null,
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Kirby demolished Phoenix and erased the significance of Phoenix's narrow rules-assisted win over Ike. The blowout made Kirby the popular favorite over Bowser despite older evidence favoring Bowser.",
+    "headline": "Kirby crushes Phoenix and becomes the new favorite",
+    "tags": [
+      "statement-win",
+      "division-race"
+    ]
+  },
+  {
+    "poll": 7342,
+    "contest": "CB X",
+    "round": null,
+    "division": null,
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Zelda destroyed Squall in the match that fully established her as the star of the main bracket. The writeup treats the scale of the win as evidence of a genuine Breath of the Wild and Smash-era boost, not a rally.",
+    "headline": "Zelda destroys Squall and enters near-Noble-Nine territory",
+    "tags": [
+      "upset",
+      "zelda-boost",
+      "landmark-match"
+    ]
+  },
+  {
+    "poll": 7343,
+    "contest": "CB X",
+    "round": null,
+    "division": null,
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Aerith beat Fox in a nearly static match and extended the deepest run ever by a 15-seed. The writeup emphasizes the historic seeding achievement more than the competitiveness of the poll.",
+    "headline": "Aerith extends her record 15-seed run over Fox",
+    "tags": [
+      "record",
+      "aerith-run",
+      "misseeding"
+    ]
+  },
+  {
+    "poll": 7344,
+    "contest": "CB X",
+    "round": null,
+    "division": null,
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Bayonetta led for much of the match, but Geralt again used the overnight and morning vote to complete a comeback. The writeup treats the win as another entertaining step in an unusually strong newcomer run.",
+    "headline": "Geralt comes back on Bayonetta and keeps rolling",
+    "tags": [
+      "close-match",
+      "comeback",
+      "geralt-run"
+    ]
+  },
+  {
+    "poll": 7345,
+    "contest": "CB X",
+    "round": null,
+    "division": null,
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Auron beat Sub-Zero in another remarkably similar rematch between two characters who had repeatedly met before. The writeup finds the consistency more interesting than the outcome itself.",
+    "headline": "Auron beats Sub-Zero in another familiar rematch",
+    "tags": [
+      "rematch",
+      "low-drama"
+    ]
+  },
+  {
+    "poll": 7346,
+    "contest": "CB X",
+    "round": null,
+    "division": null,
+    "voting_anomalies": [
+      "sff"
+    ],
+    "anomaly_note": "Tsunami explicitly calls Luigi versus Tails an SFF matchup and argues that Mario-family strength suppresses the Sonic-side character in this cross-franchise Nintendo-adjacent rivalry.",
+    "off_topic": false,
+    "narrative": "Luigi demolished Tails in the biggest blowout of the round and ended Tails's surprise run. The writeup treats the result as another example of the Mario side dominating Sonic-family characters under overlapping fanbases.",
+    "headline": "Luigi SFFs Tails and ends his surprise run",
+    "tags": [
+      "statement-win",
+      "tails-run"
+    ]
+  },
+  {
+    "poll": 7347,
+    "contest": "CB X",
+    "round": null,
+    "division": null,
+    "voting_anomalies": [
+      "rally"
+    ],
+    "anomaly_note": "The writeup describes organized pushes for both Mega Man X and Tifa, including subreddit and outside-site rallies. It explicitly says Tifa's broader rally sources supplied the final push that decided the match.",
+    "off_topic": false,
+    "narrative": "Mega Man X and Tifa traded leads throughout one of the contest's best matches before outside support became decisive late. Tifa's final rally push erased X's last advantage and carried her through the divisional thriller.",
+    "headline": "Tifa wins a rally war over Mega Man X",
+    "tags": [
+      "match-of-contest",
+      "close-match",
+      "tifa-run"
+    ]
+  },
+  {
+    "poll": 7348,
+    "contest": "CB X",
+    "round": null,
+    "division": null,
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Sephiroth beat Amaterasu in the familiar pattern of losing early support and steadily climbing, but the writeup considers the final showing weaker than his old form. The result is treated as a subtle warning before stronger opposition.",
+    "headline": "Sephiroth beats Amaterasu but shows another warning",
+    "tags": [
+      "underperformance",
+      "warning-sign"
+    ]
+  },
+  {
+    "poll": 7349,
+    "contest": "CB X",
+    "round": null,
+    "division": null,
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Ryu comfortably ended KOS-MOS's unlikely run through one of the weakest sections of the bracket. The writeup treats the result as a return to normal after KOS-MOS reached Round Three for the first time.",
+    "headline": "Ryu ends KOS-MOS's improbable Round Three run",
+    "tags": [
+      "statement-win",
+      "kos-mos-run"
+    ]
+  },
+  {
+    "poll": 7350,
+    "contest": "CB X",
+    "round": null,
+    "division": null,
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Ganondorf beat Vivi after an early struggle, but Vivi stayed close enough to reinforce his reputation as an unusually durable Final Fantasy character. The writeup believes Nintendo and Zelda momentum were just enough to decide the matchup.",
+    "headline": "Ganondorf narrowly holds off a strong Vivi challenge",
+    "tags": [
+      "close-match",
+      "vivi-strength",
+      "zelda-boost"
+    ]
+  },
+  {
+    "poll": 7351,
+    "contest": "CB X",
+    "round": null,
+    "division": null,
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Pikachu beat Zero comfortably and won another division, continuing the mascot's standout run while most other Pokémon characters disappointed. The writeup sees Pikachu as clearly stronger than the rest of his franchise's field.",
+    "headline": "Pikachu rolls past Zero and wins the division",
+    "tags": [
+      "division-win",
+      "pokemon-rise",
+      "statement-win"
+    ]
+  },
+  {
+    "poll": 7352,
+    "contest": "CB X",
+    "round": null,
+    "division": null,
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Alucard decisively beat Pokémon Trainer Red and completed the unexpected divisional run almost no one had predicted before the contest. The writeup celebrates the long-running 'Plan' joke finally paying off.",
+    "headline": "Alucard completes The Plan and wins the division",
+    "tags": [
+      "division-win",
+      "alucard-run",
+      "upset"
+    ]
+  },
+  {
+    "poll": 7353,
+    "contest": "CB X",
+    "round": null,
+    "division": null,
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Bowser upset the heavily favored Kirby and repeated his old head-to-head superiority despite most mid-contest predictions flipping toward Kirby. The writeup treats Bowser's broader Mario appeal and recent relevance as more durable than Kirby's apparent momentum.",
+    "headline": "Bowser upsets Kirby and punishes the consensus",
+    "tags": [
+      "upset",
+      "guru-buster",
+      "bowser-strength"
+    ]
+  },
+  {
+    "poll": 7354,
+    "contest": "CB X",
+    "round": null,
+    "division": null,
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Zelda crushed Aerith and finished a division where every win had looked dominant. The writeup treats Aerith's record 15-seed run as impressive but completely overmatched once it reached Zelda.",
+    "headline": "Zelda ends Aerith's record run in a rout",
+    "tags": [
+      "division-win",
+      "zelda-boost",
+      "aerith-run"
+    ]
+  },
+  {
+    "poll": 7355,
+    "contest": "CB X",
+    "round": null,
+    "division": null,
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Auron finally ended Geralt's string of close wins and claimed the division, though Geralt remained competitive enough to validate his newcomer run. The writeup treats the result as the natural endpoint once Geralt met a proven upper-midcarder.",
+    "headline": "Auron ends Geralt's newcomer run and wins the division",
+    "tags": [
+      "division-win",
+      "geralt-run",
+      "statement-loss"
+    ]
+  },
+  {
+    "poll": 7356,
+    "contest": "CB X",
+    "round": null,
+    "division": null,
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Tifa beat Luigi after a close opening and pulled away without needing the rallying that had decided her Mega Man X match. The win completed one of the main bracket's toughest divisional paths.",
+    "headline": "Tifa beats Luigi cleanly and completes a brutal division",
+    "tags": [
+      "division-win",
+      "tifa-run",
+      "statement-win"
+    ]
+  },
+  {
+    "poll": 7357,
+    "contest": "CB X",
+    "round": null,
+    "division": null,
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Sephiroth unexpectedly crushed Ryu and produced by far his strongest-looking result of the main bracket. The writeup uses the match to argue that reports of Sephiroth's collapse had gone too far.",
+    "headline": "Sephiroth crushes Ryu and revives his reputation",
+    "tags": [
+      "division-win",
+      "statement-win",
+      "sephiroth-rebound"
+    ]
+  },
+  {
+    "poll": 7358,
+    "contest": "CB X",
+    "round": null,
+    "division": null,
+    "voting_anomalies": [
+      "sff"
+    ],
+    "anomaly_note": "The writeup treats Link's domination of Ganondorf as a clear SFF result, noting that Ganondorf is much stronger than the raw margin suggests and that Zelda resists Link's SFF better.",
+    "off_topic": false,
+    "narrative": "Link opened the Legends Bracket by crushing Ganondorf, though the margin was less extreme than their famous older matchup. The writeup treats the result as heavily distorted by Zelda-series overlap rather than a clean measure of Ganondorf's strength.",
+    "headline": "Link SFFs Ganondorf in the Legends opener",
+    "tags": [
+      "legends-bracket",
+      "statement-win"
+    ]
+  },
+  {
+    "poll": 7359,
+    "contest": "CB X",
+    "round": null,
+    "division": null,
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Pikachu beat Mega Man in a record-setting wire-to-wire thriller after multiple lead changes and a final late push. The writeup treats the result as the first clean 24-hour 1v1 Noble Nine break, even though Mega Man won the raw vote before registered-user weighting.",
+    "headline": "Pikachu breaks the Noble Nine in a classic",
+    "tags": [
+      "landmark-match",
+      "close-match",
+      "noble-nine-break"
+    ]
+  },
+  {
+    "poll": 7360,
+    "contest": "CB X",
+    "round": null,
+    "division": null,
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Cloud beat Alucard comfortably, but Alucard performed far better than in their early-contest meetings. The writeup treats the loss as confirmation that Alucard's breakout run reflected genuine strength rather than only a weak division.",
+    "headline": "Cloud wins while Alucard validates his breakout",
+    "tags": [
+      "legends-bracket",
+      "statement-loss",
+      "alucard-run"
+    ]
+  },
+  {
+    "poll": 7361,
+    "contest": "CB X",
+    "round": null,
+    "division": null,
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Crono beat Bowser without much danger and finally earned his first 1v1 contest win in many years. The writeup treats the result as a modest restoration of Crono's old status rather than a return to championship form.",
+    "headline": "Crono finally wins another clean 1v1 match",
+    "tags": [
+      "legends-bracket",
+      "crono-rebound",
+      "statement-win"
+    ]
+  },
+  {
+    "poll": 7362,
+    "contest": "CB X",
+    "round": null,
+    "division": null,
+    "voting_anomalies": [
+      "sff"
+    ],
+    "anomaly_note": "The writeup says Snake's Nintendo-derived support consistently abandons him against Nintendo characters and identifies that overlap, combined with Zelda's boost, as a major reason he lost this match.",
+    "off_topic": false,
+    "narrative": "Zelda narrowly beat Solid Snake after a long fight in which Snake repeatedly threatened to retake control. The writeup treats the victory as the match that buried the old Noble Nine order and confirmed Zelda's elite-level rise.",
+    "headline": "Zelda suppresses Snake and buries the old hierarchy",
+    "tags": [
+      "legends-bracket",
+      "noble-nine-break",
+      "zelda-boost"
+    ]
+  }
+]

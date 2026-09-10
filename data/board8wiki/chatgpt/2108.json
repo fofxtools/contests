@@ -1,0 +1,792 @@
+[
+  {
+    "poll": 2108,
+    "contest": "SC2K5",
+    "round": "Devil Division Semi Final",
+    "division": null,
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Vincent survived Dante after an unexpectedly competitive start, but the writeup treats the result as a major correction to weeks of Vincent hype. Dante's showing is framed as a moral victory that exposed Vincent as strong but not elite.",
+    "headline": "Vincent beats Dante but loses much of his elite hype",
+    "tags": [
+      "underperformance",
+      "moral-victory"
+    ]
+  },
+  {
+    "poll": 2109,
+    "contest": "SC2K5",
+    "round": "Devil Division Semi Final",
+    "division": null,
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Squall quickly ended the post-upset Knuckles bandwagon and controlled the match despite Knuckles' familiar daytime strength. The writeup uses the result to bury Magus's old statistical reputation and set up a difficult Vincent-Squall division final.",
+    "headline": "Squall ends the Knuckles bandwagon and buries old Magus stats",
+    "tags": [
+      "stats-collapse",
+      "bracket-setup"
+    ]
+  },
+  {
+    "poll": 2110,
+    "contest": "SC2K5",
+    "round": "Chaos Division Semi Final",
+    "division": null,
+    "voting_anomalies": [
+      "rally"
+    ],
+    "anomaly_note": "The writeup says Diablo improved noticeably after Diabloii.net finally posted a link to the poll, costing Sonic about a percentage point and confirming that outside-site support was part of Diablo's strength.",
+    "off_topic": false,
+    "narrative": "Sonic won an otherwise routine match that mainly served as a measuring stick for his coming clash with Mega Man. Diablo's performance improved after a Diabloii.net link appeared, reinforcing the writeup's view that outside-site support mattered to him.",
+    "headline": "Sonic cruises while Diabloii.net support shows up late",
+    "tags": [
+      "bracket-setup"
+    ]
+  },
+  {
+    "poll": 2111,
+    "contest": "SC2K5",
+    "round": "Chaos Division Semi Final",
+    "division": null,
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Tifa beat Luigi, but Luigi performed far better than the writeup says most of Board 8 expected. The result is framed as another warning against overvaluing one prior match and as more evidence of Nintendo's broader 2005 rise.",
+    "headline": "Tifa wins while Luigi scores another Nintendo moral victory",
+    "tags": [
+      "underperformance",
+      "nintendo-boost",
+      "moral-victory"
+    ]
+  },
+  {
+    "poll": 2112,
+    "contest": "SC2K5",
+    "round": "20XX Division Semi Final",
+    "division": null,
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Mega Man won comfortably, but Leon performed much better than older Resident Evil comparisons suggested. The writeup treats Leon's showing as evidence that previous statistics had badly understated the series.",
+    "headline": "Leon overperforms as Mega Man advances without much drama",
+    "tags": [
+      "overperformance",
+      "stats-confusion"
+    ]
+  },
+  {
+    "poll": 2113,
+    "contest": "SC2K5",
+    "round": "20XX Division Semi Final",
+    "division": null,
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Yoshi crushed Pac-Man in one of the contest's steadiest matches and confirmed that his 2004 strength was real. The writeup also uses the result to revisit the casual bracketmakers who had failed to trust Yoshi's path this far.",
+    "headline": "Yoshi crushes Pac-Man and validates his place above Luigi",
+    "tags": [
+      "validation"
+    ]
+  },
+  {
+    "poll": 2114,
+    "contest": "SC2K5",
+    "round": "Mushroom Division Final",
+    "division": null,
+    "voting_anomalies": [
+      "sff"
+    ],
+    "anomaly_note": "The writeup explicitly calls Mario's win an SFF beatdown and argues that Mario was able to suppress Zero far beyond ordinary expectations.",
+    "off_topic": false,
+    "narrative": "Mario turned a mildly debated division final into an immediate rout of Zero. The writeup treats the result as a major SFF statement and a warning that Mario and Nintendo were much stronger than the old statistics suggested.",
+    "headline": "Mario SFFs Zero and strengthens his case as tournament favorite",
+    "tags": [
+      "division-winner",
+      "nintendo-boost",
+      "x-stats-bust"
+    ]
+  },
+  {
+    "poll": 2115,
+    "contest": "SC2K5",
+    "round": "Zebes Division Final",
+    "division": null,
+    "voting_anomalies": [
+      "sff"
+    ],
+    "anomaly_note": "The writeup says Samus barely managed to SFF Ganondorf, with only enough suppression to offset Ganondorf's recent Zelda-series boost.",
+    "off_topic": false,
+    "narrative": "Samus advanced as expected, but the writeup considers her showing against Ganondorf disappointing next to Mario's destruction of Zero. Her weak SFF performance is presented as a serious warning before the coming Mario matchup.",
+    "headline": "Samus advances but her weak SFF showing raises alarms",
+    "tags": [
+      "division-winner",
+      "underperformance",
+      "bracket-setup"
+    ]
+  },
+  {
+    "poll": 2116,
+    "contest": "SC2K5",
+    "round": "Gear Division Final",
+    "division": null,
+    "voting_anomalies": [
+      "sff"
+    ],
+    "anomaly_note": "The writeup rejects a simple PlayStation 2 explanation but argues that a broader form of SFF hurt Sora badly against Solid Snake.",
+    "off_topic": false,
+    "narrative": "Snake demolished Sora after entering the match somewhat underestimated. The writeup sees the result as both a statement of Snake's true strength and an example of a broader fanbase-overlap effect working against Sora.",
+    "headline": "Snake destroys Sora and reasserts himself as an elite threat",
+    "tags": [
+      "division-winner",
+      "breakout-performance"
+    ]
+  },
+  {
+    "poll": 2117,
+    "contest": "SC2K5",
+    "round": "Dream Division Final",
+    "division": null,
+    "voting_anomalies": [
+      "sff"
+    ],
+    "anomaly_note": "The writeup presents reverse SFF as a viable explanation for Kirby keeping the match unusually close, with Kirby's starring role and bracket support potentially suppressing Bowser's expected advantage.",
+    "off_topic": false,
+    "narrative": "Bowser survived a strong challenge from Kirby and gradually built enough of a lead to take the division. The close result weakened confidence in Bowser before Snake, with the writeup considering reverse SFF as one possible explanation.",
+    "headline": "Bowser survives Kirby but loses confidence before facing Snake",
+    "tags": [
+      "division-winner",
+      "close-match",
+      "underperformance"
+    ]
+  },
+  {
+    "poll": 2118,
+    "contest": "SC2K5",
+    "round": "Flood Division Final",
+    "division": null,
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Crono won comfortably, but Master Chief's powerful daytime recovery made the result look less convincing than expected. The writeup treats Chief as unusually non-transitive and questions whether Crono still looked capable of winning the tournament.",
+    "headline": "Crono wins while Master Chief's day vote raises fresh doubts",
+    "tags": [
+      "division-winner",
+      "underperformance"
+    ]
+  },
+  {
+    "poll": 2119,
+    "contest": "SC2K5",
+    "round": "Dream Division Final",
+    "division": null,
+    "voting_anomalies": [
+      "sff"
+    ],
+    "anomaly_note": "The writeup says a slight amount of SFF, together with anti-votes, likely held Squall back in the close Final Fantasy matchup.",
+    "off_topic": false,
+    "narrative": "Vincent survived one of the contest's best matches after Squall repeatedly erased and rebuilt tiny leads throughout the day. The win was a huge bracket buster, but the writeup calls it a Pyrrhic victory because Squall's resistance further damaged Vincent's elite reputation.",
+    "headline": "Vincent survives Squall in a bracket-busting Pyrrhic victory",
+    "tags": [
+      "close-match",
+      "bracket-buster",
+      "historic-match"
+    ]
+  },
+  {
+    "poll": 2120,
+    "contest": "SC2K5",
+    "round": "Chaos Division Final",
+    "division": null,
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Sonic shook off Tifa's early resistance and pulled away once his morning vote arrived. The writeup treats the match mostly as a final setup for the much less predictable Sonic-Mega Man quarterfinal.",
+    "headline": "Sonic handles Tifa and sets up the long-awaited Mega Man clash",
+    "tags": [
+      "division-winner",
+      "bracket-setup"
+    ]
+  },
+  {
+    "poll": 2121,
+    "contest": "SC2K5",
+    "round": "20XX Division Final",
+    "division": null,
+    "voting_anomalies": [
+      "sff"
+    ],
+    "anomaly_note": "The writeup explicitly says Mega Man likely SFFed Yoshi because voters associate Mega Man strongly with Nintendo-era games.",
+    "off_topic": false,
+    "narrative": "Mega Man easily dispatched Yoshi and ended the divisional round. The writeup attributes Yoshi's underperformance partly to SFF and uses that result to swing the coming Sonic-Mega Man debate toward Mega Man.",
+    "headline": "Mega Man SFFs Yoshi and enters the Sonic match favored",
+    "tags": [
+      "division-winner",
+      "bracket-setup"
+    ]
+  },
+  {
+    "poll": 2122,
+    "contest": "SC2K5",
+    "round": "Tournament Quarter Final",
+    "division": null,
+    "voting_anomalies": [
+      "sff"
+    ],
+    "anomaly_note": "The writeup repeatedly describes Mario's victory as an enormous SFF beating that overwhelmed Samus despite pre-match statistical expectations favoring her.",
+    "off_topic": false,
+    "narrative": "Mario demolished Samus in the contest's most heavily debated quarterfinal and invalidated the old statistical case for a Samus win. The writeup later apologizes for its original hostility, but still treats the result as a decisive SFF showcase of Mario's 2005 strength.",
+    "headline": "Mario crushes Samus and blows up the old statistical consensus",
+    "tags": [
+      "x-stats-bust",
+      "nintendo-boost",
+      "historic-match"
+    ]
+  },
+  {
+    "poll": 2123,
+    "contest": "SC2K5",
+    "round": "Tournament Quarter Final",
+    "division": null,
+    "voting_anomalies": [
+      "pic_factor"
+    ],
+    "anomaly_note": "The writeup argues that Snake's hard-to-recognize sprite hurt him while Bowser had a clear, recognizable picture, and says Snake likely wins by more with a fairer image.",
+    "off_topic": false,
+    "narrative": "Snake built a large lead before Bowser mounted a long afternoon comeback that fell just short. The writeup considers the close win a major validation for Snake and argues that his poor match picture made the result look closer than it otherwise would have.",
+    "headline": "Snake survives Bowser's comeback despite another poor match picture",
+    "tags": [
+      "close-match",
+      "semifinal-berth"
+    ]
+  },
+  {
+    "poll": 2124,
+    "contest": "SC2K5",
+    "round": "Tournament Quarter Final",
+    "division": null,
+    "voting_anomalies": [
+      "sff"
+    ],
+    "anomaly_note": "The writeup presents reverse SFF between newer and older Square fandom as one plausible reason Vincent performed unusually well against Crono, while also considering Advent Children as an alternative explanation.",
+    "off_topic": false,
+    "narrative": "Crono won without serious danger, but Vincent performed far better than comparable projections suggested and then held an unusually stable share for most of the match. The writeup treats the overperformance as a puzzle involving either reverse SFF or an Advent Children boost.",
+    "headline": "Crono advances as Vincent creates another statistical puzzle",
+    "tags": [
+      "overperformance",
+      "stats-confusion"
+    ]
+  },
+  {
+    "poll": 2125,
+    "contest": "SC2K5",
+    "round": "Tournament Quarter Final",
+    "division": null,
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Sonic and Mega Man traded control in one of the contest's defining close matches, with Sonic twice appearing ready to take over before losing momentum. The writeup ultimately frames Mega Man's narrow win as another painful Sonic choke in a rivalry between nearly equal icons.",
+    "headline": "Mega Man survives Sonic after two squandered comeback chances",
+    "tags": [
+      "close-match",
+      "historic-match",
+      "rivalry"
+    ]
+  },
+  {
+    "poll": 2126,
+    "contest": "SC2K5",
+    "round": "Tournament Semi Final",
+    "division": null,
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Mario controlled Snake throughout the semifinal, although Snake earned the moral victory his fans wanted by stealing a handful of updates. The writeup sees the overall margin as further proof that Mario had risen sharply and was the clear tournament favorite.",
+    "headline": "Mario handles Snake and keeps rolling toward the championship",
+    "tags": [
+      "semifinal",
+      "title-favorite"
+    ]
+  },
+  {
+    "poll": 2127,
+    "contest": "SC2K5",
+    "round": "Tournament Semi Final",
+    "division": null,
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Crono beat Mega Man in a close-looking semifinal without ever facing a sustained comeback threat. The writeup argues that the narrow margin did little to suggest Crono could stop the much stronger-looking Mario in the final.",
+    "headline": "Crono edges Mega Man but fails to ease doubts about Mario",
+    "tags": [
+      "semifinal",
+      "close-match",
+      "bracket-setup"
+    ]
+  },
+  {
+    "poll": 2128,
+    "contest": "SC2K5",
+    "round": "Tournament Final",
+    "division": null,
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Mario ended the latest chapter of his Crono rivalry with a convincing championship win, reversing the previous year's result without another dramatic finish. The writeup treats the entire contest as a showcase of Mario's enormous 2005 rise.",
+    "headline": "Mario beats Crono and completes his dominant 2005 championship run",
+    "tags": [
+      "contest-final",
+      "champion",
+      "rivalry"
+    ]
+  },
+  {
+    "poll": 2129,
+    "contest": "SC2K5",
+    "round": "Tournament of Champions Semi Final",
+    "division": null,
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Cloud briefly took the lead and performed better than many expected after Nintendo's huge year, but Link's morning and daytime strength eventually buried the comeback attempt. The writeup credits Advent Children with helping Cloud remain respectable in another loss to Link.",
+    "headline": "Cloud briefly leads before Link's day vote takes control",
+    "tags": [
+      "toc",
+      "rivalry",
+      "advent-children"
+    ]
+  },
+  {
+    "poll": 2130,
+    "contest": "SC2K5",
+    "round": "Tournament of Champions Semi Final",
+    "division": null,
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Sephiroth overwhelmed the newly crowned Mario and ended speculation that Nintendo's 2005 boost had lifted Mario above him. The writeup sees the result as strong evidence that Advent Children had substantially strengthened the Final Fantasy VII cast.",
+    "headline": "Sephiroth crushes champion Mario and showcases the Advent Children boost",
+    "tags": [
+      "toc",
+      "advent-children",
+      "statement-win"
+    ]
+  },
+  {
+    "poll": 2131,
+    "contest": "SC2K5",
+    "round": "Tournament of Champions Final",
+    "division": null,
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Link beat Sephiroth comfortably in a final that the writeup considered largely predetermined. Sephiroth still did better than expected, reinforcing the view that Advent Children had strengthened the Final Fantasy VII characters even though Link remained clearly on top.",
+    "headline": "Link beats Sephiroth to finish the Tournament of Champions",
+    "tags": [
+      "toc-final",
+      "champion",
+      "advent-children"
+    ]
+  },
+  {
+    "poll": 2425,
+    "contest": "BSE2K6",
+    "round": null,
+    "division": "Hyrule Division",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Zelda opened the Best Series Ever contest with a routine blowout that immediately became notable for its enormous vote total. The writeup says the performance set a new individual-vote record and started early talk that Zelda might challenge Final Fantasy for the title.",
+    "headline": "Zelda opens Best Series Ever by shattering the vote record",
+    "tags": [
+      "contest-opener",
+      "record",
+      "title-favorite"
+    ]
+  },
+  {
+    "poll": 2426,
+    "contest": "BSE2K6",
+    "round": null,
+    "division": "Hyrule Division",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Mega Man X handled Suikoden exactly as expected in a lopsided but unremarkable opener. The writeup mostly focuses on X finally appearing prominently in a contest picture and on the poor bracket reward of facing Zelda next.",
+    "headline": "Mega Man X cruises past Suikoden into a hopeless Zelda matchup",
+    "tags": [
+      "bracket-setup"
+    ]
+  },
+  {
+    "poll": 2427,
+    "contest": "BSE2K6",
+    "round": null,
+    "division": "Hyrule Division",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Pokémon erased years of contest pessimism by crushing Star Ocean after even its own supporters had grown nervous about the matchup. The writeup treats the win as overdue vindication for a franchise with a history of disappointing contest results.",
+    "headline": "Pokémon crushes Star Ocean and finally gets its contest vindication",
+    "tags": [
+      "redemption",
+      "series-return"
+    ]
+  },
+  {
+    "poll": 2428,
+    "contest": "BSE2K6",
+    "round": null,
+    "division": "Hyrule Division",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Metroid demolished Kirby and immediately killed the brief Pokémon-over-Metroid bandwagon. The writeup is unsure whether fanbase overlap mattered, ultimately leaning more toward Kirby's games simply being weaker than Kirby's character popularity suggests.",
+    "headline": "Metroid routs Kirby and ends the brief Pokémon bandwagon",
+    "tags": [
+      "breakout-performance"
+    ]
+  },
+  {
+    "poll": 2429,
+    "contest": "BSE2K6",
+    "round": null,
+    "division": "Snake Division",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Metal Gear crushed Soul Calibur and made its old Spring 2004 statistical standing look badly inflated. The writeup treats the result as the first warning that several highly rated series from that earlier bracket had been overrated.",
+    "headline": "Metal Gear crushes Soul Calibur and exposes old statistical inflation",
+    "tags": [
+      "x-stats-bust",
+      "stats-collapse"
+    ]
+  },
+  {
+    "poll": 2430,
+    "contest": "BSE2K6",
+    "round": null,
+    "division": "Snake Division",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Fire Emblem won a matchup the writeup considered less uncertain than the near-even brackets suggested. The result is framed as a modest vindication for the growing Nintendo series and another reminder that Silent Hill remained highly niche on GameFAQs.",
+    "headline": "Fire Emblem handles Silent Hill in the contest's expected stinker",
+    "tags": [
+      "validation"
+    ]
+  },
+  {
+    "poll": 2431,
+    "contest": "BSE2K6",
+    "round": null,
+    "division": "Snake Division",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Castlevania upset Halo and, more surprisingly, neutralized the daytime voting strength that had defined Halo and Master Chief in earlier contests. The writeup treats the result as both a satisfying upset and another exposure of Halo's unreliable contest reputation.",
+    "headline": "Castlevania upsets Halo and neutralizes its famous day vote",
+    "tags": [
+      "upset",
+      "bracket-buster",
+      "halo-collapse"
+    ]
+  },
+  {
+    "poll": 2432,
+    "contest": "BSE2K6",
+    "round": null,
+    "division": "Snake Division",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Kingdom Hearts crushed Harvest Moon, yet the writeup says people still treated the performance as disappointing because Castlevania had just upset Halo. It rejects that panic and argues that Kingdom Hearts remained difficult to judge after its sequel.",
+    "headline": "Kingdom Hearts routs Harvest Moon despite another round of doom talk",
+    "tags": [
+      "underestimation"
+    ]
+  },
+  {
+    "poll": 2433,
+    "contest": "BSE2K6",
+    "round": null,
+    "division": "Mushroom Division",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Super Mario Bros. annihilated Madden in the contest's signature joke-fodder matchup. The writeup highlights another individual-vote record and says the performance strengthened early belief that Mario could challenge Final Fantasy.",
+    "headline": "Mario destroys Madden and takes another individual-vote record",
+    "tags": [
+      "record",
+      "historic-blowout",
+      "title-favorite"
+    ]
+  },
+  {
+    "poll": 2434,
+    "contest": "BSE2K6",
+    "round": null,
+    "division": "Mushroom Division",
+    "voting_anomalies": [
+      "rally",
+      "cheating_alleged"
+    ],
+    "anomaly_note": "The writeup says both sides rallied heavily, with World of Warcraft forum traffic giving Warcraft the decisive outside push. It also quotes CJayC confirming egregious vote stuffing, overwhelmingly for GTA, while stating that the fraudulent votes were insufficient to change Warcraft's legitimate win.",
+    "off_topic": false,
+    "narrative": "Warcraft upset GTA in a close match dominated by outside-site campaigning, especially from the World of Warcraft community. The aftermath also confirmed vote stuffing, mostly for GTA, but the writeup stresses that Warcraft still won fairly without those fraudulent votes deciding the result.",
+    "headline": "Warcraft rallies past GTA as vote stuffing hits the losing side",
+    "tags": [
+      "upset",
+      "close-match",
+      "bracket-buster"
+    ]
+  },
+  {
+    "poll": 2435,
+    "contest": "BSE2K6",
+    "round": null,
+    "division": "Mushroom Division",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Sonic crushed Devil May Cry in a straightforward match that mattered mainly as a measuring stick for the coming Super Smash Bros. clash. The strong showing added momentum to arguments that Sonic could win that much more important second-round match.",
+    "headline": "Sonic crushes Devil May Cry and builds momentum for Smash",
+    "tags": [
+      "bracket-setup"
+    ]
+  },
+  {
+    "poll": 2436,
+    "contest": "BSE2K6",
+    "round": null,
+    "division": "Mushroom Division",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Super Smash Bros. easily dispatched Dragon Quest while the writeup spends as much time on fan complaints as on the stable blowout itself. The result kept the coming Sonic matchup uncertain rather than answering whether Smash was truly strong enough.",
+    "headline": "Smash handles Dragon Quest while debate shifts toward Sonic",
+    "tags": [
+      "board-controversy",
+      "bracket-setup"
+    ]
+  },
+  {
+    "poll": 2437,
+    "contest": "BSE2K6",
+    "round": null,
+    "division": "Ultima Division",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Final Fantasy answered Zelda and Mario's huge opening performances with a massive blowout of Diablo. The writeup still stops short of calling the contest over, arguing that Diablo's limited series depth made the result less definitive than it first appeared.",
+    "headline": "Final Fantasy crushes Diablo but does not settle the title race",
+    "tags": [
+      "title-favorite",
+      "statement-win"
+    ]
+  },
+  {
+    "poll": 2438,
+    "contest": "BSE2K6",
+    "round": null,
+    "division": "Ultima Division",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Mega Man decisively beat Mario Kart after Board 8 had spent far more time debating the matchup than the writeup thought necessary. The result is presented as a case of the board overthinking how voters would interpret the broad Mega Man series name.",
+    "headline": "Mega Man crushes Mario Kart after an overthought pre-match debate",
+    "tags": [
+      "board-debate"
+    ]
+  },
+  {
+    "poll": 2439,
+    "contest": "BSE2K6",
+    "round": null,
+    "division": "Ultima Division",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Street Fighter easily beat The Elder Scrolls despite loud pre-match confidence from some Elder Scrolls fans. The writeup remembers the poll largely for the ugly fan arguments it produced and for setting up a more meaningful Street Fighter-Resident Evil matchup.",
+    "headline": "Street Fighter crushes Elder Scrolls amid a noisy fanbase fight",
+    "tags": [
+      "board-controversy",
+      "bracket-setup"
+    ]
+  },
+  {
+    "poll": 2440,
+    "contest": "BSE2K6",
+    "round": null,
+    "division": "Ultima Division",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Resident Evil obliterated Shadow Hearts in another first-round mismatch and nearly reached the contest's biggest vote and percentage landmarks. The writeup treats Shadow Hearts as contest joke fodder and warns against reading too much strength into such a lopsided pairing.",
+    "headline": "Resident Evil obliterates Shadow Hearts in another joke-fodder blowout",
+    "tags": [
+      "historic-blowout",
+      "contest-fodder"
+    ]
+  },
+  {
+    "poll": 2441,
+    "contest": "BSE2K6",
+    "round": null,
+    "division": "Hyrule Division",
+    "voting_anomalies": [
+      "sff"
+    ],
+    "anomaly_note": "The writeup explicitly treats Zelda versus Mega Man X as an SFF match, while noting that voters may differ on how strongly they associate Mega Man X with Nintendo.",
+    "off_topic": false,
+    "narrative": "Zelda crushed Mega Man X in a second-round SFF matchup and kept pace with Final Fantasy in the contest's emerging strength race. The writeup treats the result mainly as another statement that Zelda could realistically win the tournament.",
+    "headline": "Zelda SFFs Mega Man X and keeps pressure on Final Fantasy",
+    "tags": [
+      "title-favorite",
+      "statement-win"
+    ]
+  },
+  {
+    "poll": 2442,
+    "contest": "BSE2K6",
+    "round": null,
+    "division": "Hyrule Division",
+    "voting_anomalies": [
+      "sff"
+    ],
+    "anomaly_note": "The writeup explicitly calls Pokémon versus Metroid an SFF match and treats overlapping Nintendo support as part of the context for Metroid's unexpectedly weak-looking win.",
+    "off_topic": false,
+    "narrative": "Metroid beat Pokémon, but Pokémon stayed surprisingly competitive and won scattered updates throughout the match. The writeup treats the result as another example of Metroid struggling inside Nintendo and as long-overdue evidence that Pokémon was stronger than its old reputation suggested.",
+    "headline": "Pokémon pushes Metroid hard and earns overdue contest respect",
+    "tags": [
+      "underperformance",
+      "redemption"
+    ]
+  },
+  {
+    "poll": 2443,
+    "contest": "BSE2K6",
+    "round": null,
+    "division": "Snake Division",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Metal Gear beat Fire Emblem easily but did not dominate as thoroughly as the writeup expected. The result raised more doubts about Silent Hill's first-round strength than about Metal Gear's ability to reach the Final Four.",
+    "headline": "Metal Gear advances while Fire Emblem makes the win look ordinary",
+    "tags": [
+      "underperformance"
+    ]
+  },
+  {
+    "poll": 2444,
+    "contest": "BSE2K6",
+    "round": null,
+    "division": "Snake Division",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Castlevania led for much of the night and turned a previously routine Kingdom Hearts bracket slot into one of the contest's best matches. Kingdom Hearts eventually used its daytime strength to reverse the lead, while the writeup also remembers the match for exceptionally ugly board behavior from both fanbases.",
+    "headline": "Kingdom Hearts rallies past Castlevania in a memorable fanbase war",
+    "tags": [
+      "close-match",
+      "bracket-buster",
+      "board-controversy"
+    ]
+  },
+  {
+    "poll": 2445,
+    "contest": "BSE2K6",
+    "round": null,
+    "division": "Mushroom Division",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Mario annihilated Warcraft despite the outside support that had carried Warcraft past GTA. The writeup treats the scale of the beating as another strong sign that Mario had a real chance against Final Fantasy later in the bracket.",
+    "headline": "Mario destroys Warcraft and strengthens his Final Fantasy case",
+    "tags": [
+      "statement-win",
+      "title-favorite"
+    ]
+  },
+  {
+    "poll": 2446,
+    "contest": "BSE2K6",
+    "round": null,
+    "division": "Mushroom Division",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Super Smash Bros. comfortably beat Sonic in one of the contest's most debated matchups and denied another chance to see Mario face Sonic. The writeup considers the result another major Sonic disappointment after the series had appeared well positioned for the upset.",
+    "headline": "Smash shuts down Sonic and kills another Mario-Sonic opportunity",
+    "tags": [
+      "board-debate",
+      "sonic-disappointment"
+    ]
+  },
+  {
+    "poll": 2447,
+    "contest": "BSE2K6",
+    "round": null,
+    "division": "Ultima Division",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Final Fantasy crushed the broadly defined Mega Man series in another impressive second-round performance. The writeup sees nothing in the result to weaken Final Fantasy's position as the contest favorite.",
+    "headline": "Final Fantasy crushes Mega Man and remains the title favorite",
+    "tags": [
+      "title-favorite",
+      "statement-win"
+    ]
+  },
+  {
+    "poll": 2448,
+    "contest": "BSE2K6",
+    "round": null,
+    "division": "Ultima Division",
+    "voting_anomalies": [
+      "sff",
+      "pic_factor"
+    ],
+    "anomaly_note": "The writeup says the heavily Street Fighter-favored picture gave Street Fighter an advantage, while also arguing that Capcom fanbase overlap likely favored Resident Evil because Resident Evil 4 was then the stronger current draw.",
+    "off_topic": false,
+    "narrative": "Resident Evil narrowly held off Street Fighter after a much closer fight than most of Board 8 expected. The writeup credits Street Fighter's favorable picture for helping the upset threat while arguing that current Capcom fanbase overlap ultimately leaned toward Resident Evil.",
+    "headline": "Resident Evil survives Street Fighter in a tight Capcom showdown",
+    "tags": [
+      "close-match",
+      "capcom-rivalry"
+    ]
+  },
+  {
+    "poll": 2449,
+    "contest": "BSE2K6",
+    "round": null,
+    "division": "Hyrule Division",
+    "voting_anomalies": [
+      "sff"
+    ],
+    "anomaly_note": "The writeup explicitly says Zelda's suppression of Metroid was severe SFF and places it in a long history of Samus and Metroid performing badly against other Nintendo entrants.",
+    "off_topic": false,
+    "narrative": "Zelda crushed Metroid in the expected division final and produced another extreme Nintendo SFF result. The writeup treats the match as the latest entry in a long pattern of Samus and Metroid collapsing against stronger Nintendo opposition.",
+    "headline": "Zelda SFFs Metroid in another brutal Nintendo family matchup",
+    "tags": [
+      "division-winner",
+      "historic-pattern"
+    ]
+  },
+  {
+    "poll": 2450,
+    "contest": "BSE2K6",
+    "round": null,
+    "division": "Snake Division",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Metal Gear beat Kingdom Hearts comfortably after a brief poll glitch mistakenly displayed Castlevania as the opponent. Once corrected, the match followed the expected pattern and sent Metal Gear into the Final Four without much drama.",
+    "headline": "Metal Gear handles Kingdom Hearts after a brief Castlevania poll glitch",
+    "tags": [
+      "poll-glitch",
+      "division-winner"
+    ]
+  }
+]

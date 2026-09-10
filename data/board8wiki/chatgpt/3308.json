@@ -1,0 +1,803 @@
+[
+  {
+    "poll": 3308,
+    "contest": "CB VII",
+    "round": "Bonus Match",
+    "division": null,
+    "voting_anomalies": [
+      "sff"
+    ],
+    "anomaly_note": "The writeup calls this the strongest SFF case imaginable: Classic Link suppressed other versions of the same character, including Young Link, Toon Link and CD-I Link.",
+    "off_topic": false,
+    "narrative": "The bonus poll was built around the joke of Link facing alternate versions of himself. CD-I Link briefly rode the novelty vote before Classic Link overwhelmed the field, producing a record-setting and deliberately absurd finish.",
+    "headline": "Classic Link wins the ultimate same-character SFF joke",
+    "tags": [
+      "bonus",
+      "record",
+      "joke-match"
+    ]
+  },
+  {
+    "poll": 3446,
+    "contest": "BGE 2K9",
+    "round": "Round One",
+    "division": "Division 1972-1988",
+    "voting_anomalies": [
+      "sff"
+    ],
+    "anomaly_note": "The writeup says Tetris imposed old-school overlap on Space Invaders and likely hurt Donkey Kong as well, though Donkey Kong was still strong enough to beat Punch-Out.",
+    "off_topic": false,
+    "narrative": "The first 2009 match centered on Donkey Kong versus Punch-Out for the second advancing spot. Donkey Kong survived an early scare and a reputation for choking to pull away, while Tetris dominated the field.",
+    "headline": "Donkey Kong survives Punch-Out as Tetris dominates",
+    "tags": [
+      "close-match",
+      "dk-choke"
+    ]
+  },
+  {
+    "poll": 3447,
+    "contest": "BGE 2K9",
+    "round": "Round One",
+    "division": "Division 1972-1988",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "The Oregon Trail briefly looked capable of becoming the contest's next joke bandwagon, but collapsed after a few hours and left Pac-Man safely in second. Mega Man 2 won easily yet looked much weaker than its pre-contest hype suggested.",
+    "headline": "Oregon Trail fades while Mega Man 2 underwhelms",
+    "tags": [
+      "joke-candidate",
+      "underperformance"
+    ]
+  },
+  {
+    "poll": 3448,
+    "contest": "BGE 2K9",
+    "round": "Round One",
+    "division": "Division 1972-1988",
+    "voting_anomalies": [
+      "sff"
+    ],
+    "anomaly_note": "The writeup explicitly calls Mario's suppression of Duck Hunt 'Same Cartridge SFF,' since the two games famously shared an NES cartridge.",
+    "off_topic": false,
+    "narrative": "Mario dominated so completely that Duck Hunt could not mount a comeback against Ninja Gaiden for the second advancing spot. The writeup treats the result as a textbook example of extreme overlap overwhelming an otherwise stronger game.",
+    "headline": "Mario buries Duck Hunt with same-cartridge SFF",
+    "tags": [
+      "same-cartridge",
+      "statement-win"
+    ]
+  },
+  {
+    "poll": 3449,
+    "contest": "BGE 2K9",
+    "round": "Round One",
+    "division": "Division 1972-1988",
+    "voting_anomalies": [
+      "sff"
+    ],
+    "anomaly_note": "The writeup says Zelda heavily SFFed Metroid, while also entertaining the possibility that Contra suffered some Nintendo-related overlap of its own.",
+    "off_topic": false,
+    "narrative": "Zelda dominated as expected, and Metroid still advanced despite taking a severe fanbase hit. Contra's failure to capitalize became the larger surprise and began a recurring pattern of disappointing shooter performances.",
+    "headline": "Zelda crushes Metroid while Contra fails to capitalize",
+    "tags": [
+      "underperformance",
+      "shooter-slump"
+    ]
+  },
+  {
+    "poll": 3450,
+    "contest": "BGE 2K9",
+    "round": "Round One",
+    "division": "Division 1989-1991",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Sonic defeated Street Fighter II far more easily than the consensus expected, while Castlevania III briefly made the bottom of the poll interesting. The writeup reads the result as another sign that fighting games simply lacked GameFAQs strength.",
+    "headline": "Sonic routs Street Fighter II in a major surprise",
+    "tags": [
+      "upset",
+      "underperformance"
+    ]
+  },
+  {
+    "poll": 3451,
+    "contest": "BGE 2K9",
+    "round": "Round One",
+    "division": "Division 1989-1991",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Super Mario Bros. 3 delivered one of the most overwhelming four-way performances ever, leaving the weak supporting field to fight over scraps. Secret of Monkey Island eventually emerged from that battle for the other advancing spot.",
+    "headline": "Mario 3 obliterates the field while Monkey Island survives",
+    "tags": [
+      "record",
+      "statement-win"
+    ]
+  },
+  {
+    "poll": 3452,
+    "contest": "BGE 2K9",
+    "round": "Round One",
+    "division": "Division 1989-1991",
+    "voting_anomalies": [
+      "rally"
+    ],
+    "anomaly_note": "The writeup explicitly describes a pre-planned 4chan rally for Battletoads. It says the push inflated Battletoads' total but never came close to threatening the advancing games.",
+    "off_topic": false,
+    "narrative": "Super Mario World and Final Fantasy advanced without real drama, while Battletoads became notable mainly for a highly visible 4chan push. Prince of Persia produced one of the contest's weakest performances.",
+    "headline": "Battletoads rallies but Mario World and Final Fantasy cruise",
+    "tags": [
+      "4chan",
+      "underperformance"
+    ]
+  },
+  {
+    "poll": 3453,
+    "contest": "BGE 2K9",
+    "round": "Round One",
+    "division": "Division 1989-1991",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Final Fantasy IV and Mega Man 3 advanced in exactly the order expected, with little suspense. The result strengthened Final Fantasy IV's standing and largely ended the idea that the original Final Fantasy was clearly stronger.",
+    "headline": "Final Fantasy IV cruises in a completely predictable match",
+    "tags": [
+      "statement-win"
+    ]
+  },
+  {
+    "poll": 3454,
+    "contest": "BGE 2K9",
+    "round": "Round One",
+    "division": "Division 1992-1994",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Super Metroid and Super Mario Kart produced a remarkably close, trend-defying fight for first while both were already safe to advance. Sonic 3's poor showing was the bigger strategic surprise, and the writeup reports but does not endorse cheating accusations.",
+    "headline": "Super Metroid edges Mario Kart in a strange classic",
+    "tags": [
+      "close-match",
+      "strange-trends",
+      "underperformance"
+    ]
+  },
+  {
+    "poll": 3455,
+    "contest": "BGE 2K9",
+    "round": "Round One",
+    "division": "Division 1992-1994",
+    "voting_anomalies": [
+      "sff"
+    ],
+    "anomaly_note": "The writeup says A Link to the Past clearly SFFed Donkey Kong Country, though Doom was too weak to take advantage of the favorable situation.",
+    "off_topic": false,
+    "narrative": "A Link to the Past dominated while Donkey Kong Country repeatedly flirted with choking away second place. Doom nevertheless failed to capitalize, turning what looked like a favorable upset setup into another shooter disappointment.",
+    "headline": "Donkey Kong Country survives Zelda SFF as Doom collapses",
+    "tags": [
+      "dk-choke",
+      "underperformance"
+    ]
+  },
+  {
+    "poll": 3456,
+    "contest": "BGE 2K9",
+    "round": "Round One",
+    "division": "Division 1992-1994",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Link's Awakening decisively beat Mega Man X for the second advancing spot and immediately established itself as a legitimate Zelda threat rather than a minor handheld entry. Final Fantasy VI advanced but looked weaker than its 2004 reputation.",
+    "headline": "Link's Awakening breaks out while Mega Man X exits",
+    "tags": [
+      "breakout-performance",
+      "underperformance"
+    ]
+  },
+  {
+    "poll": 3457,
+    "contest": "BGE 2K9",
+    "round": "Round One",
+    "division": "Division 1992-1994",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Sonic 2 and Mortal Kombat II advanced in the expected order, leaving little actual drama. Secret of Mana looked respectable, but Sonic's modest winning performance reinforced the view that the Sonic games were weaker than expected.",
+    "headline": "Sonic 2 advances but adds to Sonic's warning signs",
+    "tags": [
+      "underperformance",
+      "warning-sign"
+    ]
+  },
+  {
+    "poll": 3458,
+    "contest": "BGE 2K9",
+    "round": "Round One",
+    "division": "Division 1995-1997",
+    "voting_anomalies": [
+      "sff"
+    ],
+    "anomaly_note": "The writeup says Super Mario RPG SFFed Donkey Kong Country 2, helping reduce a heavily hyped game to a weak opening-round showing.",
+    "off_topic": false,
+    "narrative": "GoldenEye and Super Mario RPG advanced from a debated fourpack, while Resident Evil 2 remained respectable but never broke through. Donkey Kong Country 2's long-running hype ended in a disappointing SFF-affected debut.",
+    "headline": "GoldenEye and Mario RPG advance as DKC2 hype collapses",
+    "tags": [
+      "underperformance",
+      "hype-collapse"
+    ]
+  },
+  {
+    "poll": 3459,
+    "contest": "BGE 2K9",
+    "round": "Round One",
+    "division": "Division 1995-1997",
+    "voting_anomalies": [
+      "sff"
+    ],
+    "anomaly_note": "The writeup says Mario Kart 64 predictably SFFed Star Fox 64, leaving the second advancing position effectively settled from the opening moments.",
+    "off_topic": false,
+    "narrative": "Final Fantasy VII dominated a pair of respectable Nintendo 64 games and looked every bit as strong as its old reputation suggested. Mario Kart 64 comfortably took the other advancing spot over Star Fox 64.",
+    "headline": "Final Fantasy VII mauls the N64 field",
+    "tags": [
+      "statement-win",
+      "title-favorite"
+    ]
+  },
+  {
+    "poll": 3460,
+    "contest": "BGE 2K9",
+    "round": "Round One",
+    "division": "Division 1995-1997",
+    "voting_anomalies": [
+      "sff"
+    ],
+    "anomaly_note": "The writeup explicitly says Super Mario 64 SFFed Kirby Super Star heavily, using Kirby's collapse to argue that Kirby's character strength does not come primarily from his games.",
+    "off_topic": false,
+    "narrative": "Super Mario 64 dominated the poll, while Symphony of the Night comfortably beat Resident Evil for the other advancing spot. Kirby Super Star collapsed badly in Mario's presence.",
+    "headline": "Mario 64 crushes Kirby as Symphony of the Night advances",
+    "tags": [
+      "statement-win",
+      "underperformance"
+    ]
+  },
+  {
+    "poll": 3461,
+    "contest": "BGE 2K9",
+    "round": "Round One",
+    "division": "Division 1995-1997",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Chrono Trigger annihilated the field and looked fully restored to elite strength, while Yoshi's Island easily held off an EarthBound upset push that never materialized. The match was effectively decided immediately.",
+    "headline": "Chrono Trigger dominates while EarthBound's upset hope dies",
+    "tags": [
+      "statement-win",
+      "warning-sign"
+    ]
+  },
+  {
+    "poll": 3462,
+    "contest": "BGE 2K9",
+    "round": "Round One",
+    "division": "Division 1998-2000",
+    "voting_anomalies": [
+      "lff"
+    ],
+    "anomaly_note": "The writeup attributes Banjo-Kazooie and Perfect Dark's weak showings partly to heavy N64 and Nintendo overlap in a field led by Majora's Mask and Pokémon.",
+    "off_topic": false,
+    "narrative": "Pokémon RBY overwhelmed Majora's Mask in a matchup many expected to be close, immediately elevating Pokémon into the contest's top tier. The two other N64 games were largely squeezed out of relevance.",
+    "headline": "Pokémon RBY demolishes Majora's Mask and announces itself",
+    "tags": [
+      "breakout-performance",
+      "statement-win",
+      "pokemon-rise"
+    ]
+  },
+  {
+    "poll": 3463,
+    "contest": "BGE 2K9",
+    "round": "Round One",
+    "division": "Division 1998-2000",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Metal Gear Solid won, but Pokémon Gold and Silver looked strong enough to pressure it early and comfortably beat Final Fantasy Tactics. Tactics' decline from its 2004 form became the main casualty.",
+    "headline": "Pokémon Gold and Silver sends Final Fantasy Tactics home",
+    "tags": [
+      "upset",
+      "underperformance"
+    ]
+  },
+  {
+    "poll": 3464,
+    "contest": "BGE 2K9",
+    "round": "Round One",
+    "division": "Division 1998-2000",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Final Fantasy VIII crushed StarCraft far more decisively than many expected and established itself as a serious contender. The writeup rejects the idea that StarCraft's old rally magic would automatically translate to another deep run.",
+    "headline": "Final Fantasy VIII destroys StarCraft's repeat-run hopes",
+    "tags": [
+      "statement-win",
+      "underperformance"
+    ]
+  },
+  {
+    "poll": 3465,
+    "contest": "BGE 2K9",
+    "round": "Round One",
+    "division": "Division 1998-2000",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Ocarina of Time dominated an otherwise straightforward poll, while Final Fantasy IX beat Half-Life for the second advancing position. Half-Life's failure became another example of shooters disappointing in the bracket.",
+    "headline": "Ocarina dominates while Final Fantasy IX beats Half-Life",
+    "tags": [
+      "statement-win",
+      "shooter-slump"
+    ]
+  },
+  {
+    "poll": 3466,
+    "contest": "BGE 2K9",
+    "round": "Round One",
+    "division": "Division 2001-2003",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Final Fantasy X and Metal Gear Solid 2 advanced in a perfectly ordered match that the writeup considers almost devoid of story. Silent Hill 2 and Morrowind never threatened the top pair.",
+    "headline": "Final Fantasy X and MGS2 cruise without drama",
+    "tags": []
+  },
+  {
+    "poll": 3467,
+    "contest": "BGE 2K9",
+    "round": "Round One",
+    "division": "Division 2001-2003",
+    "voting_anomalies": [
+      "lff"
+    ],
+    "anomaly_note": "The writeup says Paper Mario leeched enough Nintendo support from Metroid Prime to cost Prime the second advancing spot against Vice City.",
+    "off_topic": false,
+    "narrative": "Kingdom Hearts took first comfortably, but Vice City overturned the expected Nintendo advantage and beat Metroid Prime for second. The writeup treats Paper Mario's presence as the key reason Prime could not capitalize.",
+    "headline": "Paper Mario's vote drain helps Vice City eliminate Prime",
+    "tags": [
+      "upset",
+      "format-effect"
+    ]
+  },
+  {
+    "poll": 3468,
+    "contest": "BGE 2K9",
+    "round": "Round One",
+    "division": "Division 2001-2003",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "All four games remained competitive, with Diablo II unexpectedly taking first while Halo needed its familiar afternoon strength to catch Knights of the Old Republic for second. KOTOR's near-advancement became one of the round's most impressive losses.",
+    "headline": "Diablo II wins a four-way thriller as Halo escapes",
+    "tags": [
+      "upset",
+      "close-match",
+      "statement-win"
+    ]
+  },
+  {
+    "poll": 3469,
+    "contest": "BGE 2K9",
+    "round": "Round One",
+    "division": "Division 2001-2003",
+    "voting_anomalies": [
+      "sff"
+    ],
+    "anomaly_note": "The writeup says Fire Emblem was SFFed from two directions by Wind Waker and by Melee, the game that had helped introduce the series to many voters.",
+    "off_topic": false,
+    "narrative": "Melee and Wind Waker advanced exactly as expected, but Wind Waker held up well enough to raise concerns about Melee's future ceiling. Fire Emblem collapsed under an especially hostile overlap situation.",
+    "headline": "Melee advances while Fire Emblem gets double-SFFed",
+    "tags": [
+      "warning-sign",
+      "underperformance"
+    ]
+  },
+  {
+    "poll": 3470,
+    "contest": "BGE 2K9",
+    "round": "Round One",
+    "division": "Division 2004-2006",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Oblivion won a chaotic four-way race, while Tales of Symphonia recovered from a late deficit to steal second from God of War. San Andreas, the consensus favorite, fell to last, making the match one of the contest's defining upsets.",
+    "headline": "Oblivion wins as Tales shocks God of War late",
+    "tags": [
+      "upset",
+      "close-match",
+      "match-of-contest"
+    ]
+  },
+  {
+    "poll": 3471,
+    "contest": "BGE 2K9",
+    "round": "Round One",
+    "division": "Division 2004-2006",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Metal Gear Solid 3 won comfortably, while World of Warcraft beat Halo 2 for the other advancing spot without needing the massive rally many had predicted. Halo nearly fell to last and continued the contest's shooter slump.",
+    "headline": "World of Warcraft advances as Halo 2 nearly bottoms out",
+    "tags": [
+      "underperformance",
+      "shooter-slump"
+    ]
+  },
+  {
+    "poll": 3472,
+    "contest": "BGE 2K9",
+    "round": "Round One",
+    "division": "Division 2004-2006",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Resident Evil 4 built an overnight lead and then endured a long Kingdom Hearts II day-vote challenge without ever fully losing control. The narrow win advanced RE4 but also badly weakened its case as a potential finalist.",
+    "headline": "Resident Evil 4 narrowly holds off Kingdom Hearts II",
+    "tags": [
+      "close-match",
+      "warning-sign"
+    ]
+  },
+  {
+    "poll": 3473,
+    "contest": "BGE 2K9",
+    "round": "Round One",
+    "division": "Division 2004-2006",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Twilight Princess dominated the field, while Half-Life 2 built enough of an early cushion to keep Final Fantasy XII from seriously threatening second. The result briefly elevated Twilight Princess into finals discussion.",
+    "headline": "Twilight Princess dominates while Half-Life 2 survives",
+    "tags": [
+      "statement-win",
+      "title-hype"
+    ]
+  },
+  {
+    "poll": 3474,
+    "contest": "BGE 2K9",
+    "round": "Round One",
+    "division": "Division 2007-2009",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Brawl crushed the field while GTA IV took an easy second, leaving Street Fighter IV in an embarrassing fight with Persona 4 just to avoid last place. The writeup treats Street Fighter IV as one of the contest's biggest disappointments.",
+    "headline": "Brawl dominates as Street Fighter IV nearly finishes last",
+    "tags": [
+      "statement-win",
+      "underperformance"
+    ]
+  },
+  {
+    "poll": 3475,
+    "contest": "BGE 2K9",
+    "round": "Round One",
+    "division": "Division 2007-2009",
+    "voting_anomalies": [
+      "lff"
+    ],
+    "anomaly_note": "The writeup treats Pokémon Diamond and Pearl's overlapping Nintendo support as a major factor in Super Mario Galaxy's unexpectedly weak performance.",
+    "off_topic": false,
+    "narrative": "Call of Duty 4 decisively beat Super Mario Galaxy in a result that immediately damaged Galaxy's pre-contest reputation. Even allowing for Pokémon overlap, the writeup sees Galaxy's performance as a major warning before facing Brawl.",
+    "headline": "Call of Duty 4 exposes a badly underperforming Galaxy",
+    "tags": [
+      "upset",
+      "underperformance",
+      "warning-sign"
+    ]
+  },
+  {
+    "poll": 3476,
+    "contest": "BGE 2K9",
+    "round": "Round One",
+    "division": "Division 2007-2009",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Metal Gear Solid 4 won as expected, while Portal comfortably beat BioShock for the second advancing spot after an early lead that never became seriously threatened. The match stayed quieter than its uncertain pre-match setup suggested.",
+    "headline": "Portal comfortably beats BioShock behind Metal Gear Solid 4",
+    "tags": [
+      "statement-win"
+    ]
+  },
+  {
+    "poll": 3477,
+    "contest": "BGE 2K9",
+    "round": "Round One",
+    "division": "Division 2007-2009",
+    "voting_anomalies": [
+      "lff"
+    ],
+    "anomaly_note": "The writeup attributes some of Mass Effect's weak showing to overlap with fellow Western RPG Fallout 3 in an unusually homogeneous field.",
+    "off_topic": false,
+    "narrative": "Fallout 3 and Halo 3 advanced in a nearly perfect staircase, making the final first-round match one of the contest's least eventful. The shared Xbox and genre-heavy field produced very little movement.",
+    "headline": "Fallout 3 and Halo 3 close Round One quietly",
+    "tags": [
+      "low-drama"
+    ]
+  },
+  {
+    "poll": 3478,
+    "contest": "BGE 2K9",
+    "round": "Division 1972-1988 Semi Final",
+    "division": null,
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Tetris beat Mega Man 2 comfortably and was never seriously threatened after the opening moments. Mega Man 2 nevertheless held up better than its first-round showing suggested, while the writeup declines to pin the result on SFF.",
+    "headline": "Tetris confirms its edge over Mega Man 2",
+    "tags": [
+      "statement-win"
+    ]
+  },
+  {
+    "poll": 3479,
+    "contest": "BGE 2K9",
+    "round": "Division 1972-1988 Semi Final",
+    "division": null,
+    "voting_anomalies": [
+      "sff"
+    ],
+    "anomaly_note": "The writeup says Mario and Zelda crushed Metroid and Ninja Gaiden through heavy Nintendo overlap, leaving the real contest entirely between the two NES giants.",
+    "off_topic": false,
+    "narrative": "Mario defeated Zelda much more easily than many expected, while Metroid and Ninja Gaiden were reduced to afterthoughts. The result appeared to settle the old NES hierarchy before later rounds complicated it again.",
+    "headline": "Mario beats Zelda decisively in their first 2009 meeting",
+    "tags": [
+      "statement-win",
+      "strength-debate"
+    ]
+  },
+  {
+    "poll": 3480,
+    "contest": "BGE 2K9",
+    "round": "Division 1989-1991 Semi Final",
+    "division": null,
+    "voting_anomalies": [
+      "sff"
+    ],
+    "anomaly_note": "The writeup explicitly says Super Mario Bros. 3 SFFed Sonic, though Street Fighter II still could not take advantage enough to advance.",
+    "off_topic": false,
+    "narrative": "Mario 3 dominated the field, while Sonic recovered from an overnight Street Fighter II lead and used its strong day vote to secure second. The match reinforced both Mario-Sonic overlap and Street Fighter's limited strength.",
+    "headline": "Mario 3 suppresses Sonic, but Sonic still advances",
+    "tags": [
+      "comeback",
+      "underperformance"
+    ]
+  },
+  {
+    "poll": 3481,
+    "contest": "BGE 2K9",
+    "round": "Division 1989-1991 Semi Final",
+    "division": null,
+    "voting_anomalies": [
+      "lff"
+    ],
+    "anomaly_note": "The writeup describes substantial overlap between the two Final Fantasy entries in the field, with the split weakening the original Final Fantasy while Final Fantasy IV still secured second.",
+    "off_topic": false,
+    "narrative": "Super Mario World transformed its shaky first-round image into a dominant second-round performance. Final Fantasy IV clearly beat the original Final Fantasy, while Mega Man 3 continued the series' disappointing contest.",
+    "headline": "Mario World surges as Final Fantasy IV settles the debate",
+    "tags": [
+      "statement-win",
+      "underperformance",
+      "strength-debate"
+    ]
+  },
+  {
+    "poll": 3482,
+    "contest": "BGE 2K9",
+    "round": "Division 1992-1994 Semi Final",
+    "division": null,
+    "voting_anomalies": [
+      "sff"
+    ],
+    "anomaly_note": "The writeup says A Link to the Past was clearly SFFing all three fellow SNES and Nintendo-era games in the poll.",
+    "off_topic": false,
+    "narrative": "A Link to the Past dominated, while Super Metroid and Super Mario Kart repeated almost the same close race and voting trends as their first-round meeting. Metroid again survived, but the rematch lacked the tension its margin suggested.",
+    "headline": "Super Metroid beats Mario Kart again under Zelda's shadow",
+    "tags": [
+      "close-match",
+      "rematch"
+    ]
+  },
+  {
+    "poll": 3483,
+    "contest": "BGE 2K9",
+    "round": "Division 1992-1994 Semi Final",
+    "division": null,
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Final Fantasy VI won a perfectly ordered match, but Link's Awakening staying even with it in the opening minutes badly damaged FF6's elite reputation. The writeup treats those few minutes as more important than the eventual easy finish.",
+    "headline": "Link's Awakening scare exposes Final Fantasy VI's decline",
+    "tags": [
+      "warning-sign",
+      "underperformance"
+    ]
+  },
+  {
+    "poll": 3484,
+    "contest": "BGE 2K9",
+    "round": "Division 1995-1997 Semi Final",
+    "division": null,
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Final Fantasy VII again dominated strong opposition, while GoldenEye clearly beat Super Mario RPG and Mario Kart 64 for second. The writeup mainly uses the result to continue the FF7-versus-Ocarina strength comparison.",
+    "headline": "Final Fantasy VII dominates as GoldenEye takes second",
+    "tags": [
+      "statement-win",
+      "title-hype"
+    ]
+  },
+  {
+    "poll": 3485,
+    "contest": "BGE 2K9",
+    "round": "Division 1995-1997 Semi Final",
+    "division": null,
+    "voting_anomalies": [
+      "sff"
+    ],
+    "anomaly_note": "The writeup explicitly says Yoshi's Island was SFFed into a very weak last-place showing, with Mario 64 providing the clearest source of the overlap.",
+    "off_topic": false,
+    "narrative": "Chrono Trigger built an overnight lead on Mario 64, only to collapse badly once Mario's morning vote arrived. Mario 64 turned the match into a convincing win and shattered expectations for Chrono Trigger's deeper run.",
+    "headline": "Mario 64 overturns Chrono Trigger and changes the bracket",
+    "tags": [
+      "upset",
+      "comeback",
+      "bracket-shift"
+    ]
+  },
+  {
+    "poll": 3486,
+    "contest": "BGE 2K9",
+    "round": "Division 1998-2000 Semi Final",
+    "division": null,
+    "voting_anomalies": [
+      "lff"
+    ],
+    "anomaly_note": "The writeup says Pokémon Gold and Silver leeched heavily from Pokémon RBY and cost the older generation first place against Metal Gear Solid.",
+    "off_topic": false,
+    "narrative": "Metal Gear Solid won, but Pokémon RBY remained impressive despite sharing the poll with Gold and Silver and Majora's Mask. The result made MGS look vulnerable for the next round while rehabilitating Majora's Mask somewhat.",
+    "headline": "Pokémon splitting hands Metal Gear Solid first place",
+    "tags": [
+      "warning-sign",
+      "pokemon-rise"
+    ]
+  },
+  {
+    "poll": 3487,
+    "contest": "BGE 2K9",
+    "round": "Division 1998-2000 Semi Final",
+    "division": null,
+    "voting_anomalies": [
+      "lff"
+    ],
+    "anomaly_note": "The writeup says Final Fantasy IX leeched support from Final Fantasy VIII early, briefly allowing StarCraft to threaten the second advancing position.",
+    "off_topic": false,
+    "narrative": "StarCraft briefly revived memories of 2004 by taking an early second-place lead, but Final Fantasy VIII erased it quickly once the overnight vote arrived. Ocarina of Time dominated throughout.",
+    "headline": "Final Fantasy VIII ends StarCraft's last comeback hope",
+    "tags": [
+      "comeback-denied",
+      "statement-win"
+    ]
+  },
+  {
+    "poll": 3488,
+    "contest": "BGE 2K9",
+    "round": "Division 2001-2003 Semi Final",
+    "division": null,
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Final Fantasy X won a crowded all-PS2 field, while Kingdom Hearts comfortably beat Metal Gear Solid 2 for second. Kingdom Hearts' strong showing and FFX's modest margin made the winner look less secure than the placement suggested.",
+    "headline": "Kingdom Hearts shines while Final Fantasy X looks vulnerable",
+    "tags": [
+      "warning-sign",
+      "statement-win"
+    ]
+  },
+  {
+    "poll": 3489,
+    "contest": "BGE 2K9",
+    "round": "Division 2001-2003 Semi Final",
+    "division": null,
+    "voting_anomalies": [
+      "sff"
+    ],
+    "anomaly_note": "The writeup says Melee SFFed Wind Waker, though Wind Waker still held up better than expected and even finished ahead of Halo.",
+    "off_topic": false,
+    "narrative": "Melee won easily, while Diablo II repeated its first-round success and comfortably advanced again. Halo collapsed to last behind a SFF-affected Wind Waker, producing another major embarrassment for the series.",
+    "headline": "Diablo II advances again as Halo falls to last",
+    "tags": [
+      "underperformance",
+      "halo-choke"
+    ]
+  },
+  {
+    "poll": 3490,
+    "contest": "BGE 2K9",
+    "round": "Division 2004-2006 Semi Final",
+    "division": null,
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Metal Gear Solid 3 won comfortably, while Oblivion survived a long duel with World of Warcraft for second. The writeup notes multiple rally attempts but concludes that none meaningfully changed the result.",
+    "headline": "Oblivion outlasts World of Warcraft in a long stall",
+    "tags": [
+      "close-match",
+      "statement-win"
+    ]
+  },
+  {
+    "poll": 3491,
+    "contest": "BGE 2K9",
+    "round": "Division 2004-2006 Semi Final",
+    "division": null,
+    "voting_anomalies": [
+      "lff"
+    ],
+    "anomaly_note": "The writeup says Twilight Princess absorbed enough of Kingdom Hearts II's usual day-vote support to help Resident Evil 4 survive another close rematch.",
+    "off_topic": false,
+    "narrative": "Twilight Princess won, but Resident Evil 4 and Kingdom Hearts II again produced a close fight for the other advancing spot. RE4 survived a late collapse, while Twilight Princess itself looked less dominant than a finalist was expected to look.",
+    "headline": "Resident Evil 4 survives Kingdom Hearts again",
+    "tags": [
+      "close-match",
+      "rematch",
+      "warning-sign"
+    ]
+  },
+  {
+    "poll": 3492,
+    "contest": "BGE 2K9",
+    "round": "Division 2007-2009 Semi Final",
+    "division": null,
+    "voting_anomalies": [
+      "sff"
+    ],
+    "anomaly_note": "The writeup calls Brawl's suppression of Super Mario Galaxy one of the most meaningful SFF beatings in contest history.",
+    "off_topic": false,
+    "narrative": "Brawl annihilated Galaxy and sent Call of Duty 4 through in second, turning Galaxy's disappointing first round into a full collapse. The writeup elevates Brawl into serious finals contention after the result.",
+    "headline": "Brawl destroys Galaxy in a historic SFF beating",
+    "tags": [
+      "statement-win",
+      "underperformance",
+      "title-hype"
+    ]
+  },
+  {
+    "poll": 3493,
+    "contest": "BGE 2K9",
+    "round": "Division 2007-2009 Semi Final",
+    "division": null,
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Metal Gear Solid 4 and Fallout 3 advanced in an orderly match with little suspense, while Portal briefly made the lower positions interesting. The writeup treats it mainly as a quiet setup for later rounds.",
+    "headline": "Metal Gear Solid 4 and Fallout 3 advance quietly",
+    "tags": []
+  },
+  {
+    "poll": 3494,
+    "contest": "BGE 2K9",
+    "round": "Division 1972-1988 Final",
+    "division": null,
+    "voting_anomalies": [
+      "lff"
+    ],
+    "anomaly_note": "The writeup says Mega Man 2 and Tetris hurt Mario's support more than Zelda's, helping narrow the Mario-Zelda gap sharply from their previous meeting.",
+    "off_topic": false,
+    "narrative": "Mario still beat Zelda without being seriously threatened, but the margin collapsed compared with their prior matchup. The writeup treats the shift as evidence that Mario split more badly with the surrounding field and as setup for later surprises.",
+    "headline": "Zelda closes the gap on Mario in a strange rematch",
+    "tags": [
+      "rematch",
+      "warning-sign",
+      "strength-debate"
+    ]
+  }
+]

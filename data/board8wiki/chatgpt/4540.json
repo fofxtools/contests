@@ -1,0 +1,783 @@
+[
+  {
+    "poll": 4540,
+    "contest": "Rivalry",
+    "round": "Round One",
+    "division": "Northwest",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": true,
+    "narrative": "After briefly praising Dante and Vergil's enormous win, the writeup turns mostly into a long rant about the direction of Devil May Cry and other games.",
+    "headline": "A huge Dante win gives way to a long Capcom rant",
+    "tags": [
+      "statement-win"
+    ]
+  },
+  {
+    "poll": 4541,
+    "contest": "Rivalry",
+    "round": "Round One",
+    "division": "Northwest",
+    "voting_anomalies": [
+      "rally",
+      "pic_factor"
+    ],
+    "anomaly_note": "The writeup says 4chan rallied the Wolfenstein side hard enough to drag Sora and Riku down temporarily. It also says the Wolfenstein team had a picture advantage because the Sora/Riku image looked poor.",
+    "off_topic": false,
+    "narrative": "The strangest first-round pairing briefly became a 4chan target, but the rally faded once it was clear the upset was not happening. Sora and Riku recovered comfortably, closing a first round the writeup considered deeply disappointing.",
+    "headline": "4chan dents Sora briefly in the contest's strangest match",
+    "tags": [
+      "4chan",
+      "contest-wrapup"
+    ]
+  },
+  {
+    "poll": 4542,
+    "contest": "Rivalry",
+    "round": "Round Two",
+    "division": "North",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Mario and Bowser repeated a matchup the writeup felt had effectively happened only a year earlier. The rout is remembered mainly as another example of the bracket producing bad rematches.",
+    "headline": "Mario and Bowser begin Round Two with another bad rematch",
+    "tags": [
+      "rematch",
+      "low-drama"
+    ]
+  },
+  {
+    "poll": 4543,
+    "contest": "Rivalry",
+    "round": "Round Two",
+    "division": "North",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Sonic and Robotnik demolished the pre-match upset case built around Kirby and Meta Knight. The writeup treats the result as evidence that iconic rivalry strength mattered more than people expected.",
+    "headline": "Sonic and Robotnik erase the Kirby upset hype",
+    "tags": [
+      "rivalry-boost",
+      "statement-win"
+    ]
+  },
+  {
+    "poll": 4544,
+    "contest": "Rivalry",
+    "round": "Round Two",
+    "division": "Northeast",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Mega Man X and Zero overwhelmed Bartz and Gilgamesh in a nearly content-free match. The writeup mainly uses the result to emphasize how weak Guybrush had looked in the prior round.",
+    "headline": "Mega Man X and Zero cruise through a forgettable matchup",
+    "tags": [
+      "low-drama",
+      "statement-win"
+    ]
+  },
+  {
+    "poll": 4545,
+    "contest": "Rivalry",
+    "round": "Round Two",
+    "division": "Northeast",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Sub-Zero and Scorpion beat Donkey Kong and King K. Rool comfortably despite surprisingly low prediction confidence. The writeup treats the result as another example of Donkey Kong being chronically overrated.",
+    "headline": "The Mortal Kombat pair punishes another Donkey Kong overestimate",
+    "tags": [
+      "dk-overrated",
+      "statement-win"
+    ]
+  },
+  {
+    "poll": 4546,
+    "contest": "Rivalry",
+    "round": "Round Two",
+    "division": "East",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Red and Blue crushed Luigi and Waluigi, exposing how much an unpopular partner could drag down a stronger character in the rivalry format. The writeup openly calls its own Luigi upset pick a major mistake.",
+    "headline": "The trainers demolish Luigi and Waluigi",
+    "tags": [
+      "rivalry-strength",
+      "anchor-effect",
+      "bad-prediction"
+    ]
+  },
+  {
+    "poll": 4547,
+    "contest": "Rivalry",
+    "round": "Round Two",
+    "division": "East",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Ryu and Ken handled Fox and Wolf without difficulty and confirmed that they too were receiving a substantial rivalry boost. The trainers nevertheless remained the clearer favorite for the next round.",
+    "headline": "Ryu and Ken validate their rivalry boost",
+    "tags": [
+      "rivalry-boost",
+      "statement-win"
+    ]
+  },
+  {
+    "poll": 4548,
+    "contest": "Rivalry",
+    "round": "Round Two",
+    "division": "Southeast",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Samus and Ridley advanced, but Ridley held Samus down badly enough that the writeup calls the win a Pyrrhic victory. The performance made a deep Samus run look increasingly unrealistic.",
+    "headline": "Ridley turns Samus's win into a Pyrrhic victory",
+    "tags": [
+      "anchor-effect",
+      "pyrrhic-win",
+      "warning-sign"
+    ]
+  },
+  {
+    "poll": 4549,
+    "contest": "Rivalry",
+    "round": "Round Two",
+    "division": "Southeast",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Big Boss and The Boss beat Chris and Wesker more comfortably than the writeup expected. The result is presented as evidence that the Metal Gear pairing benefited more from the rivalry format than anticipated.",
+    "headline": "The Bosses outperform expectations against Resident Evil",
+    "tags": [
+      "rivalry-strength",
+      "statement-win"
+    ]
+  },
+  {
+    "poll": 4550,
+    "contest": "Rivalry",
+    "round": "Round Two",
+    "division": "South",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Link and Ganondorf obliterated Amaterasu and Orochi and effectively ended remaining hopes for a normal upset of Link. The match reignited the long-running argument that Link should be retired from future contests.",
+    "headline": "Link's rout renews the retirement debate",
+    "tags": [
+      "link-dominance",
+      "retirement-debate"
+    ]
+  },
+  {
+    "poll": 4551,
+    "contest": "Rivalry",
+    "round": "Round Two",
+    "division": "South",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Mega Man and Wily beat Zidane and Kuja in another second-round match the writeup considered largely pointless. The picture receives more praise than the actual result.",
+    "headline": "Mega Man and Wily advance through another dull match",
+    "tags": [
+      "low-drama"
+    ]
+  },
+  {
+    "poll": 4552,
+    "contest": "Rivalry",
+    "round": "Round Two",
+    "division": "Southwest",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Phoenix and Edgeworth's huge opening board vote briefly made the matchup look interesting, but Alucard and Dracula took over and pulled away decisively. The vampires' performance confirmed their status as the division's stronger pairing.",
+    "headline": "Alucard and Dracula erase Phoenix's early board-vote surge",
+    "tags": [
+      "board-vote",
+      "statement-win"
+    ]
+  },
+  {
+    "poll": 4553,
+    "contest": "Rivalry",
+    "round": "Round Two",
+    "division": "Southwest",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Frog and Magus held off Chell and GLaDOS in one of the contest's rare genuinely close-looking matches. The writeup celebrates it mainly because almost every other rivalry matchup had been so uncompetitive.",
+    "headline": "Frog and Magus survive one of the contest's rare close matches",
+    "tags": [
+      "close-match",
+      "upset",
+      "rare-drama"
+    ]
+  },
+  {
+    "poll": 4554,
+    "contest": "Rivalry",
+    "round": "Round Two",
+    "division": "West",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Cloud and Sephiroth dispatched Kratos and Zeus in a match the writeup barely considered worth analyzing. The only notable wrinkle was Cloud finally enjoying a relatively good board vote against an even more anti-voted opponent.",
+    "headline": "Cloud and Sephiroth cruise through a low-interest matchup",
+    "tags": [
+      "anti-vote",
+      "low-drama"
+    ]
+  },
+  {
+    "poll": 4555,
+    "contest": "Rivalry",
+    "round": "Round Two",
+    "division": "West",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Snake and Liquid beat Pac-Man and Blinky in an unusually low-interest poll, but the writeup considers Snake's performance another sign that Metal Gear had declined. The result effectively killed any upset hope against Cloud and Sephiroth.",
+    "headline": "Snake advances while Metal Gear decline becomes harder to ignore",
+    "tags": [
+      "mgs-decline",
+      "low-turnout",
+      "warning-sign"
+    ]
+  },
+  {
+    "poll": 4556,
+    "contest": "Rivalry",
+    "round": "Round Two",
+    "division": "Northwest",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Squall and Seifer advanced without much drama, but the margin was weaker than the writeup expected from a top-seeded pairing. Because Squall's bracket path looked predetermined, the underperformance received little weight.",
+    "headline": "Squall advances with an underperformance nobody could use",
+    "tags": [
+      "underperformance",
+      "low-drama"
+    ]
+  },
+  {
+    "poll": 4557,
+    "contest": "Rivalry",
+    "round": "Round Two",
+    "division": "Northwest",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Dante and Vergil erased Sora and Riku's overnight lead, only for Kingdom Hearts' daytime strength to restore control and secure the win. The writeup regards it as the first truly good match of the contest even though the comeback failed.",
+    "headline": "Dante's overnight comeback falls short against Sora",
+    "tags": [
+      "close-match",
+      "comeback-denied",
+      "kingdom-hearts-decline"
+    ]
+  },
+  {
+    "poll": 4558,
+    "contest": "Rivalry",
+    "round": "Round Three",
+    "division": "North",
+    "voting_anomalies": [
+      "sff"
+    ],
+    "anomaly_note": "The writeup explicitly calls Mario and Bowser's win over Sonic and Robotnik an SFF beating.",
+    "off_topic": false,
+    "narrative": "The first Mario-versus-Sonic rivalry matchup in contest history turned into a one-sided win for Mario and Bowser. The writeup treats the result as another example of Sonic collapsing under Mario overlap.",
+    "headline": "Mario SFFs Sonic in their first rivalry-contest meeting",
+    "tags": [
+      "rivalry-classic",
+      "statement-win"
+    ]
+  },
+  {
+    "poll": 4559,
+    "contest": "Rivalry",
+    "round": "Round Three",
+    "division": "Northeast",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Mega Man X and Zero won, but Sub-Zero and Scorpion stayed much closer than anyone expected despite never truly threatening the result. The writeup credits the Mortal Kombat pair with an unusually strong rivalry boost.",
+    "headline": "The ninjas make Mega Man X sweat unexpectedly",
+    "tags": [
+      "close-percentage",
+      "rivalry-boost"
+    ]
+  },
+  {
+    "poll": 4560,
+    "contest": "Rivalry",
+    "round": "Round Three",
+    "division": "East",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Red and Blue demolished Ryu and Ken in what had been a heavily anticipated rivalry matchup. The result made the Pokémon trainers the clear stars of the contest and a genuine threat to the remaining elite pairings.",
+    "headline": "The trainers crush Ryu and Ken and become contest stars",
+    "tags": [
+      "trainers-run",
+      "statement-win",
+      "title-hype"
+    ]
+  },
+  {
+    "poll": 4561,
+    "contest": "Rivalry",
+    "round": "Round Three",
+    "division": "Southeast",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Samus and Ridley survived Big Boss and The Boss, but only after another performance badly weakened by Ridley's presence. The writeup calls it a second Pyrrhic victory and sees the upcoming trainers matchup as hopeless.",
+    "headline": "Samus survives another Pyrrhic victory with Ridley",
+    "tags": [
+      "anchor-effect",
+      "pyrrhic-win",
+      "warning-sign"
+    ]
+  },
+  {
+    "poll": 4562,
+    "contest": "Rivalry",
+    "round": "Round Three",
+    "division": "South",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Link and Ganondorf crushed Mega Man and Wily in another matchup the writeup considered too predictable to analyze at length. Link's dominance remained the only real story.",
+    "headline": "Link and Ganondorf roll through another predictable match",
+    "tags": [
+      "link-dominance",
+      "low-drama"
+    ]
+  },
+  {
+    "poll": 4563,
+    "contest": "Rivalry",
+    "round": "Round Three",
+    "division": "Southwest",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Alucard and Dracula comfortably stopped Frog and Magus despite extremely low bracket confidence in the vampire pairing. The writeup calls their divisional win the contest's largest prediction upset.",
+    "headline": "Alucard and Dracula complete the contest's biggest prediction upset",
+    "tags": [
+      "upset",
+      "bracket-buster",
+      "division-win"
+    ]
+  },
+  {
+    "poll": 4564,
+    "contest": "Rivalry",
+    "round": "Round Three",
+    "division": "West",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Cloud and Sephiroth unexpectedly rolled over Snake and Liquid, leaving the writeup searching among Metal Gear decline, Liquid's weakness, and possible overlap for an explanation. It treats the result mainly as evidence that Snake had fallen sharply.",
+    "headline": "Cloud and Sephiroth expose a sharply weakened Snake",
+    "tags": [
+      "mgs-decline",
+      "underperformance"
+    ]
+  },
+  {
+    "poll": 4565,
+    "contest": "Rivalry",
+    "round": "Round Three",
+    "division": "Northwest",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Squall and Seifer survived Sora and Riku after a long match whose trends repeatedly defied expectations. Sora erased much of Squall's lead late, but his weak morning showing left too much ground to recover.",
+    "headline": "Squall survives Sora in the best counted match",
+    "tags": [
+      "close-match",
+      "upset",
+      "trend-battle"
+    ]
+  },
+  {
+    "poll": 4566,
+    "contest": "Rivalry",
+    "round": "Round Four",
+    "division": "Contest Quarterfinal",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Mario and Bowser crushed Mega Man X and Zero by almost the same proportion as an old Mario-Mega Man matchup. The writeup uses the repeat-like result to complain about how lifeless the late rounds had become.",
+    "headline": "Mario repeats an old Mega Man rout almost exactly",
+    "tags": [
+      "rematch",
+      "low-drama"
+    ]
+  },
+  {
+    "poll": 4567,
+    "contest": "Rivalry",
+    "round": "Round Four",
+    "division": "Contest Quarterfinal",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Red and Blue decisively eliminated Samus and Ridley and became the first outside pairing to beat a Noble Nine member in a full-day head-to-head contest setting. The writeup frames it as a clear changing of the guard toward Pokémon.",
+    "headline": "The trainers topple Samus and signal a changing guard",
+    "tags": [
+      "trainers-run",
+      "noble-nine-break",
+      "changing-guard"
+    ]
+  },
+  {
+    "poll": 4568,
+    "contest": "Rivalry",
+    "round": "Round Four",
+    "division": "Contest Quarterfinal",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Link and Ganondorf overwhelmed Alucard and Dracula in a quarterfinal that closely echoed old Link blowouts of midcard opposition. The result added nothing new to the writeup's view of Link as untouchable.",
+    "headline": "Link ends the vampire run without resistance",
+    "tags": [
+      "link-dominance",
+      "low-drama"
+    ]
+  },
+  {
+    "poll": 4569,
+    "contest": "Rivalry",
+    "round": "Round Four",
+    "division": "Contest Quarterfinal",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Cloud and Sephiroth crushed Squall and Seifer by almost the same proportion as an old Final Fantasy VII-versus-VIII matchup. The writeup treats the lack of improvement as a warning that they had no chance against Link.",
+    "headline": "Cloud and Sephiroth win but confirm their Link problem",
+    "tags": [
+      "ff7-decline",
+      "warning-sign"
+    ]
+  },
+  {
+    "poll": 4570,
+    "contest": "Rivalry",
+    "round": "Round Five",
+    "division": "Contest Semifinal",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Red and Blue stayed even with Mario and Bowser for roughly the opening hour before Mario pulled away across the rest of the day. The trainers lost, but the writeup still regards them as the contest's breakout stars.",
+    "headline": "Mario survives the trainers after an early semifinal scare",
+    "tags": [
+      "trainers-run",
+      "semifinal",
+      "early-scare"
+    ]
+  },
+  {
+    "poll": 4571,
+    "contest": "Rivalry",
+    "round": "Round Five",
+    "division": "Contest Semifinal",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Link and Ganondorf demolished Cloud and Sephiroth so badly that the writeup treats the match as final proof Link should be retired. Cloud's late recovery merely kept the final percentage from looking even worse.",
+    "headline": "Link's semifinal rout becomes the case for retirement",
+    "tags": [
+      "link-dominance",
+      "retirement-debate",
+      "ff7-decline"
+    ]
+  },
+  {
+    "poll": 4573,
+    "contest": "Rivalry",
+    "round": "Bonus",
+    "division": "Bonus",
+    "voting_anomalies": [
+      "rally"
+    ],
+    "anomaly_note": "The writeup says rallies occurred during the match and describes Pokémon rallying especially hard in the final hour as the lead repeatedly changed.",
+    "off_topic": false,
+    "narrative": "The non-bracket bonus became the contest's true classic, with the trainers and Cloud/Sephiroth trading leads, stalling for hours, and reaching a tied late update before Pokémon survived by a handful of votes. The writeup ranks it among the best contest matches ever.",
+    "headline": "The trainers win an all-time bonus classic by inches",
+    "tags": [
+      "bonus",
+      "match-of-contest",
+      "close-match"
+    ]
+  },
+  {
+    "poll": 4572,
+    "contest": "Rivalry",
+    "round": "Championship",
+    "division": "Contest Final",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Mario and Bowser led briefly behind bracket voting and anti-Link sentiment, but Link and Ganondorf soon took control and won the championship. The final is remembered more for the Oracle tiebreak among perfect brackets than for competitive drama.",
+    "headline": "Link wins a dull final as Oracle decides perfect brackets",
+    "tags": [
+      "champion",
+      "title-match",
+      "oracle-tiebreak"
+    ]
+  },
+  {
+    "poll": 5143,
+    "contest": "CB IX",
+    "round": "Round One",
+    "division": null,
+    "voting_anomalies": [
+      "sff"
+    ],
+    "anomaly_note": "The writeup says Tingle initially competed well for second before Link's SFF kicked in and pushed him behind Isaac.",
+    "off_topic": false,
+    "narrative": "Link won the three-way opener as expected, while Isaac took second in the Expert Challenge ordering after Tingle faded under Link overlap. The writeup also treats Link's less-than-total domination as another sign he had declined from his peak.",
+    "headline": "Link wins as SFF pushes Tingle behind Isaac",
+    "tags": [
+      "expert-mode",
+      "link-decline"
+    ]
+  },
+  {
+    "poll": 5144,
+    "contest": "CB IX",
+    "round": "Round One",
+    "division": null,
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Waluigi drew early joke support and briefly inspired another L-Block-style fantasy, but Raiden quickly took control and won comfortably. Alan Wake never threatened even the second-place Expert Challenge position.",
+    "headline": "Raiden shuts down Waluigi's joke hopes quickly",
+    "tags": [
+      "joke-vote",
+      "expert-mode"
+    ]
+  },
+  {
+    "poll": 5145,
+    "contest": "CB IX",
+    "round": "Round One",
+    "division": null,
+    "voting_anomalies": [
+      "pic_factor"
+    ],
+    "anomaly_note": "The writeup says the debate over second place effectively ended once the picture appeared, with Solaire's image making him look more distinctive and appropriate than Demi-Fiend.",
+    "off_topic": false,
+    "narrative": "Yoshi won easily, while Solaire took second in the Expert Challenge ordering over Demi-Fiend. The writeup also laments Yoshi's poor bracket draw because his next match was against Link.",
+    "headline": "Solaire wins the picture battle for second",
+    "tags": [
+      "picture-driven",
+      "bad-draw",
+      "expert-mode"
+    ]
+  },
+  {
+    "poll": 5146,
+    "contest": "CB IX",
+    "round": "Round One",
+    "division": null,
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": true,
+    "narrative": "After noting Shepard's easy win and Olimar's expected second-place finish, the writeup mostly becomes an extended argument about why FemShep's voice performance is superior.",
+    "headline": "Shepard's easy win turns into a FemShep voice-acting rant",
+    "tags": [
+      "femshep"
+    ]
+  },
+  {
+    "poll": 5147,
+    "contest": "CB IX",
+    "round": "Round One",
+    "division": null,
+    "voting_anomalies": [
+      "rally"
+    ],
+    "anomaly_note": "The writeup says 4chan noticed Tiny Tina's comeback and rallied Tharja, pushing Tharja back ahead and preserving the win.",
+    "off_topic": false,
+    "narrative": "Tharja built a large early lead, Tiny Tina slowly erased it, and the two reached a true late deadlock before outside support swung the match back to Tharja. The writeup considers it a rare first-round match that would have benefited from a longer poll.",
+    "headline": "A 4chan rally saves Tharja from Tiny Tina",
+    "tags": [
+      "close-match",
+      "4chan",
+      "comeback"
+    ]
+  },
+  {
+    "poll": 5148,
+    "contest": "CB IX",
+    "round": "Round One",
+    "division": null,
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Aerith won as expected, but the real surprise was Dragon Quest V's Hero taking second in the Expert Challenge ordering over Rinoa. The writeup celebrates the result as an improbable Board 8-style upset and a guru buster.",
+    "headline": "Dragon Quest Hero shocks Rinoa for second place",
+    "tags": [
+      "upset",
+      "guru-buster",
+      "expert-mode"
+    ]
+  },
+  {
+    "poll": 5149,
+    "contest": "CB IX",
+    "round": "Round One",
+    "division": null,
+    "voting_anomalies": [
+      "rally"
+    ],
+    "anomaly_note": "The writeup says League of Legends subreddit rallies transformed Draven from a distant last-place character into the winner within a few hours.",
+    "off_topic": false,
+    "narrative": "Jak and Chie controlled the match until League rallying arrived, after which Draven erased a huge deficit and surged into first. The writeup identifies this as the beginning of the rally-driven Draven run that would define the contest.",
+    "headline": "League rallies launch Draven from last place to first",
+    "tags": [
+      "rally-classic",
+      "comeback",
+      "draven-run"
+    ]
+  },
+  {
+    "poll": 5150,
+    "contest": "CB IX",
+    "round": "Round One",
+    "division": null,
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Ryu won comfortably, while Yuri Lowell secured the second-place Expert Challenge position over Face McShooty without much suspense. The writeup is more pleased by Yuri's placement than interested in the actual competitiveness of the match.",
+    "headline": "Ryu wins while Yuri comfortably takes second",
+    "tags": [
+      "expert-mode",
+      "low-drama"
+    ]
+  },
+  {
+    "poll": 5151,
+    "contest": "CB IX",
+    "round": "Round One",
+    "division": null,
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Mega Man X dominated the field and sparked discussion about whether his strength had reached the lower Noble Nine tier. The writeup is equally delighted that Jigglypuff finally appeared in a contest and finished second.",
+    "headline": "Mega Man X dominates as Jigglypuff finally debuts",
+    "tags": [
+      "jigglypuff-debut",
+      "statement-win",
+      "noble-nine-talk"
+    ]
+  },
+  {
+    "poll": 5152,
+    "contest": "CB IX",
+    "round": "Round One",
+    "division": null,
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": true,
+    "narrative": "Sonic's easy win receives little attention because the writeup mostly turns into a lengthy ranking and discussion of Street Fighter IV characters.",
+    "headline": "Sonic wins while the writeup becomes a Street Fighter ranking",
+    "tags": []
+  },
+  {
+    "poll": 5153,
+    "contest": "CB IX",
+    "round": "Round One",
+    "division": null,
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Dracula won as expected and Lucina took second, while Caim produced a historically weak last-place showing. The writeup treats Caim's tiny support as the only memorable feature of the match.",
+    "headline": "Caim turns a routine Dracula win into a futility record",
+    "tags": [
+      "record",
+      "fodder"
+    ]
+  },
+  {
+    "poll": 5154,
+    "contest": "CB IX",
+    "round": "Round One",
+    "division": null,
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Barret won the three-way poll, but looked alarmingly weak against Professor Layton and Reimu before recovering with the Final Fantasy VII daytime vote. The writeup treats the result as another clear sign of franchise-wide FFVII decline.",
+    "headline": "Barret wins while Final Fantasy VII decline worsens",
+    "tags": [
+      "ff7-decline",
+      "underperformance",
+      "warning-sign"
+    ]
+  },
+  {
+    "poll": 5155,
+    "contest": "CB IX",
+    "round": "Round One",
+    "division": null,
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Phoenix Wright beat Marth and Nightmare without the close fight many had anticipated. The writeup uses the result to argue that Phoenix had fully outgrown his old joke-character status.",
+    "headline": "Phoenix Wright dispatches Marth and sheds the joke label",
+    "tags": [
+      "phoenix-rise",
+      "statement-win"
+    ]
+  },
+  {
+    "poll": 5156,
+    "contest": "CB IX",
+    "round": "Round One",
+    "division": null,
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Vincent won but performed far below what his old contest strength suggested against KOS-MOS and Dunban. The writeup sees the result as another unmistakable sign that Final Fantasy VII had fallen sharply.",
+    "headline": "Vincent wins but exposes deeper Final Fantasy VII decline",
+    "tags": [
+      "ff7-decline",
+      "underperformance",
+      "warning-sign"
+    ]
+  },
+  {
+    "poll": 5157,
+    "contest": "CB IX",
+    "round": "Round One",
+    "division": null,
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Mewtwo delivered the round's largest blowout, but the writeup focuses on Board 8 mascot Chester deliberately becoming a historic futility benchmark. Chester's last-place finish is celebrated as the intended joke rather than treated as a failed campaign.",
+    "headline": "Mewtwo crushes while Chester becomes a Board 8 record",
+    "tags": [
+      "record",
+      "board8",
+      "chester"
+    ]
+  },
+  {
+    "poll": 5158,
+    "contest": "CB IX",
+    "round": "Round One",
+    "division": null,
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "The Boss won and Chrom took second without either position being seriously threatened, while Heavy finished last yet again. The writeup treats the result as another reminder that Team Fortress characters had never translated their popularity into contest strength.",
+    "headline": "The Boss wins as Heavy finishes last again",
+    "tags": [
+      "heavy-last",
+      "low-drama"
+    ]
+  }
+]

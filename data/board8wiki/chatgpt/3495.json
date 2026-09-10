@@ -1,0 +1,812 @@
+[
+  {
+    "poll": 3495,
+    "contest": "BGE 2K9",
+    "round": "Division 1989-1991 Final",
+    "division": null,
+    "voting_anomalies": [
+      "sff",
+      "lff"
+    ],
+    "anomaly_note": "The writeup says Mario 3 clearly SFFed Sonic. It also says the other older games leeched Mario World more heavily, making World's near-win over Mario 3 especially striking.",
+    "off_topic": false,
+    "narrative": "Mario 3 survived a sustained challenge from Mario World, but the writeup treats the narrow escape as evidence that World's relative strength had risen sharply. It also frames the result as part of a broader generational shift on GameFAQs.",
+    "headline": "Mario 3 survives Mario World but looks vulnerable",
+    "tags": [
+      "close-match",
+      "paradigm-shift",
+      "warning-sign"
+    ]
+  },
+  {
+    "poll": 3496,
+    "contest": "BGE 2K9",
+    "round": "Division 1992-1994 Final",
+    "division": null,
+    "voting_anomalies": [
+      "sff"
+    ],
+    "anomaly_note": "The writeup says A Link to the Past SFFed Link's Awakening heavily and left both lower Nintendo games suppressed beneath Final Fantasy VI.",
+    "off_topic": false,
+    "narrative": "A Link to the Past and Final Fantasy VI advanced in a match the writeup considered almost completely predetermined. The only notable fanbase effect was Link's Awakening taking especially heavy suppression.",
+    "headline": "Link to the Past and Final Fantasy VI advance routinely",
+    "tags": [
+      "low-drama",
+      "statement-win"
+    ]
+  },
+  {
+    "poll": 3497,
+    "contest": "BGE 2K9",
+    "round": "Division 1995-1997 Final",
+    "division": null,
+    "voting_anomalies": [
+      "lff"
+    ],
+    "anomaly_note": "The writeup says GoldenEye clearly leeched Mario 64, giving Chrono Trigger a much better chance to steal the second advancing position.",
+    "off_topic": false,
+    "narrative": "Final Fantasy VII dominated, while Chrono Trigger built a real lead on Mario 64 before collapsing again with the afternoon vote. Mario 64's late recovery ended another promising Chrono Trigger upset attempt.",
+    "headline": "Mario 64 survives another Chrono Trigger afternoon collapse",
+    "tags": [
+      "close-match",
+      "comeback",
+      "statement-win"
+    ]
+  },
+  {
+    "poll": 3498,
+    "contest": "BGE 2K9",
+    "round": "Division 1998-2000 Final",
+    "division": null,
+    "voting_anomalies": [
+      "sff",
+      "lff"
+    ],
+    "anomaly_note": "The writeup says Ocarina of Time imposed Nintendo SFF on Pokémon RBY, though Pokémon resisted it unusually well. It also says Final Fantasy VIII leeched Metal Gear Solid and helped Pokémon take second.",
+    "off_topic": false,
+    "narrative": "Ocarina of Time won comfortably, while Pokémon RBY finally broke through against Metal Gear Solid and advanced. The result elevated Pokémon into the site's highest tier and exposed a recurring overlap between Metal Gear and Final Fantasy.",
+    "headline": "Pokémon breaks through against Metal Gear Solid",
+    "tags": [
+      "upset",
+      "pokemon-rise",
+      "statement-win"
+    ]
+  },
+  {
+    "poll": 3499,
+    "contest": "BGE 2K9",
+    "round": "Division 2001-2003 Final",
+    "division": null,
+    "voting_anomalies": [
+      "lff"
+    ],
+    "anomaly_note": "The writeup says Kingdom Hearts was held down by its PS2 overlap with Final Fantasy X, preventing it from mounting a serious challenge for second.",
+    "off_topic": false,
+    "narrative": "Melee and Final Fantasy X advanced through a largely featureless staircase match. Kingdom Hearts briefly fought Diablo II for position but never threatened the top two once the PS2 split took hold.",
+    "headline": "Melee and Final Fantasy X cruise through a staircase",
+    "tags": [
+      "low-drama",
+      "format-effect"
+    ]
+  },
+  {
+    "poll": 3500,
+    "contest": "BGE 2K9",
+    "round": "Division 2004-2006 Final",
+    "division": null,
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Twilight Princess took first, but Metal Gear Solid 3 built a substantial lead over Resident Evil 4 before RE4 spent most of the day slowly erasing it. Resident Evil 4 completed another close comeback and advanced.",
+    "headline": "Resident Evil 4 slowly comes back on Metal Gear Solid 3",
+    "tags": [
+      "close-match",
+      "comeback",
+      "cardiac-run"
+    ]
+  },
+  {
+    "poll": 3501,
+    "contest": "BGE 2K9",
+    "round": "Division 2007-2009 Final",
+    "division": null,
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Brawl decisively reversed its close Game of the Year history with Metal Gear Solid 4 and dominated the divisional final. The writeup treats the result as final proof that Brawl's contest strength was legitimate.",
+    "headline": "Brawl crushes Metal Gear Solid 4 and confirms its strength",
+    "tags": [
+      "statement-win",
+      "title-hype"
+    ]
+  },
+  {
+    "poll": 3502,
+    "contest": "BGE 2K9",
+    "round": "Quarter Final",
+    "division": null,
+    "voting_anomalies": [
+      "sff",
+      "lff",
+      "cheating_alleged"
+    ],
+    "anomaly_note": "The writeup describes heavy Mario-on-Mario SFF and a three-Mario split that greatly helped Zelda. It also alleges that a suspicious late swing in Mario 3's favor may have involved cheating, though the official result ultimately stood.",
+    "off_topic": false,
+    "narrative": "Super Mario World took first, while Zelda erased a huge deficit and nearly stole second from Mario 3 in the final minutes. A suspicious late swing for Mario 3 turned an already dramatic finish into a lasting Board 8 controversy.",
+    "headline": "Mario 3 survives Zelda in a controversial final-minute finish",
+    "tags": [
+      "close-match",
+      "controversy",
+      "match-of-contest"
+    ]
+  },
+  {
+    "poll": 3503,
+    "contest": "BGE 2K9",
+    "round": "Quarter Final",
+    "division": null,
+    "voting_anomalies": [
+      "sff"
+    ],
+    "anomaly_note": "The writeup says Final Fantasy VII SFFed Final Fantasy VI heavily, reducing FF6 to a minor factor while the real race developed between Link to the Past and Mario 64.",
+    "off_topic": false,
+    "narrative": "Final Fantasy VII dominated, while A Link to the Past survived a late Mario 64 comeback by a narrow margin. The writeup also sees the result as another sign that newer voters were gradually reshaping the site's preferences.",
+    "headline": "Link to the Past barely survives Mario 64",
+    "tags": [
+      "close-match",
+      "statement-win",
+      "youth-shift"
+    ]
+  },
+  {
+    "poll": 3504,
+    "contest": "BGE 2K9",
+    "round": "Quarter Final",
+    "division": null,
+    "voting_anomalies": [
+      "sff"
+    ],
+    "anomaly_note": "The writeup says Ocarina of Time heavily SFFed both Melee and Pokémon RBY, with Pokémon resisting the Nintendo suppression better than Melee.",
+    "off_topic": false,
+    "narrative": "Ocarina of Time dominated the Nintendo-heavy field, while Final Fantasy X used the favorable bracket setup to advance. Melee fell to last and Pokémon could not overcome Ocarina's presence.",
+    "headline": "Ocarina suppresses Nintendo rivals and sends Final Fantasy X through",
+    "tags": [
+      "format-effect",
+      "statement-win"
+    ]
+  },
+  {
+    "poll": 3505,
+    "contest": "BGE 2K9",
+    "round": "Quarter Final",
+    "division": null,
+    "voting_anomalies": [
+      "sff"
+    ],
+    "anomaly_note": "The writeup says Brawl SFFed Twilight Princess enough to knock Zelda out of the advancing positions.",
+    "off_topic": false,
+    "narrative": "Metal Gear Solid 4 built a large overnight lead, then barely survived a massive Brawl afternoon comeback. The two advanced together from an unusually balanced field, while Twilight Princess and Resident Evil 4 were eliminated.",
+    "headline": "Metal Gear Solid 4 barely holds off Brawl",
+    "tags": [
+      "close-match",
+      "comeback",
+      "rivalry"
+    ]
+  },
+  {
+    "poll": 3506,
+    "contest": "BGE 2K9",
+    "round": "Semi Final",
+    "division": null,
+    "voting_anomalies": [
+      "sff",
+      "lff"
+    ],
+    "anomaly_note": "The writeup says Nintendo SFF inflated Final Fantasy VII's advantage, while the split between the two Mario games helped Link to the Past secure the other final berth.",
+    "off_topic": false,
+    "narrative": "Final Fantasy VII and A Link to the Past advanced from a semifinal the writeup considered nearly predetermined. FF7's dominant showing became the main talking point heading into the championship.",
+    "headline": "Final Fantasy VII dominates a predictable semifinal",
+    "tags": [
+      "semifinal",
+      "low-drama",
+      "statement-win"
+    ]
+  },
+  {
+    "poll": 3507,
+    "contest": "BGE 2K9",
+    "round": "Semi Final",
+    "division": null,
+    "voting_anomalies": [
+      "sff"
+    ],
+    "anomaly_note": "The writeup says Ocarina of Time SFFed Brawl out of contention, leaving Final Fantasy X and Metal Gear Solid 4 to fight for the other final spot.",
+    "off_topic": false,
+    "narrative": "Ocarina of Time secured first easily, while Final Fantasy X erased Metal Gear Solid 4's early lead overnight and advanced to the championship. Brawl's run ended under an especially unfavorable Nintendo matchup.",
+    "headline": "Final Fantasy X passes Metal Gear Solid 4 for the final",
+    "tags": [
+      "semifinal",
+      "format-effect"
+    ]
+  },
+  {
+    "poll": 3508,
+    "contest": "BGE 2K9",
+    "round": "Tournament Final",
+    "division": null,
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Ocarina of Time took control almost immediately and defeated Final Fantasy VII despite FF7 looking stronger in earlier rounds. The writeup treats the result as a fair Team Zelda victory and Ocarina's arrival as the site's new top game.",
+    "headline": "Ocarina defeats Final Fantasy VII and wins the championship",
+    "tags": [
+      "champion",
+      "new-number-one",
+      "title-match"
+    ]
+  },
+  {
+    "poll": 3509,
+    "contest": "BGE 2K9",
+    "round": "Bonus Match",
+    "division": null,
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "The 1v1 bonus rematch again belonged to Ocarina of Time, reinforcing the championship result against Final Fantasy VII. The writeup also uses the high-turnout rematch to argue strongly for returning future contests to 1v1 brackets.",
+    "headline": "Ocarina confirms its Final Fantasy VII win in a rematch",
+    "tags": [
+      "bonus",
+      "rematch",
+      "new-number-one"
+    ]
+  },
+  {
+    "poll": 3730,
+    "contest": "CB VIII",
+    "round": "Round One",
+    "division": "Hyrule Division",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Link won easily, but the writeup considered the performance mildly disappointing by his usual blowout standards and attributed some of that to anti-Link sentiment. The match also marked the return of a true 1v1 contest after four years.",
+    "headline": "Link wins easily as 1v1 contests return",
+    "tags": [
+      "return-to-1v1",
+      "underperformance",
+      "anti-vote"
+    ]
+  },
+  {
+    "poll": 3731,
+    "contest": "CB VIII",
+    "round": "Round One",
+    "division": "Hyrule Division",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "A heavily debated 8/9 matchup ended almost immediately when Alucard took control and never yielded an update. The writeup treats the rout as further evidence that Magus and Chrono Trigger had continued to decline.",
+    "headline": "Alucard crushes Magus in a supposedly even matchup",
+    "tags": [
+      "statement-win",
+      "magus-decline"
+    ]
+  },
+  {
+    "poll": 3732,
+    "contest": "CB VIII",
+    "round": "Round One",
+    "division": "Hyrule Division",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Pokémon Trainer Red built an early lead, lost it overnight to Ocelot, then erased Ocelot's advantage with a late-morning surge. The close comeback established Red as legitimate and reinforced Pokémon's powerful daytime trend.",
+    "headline": "Red comes back late to edge Revolver Ocelot",
+    "tags": [
+      "debut",
+      "close-match",
+      "comeback"
+    ]
+  },
+  {
+    "poll": 3733,
+    "contest": "CB VIII",
+    "round": "Round One",
+    "division": "Hyrule Division",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Mega Man X won comfortably in a matchup the writeup considered badly misseeded. Captain Price performed somewhat better than expected, but never made the result competitive.",
+    "headline": "Mega Man X exposes a badly misseeded opener",
+    "tags": [
+      "misseeding",
+      "statement-win"
+    ]
+  },
+  {
+    "poll": 3734,
+    "contest": "CB VIII",
+    "round": "Round One",
+    "division": "Hyrule Division",
+    "voting_anomalies": [
+      "sff"
+    ],
+    "anomaly_note": "The writeup calls the matchup another Nintendo SFF-fest and argues that Meta Knight's strength was hidden by being repeatedly drawn against overlapping Nintendo opponents.",
+    "off_topic": false,
+    "narrative": "Luigi won comfortably, while the writeup focused more on Meta Knight's repeated bad bracket luck than on the match itself. It argues that Meta Knight was stronger than the result made him look.",
+    "headline": "Luigi advances as Meta Knight draws another Nintendo trap",
+    "tags": [
+      "bad-draw",
+      "statement-win"
+    ]
+  },
+  {
+    "poll": 3735,
+    "contest": "CB VIII",
+    "round": "Round One",
+    "division": "Hyrule Division",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Amaterasu took control early and beat Shadow far more comfortably than many expected, despite the match occurring during Sonic Team's preferred daytime hours. The result fueled the contest's early anti-Sonic sentiment.",
+    "headline": "Amaterasu beats Shadow and deepens Sonic Team doubts",
+    "tags": [
+      "upset",
+      "sonic-decline",
+      "statement-win"
+    ]
+  },
+  {
+    "poll": 3736,
+    "contest": "CB VIII",
+    "round": "Round One",
+    "division": "Hyrule Division",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Weighted Companion Cube overwhelmed Sandal in a deliberately silly matchup. The writeup attributes the scale of the rout more to Sandal's weakness than to any revival of the Cube's old championship-level bandwagon.",
+    "headline": "The Cube demolishes an overmatched Sandal",
+    "tags": [
+      "joke-match",
+      "statement-win"
+    ]
+  },
+  {
+    "poll": 3737,
+    "contest": "CB VIII",
+    "round": "Round One",
+    "division": "Hyrule Division",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "The Boss took an early lead over Nathan Drake and held a remarkably stable advantage for nearly the entire match. Drake's Uncharted 2 boost made him respectable, but not strong enough to avoid the upset.",
+    "headline": "The Boss quietly upsets Nathan Drake",
+    "tags": [
+      "upset",
+      "uncharted-boost",
+      "low-drama"
+    ]
+  },
+  {
+    "poll": 3738,
+    "contest": "CB VIII",
+    "round": null,
+    "division": "Chaos Division",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Sonic defeated a character whose game had not yet released in North America, but looked much weaker than expected while doing it. The showing immediately triggered serious talk of Ganondorf or Kirby breaking the Noble Nine.",
+    "headline": "Sonic wins but sparks serious upset speculation",
+    "tags": [
+      "underperformance",
+      "sonic-decline",
+      "warning-sign"
+    ]
+  },
+  {
+    "poll": 3739,
+    "contest": "CB VIII",
+    "round": null,
+    "division": "Chaos Division",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Knuckles eventually pulled away from Cecil, but the match stayed far too close for far too long given Sonic Team's daytime advantage. The writeup treats the result as another major embarrassment for the Sonic cast.",
+    "headline": "Knuckles beats Cecil but looks alarmingly weak",
+    "tags": [
+      "underperformance",
+      "sonic-decline",
+      "dissidia-boost"
+    ]
+  },
+  {
+    "poll": 3740,
+    "contest": "CB VIII",
+    "round": null,
+    "division": "Chaos Division",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Ganondorf defeated Mewtwo in an uneventful all-Nintendo matchup and landed close to expectations. The writeup nevertheless saw the showing as too ordinary to support growing hopes of an upset over Sonic.",
+    "headline": "Ganondorf wins routinely but fails to build Sonic hype",
+    "tags": [
+      "low-drama",
+      "warning-sign"
+    ]
+  },
+  {
+    "poll": 3741,
+    "contest": "CB VIII",
+    "round": null,
+    "division": "Chaos Division",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Wesker led much of a close, heavily quoted match before Ken's California-heavy afternoon vote finally carried him past. The writeup explicitly rejects the routine cheating accusations and remembers the contest mainly for how much fun Board 8 had watching it.",
+    "headline": "Ken comes back on Wesker in a rare fun thriller",
+    "tags": [
+      "close-match",
+      "comeback",
+      "match-of-round"
+    ]
+  },
+  {
+    "poll": 3742,
+    "contest": "CB VIII",
+    "round": null,
+    "division": "Chaos Division",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Kirby beat Rikku almost exactly as expected in a match with little suspense. Because Kirby needed an overperformance to sustain hopes of challenging Sonic, the merely routine win was treated as disappointing.",
+    "headline": "Kirby wins routinely but weakens his upset case",
+    "tags": [
+      "underperformance",
+      "warning-sign"
+    ]
+  },
+  {
+    "poll": 3743,
+    "contest": "CB VIII",
+    "round": null,
+    "division": "Chaos Division",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "GLaDOS defeated Fawful easily in a low-turnout matchup. Much of the writeup is devoted to rejecting the idea that GLaDOS should be classified as a joke character rather than discussing any real competitive drama.",
+    "headline": "GLaDOS cruises past Fawful in a quiet match",
+    "tags": [
+      "statement-win",
+      "low-turnout"
+    ]
+  },
+  {
+    "poll": 3744,
+    "contest": "CB VIII",
+    "round": null,
+    "division": "Chaos Division",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Vivi and Donkey Kong essentially replayed their 2004 matchup, with almost no change in the underlying result. The writeup treats the uncanny repetition as more notable than the match itself.",
+    "headline": "Vivi repeats his old Donkey Kong win almost exactly",
+    "tags": [
+      "rematch",
+      "repeat-result"
+    ]
+  },
+  {
+    "poll": 3745,
+    "contest": "CB VIII",
+    "round": null,
+    "division": "Chaos Division",
+    "voting_anomalies": [
+      "pic_factor"
+    ],
+    "anomaly_note": "The writeup says Altair's excellent match picture gave him a major advantage, especially against a Liquid Snake image that inspired little confidence.",
+    "off_topic": false,
+    "narrative": "Altair destroyed Liquid Snake in a matchup where the stats had favored Liquid, producing one of the round's strangest results. The writeup highlights Altair's presentation as an important part of the surprise.",
+    "headline": "Altair crushes Liquid with a major picture advantage",
+    "tags": [
+      "upset",
+      "picture-driven",
+      "statement-win"
+    ]
+  },
+  {
+    "poll": 3746,
+    "contest": "CB VIII",
+    "round": null,
+    "division": "Mushroom Division",
+    "voting_anomalies": [
+      "sff"
+    ],
+    "anomaly_note": "The writeup says Mario dropped an SFF nuke on fellow Nintendo entrant Falco, producing one of the contest's largest blowouts.",
+    "off_topic": false,
+    "narrative": "Mario overwhelmed Falco and delivered one of the rare extreme blowouts of the contest. The writeup treats the result as a straightforward display of Mario's fanbase dominance.",
+    "headline": "Mario buries Falco with overwhelming Nintendo SFF",
+    "tags": [
+      "statement-win",
+      "record"
+    ]
+  },
+  {
+    "poll": 3747,
+    "contest": "CB VIII",
+    "round": null,
+    "division": "Mushroom Division",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Big Boss crushed Miles Edgeworth and became the only Metal Gear character the writeup thought looked genuinely good in the opening round. The dominant win briefly restored some pride to the series.",
+    "headline": "Big Boss becomes Metal Gear's first-round bright spot",
+    "tags": [
+      "statement-win",
+      "mgs-bright-spot"
+    ]
+  },
+  {
+    "poll": 3748,
+    "contest": "CB VIII",
+    "round": null,
+    "division": "Mushroom Division",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Zidane beat Claptrap comfortably, but not by anything close to the margin expected against such weak opposition. The underperformance sharply reduced enthusiasm for a second-round upset of Ike.",
+    "headline": "Zidane wins but damages his upset hopes",
+    "tags": [
+      "underperformance",
+      "warning-sign"
+    ]
+  },
+  {
+    "poll": 3749,
+    "contest": "CB VIII",
+    "round": null,
+    "division": "Mushroom Division",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Ike followed Zidane's weak showing with an even more disappointing performance against Prinny. His strong afternoon vote improved the final appearance, but the writeup still treats the match as a major embarrassment.",
+    "headline": "Ike outdoes Zidane with an even worse underperformance",
+    "tags": [
+      "underperformance",
+      "warning-sign"
+    ]
+  },
+  {
+    "poll": 3750,
+    "contest": "CB VIII",
+    "round": null,
+    "division": "Mushroom Division",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Mega Man handled Cid comfortably and continued a broader rebound for the Mega Man cast. The writeup uses the result to argue that Mega Man had returned close to his old contest strength.",
+    "headline": "Mega Man continues a strong series-wide rebound",
+    "tags": [
+      "statement-win",
+      "mega-man-rebound"
+    ]
+  },
+  {
+    "poll": 3751,
+    "contest": "CB VIII",
+    "round": null,
+    "division": "Mushroom Division",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "A matchup that drew substantial pre-match debate turned into an easy Zack win almost immediately. The writeup treats the result as further confirmation that Zack's 2008 run was legitimate and that Yuna remained overrated.",
+    "headline": "Zack destroys Yuna and validates ZackFAQs again",
+    "tags": [
+      "statement-win",
+      "zackfaqs",
+      "guru-buster"
+    ]
+  },
+  {
+    "poll": 3752,
+    "contest": "CB VIII",
+    "round": null,
+    "division": "Mushroom Division",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Ryu Hayabusa beat Crash but looked far weaker than expected and even lost the morning vote. The result initially killed much of the hype for a second-round upset over Master Chief.",
+    "headline": "Ryu Hayabusa wins but badly disappoints against Crash",
+    "tags": [
+      "underperformance",
+      "warning-sign"
+    ]
+  },
+  {
+    "poll": 3753,
+    "contest": "CB VIII",
+    "round": null,
+    "division": "Mushroom Division",
+    "voting_anomalies": [
+      "rally"
+    ],
+    "anomaly_note": "The writeup says 4chan mounted a massive rally for Spy, helping drag Master Chief down throughout an already disappointing performance.",
+    "off_topic": false,
+    "narrative": "Master Chief beat Spy but spent the entire match looking much weaker than expected and never produced his trademark afternoon surge. The writeup calls the showing an embarrassment despite the comfortable win.",
+    "headline": "A 4chan Spy rally exposes another Master Chief flop",
+    "tags": [
+      "4chan",
+      "underperformance",
+      "warning-sign"
+    ]
+  },
+  {
+    "poll": 3754,
+    "contest": "CB VIII",
+    "round": null,
+    "division": "Heart Division",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Sora beat Midna comfortably but again failed to produce the huge blowout expected from a top seed against weak opposition. The writeup treats this as a stable feature of Sora's highly anti-voted 1v1 profile.",
+    "headline": "Sora advances without ever looking dominant",
+    "tags": [
+      "underperformance",
+      "anti-vote"
+    ]
+  },
+  {
+    "poll": 3755,
+    "contest": "CB VIII",
+    "round": null,
+    "division": "Heart Division",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Laharl won an otherwise low-interest matchup between two cult characters and finally earned his first contest victory. The writeup finds the structural similarity to his 2004 match with Vyse more interesting than the vote itself.",
+    "headline": "Laharl finally earns his first contest win",
+    "tags": [
+      "first-win",
+      "low-turnout",
+      "cult-match"
+    ]
+  },
+  {
+    "poll": 3756,
+    "contest": "CB VIII",
+    "round": null,
+    "division": "Heart Division",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Kefka completely dismantled a heavily favored Arthas and turned a major guru pick into a rout. The writeup treats the result as both a Kefka revival and another warning against translating four-way strength directly into 1v1s.",
+    "headline": "Kefka destroys guru favorite Arthas",
+    "tags": [
+      "upset",
+      "guru-buster",
+      "statement-win"
+    ]
+  },
+  {
+    "poll": 3757,
+    "contest": "CB VIII",
+    "round": null,
+    "division": "Heart Division",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Bowser beat Frog almost exactly as expected, giving little new information about Bowser's next matchup. Much of the writeup instead argues that Frog's reputation had been inflated by suspicious results from earlier contests.",
+    "headline": "Bowser handles Frog in an expected result",
+    "tags": [
+      "statement-win",
+      "frog-overrated"
+    ]
+  },
+  {
+    "poll": 3758,
+    "contest": "CB VIII",
+    "round": null,
+    "division": "Heart Division",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "L-Block beat HK-47 comfortably but looked like a normal, transitive midcard entrant rather than the unstoppable joke champion of 2007. The writeup sees this as the clearest sign that the old bandwagon had permanently faded.",
+    "headline": "L-Block wins but looks fully mortal",
+    "tags": [
+      "former-champion",
+      "joke-character",
+      "decline"
+    ]
+  },
+  {
+    "poll": 3759,
+    "contest": "CB VIII",
+    "round": null,
+    "division": "Heart Division",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Isaac overwhelmed Professor Layton in a match with virtually no competitive suspense. The important storyline was that Isaac finally earned his first contest win after seven years of appearances.",
+    "headline": "Isaac finally gets his long-awaited first win",
+    "tags": [
+      "first-win",
+      "statement-win"
+    ]
+  },
+  {
+    "poll": 3760,
+    "contest": "CB VIII",
+    "round": null,
+    "division": "Heart Division",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Charizard ended a surprisingly persistent pre-match debate almost immediately by crushing Duke Nukem. The writeup says Duke's weakness limits what can be learned, but Charizard still looked clearly legitimate.",
+    "headline": "Charizard crushes Duke and ends the debate quickly",
+    "tags": [
+      "statement-win",
+      "pokemon-rise"
+    ]
+  },
+  {
+    "poll": 3761,
+    "contest": "CB VIII",
+    "round": null,
+    "division": "Heart Division",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Kratos defeated Tails but looked badly underwhelming for a highly seeded character, especially because his usual daytime strength never appeared. The showing made Charizard look much more dangerous for the next round.",
+    "headline": "Kratos beats Tails but loses his favorite status",
+    "tags": [
+      "underperformance",
+      "warning-sign"
+    ]
+  },
+  {
+    "poll": 3762,
+    "contest": "CB VIII",
+    "round": null,
+    "division": "Varia Division",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Samus overwhelmed Prince of Persia from the opening vote and never gave the match any suspense. The writeup treats the dominant start as the beginning of an especially strong run for Samus.",
+    "headline": "Samus opens her run with a dominant rout",
+    "tags": [
+      "statement-win"
+    ]
+  },
+  {
+    "poll": 3763,
+    "contest": "CB VIII",
+    "round": null,
+    "division": "Varia Division",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Jill Valentine crushed Niko Bellic and looked stronger than expected, while Niko continued the pattern of Grand Theft Auto characters fading quickly from relevance. The writeup also identifies the match as early evidence of a broader Resident Evil boost.",
+    "headline": "Jill crushes Niko as Resident Evil strength rises",
+    "tags": [
+      "statement-win",
+      "gta-decline",
+      "re5-boost"
+    ]
+  },
+  {
+    "poll": 3764,
+    "contest": "CB VIII",
+    "round": null,
+    "division": "Varia Division",
+    "voting_anomalies": [
+      "rally"
+    ],
+    "anomaly_note": "The writeup says 4chan mounted a large rally for Heavy, pulling Roxas down substantially for part of the night without ever making the match competitive.",
+    "off_topic": false,
+    "narrative": "Roxas remained in control, but Heavy's 4chan support produced the only real movement in an otherwise straightforward match. The morning vote restored most of Roxas's lost ground.",
+    "headline": "Heavy's 4chan rally dents Roxas without threatening him",
+    "tags": [
+      "4chan",
+      "statement-win"
+    ]
+  }
+]

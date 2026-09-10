@@ -1,0 +1,186 @@
+{
+  "generated": "2026-09-10",
+  "writeups_total": 1528,
+  "contests": 19,
+  "all": {
+    "file": "board8wiki-all.md",
+    "bytes": 7441663
+  },
+  "zip": {
+    "file": "board8wiki-markdown.zip",
+    "bytes": 4987114
+  },
+  "packs": [
+    {
+      "file": "packs/board8wiki-2002-sc2k2.md",
+      "tid": 1,
+      "year": 2002,
+      "code": "SC2K2",
+      "title": "Summer 2002 Character Contest",
+      "writeups": 63,
+      "bytes": 189963
+    },
+    {
+      "file": "packs/board8wiki-2003-sc2k3.md",
+      "tid": 2,
+      "year": 2003,
+      "code": "SC2K3",
+      "title": "Summer 2003 Character Contest",
+      "writeups": 63,
+      "bytes": 216735
+    },
+    {
+      "file": "packs/board8wiki-2004-spc2k4.md",
+      "tid": 3,
+      "year": 2004,
+      "code": "SpC2K4",
+      "title": "Spring 2004 Game Contest",
+      "writeups": 63,
+      "bytes": 255533
+    },
+    {
+      "file": "packs/board8wiki-2004-sc2k4.md",
+      "tid": 4,
+      "year": 2004,
+      "code": "SC2K4",
+      "title": "Summer 2004 Character Contest",
+      "writeups": 63,
+      "bytes": 260502
+    },
+    {
+      "file": "packs/board8wiki-2005-spc2k5.md",
+      "tid": 5,
+      "year": 2005,
+      "code": "SpC2K5",
+      "title": "Spring 2005 Character Contest",
+      "writeups": 31,
+      "bytes": 119820
+    },
+    {
+      "file": "packs/board8wiki-2005-sc2k5.md",
+      "tid": 6,
+      "year": 2005,
+      "code": "SC2K5",
+      "title": "Summer 2005 Character Contest",
+      "writeups": 66,
+      "bytes": 280497
+    },
+    {
+      "file": "packs/board8wiki-2006-bse2k6.md",
+      "tid": 7,
+      "year": 2006,
+      "code": "BSE2K6",
+      "title": "Best Series Ever 2006",
+      "writeups": 31,
+      "bytes": 109395
+    },
+    {
+      "file": "packs/board8wiki-2006-cb2k6.md",
+      "tid": 8,
+      "year": 2006,
+      "code": "CB2K6",
+      "title": "Character Battle 2006",
+      "writeups": 68,
+      "bytes": 183132
+    },
+    {
+      "file": "packs/board8wiki-2007-cb6.md",
+      "tid": 9,
+      "year": 2007,
+      "code": "CB VI",
+      "title": "Character Battle VI (2007)",
+      "writeups": 64,
+      "bytes": 317346
+    },
+    {
+      "file": "packs/board8wiki-2008-cb7.md",
+      "tid": 10,
+      "year": 2008,
+      "code": "CB VII",
+      "title": "Character Battle VII (2008)",
+      "writeups": 64,
+      "bytes": 665286
+    },
+    {
+      "file": "packs/board8wiki-2009-bge2k9.md",
+      "tid": 11,
+      "year": 2009,
+      "code": "BGE 2K9",
+      "title": "Best. Game. Ever. (2009)",
+      "writeups": 64,
+      "bytes": 436617
+    },
+    {
+      "file": "packs/board8wiki-2010-cb8.md",
+      "tid": 12,
+      "year": 2010,
+      "code": "CB VIII",
+      "title": "Character Battle VIII (2010)",
+      "writeups": 127,
+      "bytes": 266345
+    },
+    {
+      "file": "packs/board8wiki-2010-gotd.md",
+      "tid": 13,
+      "year": 2010,
+      "code": "GOTD",
+      "title": "Game of the Decade (2010)",
+      "writeups": 128,
+      "bytes": 301314
+    },
+    {
+      "file": "packs/board8wiki-2011-rivalry.md",
+      "tid": 14,
+      "year": 2011,
+      "code": "Rivalry",
+      "title": "Rivalry Rumble (2011)",
+      "writeups": 64,
+      "bytes": 132771
+    },
+    {
+      "file": "packs/board8wiki-2013-cb9.md",
+      "tid": 15,
+      "year": 2013,
+      "code": "CB IX",
+      "title": "Character Battle IX (2013)",
+      "writeups": 125,
+      "bytes": 488886
+    },
+    {
+      "file": "packs/board8wiki-2015-bge2k15.md",
+      "tid": 16,
+      "year": 2015,
+      "code": "BGE 2K15",
+      "title": "Best Game Ever (2015)",
+      "writeups": 131,
+      "bytes": 893436
+    },
+    {
+      "file": "packs/board8wiki-2017-bestyear.md",
+      "tid": 17,
+      "year": 2017,
+      "code": "Best Year",
+      "title": "Best Year in Gaming (2017)",
+      "writeups": 35,
+      "bytes": 102218
+    },
+    {
+      "file": "packs/board8wiki-2018-cb10.md",
+      "tid": 18,
+      "year": 2018,
+      "code": "CB X",
+      "title": "Character Battle X (2018)",
+      "writeups": 150,
+      "bytes": 960667
+    },
+    {
+      "file": "packs/board8wiki-2020-gotd2.md",
+      "tid": 19,
+      "year": 2020,
+      "code": "GOTD 2",
+      "title": "Game of the Decade 2 (2020)",
+      "writeups": 128,
+      "bytes": 1260995
+    }
+  ]
+}

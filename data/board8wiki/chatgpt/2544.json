@@ -1,0 +1,793 @@
+[
+  {
+    "poll": 2544,
+    "contest": "CB2K6",
+    "round": "Blast Division Semi Final",
+    "division": null,
+    "voting_anomalies": [
+      "sff"
+    ],
+    "anomaly_note": "The writeup says SFF favored Luigi and made a Kirby comeback effectively impossible once Luigi pulled away.",
+    "off_topic": false,
+    "narrative": "Luigi pulled away after an initially even start, and the writeup says the final closeness overstated how competitive the match really was. It also treats the result as further evidence that Kirby's prior Dream Division strength was misleading.",
+    "headline": "Luigi beats Kirby as SFF settles the matchup early",
+    "tags": [
+      "dream-division-fallout"
+    ]
+  },
+  {
+    "poll": 2545,
+    "contest": "CB2K6",
+    "round": "Time Division Semi Final",
+    "division": null,
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Crono handled Bowser without serious trouble, but his steady daytime decline stood out more than the result itself. The writeup treats the match as another warning that Crono's weak day vote would eventually cost him against stronger opposition.",
+    "headline": "Crono handles Bowser but his day vote raises alarms",
+    "tags": [
+      "warning-sign"
+    ]
+  },
+  {
+    "poll": 2546,
+    "contest": "CB2K6",
+    "round": "Time Division Semi Final",
+    "division": null,
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Auron comfortably ended Sub-Zero's brief upset run in a match the writeup considered predictable. Most of the retrospective discussion uses the result to argue that Sub-Zero had nevertheless proved himself more deserving of contest attention than Scorpion.",
+    "headline": "Auron comfortably ends Sub-Zero's brief upset run",
+    "tags": [
+      "upset-run-end"
+    ]
+  },
+  {
+    "poll": 2547,
+    "contest": "CB2K6",
+    "round": "Spazer Division Final",
+    "division": null,
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Samus finished an entirely predictable run through her division by beating Rikku without danger. The writeup emphasizes how little the match hinted at the severe trouble Samus would encounter immediately afterward.",
+    "headline": "Samus cruises through Rikku with no hint of trouble ahead",
+    "tags": [
+      "division-winner",
+      "foreshadowing"
+    ]
+  },
+  {
+    "poll": 2548,
+    "contest": "CB2K6",
+    "round": "Limit Division Final",
+    "division": null,
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Tifa won the division easily, but the writeup's main takeaway is that Peach had done enough during the contest to shed her old fodder reputation. The match itself offered little drama beyond confirming Tifa's comfortable superiority.",
+    "headline": "Tifa wins easily while Peach finally sheds her joke reputation",
+    "tags": [
+      "division-winner",
+      "peach-respect"
+    ]
+  },
+  {
+    "poll": 2549,
+    "contest": "CB2K6",
+    "round": "Triforce Division Final",
+    "division": null,
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Zelda looked dominant early before Aeris recovered enough to make the final result respectable, though the outcome was never in danger. The writeup mentions favorable circumstances for Aeris but leaves their actual impact unresolved.",
+    "headline": "Zelda beats Aeris comfortably despite a respectable recovery",
+    "tags": [
+      "division-winner"
+    ]
+  },
+  {
+    "poll": 2550,
+    "contest": "CB2K6",
+    "round": "Aeon Division Final",
+    "division": null,
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Yuna completed a surprisingly strong divisional run by beating Chun-Li far more convincingly than old upset talk had suggested. The writeup treats the performance as another sign that Yuna's pre-contest reputation had been too low before her coming test against Zelda.",
+    "headline": "Yuna routs Chun-Li and completes a surprisingly strong division run",
+    "tags": [
+      "division-winner",
+      "breakout-run"
+    ]
+  },
+  {
+    "poll": 2551,
+    "contest": "CB2K6",
+    "round": "Patriot Division Final",
+    "division": null,
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Snake avoided the sprite-round collapse many expected and handled Yoshi more respectably than his past history suggested. The writeup treats the result as another confirmation that Snake had become much stronger this year.",
+    "headline": "Snake survives the sprite round and confirms his breakout year",
+    "tags": [
+      "division-winner",
+      "breakout-performance"
+    ]
+  },
+  {
+    "poll": 2552,
+    "contest": "CB2K6",
+    "round": "Destiny Division Final",
+    "division": null,
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Mega Man beat Sora, but his performance deteriorated badly as the match progressed and the Kingdom Hearts day vote arrived. The writeup treats this as the match that fully exposed Mega Man's decline before his meeting with Snake.",
+    "headline": "Mega Man beats Sora while his collapse becomes impossible to miss",
+    "tags": [
+      "collapse",
+      "warning-sign",
+      "decline"
+    ]
+  },
+  {
+    "poll": 2553,
+    "contest": "CB2K6",
+    "round": "Blast Division Final",
+    "division": null,
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Sonic beat Luigi without difficulty and brought Luigi's surprising earlier run back down to earth. The writeup uses the result mainly to question how much Kirby and especially Zero had really shown in losing to Luigi.",
+    "headline": "Sonic ends Luigi's surprise run and reopens old strength questions",
+    "tags": [
+      "division-winner",
+      "reassessment"
+    ]
+  },
+  {
+    "poll": 2554,
+    "contest": "CB2K6",
+    "round": "Time Division Final",
+    "division": null,
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Crono controlled Auron but again lost ground as the day progressed, making the match feel like another warning rather than a meaningful test. The writeup treats it as the quiet end of the divisional rounds before the contest suddenly became historic.",
+    "headline": "Crono beats Auron as another day-vote warning goes unanswered",
+    "tags": [
+      "division-winner",
+      "warning-sign"
+    ]
+  },
+  {
+    "poll": 2555,
+    "contest": "CB2K6",
+    "round": "Tournament Quarter Final",
+    "division": null,
+    "voting_anomalies": [
+      "cheating_alleged",
+      "pic_factor"
+    ],
+    "anomaly_note": "The writeup treats Samus's Zero Suit picture as a plausible contributor to her severe underperformance, while rejecting it as a complete explanation. It also cites CJayC's report of large numbers of rejected cheating votes favoring Tifa.",
+    "off_topic": false,
+    "narrative": "Tifa pushed Samus to the brink and briefly took control before Samus's daytime recovery secured the win. The writeup frames it as Samus's worst performance, with picture theories and rejected fraudulent votes becoming central parts of the controversy.",
+    "headline": "Samus survives Tifa amid picture theories and rejected cheating votes",
+    "tags": [
+      "close-match",
+      "title-race",
+      "controversy"
+    ]
+  },
+  {
+    "poll": 2556,
+    "contest": "CB2K6",
+    "round": "Tournament Quarter Final",
+    "division": null,
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Zelda beat Yuna as expected, but Yuna held up considerably better than the writeup had anticipated. Zelda's less-than-perfect showing also cooled some of the immediate talk that she might exploit Samus's weakness in the next round.",
+    "headline": "Zelda beats Yuna but looks less frightening before Samus",
+    "tags": [
+      "quarterfinal",
+      "warning-sign"
+    ]
+  },
+  {
+    "poll": 2557,
+    "contest": "CB2K6",
+    "round": "Tournament Quarter Final",
+    "division": null,
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Snake decisively reversed his old history against Mega Man after Mega's earlier warning signs finally became impossible to dismiss. The writeup treats the upset as the moment the Year of the Snake fully arrived and Mega Man's long-term decline became a serious concern.",
+    "headline": "Snake upsets Mega Man and turns 2006 into his year",
+    "tags": [
+      "upset",
+      "noble-nine-upset",
+      "year-of-snake"
+    ]
+  },
+  {
+    "poll": 2558,
+    "contest": "CB2K6",
+    "round": "Tournament Quarter Final",
+    "division": null,
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Crono built a strong overnight lead, only for Sonic's daytime strength to erase it and carry Sonic to a major bracket upset. The writeup treats the enormous swing as the overdue punishment for Crono's chronic weakness outside the night vote.",
+    "headline": "Sonic erases Crono's lead in a massive comeback upset",
+    "tags": [
+      "upset",
+      "comeback",
+      "bracket-buster"
+    ]
+  },
+  {
+    "poll": 2559,
+    "contest": "CB2K6",
+    "round": "Tournament Semi Final",
+    "division": null,
+    "voting_anomalies": [
+      "sff"
+    ],
+    "anomaly_note": "The writeup says Zelda probably reverse-SFFed Samus substantially, though not nearly enough to threaten Samus's victory.",
+    "off_topic": false,
+    "narrative": "Samus beat Zelda in a steady semifinal that never became as dramatic as the preceding quarterfinals. The writeup nevertheless sees Zelda's unusually strong showing as evidence that shared Nintendo support suppressed Samus to some degree.",
+    "headline": "Samus beats Zelda despite a likely reverse-SFF drag",
+    "tags": [
+      "semifinal"
+    ]
+  },
+  {
+    "poll": 2560,
+    "contest": "CB2K6",
+    "round": "Tournament Semi Final",
+    "division": null,
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "After an erroneous opening poll was restarted, Snake took firm control and never let Sonic seriously threaten the result. Sonic recovered respectability during the day, but the writeup treats the win as the latest proof of Snake's remarkable 2006 surge.",
+    "headline": "Snake handles Sonic and extends his remarkable 2006 run",
+    "tags": [
+      "semifinal",
+      "year-of-snake"
+    ]
+  },
+  {
+    "poll": 2561,
+    "contest": "CB2K6",
+    "round": "Tournament Final",
+    "division": null,
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Snake kept the championship close early, but Samus broke away once the morning vote arrived and finished the contest on top. The writeup still treats Snake as the spiritual star of the tournament, with his extraordinary run continuing into the Battle Royale.",
+    "headline": "Samus beats Snake for the title after a competitive start",
+    "tags": [
+      "contest-final",
+      "champion",
+      "year-of-snake"
+    ]
+  },
+  {
+    "poll": 2562,
+    "contest": "CB2K6",
+    "round": "Battle Royale Day 1",
+    "division": null,
+    "voting_anomalies": [
+      "sff"
+    ],
+    "anomaly_note": "The writeup says Link and Mario SFFed Samus heavily enough to drive her into last place and eliminate her.",
+    "off_topic": false,
+    "narrative": "The first Battle Royale largely followed expectations at the top, while Samus became the first elimination after being squeezed by the other Nintendo heavyweights. Snake finishing ahead of Mario was the main unexpected development and set up the next day's drama.",
+    "headline": "Samus falls first as Nintendo SFF shapes the Battle Royale",
+    "tags": [
+      "battle-royale",
+      "elimination"
+    ]
+  },
+  {
+    "poll": 2563,
+    "contest": "CB2K6",
+    "round": "Battle Royale Day 2",
+    "division": null,
+    "voting_anomalies": [
+      "sff"
+    ],
+    "anomaly_note": "The writeup says Link SFFed Mario to death, pushing Mario into last place despite his status as a traditional heavyweight.",
+    "off_topic": false,
+    "narrative": "Mario became the second elimination as Link absorbed the Nintendo support that had been shared with Samus the day before. Snake again outperformed expectations, while Sephiroth's repeated struggles to escape last place foreshadowed the next round.",
+    "headline": "Link SFFs Mario out while Snake keeps surprising",
+    "tags": [
+      "battle-royale",
+      "elimination",
+      "foreshadowing"
+    ]
+  },
+  {
+    "poll": 2564,
+    "contest": "CB2K6",
+    "round": "Battle Royale Day 3",
+    "division": null,
+    "voting_anomalies": [
+      "sff",
+      "rally",
+      "cheating_alleged"
+    ],
+    "anomaly_note": "The writeup says Cloud heavily SFFed Sephiroth, helping leave him vulnerable to Snake. It also describes intense late rallying and records cheating allegations around the finish, while noting that CJayC said no cheating was found.",
+    "off_topic": false,
+    "narrative": "Snake survived Sephiroth after a dramatic late comeback attempt and another last-minute Metal Gear response. The result became the capstone of Snake's extraordinary run, while Sephiroth was remembered as the Battle Royale's major disappointment.",
+    "headline": "Snake survives Sephiroth in a rallied and controversial finish",
+    "tags": [
+      "battle-royale",
+      "photo-finish",
+      "year-of-snake"
+    ]
+  },
+  {
+    "poll": 2565,
+    "contest": "CB2K6",
+    "round": "Battle Royale Day 4",
+    "division": null,
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "With Sephiroth gone, the fourth day became a predictable Link-and-Cloud show and finally ended Snake's run. The writeup spends most of its attention celebrating how many elite opponents Snake had already survived before the two remaining giants eliminated him.",
+    "headline": "Link and Cloud finally end Snake's extraordinary run",
+    "tags": [
+      "battle-royale",
+      "elimination",
+      "year-of-snake"
+    ]
+  },
+  {
+    "poll": 2566,
+    "contest": "CB2K6",
+    "round": "Battle Royale Final Day",
+    "division": null,
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Link took control of the final Battle Royale matchup almost immediately and never gave Cloud a realistic chance to win. The writeup treats the result as another demonstration that Cloud was no longer a true threat to Link.",
+    "headline": "Link dominates Cloud to close the Battle Royale",
+    "tags": [
+      "battle-royale",
+      "champion"
+    ]
+  },
+  {
+    "poll": 2863,
+    "contest": "CB VI",
+    "round": "Round One",
+    "division": "Division 1",
+    "voting_anomalies": [
+      "lff"
+    ],
+    "anomaly_note": "The writeup explicitly identifies Vaan as the contest's first clear LFF case, saying his shared Square support drained enough from Rikku to cost her an advancing spot.",
+    "off_topic": false,
+    "narrative": "The first four-way contest match immediately showed how different the new format could be. Yoshi took first comfortably, while Knuckles survived Rikku after major voting swings and Vaan's shared fanbase hurt Rikku in the fight for second.",
+    "headline": "Knuckles survives Rikku as LFF debuts in the four-way format",
+    "tags": [
+      "contest-opener",
+      "format-debut",
+      "close-match"
+    ]
+  },
+  {
+    "poll": 2864,
+    "contest": "CB VI",
+    "round": "Round One",
+    "division": "Division 1",
+    "voting_anomalies": [
+      "lff"
+    ],
+    "anomaly_note": "The writeup says Diablo and Arthas weakened each other by sharing the same Blizzard fanbase, allowing KOS-MOS to advance despite neither Blizzard entrant being individually helpless.",
+    "off_topic": false,
+    "narrative": "Mega Man took the expected first place, but the real story was KOS-MOS advancing while Diablo and Arthas split overlapping support. The writeup treats the result as the match that taught Board 8 how LFF worked in four-way polls.",
+    "headline": "KOS-MOS advances as Blizzard LFF rewrites four-way expectations",
+    "tags": [
+      "upset",
+      "format-effect"
+    ]
+  },
+  {
+    "poll": 2865,
+    "contest": "CB VI",
+    "round": "Round One",
+    "division": "Division 1",
+    "voting_anomalies": [
+      "rally"
+    ],
+    "anomaly_note": "The writeup describes Board 8 and other supporters openly rallying for Frog during the final stretch, with the late surge overturning Axel's comeback and restoring Frog to second place.",
+    "off_topic": false,
+    "narrative": "Frog built a large early cushion, lost it to Axel's powerful daytime comeback, and then recovered in the final stretch. The writeup treats the late Board 8 rally as decisive in Frog reclaiming the advancing spot.",
+    "headline": "Frog survives Axel after a huge comeback and late rally",
+    "tags": [
+      "comeback",
+      "close-match"
+    ]
+  },
+  {
+    "poll": 2866,
+    "contest": "CB VI",
+    "round": "Round One",
+    "division": "Division 1",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Scorpion dominated a match many expected Midna to control, while Midna advanced only because the rest of the field was weak. The writeup treats the result as both a major Midna disappointment and evidence that Scorpion had been underestimated.",
+    "headline": "Scorpion crushes expectations while Midna badly underperforms",
+    "tags": [
+      "upset",
+      "underperformance"
+    ]
+  },
+  {
+    "poll": 2867,
+    "contest": "CB VI",
+    "round": "Round One",
+    "division": "Division 2",
+    "voting_anomalies": [
+      "pic_factor"
+    ],
+    "anomaly_note": "The writeup repeatedly points to Kefka's infamous Lettuce Kefka image and Marcus Fenix's strong recognizable picture as factors that helped make Kefka's collapse look even worse.",
+    "off_topic": false,
+    "narrative": "Kefka led comfortably through the early hours before collapsing completely to Marcus Fenix during the day. The writeup remembers the match as another classic Kefka choke, with the picture matchup adding to the explanation for the reversal.",
+    "headline": "Kefka collapses to Marcus as Lettuce Kefka strikes again",
+    "tags": [
+      "comeback",
+      "kefka-collapse"
+    ]
+  },
+  {
+    "poll": 2868,
+    "contest": "CB VI",
+    "round": "Round One",
+    "division": "Division 2",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Cloud dominated the field as expected, while Ocelot took second over Jill without ever facing serious danger. The writeup finds the result ordinary at the time but notable in retrospect because Jill would reverse the comparison a year later.",
+    "headline": "Cloud dominates while Ocelot comfortably beats Jill for second",
+    "tags": [
+      "foreshadowing"
+    ]
+  },
+  {
+    "poll": 2869,
+    "contest": "CB VI",
+    "round": "Round One",
+    "division": "Division 2",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Auron took an easy first and Shadow an equally safe second, making the main result largely predetermined. The writeup instead focuses on Shadow looking much weaker than expected and Pyramid Head unexpectedly beating Chris Redfield for third.",
+    "headline": "Auron cruises while Shadow disappoints and Pyramid Head surprises",
+    "tags": [
+      "underperformance",
+      "surprise-third"
+    ]
+  },
+  {
+    "poll": 2870,
+    "contest": "CB VI",
+    "round": "Round One",
+    "division": "Division 2",
+    "voting_anomalies": [
+      "lff"
+    ],
+    "anomaly_note": "The writeup says Bowser was weakened by sharing Nintendo support with both Mewtwo and Toad, allowing outside entrant Ryu to take first place comfortably.",
+    "off_topic": false,
+    "narrative": "Ryu took first in a result that surprised many bracket players but made sense once Bowser's two fellow Nintendo entrants were considered. Bowser still advanced, but the writeup treats his weak showing as a serious warning for later rounds.",
+    "headline": "Ryu wins as Nintendo LFF drags Bowser down",
+    "tags": [
+      "upset",
+      "format-effect"
+    ]
+  },
+  {
+    "poll": 2871,
+    "contest": "CB VI",
+    "round": "Round One",
+    "division": "Division 3",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Sephiroth won as expected, but Meta Knight unexpectedly took a clear second over Peach and CATS. The writeup attributes much of the surprise to Meta Knight's pre-release Brawl visibility and treats Peach as poorly suited to the four-way format.",
+    "headline": "Meta Knight shocks Peach to claim an easy advancing spot",
+    "tags": [
+      "upset",
+      "brawl-hype"
+    ]
+  },
+  {
+    "poll": 2872,
+    "contest": "CB VI",
+    "round": "Round One",
+    "division": "Division 3",
+    "voting_anomalies": [
+      "sff"
+    ],
+    "anomaly_note": "The writeup explicitly characterizes Fox's dominant performance as Nintendo SFF and says Fox suppressed Captain Falcon more heavily than Wario.",
+    "off_topic": false,
+    "narrative": "Fox dominated an all-Nintendo field far more thoroughly than expected, while Wario eventually secured the second advancing position over Captain Falcon. The writeup treats Fox's performance as one of the contest's strongest examples of SFF.",
+    "headline": "Fox dominates an all-Nintendo four-way through heavy SFF",
+    "tags": [
+      "statement-win",
+      "all-nintendo"
+    ]
+  },
+  {
+    "poll": 2873,
+    "contest": "CB VI",
+    "round": "Round One",
+    "division": "Division 3",
+    "voting_anomalies": [
+      "sff"
+    ],
+    "anomaly_note": "The writeup says Mario was an especially disastrous matchup for Pac-Man because of their overlapping old-school appeal and describes Pac-Man as being SFFed to death.",
+    "off_topic": false,
+    "narrative": "Mario dominated as expected, but his suppression of Pac-Man made Big Boss's second-place finish much easier than many anticipated. The writeup treats Pac-Man's shared old-school appeal with Mario as the key reason the debated advancing spot became one-sided.",
+    "headline": "Mario SFFs Pac-Man and hands Big Boss an easy advance",
+    "tags": [
+      "upset",
+      "format-effect"
+    ]
+  },
+  {
+    "poll": 2874,
+    "contest": "CB VI",
+    "round": "Round One",
+    "division": "Division 3",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Magus took first but looked weak enough to damage any hopes of a deep run, while Phoenix Wright turned the fight for second into the real match. Bomberman mounted a long afternoon comeback, only for the heavily favored Board 8 character to hold on at the end.",
+    "headline": "Phoenix survives Bomberman's long comeback while Magus disappoints",
+    "tags": [
+      "close-match",
+      "phoenix-fandom",
+      "comeback"
+    ]
+  },
+  {
+    "poll": 2875,
+    "contest": "CB VI",
+    "round": "Round One",
+    "division": "Division 4",
+    "voting_anomalies": [
+      "rally"
+    ],
+    "anomaly_note": "The writeup explicitly credits a 4chan rally with giving Bidoof enough support to beat Miles Edgeworth for the second advancing position.",
+    "off_topic": false,
+    "narrative": "Link overwhelmed the entire field, while joke entrant Bidoof rode outside support past Miles Edgeworth for second. The writeup treats Bidoof's success as an important early step toward the larger joke-character runs that followed.",
+    "headline": "Bidoof rallies past Edgeworth while Link destroys the field",
+    "tags": [
+      "joke-entrant",
+      "upset",
+      "format-legacy"
+    ]
+  },
+  {
+    "poll": 2876,
+    "contest": "CB VI",
+    "round": "Round One",
+    "division": "Division 4",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Vincent quickly turned the anticipated contest with Zelda into a comfortable first-place finish, while Zelda safely advanced with him. The writeup notes that the genuinely close Tails-The Boss fight for third mattered little because neither advancing spot was threatened.",
+    "headline": "Vincent crushes Zelda while a close third-place fight goes unnoticed",
+    "tags": [
+      "statement-win",
+      "third-place-duel"
+    ]
+  },
+  {
+    "poll": 2877,
+    "contest": "CB VI",
+    "round": "Round One",
+    "division": "Division 4",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Crono took first without drama, while Raiden built a large enough cushion to survive Sam Fisher's strong daytime comeback for second. The writeup treats the finish as close on paper but never truly in danger, while Raiden's poor showing damaged his future expectations.",
+    "headline": "Raiden survives Sam Fisher's comeback but loses future hype",
+    "tags": [
+      "close-second",
+      "underperformance"
+    ]
+  },
+  {
+    "poll": 2878,
+    "contest": "CB VI",
+    "round": "Round One",
+    "division": "Division 4",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Zero took the expected first place while HK-47 beat the favored Lloyd for second in a weak and widely disliked fourpack. The writeup calls it the Jakpack of Suck and argues that Lloyd's inability to win here became emblematic of Tales characters' contest failures.",
+    "headline": "HK-47 advances from the infamous Jakpack of Suck",
+    "tags": [
+      "upset",
+      "jakpack-of-suck"
+    ]
+  },
+  {
+    "poll": 2879,
+    "contest": "CB VI",
+    "round": "Round One",
+    "division": "Division 5",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Luigi took first easily, but Mudkip's stable support made the second advancing spot far less competitive than expected. The writeup explicitly argues that Mudkip's performance looked like genuine strength rather than a temporary rally and foreshadowed later joke-character fears.",
+    "headline": "Mudkip takes second and looks stronger than a simple joke rally",
+    "tags": [
+      "mudkip-rise",
+      "joke-character"
+    ]
+  },
+  {
+    "poll": 2880,
+    "contest": "CB VI",
+    "round": "Round One",
+    "division": "Division 5",
+    "voting_anomalies": [
+      "rally"
+    ],
+    "anomaly_note": "The writeup describes a World of Warcraft forum thread rallying votes for Thrall and says the push helped him nearly catch Vergil before the daytime vote ended the threat.",
+    "off_topic": false,
+    "narrative": "Ganondorf won first easily, while Vergil and Thrall fought a much closer battle for the second advancing spot. A WoW rally helped Thrall make a serious overnight push, but Vergil pulled away decisively once daytime voting arrived.",
+    "headline": "Thrall's WoW rally nearly catches Vergil before the day vote",
+    "tags": [
+      "close-match",
+      "comeback"
+    ]
+  },
+  {
+    "poll": 2881,
+    "contest": "CB VI",
+    "round": "Round One",
+    "division": "Division 5",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Master Chief overwhelmed Yuna in a matchup many expected to be competitive, immediately changing expectations for the entire division. The writeup connects the result strongly to the enormous Halo 3 hype surrounding Chief that year.",
+    "headline": "Master Chief crushes Yuna as Halo 3 hype peaks",
+    "tags": [
+      "halo3-hype",
+      "statement-win"
+    ]
+  },
+  {
+    "poll": 2882,
+    "contest": "CB VI",
+    "round": "Round One",
+    "division": "Division 5",
+    "voting_anomalies": [
+      "rally",
+      "cheating_alleged"
+    ],
+    "anomaly_note": "The writeup describes a last-minute Metal Gear rally after Alucard completed his comeback and records complaints that cheating or vote-stuffing may have influenced the razor-thin finish.",
+    "off_topic": false,
+    "narrative": "Alucard erased Liquid Snake's large daytime lead and briefly moved ahead at the very end, only for Liquid to snatch first on the final update. Because both characters advanced anyway, the writeup says the historic photo finish carried less consequence than a one-on-one result would have.",
+    "headline": "Liquid steals first from Alucard in a controversial photo finish",
+    "tags": [
+      "photo-finish",
+      "record",
+      "mgs-clutch"
+    ]
+  },
+  {
+    "poll": 2883,
+    "contest": "CB VI",
+    "round": "Round One",
+    "division": "Division 6",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Dante took the expected first place, while Amaterasu quickly settled the debated fight for second by pulling away from Little Mac. The writeup treats the result as the first strong indication that Amaterasu was much more legitimate than many voters had assumed.",
+    "headline": "Amaterasu beats Little Mac and announces unexpected contest strength",
+    "tags": [
+      "upset",
+      "amaterasu-debut"
+    ]
+  },
+  {
+    "poll": 2884,
+    "contest": "CB VI",
+    "round": "Round One",
+    "division": "Division 6",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Ada took first with ease while heavily hyped newcomer Balthier badly disappointed in a weak field. The writeup treats the result as proof that Final Fantasy XII's popularity had not translated into the character strength many expected.",
+    "headline": "Ada wins easily as Balthier's newcomer hype collapses",
+    "tags": [
+      "upset",
+      "hype-collapse"
+    ]
+  },
+  {
+    "poll": 2885,
+    "contest": "CB VI",
+    "round": "Round One",
+    "division": "Division 6",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Pikachu beat Tidus far more easily than years of Pokémon contest weakness had led people to expect. The writeup debates several possible explanations for Tidus's underperformance but ultimately treats the match as another major step in Pokémon's rise to legitimate contest strength.",
+    "headline": "Pikachu routs Tidus and accelerates Pokémon's contest resurgence",
+    "tags": [
+      "pokemon-rise",
+      "underperformance"
+    ]
+  },
+  {
+    "poll": 2886,
+    "contest": "CB VI",
+    "round": "Round One",
+    "division": "Division 6",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Leon and Vivi took the two advancing spots in almost exactly the straightforward order expected. The writeup repeatedly calls the match boring and finds little meaning beyond setting up Vivi's coming encounter with Pikachu and Tidus.",
+    "headline": "Leon and Vivi advance through an almost completely uneventful match",
+    "tags": []
+  },
+  {
+    "poll": 2887,
+    "contest": "CB VI",
+    "round": "Round One",
+    "division": "Division 7",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Kirby took first as expected, but L-Block immediately demolished expectations by beating Laharl for the other advancing spot and even briefly leading Kirby. The writeup remembers those opening minutes as the first astonishing sign of what L-Block would become later in the contest.",
+    "headline": "L-Block shocks Laharl and briefly leads Kirby in its debut",
+    "tags": [
+      "l-block",
+      "joke-entrant",
+      "breakout-performance"
+    ]
+  },
+  {
+    "poll": 2888,
+    "contest": "CB VI",
+    "round": "Round One",
+    "division": "Division 7",
+    "voting_anomalies": [
+      "lff"
+    ],
+    "anomaly_note": "The writeup says Donkey Kong and Marth drained each other's Nintendo support, making outsider Kratos's first-place finish effectively inevitable.",
+    "off_topic": false,
+    "narrative": "Kratos took first in a result that surprised many casual brackets but looked straightforward to the writeup. Donkey Kong still advanced, though sharing Nintendo support with Marth made an already difficult matchup much worse for him.",
+    "headline": "Kratos wins as Nintendo LFF weakens Donkey Kong and Marth",
+    "tags": [
+      "upset",
+      "format-effect"
+    ]
+  },
+  {
+    "poll": 2889,
+    "contest": "CB VI",
+    "round": "Round One",
+    "division": "Division 7",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Snake took first comfortably and Nightmare secured second without much difficulty, while the hoped-for strength of Vyse's cult fanbase failed to materialize. The writeup treats Vyse as another aging RPG character whose contest relevance had faded badly.",
+    "headline": "Snake cruises while Nightmare advances and Vyse badly disappoints",
+    "tags": [
+      "underperformance"
+    ]
+  }
+]

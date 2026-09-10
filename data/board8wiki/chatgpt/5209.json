@@ -1,0 +1,828 @@
+[
+  {
+    "poll": 5209,
+    "contest": "CB IX",
+    "round": "Round One",
+    "division": null,
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": true,
+    "narrative": "Squall's easy win mainly served as a strength check before Missingno, while much of the writeup digresses into praise for the Bit.Trip games and Rayman discussion.",
+    "headline": "Squall's routine win becomes a Bit.Trip digression",
+    "tags": [
+      "statement-win"
+    ]
+  },
+  {
+    "poll": 5210,
+    "contest": "CB IX",
+    "round": "Round One",
+    "division": null,
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Amaterasu dominated one of the round's dullest matches and looked strong enough to inspire later what-if discussion about a deeper run. Vyse comfortably took second in the Expert Challenge ordering over Adol.",
+    "headline": "Amaterasu dominates one of Round One's dullest matches",
+    "tags": [
+      "statement-win",
+      "expert-mode"
+    ]
+  },
+  {
+    "poll": 5211,
+    "contest": "CB IX",
+    "round": "Round One",
+    "division": null,
+    "voting_anomalies": [
+      "rally",
+      "cheating_alleged"
+    ],
+    "anomaly_note": "The writeup reports a small Reddit rush for Missingno in the final hour. It also quotes SBAllen saying anti-bot measures caught vote stuffing at roughly a two-to-one ratio favoring Tidus.",
+    "off_topic": false,
+    "narrative": "Tidus erased a large early deficit, took the lead, and nearly completed one of the contest's biggest upsets before Missingno recovered in the final stretch. The cheating revelation immediately spoiled what had looked like a heroic Tidus near-win.",
+    "headline": "Missingno barely survives Tidus amid rallying and vote stuffing",
+    "tags": [
+      "close-match",
+      "cheating-controversy",
+      "match-of-round"
+    ]
+  },
+  {
+    "poll": 5212,
+    "contest": "CB IX",
+    "round": "Round One",
+    "division": null,
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Wario dismissed the brief MINEFEAR speculation and won comfortably, while Creeper took second in the Expert Challenge ordering. The King of All Cosmos never became a real factor.",
+    "headline": "Wario shuts down MINEFEAR without drama",
+    "tags": [
+      "minefear",
+      "expert-mode"
+    ]
+  },
+  {
+    "poll": 5213,
+    "contest": "CB IX",
+    "round": "Round One",
+    "division": null,
+    "voting_anomalies": [
+      "pic_factor"
+    ],
+    "anomaly_note": "The writeup explicitly calls Red's nostalgic match picture a huge and unfair advantage, saying it packed much of the author's childhood into one image.",
+    "off_topic": false,
+    "narrative": "Pokémon Trainer Red crushed the field and reinforced the sense that he was one of the contest's strongest characters. Corvo took second over Sissel in the Expert Challenge ordering.",
+    "headline": "Red combines overwhelming strength with a huge picture advantage",
+    "tags": [
+      "pokemon-rise",
+      "picture-driven",
+      "statement-win"
+    ]
+  },
+  {
+    "poll": 5214,
+    "contest": "CB IX",
+    "round": "Round One",
+    "division": null,
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Wrex upset both Pit and Cecil in one of Round One's most debated three-way matches, surviving a brief Cecil challenge before pulling clear. The writeup celebrates the win as a rare success for a Western character and another disappointment for Final Fantasy IV.",
+    "headline": "Wrex shocks Pit and Cecil in a debated three-way",
+    "tags": [
+      "upset",
+      "mass-effect",
+      "ff4-flop"
+    ]
+  },
+  {
+    "poll": 5215,
+    "contest": "CB IX",
+    "round": "Round One",
+    "division": null,
+    "voting_anomalies": [
+      "rally"
+    ],
+    "anomaly_note": "The writeup says Magikarp entered the match with a pre-planned rally and briefly stayed even with Mega Man before the favorite pulled away.",
+    "off_topic": false,
+    "narrative": "Mega Man weathered Magikarp's pre-planned push and then dominated, while Geno was crushed into last. The result became the first major test of Mega Man against the contest's Pokémon rally threat.",
+    "headline": "Mega Man absorbs Magikarp's planned rally and cruises",
+    "tags": [
+      "rally-threat",
+      "statement-win"
+    ]
+  },
+  {
+    "poll": 5216,
+    "contest": "CB IX",
+    "round": "Round One",
+    "division": null,
+    "voting_anomalies": [
+      "rally"
+    ],
+    "anomaly_note": "The writeup says Recette received a small organized push from the game's developer, with possible additional support from 4chan.",
+    "off_topic": false,
+    "narrative": "Kratos won easily, but Recette unexpectedly beat Travis for second in the Expert Challenge ordering after outside support boosted the niche indie character. Travis's comeback attempt never fully recovered the early deficit.",
+    "headline": "A developer rally lifts Recette over Travis",
+    "tags": [
+      "upset",
+      "developer-rally",
+      "expert-mode"
+    ]
+  },
+  {
+    "poll": 5217,
+    "contest": "CB IX",
+    "round": "Round One",
+    "division": null,
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Jill dominated as expected, while Mike Haggar comfortably beat Red Bird for second in the Expert Challenge ordering. The writeup treats the supposed Marvel-versus-Capcom SFF idea mostly as a joke rather than a serious explanation.",
+    "headline": "Jill crushes the field as Haggar takes second",
+    "tags": [
+      "statement-win",
+      "expert-mode"
+    ]
+  },
+  {
+    "poll": 5218,
+    "contest": "CB IX",
+    "round": "Round One",
+    "division": null,
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Zero dominated while Kratos Aurion and Boko spent nearly the entire match in a dead heat for second in the Expert Challenge ordering. Kratos survived by only a handful of votes after a photo-finish ending.",
+    "headline": "Kratos Aurion barely survives Boko behind Zero",
+    "tags": [
+      "photo-finish",
+      "close-match",
+      "expert-mode"
+    ]
+  },
+  {
+    "poll": 5219,
+    "contest": "CB IX",
+    "round": "Round One",
+    "division": null,
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Weighted Companion Cube won as expected, but Lenneth made a surprisingly credible overnight attempt to catch Claptrap for second in the Expert Challenge ordering. Borderlands' daytime strength eventually ended the comeback.",
+    "headline": "Lenneth nearly steals second from Claptrap",
+    "tags": [
+      "comeback-denied",
+      "statement-loss",
+      "expert-mode"
+    ]
+  },
+  {
+    "poll": 5220,
+    "contest": "CB IX",
+    "round": "Round One",
+    "division": null,
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Rikku comfortably ended the favorite status built around ?-Block's old bonus-poll reputation. The writeup treats the result as another sign that inanimate joke characters had lost much of their old power.",
+    "headline": "Rikku retires another inanimate joke favorite",
+    "tags": [
+      "joke-character",
+      "statement-win"
+    ]
+  },
+  {
+    "poll": 5221,
+    "contest": "CB IX",
+    "round": "Round One",
+    "division": null,
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Zelda crushed two Western franchise mascots and looked far healthier than she had in 2010. John Marston took second in the Expert Challenge ordering without ever threatening the winner.",
+    "headline": "Zelda rebounds by crushing two Western mascots",
+    "tags": [
+      "zelda-rebound",
+      "expert-mode"
+    ]
+  },
+  {
+    "poll": 5222,
+    "contest": "CB IX",
+    "round": "Round One",
+    "division": null,
+    "voting_anomalies": [
+      "sff"
+    ],
+    "anomaly_note": "The writeup explicitly says Falco was SFFed in the Nintendo-heavy match, leaving him far weaker than Donkey Kong.",
+    "off_topic": false,
+    "narrative": "Donkey Kong unexpectedly made a supposedly debatable match trivial and punished the heavily disliked Lightning. Falco collapsed under the Nintendo overlap and finished well behind both.",
+    "headline": "Donkey Kong crushes Lightning as Falco gets SFFed",
+    "tags": [
+      "upset",
+      "dk-redemption"
+    ]
+  },
+  {
+    "poll": 5223,
+    "contest": "CB IX",
+    "round": "Round One",
+    "division": null,
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Charizard demolished Riku and Nier to close Round One and push PokéFEAR even higher. The writeup treats the match as both a Charizard statement and a fitting end to an overlong opening round.",
+    "headline": "Charizard closes Round One with a PokéFEAR rout",
+    "tags": [
+      "pokemon-rise",
+      "statement-win",
+      "round-closer"
+    ]
+  },
+  {
+    "poll": 5224,
+    "contest": "CB IX",
+    "round": "Bonus",
+    "division": null,
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "The bonus poll deliberately matched the three weakest Round One entrants, with Chester completing his intended quest to become the contest's ultimate futility benchmark. Caim won the meaningless race at the top.",
+    "headline": "Chester completes his quest for ultimate last place",
+    "tags": [
+      "bonus",
+      "record",
+      "chester"
+    ]
+  },
+  {
+    "poll": 5225,
+    "contest": "CB IX",
+    "round": "Round 2",
+    "division": null,
+    "voting_anomalies": [
+      "sff"
+    ],
+    "anomaly_note": "The writeup says Yoshi tried to resist Link's SFF but could not stay competitive, allowing Raiden to take second in the Expert Challenge ordering.",
+    "off_topic": false,
+    "narrative": "Link won comfortably while Raiden secured second after Yoshi faded under heavy Nintendo overlap. The writeup also treats Link's low turnout as another sign that voters were tiring of his dominance.",
+    "headline": "Link SFFs Yoshi as Raiden takes second",
+    "tags": [
+      "link-decline",
+      "expert-mode",
+      "low-turnout"
+    ]
+  },
+  {
+    "poll": 5226,
+    "contest": "CB IX",
+    "round": "Round 2",
+    "division": null,
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Aeris led for hours before Shepard erased the gap and then pulled away decisively, producing one of the contest's most satisfying upsets for Mass Effect fans. Tharja's presence and Final Fantasy VII anti-voting are discussed as background factors rather than formal anomalies.",
+    "headline": "Shepard comes back and upsets Aeris",
+    "tags": [
+      "upset",
+      "comeback",
+      "mass-effect"
+    ]
+  },
+  {
+    "poll": 5227,
+    "contest": "CB IX",
+    "round": "Round 2",
+    "division": null,
+    "voting_anomalies": [
+      "rally"
+    ],
+    "anomaly_note": "The writeup says massive League of Legends rallying turned Draven into an overwhelming force and drove historically enormous vote totals.",
+    "off_topic": false,
+    "narrative": "Draven transformed from a low natural share into an overwhelming rally-powered winner over Mega Man X and Ryu. The performance convinced much of Board 8 that he had become a credible threat to win the entire contest.",
+    "headline": "League rallying turns Draven into an overwhelming force",
+    "tags": [
+      "draven-run",
+      "rally-classic",
+      "title-hype"
+    ]
+  },
+  {
+    "poll": 5228,
+    "contest": "CB IX",
+    "round": "Round 2",
+    "division": null,
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Sonic cruised while Barret only narrowly separated from Dracula for second in the Expert Challenge ordering. The weak Barret showing became another warning that Final Fantasy VII's decline had reached well beyond Cloud.",
+    "headline": "Barret barely beats Dracula as FFVII decline deepens",
+    "tags": [
+      "ff7-decline",
+      "expert-mode"
+    ]
+  },
+  {
+    "poll": 5229,
+    "contest": "CB IX",
+    "round": "Round 2",
+    "division": null,
+    "voting_anomalies": [
+      "pic_factor"
+    ],
+    "anomaly_note": "The writeup says Vincent received an intentionally terrible Dirge of Cerberus picture and directly blames the image for worsening his performance enough that Phoenix could pass him.",
+    "off_topic": false,
+    "narrative": "Mewtwo won convincingly while Phoenix unexpectedly pushed Vincent into last place. The notorious Vincent picture became one of the contest's biggest presentation controversies and overwhelmed much of the discussion.",
+    "headline": "Vincent's sabotaged picture becomes the match's defining controversy",
+    "tags": [
+      "picture-driven",
+      "controversy",
+      "phoenix-rise"
+    ]
+  },
+  {
+    "poll": 5230,
+    "contest": "CB IX",
+    "round": "Round 2",
+    "division": null,
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Bowser won as expected, but The Boss and Sub-Zero spent most of the match almost perfectly tied for second in the Expert Challenge ordering. Sub-Zero unexpectedly won the evening trend and finally pulled away.",
+    "headline": "Sub-Zero outlasts The Boss in a strange trend battle",
+    "tags": [
+      "close-match",
+      "expert-mode",
+      "trend-battle"
+    ]
+  },
+  {
+    "poll": 5231,
+    "contest": "CB IX",
+    "round": "Round 2",
+    "division": null,
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Sephiroth won a routine rematch setting while Morrigan again finished ahead of Spyro, echoing their famous 2002 upset. The writeup finds Sephiroth's modest dominance more notable than the actual ordering.",
+    "headline": "Morrigan repeats her old edge over Spyro",
+    "tags": [
+      "rematch",
+      "ff7-decline"
+    ]
+  },
+  {
+    "poll": 5232,
+    "contest": "CB IX",
+    "round": "Round 2",
+    "division": null,
+    "voting_anomalies": [
+      "lff"
+    ],
+    "anomaly_note": "The writeup says Ness leeched Luigi's Nintendo support and made the difference in a match where Luigi and Big Boss were otherwise close in strength.",
+    "off_topic": false,
+    "narrative": "Big Boss and Luigi stayed tied for hours before Metal Gear's stronger late trend finally separated them. Ness's presence is treated as the key fanbase drain that prevented Luigi from taking fuller advantage of Big Boss's weak daytime vote.",
+    "headline": "Ness vote drain helps Big Boss edge Luigi",
+    "tags": [
+      "close-match",
+      "trend-battle"
+    ]
+  },
+  {
+    "poll": 5233,
+    "contest": "CB IX",
+    "round": "Round 2",
+    "division": null,
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Kirby won comfortably while Crash nearly completed a morning comeback on Elizabeth for second in the Expert Challenge ordering. The writeup celebrates the loss as Crash's best contest showing in years and a major warning about BioShock Infinite's strength.",
+    "headline": "Crash nearly steals second and revives his reputation",
+    "tags": [
+      "comeback-denied",
+      "crash-redemption",
+      "expert-mode"
+    ]
+  },
+  {
+    "poll": 5234,
+    "contest": "CB IX",
+    "round": "Round 2",
+    "division": null,
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Snake crushed Alucard and Bayonetta in a match with almost no suspense. The performance later became important because Snake was one of the few Noble Nine members still looking consistently dominant.",
+    "headline": "Snake quietly delivers another dominant statement",
+    "tags": [
+      "statement-win",
+      "noble-nine"
+    ]
+  },
+  {
+    "poll": 5235,
+    "contest": "CB IX",
+    "round": "Round 2",
+    "division": null,
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "GLaDOS won easily, but Epona stole the attention by beating an awful Ike for second in the Expert Challenge ordering. The writeup treats the result as a fittingly comic high point for Epona and a confirmation of Ike's collapse.",
+    "headline": "Epona embarrasses Ike behind an easy GLaDOS win",
+    "tags": [
+      "upset",
+      "ike-collapse",
+      "expert-mode"
+    ]
+  },
+  {
+    "poll": 5236,
+    "contest": "CB IX",
+    "round": "Round 2",
+    "division": null,
+    "voting_anomalies": [
+      "lff"
+    ],
+    "anomaly_note": "The writeup says Altair and Lara likely drained each other through overlapping Western-franchise appeal, helping Kefka dominate while their second-place fight stayed unusually close.",
+    "off_topic": false,
+    "narrative": "Kefka completed another bracket-wrecking upset by beating both Altair and Lara, while the two Western icons fought to the final minutes for second in the Expert Challenge ordering. Altair barely survived Lara's late comeback.",
+    "headline": "Kefka wins as Altair barely survives Lara",
+    "tags": [
+      "upset",
+      "kefka-chaos",
+      "close-match"
+    ]
+  },
+  {
+    "poll": 5237,
+    "contest": "CB IX",
+    "round": "Round 2",
+    "division": null,
+    "voting_anomalies": [
+      "lff"
+    ],
+    "anomaly_note": "The writeup says Cloud was stealing support from Frog, making Frog's recovery past Lugia more impressive.",
+    "off_topic": false,
+    "narrative": "Cloud won comfortably while Frog overcame an early Lugia lead and took second in the Expert Challenge ordering despite sharing some Square support with Cloud. Lugia's collapse weakened the broader PokéFEAR narrative.",
+    "headline": "Frog beats Lugia despite Cloud vote drain",
+    "tags": [
+      "expert-mode",
+      "pokemon-setback"
+    ]
+  },
+  {
+    "poll": 5238,
+    "contest": "CB IX",
+    "round": "Round 2",
+    "division": null,
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Squirtle crushed Dante and made the pre-match Dante support look wildly misplaced, while Zidane never seriously threatened either contender. The writeup frames Dante's defeat as the inevitable result of backlash against the DmC reboot.",
+    "headline": "Squirtle destroys Dante and the DmC hype",
+    "tags": [
+      "pokemon-rise",
+      "underperformance",
+      "reboot-backlash"
+    ]
+  },
+  {
+    "poll": 5239,
+    "contest": "CB IX",
+    "round": "Round 2",
+    "division": null,
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Leon beat Gordon and Shadow in a low-turnout match whose trends repeatedly hinted at drama without ever producing a real comeback. The writeup suspects overlap between Leon and Gordon but leaves the explanation uncertain.",
+    "headline": "Leon wins a strange but never truly close match",
+    "tags": [
+      "low-turnout",
+      "strange-trends"
+    ]
+  },
+  {
+    "poll": 5240,
+    "contest": "CB IX",
+    "round": "Round 2",
+    "division": null,
+    "voting_anomalies": [
+      "sff"
+    ],
+    "anomaly_note": "The writeup explicitly says Magus was SFFed into the ground by Crono, giving Pikachu the opening it needed.",
+    "off_topic": false,
+    "narrative": "Pikachu decisively eliminated Crono after Magus collapsed under same-series overlap. The result became one of the clearest signs that the old Noble Nine hierarchy no longer controlled the bracket.",
+    "headline": "Pikachu exploits Crono-Magus SFF and eliminates Crono",
+    "tags": [
+      "noble-nine-break",
+      "pokemon-rise",
+      "statement-win"
+    ]
+  },
+  {
+    "poll": 5241,
+    "contest": "CB IX",
+    "round": "Round 2",
+    "division": null,
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Sora comfortably beat two first-round upset winners in a deliberately uneventful match. The result was interpreted as evidence that he could survive the Pokémon-heavy matchup waiting in Round Three.",
+    "headline": "Sora cruises through a badly needed breather",
+    "tags": [
+      "low-drama",
+      "warning-sign"
+    ]
+  },
+  {
+    "poll": 5242,
+    "contest": "CB IX",
+    "round": "Round 2",
+    "division": null,
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Pokémon Trainer Blue dominated Nathan Drake and Mr. Game & Watch, turning earlier PokéFEAR into a concrete strength statement. The writeup treats Blue's performance as proof that he belonged among the contest's serious threats.",
+    "headline": "Blue turns PokéFEAR into a dominant statement",
+    "tags": [
+      "pokemon-rise",
+      "statement-win"
+    ]
+  },
+  {
+    "poll": 5243,
+    "contest": "CB IX",
+    "round": "Round 2",
+    "division": null,
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Samus overwhelmed Knuckles and Catherine and remained one of the few Noble Nine characters consistently meeting expectations. Catherine's respectable share is treated as proof that her first-round upset was not pure luck.",
+    "headline": "Samus stays steady while Catherine validates herself",
+    "tags": [
+      "statement-win",
+      "statement-loss"
+    ]
+  },
+  {
+    "poll": 5244,
+    "contest": "CB IX",
+    "round": "Round 2",
+    "division": null,
+    "voting_anomalies": [
+      "rally"
+    ],
+    "anomaly_note": "The writeup says 4chan rallied L-Block, repeatedly erasing Auron's small leads before eventually pushing the former champion clear.",
+    "off_topic": false,
+    "narrative": "Auron controlled stretches of the match, but 4chan's support repeatedly pulled L-Block back and eventually carried the former champion to another upset. The result revived speculation that L-Block could become an anti-Draven rally vehicle.",
+    "headline": "4chan rallies L-Block past Auron",
+    "tags": [
+      "upset",
+      "4chan",
+      "former-champion"
+    ]
+  },
+  {
+    "poll": 5245,
+    "contest": "CB IX",
+    "round": "Round 2",
+    "division": null,
+    "voting_anomalies": [
+      "lff"
+    ],
+    "anomaly_note": "The writeup treats Tifa and Yuna's shared Final Fantasy support as a real vote split, noting that Yuna stayed surprisingly close to Dragonborn even while Tifa was in the poll.",
+    "off_topic": false,
+    "narrative": "Tifa won comfortably while Dragonborn again looked far weaker than Skyrim's game-level popularity had suggested. Yuna's respectable third-place showing despite the Square overlap made Dragonborn's collapse look even worse.",
+    "headline": "Tifa wins as Dragonborn's hype fully collapses",
+    "tags": [
+      "underperformance",
+      "skyrim-hype",
+      "ff-overlap"
+    ]
+  },
+  {
+    "poll": 5246,
+    "contest": "CB IX",
+    "round": "Round 2",
+    "division": null,
+    "voting_anomalies": [
+      "lff",
+      "rally"
+    ],
+    "anomaly_note": "The writeup says Ganondorf leeched Nintendo support from Mario and that 4chan also rallied Vivi during the close fight.",
+    "off_topic": false,
+    "narrative": "Vivi produced one of the contest's defining upsets by holding off repeated Mario comeback attempts and finally eliminating him. Nintendo vote splitting and a modest outside push helped create the opening, but the writeup still celebrates Vivi's composure against Mario's legendary clutch.",
+    "headline": "Vivi shocks Mario in a contest-defining upset",
+    "tags": [
+      "upset",
+      "match-of-contest",
+      "noble-nine-break"
+    ]
+  },
+  {
+    "poll": 5247,
+    "contest": "CB IX",
+    "round": "Round 2",
+    "division": null,
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Squall absorbed Missingno's expected early surge and took control far sooner than the glitch character's supporters hoped. The result ended Missingno's run and left Squall's division shaped by an awkward future matchup with Vivi.",
+    "headline": "Squall ends Missingno's comeback hopes cleanly",
+    "tags": [
+      "statement-win",
+      "missingno-decline"
+    ]
+  },
+  {
+    "poll": 5248,
+    "contest": "CB IX",
+    "round": "Round 2",
+    "division": null,
+    "voting_anomalies": [
+      "sff"
+    ],
+    "anomaly_note": "The writeup says Red SFFed Wario, allowing Wrex to pass the Nintendo character comfortably for second in the Expert Challenge ordering.",
+    "off_topic": false,
+    "narrative": "Red dominated while Wrex took advantage of Wario's severe Nintendo overlap to claim second in the Expert Challenge ordering. The result made Wrex's first-round upset look more legitimate.",
+    "headline": "Red SFFs Wario and clears second for Wrex",
+    "tags": [
+      "mass-effect",
+      "expert-mode"
+    ]
+  },
+  {
+    "poll": 5249,
+    "contest": "CB IX",
+    "round": "Round 2",
+    "division": null,
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Mega Man delivered another clean top-seed performance, while Jill beat the declining Kratos for second in the Expert Challenge ordering. The writeup treats Jill's placement as an upset only by seed rather than by actual strength.",
+    "headline": "Mega Man cruises as Jill beats a declining Kratos",
+    "tags": [
+      "statement-win",
+      "expert-mode"
+    ]
+  },
+  {
+    "poll": 5250,
+    "contest": "CB IX",
+    "round": "Round 2",
+    "division": null,
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Zero won easily while Rikku gradually pulled away from Weighted Companion Cube for second in the Expert Challenge ordering. Strategic Mega Man fans voting away from Zero are discussed, but the outcome was never in doubt.",
+    "headline": "Zero wins as Rikku retires another joke contender",
+    "tags": [
+      "joke-character",
+      "expert-mode"
+    ]
+  },
+  {
+    "poll": 5251,
+    "contest": "CB IX",
+    "round": "Round 2",
+    "division": null,
+    "voting_anomalies": [
+      "lff",
+      "rally"
+    ],
+    "anomaly_note": "The writeup says Donkey Kong's presence created heavy Nintendo vote splitting that badly hurt Charizard. It also says late rallies were necessary for Charizard to erase Zelda's lead and survive.",
+    "off_topic": false,
+    "narrative": "Zelda repeatedly looked on the verge of beating Charizard, but Pokémon's morning strength and late outside support dragged Charizard through a final-update escape. The writeup treats the win as a major warning that Charizard had been overrated.",
+    "headline": "Charizard rallies past Zelda in a Pyrrhic victory",
+    "tags": [
+      "close-match",
+      "pyrrhic-win",
+      "warning-sign"
+    ]
+  },
+  {
+    "poll": 5252,
+    "contest": "CB IX",
+    "round": "Bonus",
+    "division": null,
+    "voting_anomalies": [
+      "lff"
+    ],
+    "anomaly_note": "The writeup says Mega Man X stole votes from Mario and also notes some SNES-era overlap around Crono, with Mario believed to be hurt more by the third entrant.",
+    "off_topic": false,
+    "narrative": "Mario comfortably settled the old rivalry with Crono in a bonus poll despite the presence of Mega Man X. The writeup treats the result as final confirmation that their classic debate was long over.",
+    "headline": "Mario settles the Crono debate in a bonus rematch",
+    "tags": [
+      "bonus",
+      "rematch",
+      "strength-debate"
+    ]
+  },
+  {
+    "poll": 5253,
+    "contest": "CB IX",
+    "round": "Round 3",
+    "division": null,
+    "voting_anomalies": [
+      "rally",
+      "cheating_alleged"
+    ],
+    "anomaly_note": "The writeup describes enormous organized rallies for both Draven and Link throughout the match. It also alleges obvious late vote stuffing from Link's side, while quoting SBAllen's analysis that found no evidence of massive systematic stuffing overall.",
+    "off_topic": false,
+    "narrative": "Draven built a huge rally-driven lead, Link mounted two enormous comeback pushes, and a lengthy site slowdown became the center of a bitter controversy before Draven survived. The writeup treats the match as one of the most consequential and divisive events in GameFAQs contest history.",
+    "headline": "Draven survives Link in a rally-fueled contest landmark",
+    "tags": [
+      "match-of-contest",
+      "draven-run",
+      "controversy"
+    ]
+  },
+  {
+    "poll": 5254,
+    "contest": "CB IX",
+    "round": "Round 3",
+    "division": null,
+    "voting_anomalies": [
+      "rally"
+    ],
+    "anomaly_note": "The writeup says rally spillover from the Link-Draven battle materially boosted Mewtwo, with Zen arguing that Sonic probably wins without that outside support.",
+    "off_topic": false,
+    "narrative": "Mewtwo crushed Sonic in a result made even more shocking by Sonic's failure to mount his usual daytime comeback. The win turned Mewtwo into the preferred anti-Draven hope for the remainder of the contest.",
+    "headline": "Rally spillover helps Mewtwo crush Sonic",
+    "tags": [
+      "upset",
+      "pokemon-rise",
+      "noble-nine-break"
+    ]
+  },
+  {
+    "poll": 5255,
+    "contest": "CB IX",
+    "round": "Round 3",
+    "division": null,
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Sephiroth survived an expected Kirby upset attempt after a long early deadlock, then unexpectedly dominated the morning and daytime vote. The writeup treats the result as a rare 2013 case where a Final Fantasy VII heavyweight reasserted himself.",
+    "headline": "Sephiroth stops Kirby after a long early deadlock",
+    "tags": [
+      "upset",
+      "comeback",
+      "ff7-rebound"
+    ]
+  },
+  {
+    "poll": 5256,
+    "contest": "CB IX",
+    "round": "Round 3",
+    "division": null,
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Snake won easily while GLaDOS and Kefka spent nearly the entire match in an extraordinarily tight fight for second in the Expert Challenge ordering. GLaDOS finally survived by only a tiny margin after repeated lead changes.",
+    "headline": "Snake cruises as GLaDOS barely survives Kefka",
+    "tags": [
+      "close-match",
+      "expert-mode",
+      "kefka-chaos"
+    ]
+  },
+  {
+    "poll": 5257,
+    "contest": "CB IX",
+    "round": "Round 3",
+    "division": null,
+    "voting_anomalies": [
+      "lff"
+    ],
+    "anomaly_note": "The writeup says Leon's overlapping PlayStation-oriented support hurt Cloud and played an important role in opening the door for Squirtle's upset.",
+    "off_topic": false,
+    "narrative": "Squirtle beat Cloud outright in one of the contest's coolest Noble Nine upsets, surviving Cloud's overnight recovery and pulling away again late. The writeup emphasizes that Cloud's broader Final Fantasy VII decline made the impossible-looking result suddenly believable.",
+    "headline": "Squirtle topples Cloud as Leon drains support",
+    "tags": [
+      "upset",
+      "noble-nine-break",
+      "pokemon-rise"
+    ]
+  },
+  {
+    "poll": 5258,
+    "contest": "CB IX",
+    "round": "Round 3",
+    "division": null,
+    "voting_anomalies": [
+      "lff"
+    ],
+    "anomaly_note": "The writeup explicitly says Pikachu resisted Blue's LFF and that the second Pokémon entrant was the main reason Sora could keep the match competitive.",
+    "off_topic": false,
+    "narrative": "Pikachu built a large lead, survived Sora's late comeback, and won despite sharing the poll with Pokémon Trainer Blue. The result sent another Pokémon character into the contest's final stretch and underscored how little strength Sora had left.",
+    "headline": "Pikachu survives Blue's vote drain and Sora's comeback",
+    "tags": [
+      "pokemon-rise",
+      "comeback-denied",
+      "kingdom-hearts-decline"
+    ]
+  }
+]

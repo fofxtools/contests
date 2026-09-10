@@ -1,0 +1,753 @@
+[
+  {
+    "poll": 1367,
+    "contest": "SC2K3",
+    "round": "Final",
+    "division": null,
+    "voting_anomalies": [
+      "sff"
+    ],
+    "anomaly_note": "The writeup says SFF likely had the most to do with Cloud beating fellow Final Fantasy VII character Sephiroth, and treats their later rematch as confirmation that Sephiroth was suppressed here.",
+    "off_topic": false,
+    "narrative": "Cloud recovered from Sephiroth's early lead and won a final that the writeup says was less competitive than the ending suggested. It frames the result as the culmination of Cloud's strengthened post-Kingdom Hearts standing and likely same-fanbase suppression of Sephiroth.",
+    "headline": "Cloud beats Sephiroth to complete his championship run",
+    "tags": [
+      "contest-final",
+      "champion"
+    ]
+  },
+  {
+    "poll": 1601,
+    "contest": "SpC2K4",
+    "round": null,
+    "division": "Division 8",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Super Mario Bros. 3 opened the game contest with the expected rout. The writeup focuses more on the unexpectedly weak turnout and the sponsored poll above the contest than on the one-sided match itself.",
+    "headline": "Mario 3 opens the game contest with an easy rout",
+    "tags": [
+      "contest-opener",
+      "low-turnout"
+    ]
+  },
+  {
+    "poll": 1602,
+    "contest": "SpC2K4",
+    "round": null,
+    "division": "Division 8",
+    "voting_anomalies": [
+      "pic_factor"
+    ],
+    "anomaly_note": "The writeup says Pac-Man's match picture was not doing him any favors, explicitly presenting the image as another disadvantage for him against Metroid.",
+    "off_topic": false,
+    "narrative": "Metroid turned a mildly hyped matchup into a comfortable win and strengthened early talk that the series might contend with Zelda. The writeup attributes Pac-Man's weakness mainly to the site's younger audience, with his match picture also working against him.",
+    "headline": "Metroid overwhelms Pac-Man and fuels early series hype",
+    "tags": [
+      "underperformance",
+      "board-hype"
+    ]
+  },
+  {
+    "poll": 1603,
+    "contest": "SpC2K4",
+    "round": null,
+    "division": "Division 8",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Contra comfortably beat an overseeded Phantasy Star in a matchup that had attracted substantial pre-match debate. The writeup treats the result as evidence that the nomination system inflated weaker-system seeds and that franchise recognition did little for Phantasy Star itself.",
+    "headline": "Contra exposes Phantasy Star's inflated seed with ease",
+    "tags": [
+      "upset",
+      "overseeded"
+    ]
+  },
+  {
+    "poll": 1604,
+    "contest": "SpC2K4",
+    "round": null,
+    "division": "Division 8",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Final Fantasy crushed Pitfall in a match that was never competitive. The writeup mainly uses the result to strengthen the case that the original Final Fantasy could become a serious obstacle for Super Mario Bros. 3 later in the division.",
+    "headline": "Final Fantasy crushes Pitfall and builds divisional credibility",
+    "tags": []
+  },
+  {
+    "poll": 1605,
+    "contest": "SpC2K4",
+    "round": null,
+    "division": "Division 8",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Donkey Kong built what looked like a safe lead before Duck Hunt spent most of the day mounting a relentless comeback. The writeup says Donkey Kong escaped largely because time and bracket support ran out on Duck Hunt, making the match an early contest classic.",
+    "headline": "Donkey Kong barely survives Duck Hunt's huge comeback",
+    "tags": [
+      "close-match",
+      "comeback",
+      "bracket-voting"
+    ]
+  },
+  {
+    "poll": 1606,
+    "contest": "SpC2K4",
+    "round": null,
+    "division": "Division 8",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "The Legend of Zelda annihilated the obscure Adventure and set multiple futility marks in the process. The performance immediately intensified talk that Zelda games might dominate the contest.",
+    "headline": "Zelda destroys Adventure and sparks dominance talk",
+    "tags": [
+      "record",
+      "zelda-dominance"
+    ]
+  },
+  {
+    "poll": 1607,
+    "contest": "SpC2K4",
+    "round": null,
+    "division": "Division 8",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Pong easily beat River City Ransom after late board hype had tried to turn the cult favorite into a serious upset pick. The writeup treats the result as a lesson in the limits of vocal cult support against universal name recognition.",
+    "headline": "Pong dismisses River City Ransom after misleading board hype",
+    "tags": [
+      "board-hype",
+      "cult-classic"
+    ]
+  },
+  {
+    "poll": 1608,
+    "contest": "SpC2K4",
+    "round": null,
+    "division": "Division 8",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Tetris beat Galaga as expected, but the writeup considered its performance unimpressive for much of the poll. That softness briefly encouraged speculation that Pong might have a real chance in the next round.",
+    "headline": "Tetris beats Galaga but leaves room for doubt",
+    "tags": [
+      "underperformance"
+    ]
+  },
+  {
+    "poll": 1609,
+    "contest": "SpC2K4",
+    "round": null,
+    "division": "Division 16",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Chrono Trigger handled Secret of Mana but lost substantial momentum during the daytime, creating concern about how it would fare against stronger opponents. The writeup identifies that recurring voting pattern as a defining feature of Chrono Trigger's contest run.",
+    "headline": "Chrono Trigger wins while its daytime weakness draws concern",
+    "tags": [
+      "underperformance",
+      "day-vote"
+    ]
+  },
+  {
+    "poll": 1610,
+    "contest": "SpC2K4",
+    "round": null,
+    "division": "Division 16",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Super Mario RPG recovered from an early Street Fighter II push and won a genuine toss-up. The lasting story in the writeup is the unusually persistent board outrage afterward, which turned the loss into a long-running community joke.",
+    "headline": "Mario RPG wins a toss-up and triggers lasting board outrage",
+    "tags": [
+      "upset",
+      "board-tradition"
+    ]
+  },
+  {
+    "poll": 1611,
+    "contest": "SpC2K4",
+    "round": null,
+    "division": "Division 16",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Sonic the Hedgehog 2 dispatched Shining Force in a predetermined mismatch. Its strong showing nevertheless encouraged Sonic supporters to argue that a classic Mario-Sonic showdown in the next round could be competitive.",
+    "headline": "Sonic 2 routs Shining Force and fuels Mario matchup hype",
+    "tags": [
+      "rivalry-hype"
+    ]
+  },
+  {
+    "poll": 1612,
+    "contest": "SpC2K4",
+    "round": null,
+    "division": "Division 16",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Super Mario World crushed The Simpsons and reassured anyone who thought Mario's contest standing had weakened. The writeup sees the performance as a stronger warning for Sonic than many contemporary observers recognized.",
+    "headline": "Mario World crushes The Simpsons before its Sonic showdown",
+    "tags": [
+      "rivalry-hype"
+    ]
+  },
+  {
+    "poll": 1613,
+    "contest": "SpC2K4",
+    "round": null,
+    "division": "Division 16",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "A Link to the Past obliterated Gunstar Heroes and added another emphatic result to Zelda's opening run. The writeup says the performance made the series look nearly unbeatable while also highlighting how strangely low the game's seed had been.",
+    "headline": "Link to the Past extends Zelda's dominant opening run",
+    "tags": [
+      "record",
+      "zelda-dominance",
+      "underseeded"
+    ]
+  },
+  {
+    "poll": 1614,
+    "contest": "SpC2K4",
+    "round": null,
+    "division": "Division 16",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Super Metroid won comfortably but failed to match the standard A Link to the Past had just set against weak opposition. The writeup treats that gap as an early sign that Super Metroid's hoped-for challenge to Zelda was already doomed.",
+    "headline": "Super Metroid wins but weakens its case against Zelda",
+    "tags": [
+      "underperformance"
+    ]
+  },
+  {
+    "poll": 1615,
+    "contest": "SpC2K4",
+    "round": null,
+    "division": "Division 16",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Doom beat the higher-seeded EarthBound after a heavily debated matchup that the writeup says was less competitive than the hype suggested. It presents the result as a bracket buster driven by mainstream recognition overcoming a dedicated cult fanbase.",
+    "headline": "Doom ends EarthBound hype and busts many brackets",
+    "tags": [
+      "upset",
+      "bracket-buster"
+    ]
+  },
+  {
+    "poll": 1616,
+    "contest": "SpC2K4",
+    "round": null,
+    "division": "Division 16",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Final Fantasy VI comfortably defeated Mortal Kombat and began to look stronger than many observers had expected. The writeup treats the result as the first hint that the game belonged in the division's top tier rather than behind the presumed favorites.",
+    "headline": "Final Fantasy VI handles Mortal Kombat and gains credibility",
+    "tags": [
+      "underestimated"
+    ]
+  },
+  {
+    "poll": 1617,
+    "contest": "SpC2K4",
+    "round": null,
+    "division": "Division 32-64",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Final Fantasy VII demolished Suikoden II in a routine opening match and looked every bit like a championship favorite. The writeup views the surrounding division largely as a waiting room for the expected showdown with Ocarina of Time.",
+    "headline": "Final Fantasy VII begins its title bid with domination",
+    "tags": [
+      "title-favorite"
+    ]
+  },
+  {
+    "poll": 1618,
+    "contest": "SpC2K4",
+    "round": null,
+    "division": "Division 32-64",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Xenogears beat Pokémon Gold and Silver after the original poll had to be restarted because of a voting bug. The writeup considers anti-Pokémon sentiment an important part of the loss while also crediting Xenogears' Square RPG appeal.",
+    "headline": "Xenogears beats Pokémon after a troubled poll restart",
+    "tags": [
+      "upset",
+      "poll-restart",
+      "anti-pokemon"
+    ]
+  },
+  {
+    "poll": 1619,
+    "contest": "SpC2K4",
+    "round": null,
+    "division": "Division 32-64",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Final Fantasy Tactics comfortably beat Dance Dance Revolution, though its opponent showed more support than many expected. The writeup says that resistance initially made Tactics look vulnerable before later matches revised the interpretation.",
+    "headline": "Final Fantasy Tactics wins while DDR earns unexpected respect",
+    "tags": [
+      "underestimated"
+    ]
+  },
+  {
+    "poll": 1620,
+    "contest": "SpC2K4",
+    "round": null,
+    "division": "Division 32-64",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Metal Gear Solid comfortably dispatched Resident Evil and reinforced its status as one of the strongest non-Nintendo, non-Square properties on the site. The result set up what looked on paper like a very even meeting with Final Fantasy Tactics.",
+    "headline": "Metal Gear Solid handles Resident Evil before a tougher test",
+    "tags": [
+      "rivalry-hype"
+    ]
+  },
+  {
+    "poll": 1621,
+    "contest": "SpC2K4",
+    "round": null,
+    "division": "Division 32-64",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Symphony of the Night beat Perfect Dark after a matchup surrounded by elaborate pre-match strength theories. A long poll freeze interrupted the action, and Perfect Dark's late resistance left the writeup convinced that Castlevania had little chance against GoldenEye next.",
+    "headline": "Symphony survives Perfect Dark but weakens its GoldenEye case",
+    "tags": [
+      "upset",
+      "board-hype",
+      "poll-freeze"
+    ]
+  },
+  {
+    "poll": 1622,
+    "contest": "SpC2K4",
+    "round": null,
+    "division": "Division 32-64",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "GoldenEye easily beat Panzer Dragoon Saga and validated the view that it was much stronger than Perfect Dark in this contest setting. The writeup treats the match mainly as confirmation that Symphony of the Night faced an overwhelming next-round obstacle.",
+    "headline": "GoldenEye routs Panzer Dragoon and settles the strength debate",
+    "tags": []
+  },
+  {
+    "poll": 1623,
+    "contest": "SpC2K4",
+    "round": null,
+    "division": "Division 32-64",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Super Mario 64 destroyed the obscure NiGHTS as expected. The writeup's main point is that Mario 64 was badly underseeded and deserved a much better fate than an immediate collision with Ocarina of Time.",
+    "headline": "Mario 64 cruises while its harsh bracket draw looms",
+    "tags": [
+      "underseeded"
+    ]
+  },
+  {
+    "poll": 1624,
+    "contest": "SpC2K4",
+    "round": null,
+    "division": "Division 32-64",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Ocarina of Time crushed Fallout 2 and extended Zelda's dominant start. The writeup nevertheless argues that comparison with Final Fantasy VII's opener already favored the Square game in their anticipated divisional showdown.",
+    "headline": "Ocarina crushes Fallout while the FFVII comparison intensifies",
+    "tags": [
+      "title-favorite",
+      "rivalry-hype"
+    ]
+  },
+  {
+    "poll": 1625,
+    "contest": "SpC2K4",
+    "round": null,
+    "division": "Division 128",
+    "voting_anomalies": [
+      "rally"
+    ],
+    "anomaly_note": "The writeup explicitly describes mass Battle.net spamming, Xbox Live and Bungie involvement, and outside forces being brought in from across the internet to vote for both sides, with StarCraft ultimately benefiting most.",
+    "off_topic": false,
+    "narrative": "StarCraft overturned Halo in one of the contest's defining first-round battles after both fanbases drew outside support into the poll. The writeup treats the result as proof that Halo was badly overseeded, StarCraft badly underseeded, and the StarCraft fanbase capable of changing the entire division.",
+    "headline": "StarCraft topples Halo after an internet-wide voting war",
+    "tags": [
+      "upset",
+      "bracket-buster",
+      "site-wide-event"
+    ]
+  },
+  {
+    "poll": 1626,
+    "contest": "SpC2K4",
+    "round": null,
+    "division": "Division 128",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Kingdom Hearts barely recovered from SoulCalibur after entering the contest with much greater expectations. The match also coincided with a major site-layout change, and the writeup treats the narrow escape as evidence that Kingdom Hearts was the contest's biggest disappointment.",
+    "headline": "Kingdom Hearts survives SoulCalibur but loses its contender aura",
+    "tags": [
+      "close-match",
+      "underperformance",
+      "site-layout-change"
+    ]
+  },
+  {
+    "poll": 1627,
+    "contest": "SpC2K4",
+    "round": null,
+    "division": "Division 128",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "The Wind Waker comfortably beat Skies of Arcadia and posted the clearest opening result in an otherwise chaotic division. The writeup still considered the performance modest by Zelda standards, but enough to make Wind Waker the provisional divisional favorite.",
+    "headline": "Wind Waker wins cleanly and emerges as divisional favorite",
+    "tags": [
+      "division-favorite"
+    ]
+  },
+  {
+    "poll": 1628,
+    "contest": "SpC2K4",
+    "round": null,
+    "division": "Division 128",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Metroid Prime beat Half-Life after the PC game kept the opening portion more competitive than Gordon Freeman's contest reputation suggested. The writeup treats the result as another chapter in the GFNW joke while giving Half-Life credit for showing real strength.",
+    "headline": "Metroid Prime beats Half-Life despite a respectable early fight",
+    "tags": [
+      "gfnw",
+      "insta-updating"
+    ]
+  },
+  {
+    "poll": 1629,
+    "contest": "SpC2K4",
+    "round": null,
+    "division": "Division 128",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Final Fantasy Tactics Advance beat Fire Emblem in a match the writeup remembers mainly for very weak interest and turnout. The victory did little to inspire confidence, with the result framed as proof that Tactics Advance would fold against the first serious threat.",
+    "headline": "Tactics Advance wins a quiet match and inspires little confidence",
+    "tags": [
+      "low-turnout",
+      "underperformance"
+    ]
+  },
+  {
+    "poll": 1630,
+    "contest": "SpC2K4",
+    "round": null,
+    "division": "Division 128",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Final Fantasy X comfortably beat Shenmue but failed to look as strong as expected for a divisional favorite. The writeup says the result shifted the perceived edge toward The Wind Waker while leaving the division unsettled.",
+    "headline": "Final Fantasy X wins but loses ground in divisional projections",
+    "tags": [
+      "underperformance"
+    ]
+  },
+  {
+    "poll": 1631,
+    "contest": "SpC2K4",
+    "round": null,
+    "division": "Division 128",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Vice City beat Knights of the Old Republic during an extended poll disrupted by site changes and downtime. The writeup says the win created serious second-round hype, while the unusual poll conditions made its true strength difficult to judge.",
+    "headline": "Vice City beats KOTOR in an unusually extended poll",
+    "tags": [
+      "extended-poll",
+      "rivalry-hype"
+    ]
+  },
+  {
+    "poll": 1632,
+    "contest": "SpC2K4",
+    "round": null,
+    "division": "Division 128",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Super Smash Bros. Melee beat Metal Gear Solid 2 but looked much shakier than its seed suggested. The writeup credits Metal Gear Solid 2 with being underestimated and remembers the match for inspiring the joking phrase \"Ulti-Style Blowout.\"",
+    "headline": "Melee survives MGS2 and inspires an enduring board phrase",
+    "tags": [
+      "underperformance",
+      "board-tradition"
+    ]
+  },
+  {
+    "poll": 1633,
+    "contest": "SpC2K4",
+    "round": null,
+    "division": "Division 8",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Super Mario Bros. 3 demolished Metroid and reclaimed the apparent favorite's position in the old-school division. The writeup treats the result as a straightforward show of strength before the eventual clash with Zelda.",
+    "headline": "Mario 3 crushes Metroid and reasserts divisional control",
+    "tags": [
+      "division-favorite"
+    ]
+  },
+  {
+    "poll": 1634,
+    "contest": "SpC2K4",
+    "round": null,
+    "division": "Division 8",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Final Fantasy handled Contra convincingly and continued to look stronger than its place in the bracket suggested. The writeup emphasizes how much faith bracketmakers placed in the Final Fantasy name and builds anticipation for its meeting with Mario 3.",
+    "headline": "Final Fantasy handles Contra and keeps Mario pressure alive",
+    "tags": [
+      "square-bias",
+      "rivalry-hype"
+    ]
+  },
+  {
+    "poll": 1635,
+    "contest": "SpC2K4",
+    "round": null,
+    "division": "Division 8",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "The Legend of Zelda flattened Donkey Kong and extended the series' unbeaten, dominant start. The writeup portrays Donkey Kong as an especially unreliable Nintendo property and says the result made an all-Zelda late bracket feel increasingly plausible.",
+    "headline": "Zelda demolishes Donkey Kong and deepens series dominance",
+    "tags": [
+      "zelda-dominance",
+      "underperformance"
+    ]
+  },
+  {
+    "poll": 1636,
+    "contest": "SpC2K4",
+    "round": null,
+    "division": "Division 8",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Tetris comfortably beat Pong in an otherwise forgettable match. The writeup remembers the poll primarily for the widely loved paddle-versus-block match picture and for another weak turnout in a division already viewed as filler before the heavyweights met.",
+    "headline": "Tetris beats Pong as the match picture steals attention",
+    "tags": [
+      "board-tradition",
+      "low-turnout"
+    ]
+  },
+  {
+    "poll": 1637,
+    "contest": "SpC2K4",
+    "round": null,
+    "division": "Division 16",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Chrono Trigger beat Super Mario RPG but again lost substantial strength during the day. The writeup says the recurring pattern kept alive doubts about Chrono Trigger's ability to survive stronger opponents later in the division.",
+    "headline": "Chrono Trigger advances while its daytime slide continues",
+    "tags": [
+      "underperformance",
+      "day-vote"
+    ]
+  },
+  {
+    "poll": 1638,
+    "contest": "SpC2K4",
+    "round": null,
+    "division": "Division 16",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Super Mario World crushed Sonic the Hedgehog 2 in a matchup many had expected to become the classic Mario-Sonic duel. The writeup treats the decisive result as proof that Mario World was a genuine threat to Chrono Trigger.",
+    "headline": "Mario World crushes Sonic and becomes a Chrono threat",
+    "tags": [
+      "rivalry",
+      "breakout-performance"
+    ]
+  },
+  {
+    "poll": 1639,
+    "contest": "SpC2K4",
+    "round": null,
+    "division": "Division 16",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "A Link to the Past demolished Super Metroid and delivered another startlingly strong Zelda result. The writeup says the margin transformed widespread Zelda confidence into genuine concern that the series might overwhelm the entire contest.",
+    "headline": "Link to the Past crushes Super Metroid and alarms rivals",
+    "tags": [
+      "zelda-dominance",
+      "underperformance"
+    ]
+  },
+  {
+    "poll": 1640,
+    "contest": "SpC2K4",
+    "round": null,
+    "division": "Division 16",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Final Fantasy VI handled Doom as expected, but the important story was how closely its apparent strength now matched Chrono Trigger and A Link to the Past. The writeup says the division had become a genuine multi-game race rather than the expected two-game collision.",
+    "headline": "Final Fantasy VI beats Doom and joins the divisional race",
+    "tags": [
+      "division-race",
+      "underestimated"
+    ]
+  },
+  {
+    "poll": 1641,
+    "contest": "SpC2K4",
+    "round": null,
+    "division": "Division 32-64",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Final Fantasy VII overwhelmed Xenogears in another routine step toward the expected Ocarina of Time showdown. The writeup treats the only real drama as measuring how convincingly the tournament favorite could dispatch familiar Square opposition.",
+    "headline": "Final Fantasy VII crushes Xenogears on its expected path",
+    "tags": [
+      "title-favorite"
+    ]
+  },
+  {
+    "poll": 1642,
+    "contest": "SpC2K4",
+    "round": null,
+    "division": "Division 32-64",
+    "voting_anomalies": [
+      "cheating_alleged"
+    ],
+    "anomaly_note": "The writeup calls Metal Gear Solid's late push suspicious, questions the credibility of the final result, and says the unexplained last-minute vote jump should have been investigated, while acknowledging there was no proof of cheating.",
+    "off_topic": false,
+    "narrative": "Metal Gear Solid and Final Fantasy Tactics traded tiny leads throughout an exceptionally tight match before Metal Gear Solid escaped at the end. The writeup considers the finish controversial because a large site advertisement and a suspicious late vote jump left the author unwilling to treat the result as fully credible.",
+    "headline": "Metal Gear Solid survives Tactics amid a disputed finish",
+    "tags": [
+      "close-match",
+      "record",
+      "controversy"
+    ]
+  },
+  {
+    "poll": 1643,
+    "contest": "SpC2K4",
+    "round": null,
+    "division": "Division 32-64",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "GoldenEye comfortably beat Symphony of the Night and ended the elaborate pre-match debate over that portion of the bracket. The writeup says Castlevania's earlier struggle with Perfect Dark had already revealed the mismatch and confirms GoldenEye as the clearly stronger property.",
+    "headline": "GoldenEye beats Castlevania and settles the overhyped triangle",
+    "tags": [
+      "board-hype"
+    ]
+  },
+  {
+    "poll": 1644,
+    "contest": "SpC2K4",
+    "round": null,
+    "division": "Division 32-64",
+    "voting_anomalies": [
+      "sff"
+    ],
+    "anomaly_note": "The writeup explicitly describes Ocarina of Time versus fellow Nintendo icon Super Mario 64 as a match riddled with SFF when comparing it with Final Fantasy VII's same-round result.",
+    "off_topic": false,
+    "narrative": "Ocarina of Time crushed the highly regarded Super Mario 64 and added another emphatic result to Zelda's unbeaten run. The writeup treats the same-fanbase matchup as evidence that Ocarina might be closer to Final Fantasy VII than earlier results had suggested.",
+    "headline": "Ocarina crushes Mario 64 in an SFF-heavy showdown",
+    "tags": [
+      "zelda-dominance",
+      "rivalry-hype"
+    ]
+  },
+  {
+    "poll": 1645,
+    "contest": "SpC2K4",
+    "round": null,
+    "division": "Division 128",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "StarCraft beat Kingdom Hearts from start to finish and proved that its Halo victory had not been a fluke. The writeup casts Kingdom Hearts as the contest's biggest disappointment and StarCraft as a fanbase that could no longer be dismissed as a novelty upset.",
+    "headline": "StarCraft beats Kingdom Hearts and validates its Cinderella run",
+    "tags": [
+      "upset",
+      "cinderella-run",
+      "underperformance"
+    ]
+  },
+  {
+    "poll": 1646,
+    "contest": "SpC2K4",
+    "round": null,
+    "division": "Division 128",
+    "voting_anomalies": [
+      "sff"
+    ],
+    "anomaly_note": "The writeup groups Wind Waker versus fellow Nintendo title Metroid Prime with the contest's other SFF matches while discussing its unusually weak turnout.",
+    "off_topic": false,
+    "narrative": "The Wind Waker beat Metroid Prime after the two Nintendo games stayed relatively close until the morning vote created separation. The writeup views the SFF matchup and weak turnout as further signs that Wind Waker was the vulnerable member of Zelda's otherwise dominant contest run.",
+    "headline": "Wind Waker beats Metroid Prime in a weak-turnout SFF match",
+    "tags": [
+      "zelda-dominance",
+      "underperformance"
+    ]
+  },
+  {
+    "poll": 1647,
+    "contest": "SpC2K4",
+    "round": null,
+    "division": "Division 128",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Final Fantasy X beat Tactics Advance as expected but again failed to deliver the dominant performance its supporters wanted. The writeup says the result deepened the sense that Division 128 had no trustworthy favorite.",
+    "headline": "Final Fantasy X advances but again fails to convince",
+    "tags": [
+      "underperformance",
+      "division-race"
+    ]
+  },
+  {
+    "poll": 1648,
+    "contest": "SpC2K4",
+    "round": null,
+    "division": "Division 128",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Super Smash Bros. Melee pulled away from Vice City after an early deadlock and survived another difficult matchup. The writeup gives Vice City credit but says the weak turnout and Melee's repeated struggles left the division without an obvious favorite.",
+    "headline": "Melee survives Vice City as the division stays unsettled",
+    "tags": [
+      "close-match",
+      "underperformance",
+      "division-race"
+    ]
+  },
+  {
+    "poll": 1649,
+    "contest": "SpC2K4",
+    "round": "Division 8 Semi Final",
+    "division": null,
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Super Mario Bros. 3 beat Final Fantasy but looked much less dominant than expected for the division's presumed favorite. The writeup argues that strong loyalty to the Final Fantasy name explains much of the resistance while leaving Mario's prospects against Zelda less secure.",
+    "headline": "Mario 3 survives Final Fantasy but looks vulnerable",
+    "tags": [
+      "underperformance",
+      "square-bias"
+    ]
+  }
+]

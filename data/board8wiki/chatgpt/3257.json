@@ -1,0 +1,803 @@
+[
+  {
+    "poll": 3257,
+    "contest": "CB VII",
+    "round": "Round One",
+    "division": "Division 4",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "The defending champion showed little sign of fading, and the writeup remembers its duel with Ryu as an excellent fight that the four-way format robbed of real stakes. Meta Knight's weak showing was the main disappointment.",
+    "headline": "L-Block outlasts Ryu in a low-stakes thriller",
+    "tags": [
+      "defending-champion",
+      "close-match"
+    ]
+  },
+  {
+    "poll": 3258,
+    "contest": "CB VII",
+    "round": "Round One",
+    "division": "Division 4",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Alucard advanced as expected, but Captain Falcon's strong showing overturned his reputation as perennial fodder and sent him through as well. Diddy Kong's failure was the sharper disappointment.",
+    "headline": "Captain Falcon finally breaks through behind Alucard",
+    "tags": [
+      "upset",
+      "breakout-performance"
+    ]
+  },
+  {
+    "poll": 3259,
+    "contest": "CB VII",
+    "round": "Round One",
+    "division": "Division 4",
+    "voting_anomalies": [
+      "lff"
+    ],
+    "anomaly_note": "The writeup says Pikachu's overlapping Nintendo and Smash support put Ike in a bad LFF situation, helping Arthas take the other advancing spot.",
+    "off_topic": false,
+    "narrative": "Pikachu took control while Arthas converted a favorable draw into a surprising advancement. The result also punctured another piece of the pre-contest Brawl hype surrounding Ike.",
+    "headline": "Arthas advances as Pikachu's presence hurts Ike",
+    "tags": [
+      "upset",
+      "brawl-overhype"
+    ]
+  },
+  {
+    "poll": 3260,
+    "contest": "CB VII",
+    "round": "Round One",
+    "division": "Division 5",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Weighted Companion Cube turned a heavily debated Tidus-Donkey Kong match into another joke-character success, while Tidus narrowly secured the other advancing position. Donkey Kong's failure added another chapter to his contest reputation for disappointing.",
+    "headline": "The Cube advances while Donkey Kong disappoints again",
+    "tags": [
+      "upset",
+      "joke-character",
+      "close-match"
+    ]
+  },
+  {
+    "poll": 3261,
+    "contest": "CB VII",
+    "round": "Round One",
+    "division": "Division 5",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Mega Man and Nero advanced in a match the writeup considered almost completely predetermined. The only real takeaway was how little the Brawl-backed Nintendo fodder could do.",
+    "headline": "Mega Man and Nero cruise through a predictable fourpack",
+    "tags": [
+      "brawl-overhype"
+    ]
+  },
+  {
+    "poll": 3262,
+    "contest": "CB VII",
+    "round": "Round One",
+    "division": "Division 5",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Ryu Hayabusa and Zero were always the serious contenders, but Ryu's ability to take first made the match more interesting than expected. Dedede and Pit reinforced the writeup's view that Brawl alone could not manufacture contest strength.",
+    "headline": "Ryu edges Zero as more Brawl hype fizzles",
+    "tags": [
+      "close-match",
+      "brawl-overhype"
+    ]
+  },
+  {
+    "poll": 3263,
+    "contest": "CB VII",
+    "round": "Round One",
+    "division": "Division 5",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Snake and Vivi advanced exactly as the writeup expected, with little genuine suspense. Snake's strong showing was more notable than the order of finish and fed expectations for a major run.",
+    "headline": "Snake dominates another straightforward first-round match",
+    "tags": [
+      "statement-win"
+    ]
+  },
+  {
+    "poll": 3264,
+    "contest": "CB VII",
+    "round": "Round One",
+    "division": "Division 6",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Sora and Fox produced the expected advancing pair in a match without meaningful swings. Chris Redfield did better than his prior contest reputation suggested, but never threatened the leaders.",
+    "headline": "Sora and Fox advance without any real drama",
+    "tags": [
+      "underperformance-reversal"
+    ]
+  },
+  {
+    "poll": 3265,
+    "contest": "CB VII",
+    "round": "Round One",
+    "division": "Division 6",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Squall overwhelmed a Yoshi who had been expected to remain much closer, continuing Squall's unusually strong multiway form. The writeup treats Yoshi's performance as the real shock.",
+    "headline": "Squall crushes Yoshi far harder than expected",
+    "tags": [
+      "statement-win",
+      "underperformance"
+    ]
+  },
+  {
+    "poll": 3266,
+    "contest": "CB VII",
+    "round": "Round One",
+    "division": "Division 6",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Cloud and Midna advanced in another first-round match the writeup regarded as essentially decided before it began. Edgeworth and Axel never generated the upset or novelty support needed to matter.",
+    "headline": "Cloud and Midna dispatch an overmatched field",
+    "tags": []
+  },
+  {
+    "poll": 3267,
+    "contest": "CB VII",
+    "round": "Round One",
+    "division": "Division 6",
+    "voting_anomalies": [
+      "sff"
+    ],
+    "anomaly_note": "The writeup explicitly says Mewtwo SFFed Ness badly, leaving Ness far weaker than expected and opening the second advancing spot for Pac-Man.",
+    "off_topic": false,
+    "narrative": "Mewtwo erased the embarrassment of his earlier contest debut with an emphatic performance. Ness collapsed against the stronger Nintendo presence, allowing Pac-Man to advance instead.",
+    "headline": "Mewtwo crushes Ness and sends Pac-Man through",
+    "tags": [
+      "statement-win",
+      "underperformance"
+    ]
+  },
+  {
+    "poll": 3268,
+    "contest": "CB VII",
+    "round": "Round One",
+    "division": "Division 7",
+    "voting_anomalies": [
+      "lff"
+    ],
+    "anomaly_note": "The writeup says Jinjo and Lucas hurt Kirby by splitting Nintendo support, though it also stresses that this alone cannot explain the scale of Big Boss's upset.",
+    "off_topic": false,
+    "narrative": "Big Boss delivered a result the writeup remembers as almost unimaginable at the time, beating a heavily favored Kirby outright. The upset immediately turned Big Boss into one of the contest's biggest talking points.",
+    "headline": "Big Boss stuns Kirby in a massive opening-round upset",
+    "tags": [
+      "upset",
+      "breakout-performance",
+      "statement-win"
+    ]
+  },
+  {
+    "poll": 3269,
+    "contest": "CB VII",
+    "round": "Round One",
+    "division": "Division 7",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Master Chief and Raiden advanced as expected, but Chief looked much less imposing than during his celebrated previous run. The writeup treats that decline as the match's main warning sign.",
+    "headline": "Master Chief advances but loses his previous year's aura",
+    "tags": [
+      "underperformance",
+      "warning-sign"
+    ]
+  },
+  {
+    "poll": 3270,
+    "contest": "CB VII",
+    "round": "Round One",
+    "division": "Division 7",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Leon and Riku advanced in the expected order, with none of the feared choke or upset scenarios materializing. The writeup treats it as another largely forgettable first-round result.",
+    "headline": "Leon and Riku advance through a routine opener",
+    "tags": []
+  },
+  {
+    "poll": 3271,
+    "contest": "CB VII",
+    "round": "Round One",
+    "division": "Division 7",
+    "voting_anomalies": [
+      "rally"
+    ],
+    "anomaly_note": "The writeup explicitly says Hogger drew an Internet rally during the day, turning a deficit into a lead and ultimately denying Ramza the advancing spot.",
+    "off_topic": false,
+    "narrative": "Dante was never threatened, but the fight behind him became a three-way scramble in which Hogger surged past Ramza and Laharl. The result became an early signature moment for Ramza's reputation as a contest choker.",
+    "headline": "Hogger's rally steals second from a collapsing Ramza",
+    "tags": [
+      "upset",
+      "comeback",
+      "ramza-choke"
+    ]
+  },
+  {
+    "poll": 3272,
+    "contest": "CB VII",
+    "round": "Round One",
+    "division": "Division 8",
+    "voting_anomalies": [
+      "rally"
+    ],
+    "anomaly_note": "The writeup says Sandbag's comeback went beyond a normal daytime trend and identifies a rally as the reason the joke entrant surged past Magus.",
+    "off_topic": false,
+    "narrative": "Sonic won comfortably, but Sandbag's comeback against Magus supplied the real drama. The upset confirmed both Magus's long-running reputation for disappointing and the continuing power of joke entrants.",
+    "headline": "Sandbag rallies past Magus for a major joke upset",
+    "tags": [
+      "upset",
+      "comeback",
+      "joke-character"
+    ]
+  },
+  {
+    "poll": 3273,
+    "contest": "CB VII",
+    "round": "Round One",
+    "division": "Division 8",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Auron and Sub-Zero advanced in the expected order, leaving little suspense at the top. Marcus Fenix's collapse after his prior deep run was the main story and effectively ended his relevance to later contests.",
+    "headline": "Auron cruises as Marcus Fenix falls back to earth",
+    "tags": [
+      "underperformance"
+    ]
+  },
+  {
+    "poll": 3274,
+    "contest": "CB VII",
+    "round": "Round One",
+    "division": "Division 8",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Sephiroth and Tifa advanced as expected, but Tifa held up far better against Sephiroth than many feared. The writeup treats that resistance as an encouraging sign rather than a true upset story.",
+    "headline": "Tifa withstands Sephiroth better than expected",
+    "tags": [
+      "statement-win"
+    ]
+  },
+  {
+    "poll": 3275,
+    "contest": "CB VII",
+    "round": "Round One",
+    "division": "Division 8",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Kratos advanced comfortably, while Jill reversed the prior year's result against Ocelot and took the other spot. Ocelot's failure to capitalize on fresh Metal Gear momentum made him the match's major disappointment.",
+    "headline": "Jill reverses Ocelot as Metal Gear hype falls flat",
+    "tags": [
+      "upset",
+      "underperformance"
+    ]
+  },
+  {
+    "poll": 3276,
+    "contest": "CB VII",
+    "round": "Division 1 Semi Final",
+    "division": null,
+    "voting_anomalies": [
+      "sff"
+    ],
+    "anomaly_note": "The writeup says Link SFFed Wario into irrelevance, leaving the meaningful race to Zack and Zidane.",
+    "off_topic": false,
+    "narrative": "Link dominated, but the match is remembered as the real beginning of ZackFAQs. Zack's convincing advancement transformed him from a promising newcomer into one of the contest's central bandwagon stories.",
+    "headline": "ZackFAQs takes off behind another dominant Link win",
+    "tags": [
+      "zackfaqs",
+      "bandwagon",
+      "breakout-performance"
+    ]
+  },
+  {
+    "poll": 3277,
+    "contest": "CB VII",
+    "round": "Division 1 Semi Final",
+    "division": null,
+    "voting_anomalies": [
+      "lff"
+    ],
+    "anomaly_note": "The writeup says Lucario's presence badly hurt fellow Nintendo entrant Marth, helping outside contenders Duke and Altair take the advancing positions.",
+    "off_topic": false,
+    "narrative": "Duke and Altair emerged from a chaotic matchup that punished Marth and further damaged the pre-contest Brawl narrative. Duke's unlikely run continued while Lucario confirmed his disappointing debut.",
+    "headline": "Duke and Altair advance as Marth gets squeezed out",
+    "tags": [
+      "upset",
+      "brawl-overhype",
+      "format-effect"
+    ]
+  },
+  {
+    "poll": 3278,
+    "contest": "CB VII",
+    "round": "Division 2 Semi Final",
+    "division": null,
+    "voting_anomalies": [
+      "lff"
+    ],
+    "anomaly_note": "The writeup says the Nintendo-oriented support was split among Luigi, Bowser and Phoenix, allowing Liquid Snake to benefit as the outside option.",
+    "off_topic": false,
+    "narrative": "Liquid took advantage of a badly divided field to win, while Luigi survived for the other advancing spot and Bowser fell out. The writeup uses the result as another example of four-way fanbase splitting producing strange outcomes.",
+    "headline": "Nintendo vote splitting sends Liquid to first",
+    "tags": [
+      "upset",
+      "format-effect"
+    ]
+  },
+  {
+    "poll": 3279,
+    "contest": "CB VII",
+    "round": "Division 2 Semi Final",
+    "division": null,
+    "voting_anomalies": [
+      "sff"
+    ],
+    "anomaly_note": "The writeup characterizes the all-Nintendo field as a heavily leeched matchup and describes Zelda's elimination as another result shaped by overlapping support.",
+    "off_topic": false,
+    "narrative": "Mega Man X seriously challenged Mario for first before Mario's morning surge reversed the race. Zelda narrowly escaped last place but was eliminated, while Mudkip's inability to reproduce a joke run made the match a turning point for bandwagon expectations.",
+    "headline": "Mario survives Mega Man X as Mudkip's joke run fades",
+    "tags": [
+      "close-match",
+      "format-effect",
+      "warning-sign"
+    ]
+  },
+  {
+    "poll": 3280,
+    "contest": "CB VII",
+    "round": "Division 3 Semi Final",
+    "division": null,
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Samus and Ganondorf advanced through what the writeup openly calls a rest-break match. Frog's old upset magic never appeared, and the result remained straightforward throughout.",
+    "headline": "Samus and Ganondorf provide a quiet rest break",
+    "tags": []
+  },
+  {
+    "poll": 3281,
+    "contest": "CB VII",
+    "round": "Division 3 Semi Final",
+    "division": null,
+    "voting_anomalies": [
+      "pic_factor"
+    ],
+    "anomaly_note": "The writeup says Scorpion's poor match picture was not the sole reason he lost, but explicitly states that it hurt his chances against Gordon Freeman.",
+    "off_topic": false,
+    "narrative": "Vincent advanced comfortably, while Gordon Freeman completed another major step in his reversal of the old GFNW reputation by beating Scorpion for the second spot. Falco never became a serious factor.",
+    "headline": "Gordon shocks Scorpion and keeps the GFNW reversal going",
+    "tags": [
+      "upset",
+      "gfnw"
+    ]
+  },
+  {
+    "poll": 3282,
+    "contest": "CB VII",
+    "round": "Division 4 Semi Final",
+    "division": null,
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Crono and L-Block advanced in a much quieter sequel to L-Block's chaotic opening match. The defending champion looked strikingly ordinary, creating the first real sense that the repeat bid might be beatable.",
+    "headline": "L-Block advances but finally looks vulnerable",
+    "tags": [
+      "l-block",
+      "warning-sign"
+    ]
+  },
+  {
+    "poll": 3283,
+    "contest": "CB VII",
+    "round": "Division 4 Semi Final",
+    "division": null,
+    "voting_anomalies": [
+      "lff"
+    ],
+    "anomaly_note": "The writeup says Captain Falcon's overlapping Nintendo support held Pikachu down, helping turn Pikachu's fight with Alucard into a much closer race than their standalone strength suggested.",
+    "off_topic": false,
+    "narrative": "Pikachu and Alucard advanced after an unexpectedly fierce battle for first that swung repeatedly across the day. The writeup treats the duel as another good match diminished by the top-two-advance format.",
+    "headline": "Pikachu finally escapes a stubborn Alucard challenge",
+    "tags": [
+      "close-match",
+      "pokemon-rise"
+    ]
+  },
+  {
+    "poll": 3284,
+    "contest": "CB VII",
+    "round": "Division 5 Semi Final",
+    "division": null,
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Mega Man and Weighted Companion Cube advanced in an anticlimactic match whose outcome settled almost immediately. The Cube now looked less like a volatile joke rally and more like a stable, legitimately dangerous entrant.",
+    "headline": "The Cube advances again without needing any chaos",
+    "tags": [
+      "joke-character",
+      "statement-win"
+    ]
+  },
+  {
+    "poll": 3285,
+    "contest": "CB VII",
+    "round": "Division 5 Semi Final",
+    "division": null,
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Snake delivered another statement performance, while Zero and Vivi fought a much more entertaining battle for the second advancing spot. Zero survived, but Vivi's late resistance made the race memorable.",
+    "headline": "Snake dominates while Zero survives Vivi's late push",
+    "tags": [
+      "statement-win",
+      "close-match"
+    ]
+  },
+  {
+    "poll": 3286,
+    "contest": "CB VII",
+    "round": "Division 6 Semi Final",
+    "division": null,
+    "voting_anomalies": [
+      "lff"
+    ],
+    "anomaly_note": "The writeup says Fox's presence hurt fellow Nintendo entrant Yoshi, while Sora remained largely independent of Squall and benefited from the contrast.",
+    "off_topic": false,
+    "narrative": "Squall and Sora advanced together yet again, while Yoshi collapsed far more badly than expected. The result reinforced the strange independence of the Squall-Sora pairing and exposed Yoshi's vulnerability in the field.",
+    "headline": "Fox's presence helps Sora leave Yoshi behind",
+    "tags": [
+      "underperformance",
+      "strength-debate"
+    ]
+  },
+  {
+    "poll": 3287,
+    "contest": "CB VII",
+    "round": "Division 6 Semi Final",
+    "division": null,
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Cloud overwhelmed the field, while Mewtwo held off Midna for the other advancing position without the race ever becoming the epic duel its closeness suggested. The writeup sees Cloud's dominance as the larger statement.",
+    "headline": "Cloud dominates while Mewtwo quietly survives Midna",
+    "tags": [
+      "statement-win",
+      "close-match"
+    ]
+  },
+  {
+    "poll": 3288,
+    "contest": "CB VII",
+    "round": "Division 7 Semi Final",
+    "division": null,
+    "voting_anomalies": [
+      "rally",
+      "lff"
+    ],
+    "anomaly_note": "The writeup says Master Chief's fans rallied hard enough to erase Big Boss's lead and secure advancement. It also says Raiden's near-total Metal Gear overlap drained support from Big Boss.",
+    "off_topic": false,
+    "narrative": "Kirby advanced, but the real battle was Master Chief's comeback against Big Boss. Chief's late surge turned a long, competitive fight into another memorable rally-driven reversal.",
+    "headline": "Master Chief rallies past Big Boss for second",
+    "tags": [
+      "comeback",
+      "close-match"
+    ]
+  },
+  {
+    "poll": 3289,
+    "contest": "CB VII",
+    "round": "Division 7 Semi Final",
+    "division": null,
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Dante and Leon advanced in the same order their prior meetings suggested, despite a brief burst of early excitement. Riku and Hogger never developed the upset or bandwagon threat some had imagined.",
+    "headline": "Dante and Leon restore order after a lively start",
+    "tags": []
+  },
+  {
+    "poll": 3290,
+    "contest": "CB VII",
+    "round": "Division 8 Semi Final",
+    "division": null,
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Auron decisively beat Sonic in one of the contest's most shocking strength results, even though the format still allowed Sonic to advance. The writeup treats the performance as a genuine breach in the Noble Nine's aura.",
+    "headline": "Auron stuns Sonic and exposes a Noble Nine weakness",
+    "tags": [
+      "upset",
+      "noble-nine-break",
+      "statement-win"
+    ]
+  },
+  {
+    "poll": 3291,
+    "contest": "CB VII",
+    "round": "Division 8 Semi Final",
+    "division": null,
+    "voting_anomalies": [
+      "sff"
+    ],
+    "anomaly_note": "The writeup says Sephiroth's shared Final Fantasy support suppressed Tifa, allowing Kratos to take advantage and claim the other advancing spot.",
+    "off_topic": false,
+    "narrative": "Sephiroth took first as expected, while Kratos again benefited from a field that disadvantaged one of his stronger rivals. Tifa's elimination made the fanbase dynamics more important than the nominal matchup strength.",
+    "headline": "Sephiroth suppresses Tifa and opens the door for Kratos",
+    "tags": [
+      "format-effect"
+    ]
+  },
+  {
+    "poll": 3292,
+    "contest": "CB VII",
+    "round": "Division 1 Final",
+    "division": null,
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Link continued his dominant run, but Zack became the emotional center of the match by advancing again and driving the ZackFAQs bandwagon deeper into the bracket. Duke and Altair exited with respectable runs of their own.",
+    "headline": "ZackFAQs surges onward behind an unstoppable Link",
+    "tags": [
+      "zackfaqs",
+      "bandwagon",
+      "star-of-contest"
+    ]
+  },
+  {
+    "poll": 3293,
+    "contest": "CB VII",
+    "round": "Division 2 Final",
+    "division": null,
+    "voting_anomalies": [
+      "sff"
+    ],
+    "anomaly_note": "The writeup says Mario directly SFFed Luigi, leaving his brother far weaker than his standalone strength and clearing the way for Mega Man X to advance.",
+    "off_topic": false,
+    "narrative": "Mario and Mega Man X advanced after an early fight that briefly made another Mario upset look possible. Luigi's collapse under Mario's presence removed the feared family interference and left Liquid out as well.",
+    "headline": "Mario suppresses Luigi while Mega Man X advances",
+    "tags": [
+      "close-match",
+      "statement-win"
+    ]
+  },
+  {
+    "poll": 3294,
+    "contest": "CB VII",
+    "round": "Division 3 Final",
+    "division": null,
+    "voting_anomalies": [
+      "sff",
+      "lff"
+    ],
+    "anomaly_note": "The writeup describes Ganondorf as heavily suppressed by Samus through their shared Nintendo support. It also says Ganondorf's presence drained Samus enough to tighten her comparison with outside contender Vincent.",
+    "off_topic": false,
+    "narrative": "Samus and Vincent advanced as expected, but Ganondorf collapsed so badly that Gordon Freeman escaped last place. The writeup treats the fanbase interaction as the defining feature of an otherwise predictable divisional final.",
+    "headline": "Nintendo overlap buries Ganondorf while Samus advances",
+    "tags": [
+      "underperformance",
+      "gfnw"
+    ]
+  },
+  {
+    "poll": 3295,
+    "contest": "CB VII",
+    "round": "Division 4 Final",
+    "division": null,
+    "voting_anomalies": [
+      "sff"
+    ],
+    "anomaly_note": "The writeup explicitly says Crono SFFed Alucard into the floor, leaving the real advancing fight to Pikachu and L-Block.",
+    "off_topic": false,
+    "narrative": "Pikachu finally ended L-Block's title defense after a tense early struggle, marking a major shift in both joke-character expectations and Pokémon's standing on the site. Crono advanced comfortably alongside him.",
+    "headline": "Pikachu ends L-Block's reign and changes Pokémon's image",
+    "tags": [
+      "upset",
+      "l-block",
+      "pokemon-rise"
+    ]
+  },
+  {
+    "poll": 3296,
+    "contest": "CB VII",
+    "round": "Division 5 Final",
+    "division": null,
+    "voting_anomalies": [
+      "rally"
+    ],
+    "anomaly_note": "The writeup explicitly says Weighted Companion Cube rallied during its fight with Mega Man, producing the decisive swing that carried the Cube into the next round.",
+    "off_topic": false,
+    "narrative": "Snake controlled the match, while Mega Man and Weighted Companion Cube fought for the other advancing spot. The Cube's late surge completed another inanimate-object upset and ended Mega Man's run.",
+    "headline": "The Cube rallies past Mega Man for another upset",
+    "tags": [
+      "upset",
+      "joke-character",
+      "comeback"
+    ]
+  },
+  {
+    "poll": 3297,
+    "contest": "CB VII",
+    "round": "Division 6 Final",
+    "division": null,
+    "voting_anomalies": [
+      "sff"
+    ],
+    "anomaly_note": "The writeup says Cloud's presence created massive Square SFF against Squall and Sora, allowing outside entrant Mewtwo to capitalize and advance.",
+    "off_topic": false,
+    "narrative": "Cloud dominated, while Mewtwo turned a seemingly unfavorable draw into one of the contest's largest surprises. Squall and Sora were left fighting each other for scraps behind the advancing pair.",
+    "headline": "Cloud's Square suppression sends Mewtwo into the quarterfinals",
+    "tags": [
+      "upset",
+      "format-effect",
+      "pokemon-rise"
+    ]
+  },
+  {
+    "poll": 3298,
+    "contest": "CB VII",
+    "round": "Division 7 Final",
+    "division": null,
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Kirby continued his unexpected run by taking first, while Dante beat Master Chief in the meaningful fight for the other advancing position. The writeup remembers the match as a fun clash of very different contest identities.",
+    "headline": "Kirby keeps rolling while Dante eliminates Master Chief",
+    "tags": [
+      "upset",
+      "close-match"
+    ]
+  },
+  {
+    "poll": 3299,
+    "contest": "CB VII",
+    "round": "Division 8 Final",
+    "division": null,
+    "voting_anomalies": [
+      "sff"
+    ],
+    "anomaly_note": "The writeup says Sephiroth SFFed fellow Final Fantasy entrant Auron badly, preventing Auron from reproducing his prior win over Sonic.",
+    "off_topic": false,
+    "narrative": "Sephiroth and Sonic advanced in a match the writeup considered essentially predetermined once Auron shared the field with Sephiroth. Sonic's solid showing quieted some of the criticism generated by his earlier loss.",
+    "headline": "Sephiroth suppresses Auron as Sonic safely advances",
+    "tags": [
+      "statement-win"
+    ]
+  },
+  {
+    "poll": 3300,
+    "contest": "CB VII",
+    "round": "Quarter Final",
+    "division": null,
+    "voting_anomalies": [
+      "sff"
+    ],
+    "anomaly_note": "The writeup says Link SFFed both Mario and Mega Man X, with Mega Man X falling to a distant position after initially challenging Mario.",
+    "off_topic": false,
+    "narrative": "Link remained untouchable, while Zack made a dramatic but ultimately unsuccessful attempt to steal the other advancing spot from Mario. The loss ended one of the contest's most popular bandwagon runs.",
+    "headline": "Mario survives ZackFAQs under Link's crushing shadow",
+    "tags": [
+      "zackfaqs",
+      "close-match",
+      "elimination"
+    ]
+  },
+  {
+    "poll": 3301,
+    "contest": "CB VII",
+    "round": "Quarter Final",
+    "division": null,
+    "voting_anomalies": [
+      "rally"
+    ],
+    "anomaly_note": "The writeup says Board 8 rallied intensely for Crono late in the match, turning the final fight with Vincent into a successful comeback for the advancing spot.",
+    "off_topic": false,
+    "narrative": "The writeup treats Crono versus Vincent as the emotional centerpiece of the contest, built on years of Crono near-misses and frustration. Crono's late comeback finally reversed their previous result and completed the redemption story.",
+    "headline": "Board 8 rallies Crono through his long-awaited redemption",
+    "tags": [
+      "redemption",
+      "match-of-contest",
+      "comeback"
+    ]
+  },
+  {
+    "poll": 3302,
+    "contest": "CB VII",
+    "round": "Quarter Final",
+    "division": null,
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Cloud and Snake advanced through a deliberately uneventful quarterfinal after the drama of the prior match. The Cube's quiet exit confirmed that the inanimate-object wave had largely run out of steam.",
+    "headline": "Cloud and Snake advance as the Cube fades quietly",
+    "tags": [
+      "joke-character",
+      "warning-sign"
+    ]
+  },
+  {
+    "poll": 3303,
+    "contest": "CB VII",
+    "round": "Quarter Final",
+    "division": null,
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Kirby delivered another major shock by advancing ahead of Sonic, whose long decline finally produced a costly elimination. The writeup treats Sonic's failure as the culmination of years of warning signs rather than a random fluke.",
+    "headline": "Kirby eliminates Sonic after years of warning signs",
+    "tags": [
+      "upset",
+      "noble-nine-break",
+      "underperformance"
+    ]
+  },
+  {
+    "poll": 3304,
+    "contest": "CB VII",
+    "round": "Semi Final",
+    "division": null,
+    "voting_anomalies": [
+      "lff"
+    ],
+    "anomaly_note": "The writeup says Link and Samus drained Nintendo support from Mario, allowing outside entrant Crono to beat Mario comfortably for the other final berth.",
+    "off_topic": false,
+    "narrative": "Link took the expected first position, while Crono finally reached a true contest final by reversing his old rivalry with Mario. The writeup frames it as the payoff to Crono's long redemption arc.",
+    "headline": "Nintendo vote drain carries Crono past Mario into the final",
+    "tags": [
+      "redemption",
+      "format-effect"
+    ]
+  },
+  {
+    "poll": 3305,
+    "contest": "CB VII",
+    "round": "Semi Final",
+    "division": null,
+    "voting_anomalies": [
+      "sff",
+      "lff"
+    ],
+    "anomaly_note": "The writeup says Kirby SFFed Sephiroth badly, leaving Sephiroth unusually weak. It also says Sephiroth leeched enough Final Fantasy support from Cloud to keep Cloud from catching outside contender Snake.",
+    "off_topic": false,
+    "narrative": "Snake converted the divided field into a surprise first-place finish, while Cloud recovered enough to secure the other final berth. Sephiroth's collapse and Kirby's early pressure made the semifinal far stranger than expected.",
+    "headline": "Snake exploits the split field and beats Cloud",
+    "tags": [
+      "upset",
+      "statement-win",
+      "close-match"
+    ]
+  },
+  {
+    "poll": 3306,
+    "contest": "CB VII",
+    "round": "Tournament Final",
+    "division": null,
+    "voting_anomalies": [
+      "rally"
+    ],
+    "anomaly_note": "The writeup describes Solid Snake as the contest's biggest rallied bandwagon, saying his accumulated support carried him to a shocking second-place finish in the championship.",
+    "off_topic": false,
+    "narrative": "Link completed his revenge tour and reclaimed the championship, but Snake supplied the final surprise by finishing ahead of Cloud. The writeup treats Snake's run as the culmination of years of gradual growth and one of the contest's defining stories.",
+    "headline": "Link reclaims the crown while Snake completes his bandwagon run",
+    "tags": [
+      "champion",
+      "snake-bandwagon",
+      "redemption"
+    ]
+  }
+]

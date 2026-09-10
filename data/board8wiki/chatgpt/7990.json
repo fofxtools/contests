@@ -1,0 +1,827 @@
+[
+  {
+    "poll": 7990,
+    "contest": "GOTD 2",
+    "round": "Round Two",
+    "division": "Division 3",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Super Mario Odyssey demolished Devil May Cry 5 and continued to look stronger than Smash Ultimate through the early rounds. The writeup treats the result as another major boost to Odyssey's divisional hype.",
+    "headline": "Odyssey crushes Devil May Cry and keeps gaining hype",
+    "tags": [
+      "statement-win",
+      "odyssey-hype"
+    ]
+  },
+  {
+    "poll": 7991,
+    "contest": "GOTD 2",
+    "round": "Round Two",
+    "division": "Division 4",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Grand Theft Auto V quickly erased the much-hyped Cuphead upset scenario and controlled the match throughout. The writeup treats GTA V as clearly stronger than the rest of its historically weak contest franchise.",
+    "headline": "GTA V crushes the Cuphead upset hype",
+    "tags": [
+      "statement-win",
+      "casual-strength"
+    ]
+  },
+  {
+    "poll": 7992,
+    "contest": "GOTD 2",
+    "round": "Round Two",
+    "division": "Division 4",
+    "voting_anomalies": [
+      "rally"
+    ],
+    "anomaly_note": "The writeup says Persona 4 Golden received repeated Reddit and Board 8 rally support, plus some rally spillover, and argues that the outside help likely made the difference in its narrow win.",
+    "off_topic": false,
+    "narrative": "Persona 4 Golden led from the start but repeatedly needed outside support to repel Red Dead Redemption's pushes. The final score was close even though Red Dead never actually took the lead.",
+    "headline": "Persona 4 Golden rallies past Red Dead Redemption",
+    "tags": [
+      "close-match",
+      "persona-run",
+      "rally"
+    ]
+  },
+  {
+    "poll": 7993,
+    "contest": "GOTD 2",
+    "round": "Round Two",
+    "division": "Division 4",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Xenoblade Chronicles destroyed Overwatch and proved its first-round blowout was not merely a favorable same-fanbase matchup. The result established Xenoblade as the new favorite to win the division.",
+    "headline": "Xenoblade crushes Overwatch and seizes the division",
+    "tags": [
+      "statement-win",
+      "xenoblade-run",
+      "division-favorite"
+    ]
+  },
+  {
+    "poll": 7994,
+    "contest": "GOTD 2",
+    "round": "Round Two",
+    "division": "Division 4",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Fire Emblem: Three Houses beat Ori but again looked much weaker than expected. Combined with Xenoblade's simultaneous dominance, the result badly damaged Three Houses' status as the presumed division favorite.",
+    "headline": "Three Houses wins but loses its favorite status",
+    "tags": [
+      "underperformance",
+      "warning-sign",
+      "fire-emblem"
+    ]
+  },
+  {
+    "poll": 7995,
+    "contest": "GOTD 2",
+    "round": "Round Two",
+    "division": "Division 5",
+    "voting_anomalies": [
+      "sff"
+    ],
+    "anomaly_note": "The writeup says The Witcher 3 suppressed Mass Effect 3 through what became known as Western SFF, with their overlapping Western RPG audience making the blowout even larger.",
+    "off_topic": false,
+    "narrative": "The Witcher 3 obliterated Mass Effect 3 and looked increasingly untouchable in the lower half of the bracket. The writeup treats the scale of the rout as partly fanbase suppression and partly genuine elite strength.",
+    "headline": "Witcher 3 SFFs Mass Effect 3 into oblivion",
+    "tags": [
+      "statement-win",
+      "western-sff",
+      "title-hype"
+    ]
+  },
+  {
+    "poll": 7996,
+    "contest": "GOTD 2",
+    "round": "Round Two",
+    "division": "Division 5",
+    "voting_anomalies": [
+      "rally"
+    ],
+    "anomaly_note": "The writeup says rally traffic from the simultaneous match disproportionately boosted Stardew Valley and reduced Super Mario Galaxy 2's final margin.",
+    "off_topic": false,
+    "narrative": "Super Mario Galaxy 2 still won comfortably despite rally spillover helping Stardew Valley. The writeup treats both games as respectable while acknowledging that Galaxy 2's next Witcher matchup looked grim.",
+    "headline": "Galaxy 2 wins despite Stardew rally spillover",
+    "tags": [
+      "rally-spillover",
+      "statement-win"
+    ]
+  },
+  {
+    "poll": 7997,
+    "contest": "GOTD 2",
+    "round": "Round Two",
+    "division": "Division 5",
+    "voting_anomalies": [
+      "rally"
+    ],
+    "anomaly_note": "The writeup says both Dark Souls III and Fallout: New Vegas received organized rally support, with the New Vegas subreddit push ultimately proving much stronger.",
+    "off_topic": false,
+    "narrative": "Fallout: New Vegas beat Dark Souls III in a debated matchup where both sides attracted outside support. The stronger New Vegas rally helped preserve a result that still broadly matched pre-match expectations.",
+    "headline": "New Vegas wins a two-sided rally battle",
+    "tags": [
+      "rally",
+      "close-match",
+      "fallout"
+    ]
+  },
+  {
+    "poll": 7998,
+    "contest": "GOTD 2",
+    "round": "Round Two",
+    "division": "Division 5",
+    "voting_anomalies": [
+      "sff"
+    ],
+    "anomaly_note": "The writeup says Nioh was probably suppressed to some extent by God of War because both games appealed to overlapping PlayStation action audiences.",
+    "off_topic": false,
+    "narrative": "God of War demolished Nioh and continued to look strong enough for a deep run. The writeup sees some fanbase overlap in the rout but still considers God of War's underlying performance impressive.",
+    "headline": "God of War crushes a partially SFFed Nioh",
+    "tags": [
+      "statement-win",
+      "god-of-war",
+      "playstation-overlap"
+    ]
+  },
+  {
+    "poll": 7999,
+    "contest": "GOTD 2",
+    "round": "Round Two",
+    "division": "Division 6",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Persona 5 demolished Assassin's Creed IV and reinforced the series' emergence as a mainstream GameFAQs force. The result also made Witcher 3's earlier Assassin's Creed rout look less uniquely informative.",
+    "headline": "Persona 5 crushes Black Flag and looks mainstream",
+    "tags": [
+      "statement-win",
+      "persona-strength"
+    ]
+  },
+  {
+    "poll": 8000,
+    "contest": "GOTD 2",
+    "round": "Round Two",
+    "division": "Division 6",
+    "voting_anomalies": [
+      "sff"
+    ],
+    "anomaly_note": "The writeup explicitly calls Sonic Mania versus Super Meat Boy an SFF match, arguing that the two platformers share enough audience for Sonic to suppress the indie game.",
+    "off_topic": false,
+    "narrative": "Sonic Mania unexpectedly routed Super Meat Boy in what had been treated as a close matchup. The writeup attributes part of the blowout to overlapping platformer support.",
+    "headline": "Sonic Mania SFFs Super Meat Boy in a rout",
+    "tags": [
+      "statement-win",
+      "sonic-rebound",
+      "platformer-overlap"
+    ]
+  },
+  {
+    "poll": 8001,
+    "contest": "GOTD 2",
+    "round": "Round Two",
+    "division": "Division 6",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Portal 2 demolished Kingdom Hearts III and ended one of the more popular second-round upset picks. The writeup treats Kingdom Hearts III's disappointing reception as a major reason the series failed to retain its old strength.",
+    "headline": "Portal 2 crushes Kingdom Hearts III",
+    "tags": [
+      "statement-win",
+      "kingdom-hearts-decline"
+    ]
+  },
+  {
+    "poll": 8002,
+    "contest": "GOTD 2",
+    "round": "Round Two",
+    "division": "Division 6",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Red Dead Redemption 2 comfortably beat Animal Crossing: New Leaf despite New Horizons hype giving the older Animal Crossing entry a theoretical boost. The match confirmed that RDR2 remained respectable even on a site hostile to Rockstar.",
+    "headline": "Red Dead Redemption 2 handles Animal Crossing",
+    "tags": [
+      "statement-win",
+      "new-horizons-boost"
+    ]
+  },
+  {
+    "poll": 8003,
+    "contest": "GOTD 2",
+    "round": "Round Two",
+    "division": "Division 7",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Dark Souls obliterated Rocket League and moved from strong contender to serious semifinal threat. The writeup treats the result as another clear sign that Souls had gained enormous respect since the prior games contest.",
+    "headline": "Dark Souls crushes Rocket League and looks dangerous",
+    "tags": [
+      "statement-win",
+      "souls-rise",
+      "title-hype"
+    ]
+  },
+  {
+    "poll": 8004,
+    "contest": "GOTD 2",
+    "round": "Round Two",
+    "division": "Division 7",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Metal Gear Solid V beat Yakuza 0 but looked weak enough to reinforce the franchise's decline. Yakuza's respectable showing also validated that its first-round success was not entirely opponent-driven.",
+    "headline": "Metal Gear Solid V wins while Yakuza earns respect",
+    "tags": [
+      "mgs-decline",
+      "yakuza-rise",
+      "statement-loss"
+    ]
+  },
+  {
+    "poll": 8005,
+    "contest": "GOTD 2",
+    "round": "Round Two",
+    "division": "Division 7",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Batman: Arkham City handled BioShock Infinite more comfortably than its shaky first round suggested. The writeup treats the result as a partial rebound for Batman and another sign of BioShock's decline.",
+    "headline": "Arkham City rebounds against BioShock Infinite",
+    "tags": [
+      "statement-win",
+      "bioshock-decline"
+    ]
+  },
+  {
+    "poll": 8006,
+    "contest": "GOTD 2",
+    "round": "Round Two",
+    "division": "Division 7",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "The Last of Us beat Diablo III easily but still underperformed enough to damage its status as a likely division winner. The writeup focuses heavily on Diablo and Blizzard's damaged reputation while looking ahead to Dark Souls.",
+    "headline": "The Last of Us wins but loses ground to Dark Souls",
+    "tags": [
+      "underperformance",
+      "warning-sign",
+      "blizzard-decline"
+    ]
+  },
+  {
+    "poll": 8007,
+    "contest": "GOTD 2",
+    "round": "Round Two",
+    "division": "Division 8",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Skyrim routed Journey but looked weak compared with Witcher 3's earlier results. The match became the first major reason to doubt Skyrim's presumed path to the final.",
+    "headline": "Skyrim wins big and still looks vulnerable",
+    "tags": [
+      "underperformance",
+      "warning-sign",
+      "skyrim"
+    ]
+  },
+  {
+    "poll": 8008,
+    "contest": "GOTD 2",
+    "round": "Round Two",
+    "division": "Division 8",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Mario Kart 8 comfortably eliminated Final Fantasy XIV and continued rehabilitating its reputation after the Wii U era. The result also weakened the idea that Final Fantasy XIV's modern acclaim would translate into contest strength.",
+    "headline": "Mario Kart 8 beats Final Fantasy XIV cleanly",
+    "tags": [
+      "statement-win",
+      "switch-boost",
+      "ff14"
+    ]
+  },
+  {
+    "poll": 8009,
+    "contest": "GOTD 2",
+    "round": "Round Two",
+    "division": "Division 8",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Pokémon HeartGold and SoulSilver crushed Rayman Legends and continued looking like a viable proxy for the much older Gold and Silver. The writeup treats the remake's legitimacy as increasingly hard to dispute.",
+    "headline": "Pokémon HGSS crushes Rayman and keeps rising",
+    "tags": [
+      "statement-win",
+      "pokemon-rise",
+      "remake-strength"
+    ]
+  },
+  {
+    "poll": 8010,
+    "contest": "GOTD 2",
+    "round": "Round Two",
+    "division": "Division 8",
+    "voting_anomalies": [
+      "rally"
+    ],
+    "anomaly_note": "The writeup says Divinity: Original Sin II mounted a significant Reddit rally after the opening and reduced the size of NieR: Automata's natural blowout, though it never threatened the winner.",
+    "off_topic": false,
+    "narrative": "NieR: Automata won comfortably while Divinity rallied hard enough to distort the final margin and later extrapolated standings. The push was visible but never made the match competitive.",
+    "headline": "NieR wins while Divinity rallies down the margin",
+    "tags": [
+      "rally",
+      "statement-win"
+    ]
+  },
+  {
+    "poll": 8011,
+    "contest": "GOTD 2",
+    "round": "Round Three",
+    "division": "Division 1",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Breath of the Wild destroyed Final Fantasy XV and completed three straight overwhelming wins. The writeup considers the result historically dominant while treating possible fanbase overlap as too uncertain to explain much.",
+    "headline": "Breath of the Wild obliterates Final Fantasy XV",
+    "tags": [
+      "statement-win",
+      "record",
+      "title-hype"
+    ]
+  },
+  {
+    "poll": 8012,
+    "contest": "GOTD 2",
+    "round": "Round Three",
+    "division": "Division 1",
+    "voting_anomalies": [
+      "rally"
+    ],
+    "anomaly_note": "The writeup says Monster Hunter: World mounted a meaningful rally that repeatedly cut into Dragon Quest XI's lead and reduced the final margin without seriously threatening the result.",
+    "off_topic": false,
+    "narrative": "Dragon Quest XI survived a spirited Monster Hunter rally and confirmed that its surprising contest strength was genuine. Monster Hunter still exited with more respect than expected.",
+    "headline": "Dragon Quest XI survives Monster Hunter's rally",
+    "tags": [
+      "rally",
+      "dragon-quest-rise",
+      "statement-loss"
+    ]
+  },
+  {
+    "poll": 8013,
+    "contest": "GOTD 2",
+    "round": "Round Three",
+    "division": "Division 2",
+    "voting_anomalies": [
+      "rally"
+    ],
+    "anomaly_note": "The writeup says spillover from the simultaneous Bloodborne rally significantly favored Horizon Zero Dawn and lowered Mass Effect 2's final percentage.",
+    "off_topic": false,
+    "narrative": "Mass Effect 2 beat Horizon Zero Dawn despite rally spillover boosting Horizon. The underlying result kept Mass Effect favored for the division while also validating Horizon as stronger than expected.",
+    "headline": "Mass Effect 2 wins despite Bloodborne rally spillover",
+    "tags": [
+      "rally-spillover",
+      "mass-effect",
+      "horizon-rise"
+    ]
+  },
+  {
+    "poll": 8014,
+    "contest": "GOTD 2",
+    "round": "Round Three",
+    "division": "Division 2",
+    "voting_anomalies": [
+      "rally"
+    ],
+    "anomaly_note": "The writeup says Bloodborne received a major subreddit rally that nearly swung the match, and that the moderators' decision to disallow rally threads midway through the poll was the decisive factor in Resident Evil 2 surviving.",
+    "off_topic": false,
+    "narrative": "Resident Evil 2 survived Bloodborne in the contest's defining close match after a major rally was curtailed midway through the poll. The writeup treats the moderation decision as the central reason Bloodborne failed to complete the upset.",
+    "headline": "Resident Evil 2 survives Bloodborne's rally",
+    "tags": [
+      "match-of-contest",
+      "close-match",
+      "controversy"
+    ]
+  },
+  {
+    "poll": 8015,
+    "contest": "GOTD 2",
+    "round": "Round Three",
+    "division": "Division 3",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Smash Ultimate crushed Spider-Man in a predictable divisional semifinal, but once again looked less dominant than Super Mario Odyssey. The comparison further fueled upset talk for their coming head-to-head match.",
+    "headline": "Smash wins while Odyssey keeps looking stronger",
+    "tags": [
+      "statement-win",
+      "warning-sign",
+      "division-race"
+    ]
+  },
+  {
+    "poll": 8016,
+    "contest": "GOTD 2",
+    "round": "Round Three",
+    "division": "Division 3",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Super Mario Odyssey demolished Shovel Knight and produced a third straight performance that looked stronger than Smash Ultimate's. The writeup notes the conspicuous absence of the developer rally that had saved Shovel Knight previously.",
+    "headline": "Odyssey crushes Shovel Knight and raises Smash doubts",
+    "tags": [
+      "statement-win",
+      "failed-rally",
+      "odyssey-hype"
+    ]
+  },
+  {
+    "poll": 8017,
+    "contest": "GOTD 2",
+    "round": "Round Three",
+    "division": "Division 4",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Persona 4 Golden beat Grand Theft Auto V from wire to wire and completed another bracket-busting win without current-match rally assistance. The result established Persona 4 Golden as the contest's most surprising divisional finalist.",
+    "headline": "Persona 4 Golden beats GTA V without drama",
+    "tags": [
+      "upset",
+      "persona-run",
+      "casual-miss"
+    ]
+  },
+  {
+    "poll": 8018,
+    "contest": "GOTD 2",
+    "round": "Round Three",
+    "division": "Division 4",
+    "voting_anomalies": [
+      "sff"
+    ],
+    "anomaly_note": "The writeup says Three Houses was probably SFFed to some extent by Xenoblade Chronicles, although anti-Fire-Emblem voting and general overestimation are treated as larger factors.",
+    "off_topic": false,
+    "narrative": "Xenoblade Chronicles crushed Fire Emblem: Three Houses and completed the collapse of the pre-contest division favorite. The writeup sees some same-audience suppression but puts more emphasis on anti-voting and Xenoblade's genuine rise.",
+    "headline": "Xenoblade crushes a partially SFFed Three Houses",
+    "tags": [
+      "statement-win",
+      "xenoblade-run",
+      "fire-emblem-flop"
+    ]
+  },
+  {
+    "poll": 8019,
+    "contest": "GOTD 2",
+    "round": "Round Three",
+    "division": "Division 5",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "The Witcher 3 beat Super Mario Galaxy 2 after a briefly entertaining opening and again looked stronger than expected. Galaxy 2 still performed well enough to confirm that its earlier blowouts were not purely weak-opponent artifacts.",
+    "headline": "Witcher 3 beats Galaxy 2 and keeps rolling",
+    "tags": [
+      "statement-win",
+      "witcher-run",
+      "statement-loss"
+    ]
+  },
+  {
+    "poll": 8020,
+    "contest": "GOTD 2",
+    "round": "Round Three",
+    "division": "Division 5",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "God of War beat Fallout: New Vegas in a match that was never seriously in doubt, though New Vegas remained respectable. The result sent God of War into the division final with little hope of stopping Witcher 3.",
+    "headline": "God of War beats New Vegas and meets the buzzsaw",
+    "tags": [
+      "statement-win",
+      "warning-sign"
+    ]
+  },
+  {
+    "poll": 8021,
+    "contest": "GOTD 2",
+    "round": "Round Three",
+    "division": "Division 6",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Persona 5 annihilated Sonic Mania and continued to look like the clear class of its division. The writeup treats Sonic's run as mostly bracket-driven while emphasizing Persona's modern mainstream strength.",
+    "headline": "Persona 5 obliterates Sonic Mania",
+    "tags": [
+      "statement-win",
+      "persona-strength",
+      "sonic-decline"
+    ]
+  },
+  {
+    "poll": 8022,
+    "contest": "GOTD 2",
+    "round": "Round Three",
+    "division": "Division 6",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Portal 2 beat Red Dead Redemption 2 in a closer-looking divisional semifinal that remained under control for most of the day. The result validated Portal 2's hidden strength and ended the author's overconfidence in newer games.",
+    "headline": "Portal 2 quietly ends Red Dead Redemption 2",
+    "tags": [
+      "statement-win",
+      "portal-strength",
+      "close-percentage"
+    ]
+  },
+  {
+    "poll": 8023,
+    "contest": "GOTD 2",
+    "round": "Round Three",
+    "division": "Division 7",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Dark Souls repeated its 2015 win over Metal Gear Solid V with a much larger margin. The writeup treats the widening gap as a clean combination of Souls rising and Metal Gear declining.",
+    "headline": "Dark Souls widens the gap on Metal Gear Solid V",
+    "tags": [
+      "rematch",
+      "souls-rise",
+      "mgs-decline"
+    ]
+  },
+  {
+    "poll": 8024,
+    "contest": "GOTD 2",
+    "round": "Round Three",
+    "division": "Division 7",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "The Last of Us beat Batman: Arkham City but again failed to look strong enough to threaten Dark Souls. The result left its popular pre-contest division-win pick effectively doomed.",
+    "headline": "The Last of Us advances with another warning",
+    "tags": [
+      "underperformance",
+      "warning-sign",
+      "division-race"
+    ]
+  },
+  {
+    "poll": 8025,
+    "contest": "GOTD 2",
+    "round": "Round Three",
+    "division": "Division 8",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Skyrim beat Mario Kart 8 but looked weak enough to become a serious target for later upset speculation. The writeup treats Mario Kart's prior SFF history as irrelevant to this current matchup.",
+    "headline": "Skyrim wins but becomes an upset target",
+    "tags": [
+      "underperformance",
+      "warning-sign",
+      "skyrim"
+    ]
+  },
+  {
+    "poll": 8026,
+    "contest": "GOTD 2",
+    "round": "Round Three",
+    "division": "Division 8",
+    "voting_anomalies": [
+      "rally"
+    ],
+    "anomaly_note": "The writeup says NieR: Automata supporters had active rally efforts during the match, including the jokingly described hentai rallies, though those pushes never became large enough to overturn Pokémon.",
+    "off_topic": false,
+    "narrative": "Pokémon HeartGold and SoulSilver survived an initially close NieR: Automata challenge and pulled away once the early rally pressure faded. The result closed Round Three with Pokémon still looking surprisingly legitimate.",
+    "headline": "Pokémon survives NieR's rally efforts",
+    "tags": [
+      "rally",
+      "pokemon-rise",
+      "nier-run"
+    ]
+  },
+  {
+    "poll": 8027,
+    "contest": "GOTD 2",
+    "round": "Round Four",
+    "division": "Division 1",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Breath of the Wild comfortably beat Dragon Quest XI but finally fell well short of its earlier overwhelming percentages. The writeup treats the result as evidence that Dragon Quest XI was much stronger than the bracket had initially assumed.",
+    "headline": "Breath of the Wild wins while Dragon Quest earns respect",
+    "tags": [
+      "statement-win",
+      "dragon-quest-rise"
+    ]
+  },
+  {
+    "poll": 8028,
+    "contest": "GOTD 2",
+    "round": "Round Four",
+    "division": "Division 2",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Mass Effect 2 narrowly beat Resident Evil 2 in one of the most debated Round Four matches. The result validated Mass Effect as the natural division winner while ending Resident Evil 2's bandwagon.",
+    "headline": "Mass Effect 2 edges Resident Evil 2",
+    "tags": [
+      "close-match",
+      "mass-effect",
+      "resident-evil-run"
+    ]
+  },
+  {
+    "poll": 8029,
+    "contest": "GOTD 2",
+    "round": "Round Four",
+    "division": "Division 3",
+    "voting_anomalies": [
+      "sff"
+    ],
+    "anomaly_note": "Ulti explicitly argues that Smash Ultimate reverse-SFFed Super Mario Odyssey, while the broader writeup also treats Nintendo hierarchy and same-fanbase effects as central to why Smash won more comfortably than expected.",
+    "off_topic": false,
+    "narrative": "Smash Ultimate beat Super Mario Odyssey despite Odyssey looking stronger in every prior round. The writeup treats the result as a hierarchy-driven same-fanbase matchup, with reverse SFF offered as the main explanation for the reversal.",
+    "headline": "Smash reverse-SFFs Odyssey and restores the hierarchy",
+    "tags": [
+      "reverse-sff",
+      "nintendo-hierarchy",
+      "statement-win"
+    ]
+  },
+  {
+    "poll": 8030,
+    "contest": "GOTD 2",
+    "round": "Round Four",
+    "division": "Division 4",
+    "voting_anomalies": [
+      "rally"
+    ],
+    "anomaly_note": "The writeup says Persona 4 Golden received repeated and increasingly intense rally support throughout the match, culminating in a late push that nearly overturned Xenoblade's lead.",
+    "off_topic": false,
+    "narrative": "Xenoblade Chronicles survived Persona 4 Golden in the last truly great close match of the contest. Persona's rallies repeatedly cut the lead, and without the registered-user weighting Persona would have narrowly won.",
+    "headline": "Xenoblade survives Persona 4 Golden's late rallies",
+    "tags": [
+      "match-of-contest",
+      "close-match",
+      "xenoblade-run"
+    ]
+  },
+  {
+    "poll": 8031,
+    "contest": "GOTD 2",
+    "round": "Round Four",
+    "division": "Division 5",
+    "voting_anomalies": [
+      "sff"
+    ],
+    "anomaly_note": "The writeup explicitly says some form of SFF occurred between The Witcher 3 and God of War because of their overlapping Western open-world audience, while warning that the effect was probably overestimated.",
+    "off_topic": false,
+    "narrative": "The Witcher 3 crushed God of War far more severely than expected and looked completely secure on its path to the final. The writeup attributes part of the rout to overlapping Western audiences while still crediting Witcher's genuine strength.",
+    "headline": "Witcher 3 SFFs God of War and looks unstoppable",
+    "tags": [
+      "statement-win",
+      "western-sff",
+      "title-hype"
+    ]
+  },
+  {
+    "poll": 8032,
+    "contest": "GOTD 2",
+    "round": "Round Four",
+    "division": "Division 6",
+    "voting_anomalies": [
+      "rally"
+    ],
+    "anomaly_note": "The writeup says the Persona subreddit maintained a rally thread and later redirected it toward Persona 5, giving Persona a small current-match boost even though the effect was not large.",
+    "off_topic": false,
+    "narrative": "Persona 5 crushed Portal 2 after the opening minutes and won the division comfortably. A continuing Persona rally thread added a small boost but was not necessary to the result.",
+    "headline": "Persona 5 crushes Portal 2 with a small rally boost",
+    "tags": [
+      "division-win",
+      "persona-strength",
+      "rally"
+    ]
+  },
+  {
+    "poll": 8033,
+    "contest": "GOTD 2",
+    "round": "Round Four",
+    "division": "Division 7",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": true,
+    "narrative": "The writeup is dominated by a lengthy discussion of The Last of Us Part II leaks and broader cultural arguments; the match itself is summarized as Dark Souls comfortably beating a badly damaged Last of Us.",
+    "headline": "Dark Souls wins inside a massive Last of Us rant",
+    "tags": [
+      "dark-souls",
+      "last-of-us-backlash"
+    ]
+  },
+  {
+    "poll": 8034,
+    "contest": "GOTD 2",
+    "round": "Round Four",
+    "division": "Division 8",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Skyrim decisively beat Pokémon HeartGold and SoulSilver and finally delivered the strong performance its supporters had been waiting for. The result restored confidence that Skyrim was still a legitimate late-round game.",
+    "headline": "Skyrim finally delivers its redemption match",
+    "tags": [
+      "statement-win",
+      "skyrim-rebound",
+      "pokemon-run"
+    ]
+  },
+  {
+    "poll": 8035,
+    "contest": "GOTD 2",
+    "round": "Quarterfinals",
+    "division": "Contest Quarterfinal",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Breath of the Wild doubled Mass Effect 2 in the quarterfinals and maintained one of the most dominant game-contest runs ever. The writeup treats Dragon Quest XI's prior resistance as newly impressive in hindsight.",
+    "headline": "Breath of the Wild keeps doubling everything",
+    "tags": [
+      "quarterfinal",
+      "statement-win",
+      "title-hype"
+    ]
+  },
+  {
+    "poll": 8036,
+    "contest": "GOTD 2",
+    "round": "Quarterfinals",
+    "division": "Contest Quarterfinal",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Smash Ultimate comfortably ended Xenoblade's surprise run and advanced to the semifinal. Although some observers called the result SFF, the writeup explicitly questions whether meaningful suppression occurred and emphasizes Xenoblade's bandwagon instead.",
+    "headline": "Smash ends Xenoblade's surprise run comfortably",
+    "tags": [
+      "quarterfinal",
+      "xenoblade-run",
+      "statement-win"
+    ]
+  },
+  {
+    "poll": 8037,
+    "contest": "GOTD 2",
+    "round": "Quarterfinals",
+    "division": "Contest Quarterfinal",
+    "voting_anomalies": [
+      "rally"
+    ],
+    "anomaly_note": "The writeup says Persona 5 rallied heavily from the opening and received roughly hundreds of outside votes, though The Witcher 3 repeatedly absorbed the pushes and pulled away.",
+    "off_topic": false,
+    "narrative": "The Witcher 3 beat Persona 5 after an entertaining opening and confirmed that even a major Persona push was not enough to threaten it. The result sent Witcher into the semifinal looking almost untouchable.",
+    "headline": "Witcher 3 absorbs Persona 5's rally and wins",
+    "tags": [
+      "quarterfinal",
+      "rally",
+      "witcher-run"
+    ]
+  },
+  {
+    "poll": 8038,
+    "contest": "GOTD 2",
+    "round": "Quarterfinals",
+    "division": "Contest Quarterfinal",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Skyrim and Dark Souls stayed nearly even for the opening hours before Skyrim's stronger morning vote finally created separation. The writeup treats it as the last genuinely competitive match of the contest and a strong final showing for Dark Souls.",
+    "headline": "Skyrim outlasts Dark Souls in the last close quarterfinal",
+    "tags": [
+      "quarterfinal",
+      "close-match",
+      "dark-souls-run"
+    ]
+  },
+  {
+    "poll": 8039,
+    "contest": "GOTD 2",
+    "round": "Semifinals",
+    "division": "Contest Semifinal",
+    "voting_anomalies": [
+      "sff"
+    ],
+    "anomaly_note": "The writeup explicitly calls Breath of the Wild versus Smash Ultimate a bad case of SFF, with Zelda's place atop the Nintendo hierarchy suppressing Smash.",
+    "off_topic": false,
+    "narrative": "Breath of the Wild demolished Smash Ultimate in a semifinal and continued its run of overwhelming late-round victories. Even accounting for heavy Nintendo SFF, the writeup treats the performance as extraordinary.",
+    "headline": "Breath of the Wild SFFs Smash in the semifinal",
+    "tags": [
+      "semifinal",
+      "statement-win",
+      "title-hype"
+    ]
+  }
+]

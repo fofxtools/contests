@@ -1,0 +1,796 @@
+[
+  {
+    "poll": 5259,
+    "contest": "CB IX",
+    "round": "Round 3",
+    "division": null,
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Samus controlled the simplest divisional final, with Tifa quickly taking second in the Expert Challenge ordering and L-Block never recreating its old magic. The writeup treats the match as a rare breather in an otherwise chaotic stretch.",
+    "headline": "Samus cruises through the quietest divisional final",
+    "tags": [
+      "low-drama",
+      "expert-mode"
+    ]
+  },
+  {
+    "poll": 5260,
+    "contest": "CB IX",
+    "round": "Round 3",
+    "division": null,
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Red won comfortably, but Vivi's momentum carried him past Squall for second in the Expert Challenge ordering after the Mario upset. The writeup treats Vivi's placement as one of the contest's strangest strength reversals.",
+    "headline": "Vivi rides his momentum past Squall",
+    "tags": [
+      "vivi-run",
+      "upset",
+      "expert-mode"
+    ]
+  },
+  {
+    "poll": 5261,
+    "contest": "CB IX",
+    "round": "Round 3",
+    "division": null,
+    "voting_anomalies": [
+      "lff",
+      "rally"
+    ],
+    "anomaly_note": "The writeup says Zero clearly drained Mega Man through their heavy overlap. It also describes a massive late Mega Man fan rally that overturned Charizard's lead in the final minutes.",
+    "off_topic": false,
+    "narrative": "Mega Man survived both Zero's overlap and Charizard's late lead, then completed a furious final push to take the match. The writeup remembers the finish as the long-awaited close-match breakthrough for a character with years of contest heartbreak.",
+    "headline": "Mega Man rallies past Charizard despite Zero vote drain",
+    "tags": [
+      "close-match",
+      "comeback",
+      "mega-man-redemption"
+    ]
+  },
+  {
+    "poll": 5262,
+    "contest": "CB IX",
+    "round": "Round 4",
+    "division": null,
+    "voting_anomalies": [
+      "rally"
+    ],
+    "anomaly_note": "The writeup says Draven's Reddit rally was briefly removed, allowing Mewtwo to build a large lead, then returned and erased that lead almost immediately.",
+    "off_topic": false,
+    "narrative": "Mewtwo looked ready to win while the League rally was offline, but Draven surged back the moment outside support returned. The match became one of the clearest demonstrations of how completely rally access controlled Draven's run.",
+    "headline": "Draven's restored rally wipes out Mewtwo's lead",
+    "tags": [
+      "draven-run",
+      "reddit",
+      "controversy"
+    ]
+  },
+  {
+    "poll": 5263,
+    "contest": "CB IX",
+    "round": "Round 4",
+    "division": null,
+    "voting_anomalies": [
+      "lff"
+    ],
+    "anomaly_note": "The writeup says Squirtle and Pikachu cannibalized each other's Pokémon support, destroying their chances of challenging Snake for first.",
+    "off_topic": false,
+    "narrative": "Snake advanced to the final while the two Pokémon entrants split their shared fanbase and fought over second in the Expert Challenge ordering. Pikachu ultimately beat Squirtle after the morning vote.",
+    "headline": "Pokémon vote splitting hands Snake an easy path",
+    "tags": [
+      "pokemon-overlap",
+      "expert-mode"
+    ]
+  },
+  {
+    "poll": 5264,
+    "contest": "CB IX",
+    "round": "Round 4",
+    "division": null,
+    "voting_anomalies": [
+      "sff"
+    ],
+    "anomaly_note": "The writeup explicitly attributes the result to Mega Man's heavy Nintendo-adjacent overlap in a match with Samus and Red.",
+    "off_topic": false,
+    "narrative": "Mega Man briefly led and genuinely threatened Samus, but Samus eventually took control and won the semifinal. Red remained competitive enough to finish a strong contest run despite the Nintendo-heavy field.",
+    "headline": "Samus survives Mega Man in a Nintendo-heavy semifinal",
+    "tags": [
+      "close-match",
+      "semifinal",
+      "red-run"
+    ]
+  },
+  {
+    "poll": 5265,
+    "contest": "CB IX",
+    "round": "Bonus",
+    "division": null,
+    "voting_anomalies": [
+      "sff"
+    ],
+    "anomaly_note": "The writeup says the two Pokémon entrants heavily suppressed each other, allowing Mega Man to win the bonus match comfortably.",
+    "off_topic": false,
+    "narrative": "Mega Man won the bonus as Mewtwo and Pikachu split Pokémon support. Mewtwo nevertheless beat Pikachu in their internal comparison, adding another wrinkle to the series hierarchy.",
+    "headline": "Mega Man wins as the Pokémon pair suppress each other",
+    "tags": [
+      "bonus",
+      "pokemon-overlap"
+    ]
+  },
+  {
+    "poll": 5266,
+    "contest": "CB IX",
+    "round": "Championship",
+    "division": null,
+    "voting_anomalies": [
+      "rally"
+    ],
+    "anomaly_note": "The writeup says rallies determined the championship: David Hayter helped Snake mount a comeback, then a large Reddit push for Draven overwhelmed him and decided the result.",
+    "off_topic": false,
+    "narrative": "Snake closed most of Draven's lead with celebrity-backed support before a much larger Reddit surge ended the comeback and delivered Draven the championship. The writeup treats the final as the culmination of the contest's rally controversy.",
+    "headline": "Draven's Reddit rally overwhelms Snake in the final",
+    "tags": [
+      "champion",
+      "draven-run",
+      "controversy"
+    ]
+  },
+  {
+    "poll": 5267,
+    "contest": "CB IX",
+    "round": "Bonus",
+    "division": null,
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Link beat Snake in the post-contest bonus despite several Snake cuts, giving GameFAQs a more traditional closing matchup after the Draven controversy. The writeup treats Link's win as clear but notes that Snake still looked unusually strong.",
+    "headline": "Link restores order in the post-contest bonus",
+    "tags": [
+      "bonus",
+      "rematch",
+      "snake-run"
+    ]
+  },
+  {
+    "poll": 6051,
+    "contest": "BGE 2K15",
+    "round": "Round One",
+    "division": "Division 1",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Chrono Trigger opened the 2015 game contest with a far stronger blowout than many expected and immediately looked like a true title contender. The writeup treats the result as the first major sign that older games would dominate the bracket.",
+    "headline": "Chrono Trigger opens 2015 in championship form",
+    "tags": [
+      "contest-opener",
+      "statement-win",
+      "old-games"
+    ]
+  },
+  {
+    "poll": 6052,
+    "contest": "BGE 2K15",
+    "round": "Round One",
+    "division": "Division 1",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Dragon Quest VIII overturned the prevailing Persona 3 lean after an initially close start and gradually pulled away. The writeup folds the upset into Board 8's long-running joke that the second match of a contest is cursed.",
+    "headline": "Dragon Quest VIII extends the second-match curse",
+    "tags": [
+      "upset",
+      "second-match-curse"
+    ]
+  },
+  {
+    "poll": 6053,
+    "contest": "BGE 2K15",
+    "round": "Round One",
+    "division": "Division 1",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Mega Man X won a debated 12-over-5 matchup far more comfortably than Batman supporters expected. The writeup treats the result as another failure of licensed-game hype to translate into contest strength.",
+    "headline": "Mega Man X dismisses the Batman hype",
+    "tags": [
+      "upset",
+      "licensed-game",
+      "statement-win"
+    ]
+  },
+  {
+    "poll": 6054,
+    "contest": "BGE 2K15",
+    "round": "Round One",
+    "division": "Division 1",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Final Fantasy X handled Half-Life without suspense, but looked much less impressive than Chrono Trigger had in the same division. The writeup treats that comparison as the first clear warning for their coming matchup.",
+    "headline": "Final Fantasy X wins while Chrono Trigger looks stronger",
+    "tags": [
+      "statement-win",
+      "warning-sign"
+    ]
+  },
+  {
+    "poll": 6055,
+    "contest": "BGE 2K15",
+    "round": "Round One",
+    "division": "Division 1",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Melee beat Portal comfortably in an otherwise uneventful opener, with its usual early strength followed by percentage bleed. The writeup says the result gave little hint of how badly a later Chrono Trigger matchup would go.",
+    "headline": "Melee handles Portal without revealing much",
+    "tags": [
+      "low-drama",
+      "statement-win"
+    ]
+  },
+  {
+    "poll": 6056,
+    "contest": "BGE 2K15",
+    "round": "Round One",
+    "division": "Division 1",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Pokémon Gold and Silver overwhelmed The World Ends With You in one of the round's cleanest blowouts. The writeup treats the result mainly as confirmation that GSC remained a major Pokémon game on the site.",
+    "headline": "Pokémon GSC crushes The World Ends With You",
+    "tags": [
+      "statement-win",
+      "pokemon-rise"
+    ]
+  },
+  {
+    "poll": 6057,
+    "contest": "BGE 2K15",
+    "round": "Round One",
+    "division": "Division 1",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Kingdom Hearts II beat Metal Gear Solid 4 decisively and immediately established the latter as part of a broader Metal Gear decline. The writeup views the result as a major reversal from MGS4's stronger reputation in earlier years.",
+    "headline": "Kingdom Hearts II exposes Metal Gear Solid 4 decline",
+    "tags": [
+      "mgs-decline",
+      "statement-win"
+    ]
+  },
+  {
+    "poll": 6058,
+    "contest": "BGE 2K15",
+    "round": "Round One",
+    "division": "Division 1",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "The Last of Us doubled Halo 3 in a straightforward blowout. The writeup treats Halo's poor showing as another chapter in the series' long history of underperforming on GameFAQs.",
+    "headline": "The Last of Us adds to Halo's contest misery",
+    "tags": [
+      "halo-decline",
+      "statement-win"
+    ]
+  },
+  {
+    "poll": 6059,
+    "contest": "BGE 2K15",
+    "round": "Round One",
+    "division": "Division 2",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Final Fantasy VI crushed Assassin's Creed II and looked dramatically stronger than its older comparison with Wind Waker. The writeup treats the performance as early proof that 1990s Square games were operating on another level.",
+    "headline": "Final Fantasy VI announces the Year of the 90s",
+    "tags": [
+      "statement-win",
+      "old-games",
+      "title-hype"
+    ]
+  },
+  {
+    "poll": 6060,
+    "contest": "BGE 2K15",
+    "round": "Round One",
+    "division": "Division 2",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Paper Mario built an early advantage over Tales of Symphonia and never truly surrendered control despite several small cuts. The writeup calls it the contest's first close-looking match, though the result felt decided well before the finish.",
+    "headline": "Paper Mario survives Tales without a true photo finish",
+    "tags": [
+      "close-match",
+      "statement-win"
+    ]
+  },
+  {
+    "poll": 6061,
+    "contest": "BGE 2K15",
+    "round": "Round One",
+    "division": "Division 2",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "KOTOR beat Xenogears in a debated matchup, but Xenogears stayed close enough to suggest it had more hidden strength than its old bad draws implied. The writeup argues that reversed seeding might even have changed the result.",
+    "headline": "KOTOR wins while Xenogears finally shows hidden strength",
+    "tags": [
+      "statement-loss",
+      "strength-debate"
+    ]
+  },
+  {
+    "poll": 6062,
+    "contest": "BGE 2K15",
+    "round": "Round One",
+    "division": "Division 2",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Wind Waker beat Pokémon X/Y comfortably, while the writeup rejects the idea that Pokémon suffered meaningful SFF here. The result kept Wind Waker respectable but still left Final Fantasy VI favored for the next round.",
+    "headline": "Wind Waker advances without resolving the Final Fantasy VI debate",
+    "tags": [
+      "statement-win",
+      "strength-debate"
+    ]
+  },
+  {
+    "poll": 6063,
+    "contest": "BGE 2K15",
+    "round": "Round One",
+    "division": "Division 2",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Smash 4 crushed the obscure Planescape: Torment and looked like a legitimate modern Smash entry rather than a repeat of Brawl's stigma. The writeup treats the match itself as essentially content-free.",
+    "headline": "Smash 4 crushes Planescape in a routine opener",
+    "tags": [
+      "statement-win",
+      "low-drama"
+    ]
+  },
+  {
+    "poll": 6064,
+    "contest": "BGE 2K15",
+    "round": "Round One",
+    "division": "Division 2",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Mass Effect erased Galaxy 2's early lead, spent hours in a deadlock, then pulled away during the afternoon. The writeup remembers it as the contest's first genuine close match and a major embarrassment for the Board 8 consensus.",
+    "headline": "Mass Effect outlasts Galaxy 2 in the first true thriller",
+    "tags": [
+      "upset",
+      "close-match",
+      "guru-buster"
+    ]
+  },
+  {
+    "poll": 6065,
+    "contest": "BGE 2K15",
+    "round": "Round One",
+    "division": "Division 2",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Halo held Minecraft to a steady loss and prevented the rally-driven title run many bracketmakers had feared. The writeup notes that people correctly anticipated an outside-rally threat in the contest, but targeted the wrong game.",
+    "headline": "Halo stops Minecraft before the feared rally can begin",
+    "tags": [
+      "statement-win",
+      "failed-rally",
+      "minecraft"
+    ]
+  },
+  {
+    "poll": 6066,
+    "contest": "BGE 2K15",
+    "round": "Round One",
+    "division": "Division 2",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Final Fantasy VII demolished Journey and looked every bit like a championship contender. The writeup treats the blowout as a welcome return to straightforward elite-level dominance.",
+    "headline": "Final Fantasy VII opens with a championship-level rout",
+    "tags": [
+      "statement-win",
+      "title-hype"
+    ]
+  },
+  {
+    "poll": 6067,
+    "contest": "BGE 2K15",
+    "round": "Round One",
+    "division": "Division 3",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Super Mario Bros. 3 delivered one of the contest's largest blowouts, exactly as expected from a top seed against weak opposition. The writeup notes with hindsight that this would be Mario 3's only win of the contest.",
+    "headline": "Mario 3 opens with one of the contest's biggest blowouts",
+    "tags": [
+      "statement-win",
+      "record"
+    ]
+  },
+  {
+    "poll": 6068,
+    "contest": "BGE 2K15",
+    "round": "Round One",
+    "division": "Division 3",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Pokémon RBY beat Tetris comfortably, but many observers wrongly interpreted the margin through old Nintendo SFF comparisons. The writeup explicitly argues that Pokémon showed little or no SFF here and was stronger than the raw comparison suggested.",
+    "headline": "Pokémon RBY beats Tetris without the expected SFF",
+    "tags": [
+      "pokemon-rise",
+      "strength-debate"
+    ]
+  },
+  {
+    "poll": 6069,
+    "contest": "BGE 2K15",
+    "round": "Round One",
+    "division": "Division 3",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Sonic 2 turned an early deadlock with Portal 2 into a comfortable win and overturned the pre-match favorite. The writeup treats it as another example of Portal 2 lacking the original game's old internet buzz.",
+    "headline": "Sonic 2 pulls away from Portal 2",
+    "tags": [
+      "upset",
+      "statement-win"
+    ]
+  },
+  {
+    "poll": 6070,
+    "contest": "BGE 2K15",
+    "round": "Round One",
+    "division": "Division 3",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Uncharted 2 doubled The Walking Dead in a matchup the writeup considered predictable from the start. The result is used mainly to argue that licensed popularity rarely translates into GameFAQs contest strength.",
+    "headline": "Uncharted 2 routs another weak licensed-game entry",
+    "tags": [
+      "statement-win",
+      "licensed-game"
+    ]
+  },
+  {
+    "poll": 6071,
+    "contest": "BGE 2K15",
+    "round": "Round One",
+    "division": "Division 3",
+    "voting_anomalies": [
+      "rally"
+    ],
+    "anomaly_note": "The writeup says Undertale's simultaneous outside rally spilled into this poll and directly shifted votes toward Life is Strange, sharply reducing Fallout 3's percentage without threatening the result.",
+    "off_topic": false,
+    "narrative": "Fallout 3 was cruising on the release day of Fallout 4 until Undertale rally spillover suddenly made Life is Strange much stronger. The winner remained safe, but the late bleed exposed how vulnerable Fallout could be to outside traffic.",
+    "headline": "Undertale spillover exposes Fallout 3's rally vulnerability",
+    "tags": [
+      "rally-spillover",
+      "warning-sign",
+      "release-day"
+    ]
+  },
+  {
+    "poll": 6072,
+    "contest": "BGE 2K15",
+    "round": "Round One",
+    "division": "Division 3",
+    "voting_anomalies": [
+      "rally"
+    ],
+    "anomaly_note": "The writeup says a massive outside rally erased Mass Effect 3's enormous late lead and carried Undertale to a record-setting comeback.",
+    "off_topic": false,
+    "narrative": "Undertale transformed a routine loss into the largest comeback in contest history once outside support arrived late in the day. The win launched the rally-driven run that would eventually decide the entire tournament.",
+    "headline": "Undertale rallies from a massive deficit to win",
+    "tags": [
+      "rally-classic",
+      "comeback",
+      "undertale-run"
+    ]
+  },
+  {
+    "poll": 6073,
+    "contest": "BGE 2K15",
+    "round": "Round One",
+    "division": "Division 3",
+    "voting_anomalies": [
+      "rally"
+    ],
+    "anomaly_note": "The writeup says Undertale rally spillover also affected this simultaneous poll, modestly boosting Final Fantasy VIII against Vice City.",
+    "off_topic": false,
+    "narrative": "Final Fantasy VIII beat Vice City as expected, while the simultaneous Undertale rally nudged the result further toward Square. The writeup treats Vice City's respectable loss as one of the few less embarrassing GTA performances.",
+    "headline": "Final Fantasy VIII wins with a small rally-spillover boost",
+    "tags": [
+      "rally-spillover",
+      "gta-decline"
+    ]
+  },
+  {
+    "poll": 6074,
+    "contest": "BGE 2K15",
+    "round": "Round One",
+    "division": "Division 3",
+    "voting_anomalies": [
+      "rally"
+    ],
+    "anomaly_note": "The writeup says Undertale rally spillover strongly boosted Animal Crossing late in the match, producing unusual cuts against Super Mario World.",
+    "off_topic": false,
+    "narrative": "Super Mario World began with an enormous rout, but Animal Crossing suddenly gained ground once Undertale's outside rally flooded the simultaneous polls. The result stayed a blowout, yet the spillover showed how dramatically shared traffic could distort percentages.",
+    "headline": "Animal Crossing surges on Undertale rally spillover",
+    "tags": [
+      "rally-spillover",
+      "statement-win"
+    ]
+  },
+  {
+    "poll": 6075,
+    "contest": "BGE 2K15",
+    "round": "Round One",
+    "division": "Division 4",
+    "voting_anomalies": [
+      "rally"
+    ],
+    "anomaly_note": "The writeup says Undertale rally spillover favored Phoenix Wright from the opening minutes and helped create an early lead before Skyrim recovered.",
+    "off_topic": false,
+    "narrative": "Phoenix Wright briefly led behind Board 8 support and Undertale spillover, but Skyrim recovered and eventually won comfortably. Even with the distorted opening, the writeup considered Skyrim's performance too weak for a serious title contender.",
+    "headline": "Phoenix briefly leads Skyrim on rally spillover",
+    "tags": [
+      "rally-spillover",
+      "underperformance",
+      "warning-sign"
+    ]
+  },
+  {
+    "poll": 6076,
+    "contest": "BGE 2K15",
+    "round": "Round One",
+    "division": "Division 4",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "GoldenEye beat Diablo II in a debated 8/9 matchup and continued the broader old-game advantage of the contest. The writeup notes possible minor rally spillover but treats it as too uncertain to explain the win.",
+    "headline": "GoldenEye beats Diablo II in a debated old-school matchup",
+    "tags": [
+      "upset",
+      "old-games"
+    ]
+  },
+  {
+    "poll": 6077,
+    "contest": "BGE 2K15",
+    "round": "Round One",
+    "division": "Division 4",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Metroid Prime beat Morrowind but lost substantial ground over the course of the day. The writeup treats the trend as an early warning that Prime's weak daytime vote could become costly in close matches.",
+    "headline": "Metroid Prime wins while exposing its daytime weakness",
+    "tags": [
+      "underperformance",
+      "warning-sign",
+      "day-vote"
+    ]
+  },
+  {
+    "poll": 6078,
+    "contest": "BGE 2K15",
+    "round": "Round One",
+    "division": "Division 4",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Half-Life 2 handled Demon's Souls in a largely trendless and predictable match. The writeup mainly uses the result to set up the expected Metroid Prime rematch in Round Two.",
+    "headline": "Half-Life 2 advances through a routine setup match",
+    "tags": [
+      "low-drama",
+      "rematch-setup"
+    ]
+  },
+  {
+    "poll": 6079,
+    "contest": "BGE 2K15",
+    "round": "Round One",
+    "division": "Division 4",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Super Mario 64 crushed Mario Kart 8 and looked like a serious deep-run threat. Although one analysis calls the result an SFF beating, the other explicitly doubts meaningful SFF, so the writeup ultimately leaves the mechanism uncertain.",
+    "headline": "Mario 64 demolishes Mario Kart 8",
+    "tags": [
+      "statement-win",
+      "wii-u-slump"
+    ]
+  },
+  {
+    "poll": 6080,
+    "contest": "BGE 2K15",
+    "round": "Round One",
+    "division": "Division 4",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Final Fantasy Tactics beat Resident Evil 2 in a debated matchup that became comfortable almost immediately. The writeup also treats Resident Evil's loss as part of a broader series decline.",
+    "headline": "Final Fantasy Tactics wins a debated matchup comfortably",
+    "tags": [
+      "statement-win",
+      "resident-evil-decline"
+    ]
+  },
+  {
+    "poll": 6081,
+    "contest": "BGE 2K15",
+    "round": "Round One",
+    "division": "Division 4",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Twilight Princess crushed Skies of Arcadia in a predictable opener, but the result did little to sustain upset hopes against Mario 64. The writeup instead uses the match to compare Twilight Princess with Wind Waker.",
+    "headline": "Twilight Princess wins but loses its Mario 64 hype",
+    "tags": [
+      "statement-win",
+      "warning-sign",
+      "strength-debate"
+    ]
+  },
+  {
+    "poll": 6082,
+    "contest": "BGE 2K15",
+    "round": "Round One",
+    "division": "Division 4",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Persona 4 destroyed 999 and made the weaker visual novel look like one of the bracket's lowest-tier entrants. The writeup explicitly rejects SFF as an explanation and treats 999 as simple fodder.",
+    "headline": "Persona 4 crushes 999 without needing SFF",
+    "tags": [
+      "statement-win",
+      "fodder"
+    ]
+  },
+  {
+    "poll": 6083,
+    "contest": "BGE 2K15",
+    "round": "Round One",
+    "division": "Division 5",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Ocarina of Time produced one of the contest's legendary blowouts against Hearthstone and showed no vulnerability to the rally threat some had feared. The result looked like a championship statement at the time.",
+    "headline": "Ocarina obliterates Hearthstone in a legendary blowout",
+    "tags": [
+      "record",
+      "statement-win",
+      "title-hype"
+    ]
+  },
+  {
+    "poll": 6084,
+    "contest": "BGE 2K15",
+    "round": "Round One",
+    "division": "Division 5",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Suikoden II won a heavily debated 8/9 matchup that the writeup retrospectively treats as much simpler than people made it. The result becomes another example of old Japanese RPG familiarity beating a newer unknown.",
+    "headline": "Suikoden II settles an overdebated 8/9 matchup",
+    "tags": [
+      "upset",
+      "old-games"
+    ]
+  },
+  {
+    "poll": 6085,
+    "contest": "BGE 2K15",
+    "round": "Round One",
+    "division": "Division 5",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Okami beat Warcraft III comfortably and continued its unusual history of avoiding extreme 1v1 results in either direction. The writeup treats the result as another failure for Blizzard's contest strength.",
+    "headline": "Okami comfortably sends Warcraft III home",
+    "tags": [
+      "statement-win",
+      "blizzard-decline"
+    ]
+  },
+  {
+    "poll": 6086,
+    "contest": "BGE 2K15",
+    "round": "Round One",
+    "division": "Division 5",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Final Fantasy IX upset Kingdom Hearts after surviving the matchup phase where Kingdom Hearts was normally strongest. The writeup treats the trend reversal as a major surprise and evidence of an FFIX boost.",
+    "headline": "Final Fantasy IX defies the trends and upsets Kingdom Hearts",
+    "tags": [
+      "upset",
+      "trend-reversal",
+      "ff9-boost"
+    ]
+  },
+  {
+    "poll": 6087,
+    "contest": "BGE 2K15",
+    "round": "Round One",
+    "division": "Division 5",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Donkey Kong Country 2 and Xenoblade traded tiny leads for most of the day before DKC2 finally held on through a record-setting wire-to-wire close match. The upset ruined a popular Xenoblade deep-run pick and gave DKC2 long-overdue contest respect.",
+    "headline": "DKC2 survives Xenoblade in a wire-to-wire classic",
+    "tags": [
+      "upset",
+      "close-match",
+      "record"
+    ]
+  },
+  {
+    "poll": 6088,
+    "contest": "BGE 2K15",
+    "round": "Round One",
+    "division": "Division 5",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Fire Emblem Awakening demolished Super Mario Maker in a matchup many expected to be close. The writeup calls Mario Maker one of the contest's biggest disappointments and treats the result as a complete collapse of its rally-and-meme hype.",
+    "headline": "Awakening destroys Mario Maker's rally-and-meme hype",
+    "tags": [
+      "underperformance",
+      "turd-of-contest",
+      "hype-collapse"
+    ]
+  },
+  {
+    "poll": 6089,
+    "contest": "BGE 2K15",
+    "round": "Round One",
+    "division": "Division 5",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Banjo-Kazooie beat Baldur's Gate II but bled enough support to kill most hopes of a deeper run. The writeup sees the win as disappointing rather than validating old theories that Banjo had hidden strength.",
+    "headline": "Banjo wins while its deep-run hype evaporates",
+    "tags": [
+      "underperformance",
+      "warning-sign"
+    ]
+  },
+  {
+    "poll": 6090,
+    "contest": "BGE 2K15",
+    "round": "Round One",
+    "division": "Division 5",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "Symphony of the Night crushed Trials and Tribulations and clearly separated itself from the crowded midcard pack in its section. The writeup treats the blowout as the strongest first-round showing among the division's plausible contenders.",
+    "headline": "Symphony of the Night announces itself with a rout",
+    "tags": [
+      "statement-win",
+      "division-favorite"
+    ]
+  },
+  {
+    "poll": 6091,
+    "contest": "BGE 2K15",
+    "round": "Round One",
+    "division": "Division 6",
+    "voting_anomalies": [],
+    "anomaly_note": null,
+    "off_topic": false,
+    "narrative": "A Link to the Past delivered the second-largest blowout of the contest against Cave Story and looked like a genuine top-tier game. The writeup places the result alongside Ocarina's as a championship-caliber Zelda statement.",
+    "headline": "A Link to the Past delivers another Zelda godstomp",
+    "tags": [
+      "record",
+      "statement-win",
+      "title-hype"
+    ]
+  }
+]
