@@ -105,7 +105,11 @@ span.amp-grp.amp-hl { border-color: #1a73e8; background: #eaf1fb; }
 .b8w-meta a { text-decoration: none; }
 .b8w-sub { color: #777; font-size: .9em; }
 .b8w-tagline { margin: .2em 0 .5em; color: #444; }
-.b8w-notable { margin: .5em 0 0; font-size: .92em; color: #555; }
+.b8w-facts { display: grid; grid-template-columns: max-content 1fr; column-gap: .5em; row-gap: .1em; margin: .7em 0 0; font-size: .92em; }
+.b8w-facts dt { font-weight: 600; color: #555; }
+.b8w-facts dt::after { content: ":"; }
+.b8w-facts dd { margin: 0; }
+.b8w-notable { margin: .55em 0 0; font-size: .92em; color: #555; }
 .b8w-notable ul { margin: .15em 0 0; padding-left: 1.5em; }
 .b8w-notable li { margin: .1em 0; }
 .b8w-notable a { text-decoration: none; }

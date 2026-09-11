@@ -1,7 +1,3 @@
-<p>If you are logged in at GameFAQs, you may view your Best Series Ever contest bracket <a href='http://www.gamefaqs.com/poll/cb5_myentry.php' title='View your GameFAQs Contest bracket' rel='nofollow'>here</a>.</p>
-
-<p>The <a href='http://www.gamefaqs.com/poll/cb5_stats.php' title='GameFAQs contest stats page' rel='nofollow'>contest stats page</a>.</p>
-
 <strong>Battle Royal Match #1 Oracle Consensus:</strong>
 <table>
 <tr><td>Link</td><td>27.02%</td></tr>

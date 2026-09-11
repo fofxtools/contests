@@ -33,17 +33,18 @@ $GF = [
 
 unset($__gf_local, $__gf_host, $__gf_db, $__gf_user, $__gf_pass);
 
-// Header link rows (Drupal primary-links / secondary-links; secondary paths de-mangled to /contest/N)
+// Header link rows (Drupal primary-links / secondary-links; secondary paths
+// point at All Match Results, filtered to that contest)
 const PRIMARY_LINKS = [
     ['title' => 'Contest Match Pictures', 'href' => '/gallery/'],
     ['title' => 'OracleChallenge.com',    'href' => 'http://www.oraclechallenge.com'],
     ['title' => 'Board 8 Wiki',           'href' => 'http://board8.fandom.com/wiki/Main_Page'],
 ];
 const SECONDARY_LINKS = [
-    ['title' => 'SC2K2',  'href' => '/contest/1'],
-    ['title' => 'SC2K3',  'href' => '/contest/2'],
-    ['title' => 'SpC2K4', 'href' => '/contest/3'],
-    ['title' => 'SC2K4',  'href' => '/contest/4'],
-    ['title' => 'SpC2K5', 'href' => '/contest/5'],
-    ['title' => 'SC2K5',  'href' => '/contest/6'],
+    ['title' => 'SC2K2',  'href' => '/node/100?contest_id=1'],
+    ['title' => 'SC2K3',  'href' => '/node/100?contest_id=2'],
+    ['title' => 'SpC2K4', 'href' => '/node/100?contest_id=3'],
+    ['title' => 'SC2K4',  'href' => '/node/100?contest_id=4'],
+    ['title' => 'SpC2K5', 'href' => '/node/100?contest_id=5'],
+    ['title' => 'SC2K5',  'href' => '/node/100?contest_id=6'],
 ];

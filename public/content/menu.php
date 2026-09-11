@@ -111,7 +111,7 @@ return json_decode(<<<'JSON'
  },
  {
   "title": "GOTD 2 2K20",
-  "path": "/contest/19",
+  "path": "/node/100?contest_id=19",
   "children": [
    {
     "title": "Poll Updates",
@@ -152,7 +152,7 @@ return json_decode(<<<'JSON'
  },
  {
   "title": "CB X 2K18",
-  "path": "/contest/18",
+  "path": "/node/100?contest_id=18",
   "children": [
    {
     "title": "Poll Updates",
@@ -188,7 +188,7 @@ return json_decode(<<<'JSON'
  },
  {
   "title": "Best Year 2K17",
-  "path": "/contest/17",
+  "path": "/node/100?contest_id=17",
   "children": [
    {
     "title": "Poll Updates",
@@ -219,7 +219,7 @@ return json_decode(<<<'JSON'
  },
  {
   "title": "BGE 2K15",
-  "path": "/contest/16",
+  "path": "/node/100?contest_id=16",
   "children": [
    {
     "title": "Poll Updates",
@@ -250,7 +250,7 @@ return json_decode(<<<'JSON'
  },
  {
   "title": "CB IX 2K13",
-  "path": "/contest/15",
+  "path": "/node/100?contest_id=15",
   "children": [
    {
     "title": "Poll Updates",
@@ -291,7 +291,7 @@ return json_decode(<<<'JSON'
  },
  {
   "title": "Rivalry 2K11",
-  "path": "/contest/14",
+  "path": "/node/100?contest_id=14",
   "children": [
    {
     "title": "Poll Updates",
@@ -332,7 +332,7 @@ return json_decode(<<<'JSON'
  },
  {
   "title": "GOTD 2K10",
-  "path": "/contest/13",
+  "path": "/node/100?contest_id=13",
   "children": [
    {
     "title": "Poll Updates",
@@ -373,7 +373,7 @@ return json_decode(<<<'JSON'
  },
  {
   "title": "CB VIII 2K10",
-  "path": "/contest/12",
+  "path": "/node/100?contest_id=12",
   "children": [
    {
     "title": "Poll Updates",
@@ -419,7 +419,7 @@ return json_decode(<<<'JSON'
  },
  {
   "title": "BGE 2K9",
-  "path": "/contest/11",
+  "path": "/node/100?contest_id=11",
   "children": [
    {
     "title": "Poll Updates",
@@ -445,7 +445,7 @@ return json_decode(<<<'JSON'
  },
  {
   "title": "CB 2K8",
-  "path": "/contest/10",
+  "path": "/node/100?contest_id=10",
   "children": [
    {
     "title": "Poll Updates",
@@ -466,7 +466,7 @@ return json_decode(<<<'JSON'
  },
  {
   "title": "CB 2K7",
-  "path": "/contest/9",
+  "path": "/node/100?contest_id=9",
   "children": [
    {
     "title": "Poll Updates",
@@ -487,7 +487,7 @@ return json_decode(<<<'JSON'
  },
  {
   "title": "CB 2K6",
-  "path": "/contest/8",
+  "path": "/node/100?contest_id=8",
   "children": [
    {
     "title": "Poll Updates",
@@ -500,7 +500,7 @@ return json_decode(<<<'JSON'
     "children": []
    },
    {
-    "title": "Links",
+    "title": "Battle Royale Oracle Consensus",
     "path": "/node/38",
     "children": []
    },
@@ -523,7 +523,7 @@ return json_decode(<<<'JSON'
  },
  {
   "title": "SC2K6",
-  "path": "/contest/7",
+  "path": "/node/100?contest_id=7",
   "children": [
    {
     "title": "Poll Updates",
@@ -554,7 +554,7 @@ return json_decode(<<<'JSON'
  },
  {
   "title": "SC2K5",
-  "path": "/contest/6",
+  "path": "/node/100?contest_id=6",
   "children": [
    {
     "title": "Poll Updates",
@@ -590,7 +590,7 @@ return json_decode(<<<'JSON'
  },
  {
   "title": "SpC2K5",
-  "path": "/contest/5",
+  "path": "/node/100?contest_id=5",
   "children": [
    {
     "title": "Poll Updates",
@@ -621,7 +621,7 @@ return json_decode(<<<'JSON'
  },
  {
   "title": "SC2K4",
-  "path": "/contest/4",
+  "path": "/node/100?contest_id=4",
   "children": [
    {
     "title": "Poll Updates",
@@ -657,7 +657,7 @@ return json_decode(<<<'JSON'
  },
  {
   "title": "SpC2K4",
-  "path": "/contest/3",
+  "path": "/node/100?contest_id=3",
   "children": [
    {
     "title": "Poll Updates",
@@ -693,7 +693,7 @@ return json_decode(<<<'JSON'
  },
  {
   "title": "SC2K3",
-  "path": "/contest/2",
+  "path": "/node/100?contest_id=2",
   "children": [
    {
     "title": "Poll Updates",
@@ -724,7 +724,7 @@ return json_decode(<<<'JSON'
  },
  {
   "title": "SC2K2",
-  "path": "/contest/1",
+  "path": "/node/100?contest_id=1",
   "children": [
    {
     "title": "Official Stats",

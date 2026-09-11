@@ -344,7 +344,7 @@ return json_decode(<<<'JSON'
  },
  "38": {
   "nid": 38,
-  "title": "CB 2K6",
+  "title": "Battle Royale Oracle Consensus",
   "tid": 8,
   "format": "PHP",
   "type": "fn",

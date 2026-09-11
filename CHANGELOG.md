@@ -1,5 +1,28 @@
 # Changelog
 
+## [1.1.8] - 2026-09-11
+
+### Added
+
+- AI Contest Summaries (`/node/104`): each contest now shows its actual
+  **Winner**, run dates, and bracket-pool winner — hand-checked against the
+  Board 8 wiki's own contest pages, replacing the AI-computed "Champion". Its
+  notable matches are hand-picked from those same wiki pages now too, each with
+  a `(graph)` link where poll-update data exists.
+
+### Changed
+
+- Every contest link — site menu, header row, home page, and each page's
+  "Contest:" tag — now goes to All Match Results filtered to that contest,
+  instead of an old, sparse landing page.
+
+### Fixed
+
+- Character Battle 2006's contest page had 4 dead links left over from the old
+  site. Removed.
+- A page titled "CB 2K6" was actually the Battle Royale Oracle Consensus
+  predictions with two dead links up top. Retitled and cleaned up.
+
 ## [1.1.7] - 2026-09-10
 
 ### Added

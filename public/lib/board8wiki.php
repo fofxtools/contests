@@ -3,9 +3,10 @@
  * "AI Contest Summaries" (/node/104) and "AI Match Summaries" (/node/105).
  *
  * board8wiki_summaries()        -- 19 contest overviews + the corpus download
- *   table. Reads data/board8wiki/summaries-contests.json (enriched with code /
- *   name / year / champion and resolved notable-match links by
- *   scripts/board8wiki-merge.py) and public/downloads/board8wiki/index.json.
+ *   table. Reads data/board8wiki/summaries-contests.json (AI tagline + summary
+ *   prose), data/board8wiki/contests-info.json (hand-curated winner, run dates,
+ *   bracket-pool winner and notable matches from the wiki infoboxes) and
+ *   public/downloads/board8wiki/index.json.
  * board8wiki_match_summaries()  -- a sortable/filterable table of the 1,528
  *   per-match AI headlines + anomaly flags, narratives shown on filter. Reads
  *   data/board8wiki/summaries-matches.json and reuses the All Match Results row
@@ -38,18 +39,27 @@ function board8wiki_summaries(): void
 {
     $root      = dirname(__DIR__, 2);
     $summaries = json_decode((string)@file_get_contents($root . '/data/board8wiki/summaries-contests.json'), true) ?: [];
-    $index     = json_decode((string)@file_get_contents($root . '/public/downloads/board8wiki/index.json'), true) ?: [];
+    $infoDoc   = json_decode((string)@file_get_contents($root . '/data/board8wiki/contests-info.json'), true) ?: [];
+    // the docroot ("public/" on dev, "public_html/" on the server) is one up from lib/
+    $index = json_decode((string)@file_get_contents(dirname(__DIR__) . '/downloads/board8wiki/index.json'), true) ?: [];
 
+    $hasUpd = amr_has_updates_map();   // poll => true when it has poll-update rows (for the graph link)
+
+    $info = [];
+    foreach ($infoDoc['contests'] ?? [] as $c) {
+        $info[(int)$c['tid']] = $c;
+    }
     $byTid = [];
     foreach ($summaries as $s) {
         $byTid[(int)$s['tid']] = $s;
     }
     ksort($byTid);
     ?>
-<p>AI summaries of every GameFAQs contest, written by an AI (ChatGPT)
-from the <a href="https://board8.fandom.com/" rel="nofollow">Board 8 wiki</a>'s
-contest overview pages. The wiki text is licensed <strong>CC BY-SA 3.0</strong>.
-These are machine-generated and may contain mistakes.</p>
+<p>A recap of every GameFAQs contest. The tagline and summary are AI-written
+(ChatGPT) from the <a href="https://board8.fandom.com/" rel="nofollow">Board 8
+wiki</a>'s contest overview pages (CC BY-SA 3.0) and may contain mistakes; the
+winner, run dates, bracket-pool winner and notable-match list are taken by hand
+from the wiki's own infoboxes.</p>
 
 <p class="amr-views"><strong>See also:</strong> <a href="/node/105">AI Match Summaries</a></p>
 
@@ -62,19 +72,24 @@ These are machine-generated and may contain mistakes.</p>
 </p>
 
 <?php foreach ($byTid as $tid => $s):
-    $code    = (string)($s['code'] ?? ('#' . $tid));
-    $name    = htmlspecialchars((string)($s['name'] ?? $code));
-    $champ   = trim((string)($s['champion'] ?? ''));
+    $inf  = $info[$tid] ?? [];
+    $code = (string)($s['code'] ?? ($inf['code'] ?? ('#' . $tid)));
+    $name = htmlspecialchars((string)($s['name'] ?? ($inf['name'] ?? $code)));
+    // Winner: the wiki infobox value (contests-info.json); fall back to the
+    // computed champion carried in summaries-contests.json.
+    $winner    = trim((string)($inf['winner'] ?? $s['champion'] ?? ''));
+    $winNote   = trim((string)($inf['winner_note'] ?? ''));
+    $poolWin   = trim((string)($inf['contest_winner'] ?? ''));
+    $announced = trim((string)($inf['announced'] ?? ''));
+    $ran       = !empty($inf['started']) && !empty($inf['ended'])
+        ? $inf['started'] . ' &ndash; ' . $inf['ended'] : '';
     $tagline = trim((string)($s['tagline'] ?? ''));
     $paras   = preg_split('/\n\s*\n/', trim((string)($s['summary'] ?? '')));
     ?>
 <div class="b8w-contest" id="c<?= $tid ?>">
   <h3><?= $name ?></h3>
   <p class="b8w-meta">
-    <a href="/contest/<?= $tid ?>"><?= htmlspecialchars($code) ?></a>
-<?php if ($champ !== ''): ?>
-    &middot; Champion: <strong><?= htmlspecialchars($champ) ?></strong>
-<?php endif; ?>
+    <a href="/node/100?contest_id=<?= $tid ?>"><?= htmlspecialchars($code) ?></a>
     &middot;
 <?php if ($wikiSlug = BOARD8WIKI_LINKS[$tid] ?? null): ?><a href="https://board8.fandom.com/wiki/<?= htmlspecialchars($wikiSlug, ENT_QUOTES) ?>" rel="nofollow">wiki</a> <?php endif; ?>(<a class="b8w-sub" href="/data/board8wiki/markdown/contests/<?= $tid ?>.md" title="the wiki overview as plain Markdown (our archive)">markdown</a>)
   </p>
@@ -86,19 +101,36 @@ These are machine-generated and may contain mistakes.</p>
 } ?>
   <p><?= htmlspecialchars(trim($p)) ?></p>
 <?php endforeach; ?>
+<?php if ($winner !== '' || $announced !== '' || $ran !== '' || $poolWin !== ''): ?>
+  <dl class="b8w-facts">
+<?php if ($winner !== ''): ?>
+    <dt>Winner</dt><dd><strong><?= htmlspecialchars($winner) ?></strong><?php if ($winNote !== ''): ?> &mdash; <?= htmlspecialchars($winNote) ?><?php endif; ?></dd>
+<?php endif; ?>
+<?php if ($announced !== ''): ?>
+    <dt>Announced</dt><dd><?= htmlspecialchars($announced) ?></dd>
+<?php endif; ?>
+<?php if ($ran !== ''): ?>
+    <dt>Ran</dt><dd><?= $ran ?></dd>
+<?php endif; ?>
+<?php if ($poolWin !== ''): ?>
+    <dt>Bracket-pool winner</dt><dd><?= htmlspecialchars($poolWin) ?></dd>
+<?php endif; ?>
+  </dl>
+<?php endif; ?>
 <?php
-    $links = [];
-    foreach ((array)($s['notable_matches'] ?? []) as $nm) {
-        $t       = htmlspecialchars((string)($nm['title'] ?? ('poll ' . ($nm['poll'] ?? '?'))));
-        $links[] = !empty($nm['url'])
-            ? '<a href="' . htmlspecialchars((string)$nm['url'], ENT_QUOTES) . '" rel="nofollow">' . $t . '</a>'
-            : $t;
-    }
-    if ($links): ?>
+    // notable matches: the hand-curated infobox list (contests-info.json) if we
+    // have one, else the AI-resolved list from summaries-contests.json
+    $nmList = !empty($inf['notable_matches']) ? $inf['notable_matches'] : (array)($s['notable_matches'] ?? []);
+    if ($nmList): ?>
   <div class="b8w-notable"><strong>Notable matches:</strong>
     <ul>
-<?php foreach ($links as $l): ?>
-      <li><?= $l ?></li>
+<?php foreach ($nmList as $nm):
+    $t    = htmlspecialchars((string)($nm['m'] ?? $nm['title'] ?? ('poll ' . ($nm['poll'] ?? '?'))));
+    $poll = (int)($nm['poll'] ?? 0);
+    $lbl  = !empty($nm['url'])
+        ? '<a href="' . htmlspecialchars((string)$nm['url'], ENT_QUOTES) . '" rel="nofollow">' . $t . '</a>'
+        : $t; ?>
+      <li><?= $lbl ?><?php if ($poll && !empty($hasUpd[$poll])): ?> (<a href="/graph/<?= $poll ?>?type=2&amp;seconds=60">graph</a>)<?php endif; ?></li>
 <?php endforeach; ?>
     </ul>
   </div>
@@ -153,7 +185,10 @@ browser.</p>
   <li><a href="/data/board8wiki/summaries-matches.json">summaries-matches.json</a>
     &mdash; the per-match AI headline, narrative and voting-anomaly flags (see <a href="/node/105">AI Match Summaries</a>).</li>
   <li><a href="/data/board8wiki/summaries-contests.json">summaries-contests.json</a>
-    &mdash; the 19 contest summaries on this page, as JSON.</li>
+    &mdash; the AI tagline and summary prose for the 19 contests on this page.</li>
+  <li><a href="/data/board8wiki/contests-info.json">contests-info.json</a>
+    &mdash; hand-curated per contest: winner, run dates, bracket-pool winner and
+    notable matches, from the Board 8 wiki overview infoboxes.</li>
 </ul>
 
 <p class="b8w-meta">Board 8 wiki text is CC BY-SA 3.0; see
@@ -300,11 +335,11 @@ The full narrative shows under each row
 <?php amr_filter_bar($u, '/node/105', $cur, $fEntLabel); ?>
 
 <p class="amr-views"><strong>Anomaly:</strong>
- <?php if ($fAnom === ''): ?><strong>any</strong><?php else: ?><a href="<?= $u(['anomaly' => null]) ?>">any</a><?php endif; ?>
+ <?php if ($fAnom === '' && !$fOff): ?><strong>any</strong><?php else: ?><a href="<?= $u(['anomaly' => null, 'off_topic' => null]) ?>">any</a><?php endif; ?>
 <?php foreach (B8W_ANOM as $tok => $lbl): ?>
- &middot; <?php if ($fAnom === $tok): ?><strong><?= $lbl ?></strong><?php else: ?><a href="<?= $u(['anomaly' => $tok]) ?>"><?= $lbl ?></a><?php endif; ?>
+ &middot; <?php if ($fAnom === $tok): ?><strong><?= $lbl ?></strong><?php else: ?><a href="<?= $u(['anomaly' => $tok, 'off_topic' => null]) ?>"><?= $lbl ?></a><?php endif; ?>
 <?php endforeach; ?>
- &middot; <?php if ($fOff): ?><strong>off-topic</strong> <a href="<?= $u(['off_topic' => null]) ?>" title="remove">[&times;]</a><?php else: ?><a href="<?= $u(['off_topic' => '1']) ?>">off-topic writeups</a><?php endif; ?></p>
+ &middot; <?php if ($fOff): ?><strong>off-topic</strong><?php else: ?><a href="<?= $u(['off_topic' => '1', 'anomaly' => null]) ?>">off-topic</a><?php endif; ?></p>
 
 <p class="amr-views"><strong>Round:</strong>
  <?php if ($fRound === ''): ?><strong>all</strong><?php else: ?><a href="<?= $u(['round' => null]) ?>">all</a><?php endif; ?>

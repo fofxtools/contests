@@ -220,7 +220,7 @@ function render_node(int $nid): ?array
     $tid = (int)($e['tid'] ?? 0);
     $c   = $tid > 0 ? (contests()[(string)$tid] ?? null) : null;
     if ($c) {
-        $body .= "\n<div class=\"terms\">Contest: <a href=\"/contest/{$tid}\">"
+        $body .= "\n<div class=\"terms\">Contest: <a href=\"/node/100?contest_id={$tid}\">"
                . htmlspecialchars($c['name']) . '</a></div>';
     }
 
@@ -243,7 +243,10 @@ function render_contest(int $tid): ?array
         'Other'                            => [],
     ];
     foreach ($c['nids'] as $nid) {
-        $e  = $m[(string)$nid] ?? [];
+        $e = $m[(string)$nid] ?? null;
+        if ($e === null) {
+            continue;   // terms.php nids that don't (or no longer) exist in the manifest
+        }
         $t  = $e['title'] ?? "node $nid";
         $li = '<li><a href="/node/' . (int)$nid . '">' . htmlspecialchars($t) . '</a></li>';
         if (in_array('listmatches', $e['fns'] ?? [], true) || stripos($t, 'poll updates') === 0) {
@@ -292,7 +295,7 @@ function render_front(): array
     $rows = [];
     foreach (contests() as $tid => $c) {
         $tid  = (int)$tid;
-        $name = '<a href="/contest/' . $tid . '">' . htmlspecialchars($c['name']) . '</a>';
+        $name = '<a href="/node/100?contest_id=' . $tid . '">' . htmlspecialchars($c['name']) . '</a>';
         $desc = htmlspecialchars($c['desc']);
 
         $pu = isset($pollup[$tid])
