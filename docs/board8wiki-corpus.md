@@ -15,7 +15,7 @@ attribute it and carry the licence (see *bundle* / *publish* below).
 | clean | done — `scripts/board8wiki-clean.py` → `data/board8wiki/markdown/{writeups,contests}/*.md` |
 | round / division | done — `scripts/extract-round-division.py` → `data/board8wiki/round-division.json` (`{poll: {round, round_ord, division, battle, source}}`, 1,528/1,528). Source waterfall: site DB `matches` (2002–06), the archived official bracket pages (2007–20), the GOTD writeup infoboxes, `Battle Royale`/`Bonus` labels for the rest. Cross-checked 0-inversion against Oracle `RoundNumber` (CB X's double-elim interleave aside). |
 | match record | done — `scripts/board8wiki-records.py` → `data/board8wiki/match-records.json` (authoritative per-match facts + `turnout_ratio` / bracket / Oracle / round-division context). **Run `extract-round-division.py` first.** |
-| extract (matches) | done via a **manual ChatGPT run** — 32 batches in `data/board8wiki/chatgpt/`, full coverage (1,528 / 1,528, no gaps/dupes). Anthropic Batches path (`scripts/board8wiki-extract.py`) built for comparison / future re-runs. |
+| extract (matches) | done via a **manual ChatGPT run** — 32 batches in `data/board8wiki/chatgpt/`, full coverage (1,528 / 1,528, no gaps/dupes). Anthropic Batches path (`scripts/board8wiki-extract.py`) built for comparison / future re-runs. Small-sample comparison done 2026-09-11 (100 matches + 19 contests, 7 configs) — see decision log below. |
 | extract (contests) | done via the same manual ChatGPT run — 19 records in `data/board8wiki/chatgpt/contests.json`. |
 | merge + validate | done — `scripts/board8wiki-merge.py` → `data/board8wiki/summaries-matches.json` (1,528, poll-keyed) + `data/board8wiki/summaries-contests.json` (19, enriched with `code` / `name` / `year` / `champion` and resolved `notable_matches` links). Report-only checks (completeness, anomaly vocab, note pairing, headline length, entrant-named, types, contest fields) — all clean. `tags` dropped. |
 | bundle (Markdown v1) | done — `scripts/board8wiki-bundle.py` → `public/downloads/board8wiki/` (19 packs + `board8wiki-all.md` + zip + `ATTRIBUTION.md`; gitignored, rebuild on deploy) |
@@ -28,7 +28,7 @@ attribute it and carry the licence (see *bundle* / *publish* below).
 
 Frozen, committed, consumed verbatim by whatever runs the extraction:
 
-- `scripts/board8wiki-primer.md` — **match extraction**. Given the authoritative
+- `docs/board8wiki-primer.md` — **match extraction**. Given the authoritative
   match record + the cleaned writeup, returns one JSON object per match:
   `{poll, voting_anomalies[], anomaly_note, off_topic, narrative, headline,
   tags[]}`. All numbers — and now `round` / `division` / `battle` — come from the
@@ -36,7 +36,7 @@ Frozen, committed, consumed verbatim by whatever runs the extraction:
   `lff` `rally` `cheating_alleged` `pic_factor`. (The pilot ChatGPT run predates
   this and still emitted `round`/`division`; those are ignored at merge. Trim them
   from the primer before any re-run.)
-- `scripts/board8wiki-primer-contests.md` — **contest summaries**. Given a fact
+- `docs/board8wiki-primer-contests.md` — **contest summaries**. Given a fact
   block + the cleaned overview page, returns one JSON object per contest:
   `{tid, tagline, summary, notable_matches[], off_topic}`.
 
@@ -176,7 +176,7 @@ endorsed.
 
 ## Publish
 
-- **Commit:** `scripts/board8wiki-*.{py,md}`,
+- **Commit:** `scripts/board8wiki-*.{py,md}`, `docs/board8wiki-primer*.md`,
   `scripts/extract-round-division.py`, `data/board8wiki/manifest.json`,
   `data/board8wiki/match-records.json`, `data/board8wiki/round-division.json`,
   `data/board8wiki/markdown/**`, `data/board8wiki/chatgpt/**`,
@@ -197,7 +197,7 @@ endorsed.
 | `data/board8wiki/markdown/**` (per-poll + per-contest `.md`) | commit — the archival snapshot |
 | `data/board8wiki/chatgpt/*.json` (raw batches) | commit — the only record of the manual run |
 | `data/board8wiki/summaries-matches.json`, `summaries-contests.json` | commit (the merge output) |
-| `scripts/board8wiki-*.{py,md}`, `scripts/extract-round-division.py`, `data/board8wiki/README.md` | commit |
+| `scripts/board8wiki-*.{py,md}`, `docs/board8wiki-primer*.md`, `scripts/extract-round-division.py`, `data/board8wiki/README.md` | commit |
 | `public/downloads/board8wiki/` (packs, zip) | deploy-time, gitignored |
 | GitHub Release: `board8wiki-markdown.zip`, `board8wiki-corpus.json` | Release only |
 
@@ -224,8 +224,31 @@ cacheable primer in; ~250 tok out.
   `data/board8wiki/markdown/contests/`. Good enough for the summary pass; revisit only if the
   bracket tables come through badly.
 - ~~`tags`~~ — dropped in the merge.
-- ~~ChatGPT vs an Anthropic run~~ — shipping ChatGPT output as canonical; the
-  Anthropic Batches path stays available for a future re-run / comparison.
+- ~~ChatGPT vs an Anthropic run~~ — shipping ChatGPT output as canonical.
+  Small-sample test (100 matches + 19 contests) against Sonnet/Haiku/Opus/Fable
+  5.1, with and without thinking (`local/b8w-anthropic-test.py`, throwaway):
+  **Opus with thinking on** was the best all-round performer (best-or-near-best
+  blind prose read, strong anomaly-tag accuracy, near-zero hallucinated
+  numbers) — well ahead of the ChatGPT baseline. Haiku was worst on every axis
+  (fabricated poll IDs and anomaly tags, worst prose). Fable 5.1 had excellent
+  prose but the worst structural fabrication (invented non-numeric
+  `notable_matches` entries). Not enough to justify a real re-run now — noted
+  for if one is ever done. The Anthropic Batches path stays available.
+
+  | config | schema issues (matches/contests, of 100/19) | hallucinated numbers (of 100+19) | anomaly-tag accuracy (of 49 disputed polls) | blind prose avg rank (of 7) |
+  |---|---|---|---|---|
+  | chatgpt (baseline) | 0 / 0 | 0 | 32 | 4.92 |
+  | sonnet | 0 / 5 | 5 | 30 | 4.38 |
+  | sonnet-think | 0 / 3 | 6 | 36 | 4.70 |
+  | haiku | 0 / 12 | 48 | 23 | 6.30 |
+  | opus | 3 / 10 | 2 | 31 | 2.84 |
+  | opus-think | 1 / 12 | 3 | 34 | **2.16 (best)** |
+  | fable-think | 0 / 52 | 0 | 33 | 2.70 |
+
+  "schema issues" and "hallucinated numbers" — lower is better. "anomaly-tag
+  accuracy" and "blind prose avg rank" (1=best, 7=worst) — see repo history /
+  session notes for the full per-poll adjudication and blind-read breakdown;
+  not committed here as a file.
 - Per-match site page (`/match/<poll>`) — not built; `/node/105` + the
   downloadable corpus cover it for now.
 - GitHub Release (`board8wiki-corpus-YYYYMMDD` with `board8wiki-markdown.zip` +

@@ -1,5 +1,22 @@
 # Changelog
 
+## [1.1.9] - 2026-09-11
+
+### Added
+
+- AI Match Summaries (`/node/105`): each match now shows a `graph` link above
+  its writeup link, wherever poll-update data exists — same as All Match
+  Results.
+
+### Fixed
+
+- A handful of AI-flagged voting anomalies, hand-corrected against the actual
+  Board 8 wiki writeups after a manual review pass (e.g. Crono/Pikachu/Magus
+  was missing its LFF flag; Zelda/DK/Charizard's LFF flag didn't match what
+  the writeup actually said). Corrections live in an overrides file
+  (`data/board8wiki/summaries-matches-overrides.json`)
+  so they survive any future re-run of the AI summaries.
+
 ## [1.1.8] - 2026-09-11
 
 ### Added

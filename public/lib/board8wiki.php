@@ -199,13 +199,29 @@ independent archive &mdash; not affiliated with GameFAQs or Fandom.</p>
 
 /** poll (string) => {poll, headline, narrative, voting_anomalies[], anomaly_note,
  *  off_topic}, from data/board8wiki/summaries-matches.json (built by
- *  scripts/board8wiki-merge.py). Decoded once per request. */
+ *  scripts/board8wiki-merge.py), with data/board8wiki/summaries-matches-overrides.json
+ *  (hand-maintained manual corrections, see docs/board8wiki-anomaly-calibration.md)
+ *  applied on top -- so the base file can be regenerated from a fresh ChatGPT/
+ *  Anthropic run at any time without losing the manual fixes. A `null`/absent
+ *  field in an override keeps the base value. Decoded once per request. */
 function b8w_summaries_matches(): array
 {
     static $map = null;
     if ($map === null) {
-        $path = dirname(__DIR__, 2) . '/data/board8wiki/summaries-matches.json';
-        $map  = json_decode((string)@file_get_contents($path), true) ?: [];
+        $root = dirname(__DIR__, 2);
+        $map  = json_decode((string)@file_get_contents($root . '/data/board8wiki/summaries-matches.json'), true) ?: [];
+
+        $overrides = json_decode((string)@file_get_contents($root . '/data/board8wiki/summaries-matches-overrides.json'), true) ?: [];
+        foreach ($overrides as $poll => $fields) {
+            if (!isset($map[$poll])) {
+                continue;
+            }
+            foreach ($fields as $k => $v) {
+                if ($v !== null) {
+                    $map[$poll][$k] = $v;
+                }
+            }
+        }
     }
 
     return $map;
@@ -403,6 +419,7 @@ The full narrative shows under each row
 <tr<?= $r['bonus'] !== null ? ' class="amr-bonus"' : '' ?>>
  <td class="amr-n"><?= $i ?></td>
  <td class="amr-n"><a href="https://gamefaqs.gamespot.com/poll/<?= $r['poll'] ?>-" rel="nofollow"><?= $r['poll'] ?></a>
+<?php if ($r['updates']): ?><br><a class="amr-sub" href="/graph/<?= $r['poll'] ?>?type=2&amp;seconds=60" title="Poll update graph for poll <?= $r['poll'] ?>">graph</a><?php endif; ?>
 <?php if ($r['writeup'] !== null): ?><br><a class="amr-sub" href="<?= htmlspecialchars($r['writeup'], ENT_QUOTES) ?>" rel="nofollow" title="Board 8 wiki writeup">writeup</a> (<a class="amr-sub" href="/data/board8wiki/markdown/writeups/<?= $r['poll'] ?>.md" title="that writeup as plain Markdown (our archive)">md</a>)<?php endif; ?></td>
  <td class="aims-c"><a href="/node/104#c<?= $r['tid'] ?>" title="<?= htmlspecialchars($r['cname'], ENT_QUOTES) ?>"><?= htmlspecialchars($codeByTid[$r['tid']] ?? $r['cname']) ?></a></td>
  <td class="aims-rd"><?= $rd ? htmlspecialchars($rd['round_label']) : '&mdash;' ?></td>

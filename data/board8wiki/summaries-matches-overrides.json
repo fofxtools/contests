@@ -1,0 +1,37 @@
+{
+  "3258": {
+   "voting_anomalies": ["rally"],
+   "anomaly_note": "The writeup attributes Captain Falcon's surprisingly strong opening to rally spillover from the preceding L-Block/Draven/Undertale match.",
+   "narrative": null
+  },
+  "5148": {
+   "voting_anomalies": ["sff"],
+   "anomaly_note": "The writeup says Rinoa got SFF'd hard by fellow Final Fantasy entrant Aeris.",
+   "narrative": null
+  },
+  "5220": {
+   "voting_anomalies": ["pic_factor"],
+   "anomaly_note": "Rikku's picture may have helped her.",
+   "narrative": null
+  },
+ "5240": {
+  "voting_anomalies": ["sff", "lff"],
+  "anomaly_note": "The writeup explicitly says Magus was SFFed into the ground by Crono. That same fanbase drain may have also helped Pikachu to beat Crono.",
+  "narrative": null
+ },
+ "5251": {
+  "voting_anomalies": ["rally"],
+  "anomaly_note": "The writeup says late rallies were necessary for Charizard to erase Zelda's lead and survive.",
+  "narrative": null
+ },
+ "6074": {
+  "voting_anomalies": ["rally", "sff"],
+  "anomaly_note": "The writeup says the Undertale rally spillover boosted Animal Crossing late in the match, helping to counteract Nintendo SFF.",
+  "narrative": null
+ },
+  "6176": {
+   "voting_anomalies": ["rally"],
+   "anomaly_note": "The writeup says rally spillover caused high early vote totals.",
+   "narrative": null
+  }
+}
