@@ -7,6 +7,7 @@
 declare(strict_types=1);
 require_once __DIR__ . '/db.php';
 require_once __DIR__ . '/bonus-polls.php';
+require_once __DIR__ . '/data.php';
 require_once __DIR__ . '/entrants.php';
 require_once __DIR__ . '/era-splits.php';
 
@@ -340,19 +341,13 @@ function listmatches($contest): void
 // updates.contest string  ->  contest taxonomy tid.
 // The contest string only exists as the hard-coded arg inside each listmatches
 // node, so this bridge is explicit. Verified 1:1 against DISTINCT updates.contest
-// (18 values, no blanks, no matchnum spanning two contests).
+// (18 values, no blanks, no matchnum spanning two contests). Every one of
+// those 18 strings is already a code in data/contest-ids.json, so this reuses
+// amr_contest_data() instead of its own hardcoded copy of the same mapping.
 // ---------------------------------------------------------------------------
 function contest_tid_for(string $contest): ?int
 {
-    static $map = [
-        'Summer 2K3' => 2,  'Spring 2K4' => 3,  'SC2K4' => 4,  'Spring 2K5' => 5,
-        'Summer 2K5' => 6,  'BSE 2K6' => 7,  'CB 2K6' => 8,  'CB VI' => 9,
-        'CB VII'     => 10, 'BGE 2K9' => 11, 'CB VIII' => 12, 'GOTD' => 13,
-        'Rivalry'    => 14, 'CB IX' => 15, 'BGE 2K15' => 16, 'Best Year' => 17,
-        'CB X'       => 18, 'GOTD 2' => 19,
-    ];
-
-    return $map[$contest] ?? null;
+    return amr_contest_data()[$contest][3] ?? null;
 }
 
 /** tid -> its "Poll Updates" (listmatches) node id, read from the manifest. */
@@ -614,26 +609,27 @@ const AMR_FLAG = [
 // that dropped its 3rd entrant; that row was deleted from `updates` (see cutover
 // notes) so the natural last row is now the correct 3-way result.
 
-/** DB contest code => [display name, year, entrant pool, contest tid]. Both DB
- *  spellings of a code are listed. The pool is the identity pool for that
- *  contest's entrants (character/game/series/rivalry/year) — amr_canon() uses it
- *  to resolve aliases within the right pool (BSE2K6 "Halo" the series must not
+/** contest_registry() (data.php), flattened into the shape the code used to
+ *  hardcode here: DB contest code => [display name, year, entrant pool,
+ *  contest tid]. Every code in a contest's "codes" list gets its own entry
+ *  pointing at the same tid. The pool is the identity pool for that contest's
+ *  entrants (character/game/series/rivalry/year) — amr_canon() uses it to
+ *  resolve aliases within the right pool (BSE2K6 "Halo" the series must not
  *  fold to the game). The tid matches content/terms.php / /contest/{tid}. */
-const AMR_CONTEST = [
-    'SC2K2'      => ['Summer 2002 Character Contest', 2002, 'character', 1],
-    'SC2K3'      => ['Summer 2003 Character Contest', 2003, 'character', 2], 'Summer 2K3' => ['Summer 2003 Character Contest', 2003, 'character', 2],
-    'Spring 2K4' => ['Spring 2004 Game Contest', 2004, 'game', 3], 'SC2K4' => ['Summer 2004 Character Contest', 2004, 'character', 4],
-    'Spring 2K5' => ['Spring 2005 Character Contest', 2005, 'character', 5], 'SC2K5' => ['Summer 2005 Character Contest', 2005, 'character', 6],
-    'Summer 2K5' => ['Summer 2005 Character Contest', 2005, 'character', 6],
-    'BSE2K6'     => ['Best Series Ever 2006', 2006, 'series', 7], 'BSE 2K6' => ['Best Series Ever 2006', 2006, 'series', 7],
-    'CB2K6'      => ['Character Battle 2006', 2006, 'character', 8], 'CB 2K6' => ['Character Battle 2006', 2006, 'character', 8],
-    'CB VI'      => ['Character Battle VI (2007)', 2007, 'character', 9], 'CB VII' => ['Character Battle VII (2008)', 2008, 'character', 10],
-    'BGE 2K9'    => ['Best. Game. Ever. (2009)', 2009, 'game', 11], 'CB VIII' => ['Character Battle VIII (2010)', 2010, 'character', 12],
-    'GOTD'       => ['Game of the Decade (2010)', 2010, 'game', 13], 'Rivalry' => ['Rivalry Rumble (2011)', 2011, 'rivalry', 14],
-    'CB IX'      => ['Character Battle IX (2013)', 2013, 'character', 15], 'BGE 2K15' => ['Best Game Ever (2015)', 2015, 'game', 16],
-    'Best Year'  => ['Best Year in Gaming (2017)', 2017, 'year', 17], 'CB X' => ['Character Battle X (2018)', 2018, 'character', 18],
-    'GOTD 2'     => ['Game of the Decade 2 (2020)', 2020, 'game', 19],
-];
+function amr_contest_data(): array
+{
+    static $data = null;
+    if ($data === null) {
+        $data = [];
+        foreach (contest_registry() as $c) {
+            foreach ($c['codes'] as $code) {
+                $data[$code] = [$c['name'], $c['year'], $c['pool'], $c['id']];
+            }
+        }
+    }
+
+    return $data;
+}
 
 /** data/contest-matches.json (see scripts/build-contest-matches.php), decoded
  *  once per request. Deployed alongside `public/` as a sibling `data/` dir —
@@ -719,9 +715,9 @@ function amr_rows(): array
     // for that matchnum, not just the last row's (which is frequently a
     // post-midnight tally write, off by a day — see that script's header
     // comment) — and this drops the aggregate query from the live request path
-    // entirely. Contest labels in the JSON match AMR_CONTEST's keys exactly for
-    // every contest reachable here (only the pre-2007 codes above spell
-    // differently, and none of them are matchnum > 2566 or a BR poll).
+    // entirely. Contest labels in the JSON match amr_contest_data()'s keys
+    // exactly for every contest reachable here (only the pre-2007 codes above
+    // spell differently, and none of them are matchnum > 2566 or a BR poll).
     foreach (amr_json_matches() as $label => $c) {
         foreach ($c['matches'] as $m) {
             $mn = (int)$m['poll'];
@@ -746,7 +742,7 @@ function amr_contest_list(): array
     static $list = null;
     if ($list === null) {
         $seen = [];
-        foreach (AMR_CONTEST as $code => [, $year, , $tid]) {
+        foreach (amr_contest_data() as $code => [, $year, , $tid]) {
             $seen[$tid] ??= ['code' => $code, 'year' => $year];
         }
         uasort($seen, fn ($a, $b) => $a['year'] <=> $b['year']);
@@ -756,11 +752,11 @@ function amr_contest_list(): array
     return $list;
 }
 
-/** Display name for a contest tid (the AMR_CONTEST label), or "contest #N" if the
- *  tid isn't a real contest (a hand-edited ?contest_id=). */
+/** Display name for a contest tid (the contest_registry() label), or "contest
+ *  #N" if the tid isn't a real contest (a hand-edited ?contest_id=). */
 function amr_contest_name(int $tid): string
 {
-    foreach (AMR_CONTEST as [$name, , , $t]) {
+    foreach (amr_contest_data() as [$name, , , $t]) {
         if ($t === $tid) {
             return $name;
         }
@@ -1004,7 +1000,7 @@ function amr_mk(int $poll, string $ccode, string $date, array $ents, bool $hasUp
         $e['pct'] = $total > 0 ? $e['votes'] / $total * 100 : 0.0;
     }
     unset($e);
-    [$cname, $cyear, $cpool, $ctid] = AMR_CONTEST[$ccode] ?? [$ccode, 9999, null, 0];
+    [$cname, $cyear, $cpool, $ctid] = amr_contest_data()[$ccode] ?? [$ccode, 9999, null, 0];
 
     // canonical registry id per entrant (null if unknown) — lets the entrant
     // filter and /node/102's gallery-pic join key off the id, not the name.

@@ -1,0 +1,21 @@
+[
+  { "id": 1,  "name": "Summer 2002 Character Contest",  "year": 2002, "pool": "character", "codes": ["SC2K2"] },
+  { "id": 2,  "name": "Summer 2003 Character Contest",  "year": 2003, "pool": "character", "codes": ["SC2K3", "Summer 2K3"] },
+  { "id": 3,  "name": "Spring 2004 Game Contest",       "year": 2004, "pool": "game",      "codes": ["Spring 2K4", "SpC2K4"] },
+  { "id": 4,  "name": "Summer 2004 Character Contest",  "year": 2004, "pool": "character", "codes": ["SC2K4"] },
+  { "id": 5,  "name": "Spring 2005 Character Contest",  "year": 2005, "pool": "character", "codes": ["Spring 2K5", "SpC2K5"] },
+  { "id": 6,  "name": "Summer 2005 Character Contest",  "year": 2005, "pool": "character", "codes": ["SC2K5", "Summer 2K5"] },
+  { "id": 7,  "name": "Best Series Ever 2006",          "year": 2006, "pool": "series",    "codes": ["BSE2K6", "BSE 2K6"] },
+  { "id": 8,  "name": "Character Battle 2006",          "year": 2006, "pool": "character", "codes": ["CB2K6", "CB 2K6"] },
+  { "id": 9,  "name": "Character Battle VI (2007)",     "year": 2007, "pool": "character", "codes": ["CB VI"] },
+  { "id": 10, "name": "Character Battle VII (2008)",    "year": 2008, "pool": "character", "codes": ["CB VII"] },
+  { "id": 11, "name": "Best. Game. Ever. (2009)",       "year": 2009, "pool": "game",      "codes": ["BGE 2K9"] },
+  { "id": 12, "name": "Character Battle VIII (2010)",   "year": 2010, "pool": "character", "codes": ["CB VIII"] },
+  { "id": 13, "name": "Game of the Decade (2010)",      "year": 2010, "pool": "game",      "codes": ["GOTD"] },
+  { "id": 14, "name": "Rivalry Rumble (2011)",          "year": 2011, "pool": "rivalry",   "codes": ["Rivalry"] },
+  { "id": 15, "name": "Character Battle IX (2013)",     "year": 2013, "pool": "character", "codes": ["CB IX"] },
+  { "id": 16, "name": "Best Game Ever (2015)",          "year": 2015, "pool": "game",      "codes": ["BGE 2K15"] },
+  { "id": 17, "name": "Best Year in Gaming (2017)",     "year": 2017, "pool": "year",      "codes": ["Best Year"] },
+  { "id": 18, "name": "Character Battle X (2018)",      "year": 2018, "pool": "character", "codes": ["CB X"] },
+  { "id": 19, "name": "Game of the Decade 2 (2020)",    "year": 2020, "pool": "game",      "codes": ["GOTD 2"] }
+]

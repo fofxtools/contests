@@ -2,11 +2,28 @@
 <p><a href="http://www.gamefaqs.com/boards/8-gamefaqs-contests?search=stats"><strong>Find the stats topic</strong></a></p>
 <p><a href="http://www.gamefaqs.com/boards/8-gamefaqs-contests?search=Oracle">Find the Oracle Challenge topic</a></p>
 {{CONTESTS_TABLE}}
+
 <h3>All Match Results</h3>
 <ul><li><a href="/node/100">All contest matches</a> - final votes and percentages, sortable and filterable by entrant or contest.</li>
 <li><a href="/node/102">All contest pictures</a> - all match pics, filterable by entrant or contest.</li>
 <li><a href="/node/104">AI Contest Summaries</a> - AI generated contest summaries based on board 8 wiki pages.</li>
 <li><a href="/node/105">AI Match Summaries</a> - AI generated match summaries based on board 8 wiki writeups.</li></ul>
+
+<h3>Elo Ratings</h3>
+<p>Elo ratings for every entrant, built from all official contest matches and kept in separate pools by type (character, game, series, rivalry, year).</p>
+<ul>
+<li><a href="/elo">Base Elo ratings</a> - More career based (K=32). Click entrant for graph.</li>
+<li><a href="/elo?method=voteshare_tuned">Tuned Elo ratings</a> - Weighted toward recent results (K=256).</li>
+<li><a href="/elo/compare?pool=character&amp;method=voteshare_tuned">Head-to-head comparison (tuned)</a> - chart several entrants&rsquo; rating histories together and get an estimated matchup between any two. <a href="/elo/compare?pool=character&amp;ids=47,15,1,93,44,62,63,55&amp;method=voteshare_tuned">Example.</a></li>
+</ul>
+
+<h3>Luce Fit Ratings</h3>
+<p>Luce proportional-strength model.</p>
+<ul>
+<li><a href="/luce">Luce ratings</a> - A prediction error minimization fit, by contest.</li>
+<li><a href="/luce/compare/contest">Head-to-head prediction</a> - predict a match (within a contest only). <a href="/luce/compare/contest?contest_id=18&amp;ids=47,15,1,93,44,62,63,600">Example.</a></li>
+<li><a href="/luce/compare">Cross-contest comparison</a> - graphs across contests.</li>
+</ul>
 
 <h3>Oracle PAA</h3>
 <p>Points Above Average from the Oracle Challenge - how far each predictor&rsquo;s match score sat above the field average.</p>
@@ -17,13 +34,7 @@ Oracle - Teams
 <ul><li><a href="/oracle/team-predictions">All Team Match Results Ever</a> - every scored team match, with PAA and member picks, filterable by contest or team</li>
 <li><a href="/paa/team-average?min=25">Average Team PAA standings</a> - best per-match rate</li>
 <li><a href="/paa/team-lifetime">Lifetime Team PAA standings</a> - career total</li></ul>
-<h3>Elo Ratings</h3>
-<p>Elo ratings for every entrant, built from all official contest matches and kept in separate pools by type (character, game, series, rivalry, year).</p>
-<ul>
-<li><a href="/elo?method=voteshare_tuned">Tuned Elo ratings</a> - the vote-share Elo ratings tuned to best match real poll outcomes.</li>
-<li><a href="/elo">Base Elo standings</a> - each entrant links to an individual rating-history graph.</li>
-<li><a href="/elo/compare?pool=character&amp;method=voteshare_tuned">Head-to-head comparison (tuned)</a> - chart several entrants&rsquo; rating histories together and get an estimated matchup between any two. <a href="/elo/compare?pool=character&amp;ids=47,15,1,93,44,62,63,55&amp;method=voteshare_tuned">Example.</a></li>
-</ul>
+
 <h3>Site Feature Notes</h3>
 <ul>
 <li>Each <a href='/graph/2922?type=2&amp;seconds=60'>poll-update graph</a> has a <strong>Smoothing</strong> control (all updates / 1 min / 5 min / 15 min) for the noisier matches. You can also set any interval by hand with <code>&amp;seconds=N</code> in the URL (e.g. <code>&amp;seconds=3600</code> for hourly).</li>
@@ -33,6 +44,7 @@ Oracle - Teams
 <script>
 (function(){var s=document.getElementById("oldsite-link");if(!s)return;var a=document.createElement("a");a.href=atob("aHR0cHM6Ly9vbGQuZ2FtZWZhcXNjb250ZXN0cy5jb20v");a.rel="nofollow noopener";a.textContent="the original site";s.textContent="";s.appendChild(a);})();
 </script>
+
 <h3>X-Stat Tools</h3>
 <p>Generalized x-stats esimators - input strength values and get estimates of how the match would go:</p>
 <ul>
@@ -48,5 +60,6 @@ Oracle - Teams
 </ul>
 <p>User NGamer has created <a href='http://www.thengamer.com/xstats'>a website for x-stats</a>.</p>
 <p>User RPGuy96 has created an <a href='/node/26' title='Extrapolated Standings Calculator'>Extrapolated Standings Calculator</a> - a downloadable tool that can be used to estimate the results of hypothetical match-ups based on past data. To use it, you will need the Java Runtime Environment.</p>
+
 <h3>Acknowledgements</h3>
 <p>Thanks to RPGuy, Team Rocket Elite, transcience, and Xuxon for the Character Battle V Battle Royale poll updates. See the <a href="/node/101">Acknowledgements</a> page for more.</p>

@@ -14,7 +14,7 @@ ini_set('display_errors', '0');
 require __DIR__ . '/lib/config.php';
 require __DIR__ . '/lib/router.php';
 require __DIR__ . '/lib/content.php';
-foreach (['contest', 'calc', 'graph', 'oracle-functions', 'paa', 'elo', 'board8wiki'] as $mod) {
+foreach (['contest', 'calc', 'graph', 'oracle-functions', 'paa', 'elo', 'luce', 'board8wiki'] as $mod) {
     $p = __DIR__ . "/lib/$mod.php";
     if (is_file($p)) {
         require $p;
@@ -150,6 +150,34 @@ switch ($r['handler']) {
     case 'elo_compare':
         $e                        = elo_compare_render();
         [$title, $content, $code] = [$e['title'], $e['body'], $e['code']];
+        $breadcrumb               = crumb(htmlspecialchars($title));
+
+        break;
+
+    case 'luce_standings':
+        $l                        = luce_standings_render();
+        [$title, $content, $code] = [$l['title'], $l['body'], $l['code']];
+        $breadcrumb               = crumb(htmlspecialchars($title));
+
+        break;
+
+    case 'luce':
+        $l                        = luce_render((int)$r['id']);
+        [$title, $content, $code] = [$l['title'], $l['body'], $l['code']];
+        $breadcrumb               = crumb(htmlspecialchars($title));
+
+        break;
+
+    case 'luce_compare':
+        $l                        = luce_compare_render();
+        [$title, $content, $code] = [$l['title'], $l['body'], $l['code']];
+        $breadcrumb               = crumb(htmlspecialchars($title));
+
+        break;
+
+    case 'luce_compare_contest':
+        $l                        = luce_compare_contest_render();
+        [$title, $content, $code] = [$l['title'], $l['body'], $l['code']];
         $breadcrumb               = crumb(htmlspecialchars($title));
 
         break;

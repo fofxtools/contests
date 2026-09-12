@@ -46,6 +46,18 @@ function route(string $uri): array
     if (preg_match('#^/elo/(\d+)$#', $path, $m)) {
         return ['handler' => 'elo',     'id' => (int)$m[1]];
     }
+    if ($path === '/luce') {
+        return ['handler' => 'luce_standings'];
+    }
+    if ($path === '/luce/compare/contest') {
+        return ['handler' => 'luce_compare_contest'];
+    }
+    if ($path === '/luce/compare') {
+        return ['handler' => 'luce_compare'];
+    }
+    if (preg_match('#^/luce/(\d+)$#', $path, $m)) {
+        return ['handler' => 'luce',    'id' => (int)$m[1]];
+    }
     if ($path === '/paa/average') {
         return ['handler' => 'paa_average'];
     }

@@ -41,10 +41,8 @@ const PRIMARY_LINKS = [
     ['title' => 'Board 8 Wiki',           'href' => 'http://board8.fandom.com/wiki/Main_Page'],
 ];
 const SECONDARY_LINKS = [
-    ['title' => 'SC2K2',  'href' => '/node/100?contest_id=1'],
-    ['title' => 'SC2K3',  'href' => '/node/100?contest_id=2'],
-    ['title' => 'SpC2K4', 'href' => '/node/100?contest_id=3'],
-    ['title' => 'SC2K4',  'href' => '/node/100?contest_id=4'],
-    ['title' => 'SpC2K5', 'href' => '/node/100?contest_id=5'],
-    ['title' => 'SC2K5',  'href' => '/node/100?contest_id=6'],
+    ['title' => 'All Matches',        'href' => '/node/100'],
+    ['title' => 'Elo Ratings',        'href' => '/elo?method=voteshare'],
+    ['title' => 'Luce Ratings',       'href' => '/luce'],
+    ['title' => 'AI Match Summaries', 'href' => '/node/105'],
 ];

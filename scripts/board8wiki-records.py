@@ -44,6 +44,10 @@ In : data/contest-matches-normalized.json
      data/bracket-pick-stats.json           (poll -> official bracket picks; optional)
      data/oracle-match-stats.json           (Oracle consensus per match; optional)
      data/board8wiki/round-division.json    (poll -> round / division; optional)
+     data/contest-ids.json                  (contest name -> canonical id, via
+                                              its "codes" aliases -- every
+                                              contest-matches-normalized.json
+                                              contest label is one of them)
 Out: data/board8wiki/match-records.json     (keyed by poll, string)
 
   .venv/bin/python scripts/board8wiki-records.py
@@ -69,6 +73,7 @@ PAGES = ROOT / "storage" / "board8wiki" / "pages.jsonl"
 BRACKET = ROOT / "data" / "bracket-pick-stats.json"
 ORACLE = ROOT / "data" / "oracle-match-stats.json"
 ROUNDDIV = ROOT / "data" / "board8wiki" / "round-division.json"
+CONTEST_IDS = ROOT / "data" / "contest-ids.json"
 OUT = ROOT / "data" / "board8wiki" / "match-records.json"
 
 _IMG_RE = re.compile(r"\[\[(?:Image|File):\s*([^\]|\n]+?)\s*(?:\||\]\])", re.IGNORECASE)
@@ -219,7 +224,7 @@ def map_positions(ours: list[str], other: list[str]) -> list[int]:
 
 
 def main() -> int:
-    for p in (NORM, WRITEUPS):
+    for p in (NORM, WRITEUPS, CONTEST_IDS):
         if not p.exists():
             sys.exit(f"missing {p}")
     matches = {m["poll"]: m for m in json.loads(NORM.read_text())}
@@ -267,6 +272,22 @@ def main() -> int:
     if not rounddiv:
         print(
             f"note: {ROUNDDIV.relative_to(ROOT)} not found -- round/division fields will be null"
+        )
+
+    # contest name -> canonical id, via every alias in contest-ids.json's
+    # "codes" (contest-matches-normalized.json's own "contest" spelling is one
+    # of them, but not always the *preferred* one -- e.g. "SpC2K4" here vs.
+    # "Spring 2K4" as contest-ids.json's canonical display code).
+    contest_id_by_label: dict[str, int] = {}
+    for c in json.loads(CONTEST_IDS.read_text()):
+        for code in c["codes"]:
+            contest_id_by_label[code] = c["id"]
+    unknown_contests = {
+        m["contest"] for m in matches.values()
+    } - contest_id_by_label.keys()
+    if unknown_contests:
+        sys.exit(
+            f"contest(s) not found in {CONTEST_IDS.relative_to(ROOT)}: {sorted(unknown_contests)}"
         )
 
     # contest median match total, over official non-Battle-Royale matches -- the
@@ -386,6 +407,7 @@ def main() -> int:
             "poll": poll,
             "date": m["date"],
             "contest": m["contest"],
+            "contest_id": contest_id_by_label[m["contest"]],
             "pool": m["pool"],
             "official": m.get("official", True),
             "bonus_reason": m.get("bonus_reason"),

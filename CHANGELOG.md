@@ -1,5 +1,37 @@
 # Changelog
 
+## [1.2.0] - 2026-09-12
+
+### Added
+
+- **Luce Fit Ratings**: a new rating system alongside Elo — one strength
+  rating per entrant, fit independently for each contest (unlike Elo, not a
+  running career rating; ratings from different contests aren't comparable to
+  each other). Four pages, linked from the home page and the Contest
+  Resources menu:
+  - `/luce`: sortable ratings table, one contest at a time.
+  - `/luce/{id}`: an entrant's rating across every contest they've appeared
+    in, with a graph once they've been in 2 or more.
+  - `/luce/compare`: chart several entrants' per-contest ratings together.
+  - `/luce/compare/contest`: pick entrants from one contest and get an
+    estimated head-to-head — this works because entrants from the same
+    contest share the same fit.
+
+### Changed
+
+- Home page: reorganized so Elo Ratings and the new Luce Fit Ratings sections
+  sit right after All Match Results.
+- Top nav bar: the six-contest quick-link row replaced with links to All
+  Matches, Elo Ratings, Luce Ratings, and AI Match Summaries.
+- AI Match Summaries (`/node/105`): trimmed the raw-JSON download list down to
+  just `match-records.json`.
+
+### Fixed
+
+- Two contests (Spring 2004 Game Contest, Spring 2005 Character Contest)
+  displayed as "SpC2K4"/"SpC2K5" instead of their proper short name in a few
+  places (AI Contest Summaries page, site menu).
+
 ## [1.1.9] - 2026-09-11
 
 ### Added

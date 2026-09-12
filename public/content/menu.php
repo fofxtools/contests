@@ -5,7 +5,7 @@ return json_decode(<<<'JSON'
 [
  {
   "title": "Contest Match Pics",
-  "path": "/gallery/index.php",
+  "path": "/gallery/",
   "children": []
  },
  {
@@ -70,6 +70,11 @@ return json_decode(<<<'JSON'
    {
     "title": "Elo Ratings",
     "path": "/elo",
+    "children": []
+   },
+   {
+    "title": "Luce Fit Ratings",
+    "path": "/luce",
     "children": []
    },
    {
@@ -589,7 +594,7 @@ return json_decode(<<<'JSON'
   ]
  },
  {
-  "title": "SpC2K5",
+  "title": "Spring 2K5",
   "path": "/node/100?contest_id=5",
   "children": [
    {
@@ -656,7 +661,7 @@ return json_decode(<<<'JSON'
   ]
  },
  {
-  "title": "SpC2K4",
+  "title": "Spring 2K4",
   "path": "/node/100?contest_id=3",
   "children": [
    {

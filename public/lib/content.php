@@ -2,6 +2,8 @@
 
 declare(strict_types=1);
 
+require_once __DIR__ . '/data.php';
+
 /**
  * Contest tid -> GameFAQs feature pages, as [link label => feature slug] in display order
  * (gamefaqs.gamespot.com/features/<slug>). Older contests have one stats page; the newer
@@ -293,10 +295,10 @@ function render_front(): array
     }
 
     $rows = [];
-    foreach (contests() as $tid => $c) {
-        $tid  = (int)$tid;
-        $name = '<a href="/node/100?contest_id=' . $tid . '">' . htmlspecialchars($c['name']) . '</a>';
-        $desc = htmlspecialchars($c['desc']);
+    foreach (contest_registry() as $c) {
+        $tid  = (int)$c['id'];
+        $name = '<a href="/node/100?contest_id=' . $tid . '">' . htmlspecialchars($c['codes'][0]) . '</a>';
+        $desc = htmlspecialchars($c['name']);
 
         $pu = isset($pollup[$tid])
             ? '<td><a href="/node/' . $pollup[$tid] . '">Poll Updates</a></td>'

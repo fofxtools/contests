@@ -55,6 +55,7 @@ ROOT = Path(__file__).resolve().parents[1]
 BATCH_DIR = ROOT / "data" / "board8wiki" / "chatgpt"
 CONTESTS_IN = BATCH_DIR / "contests.json"
 RECORDS = ROOT / "data" / "board8wiki" / "match-records.json"
+CONTEST_IDS = ROOT / "data" / "contest-ids.json"
 ENTRANTS_PHP = ROOT / "public" / "lib" / "entrants.php"
 TERMS_PHP = ROOT / "public" / "content" / "terms.php"
 OUT_MATCHES = ROOT / "data" / "board8wiki" / "summaries-matches.json"
@@ -62,30 +63,6 @@ OUT_CONTESTS = ROOT / "data" / "board8wiki" / "summaries-contests.json"
 
 ANOMALY_VOCAB = {"sff", "lff", "rally", "cheating_alleged", "pic_factor"}
 KEEP_MATCH = ("headline", "narrative", "voting_anomalies", "anomaly_note", "off_topic")
-
-# tid -> the contest code as it appears in match-records.json's `contest` field
-# (terms.php has its own codes that don't all line up -- SC2K6 vs BSE2K6 etc.)
-TID_CODE = {
-    1: "SC2K2",
-    2: "SC2K3",
-    3: "SpC2K4",
-    4: "SC2K4",
-    5: "SpC2K5",
-    6: "SC2K5",
-    7: "BSE2K6",
-    8: "CB2K6",
-    9: "CB VI",
-    10: "CB VII",
-    11: "BGE 2K9",
-    12: "CB VIII",
-    13: "GOTD",
-    14: "Rivalry",
-    15: "CB IX",
-    16: "BGE 2K15",
-    17: "Best Year",
-    18: "CB X",
-    19: "GOTD 2",
-}
 
 # ---------------------------------------------------------------- name matching
 
@@ -194,16 +171,23 @@ def main() -> int:
         ).stdout
     )
     name_by_tid = {int(k): v["desc"] for k, v in terms.items()}
+    code_by_tid = {c["id"]: c["codes"][0] for c in json.loads(CONTEST_IDS.read_text())}
+
+    # keyed by contest_id (every match-records.json record already carries its
+    # own, resolved via contest-ids.json's aliases -- see
+    # scripts/board8wiki-records.py), not by the raw `contest` string, which
+    # doesn't always match contest-ids.json's preferred code spelling
+    # (e.g. "SpC2K4" here vs. "Spring 2K4" there).
     champion, year = {}, {}
     for r in records.values():
-        c = r["contest"]
+        tid = r["contest_id"]
         y = int((r.get("date") or "0")[:4])
-        year[c] = min(year.get(c, 9999), y) if y else year.get(c, 9999)
+        year[tid] = min(year.get(tid, 9999), y) if y else year.get(tid, 9999)
         if r.get("official"):
             key = (r.get("date") or "", int(r["poll"]))
-            if key >= champion.get(c, (("", 0), ""))[0]:
-                champion[c] = (key, r.get("winner") or "")
-    champion = {c: v[1] for c, v in champion.items()}
+            if key >= champion.get(tid, (("", 0), ""))[0]:
+                champion[tid] = (key, r.get("winner") or "")
+    champion = {tid: v[1] for tid, v in champion.items()}
 
     # --- gather batches ------------------------------------------------
     seen: dict[int, str] = {}
@@ -287,7 +271,7 @@ def main() -> int:
     out_contests = []
     for c in sorted(contests, key=lambda c: c["tid"]):
         tid = int(c["tid"])
-        code = TID_CODE.get(tid, "")
+        code = code_by_tid.get(tid, "")
         notable = []
         for p in c.get("notable_matches") or []:
             m = records.get(str(p))
@@ -303,8 +287,8 @@ def main() -> int:
                 "tid": tid,
                 "code": code,
                 "name": name_by_tid.get(tid, code),
-                "year": year.get(code),
-                "champion": champion.get(code, ""),
+                "year": year.get(tid),
+                "champion": champion.get(tid, ""),
                 "tagline": c.get("tagline"),
                 "summary": c.get("summary"),
                 "notable_matches": notable,

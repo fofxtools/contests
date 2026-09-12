@@ -182,13 +182,6 @@ browser.</p>
 <ul>
   <li><a href="/data/board8wiki/match-records.json">match-records.json</a>
     &mdash; every match: seeds, votes, margins, round / division, turnout ratio, bracket pick %, Oracle consensus.</li>
-  <li><a href="/data/board8wiki/summaries-matches.json">summaries-matches.json</a>
-    &mdash; the per-match AI headline, narrative and voting-anomaly flags (see <a href="/node/105">AI Match Summaries</a>).</li>
-  <li><a href="/data/board8wiki/summaries-contests.json">summaries-contests.json</a>
-    &mdash; the AI tagline and summary prose for the 19 contests on this page.</li>
-  <li><a href="/data/board8wiki/contests-info.json">contests-info.json</a>
-    &mdash; hand-curated per contest: winner, run dates, bracket-pool winner and
-    notable matches, from the Board 8 wiki overview infoboxes.</li>
 </ul>
 
 <p class="b8w-meta">Board 8 wiki text is CC BY-SA 3.0; see
