@@ -34,31 +34,50 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 MD_DIR = ROOT / "data" / "board8wiki" / "markdown"
 NORMALIZED = ROOT / "data" / "contest-matches-normalized.json"
+CONTEST_IDS = ROOT / "data" / "contest-ids.json"
 OUT_DEFAULT = ROOT / "public" / "downloads" / "board8wiki"
 
-# code (as it appears in contest-matches-normalized.json), tid, year, file slug, title.
-# Order is chronological and matches the tid numbering.
-CONTESTS: list[tuple[str, int, int, str, str]] = [
-    ("SC2K2", 1, 2002, "sc2k2", "Summer 2002 Character Contest"),
-    ("SC2K3", 2, 2003, "sc2k3", "Summer 2003 Character Contest"),
-    ("SpC2K4", 3, 2004, "spc2k4", "Spring 2004 Game Contest"),
-    ("SC2K4", 4, 2004, "sc2k4", "Summer 2004 Character Contest"),
-    ("SpC2K5", 5, 2005, "spc2k5", "Spring 2005 Character Contest"),
-    ("SC2K5", 6, 2005, "sc2k5", "Summer 2005 Character Contest"),
-    ("BSE2K6", 7, 2006, "bse2k6", "Best Series Ever 2006"),
-    ("CB2K6", 8, 2006, "cb2k6", "Character Battle 2006"),
-    ("CB VI", 9, 2007, "cb6", "Character Battle VI (2007)"),
-    ("CB VII", 10, 2008, "cb7", "Character Battle VII (2008)"),
-    ("BGE 2K9", 11, 2009, "bge2k9", "Best. Game. Ever. (2009)"),
-    ("CB VIII", 12, 2010, "cb8", "Character Battle VIII (2010)"),
-    ("GOTD", 13, 2010, "gotd", "Game of the Decade (2010)"),
-    ("Rivalry", 14, 2011, "rivalry", "Rivalry Rumble (2011)"),
-    ("CB IX", 15, 2013, "cb9", "Character Battle IX (2013)"),
-    ("BGE 2K15", 16, 2015, "bge2k15", "Best Game Ever (2015)"),
-    ("Best Year", 17, 2017, "bestyear", "Best Year in Gaming (2017)"),
-    ("CB X", 18, 2018, "cb10", "Character Battle X (2018)"),
-    ("GOTD 2", 19, 2020, "gotd2", "Game of the Decade 2 (2020)"),
-]
+# contest_id -> output filename slug. The only per-contest fact with no home in
+# data/contest-ids.json (code, year and title all come from there instead) --
+# see load_contests() below.
+SLUG_BY_TID = {
+    1: "sc2k2",
+    2: "sc2k3",
+    3: "spc2k4",
+    4: "sc2k4",
+    5: "spc2k5",
+    6: "sc2k5",
+    7: "bse2k6",
+    8: "cb2k6",
+    9: "cb6",
+    10: "cb7",
+    11: "bge2k9",
+    12: "cb8",
+    13: "gotd",
+    14: "rivalry",
+    15: "cb9",
+    16: "bge2k15",
+    17: "bestyear",
+    18: "cb10",
+    19: "gotd2",
+}
+
+
+def load_contests() -> list[tuple[str, int, int, str, str]]:
+    """(code, tid, year, slug, title) tuples, chronological (contest-ids.json's own order).
+
+    code is as it appears in contest-matches-normalized.json -- data/contest-ids.json's
+    "codes"[0], the pipeline join key (not its separate, purely-cosmetic "label" field),
+    so this needs no manual edit when that spelling changes.
+    """
+    registry = json.loads(CONTEST_IDS.read_text())
+    return [
+        (c["codes"][0], c["id"], c["year"], SLUG_BY_TID[c["id"]], c["name"])
+        for c in registry
+    ]
+
+
+CONTESTS = load_contests()
 
 SEP = "\n\n---\n\n"
 

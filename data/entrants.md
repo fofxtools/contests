@@ -1,14 +1,14 @@
 # Canonical Entrant Registry
 
-_Generated 2026-09-04 21:09 UTC — do not edit by hand. Source of truth is
+_Generated 2026-09-14 08:29 UTC — do not edit by hand. Source of truth is
 `public/lib/entrants.php`; rebuild + validate with `php scripts/build-entrants.php`._
 
-**888 entities** — 406 character, 350 game, 32 series, 64 rivalry, 36 year.
+**887 entities** — 405 character, 350 game, 32 series, 64 rivalry, 36 year.
 
 IDs are order of first appearance by poll id (alphabetical within a poll) and are
 frozen. `first seen` is the first contest / poll an entity (any spelling) appears in.
 
-## Character (406)
+## Character (405)
 
 | id | name | aliases | first seen | matches (official) |
 |--:|:--|:--|:--|--:|
@@ -121,35 +121,35 @@ frozen. `first seen` is the first contest / poll an entity (any spelling) appear
 | 171 | Viewtiful Joe |  | SC2K4 #1744 | 3 (3) |
 | 172 | HK-47 |  | SC2K4 #1746 | 4 (4) |
 | 173 | Ryu Hayabusa |  | SC2K4 #1747 | 13 (13) |
-| 174 | Pyramid Head |  | SpC2K5 #1989 | 3 (3) |
-| 175 | Andross |  | SpC2K5 #1990 | 1 (1) |
-| 176 | Sigma |  | SpC2K5 #1990 | 2 (2) |
-| 177 | Nemesis |  | SpC2K5 #1991 | 1 (1) |
-| 178 | Revolver Ocelot |  | SpC2K5 #1991 | 11 (11) |
-| 179 | Dr. Wily |  | SpC2K5 #1992 | 2 (2) |
-| 180 | Ultros |  | SpC2K5 #1992 | 1 (1) |
-| 181 | Ramirez |  | SpC2K5 #1993 | 1 (1) |
-| 182 | Ghaleon |  | SpC2K5 #1994 | 1 (1) |
-| 183 | Vergil |  | SpC2K5 #1994 | 4 (4) |
-| 184 | Lavos |  | SpC2K5 #1995 | 2 (2) |
-| 185 | Mother Brain |  | SpC2K5 #1995 | 1 (1) |
-| 186 | Officer Tenpenny |  | SpC2K5 #1996 | 1 (1) |
-| 187 | Mithos |  | SpC2K5 #1997 | 1 (1) |
-| 188 | Albert Wesker | Wesker | SpC2K5 #1998 | 8 (8) |
-| 189 | Albedo |  | SpC2K5 #1999 | 1 (1) |
-| 190 | M. Bison |  | SpC2K5 #1999 | 2 (2) |
-| 191 | Diablo |  | SpC2K5 #2000 | 7 (7) |
-| 192 | Ridley |  | SpC2K5 #2000 | 5 (5) |
-| 193 | Giygas |  | SpC2K5 #2001 | 1 (1) |
-| 194 | Ansem |  | SpC2K5 #2002 | 2 (2) |
-| 195 | Dr. Robotnik | Dr. Ivo "Eggman" Robotnik | SpC2K5 #2003 | 4 (4) |
-| 196 | Sin |  | SpC2K5 #2003 | 1 (1) |
-| 197 | Kuja |  | SpC2K5 #2004 | 1 (1) |
-| 198 | Master Hand |  | SpC2K5 #2004 | 4 (4) |
+| 174 | Pyramid Head |  | Spring 2K5 #1989 | 3 (3) |
+| 175 | Andross |  | Spring 2K5 #1990 | 1 (1) |
+| 176 | Sigma |  | Spring 2K5 #1990 | 2 (2) |
+| 177 | Nemesis |  | Spring 2K5 #1991 | 1 (1) |
+| 178 | Revolver Ocelot |  | Spring 2K5 #1991 | 11 (11) |
+| 179 | Dr. Wily |  | Spring 2K5 #1992 | 2 (2) |
+| 180 | Ultros |  | Spring 2K5 #1992 | 1 (1) |
+| 181 | Ramirez |  | Spring 2K5 #1993 | 1 (1) |
+| 182 | Ghaleon |  | Spring 2K5 #1994 | 1 (1) |
+| 183 | Vergil |  | Spring 2K5 #1994 | 4 (4) |
+| 184 | Lavos |  | Spring 2K5 #1995 | 2 (2) |
+| 185 | Mother Brain |  | Spring 2K5 #1995 | 1 (1) |
+| 186 | Officer Tenpenny |  | Spring 2K5 #1996 | 1 (1) |
+| 187 | Mithos |  | Spring 2K5 #1997 | 1 (1) |
+| 188 | Albert Wesker | Wesker | Spring 2K5 #1998 | 8 (8) |
+| 189 | Albedo |  | Spring 2K5 #1999 | 1 (1) |
+| 190 | M. Bison |  | Spring 2K5 #1999 | 2 (2) |
+| 191 | Diablo |  | Spring 2K5 #2000 | 7 (7) |
+| 192 | Ridley |  | Spring 2K5 #2000 | 5 (5) |
+| 193 | Giygas |  | Spring 2K5 #2001 | 1 (1) |
+| 194 | Ansem |  | Spring 2K5 #2002 | 2 (2) |
+| 195 | Dr. Robotnik | Dr. Ivo "Eggman" Robotnik | Spring 2K5 #2003 | 4 (4) |
+| 196 | Sin |  | Spring 2K5 #2003 | 1 (1) |
+| 197 | Kuja |  | Spring 2K5 #2004 | 1 (1) |
+| 198 | Master Hand |  | Spring 2K5 #2004 | 4 (4) |
 | 199 | Joanna Dark |  | SC2K5 #2066 | 3 (3) |
 | 200 | Carl Johnson |  | SC2K5 #2067 | 1 (1) |
 | 201 | Lloyd Irving |  | SC2K5 #2069 | 7 (7) |
-| 202 | Yuri |  | SC2K5 #2070 | 1 (1) |
+| 202 | Yuri Hyuga |  | SC2K5 #2070 | 2 (2) |
 | 203 | Riku |  | SC2K5 #2071 | 11 (11) |
 | 204 | Big Boss |  | SC2K5 #2073 | 14 (14) |
 | 205 | Manny Calavera |  | SC2K5 #2074 | 1 (1) |
@@ -334,159 +334,158 @@ frozen. `first seen` is the first contest / poll an entity (any spelling) appear
 | 630 | Mordin Solus |  | CB IX #5175 | 1 (1) |
 | 631 | Shulk |  | CB IX #5176 | 2 (2) |
 | 632 | Slime |  | CB IX #5177 | 1 (1) |
-| 633 | Yuri Hyuga |  | CB IX #5177 | 1 (1) |
-| 634 | Sen. Steven Armstrong |  | CB IX #5179 | 1 (1) |
-| 635 | Handsome Jack |  | CB IX #5180 | 1 (1) |
-| 636 | Francis York Morgan |  | CB IX #5181 | 1 (1) |
-| 637 | Lugia |  | CB IX #5181 | 2 (2) |
-| 638 | Squirtle |  | CB IX #5183 | 4 (4) |
-| 639 | Spring Breeze Dancin' |  | CB IX #5184 | 2 (1) |
-| 640 | Kat |  | CB IX #5185 | 1 (1) |
-| 641 | Yu Narukami |  | CB IX #5185 | 2 (2) |
-| 642 | Oliver |  | CB IX #5186 | 1 (1) |
-| 643 | Hades |  | CB IX #5187 | 1 (1) |
-| 644 | Missile |  | CB IX #5188 | 1 (1) |
-| 645 | Hal "Otacon" Emmerich |  | CB IX #5190 | 1 (1) |
-| 646 | Booker DeWitt |  | CB IX #5192 | 1 (1) |
-| 647 | Gilgamesh |  | CB IX #5192 | 2 (2) |
-| 648 | Groose |  | CB IX #5193 | 1 (1) |
-| 649 | Lu Bu |  | CB IX #5193 | 1 (1) |
-| 650 | Yoshimitsu |  | CB IX #5193 | 2 (2) |
-| 651 | Lee Everett |  | CB IX #5194 | 1 (1) |
-| 652 | Meat Boy |  | CB IX #5194 | 1 (1) |
-| 653 | Mr. Game & Watch |  | CB IX #5194 | 2 (2) |
-| 654 | Steve |  | CB IX #5195 | 1 (1) |
-| 655 | Pokemon Trainer Blue |  | CB IX #5196 | 3 (3) |
-| 656 | Wolf O'Donnell |  | CB IX #5196 | 1 (1) |
-| 657 | Isaac Clarke |  | CB IX #5197 | 1 (1) |
-| 658 | Catherine |  | CB IX #5198 | 2 (2) |
-| 659 | Vaas Montenegro |  | CB IX #5198 | 1 (1) |
-| 660 | Seifer Almasy |  | CB IX #5199 | 1 (1) |
-| 661 | Palutena |  | CB IX #5202 | 1 (1) |
-| 662 | Teemo |  | CB IX #5202 | 1 (1) |
-| 663 | Dragonborn |  | CB IX #5203 | 3 (3) |
-| 664 | Cirno |  | CB IX #5205 | 1 (1) |
-| 665 | Adam Jensen |  | CB IX #5207 | 1 (1) |
-| 666 | Marisa Kirisame |  | CB IX #5207 | 1 (1) |
-| 667 | Commander Video |  | CB IX #5209 | 1 (1) |
-| 668 | Adol Christin |  | CB IX #5210 | 1 (1) |
-| 669 | Creeper |  | CB IX #5212 | 1 (1) |
-| 670 | Corvo Attano |  | CB IX #5213 | 1 (1) |
-| 671 | Sissel |  | CB IX #5213 | 1 (1) |
-| 672 | Urdnot Wrex |  | CB IX #5214 | 2 (2) |
-| 673 | Magikarp |  | CB IX #5215 | 1 (1) |
-| 674 | Recette Lemongrass |  | CB IX #5216 | 1 (1) |
-| 675 | Mike Haggar |  | CB IX #5217 | 1 (1) |
-| 676 | Red Bird |  | CB IX #5217 | 1 (1) |
-| 677 | Boko |  | CB IX #5218 | 1 (1) |
-| 678 | Lyndis |  | CB IX #5220 | 1 (1) |
-| 679 | John Marston |  | CB IX #5221 | 2 (2) |
-| 680 | Nier |  | CB IX #5223 | 1 (1) |
-| 758 | Cuphead |  | CB X #7238 | 1 (1) |
-| 759 | Chloe Price |  | CB X #7239 | 1 (1) |
-| 760 | Victor Sullivan |  | CB X #7243 | 1 (1) |
-| 761 | Primrose |  | CB X #7246 | 1 (1) |
-| 762 | Noctis Lucis Caelum |  | CB X #7248 | 1 (1) |
-| 763 | Monika |  | CB X #7249 | 1 (1) |
-| 764 | Shantae |  | CB X #7250 | 1 (1) |
-| 765 | James Sunderland |  | CB X #7251 | 1 (1) |
-| 766 | Velvet Crowe |  | CB X #7251 | 2 (2) |
-| 767 | Neptune |  | CB X #7255 | 1 (1) |
-| 768 | Godot |  | CB X #7259 | 1 (1) |
-| 769 | Kazuma Kiryu |  | CB X #7261 | 1 (1) |
-| 770 | 2B |  | CB X #7262 | 3 (3) |
-| 771 | Cayde-6 |  | CB X #7262 | 1 (1) |
-| 772 | Joel |  | CB X #7267 | 1 (1) |
-| 773 | Estelle Bright |  | CB X #7268 | 1 (1) |
-| 774 | Guile |  | CB X #7269 | 1 (1) |
-| 775 | Hat Kid |  | CB X #7270 | 1 (1) |
-| 776 | Metal Sonic |  | CB X #7272 | 1 (1) |
-| 777 | Aloy |  | CB X #7274 | 1 (1) |
-| 778 | D.Va |  | CB X #7274 | 2 (2) |
-| 779 | Captain Toad |  | CB X #7276 | 2 (2) |
-| 780 | Shovel Knight |  | CB X #7276 | 1 (1) |
-| 781 | Geralt |  | CB X #7278 | 4 (4) |
-| 782 | Rosalina |  | CB X #7278 | 1 (1) |
-| 783 | Sans |  | CB X #7280 | 1 (1) |
-| 784 | Ren Amamiya / Joker |  | CB X #7285 | 1 (1) |
-| 785 | Monokuma |  | CB X #7287 | 1 (1) |
-| 786 | Goro Majima |  | CB X #7288 | 1 (1) |
-| 787 | Isabelle |  | CB X #7293 | 1 (1) |
-| 788 | Richter Belmont |  | CB X #7295 | 1 (1) |
-| 789 | Metal Man |  | CB X #7297 | 1 (1) |
-| 790 | King K. Rool |  | CB X #7299 | 1 (1) |
-| 791 | Ellie |  | CB X #7300 | 1 (1) |
-| 792 | Aqua |  | CB X #7301 | 2 (2) |
-| 793 | Quiet |  | CB X #7301 | 1 (1) |
+| 633 | Sen. Steven Armstrong |  | CB IX #5179 | 1 (1) |
+| 634 | Handsome Jack |  | CB IX #5180 | 1 (1) |
+| 635 | Francis York Morgan |  | CB IX #5181 | 1 (1) |
+| 636 | Lugia |  | CB IX #5181 | 2 (2) |
+| 637 | Squirtle |  | CB IX #5183 | 4 (4) |
+| 638 | Spring Breeze Dancin' |  | CB IX #5184 | 2 (1) |
+| 639 | Kat |  | CB IX #5185 | 1 (1) |
+| 640 | Yu Narukami |  | CB IX #5185 | 2 (2) |
+| 641 | Oliver |  | CB IX #5186 | 1 (1) |
+| 642 | Hades |  | CB IX #5187 | 1 (1) |
+| 643 | Missile |  | CB IX #5188 | 1 (1) |
+| 644 | Hal "Otacon" Emmerich |  | CB IX #5190 | 1 (1) |
+| 645 | Booker DeWitt |  | CB IX #5192 | 1 (1) |
+| 646 | Gilgamesh |  | CB IX #5192 | 2 (2) |
+| 647 | Groose |  | CB IX #5193 | 1 (1) |
+| 648 | Lu Bu |  | CB IX #5193 | 1 (1) |
+| 649 | Yoshimitsu |  | CB IX #5193 | 2 (2) |
+| 650 | Lee Everett |  | CB IX #5194 | 1 (1) |
+| 651 | Meat Boy |  | CB IX #5194 | 1 (1) |
+| 652 | Mr. Game & Watch |  | CB IX #5194 | 2 (2) |
+| 653 | Steve |  | CB IX #5195 | 1 (1) |
+| 654 | Pokemon Trainer Blue |  | CB IX #5196 | 3 (3) |
+| 655 | Wolf O'Donnell |  | CB IX #5196 | 1 (1) |
+| 656 | Isaac Clarke |  | CB IX #5197 | 1 (1) |
+| 657 | Catherine |  | CB IX #5198 | 2 (2) |
+| 658 | Vaas Montenegro |  | CB IX #5198 | 1 (1) |
+| 659 | Seifer Almasy |  | CB IX #5199 | 1 (1) |
+| 660 | Palutena |  | CB IX #5202 | 1 (1) |
+| 661 | Teemo |  | CB IX #5202 | 1 (1) |
+| 662 | Dragonborn |  | CB IX #5203 | 3 (3) |
+| 663 | Cirno |  | CB IX #5205 | 1 (1) |
+| 664 | Adam Jensen |  | CB IX #5207 | 1 (1) |
+| 665 | Marisa Kirisame |  | CB IX #5207 | 1 (1) |
+| 666 | Commander Video |  | CB IX #5209 | 1 (1) |
+| 667 | Adol Christin |  | CB IX #5210 | 1 (1) |
+| 668 | Creeper |  | CB IX #5212 | 1 (1) |
+| 669 | Corvo Attano |  | CB IX #5213 | 1 (1) |
+| 670 | Sissel |  | CB IX #5213 | 1 (1) |
+| 671 | Urdnot Wrex |  | CB IX #5214 | 2 (2) |
+| 672 | Magikarp |  | CB IX #5215 | 1 (1) |
+| 673 | Recette Lemongrass |  | CB IX #5216 | 1 (1) |
+| 674 | Mike Haggar |  | CB IX #5217 | 1 (1) |
+| 675 | Red Bird |  | CB IX #5217 | 1 (1) |
+| 676 | Boko |  | CB IX #5218 | 1 (1) |
+| 677 | Lyndis |  | CB IX #5220 | 1 (1) |
+| 678 | John Marston |  | CB IX #5221 | 2 (2) |
+| 679 | Nier |  | CB IX #5223 | 1 (1) |
+| 757 | Cuphead |  | CB X #7238 | 1 (1) |
+| 758 | Chloe Price |  | CB X #7239 | 1 (1) |
+| 759 | Victor Sullivan |  | CB X #7243 | 1 (1) |
+| 760 | Primrose |  | CB X #7246 | 1 (1) |
+| 761 | Noctis Lucis Caelum |  | CB X #7248 | 1 (1) |
+| 762 | Monika |  | CB X #7249 | 1 (1) |
+| 763 | Shantae |  | CB X #7250 | 1 (1) |
+| 764 | James Sunderland |  | CB X #7251 | 1 (1) |
+| 765 | Velvet Crowe |  | CB X #7251 | 2 (2) |
+| 766 | Neptune |  | CB X #7255 | 1 (1) |
+| 767 | Godot |  | CB X #7259 | 1 (1) |
+| 768 | Kazuma Kiryu |  | CB X #7261 | 1 (1) |
+| 769 | 2B |  | CB X #7262 | 3 (3) |
+| 770 | Cayde-6 |  | CB X #7262 | 1 (1) |
+| 771 | Joel |  | CB X #7267 | 1 (1) |
+| 772 | Estelle Bright |  | CB X #7268 | 1 (1) |
+| 773 | Guile |  | CB X #7269 | 1 (1) |
+| 774 | Hat Kid |  | CB X #7270 | 1 (1) |
+| 775 | Metal Sonic |  | CB X #7272 | 1 (1) |
+| 776 | Aloy |  | CB X #7274 | 1 (1) |
+| 777 | D.Va |  | CB X #7274 | 2 (2) |
+| 778 | Captain Toad |  | CB X #7276 | 2 (2) |
+| 779 | Shovel Knight |  | CB X #7276 | 1 (1) |
+| 780 | Geralt |  | CB X #7278 | 4 (4) |
+| 781 | Rosalina |  | CB X #7278 | 1 (1) |
+| 782 | Sans |  | CB X #7280 | 1 (1) |
+| 783 | Ren Amamiya / Joker |  | CB X #7285 | 1 (1) |
+| 784 | Monokuma |  | CB X #7287 | 1 (1) |
+| 785 | Goro Majima |  | CB X #7288 | 1 (1) |
+| 786 | Isabelle |  | CB X #7293 | 1 (1) |
+| 787 | Richter Belmont |  | CB X #7295 | 1 (1) |
+| 788 | Metal Man |  | CB X #7297 | 1 (1) |
+| 789 | King K. Rool |  | CB X #7299 | 1 (1) |
+| 790 | Ellie |  | CB X #7300 | 1 (1) |
+| 791 | Aqua |  | CB X #7301 | 2 (2) |
+| 792 | Quiet |  | CB X #7301 | 1 (1) |
 
 ## Game (350)
 
 | id | name | aliases | first seen | matches (official) |
 |--:|:--|:--|:--|--:|
-| 95 | Metal Gear |  | SpC2K4 #1601 | 1 (1) |
-| 96 | Super Mario Bros. 3 |  | SpC2K4 #1601 | 12 (12) |
-| 97 | Metroid |  | SpC2K4 #1602 | 4 (4) |
-| 98 | Pac-Man |  | SpC2K4 #1602 | 3 (3) |
-| 99 | Contra |  | SpC2K4 #1603 | 3 (3) |
-| 100 | Phantasy Star |  | SpC2K4 #1603 | 1 (1) |
-| 101 | Final Fantasy |  | SpC2K4 #1604 | 5 (5) |
-| 102 | Pitfall |  | SpC2K4 #1604 | 1 (1) |
-| 103 | Donkey Kong |  | SpC2K4 #1605 | 4 (4) |
-| 104 | Duck Hunt |  | SpC2K4 #1605 | 2 (2) |
-| 105 | Adventure |  | SpC2K4 #1606 | 1 (1) |
-| 106 | The Legend of Zelda |  | SpC2K4 #1606 | 8 (8) |
-| 107 | Pong |  | SpC2K4 #1607 | 3 (3) |
-| 108 | River City Ransom |  | SpC2K4 #1607 | 2 (2) |
-| 109 | Galaga |  | SpC2K4 #1608 | 2 (2) |
-| 110 | Tetris |  | SpC2K4 #1608 | 7 (7) |
-| 111 | Chrono Trigger |  | SpC2K4 #1609 | 14 (13) |
-| 112 | Secret of Mana |  | SpC2K4 #1609 | 2 (2) |
-| 113 | Street Fighter II |  | SpC2K4 #1610 | 3 (3) |
-| 114 | Super Mario RPG: Legend of the Seven Stars | Super Mario RPG | SpC2K4 #1610 | 11 (10) |
-| 115 | Shining Force |  | SpC2K4 #1611 | 1 (1) |
-| 116 | Sonic the Hedgehog 2 | Sonic 2 | SpC2K4 #1611 | 7 (7) |
-| 117 | Super Mario World |  | SpC2K4 #1612 | 11 (11) |
-| 118 | The Simpsons |  | SpC2K4 #1612 | 1 (1) |
-| 119 | Gunstar Heroes |  | SpC2K4 #1613 | 2 (2) |
-| 120 | The Legend of Zelda: A Link to the Past | A Link to the Past, Zelda: A Link to the Past | SpC2K4 #1613 | 15 (15) |
-| 121 | Phantasy Star IV |  | SpC2K4 #1614 | 2 (2) |
-| 122 | Super Metroid |  | SpC2K4 #1614 | 8 (8) |
-| 123 | Doom (1993) |  | SpC2K4 #1615 | 3 (3) |
-| 124 | EarthBound | Earthbound | SpC2K4 #1615 | 4 (4) |
-| 125 | Final Fantasy VI | Final Fantasy III (VI) | SpC2K4 #1616 | 12 (11) |
-| 126 | Mortal Kombat |  | SpC2K4 #1616 | 1 (1) |
-| 127 | Final Fantasy VII |  | SpC2K4 #1617 | 19 (17) |
-| 128 | Suikoden II |  | SpC2K4 #1617 | 3 (3) |
-| 129 | Pokemon Gold/Silver | Pokemon Gold/Silver/Crystal, Pokemon Gold/Silver/Crystal Version | SpC2K4 #1618 | 8 (8) |
-| 130 | Xenogears |  | SpC2K4 #1618 | 4 (4) |
-| 131 | Dance Dance Revolution |  | SpC2K4 #1619 | 1 (1) |
-| 132 | Final Fantasy Tactics |  | SpC2K4 #1619 | 5 (5) |
-| 133 | Metal Gear Solid |  | SpC2K4 #1620 | 10 (10) |
-| 134 | Resident Evil |  | SpC2K4 #1620 | 3 (3) |
-| 135 | Castlevania: Symphony of the Night | Symphony of the Night | SpC2K4 #1621 | 8 (8) |
-| 136 | Perfect Dark |  | SpC2K4 #1621 | 5 (5) |
-| 137 | GoldenEye 007 | Goldeneye | SpC2K4 #1622 | 8 (8) |
-| 138 | Panzer Dragoon Saga |  | SpC2K4 #1622 | 1 (1) |
-| 139 | NiGHTS into dreams... |  | SpC2K4 #1623 | 1 (1) |
-| 140 | Super Mario 64 |  | SpC2K4 #1623 | 12 (11) |
-| 141 | Fallout 2 |  | SpC2K4 #1624 | 1 (1) |
-| 142 | The Legend of Zelda: Ocarina of Time | Ocarina of Time | SpC2K4 #1624 | 19 (17) |
-| 143 | Halo: Combat Evolved | Halo | SpC2K4 #1625 | 9 (9) |
-| 144 | Starcraft |  | SpC2K4 #1625 | 8 (8) |
-| 145 | Kingdom Hearts |  | SpC2K4 #1626 | 9 (9) |
-| 146 | SoulCalibur | Soul Calibur | SpC2K4 #1626 | 2 (2) |
-| 147 | Skies of Arcadia |  | SpC2K4 #1627 | 4 (4) |
-| 148 | The Legend of Zelda: The Wind Waker | The Wind Waker, Wind Waker, The Legend of Zelda: Wind Waker | SpC2K4 #1627 | 12 (12) |
-| 149 | Half-Life |  | SpC2K4 #1628 | 3 (3) |
-| 150 | Metroid Prime |  | SpC2K4 #1628 | 11 (11) |
-| 151 | Final Fantasy Tactics Advance |  | SpC2K4 #1629 | 2 (2) |
-| 152 | Fire Emblem |  | SpC2K4 #1629 | 4 (4) |
-| 153 | Final Fantasy X |  | SpC2K4 #1630 | 18 (18) |
-| 154 | Shenmue |  | SpC2K4 #1630 | 3 (3) |
-| 155 | Grand Theft Auto: Vice City | Vice City | SpC2K4 #1631 | 7 (7) |
-| 156 | Star Wars: Knights of the Old Republic | Knights of the Old Republic | SpC2K4 #1631 | 7 (7) |
-| 157 | Metal Gear Solid 2: Sons of Liberty | Metal Gear Solid 2 | SpC2K4 #1632 | 8 (8) |
-| 158 | Super Smash Bros. Melee |  | SpC2K4 #1632 | 20 (19) |
+| 95 | Metal Gear |  | Spring 2K4 #1601 | 1 (1) |
+| 96 | Super Mario Bros. 3 |  | Spring 2K4 #1601 | 12 (12) |
+| 97 | Metroid |  | Spring 2K4 #1602 | 4 (4) |
+| 98 | Pac-Man |  | Spring 2K4 #1602 | 3 (3) |
+| 99 | Contra |  | Spring 2K4 #1603 | 3 (3) |
+| 100 | Phantasy Star |  | Spring 2K4 #1603 | 1 (1) |
+| 101 | Final Fantasy |  | Spring 2K4 #1604 | 5 (5) |
+| 102 | Pitfall |  | Spring 2K4 #1604 | 1 (1) |
+| 103 | Donkey Kong |  | Spring 2K4 #1605 | 4 (4) |
+| 104 | Duck Hunt |  | Spring 2K4 #1605 | 2 (2) |
+| 105 | Adventure |  | Spring 2K4 #1606 | 1 (1) |
+| 106 | The Legend of Zelda |  | Spring 2K4 #1606 | 8 (8) |
+| 107 | Pong |  | Spring 2K4 #1607 | 3 (3) |
+| 108 | River City Ransom |  | Spring 2K4 #1607 | 2 (2) |
+| 109 | Galaga |  | Spring 2K4 #1608 | 2 (2) |
+| 110 | Tetris |  | Spring 2K4 #1608 | 7 (7) |
+| 111 | Chrono Trigger |  | Spring 2K4 #1609 | 14 (13) |
+| 112 | Secret of Mana |  | Spring 2K4 #1609 | 2 (2) |
+| 113 | Street Fighter II |  | Spring 2K4 #1610 | 3 (3) |
+| 114 | Super Mario RPG: Legend of the Seven Stars | Super Mario RPG | Spring 2K4 #1610 | 11 (10) |
+| 115 | Shining Force |  | Spring 2K4 #1611 | 1 (1) |
+| 116 | Sonic the Hedgehog 2 | Sonic 2 | Spring 2K4 #1611 | 7 (7) |
+| 117 | Super Mario World |  | Spring 2K4 #1612 | 11 (11) |
+| 118 | The Simpsons |  | Spring 2K4 #1612 | 1 (1) |
+| 119 | Gunstar Heroes |  | Spring 2K4 #1613 | 2 (2) |
+| 120 | The Legend of Zelda: A Link to the Past | A Link to the Past, Zelda: A Link to the Past | Spring 2K4 #1613 | 15 (15) |
+| 121 | Phantasy Star IV |  | Spring 2K4 #1614 | 2 (2) |
+| 122 | Super Metroid |  | Spring 2K4 #1614 | 8 (8) |
+| 123 | Doom (1993) |  | Spring 2K4 #1615 | 3 (3) |
+| 124 | EarthBound | Earthbound | Spring 2K4 #1615 | 4 (4) |
+| 125 | Final Fantasy VI | Final Fantasy III (VI) | Spring 2K4 #1616 | 12 (11) |
+| 126 | Mortal Kombat |  | Spring 2K4 #1616 | 1 (1) |
+| 127 | Final Fantasy VII |  | Spring 2K4 #1617 | 19 (17) |
+| 128 | Suikoden II |  | Spring 2K4 #1617 | 3 (3) |
+| 129 | Pokemon Gold/Silver | Pokemon Gold/Silver/Crystal, Pokemon Gold/Silver/Crystal Version | Spring 2K4 #1618 | 8 (8) |
+| 130 | Xenogears |  | Spring 2K4 #1618 | 4 (4) |
+| 131 | Dance Dance Revolution |  | Spring 2K4 #1619 | 1 (1) |
+| 132 | Final Fantasy Tactics |  | Spring 2K4 #1619 | 5 (5) |
+| 133 | Metal Gear Solid |  | Spring 2K4 #1620 | 10 (10) |
+| 134 | Resident Evil |  | Spring 2K4 #1620 | 3 (3) |
+| 135 | Castlevania: Symphony of the Night | Symphony of the Night | Spring 2K4 #1621 | 8 (8) |
+| 136 | Perfect Dark |  | Spring 2K4 #1621 | 5 (5) |
+| 137 | GoldenEye 007 | Goldeneye | Spring 2K4 #1622 | 8 (8) |
+| 138 | Panzer Dragoon Saga |  | Spring 2K4 #1622 | 1 (1) |
+| 139 | NiGHTS into dreams... |  | Spring 2K4 #1623 | 1 (1) |
+| 140 | Super Mario 64 |  | Spring 2K4 #1623 | 12 (11) |
+| 141 | Fallout 2 |  | Spring 2K4 #1624 | 1 (1) |
+| 142 | The Legend of Zelda: Ocarina of Time | Ocarina of Time | Spring 2K4 #1624 | 19 (17) |
+| 143 | Halo: Combat Evolved | Halo | Spring 2K4 #1625 | 9 (9) |
+| 144 | Starcraft |  | Spring 2K4 #1625 | 8 (8) |
+| 145 | Kingdom Hearts |  | Spring 2K4 #1626 | 9 (9) |
+| 146 | SoulCalibur | Soul Calibur | Spring 2K4 #1626 | 2 (2) |
+| 147 | Skies of Arcadia |  | Spring 2K4 #1627 | 4 (4) |
+| 148 | The Legend of Zelda: The Wind Waker | The Wind Waker, Wind Waker, The Legend of Zelda: Wind Waker | Spring 2K4 #1627 | 12 (12) |
+| 149 | Half-Life |  | Spring 2K4 #1628 | 3 (3) |
+| 150 | Metroid Prime |  | Spring 2K4 #1628 | 11 (11) |
+| 151 | Final Fantasy Tactics Advance |  | Spring 2K4 #1629 | 2 (2) |
+| 152 | Fire Emblem |  | Spring 2K4 #1629 | 4 (4) |
+| 153 | Final Fantasy X |  | Spring 2K4 #1630 | 18 (18) |
+| 154 | Shenmue |  | Spring 2K4 #1630 | 3 (3) |
+| 155 | Grand Theft Auto: Vice City | Vice City | Spring 2K4 #1631 | 7 (7) |
+| 156 | Star Wars: Knights of the Old Republic | Knights of the Old Republic | Spring 2K4 #1631 | 7 (7) |
+| 157 | Metal Gear Solid 2: Sons of Liberty | Metal Gear Solid 2 | Spring 2K4 #1632 | 8 (8) |
+| 158 | Super Smash Bros. Melee |  | Spring 2K4 #1632 | 20 (19) |
 | 356 | Mike Tyson's Punch-Out!! |  | BGE 2K9 #3446 | 1 (1) |
 | 357 | Space Invaders |  | BGE 2K9 #3446 | 1 (1) |
 | 358 | Mega Man 2 |  | BGE 2K9 #3447 | 3 (3) |
@@ -637,142 +636,142 @@ frozen. `first seen` is the first contest / poll an entity (any spelling) appear
 | 521 | ICO |  | GOTD #4130 | 1 (1) |
 | 522 | Paper Mario: The Thousand-Year Door |  | GOTD #4131 | 4 (4) |
 | 523 | SoulCalibur II |  | GOTD #4132 | 1 (1) |
-| 681 | Batman: Arkham City |  | BGE 2K15 #6053 | 4 (4) |
-| 682 | The Last of Us |  | BGE 2K15 #6058 | 6 (6) |
-| 683 | Pokemon X/Y |  | BGE 2K15 #6062 | 1 (1) |
-| 684 | Planescape: Torment |  | BGE 2K15 #6063 | 1 (1) |
-| 685 | Super Smash Bros. for Wii U |  | BGE 2K15 #6063 | 3 (3) |
-| 686 | Super Mario Galaxy 2 |  | BGE 2K15 #6064 | 4 (4) |
-| 687 | Minecraft |  | BGE 2K15 #6065 | 3 (3) |
-| 688 | Journey |  | BGE 2K15 #6066 | 3 (3) |
-| 689 | Age of Empires II: The Age of Kings |  | BGE 2K15 #6067 | 1 (1) |
-| 690 | Portal 2 |  | BGE 2K15 #6069 | 5 (5) |
-| 691 | The Walking Dead: A Telltale Games Series |  | BGE 2K15 #6070 | 2 (2) |
-| 692 | Life is Strange |  | BGE 2K15 #6071 | 2 (2) |
-| 693 | Mass Effect 3 |  | BGE 2K15 #6072 | 3 (3) |
-| 694 | Undertale |  | BGE 2K15 #6072 | 8 (8) |
-| 695 | Animal Crossing: New Leaf |  | BGE 2K15 #6074 | 3 (3) |
-| 696 | The Elder Scrolls V: Skyrim |  | BGE 2K15 #6075 | 10 (10) |
-| 697 | Mario Kart 8 |  | BGE 2K15 #6079 | 4 (4) |
-| 698 | Nine Hours, Nine Persons, Nine Doors |  | BGE 2K15 #6082 | 1 (1) |
-| 699 | Hearthstone: Heroes of Warcraft |  | BGE 2K15 #6083 | 2 (2) |
-| 700 | Monster Hunter 4 Ultimate |  | BGE 2K15 #6084 | 1 (1) |
-| 701 | Xenoblade Chronicles |  | BGE 2K15 #6087 | 6 (6) |
-| 702 | Fire Emblem: Awakening |  | BGE 2K15 #6088 | 4 (4) |
-| 703 | Super Mario Maker |  | BGE 2K15 #6088 | 1 (1) |
-| 704 | Cave Story |  | BGE 2K15 #6091 | 1 (1) |
-| 705 | Metal Gear Solid V: The Phantom Pain |  | BGE 2K15 #6093 | 5 (5) |
-| 706 | Dark Souls |  | BGE 2K15 #6094 | 8 (8) |
-| 707 | Sid Meier's Civilization V |  | BGE 2K15 #6094 | 2 (2) |
-| 708 | Bloodborne |  | BGE 2K15 #6097 | 4 (4) |
-| 709 | Grand Theft Auto V |  | BGE 2K15 #6099 | 5 (5) |
-| 710 | Shovel Knight |  | BGE 2K15 #6101 | 4 (4) |
-| 711 | The Binding of Isaac: Rebirth |  | BGE 2K15 #6103 | 2 (2) |
-| 712 | The Witcher 3: Wild Hunt |  | BGE 2K15 #6103 | 9 (9) |
-| 713 | BioShock Infinite |  | BGE 2K15 #6105 | 3 (3) |
-| 714 | Fallout: New Vegas |  | BGE 2K15 #6105 | 5 (5) |
-| 715 | Splatoon |  | BGE 2K15 #6107 | 1 (1) |
-| 716 | Borderlands 2 |  | BGE 2K15 #6108 | 3 (3) |
-| 717 | Bayonetta 2 |  | BGE 2K15 #6110 | 2 (2) |
-| 718 | Red Dead Redemption |  | BGE 2K15 #6110 | 4 (4) |
-| 719 | Destiny |  | BGE 2K15 #6113 | 2 (2) |
-| 720 | Mass Effect 2 |  | BGE 2K15 #6114 | 8 (8) |
-| 721 | Zero Escape: Virtue's Last Reward |  | BGE 2K15 #6114 | 2 (2) |
-| 794 | The Legend of Zelda: Breath of the Wild |  | GOTD 2 #7915 | 8 (7) |
-| 795 | The Outer Worlds |  | GOTD 2 #7915 | 1 (1) |
-| 796 | Halo: Reach |  | GOTD 2 #7916 | 2 (2) |
-| 797 | Final Fantasy XV |  | GOTD 2 #7917 | 3 (3) |
-| 798 | What Remains of Edith Finch |  | GOTD 2 #7917 | 1 (1) |
-| 799 | Hollow Knight |  | GOTD 2 #7918 | 2 (2) |
-| 800 | Tales of Berseria |  | GOTD 2 #7918 | 1 (1) |
-| 801 | Bravely Default: Flying Fairy |  | GOTD 2 #7919 | 1 (1) |
-| 802 | Monster Hunter: World |  | GOTD 2 #7919 | 3 (3) |
-| 803 | Ni no Kuni: Wrath of the White Witch |  | GOTD 2 #7920 | 1 (1) |
-| 804 | Sekiro: Shadows Die Twice |  | GOTD 2 #7920 | 2 (2) |
-| 805 | Bastion |  | GOTD 2 #7921 | 2 (2) |
-| 806 | Dragon Quest XI: Echoes of an Elusive Age |  | GOTD 2 #7922 | 4 (4) |
-| 807 | The Legend of Heroes: Trails in the Sky SC |  | GOTD 2 #7922 | 1 (1) |
-| 808 | Resident Evil 7: biohazard |  | GOTD 2 #7923 | 1 (1) |
-| 809 | Fallout 4 |  | GOTD 2 #7924 | 2 (2) |
-| 810 | VVVVVV |  | GOTD 2 #7924 | 1 (1) |
-| 811 | Bloodstained: Ritual of the Night |  | GOTD 2 #7925 | 1 (1) |
-| 812 | Fortnite |  | GOTD 2 #7926 | 1 (1) |
-| 813 | Horizon Zero Dawn |  | GOTD 2 #7926 | 3 (3) |
-| 814 | Danganronpa 2: Goodbye Despair |  | GOTD 2 #7927 | 1 (1) |
-| 815 | DOOM (2016) |  | GOTD 2 #7928 | 2 (2) |
-| 816 | INSIDE |  | GOTD 2 #7928 | 1 (1) |
-| 817 | Deus Ex: Human Revolution |  | GOTD 2 #7929 | 1 (1) |
-| 818 | Call of Duty: Black Ops |  | GOTD 2 #7930 | 1 (1) |
-| 819 | Super Smash Bros. Ultimate |  | GOTD 2 #7931 | 6 (6) |
-| 820 | Tekken 7 |  | GOTD 2 #7931 | 1 (1) |
-| 821 | Bayonetta |  | GOTD 2 #7932 | 1 (1) |
-| 822 | The Legend of Zelda: A Link Between Worlds |  | GOTD 2 #7932 | 2 (2) |
-| 823 | Dead Space 2 |  | GOTD 2 #7933 | 1 (1) |
-| 824 | Marvel's Spider-Man |  | GOTD 2 #7933 | 3 (3) |
-| 825 | Dota 2 |  | GOTD 2 #7934 | 1 (1) |
-| 826 | Octopath Traveler |  | GOTD 2 #7935 | 2 (2) |
-| 827 | Dragon's Dogma |  | GOTD 2 #7936 | 1 (1) |
-| 828 | Devil May Cry 5 |  | GOTD 2 #7937 | 2 (2) |
-| 829 | Donkey Kong Country: Tropical Freeze |  | GOTD 2 #7937 | 1 (1) |
-| 830 | Mortal Kombat 11 |  | GOTD 2 #7938 | 1 (1) |
-| 831 | Super Mario Odyssey |  | GOTD 2 #7938 | 4 (4) |
-| 832 | Baba Is You |  | GOTD 2 #7939 | 1 (1) |
-| 833 | Cuphead |  | GOTD 2 #7940 | 2 (2) |
-| 834 | XCOM 2 |  | GOTD 2 #7940 | 1 (1) |
-| 835 | FTL: Faster Than Light |  | GOTD 2 #7941 | 1 (1) |
-| 836 | Persona 4 Golden |  | GOTD 2 #7941 | 4 (4) |
-| 837 | Ghost Trick: Phantom Detective |  | GOTD 2 #7942 | 1 (1) |
-| 838 | Splatoon 2 |  | GOTD 2 #7943 | 1 (1) |
-| 839 | Death Stranding |  | GOTD 2 #7944 | 1 (1) |
-| 840 | Overwatch |  | GOTD 2 #7944 | 2 (2) |
-| 841 | Dragon Age: Inquisition |  | GOTD 2 #7945 | 1 (1) |
-| 842 | Ori and the Blind Forest |  | GOTD 2 #7945 | 2 (2) |
-| 843 | Fire Emblem: Three Houses |  | GOTD 2 #7946 | 3 (3) |
-| 844 | South Park: The Stick of Truth |  | GOTD 2 #7946 | 1 (1) |
-| 845 | Assassin's Creed Odyssey |  | GOTD 2 #7947 | 1 (1) |
-| 846 | Starcraft II: Wings of Liberty |  | GOTD 2 #7948 | 1 (1) |
-| 847 | Stardew Valley |  | GOTD 2 #7949 | 2 (2) |
-| 848 | Return of the Obra Dinn |  | GOTD 2 #7950 | 1 (1) |
-| 849 | The Stanley Parable |  | GOTD 2 #7951 | 1 (1) |
-| 850 | Dark Souls III |  | GOTD 2 #7952 | 2 (2) |
-| 851 | Dishonored |  | GOTD 2 #7952 | 1 (1) |
-| 852 | Nioh |  | GOTD 2 #7953 | 2 (2) |
-| 853 | God of War (2018) |  | GOTD 2 #7954 | 4 (4) |
-| 854 | The Talos Principle |  | GOTD 2 #7954 | 1 (1) |
-| 855 | Heavy Rain |  | GOTD 2 #7955 | 1 (1) |
-| 856 | Persona 5 |  | GOTD 2 #7955 | 5 (5) |
-| 857 | Assassin's Creed IV: Black Flag |  | GOTD 2 #7956 | 2 (2) |
-| 858 | Sonic Mania |  | GOTD 2 #7957 | 3 (3) |
-| 859 | Ys VIII: Lacrimosa of DANA |  | GOTD 2 #7957 | 1 (1) |
-| 860 | Slay the Spire |  | GOTD 2 #7958 | 1 (1) |
-| 861 | Super Meat Boy |  | GOTD 2 #7958 | 2 (2) |
-| 862 | Tomb Raider |  | GOTD 2 #7959 | 1 (1) |
-| 863 | Disco Elysium |  | GOTD 2 #7960 | 1 (1) |
-| 864 | Kingdom Hearts III |  | GOTD 2 #7960 | 2 (2) |
-| 865 | Street Fighter V |  | GOTD 2 #7961 | 1 (1) |
-| 866 | Dying Light |  | GOTD 2 #7962 | 1 (1) |
-| 867 | Red Dead Redemption 2 |  | GOTD 2 #7962 | 3 (3) |
-| 868 | Hotline Miami |  | GOTD 2 #7963 | 1 (1) |
-| 869 | Dragon Ball FighterZ |  | GOTD 2 #7964 | 1 (1) |
-| 870 | Rocket League |  | GOTD 2 #7964 | 2 (2) |
-| 871 | The Witness |  | GOTD 2 #7965 | 1 (1) |
-| 872 | Yakuza 0 |  | GOTD 2 #7965 | 2 (2) |
-| 873 | Dead Cells |  | GOTD 2 #7966 | 1 (1) |
-| 874 | Xenoblade Chronicles 2 |  | GOTD 2 #7967 | 1 (1) |
-| 875 | Terraria |  | GOTD 2 #7968 | 1 (1) |
-| 876 | Diablo III |  | GOTD 2 #7969 | 2 (2) |
-| 877 | Crusader Kings II |  | GOTD 2 #7970 | 1 (1) |
-| 878 | Subnautica |  | GOTD 2 #7971 | 1 (1) |
-| 879 | Fate / Grand Order |  | GOTD 2 #7972 | 1 (1) |
-| 880 | Crypt of the NecroDancer |  | GOTD 2 #7973 | 1 (1) |
-| 881 | Final Fantasy XIV Online: A Realm Reborn |  | GOTD 2 #7973 | 2 (2) |
-| 882 | Uncharted 4: A Thief's End |  | GOTD 2 #7974 | 1 (1) |
-| 883 | Night in the Woods |  | GOTD 2 #7975 | 1 (1) |
-| 884 | Pokemon HeartGold / SoulSilver Version |  | GOTD 2 #7975 | 4 (4) |
-| 885 | Celeste |  | GOTD 2 #7976 | 1 (1) |
-| 886 | Rayman Legends |  | GOTD 2 #7976 | 2 (2) |
-| 887 | Divinity: Original Sin II |  | GOTD 2 #7977 | 2 (2) |
-| 888 | NieR: Automata |  | GOTD 2 #7978 | 3 (3) |
+| 680 | Batman: Arkham City |  | BGE 2K15 #6053 | 4 (4) |
+| 681 | The Last of Us |  | BGE 2K15 #6058 | 6 (6) |
+| 682 | Pokemon X/Y |  | BGE 2K15 #6062 | 1 (1) |
+| 683 | Planescape: Torment |  | BGE 2K15 #6063 | 1 (1) |
+| 684 | Super Smash Bros. for Wii U |  | BGE 2K15 #6063 | 3 (3) |
+| 685 | Super Mario Galaxy 2 |  | BGE 2K15 #6064 | 4 (4) |
+| 686 | Minecraft |  | BGE 2K15 #6065 | 3 (3) |
+| 687 | Journey |  | BGE 2K15 #6066 | 3 (3) |
+| 688 | Age of Empires II: The Age of Kings |  | BGE 2K15 #6067 | 1 (1) |
+| 689 | Portal 2 |  | BGE 2K15 #6069 | 5 (5) |
+| 690 | The Walking Dead: A Telltale Games Series |  | BGE 2K15 #6070 | 2 (2) |
+| 691 | Life is Strange |  | BGE 2K15 #6071 | 2 (2) |
+| 692 | Mass Effect 3 |  | BGE 2K15 #6072 | 3 (3) |
+| 693 | Undertale |  | BGE 2K15 #6072 | 8 (8) |
+| 694 | Animal Crossing: New Leaf |  | BGE 2K15 #6074 | 3 (3) |
+| 695 | The Elder Scrolls V: Skyrim |  | BGE 2K15 #6075 | 10 (10) |
+| 696 | Mario Kart 8 |  | BGE 2K15 #6079 | 4 (4) |
+| 697 | Nine Hours, Nine Persons, Nine Doors |  | BGE 2K15 #6082 | 1 (1) |
+| 698 | Hearthstone: Heroes of Warcraft |  | BGE 2K15 #6083 | 2 (2) |
+| 699 | Monster Hunter 4 Ultimate |  | BGE 2K15 #6084 | 1 (1) |
+| 700 | Xenoblade Chronicles |  | BGE 2K15 #6087 | 6 (6) |
+| 701 | Fire Emblem: Awakening |  | BGE 2K15 #6088 | 4 (4) |
+| 702 | Super Mario Maker |  | BGE 2K15 #6088 | 1 (1) |
+| 703 | Cave Story |  | BGE 2K15 #6091 | 1 (1) |
+| 704 | Metal Gear Solid V: The Phantom Pain |  | BGE 2K15 #6093 | 5 (5) |
+| 705 | Dark Souls |  | BGE 2K15 #6094 | 8 (8) |
+| 706 | Sid Meier's Civilization V |  | BGE 2K15 #6094 | 2 (2) |
+| 707 | Bloodborne |  | BGE 2K15 #6097 | 4 (4) |
+| 708 | Grand Theft Auto V |  | BGE 2K15 #6099 | 5 (5) |
+| 709 | Shovel Knight |  | BGE 2K15 #6101 | 4 (4) |
+| 710 | The Binding of Isaac: Rebirth |  | BGE 2K15 #6103 | 2 (2) |
+| 711 | The Witcher 3: Wild Hunt |  | BGE 2K15 #6103 | 9 (9) |
+| 712 | BioShock Infinite |  | BGE 2K15 #6105 | 3 (3) |
+| 713 | Fallout: New Vegas |  | BGE 2K15 #6105 | 5 (5) |
+| 714 | Splatoon |  | BGE 2K15 #6107 | 1 (1) |
+| 715 | Borderlands 2 |  | BGE 2K15 #6108 | 3 (3) |
+| 716 | Bayonetta 2 |  | BGE 2K15 #6110 | 2 (2) |
+| 717 | Red Dead Redemption |  | BGE 2K15 #6110 | 4 (4) |
+| 718 | Destiny |  | BGE 2K15 #6113 | 2 (2) |
+| 719 | Mass Effect 2 |  | BGE 2K15 #6114 | 8 (8) |
+| 720 | Zero Escape: Virtue's Last Reward |  | BGE 2K15 #6114 | 2 (2) |
+| 793 | The Legend of Zelda: Breath of the Wild |  | GOTD 2 #7915 | 8 (7) |
+| 794 | The Outer Worlds |  | GOTD 2 #7915 | 1 (1) |
+| 795 | Halo: Reach |  | GOTD 2 #7916 | 2 (2) |
+| 796 | Final Fantasy XV |  | GOTD 2 #7917 | 3 (3) |
+| 797 | What Remains of Edith Finch |  | GOTD 2 #7917 | 1 (1) |
+| 798 | Hollow Knight |  | GOTD 2 #7918 | 2 (2) |
+| 799 | Tales of Berseria |  | GOTD 2 #7918 | 1 (1) |
+| 800 | Bravely Default: Flying Fairy |  | GOTD 2 #7919 | 1 (1) |
+| 801 | Monster Hunter: World |  | GOTD 2 #7919 | 3 (3) |
+| 802 | Ni no Kuni: Wrath of the White Witch |  | GOTD 2 #7920 | 1 (1) |
+| 803 | Sekiro: Shadows Die Twice |  | GOTD 2 #7920 | 2 (2) |
+| 804 | Bastion |  | GOTD 2 #7921 | 2 (2) |
+| 805 | Dragon Quest XI: Echoes of an Elusive Age |  | GOTD 2 #7922 | 4 (4) |
+| 806 | The Legend of Heroes: Trails in the Sky SC |  | GOTD 2 #7922 | 1 (1) |
+| 807 | Resident Evil 7: biohazard |  | GOTD 2 #7923 | 1 (1) |
+| 808 | Fallout 4 |  | GOTD 2 #7924 | 2 (2) |
+| 809 | VVVVVV |  | GOTD 2 #7924 | 1 (1) |
+| 810 | Bloodstained: Ritual of the Night |  | GOTD 2 #7925 | 1 (1) |
+| 811 | Fortnite |  | GOTD 2 #7926 | 1 (1) |
+| 812 | Horizon Zero Dawn |  | GOTD 2 #7926 | 3 (3) |
+| 813 | Danganronpa 2: Goodbye Despair |  | GOTD 2 #7927 | 1 (1) |
+| 814 | DOOM (2016) |  | GOTD 2 #7928 | 2 (2) |
+| 815 | INSIDE |  | GOTD 2 #7928 | 1 (1) |
+| 816 | Deus Ex: Human Revolution |  | GOTD 2 #7929 | 1 (1) |
+| 817 | Call of Duty: Black Ops |  | GOTD 2 #7930 | 1 (1) |
+| 818 | Super Smash Bros. Ultimate |  | GOTD 2 #7931 | 6 (6) |
+| 819 | Tekken 7 |  | GOTD 2 #7931 | 1 (1) |
+| 820 | Bayonetta |  | GOTD 2 #7932 | 1 (1) |
+| 821 | The Legend of Zelda: A Link Between Worlds |  | GOTD 2 #7932 | 2 (2) |
+| 822 | Dead Space 2 |  | GOTD 2 #7933 | 1 (1) |
+| 823 | Marvel's Spider-Man |  | GOTD 2 #7933 | 3 (3) |
+| 824 | Dota 2 |  | GOTD 2 #7934 | 1 (1) |
+| 825 | Octopath Traveler |  | GOTD 2 #7935 | 2 (2) |
+| 826 | Dragon's Dogma |  | GOTD 2 #7936 | 1 (1) |
+| 827 | Devil May Cry 5 |  | GOTD 2 #7937 | 2 (2) |
+| 828 | Donkey Kong Country: Tropical Freeze |  | GOTD 2 #7937 | 1 (1) |
+| 829 | Mortal Kombat 11 |  | GOTD 2 #7938 | 1 (1) |
+| 830 | Super Mario Odyssey |  | GOTD 2 #7938 | 4 (4) |
+| 831 | Baba Is You |  | GOTD 2 #7939 | 1 (1) |
+| 832 | Cuphead |  | GOTD 2 #7940 | 2 (2) |
+| 833 | XCOM 2 |  | GOTD 2 #7940 | 1 (1) |
+| 834 | FTL: Faster Than Light |  | GOTD 2 #7941 | 1 (1) |
+| 835 | Persona 4 Golden |  | GOTD 2 #7941 | 4 (4) |
+| 836 | Ghost Trick: Phantom Detective |  | GOTD 2 #7942 | 1 (1) |
+| 837 | Splatoon 2 |  | GOTD 2 #7943 | 1 (1) |
+| 838 | Death Stranding |  | GOTD 2 #7944 | 1 (1) |
+| 839 | Overwatch |  | GOTD 2 #7944 | 2 (2) |
+| 840 | Dragon Age: Inquisition |  | GOTD 2 #7945 | 1 (1) |
+| 841 | Ori and the Blind Forest |  | GOTD 2 #7945 | 2 (2) |
+| 842 | Fire Emblem: Three Houses |  | GOTD 2 #7946 | 3 (3) |
+| 843 | South Park: The Stick of Truth |  | GOTD 2 #7946 | 1 (1) |
+| 844 | Assassin's Creed Odyssey |  | GOTD 2 #7947 | 1 (1) |
+| 845 | Starcraft II: Wings of Liberty |  | GOTD 2 #7948 | 1 (1) |
+| 846 | Stardew Valley |  | GOTD 2 #7949 | 2 (2) |
+| 847 | Return of the Obra Dinn |  | GOTD 2 #7950 | 1 (1) |
+| 848 | The Stanley Parable |  | GOTD 2 #7951 | 1 (1) |
+| 849 | Dark Souls III |  | GOTD 2 #7952 | 2 (2) |
+| 850 | Dishonored |  | GOTD 2 #7952 | 1 (1) |
+| 851 | Nioh |  | GOTD 2 #7953 | 2 (2) |
+| 852 | God of War (2018) |  | GOTD 2 #7954 | 4 (4) |
+| 853 | The Talos Principle |  | GOTD 2 #7954 | 1 (1) |
+| 854 | Heavy Rain |  | GOTD 2 #7955 | 1 (1) |
+| 855 | Persona 5 |  | GOTD 2 #7955 | 5 (5) |
+| 856 | Assassin's Creed IV: Black Flag |  | GOTD 2 #7956 | 2 (2) |
+| 857 | Sonic Mania |  | GOTD 2 #7957 | 3 (3) |
+| 858 | Ys VIII: Lacrimosa of DANA |  | GOTD 2 #7957 | 1 (1) |
+| 859 | Slay the Spire |  | GOTD 2 #7958 | 1 (1) |
+| 860 | Super Meat Boy |  | GOTD 2 #7958 | 2 (2) |
+| 861 | Tomb Raider |  | GOTD 2 #7959 | 1 (1) |
+| 862 | Disco Elysium |  | GOTD 2 #7960 | 1 (1) |
+| 863 | Kingdom Hearts III |  | GOTD 2 #7960 | 2 (2) |
+| 864 | Street Fighter V |  | GOTD 2 #7961 | 1 (1) |
+| 865 | Dying Light |  | GOTD 2 #7962 | 1 (1) |
+| 866 | Red Dead Redemption 2 |  | GOTD 2 #7962 | 3 (3) |
+| 867 | Hotline Miami |  | GOTD 2 #7963 | 1 (1) |
+| 868 | Dragon Ball FighterZ |  | GOTD 2 #7964 | 1 (1) |
+| 869 | Rocket League |  | GOTD 2 #7964 | 2 (2) |
+| 870 | The Witness |  | GOTD 2 #7965 | 1 (1) |
+| 871 | Yakuza 0 |  | GOTD 2 #7965 | 2 (2) |
+| 872 | Dead Cells |  | GOTD 2 #7966 | 1 (1) |
+| 873 | Xenoblade Chronicles 2 |  | GOTD 2 #7967 | 1 (1) |
+| 874 | Terraria |  | GOTD 2 #7968 | 1 (1) |
+| 875 | Diablo III |  | GOTD 2 #7969 | 2 (2) |
+| 876 | Crusader Kings II |  | GOTD 2 #7970 | 1 (1) |
+| 877 | Subnautica |  | GOTD 2 #7971 | 1 (1) |
+| 878 | Fate / Grand Order |  | GOTD 2 #7972 | 1 (1) |
+| 879 | Crypt of the NecroDancer |  | GOTD 2 #7973 | 1 (1) |
+| 880 | Final Fantasy XIV Online: A Realm Reborn |  | GOTD 2 #7973 | 2 (2) |
+| 881 | Uncharted 4: A Thief's End |  | GOTD 2 #7974 | 1 (1) |
+| 882 | Night in the Woods |  | GOTD 2 #7975 | 1 (1) |
+| 883 | Pokemon HeartGold / SoulSilver Version |  | GOTD 2 #7975 | 4 (4) |
+| 884 | Celeste |  | GOTD 2 #7976 | 1 (1) |
+| 885 | Rayman Legends |  | GOTD 2 #7976 | 2 (2) |
+| 886 | Divinity: Original Sin II |  | GOTD 2 #7977 | 2 (2) |
+| 887 | NieR: Automata |  | GOTD 2 #7978 | 3 (3) |
 
 ## Series (32)
 
@@ -884,42 +883,42 @@ frozen. `first seen` is the first contest / poll an entity (any spelling) appear
 
 | id | name | aliases | first seen | matches (official) |
 |--:|:--|:--|:--|--:|
-| 722 | 1979 |  | Best Year #6686 | 1 (1) |
-| 723 | 2009 |  | Best Year #6686 | 2 (2) |
-| 724 | 1983 |  | Best Year #6687 | 1 (1) |
-| 725 | 1989 |  | Best Year #6687 | 2 (2) |
-| 726 | 1981 |  | Best Year #6688 | 1 (1) |
-| 727 | 2006 |  | Best Year #6688 | 2 (2) |
-| 728 | 1978 |  | Best Year #6689 | 1 (1) |
-| 729 | 2005 |  | Best Year #6689 | 3 (3) |
-| 730 | 1986 |  | Best Year #6690 | 1 (1) |
-| 731 | 1995 |  | Best Year #6690 | 3 (3) |
-| 732 | 1985 |  | Best Year #6691 | 1 (1) |
-| 733 | 1987 |  | Best Year #6691 | 2 (2) |
-| 734 | 2001 |  | Best Year #6692 | 5 (5) |
-| 735 | 2014 |  | Best Year #6692 | 1 (1) |
-| 736 | 2008 |  | Best Year #6693 | 2 (2) |
-| 737 | 1997 |  | Best Year #6694 | 4 (4) |
-| 738 | 1999 |  | Best Year #6694 | 1 (1) |
-| 739 | 2007 |  | Best Year #6695 | 2 (2) |
-| 740 | 2012 |  | Best Year #6695 | 1 (1) |
-| 741 | 1990 |  | Best Year #6696 | 1 (1) |
-| 742 | 2000 |  | Best Year #6696 | 2 (2) |
-| 743 | 1996 |  | Best Year #6697 | 3 (3) |
-| 744 | 1988 |  | Best Year #6698 | 1 (1) |
-| 745 | 1991 |  | Best Year #6698 | 3 (3) |
-| 746 | 2002 |  | Best Year #6699 | 2 (2) |
-| 747 | 2010 |  | Best Year #6699 | 1 (1) |
-| 748 | 1994 |  | Best Year #6700 | 4 (4) |
-| 749 | 2004 |  | Best Year #6700 | 1 (1) |
-| 750 | 2011 |  | Best Year #6701 | 2 (2) |
-| 751 | 1993 |  | Best Year #6702 | 1 (1) |
-| 752 | 1998 |  | Best Year #6702 | 5 (5) |
-| 753 | 1992 |  | Best Year #6703 | 2 (2) |
-| 754 | 2016 |  | Best Year #6703 | 1 (1) |
-| 755 | 2003 |  | Best Year #6704 | 3 (3) |
-| 756 | 2013 |  | Best Year #6704 | 1 (1) |
-| 757 | 2015 |  | Best Year #6705 | 1 (1) |
+| 721 | 1979 |  | Best Year #6686 | 1 (1) |
+| 722 | 2009 |  | Best Year #6686 | 2 (2) |
+| 723 | 1983 |  | Best Year #6687 | 1 (1) |
+| 724 | 1989 |  | Best Year #6687 | 2 (2) |
+| 725 | 1981 |  | Best Year #6688 | 1 (1) |
+| 726 | 2006 |  | Best Year #6688 | 2 (2) |
+| 727 | 1978 |  | Best Year #6689 | 1 (1) |
+| 728 | 2005 |  | Best Year #6689 | 3 (3) |
+| 729 | 1986 |  | Best Year #6690 | 1 (1) |
+| 730 | 1995 |  | Best Year #6690 | 3 (3) |
+| 731 | 1985 |  | Best Year #6691 | 1 (1) |
+| 732 | 1987 |  | Best Year #6691 | 2 (2) |
+| 733 | 2001 |  | Best Year #6692 | 5 (5) |
+| 734 | 2014 |  | Best Year #6692 | 1 (1) |
+| 735 | 2008 |  | Best Year #6693 | 2 (2) |
+| 736 | 1997 |  | Best Year #6694 | 4 (4) |
+| 737 | 1999 |  | Best Year #6694 | 1 (1) |
+| 738 | 2007 |  | Best Year #6695 | 2 (2) |
+| 739 | 2012 |  | Best Year #6695 | 1 (1) |
+| 740 | 1990 |  | Best Year #6696 | 1 (1) |
+| 741 | 2000 |  | Best Year #6696 | 2 (2) |
+| 742 | 1996 |  | Best Year #6697 | 3 (3) |
+| 743 | 1988 |  | Best Year #6698 | 1 (1) |
+| 744 | 1991 |  | Best Year #6698 | 3 (3) |
+| 745 | 2002 |  | Best Year #6699 | 2 (2) |
+| 746 | 2010 |  | Best Year #6699 | 1 (1) |
+| 747 | 1994 |  | Best Year #6700 | 4 (4) |
+| 748 | 2004 |  | Best Year #6700 | 1 (1) |
+| 749 | 2011 |  | Best Year #6701 | 2 (2) |
+| 750 | 1993 |  | Best Year #6702 | 1 (1) |
+| 751 | 1998 |  | Best Year #6702 | 5 (5) |
+| 752 | 1992 |  | Best Year #6703 | 2 (2) |
+| 753 | 2016 |  | Best Year #6703 | 1 (1) |
+| 754 | 2003 |  | Best Year #6704 | 3 (3) |
+| 755 | 2013 |  | Best Year #6704 | 1 (1) |
+| 756 | 2015 |  | Best Year #6705 | 1 (1) |
 
 ## Never merge
 

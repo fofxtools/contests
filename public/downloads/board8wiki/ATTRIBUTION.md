@@ -32,4 +32,4 @@ exact revision it was taken from. Page URLs follow the pattern
 This is an independent archive. It is not affiliated with, endorsed by, or
 maintained by the Board 8 wiki, Fandom, or GameFAQs.
 
-Generated 2026-09-10 by `scripts/board8wiki-bundle.py`.
+Generated 2026-09-14 by `scripts/board8wiki-bundle.py`.

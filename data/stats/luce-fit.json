@@ -789,7 +789,7 @@
       }
     ]
   },
-  "SpC2K4": {
+  "Spring 2K4": {
     "contest_id": 3,
     "name": "Spring 2004 Game Contest",
     "start_date": "2004-04-02",
@@ -1579,7 +1579,7 @@
       }
     ]
   },
-  "SpC2K5": {
+  "Spring 2K5": {
     "contest_id": 5,
     "name": "Spring 2005 Character Contest",
     "start_date": "2005-05-03",
@@ -2188,7 +2188,7 @@
         "rank": 66
       },
       {
-        "id": 633,
+        "id": 202,
         "name": "Yuri Hyuga",
         "rating": 5.9,
         "rank": 67
@@ -7279,7 +7279,7 @@
         "rank": 27
       },
       {
-        "id": 638,
+        "id": 637,
         "name": "Squirtle",
         "rating": 23.33,
         "rank": 28
@@ -7471,7 +7471,7 @@
         "rank": 59
       },
       {
-        "id": 647,
+        "id": 646,
         "name": "Gilgamesh",
         "rating": 17.48,
         "rank": 60
@@ -7501,7 +7501,7 @@
         "rank": 64
       },
       {
-        "id": 663,
+        "id": 662,
         "name": "Dragonborn",
         "rating": 16.91,
         "rank": 65
@@ -7549,7 +7549,7 @@
         "rank": 72
       },
       {
-        "id": 673,
+        "id": 672,
         "name": "Magikarp",
         "rating": 15.55,
         "rank": 73
@@ -7627,7 +7627,7 @@
         "rank": 85
       },
       {
-        "id": 655,
+        "id": 654,
         "name": "Pokemon Trainer Blue",
         "rating": 14.1,
         "rank": 86
@@ -7675,7 +7675,7 @@
         "rank": 93
       },
       {
-        "id": 646,
+        "id": 645,
         "name": "Booker DeWitt",
         "rating": 13.07,
         "rank": 94
@@ -7729,7 +7729,7 @@
         "rank": 102
       },
       {
-        "id": 672,
+        "id": 671,
         "name": "Urdnot Wrex",
         "rating": 12.48,
         "rank": 103
@@ -7753,7 +7753,7 @@
         "rank": 106
       },
       {
-        "id": 679,
+        "id": 678,
         "name": "John Marston",
         "rating": 12.26,
         "rank": 107
@@ -7765,7 +7765,7 @@
         "rank": 108
       },
       {
-        "id": 637,
+        "id": 636,
         "name": "Lugia",
         "rating": 12.05,
         "rank": 109
@@ -7813,7 +7813,7 @@
         "rank": 116
       },
       {
-        "id": 650,
+        "id": 649,
         "name": "Yoshimitsu",
         "rating": 11.41,
         "rank": 117
@@ -8029,7 +8029,7 @@
         "rank": 152
       },
       {
-        "id": 658,
+        "id": 657,
         "name": "Catherine",
         "rating": 9.09,
         "rank": 153
@@ -8047,13 +8047,13 @@
         "rank": 155
       },
       {
-        "id": 649,
+        "id": 648,
         "name": "Lu Bu",
         "rating": 8.97,
         "rank": 156
       },
       {
-        "id": 661,
+        "id": 660,
         "name": "Palutena",
         "rating": 8.72,
         "rank": 157
@@ -8089,7 +8089,7 @@
         "rank": 162
       },
       {
-        "id": 665,
+        "id": 664,
         "name": "Adam Jensen",
         "rating": 8.22,
         "rank": 163
@@ -8107,7 +8107,7 @@
         "rank": 165
       },
       {
-        "id": 644,
+        "id": 643,
         "name": "Missile",
         "rating": 8.07,
         "rank": 166
@@ -8155,7 +8155,7 @@
         "rank": 173
       },
       {
-        "id": 635,
+        "id": 634,
         "name": "Handsome Jack",
         "rating": 7.45,
         "rank": 174
@@ -8191,7 +8191,7 @@
         "rank": 179
       },
       {
-        "id": 648,
+        "id": 647,
         "name": "Groose",
         "rating": 6.94,
         "rank": 180
@@ -8203,7 +8203,7 @@
         "rank": 181
       },
       {
-        "id": 670,
+        "id": 669,
         "name": "Corvo Attano",
         "rating": 6.9,
         "rank": 182
@@ -8239,7 +8239,7 @@
         "rank": 187
       },
       {
-        "id": 657,
+        "id": 656,
         "name": "Isaac Clarke",
         "rating": 6.34,
         "rank": 188
@@ -8263,13 +8263,13 @@
         "rank": 191
       },
       {
-        "id": 653,
+        "id": 652,
         "name": "Mr. Game & Watch",
         "rating": 6.14,
         "rank": 192
       },
       {
-        "id": 669,
+        "id": 668,
         "name": "Creeper",
         "rating": 6.01,
         "rank": 193
@@ -8281,7 +8281,7 @@
         "rank": 194
       },
       {
-        "id": 660,
+        "id": 659,
         "name": "Seifer Almasy",
         "rating": 5.99,
         "rank": 195
@@ -8293,13 +8293,13 @@
         "rank": 196
       },
       {
-        "id": 645,
+        "id": 644,
         "name": "Hal \"Otacon\" Emmerich",
         "rating": 5.93,
         "rank": 197
       },
       {
-        "id": 651,
+        "id": 650,
         "name": "Lee Everett",
         "rating": 5.76,
         "rank": 198
@@ -8329,19 +8329,19 @@
         "rank": 202
       },
       {
-        "id": 680,
+        "id": 679,
         "name": "Nier",
         "rating": 5.42,
         "rank": 203
       },
       {
-        "id": 674,
+        "id": 673,
         "name": "Recette Lemongrass",
         "rating": 5.41,
         "rank": 204
       },
       {
-        "id": 659,
+        "id": 658,
         "name": "Vaas Montenegro",
         "rating": 5.3,
         "rank": 205
@@ -8353,19 +8353,19 @@
         "rank": 206
       },
       {
-        "id": 678,
+        "id": 677,
         "name": "Lyndis",
         "rating": 5.22,
         "rank": 207
       },
       {
-        "id": 654,
+        "id": 653,
         "name": "Steve",
         "rating": 5.22,
         "rank": 208
       },
       {
-        "id": 664,
+        "id": 663,
         "name": "Cirno",
         "rating": 5.22,
         "rank": 209
@@ -8377,7 +8377,7 @@
         "rank": 210
       },
       {
-        "id": 677,
+        "id": 676,
         "name": "Boko",
         "rating": 5.2,
         "rank": 211
@@ -8389,7 +8389,7 @@
         "rank": 212
       },
       {
-        "id": 666,
+        "id": 665,
         "name": "Marisa Kirisame",
         "rating": 4.97,
         "rank": 213
@@ -8401,7 +8401,7 @@
         "rank": 214
       },
       {
-        "id": 675,
+        "id": 674,
         "name": "Mike Haggar",
         "rating": 4.9,
         "rank": 215
@@ -8425,7 +8425,7 @@
         "rank": 218
       },
       {
-        "id": 641,
+        "id": 640,
         "name": "Yu Narukami",
         "rating": 4.54,
         "rank": 219
@@ -8443,7 +8443,7 @@
         "rank": 221
       },
       {
-        "id": 634,
+        "id": 633,
         "name": "Sen. Steven Armstrong",
         "rating": 4.44,
         "rank": 222
@@ -8455,37 +8455,37 @@
         "rank": 223
       },
       {
-        "id": 662,
+        "id": 661,
         "name": "Teemo",
         "rating": 4.24,
         "rank": 224
       },
       {
-        "id": 633,
+        "id": 202,
         "name": "Yuri Hyuga",
         "rating": 4.2,
         "rank": 225
       },
       {
-        "id": 642,
+        "id": 641,
         "name": "Oliver",
         "rating": 4.17,
         "rank": 226
       },
       {
-        "id": 652,
+        "id": 651,
         "name": "Meat Boy",
         "rating": 3.67,
         "rank": 227
       },
       {
-        "id": 671,
+        "id": 670,
         "name": "Sissel",
         "rating": 3.57,
         "rank": 228
       },
       {
-        "id": 676,
+        "id": 675,
         "name": "Red Bird",
         "rating": 3.53,
         "rank": 229
@@ -8527,19 +8527,19 @@
         "rank": 235
       },
       {
-        "id": 636,
+        "id": 635,
         "name": "Francis York Morgan",
         "rating": 2.69,
         "rank": 236
       },
       {
-        "id": 656,
+        "id": 655,
         "name": "Wolf O'Donnell",
         "rating": 2.57,
         "rank": 237
       },
       {
-        "id": 640,
+        "id": 639,
         "name": "Kat",
         "rating": 2.51,
         "rank": 238
@@ -8551,25 +8551,25 @@
         "rank": 239
       },
       {
-        "id": 643,
+        "id": 642,
         "name": "Hades",
         "rating": 2.4,
         "rank": 240
       },
       {
-        "id": 667,
+        "id": 666,
         "name": "Commander Video",
         "rating": 2.2,
         "rank": 241
       },
       {
-        "id": 668,
+        "id": 667,
         "name": "Adol Christin",
         "rating": 2.17,
         "rank": 242
       },
       {
-        "id": 639,
+        "id": 638,
         "name": "Spring Breeze Dancin'",
         "rating": 1.69,
         "rank": 243
@@ -8586,13 +8586,13 @@
     "final_loss": 81.03245724358499,
     "entrants": [
       {
-        "id": 694,
+        "id": 693,
         "name": "Undertale",
         "rating": 50.0,
         "rank": 1
       },
       {
-        "id": 693,
+        "id": 692,
         "name": "Mass Effect 3",
         "rating": 49.05,
         "rank": 2
@@ -8664,7 +8664,7 @@
         "rank": 13
       },
       {
-        "id": 696,
+        "id": 695,
         "name": "The Elder Scrolls V: Skyrim",
         "rating": 37.48,
         "rank": 14
@@ -8688,7 +8688,7 @@
         "rank": 17
       },
       {
-        "id": 682,
+        "id": 681,
         "name": "The Last of Us",
         "rating": 33.91,
         "rank": 18
@@ -8760,7 +8760,7 @@
         "rank": 29
       },
       {
-        "id": 685,
+        "id": 684,
         "name": "Super Smash Bros. for Wii U",
         "rating": 28.25,
         "rank": 30
@@ -8838,19 +8838,19 @@
         "rank": 42
       },
       {
-        "id": 686,
+        "id": 685,
         "name": "Super Mario Galaxy 2",
         "rating": 23.84,
         "rank": 43
       },
       {
-        "id": 695,
+        "id": 694,
         "name": "Animal Crossing: New Leaf",
         "rating": 23.1,
         "rank": 44
       },
       {
-        "id": 692,
+        "id": 691,
         "name": "Life is Strange",
         "rating": 23.1,
         "rank": 45
@@ -8916,7 +8916,7 @@
         "rank": 55
       },
       {
-        "id": 709,
+        "id": 708,
         "name": "Grand Theft Auto V",
         "rating": 20.91,
         "rank": 56
@@ -8934,7 +8934,7 @@
         "rank": 58
       },
       {
-        "id": 681,
+        "id": 680,
         "name": "Batman: Arkham City",
         "rating": 20.2,
         "rank": 59
@@ -8976,13 +8976,13 @@
         "rank": 65
       },
       {
-        "id": 697,
+        "id": 696,
         "name": "Mario Kart 8",
         "rating": 19.12,
         "rank": 66
       },
       {
-        "id": 690,
+        "id": 689,
         "name": "Portal 2",
         "rating": 18.91,
         "rank": 67
@@ -9018,7 +9018,7 @@
         "rank": 72
       },
       {
-        "id": 720,
+        "id": 719,
         "name": "Mass Effect 2",
         "rating": 17.28,
         "rank": 73
@@ -9036,13 +9036,13 @@
         "rank": 75
       },
       {
-        "id": 701,
+        "id": 700,
         "name": "Xenoblade Chronicles",
         "rating": 17.05,
         "rank": 76
       },
       {
-        "id": 714,
+        "id": 713,
         "name": "Fallout: New Vegas",
         "rating": 16.94,
         "rank": 77
@@ -9054,7 +9054,7 @@
         "rank": 78
       },
       {
-        "id": 706,
+        "id": 705,
         "name": "Dark Souls",
         "rating": 16.92,
         "rank": 79
@@ -9066,7 +9066,7 @@
         "rank": 80
       },
       {
-        "id": 712,
+        "id": 711,
         "name": "The Witcher 3: Wild Hunt",
         "rating": 16.67,
         "rank": 81
@@ -9096,7 +9096,7 @@
         "rank": 85
       },
       {
-        "id": 702,
+        "id": 701,
         "name": "Fire Emblem: Awakening",
         "rating": 16.08,
         "rank": 86
@@ -9126,7 +9126,7 @@
         "rank": 90
       },
       {
-        "id": 718,
+        "id": 717,
         "name": "Red Dead Redemption",
         "rating": 15.14,
         "rank": 91
@@ -9138,7 +9138,7 @@
         "rank": 92
       },
       {
-        "id": 700,
+        "id": 699,
         "name": "Monster Hunter 4 Ultimate",
         "rating": 14.22,
         "rank": 93
@@ -9156,25 +9156,25 @@
         "rank": 95
       },
       {
-        "id": 705,
+        "id": 704,
         "name": "Metal Gear Solid V: The Phantom Pain",
         "rating": 14.09,
         "rank": 96
       },
       {
-        "id": 713,
+        "id": 712,
         "name": "BioShock Infinite",
         "rating": 13.85,
         "rank": 97
       },
       {
-        "id": 708,
+        "id": 707,
         "name": "Bloodborne",
         "rating": 13.82,
         "rank": 98
       },
       {
-        "id": 683,
+        "id": 682,
         "name": "Pokemon X/Y",
         "rating": 13.79,
         "rank": 99
@@ -9186,7 +9186,7 @@
         "rank": 100
       },
       {
-        "id": 687,
+        "id": 686,
         "name": "Minecraft",
         "rating": 13.61,
         "rank": 101
@@ -9216,13 +9216,13 @@
         "rank": 105
       },
       {
-        "id": 688,
+        "id": 687,
         "name": "Journey",
         "rating": 12.31,
         "rank": 106
       },
       {
-        "id": 716,
+        "id": 715,
         "name": "Borderlands 2",
         "rating": 12.18,
         "rank": 107
@@ -9246,7 +9246,7 @@
         "rank": 110
       },
       {
-        "id": 710,
+        "id": 709,
         "name": "Shovel Knight",
         "rating": 10.62,
         "rank": 111
@@ -9270,37 +9270,37 @@
         "rank": 114
       },
       {
-        "id": 698,
+        "id": 697,
         "name": "Nine Hours, Nine Persons, Nine Doors",
         "rating": 9.84,
         "rank": 115
       },
       {
-        "id": 703,
+        "id": 702,
         "name": "Super Mario Maker",
         "rating": 9.58,
         "rank": 116
       },
       {
-        "id": 689,
+        "id": 688,
         "name": "Age of Empires II: The Age of Kings",
         "rating": 9.54,
         "rank": 117
       },
       {
-        "id": 684,
+        "id": 683,
         "name": "Planescape: Torment",
         "rating": 9.45,
         "rank": 118
       },
       {
-        "id": 707,
+        "id": 706,
         "name": "Sid Meier's Civilization V",
         "rating": 9.23,
         "rank": 119
       },
       {
-        "id": 717,
+        "id": 716,
         "name": "Bayonetta 2",
         "rating": 9.12,
         "rank": 120
@@ -9312,43 +9312,43 @@
         "rank": 121
       },
       {
-        "id": 715,
+        "id": 714,
         "name": "Splatoon",
         "rating": 7.33,
         "rank": 122
       },
       {
-        "id": 699,
+        "id": 698,
         "name": "Hearthstone: Heroes of Warcraft",
         "rating": 6.71,
         "rank": 123
       },
       {
-        "id": 711,
+        "id": 710,
         "name": "The Binding of Isaac: Rebirth",
         "rating": 6.51,
         "rank": 124
       },
       {
-        "id": 719,
+        "id": 718,
         "name": "Destiny",
         "rating": 6.4,
         "rank": 125
       },
       {
-        "id": 704,
+        "id": 703,
         "name": "Cave Story",
         "rating": 6.24,
         "rank": 126
       },
       {
-        "id": 691,
+        "id": 690,
         "name": "The Walking Dead: A Telltale Games Series",
         "rating": 6.14,
         "rank": 127
       },
       {
-        "id": 721,
+        "id": 720,
         "name": "Zero Escape: Virtue's Last Reward",
         "rating": 5.24,
         "rank": 128
@@ -9365,217 +9365,217 @@
     "final_loss": 20.59564691714491,
     "entrants": [
       {
-        "id": 752,
+        "id": 751,
         "name": "1998",
         "rating": 50.0,
         "rank": 1
       },
       {
-        "id": 734,
+        "id": 733,
         "name": "2001",
         "rating": 33.81,
         "rank": 2
       },
       {
-        "id": 748,
+        "id": 747,
         "name": "1994",
         "rating": 33.65,
         "rank": 3
       },
       {
-        "id": 737,
+        "id": 736,
         "name": "1997",
         "rating": 32.27,
         "rank": 4
       },
       {
-        "id": 731,
+        "id": 730,
         "name": "1995",
         "rating": 31.95,
         "rank": 5
       },
       {
-        "id": 745,
+        "id": 744,
         "name": "1991",
         "rating": 30.69,
         "rank": 6
       },
       {
-        "id": 733,
+        "id": 732,
         "name": "1987",
         "rating": 29.91,
         "rank": 7
       },
       {
-        "id": 753,
+        "id": 752,
         "name": "1992",
         "rating": 27.15,
         "rank": 8
       },
       {
-        "id": 746,
+        "id": 745,
         "name": "2002",
         "rating": 26.67,
         "rank": 9
       },
       {
-        "id": 749,
+        "id": 748,
         "name": "2004",
         "rating": 26.31,
         "rank": 10
       },
       {
-        "id": 750,
+        "id": 749,
         "name": "2011",
         "rating": 23.69,
         "rank": 11
       },
       {
-        "id": 727,
+        "id": 726,
         "name": "2006",
         "rating": 20.35,
         "rank": 12
       },
       {
-        "id": 736,
+        "id": 735,
         "name": "2008",
         "rating": 19.09,
         "rank": 13
       },
       {
-        "id": 755,
+        "id": 754,
         "name": "2003",
         "rating": 18.65,
         "rank": 14
       },
       {
-        "id": 743,
+        "id": 742,
         "name": "1996",
         "rating": 17.53,
         "rank": 15
       },
       {
-        "id": 742,
+        "id": 741,
         "name": "2000",
         "rating": 16.75,
         "rank": 16
       },
       {
-        "id": 739,
+        "id": 738,
         "name": "2007",
         "rating": 16.3,
         "rank": 17
       },
       {
-        "id": 729,
+        "id": 728,
         "name": "2005",
         "rating": 14.4,
         "rank": 18
       },
       {
-        "id": 756,
+        "id": 755,
         "name": "2013",
         "rating": 14.22,
         "rank": 19
       },
       {
-        "id": 751,
+        "id": 750,
         "name": "1993",
         "rating": 14.08,
         "rank": 20
       },
       {
-        "id": 747,
+        "id": 746,
         "name": "2010",
         "rating": 13.28,
         "rank": 21
       },
       {
-        "id": 732,
+        "id": 731,
         "name": "1985",
         "rating": 12.8,
         "rank": 22
       },
       {
-        "id": 738,
+        "id": 737,
         "name": "1999",
         "rating": 12.3,
         "rank": 23
       },
       {
-        "id": 754,
+        "id": 753,
         "name": "2016",
         "rating": 12.16,
         "rank": 24
       },
       {
-        "id": 757,
+        "id": 756,
         "name": "2015",
         "rating": 10.46,
         "rank": 25
       },
       {
-        "id": 741,
+        "id": 740,
         "name": "1990",
         "rating": 9.66,
         "rank": 26
       },
       {
-        "id": 735,
+        "id": 734,
         "name": "2014",
         "rating": 9.37,
         "rank": 27
       },
       {
-        "id": 723,
+        "id": 722,
         "name": "2009",
         "rating": 8.47,
         "rank": 28
       },
       {
-        "id": 726,
+        "id": 725,
         "name": "1981",
         "rating": 8.13,
         "rank": 29
       },
       {
-        "id": 744,
+        "id": 743,
         "name": "1988",
         "rating": 5.93,
         "rank": 30
       },
       {
-        "id": 740,
+        "id": 739,
         "name": "2012",
         "rating": 5.63,
         "rank": 31
       },
       {
-        "id": 730,
+        "id": 729,
         "name": "1986",
         "rating": 5.48,
         "rank": 32
       },
       {
-        "id": 725,
+        "id": 724,
         "name": "1989",
         "rating": 3.98,
         "rank": 33
       },
       {
-        "id": 728,
+        "id": 727,
         "name": "1978",
         "rating": 2.77,
         "rank": 34
       },
       {
-        "id": 722,
+        "id": 721,
         "name": "1979",
         "rating": 2.11,
         "rank": 35
       },
       {
-        "id": 724,
+        "id": 723,
         "name": "1983",
         "rating": 1.77,
         "rank": 36
@@ -9754,7 +9754,7 @@
         "rank": 27
       },
       {
-        "id": 781,
+        "id": 780,
         "name": "Geralt",
         "rating": 23.97,
         "rank": 28
@@ -9778,7 +9778,7 @@
         "rank": 31
       },
       {
-        "id": 770,
+        "id": 769,
         "name": "2B",
         "rating": 22.48,
         "rank": 32
@@ -9904,7 +9904,7 @@
         "rank": 52
       },
       {
-        "id": 782,
+        "id": 781,
         "name": "Rosalina",
         "rating": 19.84,
         "rank": 53
@@ -9922,7 +9922,7 @@
         "rank": 55
       },
       {
-        "id": 779,
+        "id": 778,
         "name": "Captain Toad",
         "rating": 19.43,
         "rank": 56
@@ -9970,7 +9970,7 @@
         "rank": 63
       },
       {
-        "id": 780,
+        "id": 779,
         "name": "Shovel Knight",
         "rating": 17.87,
         "rank": 64
@@ -10030,7 +10030,7 @@
         "rank": 73
       },
       {
-        "id": 776,
+        "id": 775,
         "name": "Metal Sonic",
         "rating": 15.94,
         "rank": 74
@@ -10108,7 +10108,7 @@
         "rank": 86
       },
       {
-        "id": 766,
+        "id": 765,
         "name": "Velvet Crowe",
         "rating": 13.43,
         "rank": 87
@@ -10126,7 +10126,7 @@
         "rank": 89
       },
       {
-        "id": 788,
+        "id": 787,
         "name": "Richter Belmont",
         "rating": 13.22,
         "rank": 90
@@ -10174,7 +10174,7 @@
         "rank": 97
       },
       {
-        "id": 790,
+        "id": 789,
         "name": "King K. Rool",
         "rating": 11.94,
         "rank": 98
@@ -10186,13 +10186,13 @@
         "rank": 99
       },
       {
-        "id": 778,
+        "id": 777,
         "name": "D.Va",
         "rating": 11.44,
         "rank": 100
       },
       {
-        "id": 764,
+        "id": 763,
         "name": "Shantae",
         "rating": 11.44,
         "rank": 101
@@ -10204,13 +10204,13 @@
         "rank": 102
       },
       {
-        "id": 791,
+        "id": 790,
         "name": "Ellie",
         "rating": 11.29,
         "rank": 103
       },
       {
-        "id": 763,
+        "id": 762,
         "name": "Monika",
         "rating": 11.17,
         "rank": 104
@@ -10222,25 +10222,25 @@
         "rank": 105
       },
       {
-        "id": 761,
+        "id": 760,
         "name": "Primrose",
         "rating": 10.78,
         "rank": 106
       },
       {
-        "id": 784,
+        "id": 783,
         "name": "Ren Amamiya / Joker",
         "rating": 10.75,
         "rank": 107
       },
       {
-        "id": 769,
+        "id": 768,
         "name": "Kazuma Kiryu",
         "rating": 10.58,
         "rank": 108
       },
       {
-        "id": 774,
+        "id": 773,
         "name": "Guile",
         "rating": 10.56,
         "rank": 109
@@ -10252,7 +10252,7 @@
         "rank": 110
       },
       {
-        "id": 777,
+        "id": 776,
         "name": "Aloy",
         "rating": 10.31,
         "rank": 111
@@ -10264,79 +10264,79 @@
         "rank": 112
       },
       {
-        "id": 792,
+        "id": 791,
         "name": "Aqua",
         "rating": 10.15,
         "rank": 113
       },
       {
-        "id": 767,
+        "id": 766,
         "name": "Neptune",
         "rating": 10.15,
         "rank": 114
       },
       {
-        "id": 783,
+        "id": 782,
         "name": "Sans",
         "rating": 10.1,
         "rank": 115
       },
       {
-        "id": 787,
+        "id": 786,
         "name": "Isabelle",
         "rating": 9.95,
         "rank": 116
       },
       {
-        "id": 775,
+        "id": 774,
         "name": "Hat Kid",
         "rating": 9.87,
         "rank": 117
       },
       {
-        "id": 762,
+        "id": 761,
         "name": "Noctis Lucis Caelum",
         "rating": 9.76,
         "rank": 118
       },
       {
-        "id": 789,
+        "id": 788,
         "name": "Metal Man",
         "rating": 9.51,
         "rank": 119
       },
       {
-        "id": 768,
+        "id": 767,
         "name": "Godot",
         "rating": 9.33,
         "rank": 120
       },
       {
-        "id": 765,
+        "id": 764,
         "name": "James Sunderland",
         "rating": 9.01,
         "rank": 121
       },
       {
-        "id": 679,
+        "id": 678,
         "name": "John Marston",
         "rating": 8.73,
         "rank": 122
       },
       {
-        "id": 772,
+        "id": 771,
         "name": "Joel",
         "rating": 8.63,
         "rank": 123
       },
       {
-        "id": 641,
+        "id": 640,
         "name": "Yu Narukami",
         "rating": 8.03,
         "rank": 124
       },
       {
-        "id": 758,
+        "id": 757,
         "name": "Cuphead",
         "rating": 7.96,
         "rank": 125
@@ -10348,25 +10348,25 @@
         "rank": 126
       },
       {
-        "id": 785,
+        "id": 784,
         "name": "Monokuma",
         "rating": 7.8,
         "rank": 127
       },
       {
-        "id": 771,
+        "id": 770,
         "name": "Cayde-6",
         "rating": 7.64,
         "rank": 128
       },
       {
-        "id": 773,
+        "id": 772,
         "name": "Estelle Bright",
         "rating": 7.41,
         "rank": 129
       },
       {
-        "id": 663,
+        "id": 662,
         "name": "Dragonborn",
         "rating": 7.19,
         "rank": 130
@@ -10378,25 +10378,25 @@
         "rank": 131
       },
       {
-        "id": 786,
+        "id": 785,
         "name": "Goro Majima",
         "rating": 6.45,
         "rank": 132
       },
       {
-        "id": 793,
+        "id": 792,
         "name": "Quiet",
         "rating": 5.95,
         "rank": 133
       },
       {
-        "id": 760,
+        "id": 759,
         "name": "Victor Sullivan",
         "rating": 5.44,
         "rank": 134
       },
       {
-        "id": 759,
+        "id": 758,
         "name": "Chloe Price",
         "rating": 3.81,
         "rank": 135
@@ -10419,73 +10419,73 @@
     "final_loss": 78.31746748436903,
     "entrants": [
       {
-        "id": 794,
+        "id": 793,
         "name": "The Legend of Zelda: Breath of the Wild",
         "rating": 50.0,
         "rank": 1
       },
       {
-        "id": 712,
+        "id": 711,
         "name": "The Witcher 3: Wild Hunt",
         "rating": 44.06,
         "rank": 2
       },
       {
-        "id": 696,
+        "id": 695,
         "name": "The Elder Scrolls V: Skyrim",
         "rating": 39.0,
         "rank": 3
       },
       {
-        "id": 856,
+        "id": 855,
         "name": "Persona 5",
         "rating": 37.72,
         "rank": 4
       },
       {
-        "id": 706,
+        "id": 705,
         "name": "Dark Souls",
         "rating": 36.48,
         "rank": 5
       },
       {
-        "id": 686,
+        "id": 685,
         "name": "Super Mario Galaxy 2",
         "rating": 33.87,
         "rank": 6
       },
       {
-        "id": 819,
+        "id": 818,
         "name": "Super Smash Bros. Ultimate",
         "rating": 32.24,
         "rank": 7
       },
       {
-        "id": 720,
+        "id": 719,
         "name": "Mass Effect 2",
         "rating": 31.67,
         "rank": 8
       },
       {
-        "id": 690,
+        "id": 689,
         "name": "Portal 2",
         "rating": 30.94,
         "rank": 9
       },
       {
-        "id": 853,
+        "id": 852,
         "name": "God of War (2018)",
         "rating": 30.26,
         "rank": 10
       },
       {
-        "id": 884,
+        "id": 883,
         "name": "Pokemon HeartGold / SoulSilver Version",
         "rating": 30.04,
         "rank": 11
       },
       {
-        "id": 806,
+        "id": 805,
         "name": "Dragon Quest XI: Echoes of an Elusive Age",
         "rating": 29.78,
         "rank": 12
@@ -10497,691 +10497,691 @@
         "rank": 13
       },
       {
-        "id": 708,
+        "id": 707,
         "name": "Bloodborne",
         "rating": 29.44,
         "rank": 14
       },
       {
-        "id": 682,
+        "id": 681,
         "name": "The Last of Us",
         "rating": 29.11,
         "rank": 15
       },
       {
-        "id": 697,
+        "id": 696,
         "name": "Mario Kart 8",
         "rating": 29.11,
         "rank": 16
       },
       {
-        "id": 888,
+        "id": 887,
         "name": "NieR: Automata",
         "rating": 28.49,
         "rank": 17
       },
       {
-        "id": 867,
+        "id": 866,
         "name": "Red Dead Redemption 2",
         "rating": 28.05,
         "rank": 18
       },
       {
-        "id": 813,
+        "id": 812,
         "name": "Horizon Zero Dawn",
         "rating": 27.4,
         "rank": 19
       },
       {
-        "id": 831,
+        "id": 830,
         "name": "Super Mario Odyssey",
         "rating": 27.26,
         "rank": 20
       },
       {
-        "id": 802,
+        "id": 801,
         "name": "Monster Hunter: World",
         "rating": 27.12,
         "rank": 21
       },
       {
-        "id": 714,
+        "id": 713,
         "name": "Fallout: New Vegas",
         "rating": 26.0,
         "rank": 22
       },
       {
-        "id": 705,
+        "id": 704,
         "name": "Metal Gear Solid V: The Phantom Pain",
         "rating": 24.98,
         "rank": 23
       },
       {
-        "id": 681,
+        "id": 680,
         "name": "Batman: Arkham City",
         "rating": 24.97,
         "rank": 24
       },
       {
-        "id": 701,
+        "id": 700,
         "name": "Xenoblade Chronicles",
         "rating": 24.38,
         "rank": 25
       },
       {
-        "id": 836,
+        "id": 835,
         "name": "Persona 4 Golden",
         "rating": 24.23,
         "rank": 26
       },
       {
-        "id": 815,
+        "id": 814,
         "name": "DOOM (2016)",
         "rating": 23.63,
         "rank": 27
       },
       {
-        "id": 718,
+        "id": 717,
         "name": "Red Dead Redemption",
         "rating": 23.63,
         "rank": 28
       },
       {
-        "id": 716,
+        "id": 715,
         "name": "Borderlands 2",
         "rating": 23.53,
         "rank": 29
       },
       {
-        "id": 709,
+        "id": 708,
         "name": "Grand Theft Auto V",
         "rating": 23.45,
         "rank": 30
       },
       {
-        "id": 702,
+        "id": 701,
         "name": "Fire Emblem: Awakening",
         "rating": 23.27,
         "rank": 31
       },
       {
-        "id": 850,
+        "id": 849,
         "name": "Dark Souls III",
         "rating": 23.06,
         "rank": 32
       },
       {
-        "id": 804,
+        "id": 803,
         "name": "Sekiro: Shadows Die Twice",
         "rating": 22.76,
         "rank": 33
       },
       {
-        "id": 882,
+        "id": 881,
         "name": "Uncharted 4: A Thief's End",
         "rating": 22.3,
         "rank": 34
       },
       {
-        "id": 847,
+        "id": 846,
         "name": "Stardew Valley",
         "rating": 22.3,
         "rank": 35
       },
       {
-        "id": 695,
+        "id": 694,
         "name": "Animal Crossing: New Leaf",
         "rating": 22.29,
         "rank": 36
       },
       {
-        "id": 858,
+        "id": 857,
         "name": "Sonic Mania",
         "rating": 22.26,
         "rank": 37
       },
       {
-        "id": 874,
+        "id": 873,
         "name": "Xenoblade Chronicles 2",
         "rating": 21.77,
         "rank": 38
       },
       {
-        "id": 808,
+        "id": 807,
         "name": "Resident Evil 7: biohazard",
         "rating": 21.44,
         "rank": 39
       },
       {
-        "id": 824,
+        "id": 823,
         "name": "Marvel's Spider-Man",
         "rating": 21.4,
         "rank": 40
       },
       {
-        "id": 864,
+        "id": 863,
         "name": "Kingdom Hearts III",
         "rating": 21.28,
         "rank": 41
       },
       {
-        "id": 801,
+        "id": 800,
         "name": "Bravely Default: Flying Fairy",
         "rating": 21.26,
         "rank": 42
       },
       {
-        "id": 881,
+        "id": 880,
         "name": "Final Fantasy XIV Online: A Realm Reborn",
         "rating": 21.23,
         "rank": 43
       },
       {
-        "id": 822,
+        "id": 821,
         "name": "The Legend of Zelda: A Link Between Worlds",
         "rating": 21.07,
         "rank": 44
       },
       {
-        "id": 872,
+        "id": 871,
         "name": "Yakuza 0",
         "rating": 19.91,
         "rank": 45
       },
       {
-        "id": 857,
+        "id": 856,
         "name": "Assassin's Creed IV: Black Flag",
         "rating": 19.78,
         "rank": 46
       },
       {
-        "id": 797,
+        "id": 796,
         "name": "Final Fantasy XV",
         "rating": 19.75,
         "rank": 47
       },
       {
-        "id": 799,
+        "id": 798,
         "name": "Hollow Knight",
         "rating": 19.48,
         "rank": 48
       },
       {
-        "id": 876,
+        "id": 875,
         "name": "Diablo III",
         "rating": 19.25,
         "rank": 49
       },
       {
-        "id": 862,
+        "id": 861,
         "name": "Tomb Raider",
         "rating": 19.24,
         "rank": 50
       },
       {
-        "id": 809,
+        "id": 808,
         "name": "Fallout 4",
         "rating": 18.67,
         "rank": 51
       },
       {
-        "id": 713,
+        "id": 712,
         "name": "BioShock Infinite",
         "rating": 18.27,
         "rank": 52
       },
       {
-        "id": 843,
+        "id": 842,
         "name": "Fire Emblem: Three Houses",
         "rating": 17.91,
         "rank": 53
       },
       {
-        "id": 693,
+        "id": 692,
         "name": "Mass Effect 3",
         "rating": 17.83,
         "rank": 54
       },
       {
-        "id": 688,
+        "id": 687,
         "name": "Journey",
         "rating": 17.57,
         "rank": 55
       },
       {
-        "id": 811,
+        "id": 810,
         "name": "Bloodstained: Ritual of the Night",
         "rating": 17.56,
         "rank": 56
       },
       {
-        "id": 803,
+        "id": 802,
         "name": "Ni no Kuni: Wrath of the White Witch",
         "rating": 17.25,
         "rank": 57
       },
       {
-        "id": 833,
+        "id": 832,
         "name": "Cuphead",
         "rating": 16.81,
         "rank": 58
       },
       {
-        "id": 687,
+        "id": 686,
         "name": "Minecraft",
         "rating": 16.66,
         "rank": 59
       },
       {
-        "id": 707,
+        "id": 706,
         "name": "Sid Meier's Civilization V",
         "rating": 15.99,
         "rank": 60
       },
       {
-        "id": 717,
+        "id": 716,
         "name": "Bayonetta 2",
         "rating": 15.54,
         "rank": 61
       },
       {
-        "id": 887,
+        "id": 886,
         "name": "Divinity: Original Sin II",
         "rating": 15.35,
         "rank": 62
       },
       {
-        "id": 817,
+        "id": 816,
         "name": "Deus Ex: Human Revolution",
         "rating": 15.25,
         "rank": 63
       },
       {
-        "id": 796,
+        "id": 795,
         "name": "Halo: Reach",
         "rating": 15.14,
         "rank": 64
       },
       {
-        "id": 795,
+        "id": 794,
         "name": "The Outer Worlds",
         "rating": 14.98,
         "rank": 65
       },
       {
-        "id": 859,
+        "id": 858,
         "name": "Ys VIII: Lacrimosa of DANA",
         "rating": 14.53,
         "rank": 66
       },
       {
-        "id": 870,
+        "id": 869,
         "name": "Rocket League",
         "rating": 14.4,
         "rank": 67
       },
       {
-        "id": 855,
+        "id": 854,
         "name": "Heavy Rain",
         "rating": 14.38,
         "rank": 68
       },
       {
-        "id": 886,
+        "id": 885,
         "name": "Rayman Legends",
         "rating": 14.33,
         "rank": 69
       },
       {
-        "id": 805,
+        "id": 804,
         "name": "Bastion",
         "rating": 14.21,
         "rank": 70
       },
       {
-        "id": 885,
+        "id": 884,
         "name": "Celeste",
         "rating": 14.11,
         "rank": 71
       },
       {
-        "id": 869,
+        "id": 868,
         "name": "Dragon Ball FighterZ",
         "rating": 13.6,
         "rank": 72
       },
       {
-        "id": 861,
+        "id": 860,
         "name": "Super Meat Boy",
         "rating": 13.44,
         "rank": 73
       },
       {
-        "id": 821,
+        "id": 820,
         "name": "Bayonetta",
         "rating": 13.3,
         "rank": 74
       },
       {
-        "id": 691,
+        "id": 690,
         "name": "The Walking Dead: A Telltale Games Series",
         "rating": 13.15,
         "rank": 75
       },
       {
-        "id": 828,
+        "id": 827,
         "name": "Devil May Cry 5",
         "rating": 13.1,
         "rank": 76
       },
       {
-        "id": 845,
+        "id": 844,
         "name": "Assassin's Creed Odyssey",
         "rating": 12.99,
         "rank": 77
       },
       {
-        "id": 852,
+        "id": 851,
         "name": "Nioh",
         "rating": 12.96,
         "rank": 78
       },
       {
-        "id": 865,
+        "id": 864,
         "name": "Street Fighter V",
         "rating": 12.62,
         "rank": 79
       },
       {
-        "id": 800,
+        "id": 799,
         "name": "Tales of Berseria",
         "rating": 12.53,
         "rank": 80
       },
       {
-        "id": 846,
+        "id": 845,
         "name": "Starcraft II: Wings of Liberty",
         "rating": 12.35,
         "rank": 81
       },
       {
-        "id": 710,
+        "id": 709,
         "name": "Shovel Knight",
         "rating": 12.28,
         "rank": 82
       },
       {
-        "id": 692,
+        "id": 691,
         "name": "Life is Strange",
         "rating": 12.23,
         "rank": 83
       },
       {
-        "id": 826,
+        "id": 825,
         "name": "Octopath Traveler",
         "rating": 12.12,
         "rank": 84
       },
       {
-        "id": 842,
+        "id": 841,
         "name": "Ori and the Blind Forest",
         "rating": 11.69,
         "rank": 85
       },
       {
-        "id": 851,
+        "id": 850,
         "name": "Dishonored",
         "rating": 11.41,
         "rank": 86
       },
       {
-        "id": 863,
+        "id": 862,
         "name": "Disco Elysium",
         "rating": 11.26,
         "rank": 87
       },
       {
-        "id": 873,
+        "id": 872,
         "name": "Dead Cells",
         "rating": 11.21,
         "rank": 88
       },
       {
-        "id": 841,
+        "id": 840,
         "name": "Dragon Age: Inquisition",
         "rating": 10.93,
         "rank": 89
       },
       {
-        "id": 878,
+        "id": 877,
         "name": "Subnautica",
         "rating": 10.86,
         "rank": 90
       },
       {
-        "id": 694,
+        "id": 693,
         "name": "Undertale",
         "rating": 10.79,
         "rank": 91
       },
       {
-        "id": 868,
+        "id": 867,
         "name": "Hotline Miami",
         "rating": 10.53,
         "rank": 92
       },
       {
-        "id": 840,
+        "id": 839,
         "name": "Overwatch",
         "rating": 10.5,
         "rank": 93
       },
       {
-        "id": 823,
+        "id": 822,
         "name": "Dead Space 2",
         "rating": 10.48,
         "rank": 94
       },
       {
-        "id": 719,
+        "id": 718,
         "name": "Destiny",
         "rating": 10.42,
         "rank": 95
       },
       {
-        "id": 711,
+        "id": 710,
         "name": "The Binding of Isaac: Rebirth",
         "rating": 10.27,
         "rank": 96
       },
       {
-        "id": 829,
+        "id": 828,
         "name": "Donkey Kong Country: Tropical Freeze",
         "rating": 10.06,
         "rank": 97
       },
       {
-        "id": 844,
+        "id": 843,
         "name": "South Park: The Stick of Truth",
         "rating": 9.84,
         "rank": 98
       },
       {
-        "id": 879,
+        "id": 878,
         "name": "Fate / Grand Order",
         "rating": 9.81,
         "rank": 99
       },
       {
-        "id": 880,
+        "id": 879,
         "name": "Crypt of the NecroDancer",
         "rating": 9.69,
         "rank": 100
       },
       {
-        "id": 721,
+        "id": 720,
         "name": "Zero Escape: Virtue's Last Reward",
         "rating": 9.67,
         "rank": 101
       },
       {
-        "id": 875,
+        "id": 874,
         "name": "Terraria",
         "rating": 9.65,
         "rank": 102
       },
       {
-        "id": 807,
+        "id": 806,
         "name": "The Legend of Heroes: Trails in the Sky SC",
         "rating": 9.23,
         "rank": 103
       },
       {
-        "id": 818,
+        "id": 817,
         "name": "Call of Duty: Black Ops",
         "rating": 9.16,
         "rank": 104
       },
       {
-        "id": 820,
+        "id": 819,
         "name": "Tekken 7",
         "rating": 8.89,
         "rank": 105
       },
       {
-        "id": 883,
+        "id": 882,
         "name": "Night in the Woods",
         "rating": 8.64,
         "rank": 106
       },
       {
-        "id": 834,
+        "id": 833,
         "name": "XCOM 2",
         "rating": 8.58,
         "rank": 107
       },
       {
-        "id": 839,
+        "id": 838,
         "name": "Death Stranding",
         "rating": 8.47,
         "rank": 108
       },
       {
-        "id": 835,
+        "id": 834,
         "name": "FTL: Faster Than Light",
         "rating": 8.38,
         "rank": 109
       },
       {
-        "id": 849,
+        "id": 848,
         "name": "The Stanley Parable",
         "rating": 8.35,
         "rank": 110
       },
       {
-        "id": 877,
+        "id": 876,
         "name": "Crusader Kings II",
         "rating": 8.34,
         "rank": 111
       },
       {
-        "id": 810,
+        "id": 809,
         "name": "VVVVVV",
         "rating": 8.3,
         "rank": 112
       },
       {
-        "id": 866,
+        "id": 865,
         "name": "Dying Light",
         "rating": 8.18,
         "rank": 113
       },
       {
-        "id": 812,
+        "id": 811,
         "name": "Fortnite",
         "rating": 8.17,
         "rank": 114
       },
       {
-        "id": 838,
+        "id": 837,
         "name": "Splatoon 2",
         "rating": 8.15,
         "rank": 115
       },
       {
-        "id": 814,
+        "id": 813,
         "name": "Danganronpa 2: Goodbye Despair",
         "rating": 7.85,
         "rank": 116
       },
       {
-        "id": 798,
+        "id": 797,
         "name": "What Remains of Edith Finch",
         "rating": 7.71,
         "rank": 117
       },
       {
-        "id": 837,
+        "id": 836,
         "name": "Ghost Trick: Phantom Detective",
         "rating": 7.66,
         "rank": 118
       },
       {
-        "id": 699,
+        "id": 698,
         "name": "Hearthstone: Heroes of Warcraft",
         "rating": 7.46,
         "rank": 119
       },
       {
-        "id": 832,
+        "id": 831,
         "name": "Baba Is You",
         "rating": 7.42,
         "rank": 120
       },
       {
-        "id": 827,
+        "id": 826,
         "name": "Dragon's Dogma",
         "rating": 7.18,
         "rank": 121
       },
       {
-        "id": 854,
+        "id": 853,
         "name": "The Talos Principle",
         "rating": 7.16,
         "rank": 122
       },
       {
-        "id": 848,
+        "id": 847,
         "name": "Return of the Obra Dinn",
         "rating": 6.97,
         "rank": 123
       },
       {
-        "id": 871,
+        "id": 870,
         "name": "The Witness",
         "rating": 6.77,
         "rank": 124
       },
       {
-        "id": 860,
+        "id": 859,
         "name": "Slay the Spire",
         "rating": 6.53,
         "rank": 125
       },
       {
-        "id": 825,
+        "id": 824,
         "name": "Dota 2",
         "rating": 6.03,
         "rank": 126
       },
       {
-        "id": 830,
+        "id": 829,
         "name": "Mortal Kombat 11",
         "rating": 5.76,
         "rank": 127
       },
       {
-        "id": 816,
+        "id": 815,
         "name": "INSIDE",
         "rating": 4.77,
         "rank": 128

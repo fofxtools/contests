@@ -33,7 +33,7 @@
  *
  * `links.updates` (present and true only when set): whether this poll has any
  * `updates` row at all, i.e. whether /node/22?matchnum={poll} has anything to
- * show. 135/1528 matches (early SC2K2/SC2K3/SpC2K4 polls, before per-update vote
+ * show. 135/1528 matches (early SC2K2/SC2K3/Spring 2K4 polls, before per-update vote
  * tracking existed) have none.
  *
  * Run from the repo root: php scripts/build-contest-matches.php
@@ -55,56 +55,25 @@ $pdo = new PDO(
     [PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION, PDO::ATTR_DEFAULT_FETCH_MODE => PDO::FETCH_ASSOC]
 );
 
-/* --- contest output order + DB code spellings (matches-table spelling wins) --- */
-$CONTESTS = [
-    'SC2K2'     => ['SC2K2'],
-    'SC2K3'     => ['SC2K3', 'Summer 2K3'],
-    'SpC2K4'    => ['Spring 2K4'],
-    'SC2K4'     => ['SC2K4'],
-    'SpC2K5'    => ['Spring 2K5'],
-    'SC2K5'     => ['SC2K5', 'Summer 2K5'],
-    'BSE2K6'    => ['BSE2K6', 'BSE 2K6'],
-    'CB2K6'     => ['CB2K6', 'CB 2K6'],
-    'CB VI'     => ['CB VI'],
-    'CB VII'    => ['CB VII'],
-    'BGE 2K9'   => ['BGE 2K9'],
-    'CB VIII'   => ['CB VIII'],
-    'GOTD'      => ['GOTD'],
-    'Rivalry'   => ['Rivalry'],
-    'CB IX'     => ['CB IX'],
-    'BGE 2K15'  => ['BGE 2K15'],
-    'Best Year' => ['Best Year'],
-    'CB X'      => ['CB X'],
-    'GOTD 2'    => ['GOTD 2'],
-];
+/* --- contest identity: derived entirely from data/contest-ids.json, the
+   canonical registry -- editing that file is enough, nothing here needs a
+   matching manual edit. $CONTESTS' value is the registry's full "codes" list
+   (every DB spelling this contest is known by); an alias the DB never
+   actually used is harmless -- $byCode[$code] ?? [] below just returns
+   nothing for it. Best Year entrants are bare years; Rivalry entrants are
+   pairs. --- */
+$REGISTRY = json_decode((string) file_get_contents($ROOT . '/data/contest-ids.json'), true);
 
-/* --- pool/type per contest: the identity pool for an entrant registry. Keyed by
-   the $CONTESTS label above. SpC2K5 is the villains character contest — still the
-   character pool. Best Year entrants are bare years; Rivalry entrants are pairs. --- */
-/** @var array<string, string> $CONTEST_TYPE hand-maintained alongside $CONTESTS
- *  above — declared as a general map (not PHPStan's inferred exact-literal shape)
- *  so the `?? throw` below stays a real check against the two drifting apart. */
-$CONTEST_TYPE = [
-    'SC2K2'     => 'character',
-    'SC2K3'     => 'character',
-    'SpC2K4'    => 'game',
-    'SC2K4'     => 'character',
-    'SpC2K5'    => 'character',
-    'SC2K5'     => 'character',
-    'BSE2K6'    => 'series',
-    'CB2K6'     => 'character',
-    'CB VI'     => 'character',
-    'CB VII'    => 'character',
-    'BGE 2K9'   => 'game',
-    'CB VIII'   => 'character',
-    'GOTD'      => 'game',
-    'Rivalry'   => 'rivalry',
-    'CB IX'     => 'character',
-    'BGE 2K15'  => 'game',
-    'Best Year' => 'year',
-    'CB X'      => 'character',
-    'GOTD 2'    => 'game',
-];
+$CONTESTS     = [];   // label (registry's preferred code) => DB spellings to search for
+$CONTEST_TYPE = [];   // label => entrant-registry pool (character/game/series/rivalry/year)
+$CONTEST_ID   = [];   // label => contest_id, for $EXPECT/$NOTES below (kept keyed by the
+// stable id, not the label, so a label change never touches them)
+foreach ($REGISTRY as $reg) {
+    $label                = $reg['codes'][0];
+    $CONTESTS[$label]     = $reg['codes'];
+    $CONTEST_TYPE[$label] = $reg['pool'];
+    $CONTEST_ID[$label]   = $reg['id'];
+}
 
 /* --- bonus poll ids: everything else is official. Shared with public/lib/contest.php. --- */
 require_once $ROOT . '/public/lib/bonus-polls.php';
@@ -123,10 +92,11 @@ $BONUS_POLL_TYPE = [
     4196 => 'character',
 ];
 
-/* per-contest caveats recorded as `note` */
+/* per-contest caveats recorded as `note`. Keyed by contest_id (data/contest-ids.json's
+   "id": 8 = Character Battle 2006), not the label -- see $CONTEST_ID above. */
 $NOTES = [
-    'CB2K6' => 'Polls 2562-2566 are the Battle Royale: one 6-way poll, then 5-, 4-, 3- and 2-way '
-             . 'as entrants are eliminated.',
+    8 => 'Polls 2562-2566 are the Battle Royale: one 6-way poll, then 5-, 4-, 3- and 2-way '
+       . 'as entrants are eliminated.',
 ];
 
 /* CB2K6 Battle Royale: the real 6/5/4/3/2-way rosters live in `updates`, not `matches`
@@ -138,13 +108,15 @@ $BR_POLLS = [2562, 2563, 2564, 2565, 2566];
    Intentionally allowed to be a partial map — see the `?? [null, null]` below,
    which is how a newly-added contest shows up as "expect db=? off=?" instead of
    failing, before its real counts are known. */
-/** @var array<string, array{int, int}> $EXPECT declared as a general map (not
- *  PHPStan's inferred exact-literal shape) so it stays free to be partial. */
+/** @var array<int, array{int, int}> $EXPECT declared as a general map (not
+ *  PHPStan's inferred exact-literal shape) so it stays free to be partial.
+ *  Keyed by contest_id (data/contest-ids.json's "id"), not the label -- see
+ *  $CONTEST_ID above -- so a future spelling change never touches this. */
 $EXPECT = [
-    'SC2K2'    => [63, 63], 'SC2K3' => [63, 63], 'SpC2K4' => [63, 63], 'SC2K4' => [63, 63], 'SpC2K5' => [31, 31],
-    'SC2K5'    => [66, 66], 'BSE2K6' => [31, 31], 'CB2K6' => [68, 68], 'CB VI' => [64, 63], 'CB VII' => [64, 63],
-    'BGE 2K9'  => [64, 63], 'CB VIII' => [127, 127], 'GOTD' => [128, 127], 'Rivalry' => [64, 63], 'CB IX' => [125, 121],
-    'BGE 2K15' => [131, 127], 'Best Year' => [35, 35], 'CB X' => [150, 150], 'GOTD 2' => [128, 127],
+    1  => [63, 63],  2 => [63, 63],  3 => [63, 63],  4 => [63, 63],  5 => [31, 31],
+    6  => [66, 66],  7 => [31, 31],  8 => [68, 68],  9 => [64, 63],  10 => [64, 63],
+    11 => [64, 63],  12 => [127, 127], 13 => [128, 127], 14 => [64, 63], 15 => [125, 121],
+    16 => [131, 127], 17 => [35, 35], 18 => [150, 150], 19 => [128, 127],
 ];
 
 /* --- pull rows: code => [ [pollid, [entrants...]], ... ] --- */
@@ -295,6 +267,7 @@ foreach ($pdo->query($sql) as $r) {
 $out = [];
 
 $checks = [];
+$allOk  = true;
 foreach ($CONTESTS as $label => $codes) {
     $rows = [];
     foreach ($codes as $code) {
@@ -328,13 +301,13 @@ foreach ($CONTESTS as $label => $codes) {
         'db_total'       => count($rows),
         'official_total' => $offCount,
     ];
-    if (isset($NOTES[$label])) {
-        $entry['note'] = $NOTES[$label];
+    if (isset($NOTES[$CONTEST_ID[$label]])) {
+        $entry['note'] = $NOTES[$CONTEST_ID[$label]];
     }
     $entry['matches'] = $matches;
     $out[$label]      = $entry;
 
-    $exp      = $EXPECT[$label] ?? [null, null];
+    $exp      = $EXPECT[$CONTEST_ID[$label]] ?? [null, null];
     $ok       = ($exp[0] === count($rows) && $exp[1] === $offCount);
     $checks[] = sprintf(
         '%-9s db=%-3d off=%-3d   expect db=%-3s off=%-3s   %s',
@@ -345,7 +318,7 @@ foreach ($CONTESTS as $label => $codes) {
         $exp[1] ?? '?',
         $ok ? 'PASS' : 'FAIL'
     );
-    $allOk = ($allOk ?? true) && $ok;
+    $allOk = $allOk && $ok;
 }
 
 /* --- write JSON --- */

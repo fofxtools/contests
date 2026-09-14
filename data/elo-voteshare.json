@@ -981,7 +981,7 @@
             "pairwise_draws": 0
         },
         {
-            "id": 638,
+            "id": 637,
             "name": "Squirtle",
             "rating": 1517.5,
             "peak_rating": {
@@ -1345,7 +1345,7 @@
             "pairwise_draws": 0
         },
         {
-            "id": 770,
+            "id": 769,
             "name": "2B",
             "rating": 1508.4,
             "peak_rating": {
@@ -1429,7 +1429,7 @@
             "pairwise_draws": 0
         },
         {
-            "id": 647,
+            "id": 646,
             "name": "Gilgamesh",
             "rating": 1507,
             "peak_rating": {
@@ -1541,7 +1541,7 @@
             "pairwise_draws": 0
         },
         {
-            "id": 637,
+            "id": 636,
             "name": "Lugia",
             "rating": 1506.6,
             "peak_rating": {
@@ -1597,7 +1597,7 @@
             "pairwise_draws": 0
         },
         {
-            "id": 655,
+            "id": 654,
             "name": "Pokemon Trainer Blue",
             "rating": 1506.1,
             "peak_rating": {
@@ -1807,7 +1807,7 @@
                 "date": "2005-05-24"
             },
             "last_match": {
-                "contest": "SpC2K5",
+                "contest": "Spring 2K5",
                 "poll": 2010,
                 "date": "2005-05-24"
             },
@@ -1905,7 +1905,7 @@
             "pairwise_draws": 0
         },
         {
-            "id": 781,
+            "id": 780,
             "name": "Geralt",
             "rating": 1503.3,
             "peak_rating": {
@@ -1975,7 +1975,7 @@
                 "date": "2005-05-20"
             },
             "last_match": {
-                "contest": "SpC2K5",
+                "contest": "Spring 2K5",
                 "poll": 2006,
                 "date": "2005-05-20"
             },
@@ -2017,7 +2017,7 @@
             "pairwise_draws": 0
         },
         {
-            "id": 646,
+            "id": 645,
             "name": "Booker DeWitt",
             "rating": 1502.6,
             "peak_rating": {
@@ -2045,7 +2045,7 @@
             "pairwise_draws": 0
         },
         {
-            "id": 673,
+            "id": 672,
             "name": "Magikarp",
             "rating": 1502.6,
             "peak_rating": {
@@ -2185,7 +2185,7 @@
             "pairwise_draws": 0
         },
         {
-            "id": 792,
+            "id": 791,
             "name": "Aqua",
             "rating": 1501.7,
             "peak_rating": {
@@ -2241,7 +2241,7 @@
             "pairwise_draws": 0
         },
         {
-            "id": 651,
+            "id": 650,
             "name": "Lee Everett",
             "rating": 1501.6,
             "peak_rating": {
@@ -2409,7 +2409,7 @@
             "pairwise_draws": 0
         },
         {
-            "id": 645,
+            "id": 644,
             "name": "Hal \"Otacon\" Emmerich",
             "rating": 1500.7,
             "peak_rating": {
@@ -2437,7 +2437,7 @@
             "pairwise_draws": 0
         },
         {
-            "id": 661,
+            "id": 660,
             "name": "Palutena",
             "rating": 1500.5,
             "peak_rating": {
@@ -2479,7 +2479,7 @@
                 "date": "2005-05-22"
             },
             "last_match": {
-                "contest": "SpC2K5",
+                "contest": "Spring 2K5",
                 "poll": 2008,
                 "date": "2005-05-22"
             },
@@ -2773,7 +2773,7 @@
             "pairwise_draws": 0
         },
         {
-            "id": 649,
+            "id": 648,
             "name": "Lu Bu",
             "rating": 1500,
             "peak_rating": {
@@ -2885,7 +2885,7 @@
             "pairwise_draws": 0
         },
         {
-            "id": 790,
+            "id": 789,
             "name": "King K. Rool",
             "rating": 1499.8,
             "peak_rating": {
@@ -2913,7 +2913,7 @@
             "pairwise_draws": 0
         },
         {
-            "id": 672,
+            "id": 671,
             "name": "Urdnot Wrex",
             "rating": 1499.7,
             "peak_rating": {
@@ -2955,7 +2955,7 @@
                 "date": "2005-05-17"
             },
             "last_match": {
-                "contest": "SpC2K5",
+                "contest": "Spring 2K5",
                 "poll": 2003,
                 "date": "2005-05-17"
             },
@@ -3081,7 +3081,7 @@
             "pairwise_draws": 0
         },
         {
-            "id": 780,
+            "id": 779,
             "name": "Shovel Knight",
             "rating": 1499.2,
             "peak_rating": {
@@ -3165,7 +3165,7 @@
             "pairwise_draws": 0
         },
         {
-            "id": 777,
+            "id": 776,
             "name": "Aloy",
             "rating": 1499.1,
             "peak_rating": {
@@ -3193,7 +3193,7 @@
             "pairwise_draws": 0
         },
         {
-            "id": 658,
+            "id": 657,
             "name": "Catherine",
             "rating": 1499,
             "peak_rating": {
@@ -3291,7 +3291,7 @@
                 "date": "2005-05-04"
             },
             "last_match": {
-                "contest": "SpC2K5",
+                "contest": "Spring 2K5",
                 "poll": 1990,
                 "date": "2005-05-04"
             },
@@ -3305,7 +3305,7 @@
             "pairwise_draws": 0
         },
         {
-            "id": 779,
+            "id": 778,
             "name": "Captain Toad",
             "rating": 1498.8,
             "peak_rating": {
@@ -3347,7 +3347,7 @@
                 "date": "2005-05-18"
             },
             "last_match": {
-                "contest": "SpC2K5",
+                "contest": "Spring 2K5",
                 "poll": 2004,
                 "date": "2005-05-18"
             },
@@ -3445,7 +3445,7 @@
             "pairwise_draws": 0
         },
         {
-            "id": 669,
+            "id": 668,
             "name": "Creeper",
             "rating": 1498.7,
             "peak_rating": {
@@ -3501,7 +3501,7 @@
             "pairwise_draws": 0
         },
         {
-            "id": 665,
+            "id": 664,
             "name": "Adam Jensen",
             "rating": 1498.6,
             "peak_rating": {
@@ -3529,7 +3529,7 @@
             "pairwise_draws": 0
         },
         {
-            "id": 784,
+            "id": 783,
             "name": "Ren Amamiya / Joker",
             "rating": 1498.6,
             "peak_rating": {
@@ -3585,7 +3585,7 @@
             "pairwise_draws": 0
         },
         {
-            "id": 650,
+            "id": 649,
             "name": "Yoshimitsu",
             "rating": 1498.5,
             "peak_rating": {
@@ -3613,7 +3613,7 @@
             "pairwise_draws": 0
         },
         {
-            "id": 766,
+            "id": 765,
             "name": "Velvet Crowe",
             "rating": 1498.5,
             "peak_rating": {
@@ -3655,7 +3655,7 @@
                 "date": "2005-05-05"
             },
             "last_match": {
-                "contest": "SpC2K5",
+                "contest": "Spring 2K5",
                 "poll": 1991,
                 "date": "2005-05-05"
             },
@@ -3837,7 +3837,7 @@
             "pairwise_draws": 0
         },
         {
-            "id": 791,
+            "id": 790,
             "name": "Ellie",
             "rating": 1498.2,
             "peak_rating": {
@@ -3879,7 +3879,7 @@
                 "date": "2005-05-09"
             },
             "last_match": {
-                "contest": "SpC2K5",
+                "contest": "Spring 2K5",
                 "poll": 1995,
                 "date": "2005-05-09"
             },
@@ -3893,7 +3893,7 @@
             "pairwise_draws": 0
         },
         {
-            "id": 670,
+            "id": 669,
             "name": "Corvo Attano",
             "rating": 1498.1,
             "peak_rating": {
@@ -3921,7 +3921,7 @@
             "pairwise_draws": 0
         },
         {
-            "id": 782,
+            "id": 781,
             "name": "Rosalina",
             "rating": 1498.1,
             "peak_rating": {
@@ -4005,7 +4005,7 @@
             "pairwise_draws": 0
         },
         {
-            "id": 675,
+            "id": 674,
             "name": "Mike Haggar",
             "rating": 1497.9,
             "peak_rating": {
@@ -4033,7 +4033,7 @@
             "pairwise_draws": 0
         },
         {
-            "id": 663,
+            "id": 662,
             "name": "Dragonborn",
             "rating": 1497.8,
             "peak_rating": {
@@ -4061,7 +4061,7 @@
             "pairwise_draws": 0
         },
         {
-            "id": 776,
+            "id": 775,
             "name": "Metal Sonic",
             "rating": 1497.8,
             "peak_rating": {
@@ -4145,7 +4145,7 @@
             "pairwise_draws": 0
         },
         {
-            "id": 674,
+            "id": 673,
             "name": "Recette Lemongrass",
             "rating": 1497.5,
             "peak_rating": {
@@ -4173,7 +4173,7 @@
             "pairwise_draws": 0
         },
         {
-            "id": 762,
+            "id": 761,
             "name": "Noctis Lucis Caelum",
             "rating": 1497.5,
             "peak_rating": {
@@ -4341,7 +4341,7 @@
             "pairwise_draws": 0
         },
         {
-            "id": 644,
+            "id": 643,
             "name": "Missile",
             "rating": 1497.2,
             "peak_rating": {
@@ -4481,7 +4481,7 @@
             "pairwise_draws": 0
         },
         {
-            "id": 760,
+            "id": 759,
             "name": "Victor Sullivan",
             "rating": 1496.9,
             "peak_rating": {
@@ -4537,7 +4537,7 @@
             "pairwise_draws": 0
         },
         {
-            "id": 648,
+            "id": 647,
             "name": "Groose",
             "rating": 1496.8,
             "peak_rating": {
@@ -4565,7 +4565,7 @@
             "pairwise_draws": 0
         },
         {
-            "id": 635,
+            "id": 634,
             "name": "Handsome Jack",
             "rating": 1496.7,
             "peak_rating": {
@@ -4593,7 +4593,7 @@
             "pairwise_draws": 0
         },
         {
-            "id": 788,
+            "id": 787,
             "name": "Richter Belmont",
             "rating": 1496.7,
             "peak_rating": {
@@ -4621,7 +4621,7 @@
             "pairwise_draws": 0
         },
         {
-            "id": 653,
+            "id": 652,
             "name": "Mr. Game & Watch",
             "rating": 1496.5,
             "peak_rating": {
@@ -4649,7 +4649,7 @@
             "pairwise_draws": 0
         },
         {
-            "id": 677,
+            "id": 676,
             "name": "Boko",
             "rating": 1496.5,
             "peak_rating": {
@@ -4677,7 +4677,7 @@
             "pairwise_draws": 0
         },
         {
-            "id": 765,
+            "id": 764,
             "name": "James Sunderland",
             "rating": 1496.5,
             "peak_rating": {
@@ -4761,7 +4761,7 @@
             "pairwise_draws": 0
         },
         {
-            "id": 660,
+            "id": 659,
             "name": "Seifer Almasy",
             "rating": 1496.2,
             "peak_rating": {
@@ -4789,7 +4789,7 @@
             "pairwise_draws": 0
         },
         {
-            "id": 769,
+            "id": 768,
             "name": "Kazuma Kiryu",
             "rating": 1496.2,
             "peak_rating": {
@@ -4929,7 +4929,7 @@
             "pairwise_draws": 0
         },
         {
-            "id": 652,
+            "id": 651,
             "name": "Meat Boy",
             "rating": 1496,
             "peak_rating": {
@@ -4957,7 +4957,7 @@
             "pairwise_draws": 0
         },
         {
-            "id": 772,
+            "id": 771,
             "name": "Joel",
             "rating": 1496,
             "peak_rating": {
@@ -5153,7 +5153,7 @@
             "pairwise_draws": 0
         },
         {
-            "id": 642,
+            "id": 641,
             "name": "Oliver",
             "rating": 1495.7,
             "peak_rating": {
@@ -5307,7 +5307,7 @@
                 "date": "2005-05-06"
             },
             "last_match": {
-                "contest": "SpC2K5",
+                "contest": "Spring 2K5",
                 "poll": 1992,
                 "date": "2005-05-06"
             },
@@ -5321,7 +5321,7 @@
             "pairwise_draws": 0
         },
         {
-            "id": 659,
+            "id": 658,
             "name": "Vaas Montenegro",
             "rating": 1495.5,
             "peak_rating": {
@@ -5349,7 +5349,7 @@
             "pairwise_draws": 0
         },
         {
-            "id": 793,
+            "id": 792,
             "name": "Quiet",
             "rating": 1495.5,
             "peak_rating": {
@@ -5447,7 +5447,7 @@
                 "date": "2005-05-08"
             },
             "last_match": {
-                "contest": "SpC2K5",
+                "contest": "Spring 2K5",
                 "poll": 1994,
                 "date": "2005-05-08"
             },
@@ -5545,7 +5545,7 @@
             "pairwise_draws": 0
         },
         {
-            "id": 786,
+            "id": 785,
             "name": "Goro Majima",
             "rating": 1495.3,
             "peak_rating": {
@@ -5657,7 +5657,7 @@
             "pairwise_draws": 0
         },
         {
-            "id": 678,
+            "id": 677,
             "name": "Lyndis",
             "rating": 1495.2,
             "peak_rating": {
@@ -5727,7 +5727,7 @@
                 "date": "2005-05-11"
             },
             "last_match": {
-                "contest": "SpC2K5",
+                "contest": "Spring 2K5",
                 "poll": 1997,
                 "date": "2005-05-11"
             },
@@ -5741,7 +5741,7 @@
             "pairwise_draws": 0
         },
         {
-            "id": 758,
+            "id": 757,
             "name": "Cuphead",
             "rating": 1495.1,
             "peak_rating": {
@@ -5769,7 +5769,7 @@
             "pairwise_draws": 0
         },
         {
-            "id": 773,
+            "id": 772,
             "name": "Estelle Bright",
             "rating": 1495.1,
             "peak_rating": {
@@ -5825,7 +5825,7 @@
             "pairwise_draws": 0
         },
         {
-            "id": 657,
+            "id": 656,
             "name": "Isaac Clarke",
             "rating": 1495,
             "peak_rating": {
@@ -5853,7 +5853,7 @@
             "pairwise_draws": 0
         },
         {
-            "id": 763,
+            "id": 762,
             "name": "Monika",
             "rating": 1495,
             "peak_rating": {
@@ -6217,7 +6217,7 @@
             "pairwise_draws": 0
         },
         {
-            "id": 789,
+            "id": 788,
             "name": "Metal Man",
             "rating": 1494.4,
             "peak_rating": {
@@ -6245,7 +6245,7 @@
             "pairwise_draws": 0
         },
         {
-            "id": 778,
+            "id": 777,
             "name": "D.Va",
             "rating": 1494.3,
             "peak_rating": {
@@ -6301,7 +6301,7 @@
             "pairwise_draws": 0
         },
         {
-            "id": 774,
+            "id": 773,
             "name": "Guile",
             "rating": 1494.3,
             "peak_rating": {
@@ -6385,7 +6385,7 @@
             "pairwise_draws": 0
         },
         {
-            "id": 676,
+            "id": 675,
             "name": "Red Bird",
             "rating": 1494.2,
             "peak_rating": {
@@ -6483,7 +6483,7 @@
                 "date": "2005-05-13"
             },
             "last_match": {
-                "contest": "SpC2K5",
+                "contest": "Spring 2K5",
                 "poll": 1999,
                 "date": "2005-05-13"
             },
@@ -6609,7 +6609,7 @@
             "pairwise_draws": 0
         },
         {
-            "id": 654,
+            "id": 653,
             "name": "Steve",
             "rating": 1493.9,
             "peak_rating": {
@@ -6693,7 +6693,7 @@
             "pairwise_draws": 0
         },
         {
-            "id": 679,
+            "id": 678,
             "name": "John Marston",
             "rating": 1493.8,
             "peak_rating": {
@@ -6777,7 +6777,7 @@
             "pairwise_draws": 0
         },
         {
-            "id": 640,
+            "id": 639,
             "name": "Kat",
             "rating": 1493.8,
             "peak_rating": {
@@ -6833,7 +6833,7 @@
             "pairwise_draws": 0
         },
         {
-            "id": 764,
+            "id": 763,
             "name": "Shantae",
             "rating": 1493.7,
             "peak_rating": {
@@ -6889,7 +6889,7 @@
             "pairwise_draws": 0
         },
         {
-            "id": 641,
+            "id": 640,
             "name": "Yu Narukami",
             "rating": 1493.6,
             "peak_rating": {
@@ -6973,7 +6973,7 @@
             "pairwise_draws": 0
         },
         {
-            "id": 634,
+            "id": 633,
             "name": "Sen. Steven Armstrong",
             "rating": 1493.6,
             "peak_rating": {
@@ -7001,7 +7001,7 @@
             "pairwise_draws": 0
         },
         {
-            "id": 761,
+            "id": 760,
             "name": "Primrose",
             "rating": 1493.6,
             "peak_rating": {
@@ -7029,7 +7029,7 @@
             "pairwise_draws": 0
         },
         {
-            "id": 775,
+            "id": 774,
             "name": "Hat Kid",
             "rating": 1493.6,
             "peak_rating": {
@@ -7113,7 +7113,7 @@
             "pairwise_draws": 0
         },
         {
-            "id": 768,
+            "id": 767,
             "name": "Godot",
             "rating": 1493.4,
             "peak_rating": {
@@ -7323,7 +7323,7 @@
                 "date": "2005-05-19"
             },
             "last_match": {
-                "contest": "SpC2K5",
+                "contest": "Spring 2K5",
                 "poll": 2005,
                 "date": "2005-05-19"
             },
@@ -7421,7 +7421,7 @@
             "pairwise_draws": 0
         },
         {
-            "id": 666,
+            "id": 665,
             "name": "Marisa Kirisame",
             "rating": 1492.9,
             "peak_rating": {
@@ -7449,7 +7449,7 @@
             "pairwise_draws": 0
         },
         {
-            "id": 783,
+            "id": 782,
             "name": "Sans",
             "rating": 1492.8,
             "peak_rating": {
@@ -7505,7 +7505,7 @@
             "pairwise_draws": 0
         },
         {
-            "id": 767,
+            "id": 766,
             "name": "Neptune",
             "rating": 1492.7,
             "peak_rating": {
@@ -7631,7 +7631,7 @@
                 "date": "2005-05-25"
             },
             "last_match": {
-                "contest": "SpC2K5",
+                "contest": "Spring 2K5",
                 "poll": 2011,
                 "date": "2005-05-25"
             },
@@ -7673,7 +7673,7 @@
             "pairwise_draws": 0
         },
         {
-            "id": 662,
+            "id": 661,
             "name": "Teemo",
             "rating": 1492.4,
             "peak_rating": {
@@ -7813,7 +7813,7 @@
             "pairwise_draws": 0
         },
         {
-            "id": 664,
+            "id": 663,
             "name": "Cirno",
             "rating": 1492.3,
             "peak_rating": {
@@ -7841,7 +7841,7 @@
             "pairwise_draws": 0
         },
         {
-            "id": 759,
+            "id": 758,
             "name": "Chloe Price",
             "rating": 1492.3,
             "peak_rating": {
@@ -7883,7 +7883,7 @@
                 "date": "2005-05-07"
             },
             "last_match": {
-                "contest": "SpC2K5",
+                "contest": "Spring 2K5",
                 "poll": 1993,
                 "date": "2005-05-07"
             },
@@ -7953,7 +7953,7 @@
             "pairwise_draws": 0
         },
         {
-            "id": 643,
+            "id": 642,
             "name": "Hades",
             "rating": 1492.2,
             "peak_rating": {
@@ -8121,7 +8121,7 @@
             "pairwise_draws": 0
         },
         {
-            "id": 668,
+            "id": 667,
             "name": "Adol Christin",
             "rating": 1492,
             "peak_rating": {
@@ -8261,7 +8261,7 @@
             "pairwise_draws": 0
         },
         {
-            "id": 785,
+            "id": 784,
             "name": "Monokuma",
             "rating": 1491.7,
             "peak_rating": {
@@ -8625,7 +8625,7 @@
             "pairwise_draws": 0
         },
         {
-            "id": 787,
+            "id": 786,
             "name": "Isabelle",
             "rating": 1491.3,
             "peak_rating": {
@@ -8681,7 +8681,7 @@
             "pairwise_draws": 0
         },
         {
-            "id": 636,
+            "id": 635,
             "name": "Francis York Morgan",
             "rating": 1491.2,
             "peak_rating": {
@@ -8709,7 +8709,7 @@
             "pairwise_draws": 0
         },
         {
-            "id": 671,
+            "id": 670,
             "name": "Sissel",
             "rating": 1491.2,
             "peak_rating": {
@@ -8793,7 +8793,7 @@
             "pairwise_draws": 0
         },
         {
-            "id": 680,
+            "id": 679,
             "name": "Nier",
             "rating": 1491.1,
             "peak_rating": {
@@ -8821,7 +8821,7 @@
             "pairwise_draws": 0
         },
         {
-            "id": 771,
+            "id": 770,
             "name": "Cayde-6",
             "rating": 1491.1,
             "peak_rating": {
@@ -9003,7 +9003,7 @@
                 "date": "2005-05-10"
             },
             "last_match": {
-                "contest": "SpC2K5",
+                "contest": "Spring 2K5",
                 "poll": 1996,
                 "date": "2005-05-10"
             },
@@ -9129,7 +9129,7 @@
             "pairwise_draws": 0
         },
         {
-            "id": 667,
+            "id": 666,
             "name": "Commander Video",
             "rating": 1490.1,
             "peak_rating": {
@@ -9661,7 +9661,7 @@
             "pairwise_draws": 0
         },
         {
-            "id": 656,
+            "id": 655,
             "name": "Wolf O'Donnell",
             "rating": 1488.6,
             "peak_rating": {
@@ -9787,7 +9787,7 @@
                 "date": "2005-05-15"
             },
             "last_match": {
-                "contest": "SpC2K5",
+                "contest": "Spring 2K5",
                 "poll": 2001,
                 "date": "2005-05-15"
             },
@@ -10039,7 +10039,7 @@
                 "date": "2005-05-12"
             },
             "last_match": {
-                "contest": "SpC2K5",
+                "contest": "Spring 2K5",
                 "poll": 1998,
                 "date": "2005-05-12"
             },
@@ -10165,7 +10165,7 @@
             "pairwise_draws": 0
         },
         {
-            "id": 639,
+            "id": 638,
             "name": "Spring Breeze Dancin'",
             "rating": 1487,
             "peak_rating": {
@@ -10893,7 +10893,7 @@
             "pairwise_draws": 0
         },
         {
-            "id": 633,
+            "id": 202,
             "name": "Yuri Hyuga",
             "rating": 1480.5,
             "peak_rating": {
@@ -11315,7 +11315,7 @@
             "pairwise_draws": 0
         },
         {
-            "id": 794,
+            "id": 793,
             "name": "The Legend of Zelda: Breath of the Wild",
             "rating": 1548,
             "peak_rating": {
@@ -11511,7 +11511,7 @@
             "pairwise_draws": 0
         },
         {
-            "id": 712,
+            "id": 711,
             "name": "The Witcher 3: Wild Hunt",
             "rating": 1534.4,
             "peak_rating": {
@@ -11623,7 +11623,7 @@
             "pairwise_draws": 0
         },
         {
-            "id": 696,
+            "id": 695,
             "name": "The Elder Scrolls V: Skyrim",
             "rating": 1528.3,
             "peak_rating": {
@@ -11707,7 +11707,7 @@
             "pairwise_draws": 0
         },
         {
-            "id": 706,
+            "id": 705,
             "name": "Dark Souls",
             "rating": 1526.2,
             "peak_rating": {
@@ -11819,7 +11819,7 @@
             "pairwise_draws": 0
         },
         {
-            "id": 831,
+            "id": 830,
             "name": "Super Mario Odyssey",
             "rating": 1522.3,
             "peak_rating": {
@@ -11847,7 +11847,7 @@
             "pairwise_draws": 0
         },
         {
-            "id": 856,
+            "id": 855,
             "name": "Persona 5",
             "rating": 1521.1,
             "peak_rating": {
@@ -11931,7 +11931,7 @@
             "pairwise_draws": 0
         },
         {
-            "id": 819,
+            "id": 818,
             "name": "Super Smash Bros. Ultimate",
             "rating": 1519.1,
             "peak_rating": {
@@ -12099,7 +12099,7 @@
             "pairwise_draws": 0
         },
         {
-            "id": 694,
+            "id": 693,
             "name": "Undertale",
             "rating": 1516,
             "peak_rating": {
@@ -12127,7 +12127,7 @@
             "pairwise_draws": 0
         },
         {
-            "id": 853,
+            "id": 852,
             "name": "God of War (2018)",
             "rating": 1515.7,
             "peak_rating": {
@@ -12183,7 +12183,7 @@
             "pairwise_draws": 0
         },
         {
-            "id": 682,
+            "id": 681,
             "name": "The Last of Us",
             "rating": 1515.3,
             "peak_rating": {
@@ -12211,7 +12211,7 @@
             "pairwise_draws": 0
         },
         {
-            "id": 701,
+            "id": 700,
             "name": "Xenoblade Chronicles",
             "rating": 1515.3,
             "peak_rating": {
@@ -12239,7 +12239,7 @@
             "pairwise_draws": 0
         },
         {
-            "id": 884,
+            "id": 883,
             "name": "Pokemon HeartGold / SoulSilver Version",
             "rating": 1514.4,
             "peak_rating": {
@@ -12295,7 +12295,7 @@
             "pairwise_draws": 0
         },
         {
-            "id": 686,
+            "id": 685,
             "name": "Super Mario Galaxy 2",
             "rating": 1513.1,
             "peak_rating": {
@@ -12323,7 +12323,7 @@
             "pairwise_draws": 0
         },
         {
-            "id": 720,
+            "id": 719,
             "name": "Mass Effect 2",
             "rating": 1512.8,
             "peak_rating": {
@@ -12351,7 +12351,7 @@
             "pairwise_draws": 0
         },
         {
-            "id": 709,
+            "id": 708,
             "name": "Grand Theft Auto V",
             "rating": 1512.7,
             "peak_rating": {
@@ -12463,7 +12463,7 @@
             "pairwise_draws": 0
         },
         {
-            "id": 888,
+            "id": 887,
             "name": "NieR: Automata",
             "rating": 1511.3,
             "peak_rating": {
@@ -12491,7 +12491,7 @@
             "pairwise_draws": 0
         },
         {
-            "id": 806,
+            "id": 805,
             "name": "Dragon Quest XI: Echoes of an Elusive Age",
             "rating": 1511.1,
             "peak_rating": {
@@ -12575,7 +12575,7 @@
             "pairwise_draws": 0
         },
         {
-            "id": 718,
+            "id": 717,
             "name": "Red Dead Redemption",
             "rating": 1510.7,
             "peak_rating": {
@@ -12603,7 +12603,7 @@
             "pairwise_draws": 0
         },
         {
-            "id": 867,
+            "id": 866,
             "name": "Red Dead Redemption 2",
             "rating": 1510.7,
             "peak_rating": {
@@ -12631,7 +12631,7 @@
             "pairwise_draws": 0
         },
         {
-            "id": 708,
+            "id": 707,
             "name": "Bloodborne",
             "rating": 1510.5,
             "peak_rating": {
@@ -12659,7 +12659,7 @@
             "pairwise_draws": 0
         },
         {
-            "id": 836,
+            "id": 835,
             "name": "Persona 4 Golden",
             "rating": 1510.1,
             "peak_rating": {
@@ -12687,7 +12687,7 @@
             "pairwise_draws": 0
         },
         {
-            "id": 813,
+            "id": 812,
             "name": "Horizon Zero Dawn",
             "rating": 1509.7,
             "peak_rating": {
@@ -12715,7 +12715,7 @@
             "pairwise_draws": 0
         },
         {
-            "id": 714,
+            "id": 713,
             "name": "Fallout: New Vegas",
             "rating": 1509.6,
             "peak_rating": {
@@ -12799,7 +12799,7 @@
             "pairwise_draws": 0
         },
         {
-            "id": 815,
+            "id": 814,
             "name": "DOOM (2016)",
             "rating": 1509,
             "peak_rating": {
@@ -12827,7 +12827,7 @@
             "pairwise_draws": 0
         },
         {
-            "id": 685,
+            "id": 684,
             "name": "Super Smash Bros. for Wii U",
             "rating": 1508.9,
             "peak_rating": {
@@ -12911,7 +12911,7 @@
             "pairwise_draws": 0
         },
         {
-            "id": 690,
+            "id": 689,
             "name": "Portal 2",
             "rating": 1507.7,
             "peak_rating": {
@@ -13051,7 +13051,7 @@
             "pairwise_draws": 0
         },
         {
-            "id": 872,
+            "id": 871,
             "name": "Yakuza 0",
             "rating": 1506.4,
             "peak_rating": {
@@ -13079,7 +13079,7 @@
             "pairwise_draws": 0
         },
         {
-            "id": 843,
+            "id": 842,
             "name": "Fire Emblem: Three Houses",
             "rating": 1506.3,
             "peak_rating": {
@@ -13135,7 +13135,7 @@
             "pairwise_draws": 0
         },
         {
-            "id": 705,
+            "id": 704,
             "name": "Metal Gear Solid V: The Phantom Pain",
             "rating": 1505.7,
             "peak_rating": {
@@ -13191,7 +13191,7 @@
             "pairwise_draws": 0
         },
         {
-            "id": 850,
+            "id": 849,
             "name": "Dark Souls III",
             "rating": 1505.3,
             "peak_rating": {
@@ -13247,7 +13247,7 @@
             "pairwise_draws": 0
         },
         {
-            "id": 702,
+            "id": 701,
             "name": "Fire Emblem: Awakening",
             "rating": 1504.8,
             "peak_rating": {
@@ -13303,7 +13303,7 @@
             "pairwise_draws": 0
         },
         {
-            "id": 824,
+            "id": 823,
             "name": "Marvel's Spider-Man",
             "rating": 1504.7,
             "peak_rating": {
@@ -13415,7 +13415,7 @@
             "pairwise_draws": 0
         },
         {
-            "id": 799,
+            "id": 798,
             "name": "Hollow Knight",
             "rating": 1504.1,
             "peak_rating": {
@@ -13499,7 +13499,7 @@
             "pairwise_draws": 0
         },
         {
-            "id": 802,
+            "id": 801,
             "name": "Monster Hunter: World",
             "rating": 1503.9,
             "peak_rating": {
@@ -13555,7 +13555,7 @@
             "pairwise_draws": 0
         },
         {
-            "id": 687,
+            "id": 686,
             "name": "Minecraft",
             "rating": 1503.8,
             "peak_rating": {
@@ -13611,7 +13611,7 @@
             "pairwise_draws": 0
         },
         {
-            "id": 858,
+            "id": 857,
             "name": "Sonic Mania",
             "rating": 1503.5,
             "peak_rating": {
@@ -13751,7 +13751,7 @@
             "pairwise_draws": 0
         },
         {
-            "id": 881,
+            "id": 880,
             "name": "Final Fantasy XIV Online: A Realm Reborn",
             "rating": 1503,
             "peak_rating": {
@@ -13807,7 +13807,7 @@
             "pairwise_draws": 0
         },
         {
-            "id": 833,
+            "id": 832,
             "name": "Cuphead",
             "rating": 1502.8,
             "peak_rating": {
@@ -13863,7 +13863,7 @@
             "pairwise_draws": 0
         },
         {
-            "id": 847,
+            "id": 846,
             "name": "Stardew Valley",
             "rating": 1502.2,
             "peak_rating": {
@@ -13975,7 +13975,7 @@
             "pairwise_draws": 0
         },
         {
-            "id": 809,
+            "id": 808,
             "name": "Fallout 4",
             "rating": 1501.7,
             "peak_rating": {
@@ -14003,7 +14003,7 @@
             "pairwise_draws": 0
         },
         {
-            "id": 826,
+            "id": 825,
             "name": "Octopath Traveler",
             "rating": 1501.7,
             "peak_rating": {
@@ -14031,7 +14031,7 @@
             "pairwise_draws": 0
         },
         {
-            "id": 864,
+            "id": 863,
             "name": "Kingdom Hearts III",
             "rating": 1501.7,
             "peak_rating": {
@@ -14059,7 +14059,7 @@
             "pairwise_draws": 0
         },
         {
-            "id": 876,
+            "id": 875,
             "name": "Diablo III",
             "rating": 1501.7,
             "peak_rating": {
@@ -14143,7 +14143,7 @@
             "pairwise_draws": 0
         },
         {
-            "id": 861,
+            "id": 860,
             "name": "Super Meat Boy",
             "rating": 1501.2,
             "peak_rating": {
@@ -14171,7 +14171,7 @@
             "pairwise_draws": 0
         },
         {
-            "id": 804,
+            "id": 803,
             "name": "Sekiro: Shadows Die Twice",
             "rating": 1500.9,
             "peak_rating": {
@@ -14199,7 +14199,7 @@
             "pairwise_draws": 0
         },
         {
-            "id": 681,
+            "id": 680,
             "name": "Batman: Arkham City",
             "rating": 1500.7,
             "peak_rating": {
@@ -14283,7 +14283,7 @@
             "pairwise_draws": 0
         },
         {
-            "id": 713,
+            "id": 712,
             "name": "BioShock Infinite",
             "rating": 1500.4,
             "peak_rating": {
@@ -14381,7 +14381,7 @@
                 "date": "2004-05-21"
             },
             "last_match": {
-                "contest": "SpC2K4",
+                "contest": "Spring 2K4",
                 "poll": 1647,
                 "date": "2004-05-21"
             },
@@ -14395,7 +14395,7 @@
             "pairwise_draws": 0
         },
         {
-            "id": 822,
+            "id": 821,
             "name": "The Legend of Zelda: A Link Between Worlds",
             "rating": 1500.1,
             "peak_rating": {
@@ -14451,7 +14451,7 @@
             "pairwise_draws": 0
         },
         {
-            "id": 885,
+            "id": 884,
             "name": "Celeste",
             "rating": 1499.9,
             "peak_rating": {
@@ -14479,7 +14479,7 @@
             "pairwise_draws": 0
         },
         {
-            "id": 887,
+            "id": 886,
             "name": "Divinity: Original Sin II",
             "rating": 1499.7,
             "peak_rating": {
@@ -14619,7 +14619,7 @@
             "pairwise_draws": 0
         },
         {
-            "id": 869,
+            "id": 868,
             "name": "Dragon Ball FighterZ",
             "rating": 1499.5,
             "peak_rating": {
@@ -14647,7 +14647,7 @@
             "pairwise_draws": 0
         },
         {
-            "id": 841,
+            "id": 840,
             "name": "Dragon Age: Inquisition",
             "rating": 1499.4,
             "peak_rating": {
@@ -14871,7 +14871,7 @@
             "pairwise_draws": 0
         },
         {
-            "id": 716,
+            "id": 715,
             "name": "Borderlands 2",
             "rating": 1499,
             "peak_rating": {
@@ -14955,7 +14955,7 @@
             "pairwise_draws": 0
         },
         {
-            "id": 797,
+            "id": 796,
             "name": "Final Fantasy XV",
             "rating": 1498.8,
             "peak_rating": {
@@ -15039,7 +15039,7 @@
             "pairwise_draws": 0
         },
         {
-            "id": 874,
+            "id": 873,
             "name": "Xenoblade Chronicles 2",
             "rating": 1498.4,
             "peak_rating": {
@@ -15179,7 +15179,7 @@
             "pairwise_draws": 0
         },
         {
-            "id": 839,
+            "id": 838,
             "name": "Death Stranding",
             "rating": 1498.1,
             "peak_rating": {
@@ -15263,7 +15263,7 @@
             "pairwise_draws": 0
         },
         {
-            "id": 695,
+            "id": 694,
             "name": "Animal Crossing: New Leaf",
             "rating": 1497.7,
             "peak_rating": {
@@ -15375,7 +15375,7 @@
             "pairwise_draws": 0
         },
         {
-            "id": 829,
+            "id": 828,
             "name": "Donkey Kong Country: Tropical Freeze",
             "rating": 1497.6,
             "peak_rating": {
@@ -15403,7 +15403,7 @@
             "pairwise_draws": 0
         },
         {
-            "id": 801,
+            "id": 800,
             "name": "Bravely Default: Flying Fairy",
             "rating": 1497.5,
             "peak_rating": {
@@ -15571,7 +15571,7 @@
             "pairwise_draws": 0
         },
         {
-            "id": 700,
+            "id": 699,
             "name": "Monster Hunter 4 Ultimate",
             "rating": 1497.3,
             "peak_rating": {
@@ -15599,7 +15599,7 @@
             "pairwise_draws": 0
         },
         {
-            "id": 803,
+            "id": 802,
             "name": "Ni no Kuni: Wrath of the White Witch",
             "rating": 1497.3,
             "peak_rating": {
@@ -15683,7 +15683,7 @@
             "pairwise_draws": 0
         },
         {
-            "id": 811,
+            "id": 810,
             "name": "Bloodstained: Ritual of the Night",
             "rating": 1497,
             "peak_rating": {
@@ -15711,7 +15711,7 @@
             "pairwise_draws": 0
         },
         {
-            "id": 842,
+            "id": 841,
             "name": "Ori and the Blind Forest",
             "rating": 1496.9,
             "peak_rating": {
@@ -15767,7 +15767,7 @@
             "pairwise_draws": 0
         },
         {
-            "id": 882,
+            "id": 881,
             "name": "Uncharted 4: A Thief's End",
             "rating": 1496.8,
             "peak_rating": {
@@ -15851,7 +15851,7 @@
             "pairwise_draws": 0
         },
         {
-            "id": 846,
+            "id": 845,
             "name": "Starcraft II: Wings of Liberty",
             "rating": 1496.6,
             "peak_rating": {
@@ -15893,7 +15893,7 @@
                 "date": "2004-04-04"
             },
             "last_match": {
-                "contest": "SpC2K4",
+                "contest": "Spring 2K4",
                 "poll": 1603,
                 "date": "2004-04-04"
             },
@@ -16075,7 +16075,7 @@
             "pairwise_draws": 0
         },
         {
-            "id": 808,
+            "id": 807,
             "name": "Resident Evil 7: biohazard",
             "rating": 1496.2,
             "peak_rating": {
@@ -16187,7 +16187,7 @@
             "pairwise_draws": 0
         },
         {
-            "id": 817,
+            "id": 816,
             "name": "Deus Ex: Human Revolution",
             "rating": 1496.1,
             "peak_rating": {
@@ -16215,7 +16215,7 @@
             "pairwise_draws": 0
         },
         {
-            "id": 697,
+            "id": 696,
             "name": "Mario Kart 8",
             "rating": 1496,
             "peak_rating": {
@@ -16243,7 +16243,7 @@
             "pairwise_draws": 0
         },
         {
-            "id": 828,
+            "id": 827,
             "name": "Devil May Cry 5",
             "rating": 1496,
             "peak_rating": {
@@ -16383,7 +16383,7 @@
             "pairwise_draws": 0
         },
         {
-            "id": 800,
+            "id": 799,
             "name": "Tales of Berseria",
             "rating": 1495.9,
             "peak_rating": {
@@ -16411,7 +16411,7 @@
             "pairwise_draws": 0
         },
         {
-            "id": 859,
+            "id": 858,
             "name": "Ys VIII: Lacrimosa of DANA",
             "rating": 1495.9,
             "peak_rating": {
@@ -16439,7 +16439,7 @@
             "pairwise_draws": 0
         },
         {
-            "id": 821,
+            "id": 820,
             "name": "Bayonetta",
             "rating": 1495.7,
             "peak_rating": {
@@ -16467,7 +16467,7 @@
             "pairwise_draws": 0
         },
         {
-            "id": 857,
+            "id": 856,
             "name": "Assassin's Creed IV: Black Flag",
             "rating": 1495.4,
             "peak_rating": {
@@ -16495,7 +16495,7 @@
             "pairwise_draws": 0
         },
         {
-            "id": 703,
+            "id": 702,
             "name": "Super Mario Maker",
             "rating": 1495.4,
             "peak_rating": {
@@ -16579,7 +16579,7 @@
             "pairwise_draws": 0
         },
         {
-            "id": 827,
+            "id": 826,
             "name": "Dragon's Dogma",
             "rating": 1495.2,
             "peak_rating": {
@@ -16635,7 +16635,7 @@
             "pairwise_draws": 0
         },
         {
-            "id": 862,
+            "id": 861,
             "name": "Tomb Raider",
             "rating": 1495.1,
             "peak_rating": {
@@ -16719,7 +16719,7 @@
             "pairwise_draws": 0
         },
         {
-            "id": 710,
+            "id": 709,
             "name": "Shovel Knight",
             "rating": 1494.9,
             "peak_rating": {
@@ -16859,7 +16859,7 @@
             "pairwise_draws": 0
         },
         {
-            "id": 693,
+            "id": 692,
             "name": "Mass Effect 3",
             "rating": 1494.7,
             "peak_rating": {
@@ -16915,7 +16915,7 @@
             "pairwise_draws": 0
         },
         {
-            "id": 840,
+            "id": 839,
             "name": "Overwatch",
             "rating": 1494.7,
             "peak_rating": {
@@ -16943,7 +16943,7 @@
             "pairwise_draws": 0
         },
         {
-            "id": 844,
+            "id": 843,
             "name": "South Park: The Stick of Truth",
             "rating": 1494.7,
             "peak_rating": {
@@ -17055,7 +17055,7 @@
             "pairwise_draws": 0
         },
         {
-            "id": 879,
+            "id": 878,
             "name": "Fate / Grand Order",
             "rating": 1494.5,
             "peak_rating": {
@@ -17111,7 +17111,7 @@
             "pairwise_draws": 0
         },
         {
-            "id": 865,
+            "id": 864,
             "name": "Street Fighter V",
             "rating": 1494.4,
             "peak_rating": {
@@ -17139,7 +17139,7 @@
             "pairwise_draws": 0
         },
         {
-            "id": 852,
+            "id": 851,
             "name": "Nioh",
             "rating": 1494.3,
             "peak_rating": {
@@ -17167,7 +17167,7 @@
             "pairwise_draws": 0
         },
         {
-            "id": 875,
+            "id": 874,
             "name": "Terraria",
             "rating": 1494.3,
             "peak_rating": {
@@ -17223,7 +17223,7 @@
             "pairwise_draws": 0
         },
         {
-            "id": 691,
+            "id": 690,
             "name": "The Walking Dead: A Telltale Games Series",
             "rating": 1494.2,
             "peak_rating": {
@@ -17251,7 +17251,7 @@
             "pairwise_draws": 0
         },
         {
-            "id": 834,
+            "id": 833,
             "name": "XCOM 2",
             "rating": 1494.2,
             "peak_rating": {
@@ -17279,7 +17279,7 @@
             "pairwise_draws": 0
         },
         {
-            "id": 863,
+            "id": 862,
             "name": "Disco Elysium",
             "rating": 1494.2,
             "peak_rating": {
@@ -17363,7 +17363,7 @@
             "pairwise_draws": 0
         },
         {
-            "id": 805,
+            "id": 804,
             "name": "Bastion",
             "rating": 1493.9,
             "peak_rating": {
@@ -17419,7 +17419,7 @@
             "pairwise_draws": 0
         },
         {
-            "id": 860,
+            "id": 859,
             "name": "Slay the Spire",
             "rating": 1493.9,
             "peak_rating": {
@@ -17559,7 +17559,7 @@
             "pairwise_draws": 0
         },
         {
-            "id": 886,
+            "id": 885,
             "name": "Rayman Legends",
             "rating": 1493.6,
             "peak_rating": {
@@ -17587,7 +17587,7 @@
             "pairwise_draws": 0
         },
         {
-            "id": 823,
+            "id": 822,
             "name": "Dead Space 2",
             "rating": 1493.6,
             "peak_rating": {
@@ -17615,7 +17615,7 @@
             "pairwise_draws": 0
         },
         {
-            "id": 851,
+            "id": 850,
             "name": "Dishonored",
             "rating": 1493.6,
             "peak_rating": {
@@ -17699,7 +17699,7 @@
             "pairwise_draws": 0
         },
         {
-            "id": 683,
+            "id": 682,
             "name": "Pokemon X/Y",
             "rating": 1493.4,
             "peak_rating": {
@@ -17867,7 +17867,7 @@
             "pairwise_draws": 0
         },
         {
-            "id": 880,
+            "id": 879,
             "name": "Crypt of the NecroDancer",
             "rating": 1493.1,
             "peak_rating": {
@@ -18007,7 +18007,7 @@
             "pairwise_draws": 0
         },
         {
-            "id": 810,
+            "id": 809,
             "name": "VVVVVV",
             "rating": 1493,
             "peak_rating": {
@@ -18035,7 +18035,7 @@
             "pairwise_draws": 0
         },
         {
-            "id": 707,
+            "id": 706,
             "name": "Sid Meier's Civilization V",
             "rating": 1492.8,
             "peak_rating": {
@@ -18091,7 +18091,7 @@
             "pairwise_draws": 0
         },
         {
-            "id": 873,
+            "id": 872,
             "name": "Dead Cells",
             "rating": 1492.8,
             "peak_rating": {
@@ -18245,7 +18245,7 @@
                 "date": "2004-04-17"
             },
             "last_match": {
-                "contest": "SpC2K4",
+                "contest": "Spring 2K4",
                 "poll": 1616,
                 "date": "2004-04-17"
             },
@@ -18343,7 +18343,7 @@
             "pairwise_draws": 0
         },
         {
-            "id": 870,
+            "id": 869,
             "name": "Rocket League",
             "rating": 1492.3,
             "peak_rating": {
@@ -18399,7 +18399,7 @@
             "pairwise_draws": 0
         },
         {
-            "id": 692,
+            "id": 691,
             "name": "Life is Strange",
             "rating": 1492.2,
             "peak_rating": {
@@ -18511,7 +18511,7 @@
             "pairwise_draws": 0
         },
         {
-            "id": 798,
+            "id": 797,
             "name": "What Remains of Edith Finch",
             "rating": 1492.1,
             "peak_rating": {
@@ -18693,7 +18693,7 @@
                 "date": "2004-04-21"
             },
             "last_match": {
-                "contest": "SpC2K4",
+                "contest": "Spring 2K4",
                 "poll": 1619,
                 "date": "2004-04-21"
             },
@@ -18735,7 +18735,7 @@
             "pairwise_draws": 0
         },
         {
-            "id": 825,
+            "id": 824,
             "name": "Dota 2",
             "rating": 1491.7,
             "peak_rating": {
@@ -18847,7 +18847,7 @@
             "pairwise_draws": 0
         },
         {
-            "id": 871,
+            "id": 870,
             "name": "The Witness",
             "rating": 1491.2,
             "peak_rating": {
@@ -18875,7 +18875,7 @@
             "pairwise_draws": 0
         },
         {
-            "id": 715,
+            "id": 714,
             "name": "Splatoon",
             "rating": 1491.1,
             "peak_rating": {
@@ -18903,7 +18903,7 @@
             "pairwise_draws": 0
         },
         {
-            "id": 835,
+            "id": 834,
             "name": "FTL: Faster Than Light",
             "rating": 1491.1,
             "peak_rating": {
@@ -18931,7 +18931,7 @@
             "pairwise_draws": 0
         },
         {
-            "id": 796,
+            "id": 795,
             "name": "Halo: Reach",
             "rating": 1491,
             "peak_rating": {
@@ -18959,7 +18959,7 @@
             "pairwise_draws": 0
         },
         {
-            "id": 689,
+            "id": 688,
             "name": "Age of Empires II: The Age of Kings",
             "rating": 1491,
             "peak_rating": {
@@ -18987,7 +18987,7 @@
             "pairwise_draws": 0
         },
         {
-            "id": 838,
+            "id": 837,
             "name": "Splatoon 2",
             "rating": 1490.9,
             "peak_rating": {
@@ -19015,7 +19015,7 @@
             "pairwise_draws": 0
         },
         {
-            "id": 855,
+            "id": 854,
             "name": "Heavy Rain",
             "rating": 1490.9,
             "peak_rating": {
@@ -19071,7 +19071,7 @@
             "pairwise_draws": 0
         },
         {
-            "id": 698,
+            "id": 697,
             "name": "Nine Hours, Nine Persons, Nine Doors",
             "rating": 1490.8,
             "peak_rating": {
@@ -19099,7 +19099,7 @@
             "pairwise_draws": 0
         },
         {
-            "id": 837,
+            "id": 836,
             "name": "Ghost Trick: Phantom Detective",
             "rating": 1490.8,
             "peak_rating": {
@@ -19127,7 +19127,7 @@
             "pairwise_draws": 0
         },
         {
-            "id": 684,
+            "id": 683,
             "name": "Planescape: Torment",
             "rating": 1490.7,
             "peak_rating": {
@@ -19155,7 +19155,7 @@
             "pairwise_draws": 0
         },
         {
-            "id": 832,
+            "id": 831,
             "name": "Baba Is You",
             "rating": 1490.7,
             "peak_rating": {
@@ -19183,7 +19183,7 @@
             "pairwise_draws": 0
         },
         {
-            "id": 849,
+            "id": 848,
             "name": "The Stanley Parable",
             "rating": 1490.6,
             "peak_rating": {
@@ -19211,7 +19211,7 @@
             "pairwise_draws": 0
         },
         {
-            "id": 688,
+            "id": 687,
             "name": "Journey",
             "rating": 1490.5,
             "peak_rating": {
@@ -19239,7 +19239,7 @@
             "pairwise_draws": 0
         },
         {
-            "id": 711,
+            "id": 710,
             "name": "The Binding of Isaac: Rebirth",
             "rating": 1490.5,
             "peak_rating": {
@@ -19365,7 +19365,7 @@
                 "date": "2004-04-12"
             },
             "last_match": {
-                "contest": "SpC2K4",
+                "contest": "Spring 2K4",
                 "poll": 1611,
                 "date": "2004-04-12"
             },
@@ -19379,7 +19379,7 @@
             "pairwise_draws": 0
         },
         {
-            "id": 807,
+            "id": 806,
             "name": "The Legend of Heroes: Trails in the Sky SC",
             "rating": 1490.2,
             "peak_rating": {
@@ -19449,7 +19449,7 @@
                 "date": "2004-04-24"
             },
             "last_match": {
-                "contest": "SpC2K4",
+                "contest": "Spring 2K4",
                 "poll": 1622,
                 "date": "2004-04-24"
             },
@@ -19463,7 +19463,7 @@
             "pairwise_draws": 0
         },
         {
-            "id": 812,
+            "id": 811,
             "name": "Fortnite",
             "rating": 1490.1,
             "peak_rating": {
@@ -19491,7 +19491,7 @@
             "pairwise_draws": 0
         },
         {
-            "id": 818,
+            "id": 817,
             "name": "Call of Duty: Black Ops",
             "rating": 1490.1,
             "peak_rating": {
@@ -19575,7 +19575,7 @@
             "pairwise_draws": 0
         },
         {
-            "id": 866,
+            "id": 865,
             "name": "Dying Light",
             "rating": 1490,
             "peak_rating": {
@@ -19617,7 +19617,7 @@
                 "date": "2004-04-13"
             },
             "last_match": {
-                "contest": "SpC2K4",
+                "contest": "Spring 2K4",
                 "poll": 1612,
                 "date": "2004-04-13"
             },
@@ -19659,7 +19659,7 @@
             "pairwise_draws": 0
         },
         {
-            "id": 877,
+            "id": 876,
             "name": "Crusader Kings II",
             "rating": 1489.9,
             "peak_rating": {
@@ -19687,7 +19687,7 @@
             "pairwise_draws": 0
         },
         {
-            "id": 717,
+            "id": 716,
             "name": "Bayonetta 2",
             "rating": 1489.8,
             "peak_rating": {
@@ -19715,7 +19715,7 @@
             "pairwise_draws": 0
         },
         {
-            "id": 883,
+            "id": 882,
             "name": "Night in the Woods",
             "rating": 1489.8,
             "peak_rating": {
@@ -19757,7 +19757,7 @@
                 "date": "2004-04-02"
             },
             "last_match": {
-                "contest": "SpC2K4",
+                "contest": "Spring 2K4",
                 "poll": 1601,
                 "date": "2004-04-02"
             },
@@ -19855,7 +19855,7 @@
             "pairwise_draws": 0
         },
         {
-            "id": 704,
+            "id": 703,
             "name": "Cave Story",
             "rating": 1489.5,
             "peak_rating": {
@@ -19883,7 +19883,7 @@
             "pairwise_draws": 0
         },
         {
-            "id": 868,
+            "id": 867,
             "name": "Hotline Miami",
             "rating": 1489.5,
             "peak_rating": {
@@ -19939,7 +19939,7 @@
             "pairwise_draws": 0
         },
         {
-            "id": 820,
+            "id": 819,
             "name": "Tekken 7",
             "rating": 1489.4,
             "peak_rating": {
@@ -19967,7 +19967,7 @@
             "pairwise_draws": 0
         },
         {
-            "id": 845,
+            "id": 844,
             "name": "Assassin's Creed Odyssey",
             "rating": 1489.4,
             "peak_rating": {
@@ -19995,7 +19995,7 @@
             "pairwise_draws": 0
         },
         {
-            "id": 878,
+            "id": 877,
             "name": "Subnautica",
             "rating": 1489.4,
             "peak_rating": {
@@ -20023,7 +20023,7 @@
             "pairwise_draws": 0
         },
         {
-            "id": 814,
+            "id": 813,
             "name": "Danganronpa 2: Goodbye Despair",
             "rating": 1489.3,
             "peak_rating": {
@@ -20093,7 +20093,7 @@
                 "date": "2004-04-25"
             },
             "last_match": {
-                "contest": "SpC2K4",
+                "contest": "Spring 2K4",
                 "poll": 1623,
                 "date": "2004-04-25"
             },
@@ -20163,7 +20163,7 @@
             "pairwise_draws": 0
         },
         {
-            "id": 795,
+            "id": 794,
             "name": "The Outer Worlds",
             "rating": 1488.8,
             "peak_rating": {
@@ -20191,7 +20191,7 @@
             "pairwise_draws": 0
         },
         {
-            "id": 854,
+            "id": 853,
             "name": "The Talos Principle",
             "rating": 1488.8,
             "peak_rating": {
@@ -20247,7 +20247,7 @@
             "pairwise_draws": 0
         },
         {
-            "id": 816,
+            "id": 815,
             "name": "INSIDE",
             "rating": 1488.5,
             "peak_rating": {
@@ -20275,7 +20275,7 @@
             "pairwise_draws": 0
         },
         {
-            "id": 830,
+            "id": 829,
             "name": "Mortal Kombat 11",
             "rating": 1488.5,
             "peak_rating": {
@@ -20317,7 +20317,7 @@
                 "date": "2004-04-26"
             },
             "last_match": {
-                "contest": "SpC2K4",
+                "contest": "Spring 2K4",
                 "poll": 1624,
                 "date": "2004-04-26"
             },
@@ -20359,7 +20359,7 @@
             "pairwise_draws": 0
         },
         {
-            "id": 848,
+            "id": 847,
             "name": "Return of the Obra Dinn",
             "rating": 1488.1,
             "peak_rating": {
@@ -20401,7 +20401,7 @@
                 "date": "2004-04-05"
             },
             "last_match": {
-                "contest": "SpC2K4",
+                "contest": "Spring 2K4",
                 "poll": 1604,
                 "date": "2004-04-05"
             },
@@ -20555,7 +20555,7 @@
             "pairwise_draws": 0
         },
         {
-            "id": 719,
+            "id": 718,
             "name": "Destiny",
             "rating": 1485.8,
             "peak_rating": {
@@ -20597,7 +20597,7 @@
                 "date": "2004-04-07"
             },
             "last_match": {
-                "contest": "SpC2K4",
+                "contest": "Spring 2K4",
                 "poll": 1606,
                 "date": "2004-04-07"
             },
@@ -20639,7 +20639,7 @@
             "pairwise_draws": 0
         },
         {
-            "id": 721,
+            "id": 720,
             "name": "Zero Escape: Virtue's Last Reward",
             "rating": 1485,
             "peak_rating": {
@@ -20835,7 +20835,7 @@
             "pairwise_draws": 0
         },
         {
-            "id": 699,
+            "id": 698,
             "name": "Hearthstone: Heroes of Warcraft",
             "rating": 1483.8,
             "peak_rating": {
@@ -23669,7 +23669,7 @@
     ],
     "year": [
         {
-            "id": 752,
+            "id": 751,
             "name": "1998",
             "rating": 1536.9,
             "peak_rating": {
@@ -23697,7 +23697,7 @@
             "pairwise_draws": 0
         },
         {
-            "id": 737,
+            "id": 736,
             "name": "1997",
             "rating": 1520.6,
             "peak_rating": {
@@ -23725,7 +23725,7 @@
             "pairwise_draws": 0
         },
         {
-            "id": 734,
+            "id": 733,
             "name": "2001",
             "rating": 1513.1,
             "peak_rating": {
@@ -23753,7 +23753,7 @@
             "pairwise_draws": 0
         },
         {
-            "id": 731,
+            "id": 730,
             "name": "1995",
             "rating": 1512.5,
             "peak_rating": {
@@ -23781,7 +23781,7 @@
             "pairwise_draws": 0
         },
         {
-            "id": 745,
+            "id": 744,
             "name": "1991",
             "rating": 1511.9,
             "peak_rating": {
@@ -23809,7 +23809,7 @@
             "pairwise_draws": 0
         },
         {
-            "id": 729,
+            "id": 728,
             "name": "2005",
             "rating": 1510.8,
             "peak_rating": {
@@ -23837,7 +23837,7 @@
             "pairwise_draws": 0
         },
         {
-            "id": 733,
+            "id": 732,
             "name": "1987",
             "rating": 1507.3,
             "peak_rating": {
@@ -23865,7 +23865,7 @@
             "pairwise_draws": 0
         },
         {
-            "id": 727,
+            "id": 726,
             "name": "2006",
             "rating": 1505.9,
             "peak_rating": {
@@ -23893,7 +23893,7 @@
             "pairwise_draws": 0
         },
         {
-            "id": 743,
+            "id": 742,
             "name": "1996",
             "rating": 1505.3,
             "peak_rating": {
@@ -23921,7 +23921,7 @@
             "pairwise_draws": 0
         },
         {
-            "id": 746,
+            "id": 745,
             "name": "2002",
             "rating": 1505.2,
             "peak_rating": {
@@ -23949,7 +23949,7 @@
             "pairwise_draws": 0
         },
         {
-            "id": 742,
+            "id": 741,
             "name": "2000",
             "rating": 1504.7,
             "peak_rating": {
@@ -23977,7 +23977,7 @@
             "pairwise_draws": 0
         },
         {
-            "id": 748,
+            "id": 747,
             "name": "1994",
             "rating": 1503.7,
             "peak_rating": {
@@ -24005,7 +24005,7 @@
             "pairwise_draws": 0
         },
         {
-            "id": 723,
+            "id": 722,
             "name": "2009",
             "rating": 1502.5,
             "peak_rating": {
@@ -24033,7 +24033,7 @@
             "pairwise_draws": 0
         },
         {
-            "id": 739,
+            "id": 738,
             "name": "2007",
             "rating": 1501.8,
             "peak_rating": {
@@ -24061,7 +24061,7 @@
             "pairwise_draws": 0
         },
         {
-            "id": 736,
+            "id": 735,
             "name": "2008",
             "rating": 1501.7,
             "peak_rating": {
@@ -24089,7 +24089,7 @@
             "pairwise_draws": 0
         },
         {
-            "id": 753,
+            "id": 752,
             "name": "1992",
             "rating": 1500.2,
             "peak_rating": {
@@ -24117,7 +24117,7 @@
             "pairwise_draws": 0
         },
         {
-            "id": 750,
+            "id": 749,
             "name": "2011",
             "rating": 1498.1,
             "peak_rating": {
@@ -24145,7 +24145,7 @@
             "pairwise_draws": 0
         },
         {
-            "id": 757,
+            "id": 756,
             "name": "2015",
             "rating": 1497.6,
             "peak_rating": {
@@ -24173,7 +24173,7 @@
             "pairwise_draws": 0
         },
         {
-            "id": 756,
+            "id": 755,
             "name": "2013",
             "rating": 1497.4,
             "peak_rating": {
@@ -24201,7 +24201,7 @@
             "pairwise_draws": 0
         },
         {
-            "id": 749,
+            "id": 748,
             "name": "2004",
             "rating": 1497.2,
             "peak_rating": {
@@ -24229,7 +24229,7 @@
             "pairwise_draws": 0
         },
         {
-            "id": 755,
+            "id": 754,
             "name": "2003",
             "rating": 1496.1,
             "peak_rating": {
@@ -24257,7 +24257,7 @@
             "pairwise_draws": 0
         },
         {
-            "id": 725,
+            "id": 724,
             "name": "1989",
             "rating": 1495.2,
             "peak_rating": {
@@ -24285,7 +24285,7 @@
             "pairwise_draws": 0
         },
         {
-            "id": 741,
+            "id": 740,
             "name": "1990",
             "rating": 1495.1,
             "peak_rating": {
@@ -24313,7 +24313,7 @@
             "pairwise_draws": 0
         },
         {
-            "id": 724,
+            "id": 723,
             "name": "1983",
             "rating": 1493.7,
             "peak_rating": {
@@ -24341,7 +24341,7 @@
             "pairwise_draws": 0
         },
         {
-            "id": 747,
+            "id": 746,
             "name": "2010",
             "rating": 1493.5,
             "peak_rating": {
@@ -24369,7 +24369,7 @@
             "pairwise_draws": 0
         },
         {
-            "id": 754,
+            "id": 753,
             "name": "2016",
             "rating": 1492.7,
             "peak_rating": {
@@ -24397,7 +24397,7 @@
             "pairwise_draws": 0
         },
         {
-            "id": 726,
+            "id": 725,
             "name": "1981",
             "rating": 1492.2,
             "peak_rating": {
@@ -24425,7 +24425,7 @@
             "pairwise_draws": 0
         },
         {
-            "id": 732,
+            "id": 731,
             "name": "1985",
             "rating": 1492.2,
             "peak_rating": {
@@ -24453,7 +24453,7 @@
             "pairwise_draws": 0
         },
         {
-            "id": 740,
+            "id": 739,
             "name": "2012",
             "rating": 1491.5,
             "peak_rating": {
@@ -24481,7 +24481,7 @@
             "pairwise_draws": 0
         },
         {
-            "id": 738,
+            "id": 737,
             "name": "1999",
             "rating": 1491.3,
             "peak_rating": {
@@ -24509,7 +24509,7 @@
             "pairwise_draws": 0
         },
         {
-            "id": 722,
+            "id": 721,
             "name": "1979",
             "rating": 1490,
             "peak_rating": {
@@ -24537,7 +24537,7 @@
             "pairwise_draws": 0
         },
         {
-            "id": 735,
+            "id": 734,
             "name": "2014",
             "rating": 1489.4,
             "peak_rating": {
@@ -24565,7 +24565,7 @@
             "pairwise_draws": 0
         },
         {
-            "id": 728,
+            "id": 727,
             "name": "1978",
             "rating": 1488.6,
             "peak_rating": {
@@ -24593,7 +24593,7 @@
             "pairwise_draws": 0
         },
         {
-            "id": 751,
+            "id": 750,
             "name": "1993",
             "rating": 1488.5,
             "peak_rating": {
@@ -24621,7 +24621,7 @@
             "pairwise_draws": 0
         },
         {
-            "id": 744,
+            "id": 743,
             "name": "1988",
             "rating": 1488,
             "peak_rating": {
@@ -24649,7 +24649,7 @@
             "pairwise_draws": 0
         },
         {
-            "id": 730,
+            "id": 729,
             "name": "1986",
             "rating": 1487.5,
             "peak_rating": {

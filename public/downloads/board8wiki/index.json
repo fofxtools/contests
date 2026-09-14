@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-10",
+  "generated": "2026-09-14",
   "writeups_total": 1528,
   "contests": 19,
   "all": {
@@ -33,7 +33,7 @@
       "file": "packs/board8wiki-2004-spc2k4.md",
       "tid": 3,
       "year": 2004,
-      "code": "SpC2K4",
+      "code": "Spring 2K4",
       "title": "Spring 2004 Game Contest",
       "writeups": 63,
       "bytes": 255533
@@ -51,7 +51,7 @@
       "file": "packs/board8wiki-2005-spc2k5.md",
       "tid": 5,
       "year": 2005,
-      "code": "SpC2K5",
+      "code": "Spring 2K5",
       "title": "Spring 2005 Character Contest",
       "writeups": 31,
       "bytes": 119820

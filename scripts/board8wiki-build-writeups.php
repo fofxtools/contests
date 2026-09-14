@@ -24,19 +24,25 @@ declare(strict_types=1);
 $ROOT = dirname(__DIR__);
 require_once $ROOT . '/public/lib/entrants.php';
 
-$html = file_get_contents($ROOT . '/data/GameFAQs_contest.html');
-$J    = json_decode((string) file_get_contents($ROOT . '/data/contest-matches.json'), true, 512, JSON_THROW_ON_ERROR);
+$html     = file_get_contents($ROOT . '/data/GameFAQs_contest.html');
+$J        = json_decode((string) file_get_contents($ROOT . '/data/contest-matches.json'), true, 512, JSON_THROW_ON_ERROR);
+$registry = json_decode((string) file_get_contents($ROOT . '/data/contest-ids.json'), true, 512, JSON_THROW_ON_ERROR);
+/** contest_id -> registry entry, so a label can be resolved from data/contest-ids.json
+ *  (the canonical source) instead of hand-copied here -- see $SECTIONS below. */
+$REGISTRY_BY_TID = array_column($registry, null, 'id');
 
 const BASE_URL = 'https://board8.fandom.com';
 
+/* wiki section slug -> contest_id (data/contest-ids.json's "id"). The label itself
+   is resolved via $REGISTRY_BY_TID below, not hand-copied here. */
 $SECTIONS = [
-    'Summer_2002_Contest'  => 'SC2K2', 'Summer_2003_Contest' => 'SC2K3', 'Spring_2004_Contest' => 'SpC2K4',
-    'Summer_2004_Contest'  => 'SC2K4', 'Spring_2005_Contest' => 'SpC2K5', 'Summer_2005_Contest' => 'SC2K5',
-    'Spring_2006_Contest'  => 'BSE2K6', 'Summer_2006_Contest' => 'CB2K6', 'Summer_2007_Contest' => 'CB VI',
-    'Summer_2008_Contest'  => 'CB VII', 'Spring_2009_Contest' => 'BGE 2K9', 'Winter_2010_Contest' => 'CB VIII',
-    'Fall_2010_Contest'    => 'GOTD', 'Fall_2011_Contest' => 'Rivalry', 'Summer_2013_Contest' => 'CB IX',
-    'Fall_2015_Contest'    => 'BGE 2K15', 'Spring_2017_Contest' => 'Best Year', 'Character_Battle_X' => 'CB X',
-    'Game_of_the_Decade_2' => 'GOTD 2',
+    'Summer_2002_Contest'  => 1, 'Summer_2003_Contest' => 2, 'Spring_2004_Contest' => 3,
+    'Summer_2004_Contest'  => 4, 'Spring_2005_Contest' => 5, 'Summer_2005_Contest' => 6,
+    'Spring_2006_Contest'  => 7, 'Summer_2006_Contest' => 8, 'Summer_2007_Contest' => 9,
+    'Summer_2008_Contest'  => 10, 'Spring_2009_Contest' => 11, 'Winter_2010_Contest' => 12,
+    'Fall_2010_Contest'    => 13, 'Fall_2011_Contest' => 14, 'Summer_2013_Contest' => 15,
+    'Fall_2015_Contest'    => 16, 'Spring_2017_Contest' => 17, 'Character_Battle_X' => 18,
+    'Game_of_the_Decade_2' => 19,
 ];
 $YEAR = [
     'Summer_2002_Contest'  => 2002, 'Summer_2003_Contest' => 2003, 'Spring_2004_Contest' => 2004,
@@ -158,7 +164,7 @@ $writeups = [];
 $problems = [];
 
 foreach ($slugList as $i => $slug) {
-    $label    = $SECTIONS[$slug];
+    $label    = $REGISTRY_BY_TID[$SECTIONS[$slug]]['codes'][0];
     $pool     = $J[$label]['type'];
     $nextSlug = $slugList[$i + 1] ?? null;
 

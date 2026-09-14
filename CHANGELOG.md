@@ -1,5 +1,34 @@
 # Changelog
 
+## [1.2.1] - 2026-09-14
+
+### Added
+
+- Luce Fit Ratings graphs (`/luce/{id}`, `/luce/compare`) now show shaded
+  contest-boundary bands with labels, same as Elo's graphs already did.
+- Elo Ratings (`/elo`): a **top 8** link next to Head-to-head comparison, to
+  graph the current top 8 entrants' careers in one click.
+- `scripts/rebuild-all.sh`: one script that regenerates every derived data
+  file in the right order.
+
+### Changed
+
+- Elo graphs (`/elo/{id}`, `/elo/compare`) now default to showing real dates
+  instead of match number, so the contest-boundary bands show up right away
+  instead of needing a click.
+- Elo graphs' y-axis is now a fixed range per rating type (instead of
+  auto-zooming to each entrant), so two entrants' strength is easier to
+  compare at a glance.
+- Luce entrant pages (`/luce/{id}`) now show a graph even for entrants who
+  only ever competed in one contest.
+- Contest-boundary band labels on Elo and Luce graphs now stagger across two
+  rows so nearby contests' names don't overlap.
+- Removed the "Basis: Current/Peak" toggle from the Elo compare page — it
+  only changed the head-to-head table, not the graph, and was more confusing
+  than useful.
+- Contest short names (e.g. "SC2K2") now come from one editable place and
+  can be changed without touching any other data file.
+
 ## [1.2.0] - 2026-09-12
 
 ### Added

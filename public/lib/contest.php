@@ -735,25 +735,30 @@ function amr_rows(): array
     return $cache = array_values($out);
 }
 
-/** [contest tid => short code], chronological — drives the contest link list on
- *  /node/100 and /node/102, where each contest is filtered by ?contest_id=<tid>. */
+/** [contest tid => display label], chronological (contest_registry()'s own
+ *  order) — drives the contest link list on /node/100 and /node/102, where
+ *  each contest is filtered by ?contest_id=<tid>, plus /luce and /node/105's
+ *  own contest pickers. Reads contest-ids.json's "label" field directly — a
+ *  purely cosmetic field with no effect on any derived data file, unlike
+ *  "codes" (see contest_registry()'s own comments and amr_contest_data()
+ *  above), so editing it needs no rebuild, just a page reload. Falls back to
+ *  codes[0] if "label" is ever missing (e.g. a newly-added contest). */
 function amr_contest_list(): array
 {
     static $list = null;
     if ($list === null) {
-        $seen = [];
-        foreach (amr_contest_data() as $code => [, $year, , $tid]) {
-            $seen[$tid] ??= ['code' => $code, 'year' => $year];
+        $list = [];
+        foreach (contest_registry() as $c) {
+            $list[(int)$c['id']] = (string)($c['label'] ?? $c['codes'][0]);
         }
-        uasort($seen, fn ($a, $b) => $a['year'] <=> $b['year']);
-        $list = array_map(fn ($v) => $v['code'], $seen);
     }
 
     return $list;
 }
 
-/** Display name for a contest tid (the contest_registry() label), or "contest
- *  #N" if the tid isn't a real contest (a hand-edited ?contest_id=). */
+/** Long display name for a contest tid (contest_registry()'s "name" field --
+ *  not its short "label", see amr_contest_list() for that), or "contest #N"
+ *  if the tid isn't a real contest (a hand-edited ?contest_id=). */
 function amr_contest_name(int $tid): string
 {
     foreach (amr_contest_data() as [$name, , , $t]) {
@@ -913,8 +918,8 @@ function amr_filter_bar(callable $u, string $base, array $cur, string $entrantBo
     ?>
 <p class="amr-views"><strong>Contest:</strong>
 <?= $conId === 0 ? '<strong>All</strong>' : '<a href="' . $u(['contest_id' => null]) . '">All</a>' ?>
-<?php foreach (amr_contest_list() as $tid => $code): ?>
- &middot; <?php if ($conId === $tid): ?><strong><?= $h($code) ?></strong><?php else: ?><a href="<?= $u(['contest_id' => $tid]) ?>"><?= $h($code) ?></a><?php endif; ?>
+<?php foreach (amr_contest_list() as $tid => $label): ?>
+ &middot; <?php if ($conId === $tid): ?><strong><?= $h($label) ?></strong><?php else: ?><a href="<?= $u(['contest_id' => $tid]) ?>"><?= $h($label) ?></a><?php endif; ?>
 <?php endforeach; ?>
 </p>
 <form class="amr-views" method="get" action="<?= $h($base) ?>">

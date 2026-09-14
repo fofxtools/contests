@@ -42,12 +42,15 @@ declare(strict_types=1);
  * poll-update graphs) with a plain linear x-axis in both modes — same
  * technique lib/graph.php already uses for "hours elapsed" — rather than
  * Chart.js's time scale, which needs a date-adapter plugin this project
- * doesn't have. ?x=index (default) plots by match sequence number; ?x=date
- * plots by real elapsed days since the entrant's first match, with a tick
- * callback converting the day-offset back to a calendar date — this is
- * deliberately real elapsed time, not evenly-spaced date labels, because the
- * whole point of the date view is to show the multi-year gaps between
- * contests that the index view compresses away.
+ * doesn't have. ?x=date (default) plots by real elapsed days since the
+ * entrant's first match, with a tick callback converting the day-offset back
+ * to a calendar date — this is deliberately real elapsed time, not
+ * evenly-spaced date labels, because the whole point of the date view is to
+ * show the multi-year gaps between contests that the index view compresses
+ * away. ?x=index plots by match sequence number instead, evenly spaced --
+ * denser and avoids those gaps, at the cost of not showing real elapsed time
+ * or (on /elo/compare) shared contest-boundary bands, which only make sense
+ * on a real, shared time axis (see elo_compare_render()'s own comment).
  */
 
 require_once __DIR__ . '/entrants.php';
@@ -99,6 +102,25 @@ function elo_method_label(string $method): string
 function elo_is_share(string $method): bool
 {
     return $method === 'voteshare' || $method === 'voteshare_tuned';
+}
+
+/** Fixed y-axis {min,max} per rating variant, for the graphs (single-entrant
+ *  and compare/overlay). The three methods have genuinely different natural
+ *  spreads (vote-share's K=32 barely moves; tuned's K=256 swings a lot), so
+ *  one shared range would flatten vote-share to near-invisible variation --
+ *  each method gets its own range instead, padded a bit past its actual
+ *  historical min/max (binary 1,401.7-1,946.4; vote-share 1,454.9-1,664.5;
+ *  tuned 1,345.0-1,839.5, checked across data/elo-history*.json). Fixed
+ *  (not auto-scaled to each entrant's own history) so line height is
+ *  honestly comparable across entrants within the same method, the same
+ *  reasoning as Luce's fixed 0-52 axis. */
+function elo_axis_range(string $method): array
+{
+    return match ($method) {
+        'voteshare'       => ['min' => 1400, 'max' => 1750],
+        'voteshare_tuned' => ['min' => 1300, 'max' => 1900],
+        default           => ['min' => 1350, 'max' => 2000],
+    };
 }
 
 /** The "Rating: Binary | Vote share | Vote share (tuned)" toggle row.
@@ -193,6 +215,20 @@ function elo_contest_date_ranges(): array
     return $ranges;
 }
 
+/** Display label for a contest, resolved from its raw pipeline spelling
+ *  (data/elo*.json's own "contest" field -- contest-ids.json's codes[0],
+ *  baked in at generation time) via amr_contest_data() (spelling -> tid)
+ *  then amr_contest_list() (tid -> contest-ids.json's separate, purely
+ *  cosmetic "label" field) -- the same rebuild-free text every other page
+ *  shows. Falls back to the raw spelling if either lookup misses (shouldn't
+ *  happen for real data). */
+function elo_display_label(string $pipelineLabel): string
+{
+    $tid = amr_contest_data()[$pipelineLabel][3] ?? null;
+
+    return $tid !== null ? (amr_contest_list()[$tid] ?? $pipelineLabel) : $pipelineLabel;
+}
+
 /** Elo expected score of A vs B — P(A gets more votes than B) under the
  *  logistic model, the same formula scripts/elo-compute.php's updates use.
  *  All three variants sit on the same 400 scale (the tuned one differs only in
@@ -267,7 +303,7 @@ function elo_render(int $id): array
 
     $history = elo_entrant_history($id, $method);
     $n       = count($history);
-    $xMode   = ($_GET['x'] ?? '') === 'date' ? 'date' : 'index';
+    $xMode   = ($_GET['x'] ?? '') === 'index' ? 'index' : 'date';
 
     // day-offset from the entrant's own first match — real elapsed time, not
     // evenly-spaced labels, so multi-year gaps between contests actually show
@@ -309,6 +345,7 @@ function elo_render(int $id): array
             'poll'      => $h['poll'],
             'date'      => $h['date'],
             'contest'   => $h['contest'],
+            'label'     => elo_display_label($h['contest']),
             'opponents' => $h['opponents'],
             'delta'     => $h['delta'],
         ];
@@ -358,6 +395,31 @@ function elo_render(int $id): array
         }
         unset($b);
     }
+    // display label for the band's floating text -- computed after both
+    // branches above, which need the raw pipeline spelling in 'contest' for
+    // the $ranges lookup (elo_contest_date_ranges() is keyed by that, not
+    // the cosmetic display label)
+    foreach ($bands as &$b) {
+        $b['label'] = elo_display_label($b['contest']);
+    }
+    unset($b);
+
+    // x-axis range: Chart.js auto-scales from the *points* only. In index
+    // mode a band never exceeds [first point, last point] by construction
+    // (the midpoint-tiling above), so this is a no-op there -- but in date
+    // mode, a contest's real date range can extend past a sparse entrant's
+    // own points (e.g. one match played mid-contest), which would otherwise
+    // overflow past the auto-scaled edge and paint solid to the chart border
+    // instead of a small box around the point. Padded a little so nothing
+    // sits exactly on the edge.
+    $xVals = array_column($points, 'x');
+    foreach ($bands as $b) {
+        $xVals[] = $b['start'];
+        $xVals[] = $b['end'];
+    }
+    $xMin = min($xVals);
+    $xMax = max($xVals);
+    $xPad = max(($xMax - $xMin) * 0.04, 1);
 
     $h       = fn (string $s): string => htmlspecialchars($s, ENT_QUOTES, 'UTF-8');
     $mSuffix = elo_mq($method);
@@ -380,9 +442,9 @@ Current rating: <strong><?= number_format($row['rating'], 1) ?></strong>
 </p>
 <?= elo_method_toggle($method, $mLink, $h) ?>
 <p class="elo-toggle"><strong>X-axis:</strong>
-<?php if ($xMode === 'index'): ?><strong>By match #</strong><?php else: ?><a href="<?= $h($q('index')) ?>">By match #</a><?php endif; ?>
-|
 <?php if ($xMode === 'date'): ?><strong>By date</strong><?php else: ?><a href="<?= $h($q('date')) ?>">By date</a><?php endif; ?>
+|
+<?php if ($xMode === 'index'): ?><strong>By match #</strong><?php else: ?><a href="<?= $h($q('index')) ?>">By match #</a><?php endif; ?>
 &nbsp;&nbsp; <a href="/elo/compare?pool=<?= $h($row['pool']) ?>&amp;ids=<?= $id ?><?= elo_mq($method, true) ?>">Compare with others</a>
 </p>
 
@@ -422,7 +484,7 @@ const contestBandsPlugin = {
       const x0 = x.getPixelForValue(b.start);
       const x1 = x.getPixelForValue(b.end);
       ctx.fillStyle = BAND_COLORS[i % 2];
-      ctx.fillRect(x0, top, x1 - x0, bottom - top);
+      ctx.fillRect(x0, top, Math.max(x1 - x0, 1), bottom - top);
     });
     // pass 2: one label per band, centered on its midpoint, deliberately
     // NOT clipped to the band's own width — a real contest can be a couple
@@ -431,10 +493,13 @@ const contestBandsPlugin = {
     ctx.fillStyle = '#666';
     ctx.font = '11px sans-serif';
     ctx.textAlign = 'center';
-    BANDS.forEach((b) => {
+    // staggered onto two rows (even/odd by band order) so two labels whose
+    // bands sit close together in time don't render on top of each other --
+    // same technique as luce.php's contest-boundary bands
+    BANDS.forEach((b, i) => {
       const x0 = x.getPixelForValue(b.start);
       const x1 = x.getPixelForValue(b.end);
-      ctx.fillText(b.contest, (x0 + x1) / 2, top + 12);
+      ctx.fillText(b.label, (x0 + x1) / 2, top + (i % 2 === 0 ? 12 : 24));
     });
     ctx.restore();
   },
@@ -468,7 +533,7 @@ const elograph = new Chart(document.getElementById('elograph'), {
       legend: { display: true, position: 'bottom' },
       tooltip: {
         callbacks: {
-          title: (items) => 'Poll ' + items[0].raw.poll + ' — ' + items[0].raw.contest + ' (' + items[0].raw.date + ')',
+          title: (items) => 'Poll ' + items[0].raw.poll + ' — ' + items[0].raw.label + ' (' + items[0].raw.date + ')',
           label: (ctx) => {
             const p = ctx.raw;
             const sign = p.delta >= 0 ? '+' : '';
@@ -483,12 +548,17 @@ const elograph = new Chart(document.getElementById('elograph'), {
     scales: {
       x: {
         type: 'linear',
+        // explicit, not auto-scaled -- see the PHP comment above $xMin
+        min: <?= $xMin - $xPad ?>, max: <?= $xMax + $xPad ?>,
         title: { display: true, text: X_MODE === 'date' ? 'Date' : 'Match #' },
         ticks: X_MODE === 'date' ? {
           callback: (v) => new Date((FIRST_DATE_TS + v * 86400) * 1000).toISOString().slice(0, 10),
         } : {},
       },
-      y: { title: { display: true, text: <?= json_encode('Elo rating' . elo_method_suffix($method)) ?> } },
+      y: {
+        min: <?= elo_axis_range($method)['min'] ?>, max: <?= elo_axis_range($method)['max'] ?>,
+        title: { display: true, text: <?= json_encode('Elo rating' . elo_method_suffix($method)) ?> },
+      },
     },
   },
 });
@@ -518,6 +588,11 @@ function elo_standings_render(): array
     }
 
     $rows = elo_data($method)[$pool] ?? [];
+
+    // top 8 by current rating -- elo_data()'s own pre-sorted order, captured
+    // before the table's own sort/reverse below (which can change $rows'
+    // order), for the "graph the top 8's careers" link
+    $top8Ids = implode(',', array_column(array_slice($rows, 0, 8), 'id'));
 
     // sortable columns — each comparator is that column's natural best-first
     // order; ties broken by name
@@ -600,7 +675,8 @@ an entrant&rsquo;s current form rather than a stable career average.</p>
 
 <p class="amr-views"><strong>See also:</strong>
 <a href="/elo/compare?pool=<?= $hh($pool) ?><?= elo_mq($method, true) ?>">Head-to-head comparison</a>
-(chart histories, estimated matchups).</p>
+(chart histories, estimated matchups). Graph the
+<a href="/elo/compare?pool=<?= $hh($pool) ?>&amp;ids=<?= $top8Ids ?><?= elo_mq($method, true) ?>"><strong>top 8</strong></a>.</p>
 
 <p class="elo-summary"><strong>Pool:</strong> <?= implode(' &middot; ', $poolLinks) ?></p>
 <?= elo_method_toggle($method, fn (string $mm) => $url(['method' => $mm]), $hh) ?>
@@ -617,7 +693,7 @@ an entrant&rsquo;s current form rather than a stable career average.</p>
  <td><a href="/elo/<?= (int) $r['id'] ?><?= $method === 'binary' ? '' : '?method=' . $hh($method) ?>"><?= $hh((string) $r['name']) ?></a></td>
  <td class="elo-n"><?= number_format((float) $r['rating'], 1) ?></td>
  <td class="elo-n" title="<?= $hh((string) $r['peak_rating']['date']) ?>"><?= number_format((float) $r['peak_rating']['rating'], 1) ?></td>
- <td title="<?= $hh((string) $r['last_match']['date']) ?>"><?= $hh((string) $r['last_match']['contest']) ?> (<?= substr((string) $r['last_match']['date'], 0, 4) ?>)</td>
+ <td title="<?= $hh((string) $r['last_match']['date']) ?>"><?= $hh(elo_display_label((string) $r['last_match']['contest'])) ?> (<?= substr((string) $r['last_match']['date'], 0, 4) ?>)</td>
  <td class="elo-n"><?= number_format((int) $r['matches']) ?></td>
 </tr>
 <?php endforeach; ?>
@@ -682,7 +758,7 @@ function elo_compare_render(): array
     }
 
     $hh    = fn (string $s): string => htmlspecialchars($s, ENT_QUOTES, 'UTF-8');
-    $xMode = ($_GET['x'] ?? '') === 'date' ? 'date' : 'index';
+    $xMode = ($_GET['x'] ?? '') === 'index' ? 'index' : 'date';
 
     // shared date epoch across every selected entrant's OWN first match —
     // not each one's own, which would misleadingly line every entrant's
@@ -714,6 +790,7 @@ function elo_compare_render(): array
                 'poll'      => $ph['poll'],
                 'date'      => $ph['date'],
                 'contest'   => $ph['contest'],
+                'label'     => elo_display_label($ph['contest']),
                 'opponents' => $ph['opponents'],
                 'delta'     => $ph['delta'],
             ];
@@ -751,12 +828,33 @@ function elo_compare_render(): array
             if (isset($ranges[$c])) {
                 $bands[] = [
                     'contest' => $c,
+                    'label'   => elo_display_label($c),
                     'start'   => (strtotime($ranges[$c]['start']) - $minTs) / 86400,
                     'end'     => (strtotime($ranges[$c]['end']) - $minTs) / 86400,
                 ];
             }
         }
         usort($bands, fn ($a, $b) => $a['start'] <=> $b['start']);
+    }
+
+    // x-axis range: see elo_render()'s identical comment (a band can extend
+    // past what the plotted points alone would auto-scale to). Guarded on
+    // $ids since min()/max() on an empty array throws, and this page renders
+    // fine with nothing selected yet.
+    if ($ids) {
+        $xVals = [];
+        foreach ($datasets as $ds) {
+            foreach ($ds['data'] as $p) {
+                $xVals[] = $p['x'];
+            }
+        }
+        foreach ($bands as $b) {
+            $xVals[] = $b['start'];
+            $xVals[] = $b['end'];
+        }
+        $xMin = min($xVals);
+        $xMax = max($xVals);
+        $xPad = max(($xMax - $xMin) * 0.04, 1);
     }
 
     // non-default view params that every internal link should carry through
@@ -766,8 +864,6 @@ function elo_compare_render(): array
     $xLink    = fn (string $m): string => '/elo/compare?pool=' . $pool . '&ids=' . $idsP . '&x=' . $m . $carry;
     $mLink    = fn (string $mm): string => '/elo/compare?pool=' . $pool . '&ids=' . $idsP . '&x=' . $xMode
         . elo_mq($mm) . ($basis === 'peak' ? '&basis=peak' : '');
-    $bLink = fn (string $bb): string => '/elo/compare?pool=' . $pool . '&ids=' . $idsP . '&x=' . $xMode
-        . elo_mq($method) . ($bb === 'peak' ? '&basis=peak' : '');
 
     $poolLinks = [];
     foreach (ELO_POOLS as $p) {
@@ -798,16 +894,10 @@ function elo_compare_render(): array
 
 <?php if ($ids): ?>
 <?= elo_method_toggle($method, $mLink, $hh) ?>
-<p class="elo-toggle"><strong>Basis:</strong>
-<?php if ($basis === 'current'): ?><strong>Current</strong><?php else: ?><a href="<?= $hh($bLink('current')) ?>">Current</a><?php endif; ?>
-|
-<?php if ($basis === 'peak'): ?><strong>Peak</strong><?php else: ?><a href="<?= $hh($bLink('peak')) ?>">Peak</a><?php endif; ?>
-&nbsp;<span class="amr-sub">(changes the head-to-head table only, not the graph)</span>
-</p>
 <p class="elo-toggle"><strong>X-axis:</strong>
-<?php if ($xMode === 'index'): ?><strong>By match #</strong><?php else: ?><a href="<?= $hh($xLink('index')) ?>">By match #</a><?php endif; ?>
-|
 <?php if ($xMode === 'date'): ?><strong>By date</strong><?php else: ?><a href="<?= $hh($xLink('date')) ?>">By date</a><?php endif; ?>
+|
+<?php if ($xMode === 'index'): ?><strong>By match #</strong><?php else: ?><a href="<?= $hh($xLink('index')) ?>">By match #</a><?php endif; ?>
 </p>
 
 <p class="elo-toggle"><strong>View individually:</strong>
@@ -836,15 +926,18 @@ const contestBandsPlugin = {
       const x0 = x.getPixelForValue(b.start);
       const x1 = x.getPixelForValue(b.end);
       ctx.fillStyle = BAND_COLORS[i % 2];
-      ctx.fillRect(x0, top, x1 - x0, bottom - top);
+      ctx.fillRect(x0, top, Math.max(x1 - x0, 1), bottom - top);
     });
     ctx.fillStyle = '#666';
     ctx.font = '11px sans-serif';
     ctx.textAlign = 'center';
-    BANDS.forEach((b) => {
+    // staggered onto two rows (even/odd by band order) so two labels whose
+    // bands sit close together in time don't render on top of each other --
+    // same technique as luce.php's contest-boundary bands
+    BANDS.forEach((b, i) => {
       const x0 = x.getPixelForValue(b.start);
       const x1 = x.getPixelForValue(b.end);
-      ctx.fillText(b.contest, (x0 + x1) / 2, top + 12);
+      ctx.fillText(b.label, (x0 + x1) / 2, top + (i % 2 === 0 ? 12 : 24));
     });
     ctx.restore();
   },
@@ -871,7 +964,7 @@ new Chart(document.getElementById('elocompare'), {
             const p = ctx.raw;
             const sign = p.delta >= 0 ? '+' : '';
             return [
-              p.contest + ' vs ' + p.opponents.join(' / '),
+              p.label + ' vs ' + p.opponents.join(' / '),
               'Δ ' + sign + p.delta.toFixed(2) + ' → ' + ctx.parsed.y.toFixed(1),
             ];
           },
@@ -881,12 +974,17 @@ new Chart(document.getElementById('elocompare'), {
     scales: {
       x: {
         type: 'linear',
+        // explicit, not auto-scaled -- see the PHP comment above $xMin
+        min: <?= $xMin - $xPad ?>, max: <?= $xMax + $xPad ?>,
         title: { display: true, text: X_MODE === 'date' ? 'Date' : 'Match #' },
         ticks: X_MODE === 'date' ? {
           callback: (v) => new Date((FIRST_DATE_TS + v * 86400) * 1000).toISOString().slice(0, 10),
         } : {},
       },
-      y: { title: { display: true, text: <?= json_encode('Elo rating' . elo_method_suffix($method)) ?> } },
+      y: {
+        min: <?= elo_axis_range($method)['min'] ?>, max: <?= elo_axis_range($method)['max'] ?>,
+        title: { display: true, text: <?= json_encode('Elo rating' . elo_method_suffix($method)) ?> },
+      },
     },
   },
 });

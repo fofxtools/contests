@@ -297,7 +297,7 @@ function render_front(): array
     $rows = [];
     foreach (contest_registry() as $c) {
         $tid  = (int)$c['id'];
-        $name = '<a href="/node/100?contest_id=' . $tid . '">' . htmlspecialchars($c['codes'][0]) . '</a>';
+        $name = '<a href="/node/100?contest_id=' . $tid . '">' . htmlspecialchars($c['label'] ?? $c['codes'][0]) . '</a>';
         $desc = htmlspecialchars($c['name']);
 
         $pu = isset($pollup[$tid])
@@ -332,12 +332,14 @@ function render_front(): array
             $xc = '<td>' . implode(' &middot; ', $links) . '</td>';
         }
 
-        $rows[] = "<tr><td>$name</td><td>$desc</td>$pu$gf$b8$xc</tr>";
+        $lc = '<td><a href="/luce?contest_id=' . $tid . '">ratings</a></td>';
+
+        $rows[] = "<tr><td>$name</td><td>$desc</td>$pu$gf$b8$xc$lc</tr>";
     }
 
     $contests = '<h3>Contests</h3>'
               . '<table class="contest-index"><thead><tr>'
-              . '<th>Contest</th><th>Description</th><th>Poll Updates</th><th>Official Links</th><th>Board 8 Wiki</th><th>X-Stats</th>'
+              . '<th>Contest</th><th>Description</th><th>Poll Updates</th><th>Official Links</th><th>Board 8 Wiki</th><th>X-Stats</th><th>Luce</th>'
               . '</tr></thead><tbody>' . implode("\n", $rows) . '</tbody></table>';
 
     $tpl = is_readable(CONTENT_DIR . '/front.html') ? file_get_contents(CONTENT_DIR . '/front.html') : '{{CONTESTS_TABLE}}';

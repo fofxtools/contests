@@ -2846,7 +2846,7 @@
                 {
                     "poll": 1993,
                     "date": "2005-05-07",
-                    "contest": "SpC2K5",
+                    "contest": "Spring 2K5",
                     "rating": 1634.5,
                     "delta": 10.52,
                     "opponents": [
@@ -2856,7 +2856,7 @@
                 {
                     "poll": 2007,
                     "date": "2005-05-21",
-                    "contest": "SpC2K5",
+                    "contest": "Spring 2K5",
                     "rating": 1645.2,
                     "delta": 10.75,
                     "opponents": [
@@ -2866,7 +2866,7 @@
                 {
                     "poll": 2014,
                     "date": "2005-05-28",
-                    "contest": "SpC2K5",
+                    "contest": "Spring 2K5",
                     "rating": 1655.6,
                     "delta": 10.37,
                     "opponents": [
@@ -2876,7 +2876,7 @@
                 {
                     "poll": 2017,
                     "date": "2005-05-31",
-                    "contest": "SpC2K5",
+                    "contest": "Spring 2K5",
                     "rating": 1667.5,
                     "delta": 11.9,
                     "opponents": [
@@ -2886,7 +2886,7 @@
                 {
                     "poll": 2019,
                     "date": "2005-06-02",
-                    "contest": "SpC2K5",
+                    "contest": "Spring 2K5",
                     "rating": 1679.1,
                     "delta": 11.6,
                     "opponents": [
@@ -5365,7 +5365,7 @@
                 {
                     "poll": 1989,
                     "date": "2005-05-03",
-                    "contest": "SpC2K5",
+                    "contest": "Spring 2K5",
                     "rating": 1534,
                     "delta": 15.13,
                     "opponents": [
@@ -5375,7 +5375,7 @@
                 {
                     "poll": 2005,
                     "date": "2005-05-19",
-                    "contest": "SpC2K5",
+                    "contest": "Spring 2K5",
                     "rating": 1549.2,
                     "delta": 15.17,
                     "opponents": [
@@ -5385,7 +5385,7 @@
                 {
                     "poll": 2013,
                     "date": "2005-05-27",
-                    "contest": "SpC2K5",
+                    "contest": "Spring 2K5",
                     "rating": 1564.4,
                     "delta": 15.21,
                     "opponents": [
@@ -5395,7 +5395,7 @@
                 {
                     "poll": 2017,
                     "date": "2005-05-31",
-                    "contest": "SpC2K5",
+                    "contest": "Spring 2K5",
                     "rating": 1552.5,
                     "delta": -11.9,
                     "opponents": [
@@ -6608,7 +6608,7 @@
                 {
                     "poll": 2001,
                     "date": "2005-05-15",
-                    "contest": "SpC2K5",
+                    "contest": "Spring 2K5",
                     "rating": 1522.4,
                     "delta": 15.69,
                     "opponents": [
@@ -6618,7 +6618,7 @@
                 {
                     "poll": 2011,
                     "date": "2005-05-25",
-                    "contest": "SpC2K5",
+                    "contest": "Spring 2K5",
                     "rating": 1538,
                     "delta": 15.62,
                     "opponents": [
@@ -6628,7 +6628,7 @@
                 {
                     "poll": 2016,
                     "date": "2005-05-30",
-                    "contest": "SpC2K5",
+                    "contest": "Spring 2K5",
                     "rating": 1553.7,
                     "delta": 15.72,
                     "opponents": [
@@ -6638,7 +6638,7 @@
                 {
                     "poll": 2018,
                     "date": "2005-06-01",
-                    "contest": "SpC2K5",
+                    "contest": "Spring 2K5",
                     "rating": 1569.4,
                     "delta": 15.71,
                     "opponents": [
@@ -6648,7 +6648,7 @@
                 {
                     "poll": 2019,
                     "date": "2005-06-02",
-                    "contest": "SpC2K5",
+                    "contest": "Spring 2K5",
                     "rating": 1557.8,
                     "delta": -11.6,
                     "opponents": [
@@ -10953,7 +10953,7 @@
             ]
         },
         {
-            "id": 638,
+            "id": 637,
             "name": "Squirtle",
             "history": [
                 {
@@ -11194,7 +11194,7 @@
             ]
         },
         {
-            "id": 781,
+            "id": 780,
             "name": "Geralt",
             "history": [
                 {
@@ -12040,7 +12040,7 @@
             ]
         },
         {
-            "id": 770,
+            "id": 769,
             "name": "2B",
             "history": [
                 {
@@ -12152,7 +12152,7 @@
             ]
         },
         {
-            "id": 655,
+            "id": 654,
             "name": "Pokemon Trainer Blue",
             "history": [
                 {
@@ -12285,7 +12285,7 @@
                 {
                     "poll": 1997,
                     "date": "2005-05-11",
-                    "contest": "SpC2K5",
+                    "contest": "Spring 2K5",
                     "rating": 1503.3,
                     "delta": 16.61,
                     "opponents": [
@@ -12295,7 +12295,7 @@
                 {
                     "poll": 2009,
                     "date": "2005-05-23",
-                    "contest": "SpC2K5",
+                    "contest": "Spring 2K5",
                     "rating": 1519.9,
                     "delta": 16.55,
                     "opponents": [
@@ -12305,7 +12305,7 @@
                 {
                     "poll": 2015,
                     "date": "2005-05-29",
-                    "contest": "SpC2K5",
+                    "contest": "Spring 2K5",
                     "rating": 1504.5,
                     "delta": -15.44,
                     "opponents": [
@@ -12444,7 +12444,7 @@
             ]
         },
         {
-            "id": 647,
+            "id": 646,
             "name": "Gilgamesh",
             "history": [
                 {
@@ -12478,7 +12478,7 @@
                 {
                     "poll": 2000,
                     "date": "2005-05-14",
-                    "contest": "SpC2K5",
+                    "contest": "Spring 2K5",
                     "rating": 1516,
                     "delta": 16,
                     "opponents": [
@@ -12488,7 +12488,7 @@
                 {
                     "poll": 2010,
                     "date": "2005-05-24",
-                    "contest": "SpC2K5",
+                    "contest": "Spring 2K5",
                     "rating": 1532,
                     "delta": 16,
                     "opponents": [
@@ -12498,7 +12498,7 @@
                 {
                     "poll": 2015,
                     "date": "2005-05-29",
-                    "contest": "SpC2K5",
+                    "contest": "Spring 2K5",
                     "rating": 1547.4,
                     "delta": 15.44,
                     "opponents": [
@@ -12508,7 +12508,7 @@
                 {
                     "poll": 2018,
                     "date": "2005-06-01",
-                    "contest": "SpC2K5",
+                    "contest": "Spring 2K5",
                     "rating": 1531.7,
                     "delta": -15.71,
                     "opponents": [
@@ -12943,7 +12943,7 @@
             ]
         },
         {
-            "id": 672,
+            "id": 671,
             "name": "Urdnot Wrex",
             "history": [
                 {
@@ -13100,7 +13100,7 @@
                 {
                     "poll": 1996,
                     "date": "2005-05-10",
-                    "contest": "SpC2K5",
+                    "contest": "Spring 2K5",
                     "rating": 1500.7,
                     "delta": 16.74,
                     "opponents": [
@@ -13110,7 +13110,7 @@
                 {
                     "poll": 2008,
                     "date": "2005-05-22",
-                    "contest": "SpC2K5",
+                    "contest": "Spring 2K5",
                     "rating": 1517.4,
                     "delta": 16.7,
                     "opponents": [
@@ -13120,7 +13120,7 @@
                 {
                     "poll": 2014,
                     "date": "2005-05-28",
-                    "contest": "SpC2K5",
+                    "contest": "Spring 2K5",
                     "rating": 1507.1,
                     "delta": -10.37,
                     "opponents": [
@@ -13749,7 +13749,7 @@
             ]
         },
         {
-            "id": 637,
+            "id": 636,
             "name": "Lugia",
             "history": [
                 {
@@ -13777,7 +13777,7 @@
             ]
         },
         {
-            "id": 658,
+            "id": 657,
             "name": "Catherine",
             "history": [
                 {
@@ -13970,7 +13970,7 @@
             ]
         },
         {
-            "id": 673,
+            "id": 672,
             "name": "Magikarp",
             "history": [
                 {
@@ -13987,7 +13987,7 @@
             ]
         },
         {
-            "id": 766,
+            "id": 765,
             "name": "Velvet Crowe",
             "history": [
                 {
@@ -14013,7 +14013,7 @@
             ]
         },
         {
-            "id": 644,
+            "id": 643,
             "name": "Missile",
             "history": [
                 {
@@ -14030,7 +14030,7 @@
             ]
         },
         {
-            "id": 661,
+            "id": 660,
             "name": "Palutena",
             "history": [
                 {
@@ -14047,7 +14047,7 @@
             ]
         },
         {
-            "id": 663,
+            "id": 662,
             "name": "Dragonborn",
             "history": [
                 {
@@ -14085,7 +14085,7 @@
             ]
         },
         {
-            "id": 779,
+            "id": 778,
             "name": "Captain Toad",
             "history": [
                 {
@@ -14111,7 +14111,7 @@
             ]
         },
         {
-            "id": 650,
+            "id": 649,
             "name": "Yoshimitsu",
             "history": [
                 {
@@ -14179,7 +14179,7 @@
                 {
                     "poll": 1990,
                     "date": "2005-05-04",
-                    "contest": "SpC2K5",
+                    "contest": "Spring 2K5",
                     "rating": 1516,
                     "delta": 16,
                     "opponents": [
@@ -14189,7 +14189,7 @@
                 {
                     "poll": 2005,
                     "date": "2005-05-19",
-                    "contest": "SpC2K5",
+                    "contest": "Spring 2K5",
                     "rating": 1500.8,
                     "delta": -15.17,
                     "opponents": [
@@ -14261,7 +14261,7 @@
             ]
         },
         {
-            "id": 665,
+            "id": 664,
             "name": "Adam Jensen",
             "history": [
                 {
@@ -14319,7 +14319,7 @@
             ]
         },
         {
-            "id": 778,
+            "id": 777,
             "name": "D.Va",
             "history": [
                 {
@@ -14472,7 +14472,7 @@
                 {
                     "poll": 1992,
                     "date": "2005-05-06",
-                    "contest": "SpC2K5",
+                    "contest": "Spring 2K5",
                     "rating": 1516,
                     "delta": 16,
                     "opponents": [
@@ -14482,7 +14482,7 @@
                 {
                     "poll": 2006,
                     "date": "2005-05-20",
-                    "contest": "SpC2K5",
+                    "contest": "Spring 2K5",
                     "rating": 1500,
                     "delta": -16,
                     "opponents": [
@@ -14498,7 +14498,7 @@
                 {
                     "poll": 1999,
                     "date": "2005-05-13",
-                    "contest": "SpC2K5",
+                    "contest": "Spring 2K5",
                     "rating": 1516,
                     "delta": 16,
                     "opponents": [
@@ -14508,7 +14508,7 @@
                 {
                     "poll": 2010,
                     "date": "2005-05-24",
-                    "contest": "SpC2K5",
+                    "contest": "Spring 2K5",
                     "rating": 1500,
                     "delta": -16,
                     "opponents": [
@@ -14552,7 +14552,7 @@
             ]
         },
         {
-            "id": 649,
+            "id": 648,
             "name": "Lu Bu",
             "history": [
                 {
@@ -14569,7 +14569,7 @@
             ]
         },
         {
-            "id": 651,
+            "id": 650,
             "name": "Lee Everett",
             "history": [
                 {
@@ -14586,7 +14586,7 @@
             ]
         },
         {
-            "id": 670,
+            "id": 669,
             "name": "Corvo Attano",
             "history": [
                 {
@@ -14637,7 +14637,7 @@
             ]
         },
         {
-            "id": 646,
+            "id": 645,
             "name": "Booker DeWitt",
             "history": [
                 {
@@ -14654,7 +14654,7 @@
             ]
         },
         {
-            "id": 675,
+            "id": 674,
             "name": "Mike Haggar",
             "history": [
                 {
@@ -14671,7 +14671,7 @@
             ]
         },
         {
-            "id": 674,
+            "id": 673,
             "name": "Recette Lemongrass",
             "history": [
                 {
@@ -14711,7 +14711,7 @@
                 {
                     "poll": 2003,
                     "date": "2005-05-17",
-                    "contest": "SpC2K5",
+                    "contest": "Spring 2K5",
                     "rating": 1516,
                     "delta": 16,
                     "opponents": [
@@ -14721,7 +14721,7 @@
                 {
                     "poll": 2012,
                     "date": "2005-05-26",
-                    "contest": "SpC2K5",
+                    "contest": "Spring 2K5",
                     "rating": 1532,
                     "delta": 16,
                     "opponents": [
@@ -14731,7 +14731,7 @@
                 {
                     "poll": 2016,
                     "date": "2005-05-30",
-                    "contest": "SpC2K5",
+                    "contest": "Spring 2K5",
                     "rating": 1516.3,
                     "delta": -15.72,
                     "opponents": [
@@ -14758,7 +14758,7 @@
                 {
                     "poll": 1995,
                     "date": "2005-05-09",
-                    "contest": "SpC2K5",
+                    "contest": "Spring 2K5",
                     "rating": 1516,
                     "delta": 16,
                     "opponents": [
@@ -14768,7 +14768,7 @@
                 {
                     "poll": 2008,
                     "date": "2005-05-22",
-                    "contest": "SpC2K5",
+                    "contest": "Spring 2K5",
                     "rating": 1499.3,
                     "delta": -16.7,
                     "opponents": [
@@ -14778,7 +14778,7 @@
             ]
         },
         {
-            "id": 653,
+            "id": 652,
             "name": "Mr. Game & Watch",
             "history": [
                 {
@@ -14857,7 +14857,7 @@
             ]
         },
         {
-            "id": 645,
+            "id": 644,
             "name": "Hal \"Otacon\" Emmerich",
             "history": [
                 {
@@ -15017,7 +15017,7 @@
             ]
         },
         {
-            "id": 669,
+            "id": 668,
             "name": "Creeper",
             "history": [
                 {
@@ -15057,7 +15057,7 @@
                 {
                     "poll": 2004,
                     "date": "2005-05-18",
-                    "contest": "SpC2K5",
+                    "contest": "Spring 2K5",
                     "rating": 1516,
                     "delta": 16,
                     "opponents": [
@@ -15067,7 +15067,7 @@
                 {
                     "poll": 2012,
                     "date": "2005-05-26",
-                    "contest": "SpC2K5",
+                    "contest": "Spring 2K5",
                     "rating": 1500,
                     "delta": -16,
                     "opponents": [
@@ -15097,7 +15097,7 @@
             ]
         },
         {
-            "id": 792,
+            "id": 791,
             "name": "Aqua",
             "history": [
                 {
@@ -15129,7 +15129,7 @@
                 {
                     "poll": 2002,
                     "date": "2005-05-16",
-                    "contest": "SpC2K5",
+                    "contest": "Spring 2K5",
                     "rating": 1514.2,
                     "delta": 14.21,
                     "opponents": [
@@ -15139,7 +15139,7 @@
                 {
                     "poll": 2011,
                     "date": "2005-05-25",
-                    "contest": "SpC2K5",
+                    "contest": "Spring 2K5",
                     "rating": 1498.6,
                     "delta": -15.62,
                     "opponents": [
@@ -15198,7 +15198,7 @@
                 {
                     "poll": 1994,
                     "date": "2005-05-08",
-                    "contest": "SpC2K5",
+                    "contest": "Spring 2K5",
                     "rating": 1516,
                     "delta": 16,
                     "opponents": [
@@ -15208,7 +15208,7 @@
                 {
                     "poll": 2007,
                     "date": "2005-05-21",
-                    "contest": "SpC2K5",
+                    "contest": "Spring 2K5",
                     "rating": 1505.3,
                     "delta": -10.75,
                     "opponents": [
@@ -16757,7 +16757,7 @@
                 {
                     "poll": 1993,
                     "date": "2005-05-07",
-                    "contest": "SpC2K5",
+                    "contest": "Spring 2K5",
                     "rating": 1489.5,
                     "delta": -10.52,
                     "opponents": [
@@ -16826,7 +16826,7 @@
             ]
         },
         {
-            "id": 774,
+            "id": 773,
             "name": "Guile",
             "history": [
                 {
@@ -16842,7 +16842,7 @@
             ]
         },
         {
-            "id": 775,
+            "id": 774,
             "name": "Hat Kid",
             "history": [
                 {
@@ -16858,7 +16858,7 @@
             ]
         },
         {
-            "id": 634,
+            "id": 633,
             "name": "Sen. Steven Armstrong",
             "history": [
                 {
@@ -17021,7 +17021,7 @@
             ]
         },
         {
-            "id": 657,
+            "id": 656,
             "name": "Isaac Clarke",
             "history": [
                 {
@@ -17061,7 +17061,7 @@
                 {
                     "poll": 1991,
                     "date": "2005-05-05",
-                    "contest": "SpC2K5",
+                    "contest": "Spring 2K5",
                     "rating": 1516,
                     "delta": 16,
                     "opponents": [
@@ -17071,7 +17071,7 @@
                 {
                     "poll": 2006,
                     "date": "2005-05-20",
-                    "contest": "SpC2K5",
+                    "contest": "Spring 2K5",
                     "rating": 1532,
                     "delta": 16,
                     "opponents": [
@@ -17081,7 +17081,7 @@
                 {
                     "poll": 2013,
                     "date": "2005-05-27",
-                    "contest": "SpC2K5",
+                    "contest": "Spring 2K5",
                     "rating": 1516.8,
                     "delta": -15.21,
                     "opponents": [
@@ -17547,7 +17547,7 @@
             ]
         },
         {
-            "id": 758,
+            "id": 757,
             "name": "Cuphead",
             "history": [
                 {
@@ -17563,7 +17563,7 @@
             ]
         },
         {
-            "id": 787,
+            "id": 786,
             "name": "Isabelle",
             "history": [
                 {
@@ -17631,7 +17631,7 @@
             ]
         },
         {
-            "id": 764,
+            "id": 763,
             "name": "Shantae",
             "history": [
                 {
@@ -17647,7 +17647,7 @@
             ]
         },
         {
-            "id": 786,
+            "id": 785,
             "name": "Goro Majima",
             "history": [
                 {
@@ -17825,7 +17825,7 @@
             ]
         },
         {
-            "id": 667,
+            "id": 666,
             "name": "Commander Video",
             "history": [
                 {
@@ -17842,7 +17842,7 @@
             ]
         },
         {
-            "id": 662,
+            "id": 661,
             "name": "Teemo",
             "history": [
                 {
@@ -17859,7 +17859,7 @@
             ]
         },
         {
-            "id": 761,
+            "id": 760,
             "name": "Primrose",
             "history": [
                 {
@@ -17875,7 +17875,7 @@
             ]
         },
         {
-            "id": 679,
+            "id": 678,
             "name": "John Marston",
             "history": [
                 {
@@ -17902,7 +17902,7 @@
             ]
         },
         {
-            "id": 767,
+            "id": 766,
             "name": "Neptune",
             "history": [
                 {
@@ -17953,7 +17953,7 @@
             ]
         },
         {
-            "id": 664,
+            "id": 663,
             "name": "Cirno",
             "history": [
                 {
@@ -17970,7 +17970,7 @@
             ]
         },
         {
-            "id": 641,
+            "id": 640,
             "name": "Yu Narukami",
             "history": [
                 {
@@ -18032,7 +18032,7 @@
             ]
         },
         {
-            "id": 785,
+            "id": 784,
             "name": "Monokuma",
             "history": [
                 {
@@ -18251,7 +18251,7 @@
             ]
         },
         {
-            "id": 680,
+            "id": 679,
             "name": "Nier",
             "history": [
                 {
@@ -18364,7 +18364,7 @@
             ]
         },
         {
-            "id": 790,
+            "id": 789,
             "name": "King K. Rool",
             "history": [
                 {
@@ -18380,7 +18380,7 @@
             ]
         },
         {
-            "id": 772,
+            "id": 771,
             "name": "Joel",
             "history": [
                 {
@@ -18419,7 +18419,7 @@
                 {
                     "poll": 2001,
                     "date": "2005-05-15",
-                    "contest": "SpC2K5",
+                    "contest": "Spring 2K5",
                     "rating": 1484.3,
                     "delta": -15.69,
                     "opponents": [
@@ -18429,7 +18429,7 @@
             ]
         },
         {
-            "id": 666,
+            "id": 665,
             "name": "Marisa Kirisame",
             "history": [
                 {
@@ -18533,7 +18533,7 @@
             ]
         },
         {
-            "id": 656,
+            "id": 655,
             "name": "Wolf O'Donnell",
             "history": [
                 {
@@ -18550,7 +18550,7 @@
             ]
         },
         {
-            "id": 788,
+            "id": 787,
             "name": "Richter Belmont",
             "history": [
                 {
@@ -18860,7 +18860,7 @@
                 {
                     "poll": 1990,
                     "date": "2005-05-04",
-                    "contest": "SpC2K5",
+                    "contest": "Spring 2K5",
                     "rating": 1484,
                     "delta": -16,
                     "opponents": [
@@ -18876,7 +18876,7 @@
                 {
                     "poll": 1991,
                     "date": "2005-05-05",
-                    "contest": "SpC2K5",
+                    "contest": "Spring 2K5",
                     "rating": 1484,
                     "delta": -16,
                     "opponents": [
@@ -18892,7 +18892,7 @@
                 {
                     "poll": 1992,
                     "date": "2005-05-06",
-                    "contest": "SpC2K5",
+                    "contest": "Spring 2K5",
                     "rating": 1484,
                     "delta": -16,
                     "opponents": [
@@ -18908,7 +18908,7 @@
                 {
                     "poll": 1994,
                     "date": "2005-05-08",
-                    "contest": "SpC2K5",
+                    "contest": "Spring 2K5",
                     "rating": 1484,
                     "delta": -16,
                     "opponents": [
@@ -18924,7 +18924,7 @@
                 {
                     "poll": 1995,
                     "date": "2005-05-09",
-                    "contest": "SpC2K5",
+                    "contest": "Spring 2K5",
                     "rating": 1484,
                     "delta": -16,
                     "opponents": [
@@ -18940,7 +18940,7 @@
                 {
                     "poll": 1999,
                     "date": "2005-05-13",
-                    "contest": "SpC2K5",
+                    "contest": "Spring 2K5",
                     "rating": 1484,
                     "delta": -16,
                     "opponents": [
@@ -18956,7 +18956,7 @@
                 {
                     "poll": 2003,
                     "date": "2005-05-17",
-                    "contest": "SpC2K5",
+                    "contest": "Spring 2K5",
                     "rating": 1484,
                     "delta": -16,
                     "opponents": [
@@ -18972,7 +18972,7 @@
                 {
                     "poll": 2004,
                     "date": "2005-05-18",
-                    "contest": "SpC2K5",
+                    "contest": "Spring 2K5",
                     "rating": 1484,
                     "delta": -16,
                     "opponents": [
@@ -19067,7 +19067,7 @@
             ]
         },
         {
-            "id": 648,
+            "id": 647,
             "name": "Groose",
             "history": [
                 {
@@ -19084,7 +19084,7 @@
             ]
         },
         {
-            "id": 652,
+            "id": 651,
             "name": "Meat Boy",
             "history": [
                 {
@@ -19101,7 +19101,7 @@
             ]
         },
         {
-            "id": 671,
+            "id": 670,
             "name": "Sissel",
             "history": [
                 {
@@ -19118,7 +19118,7 @@
             ]
         },
         {
-            "id": 762,
+            "id": 761,
             "name": "Noctis Lucis Caelum",
             "history": [
                 {
@@ -19134,7 +19134,7 @@
             ]
         },
         {
-            "id": 765,
+            "id": 764,
             "name": "James Sunderland",
             "history": [
                 {
@@ -19150,7 +19150,7 @@
             ]
         },
         {
-            "id": 771,
+            "id": 770,
             "name": "Cayde-6",
             "history": [
                 {
@@ -19166,7 +19166,7 @@
             ]
         },
         {
-            "id": 776,
+            "id": 775,
             "name": "Metal Sonic",
             "history": [
                 {
@@ -19182,7 +19182,7 @@
             ]
         },
         {
-            "id": 777,
+            "id": 776,
             "name": "Aloy",
             "history": [
                 {
@@ -19198,7 +19198,7 @@
             ]
         },
         {
-            "id": 780,
+            "id": 779,
             "name": "Shovel Knight",
             "history": [
                 {
@@ -19214,7 +19214,7 @@
             ]
         },
         {
-            "id": 782,
+            "id": 781,
             "name": "Rosalina",
             "history": [
                 {
@@ -19230,7 +19230,7 @@
             ]
         },
         {
-            "id": 793,
+            "id": 792,
             "name": "Quiet",
             "history": [
                 {
@@ -19246,7 +19246,7 @@
             ]
         },
         {
-            "id": 642,
+            "id": 641,
             "name": "Oliver",
             "history": [
                 {
@@ -19263,7 +19263,7 @@
             ]
         },
         {
-            "id": 660,
+            "id": 659,
             "name": "Seifer Almasy",
             "history": [
                 {
@@ -19280,7 +19280,7 @@
             ]
         },
         {
-            "id": 678,
+            "id": 677,
             "name": "Lyndis",
             "history": [
                 {
@@ -19297,7 +19297,7 @@
             ]
         },
         {
-            "id": 636,
+            "id": 635,
             "name": "Francis York Morgan",
             "history": [
                 {
@@ -19314,7 +19314,7 @@
             ]
         },
         {
-            "id": 676,
+            "id": 675,
             "name": "Red Bird",
             "history": [
                 {
@@ -19412,7 +19412,7 @@
             ]
         },
         {
-            "id": 635,
+            "id": 634,
             "name": "Handsome Jack",
             "history": [
                 {
@@ -19429,7 +19429,7 @@
             ]
         },
         {
-            "id": 768,
+            "id": 767,
             "name": "Godot",
             "history": [
                 {
@@ -19479,7 +19479,7 @@
             ]
         },
         {
-            "id": 677,
+            "id": 676,
             "name": "Boko",
             "history": [
                 {
@@ -19496,7 +19496,7 @@
             ]
         },
         {
-            "id": 759,
+            "id": 758,
             "name": "Chloe Price",
             "history": [
                 {
@@ -19518,7 +19518,7 @@
                 {
                     "poll": 1997,
                     "date": "2005-05-11",
-                    "contest": "SpC2K5",
+                    "contest": "Spring 2K5",
                     "rating": 1483.4,
                     "delta": -16.61,
                     "opponents": [
@@ -19560,7 +19560,7 @@
             ]
         },
         {
-            "id": 760,
+            "id": 759,
             "name": "Victor Sullivan",
             "history": [
                 {
@@ -19576,7 +19576,7 @@
             ]
         },
         {
-            "id": 773,
+            "id": 772,
             "name": "Estelle Bright",
             "history": [
                 {
@@ -19598,7 +19598,7 @@
                 {
                     "poll": 1996,
                     "date": "2005-05-10",
-                    "contest": "SpC2K5",
+                    "contest": "Spring 2K5",
                     "rating": 1483.3,
                     "delta": -16.74,
                     "opponents": [
@@ -19674,7 +19674,7 @@
             ]
         },
         {
-            "id": 659,
+            "id": 658,
             "name": "Vaas Montenegro",
             "history": [
                 {
@@ -19723,7 +19723,7 @@
             ]
         },
         {
-            "id": 668,
+            "id": 667,
             "name": "Adol Christin",
             "history": [
                 {
@@ -19776,7 +19776,7 @@
             ]
         },
         {
-            "id": 640,
+            "id": 639,
             "name": "Kat",
             "history": [
                 {
@@ -19793,7 +19793,7 @@
             ]
         },
         {
-            "id": 789,
+            "id": 788,
             "name": "Metal Man",
             "history": [
                 {
@@ -19826,7 +19826,7 @@
             ]
         },
         {
-            "id": 639,
+            "id": 638,
             "name": "Spring Breeze Dancin'",
             "history": [
                 {
@@ -19843,7 +19843,7 @@
             ]
         },
         {
-            "id": 783,
+            "id": 782,
             "name": "Sans",
             "history": [
                 {
@@ -19859,7 +19859,7 @@
             ]
         },
         {
-            "id": 654,
+            "id": 653,
             "name": "Steve",
             "history": [
                 {
@@ -19876,7 +19876,7 @@
             ]
         },
         {
-            "id": 763,
+            "id": 762,
             "name": "Monika",
             "history": [
                 {
@@ -19924,7 +19924,7 @@
             ]
         },
         {
-            "id": 791,
+            "id": 790,
             "name": "Ellie",
             "history": [
                 {
@@ -20224,7 +20224,7 @@
             ]
         },
         {
-            "id": 643,
+            "id": 642,
             "name": "Hades",
             "history": [
                 {
@@ -20241,7 +20241,7 @@
             ]
         },
         {
-            "id": 784,
+            "id": 783,
             "name": "Ren Amamiya / Joker",
             "history": [
                 {
@@ -20273,7 +20273,7 @@
             ]
         },
         {
-            "id": 769,
+            "id": 768,
             "name": "Kazuma Kiryu",
             "history": [
                 {
@@ -21598,7 +21598,7 @@
             ]
         },
         {
-            "id": 633,
+            "id": 202,
             "name": "Yuri Hyuga",
             "history": [
                 {
@@ -22262,7 +22262,7 @@
                 {
                     "poll": 1998,
                     "date": "2005-05-12",
-                    "contest": "SpC2K5",
+                    "contest": "Spring 2K5",
                     "rating": 1469.6,
                     "delta": -15.31,
                     "opponents": [
@@ -22938,7 +22938,7 @@
                 {
                     "poll": 1989,
                     "date": "2005-05-03",
-                    "contest": "SpC2K5",
+                    "contest": "Spring 2K5",
                     "rating": 1484.9,
                     "delta": -15.13,
                     "opponents": [
@@ -23477,7 +23477,7 @@
                 {
                     "poll": 2000,
                     "date": "2005-05-14",
-                    "contest": "SpC2K5",
+                    "contest": "Spring 2K5",
                     "rating": 1484,
                     "delta": -16,
                     "opponents": [
@@ -23900,7 +23900,7 @@
                 {
                     "poll": 1998,
                     "date": "2005-05-12",
-                    "contest": "SpC2K5",
+                    "contest": "Spring 2K5",
                     "rating": 1515.3,
                     "delta": 15.31,
                     "opponents": [
@@ -23910,7 +23910,7 @@
                 {
                     "poll": 2009,
                     "date": "2005-05-23",
-                    "contest": "SpC2K5",
+                    "contest": "Spring 2K5",
                     "rating": 1498.8,
                     "delta": -16.55,
                     "opponents": [
@@ -25141,7 +25141,7 @@
                 {
                     "poll": 2002,
                     "date": "2005-05-16",
-                    "contest": "SpC2K5",
+                    "contest": "Spring 2K5",
                     "rating": 1446.7,
                     "delta": -14.21,
                     "opponents": [
@@ -25214,7 +25214,7 @@
                 {
                     "poll": 1617,
                     "date": "2004-04-18",
-                    "contest": "SpC2K4",
+                    "contest": "Spring 2K4",
                     "rating": 1516,
                     "delta": 16,
                     "opponents": [
@@ -25224,7 +25224,7 @@
                 {
                     "poll": 1641,
                     "date": "2004-05-15",
-                    "contest": "SpC2K4",
+                    "contest": "Spring 2K4",
                     "rating": 1532,
                     "delta": 16,
                     "opponents": [
@@ -25234,7 +25234,7 @@
                 {
                     "poll": 1653,
                     "date": "2004-05-27",
-                    "contest": "SpC2K4",
+                    "contest": "Spring 2K4",
                     "rating": 1548,
                     "delta": 16,
                     "opponents": [
@@ -25244,7 +25244,7 @@
                 {
                     "poll": 1659,
                     "date": "2004-06-02",
-                    "contest": "SpC2K4",
+                    "contest": "Spring 2K4",
                     "rating": 1564,
                     "delta": 16,
                     "opponents": [
@@ -25254,7 +25254,7 @@
                 {
                     "poll": 1662,
                     "date": "2004-06-05",
-                    "contest": "SpC2K4",
+                    "contest": "Spring 2K4",
                     "rating": 1580,
                     "delta": 16,
                     "opponents": [
@@ -25264,7 +25264,7 @@
                 {
                     "poll": 1663,
                     "date": "2004-06-06",
-                    "contest": "SpC2K4",
+                    "contest": "Spring 2K4",
                     "rating": 1596,
                     "delta": 16,
                     "opponents": [
@@ -25402,7 +25402,7 @@
                 {
                     "poll": 1624,
                     "date": "2004-04-26",
-                    "contest": "SpC2K4",
+                    "contest": "Spring 2K4",
                     "rating": 1516,
                     "delta": 16,
                     "opponents": [
@@ -25412,7 +25412,7 @@
                 {
                     "poll": 1644,
                     "date": "2004-05-18",
-                    "contest": "SpC2K4",
+                    "contest": "Spring 2K4",
                     "rating": 1532,
                     "delta": 16,
                     "opponents": [
@@ -25422,7 +25422,7 @@
                 {
                     "poll": 1654,
                     "date": "2004-05-28",
-                    "contest": "SpC2K4",
+                    "contest": "Spring 2K4",
                     "rating": 1548,
                     "delta": 16,
                     "opponents": [
@@ -25432,7 +25432,7 @@
                 {
                     "poll": 1659,
                     "date": "2004-06-02",
-                    "contest": "SpC2K4",
+                    "contest": "Spring 2K4",
                     "rating": 1532,
                     "delta": -16,
                     "opponents": [
@@ -25590,7 +25590,7 @@
                 {
                     "poll": 1632,
                     "date": "2004-05-05",
-                    "contest": "SpC2K4",
+                    "contest": "Spring 2K4",
                     "rating": 1516,
                     "delta": 16,
                     "opponents": [
@@ -25600,7 +25600,7 @@
                 {
                     "poll": 1648,
                     "date": "2004-05-22",
-                    "contest": "SpC2K4",
+                    "contest": "Spring 2K4",
                     "rating": 1532,
                     "delta": 16,
                     "opponents": [
@@ -25610,7 +25610,7 @@
                 {
                     "poll": 1656,
                     "date": "2004-05-30",
-                    "contest": "SpC2K4",
+                    "contest": "Spring 2K4",
                     "rating": 1548,
                     "delta": 16,
                     "opponents": [
@@ -25620,7 +25620,7 @@
                 {
                     "poll": 1660,
                     "date": "2004-06-03",
-                    "contest": "SpC2K4",
+                    "contest": "Spring 2K4",
                     "rating": 1564,
                     "delta": 16,
                     "opponents": [
@@ -25630,7 +25630,7 @@
                 {
                     "poll": 1662,
                     "date": "2004-06-05",
-                    "contest": "SpC2K4",
+                    "contest": "Spring 2K4",
                     "rating": 1548,
                     "delta": -16,
                     "opponents": [
@@ -25934,7 +25934,7 @@
                 {
                     "poll": 1613,
                     "date": "2004-04-14",
-                    "contest": "SpC2K4",
+                    "contest": "Spring 2K4",
                     "rating": 1516,
                     "delta": 16,
                     "opponents": [
@@ -25944,7 +25944,7 @@
                 {
                     "poll": 1639,
                     "date": "2004-05-12",
-                    "contest": "SpC2K4",
+                    "contest": "Spring 2K4",
                     "rating": 1532,
                     "delta": 16,
                     "opponents": [
@@ -25954,7 +25954,7 @@
                 {
                     "poll": 1652,
                     "date": "2004-05-26",
-                    "contest": "SpC2K4",
+                    "contest": "Spring 2K4",
                     "rating": 1548,
                     "delta": 16,
                     "opponents": [
@@ -25964,7 +25964,7 @@
                 {
                     "poll": 1658,
                     "date": "2004-06-01",
-                    "contest": "SpC2K4",
+                    "contest": "Spring 2K4",
                     "rating": 1532,
                     "delta": -16,
                     "opponents": [
@@ -26096,7 +26096,7 @@
             ]
         },
         {
-            "id": 794,
+            "id": 793,
             "name": "The Legend of Zelda: Breath of the Wild",
             "history": [
                 {
@@ -26314,7 +26314,7 @@
                 {
                     "poll": 1630,
                     "date": "2004-05-02",
-                    "contest": "SpC2K4",
+                    "contest": "Spring 2K4",
                     "rating": 1516,
                     "delta": 16,
                     "opponents": [
@@ -26324,7 +26324,7 @@
                 {
                     "poll": 1647,
                     "date": "2004-05-21",
-                    "contest": "SpC2K4",
+                    "contest": "Spring 2K4",
                     "rating": 1532,
                     "delta": 16,
                     "opponents": [
@@ -26334,7 +26334,7 @@
                 {
                     "poll": 1656,
                     "date": "2004-05-30",
-                    "contest": "SpC2K4",
+                    "contest": "Spring 2K4",
                     "rating": 1516,
                     "delta": -16,
                     "opponents": [
@@ -26506,7 +26506,7 @@
             ]
         },
         {
-            "id": 694,
+            "id": 693,
             "name": "Undertale",
             "history": [
                 {
@@ -26740,7 +26740,7 @@
                 {
                     "poll": 1609,
                     "date": "2004-04-10",
-                    "contest": "SpC2K4",
+                    "contest": "Spring 2K4",
                     "rating": 1516,
                     "delta": 16,
                     "opponents": [
@@ -26750,7 +26750,7 @@
                 {
                     "poll": 1637,
                     "date": "2004-05-10",
-                    "contest": "SpC2K4",
+                    "contest": "Spring 2K4",
                     "rating": 1532,
                     "delta": 16,
                     "opponents": [
@@ -26760,7 +26760,7 @@
                 {
                     "poll": 1651,
                     "date": "2004-05-25",
-                    "contest": "SpC2K4",
+                    "contest": "Spring 2K4",
                     "rating": 1548,
                     "delta": 16,
                     "opponents": [
@@ -26770,7 +26770,7 @@
                 {
                     "poll": 1658,
                     "date": "2004-06-01",
-                    "contest": "SpC2K4",
+                    "contest": "Spring 2K4",
                     "rating": 1564,
                     "delta": 16,
                     "opponents": [
@@ -26780,7 +26780,7 @@
                 {
                     "poll": 1661,
                     "date": "2004-06-04",
-                    "contest": "SpC2K4",
+                    "contest": "Spring 2K4",
                     "rating": 1580,
                     "delta": 16,
                     "opponents": [
@@ -26790,7 +26790,7 @@
                 {
                     "poll": 1663,
                     "date": "2004-06-06",
-                    "contest": "SpC2K4",
+                    "contest": "Spring 2K4",
                     "rating": 1564,
                     "delta": -16,
                     "opponents": [
@@ -26876,7 +26876,7 @@
             ]
         },
         {
-            "id": 696,
+            "id": 695,
             "name": "The Elder Scrolls V: Skyrim",
             "history": [
                 {
@@ -27122,7 +27122,7 @@
                 {
                     "poll": 1623,
                     "date": "2004-04-25",
-                    "contest": "SpC2K4",
+                    "contest": "Spring 2K4",
                     "rating": 1516,
                     "delta": 16,
                     "opponents": [
@@ -27132,7 +27132,7 @@
                 {
                     "poll": 1644,
                     "date": "2004-05-18",
-                    "contest": "SpC2K4",
+                    "contest": "Spring 2K4",
                     "rating": 1500,
                     "delta": -16,
                     "opponents": [
@@ -27384,7 +27384,7 @@
             ]
         },
         {
-            "id": 712,
+            "id": 711,
             "name": "The Witcher 3: Wild Hunt",
             "history": [
                 {
@@ -27486,7 +27486,7 @@
                 {
                     "poll": 1610,
                     "date": "2004-04-11",
-                    "contest": "SpC2K4",
+                    "contest": "Spring 2K4",
                     "rating": 1516,
                     "delta": 16,
                     "opponents": [
@@ -27496,7 +27496,7 @@
                 {
                     "poll": 1637,
                     "date": "2004-05-10",
-                    "contest": "SpC2K4",
+                    "contest": "Spring 2K4",
                     "rating": 1500,
                     "delta": -16,
                     "opponents": [
@@ -27596,7 +27596,7 @@
                 {
                     "poll": 1612,
                     "date": "2004-04-13",
-                    "contest": "SpC2K4",
+                    "contest": "Spring 2K4",
                     "rating": 1516,
                     "delta": 16,
                     "opponents": [
@@ -27606,7 +27606,7 @@
                 {
                     "poll": 1638,
                     "date": "2004-05-11",
-                    "contest": "SpC2K4",
+                    "contest": "Spring 2K4",
                     "rating": 1532,
                     "delta": 16,
                     "opponents": [
@@ -27616,7 +27616,7 @@
                 {
                     "poll": 1651,
                     "date": "2004-05-25",
-                    "contest": "SpC2K4",
+                    "contest": "Spring 2K4",
                     "rating": 1516,
                     "delta": -16,
                     "opponents": [
@@ -27722,7 +27722,7 @@
                 {
                     "poll": 1601,
                     "date": "2004-04-02",
-                    "contest": "SpC2K4",
+                    "contest": "Spring 2K4",
                     "rating": 1516,
                     "delta": 16,
                     "opponents": [
@@ -27732,7 +27732,7 @@
                 {
                     "poll": 1633,
                     "date": "2004-05-06",
-                    "contest": "SpC2K4",
+                    "contest": "Spring 2K4",
                     "rating": 1532,
                     "delta": 16,
                     "opponents": [
@@ -27742,7 +27742,7 @@
                 {
                     "poll": 1649,
                     "date": "2004-05-23",
-                    "contest": "SpC2K4",
+                    "contest": "Spring 2K4",
                     "rating": 1548,
                     "delta": 16,
                     "opponents": [
@@ -27752,7 +27752,7 @@
                 {
                     "poll": 1657,
                     "date": "2004-05-31",
-                    "contest": "SpC2K4",
+                    "contest": "Spring 2K4",
                     "rating": 1564,
                     "delta": 16,
                     "opponents": [
@@ -27762,7 +27762,7 @@
                 {
                     "poll": 1661,
                     "date": "2004-06-04",
-                    "contest": "SpC2K4",
+                    "contest": "Spring 2K4",
                     "rating": 1548,
                     "delta": -16,
                     "opponents": [
@@ -27858,7 +27858,7 @@
                 {
                     "poll": 1616,
                     "date": "2004-04-17",
-                    "contest": "SpC2K4",
+                    "contest": "Spring 2K4",
                     "rating": 1516,
                     "delta": 16,
                     "opponents": [
@@ -27868,7 +27868,7 @@
                 {
                     "poll": 1640,
                     "date": "2004-05-14",
-                    "contest": "SpC2K4",
+                    "contest": "Spring 2K4",
                     "rating": 1532,
                     "delta": 16,
                     "opponents": [
@@ -27878,7 +27878,7 @@
                 {
                     "poll": 1652,
                     "date": "2004-05-26",
-                    "contest": "SpC2K4",
+                    "contest": "Spring 2K4",
                     "rating": 1516,
                     "delta": -16,
                     "opponents": [
@@ -28104,7 +28104,7 @@
                 {
                     "poll": 1620,
                     "date": "2004-04-22",
-                    "contest": "SpC2K4",
+                    "contest": "Spring 2K4",
                     "rating": 1516,
                     "delta": 16,
                     "opponents": [
@@ -28114,7 +28114,7 @@
                 {
                     "poll": 1642,
                     "date": "2004-05-16",
-                    "contest": "SpC2K4",
+                    "contest": "Spring 2K4",
                     "rating": 1532,
                     "delta": 16,
                     "opponents": [
@@ -28124,7 +28124,7 @@
                 {
                     "poll": 1653,
                     "date": "2004-05-27",
-                    "contest": "SpC2K4",
+                    "contest": "Spring 2K4",
                     "rating": 1516,
                     "delta": -16,
                     "opponents": [
@@ -28210,7 +28210,7 @@
             ]
         },
         {
-            "id": 706,
+            "id": 705,
             "name": "Dark Souls",
             "history": [
                 {
@@ -28296,7 +28296,7 @@
             ]
         },
         {
-            "id": 819,
+            "id": 818,
             "name": "Super Smash Bros. Ultimate",
             "history": [
                 {
@@ -28362,7 +28362,7 @@
             ]
         },
         {
-            "id": 720,
+            "id": 719,
             "name": "Mass Effect 2",
             "history": [
                 {
@@ -28548,7 +28548,7 @@
                 {
                     "poll": 1627,
                     "date": "2004-04-29",
-                    "contest": "SpC2K4",
+                    "contest": "Spring 2K4",
                     "rating": 1516,
                     "delta": 16,
                     "opponents": [
@@ -28558,7 +28558,7 @@
                 {
                     "poll": 1646,
                     "date": "2004-05-20",
-                    "contest": "SpC2K4",
+                    "contest": "Spring 2K4",
                     "rating": 1532,
                     "delta": 16,
                     "opponents": [
@@ -28568,7 +28568,7 @@
                 {
                     "poll": 1655,
                     "date": "2004-05-29",
-                    "contest": "SpC2K4",
+                    "contest": "Spring 2K4",
                     "rating": 1516,
                     "delta": -16,
                     "opponents": [
@@ -28678,7 +28678,7 @@
                 {
                     "poll": 1628,
                     "date": "2004-04-30",
-                    "contest": "SpC2K4",
+                    "contest": "Spring 2K4",
                     "rating": 1516,
                     "delta": 16,
                     "opponents": [
@@ -28688,7 +28688,7 @@
                 {
                     "poll": 1646,
                     "date": "2004-05-20",
-                    "contest": "SpC2K4",
+                    "contest": "Spring 2K4",
                     "rating": 1500,
                     "delta": -16,
                     "opponents": [
@@ -28896,7 +28896,7 @@
                 {
                     "poll": 1606,
                     "date": "2004-04-07",
-                    "contest": "SpC2K4",
+                    "contest": "Spring 2K4",
                     "rating": 1516,
                     "delta": 16,
                     "opponents": [
@@ -28906,7 +28906,7 @@
                 {
                     "poll": 1635,
                     "date": "2004-05-08",
-                    "contest": "SpC2K4",
+                    "contest": "Spring 2K4",
                     "rating": 1532,
                     "delta": 16,
                     "opponents": [
@@ -28916,7 +28916,7 @@
                 {
                     "poll": 1650,
                     "date": "2004-05-24",
-                    "contest": "SpC2K4",
+                    "contest": "Spring 2K4",
                     "rating": 1548,
                     "delta": 16,
                     "opponents": [
@@ -28926,7 +28926,7 @@
                 {
                     "poll": 1657,
                     "date": "2004-05-31",
-                    "contest": "SpC2K4",
+                    "contest": "Spring 2K4",
                     "rating": 1532,
                     "delta": -16,
                     "opponents": [
@@ -28984,7 +28984,7 @@
             ]
         },
         {
-            "id": 856,
+            "id": 855,
             "name": "Persona 5",
             "history": [
                 {
@@ -29340,7 +29340,7 @@
                 {
                     "poll": 1614,
                     "date": "2004-04-15",
-                    "contest": "SpC2K4",
+                    "contest": "Spring 2K4",
                     "rating": 1516,
                     "delta": 16,
                     "opponents": [
@@ -29350,7 +29350,7 @@
                 {
                     "poll": 1639,
                     "date": "2004-05-12",
-                    "contest": "SpC2K4",
+                    "contest": "Spring 2K4",
                     "rating": 1500,
                     "delta": -16,
                     "opponents": [
@@ -29432,7 +29432,7 @@
                 {
                     "poll": 1621,
                     "date": "2004-04-23",
-                    "contest": "SpC2K4",
+                    "contest": "Spring 2K4",
                     "rating": 1516,
                     "delta": 16,
                     "opponents": [
@@ -29442,7 +29442,7 @@
                 {
                     "poll": 1643,
                     "date": "2004-05-17",
-                    "contest": "SpC2K4",
+                    "contest": "Spring 2K4",
                     "rating": 1500,
                     "delta": -16,
                     "opponents": [
@@ -29516,7 +29516,7 @@
             ]
         },
         {
-            "id": 701,
+            "id": 700,
             "name": "Xenoblade Chronicles",
             "history": [
                 {
@@ -29582,7 +29582,7 @@
             ]
         },
         {
-            "id": 884,
+            "id": 883,
             "name": "Pokemon HeartGold / SoulSilver Version",
             "history": [
                 {
@@ -29628,7 +29628,7 @@
             ]
         },
         {
-            "id": 682,
+            "id": 681,
             "name": "The Last of Us",
             "history": [
                 {
@@ -29748,7 +29748,7 @@
             ]
         },
         {
-            "id": 806,
+            "id": 805,
             "name": "Dragon Quest XI: Echoes of an Elusive Age",
             "history": [
                 {
@@ -29794,7 +29794,7 @@
             ]
         },
         {
-            "id": 853,
+            "id": 852,
             "name": "God of War (2018)",
             "history": [
                 {
@@ -29840,7 +29840,7 @@
             ]
         },
         {
-            "id": 831,
+            "id": 830,
             "name": "Super Mario Odyssey",
             "history": [
                 {
@@ -29886,7 +29886,7 @@
             ]
         },
         {
-            "id": 836,
+            "id": 835,
             "name": "Persona 4 Golden",
             "history": [
                 {
@@ -29938,7 +29938,7 @@
                 {
                     "poll": 1625,
                     "date": "2004-04-27",
-                    "contest": "SpC2K4",
+                    "contest": "Spring 2K4",
                     "rating": 1516,
                     "delta": 16,
                     "opponents": [
@@ -29948,7 +29948,7 @@
                 {
                     "poll": 1645,
                     "date": "2004-05-19",
-                    "contest": "SpC2K4",
+                    "contest": "Spring 2K4",
                     "rating": 1532,
                     "delta": 16,
                     "opponents": [
@@ -29958,7 +29958,7 @@
                 {
                     "poll": 1655,
                     "date": "2004-05-29",
-                    "contest": "SpC2K4",
+                    "contest": "Spring 2K4",
                     "rating": 1548,
                     "delta": 16,
                     "opponents": [
@@ -29968,7 +29968,7 @@
                 {
                     "poll": 1660,
                     "date": "2004-06-03",
-                    "contest": "SpC2K4",
+                    "contest": "Spring 2K4",
                     "rating": 1532,
                     "delta": -16,
                     "opponents": [
@@ -30028,7 +30028,7 @@
                 {
                     "poll": 1611,
                     "date": "2004-04-12",
-                    "contest": "SpC2K4",
+                    "contest": "Spring 2K4",
                     "rating": 1516,
                     "delta": 16,
                     "opponents": [
@@ -30038,7 +30038,7 @@
                 {
                     "poll": 1638,
                     "date": "2004-05-11",
-                    "contest": "SpC2K4",
+                    "contest": "Spring 2K4",
                     "rating": 1500,
                     "delta": -16,
                     "opponents": [
@@ -30108,7 +30108,7 @@
                 {
                     "poll": 1608,
                     "date": "2004-04-09",
-                    "contest": "SpC2K4",
+                    "contest": "Spring 2K4",
                     "rating": 1516,
                     "delta": 16,
                     "opponents": [
@@ -30118,7 +30118,7 @@
                 {
                     "poll": 1636,
                     "date": "2004-05-09",
-                    "contest": "SpC2K4",
+                    "contest": "Spring 2K4",
                     "rating": 1532,
                     "delta": 16,
                     "opponents": [
@@ -30128,7 +30128,7 @@
                 {
                     "poll": 1650,
                     "date": "2004-05-24",
-                    "contest": "SpC2K4",
+                    "contest": "Spring 2K4",
                     "rating": 1516,
                     "delta": -16,
                     "opponents": [
@@ -30184,7 +30184,7 @@
             ]
         },
         {
-            "id": 685,
+            "id": 684,
             "name": "Super Smash Bros. for Wii U",
             "history": [
                 {
@@ -30316,7 +30316,7 @@
                 {
                     "poll": 1622,
                     "date": "2004-04-24",
-                    "contest": "SpC2K4",
+                    "contest": "Spring 2K4",
                     "rating": 1516,
                     "delta": 16,
                     "opponents": [
@@ -30326,7 +30326,7 @@
                 {
                     "poll": 1643,
                     "date": "2004-05-17",
-                    "contest": "SpC2K4",
+                    "contest": "Spring 2K4",
                     "rating": 1532,
                     "delta": 16,
                     "opponents": [
@@ -30336,7 +30336,7 @@
                 {
                     "poll": 1654,
                     "date": "2004-05-28",
-                    "contest": "SpC2K4",
+                    "contest": "Spring 2K4",
                     "rating": 1516,
                     "delta": -16,
                     "opponents": [
@@ -30402,7 +30402,7 @@
             ]
         },
         {
-            "id": 690,
+            "id": 689,
             "name": "Portal 2",
             "history": [
                 {
@@ -30600,7 +30600,7 @@
             ]
         },
         {
-            "id": 714,
+            "id": 713,
             "name": "Fallout: New Vegas",
             "history": [
                 {
@@ -30662,7 +30662,7 @@
                 {
                     "poll": 1625,
                     "date": "2004-04-27",
-                    "contest": "SpC2K4",
+                    "contest": "Spring 2K4",
                     "rating": 1484,
                     "delta": -16,
                     "opponents": [
@@ -30792,7 +30792,7 @@
             ]
         },
         {
-            "id": 705,
+            "id": 704,
             "name": "Metal Gear Solid V: The Phantom Pain",
             "history": [
                 {
@@ -30848,7 +30848,7 @@
             ]
         },
         {
-            "id": 813,
+            "id": 812,
             "name": "Horizon Zero Dawn",
             "history": [
                 {
@@ -30920,7 +30920,7 @@
             ]
         },
         {
-            "id": 797,
+            "id": 796,
             "name": "Final Fantasy XV",
             "history": [
                 {
@@ -30956,7 +30956,7 @@
             ]
         },
         {
-            "id": 802,
+            "id": 801,
             "name": "Monster Hunter: World",
             "history": [
                 {
@@ -30992,7 +30992,7 @@
             ]
         },
         {
-            "id": 858,
+            "id": 857,
             "name": "Sonic Mania",
             "history": [
                 {
@@ -31034,7 +31034,7 @@
                 {
                     "poll": 1604,
                     "date": "2004-04-05",
-                    "contest": "SpC2K4",
+                    "contest": "Spring 2K4",
                     "rating": 1516,
                     "delta": 16,
                     "opponents": [
@@ -31044,7 +31044,7 @@
                 {
                     "poll": 1634,
                     "date": "2004-05-07",
-                    "contest": "SpC2K4",
+                    "contest": "Spring 2K4",
                     "rating": 1532,
                     "delta": 16,
                     "opponents": [
@@ -31054,7 +31054,7 @@
                 {
                     "poll": 1649,
                     "date": "2004-05-23",
-                    "contest": "SpC2K4",
+                    "contest": "Spring 2K4",
                     "rating": 1516,
                     "delta": -16,
                     "opponents": [
@@ -31088,7 +31088,7 @@
             ]
         },
         {
-            "id": 824,
+            "id": 823,
             "name": "Marvel's Spider-Man",
             "history": [
                 {
@@ -31124,7 +31124,7 @@
             ]
         },
         {
-            "id": 843,
+            "id": 842,
             "name": "Fire Emblem: Three Houses",
             "history": [
                 {
@@ -31160,7 +31160,7 @@
             ]
         },
         {
-            "id": 888,
+            "id": 887,
             "name": "NieR: Automata",
             "history": [
                 {
@@ -31196,7 +31196,7 @@
             ]
         },
         {
-            "id": 709,
+            "id": 708,
             "name": "Grand Theft Auto V",
             "history": [
                 {
@@ -31252,7 +31252,7 @@
             ]
         },
         {
-            "id": 867,
+            "id": 866,
             "name": "Red Dead Redemption 2",
             "history": [
                 {
@@ -31362,7 +31362,7 @@
                 {
                     "poll": 1626,
                     "date": "2004-04-28",
-                    "contest": "SpC2K4",
+                    "contest": "Spring 2K4",
                     "rating": 1516,
                     "delta": 16,
                     "opponents": [
@@ -31372,7 +31372,7 @@
                 {
                     "poll": 1645,
                     "date": "2004-05-19",
-                    "contest": "SpC2K4",
+                    "contest": "Spring 2K4",
                     "rating": 1500,
                     "delta": -16,
                     "opponents": [
@@ -31882,7 +31882,7 @@
                 {
                     "poll": 1632,
                     "date": "2004-05-05",
-                    "contest": "SpC2K4",
+                    "contest": "Spring 2K4",
                     "rating": 1484,
                     "delta": -16,
                     "opponents": [
@@ -32076,7 +32076,7 @@
             ]
         },
         {
-            "id": 697,
+            "id": 696,
             "name": "Mario Kart 8",
             "history": [
                 {
@@ -32122,7 +32122,7 @@
             ]
         },
         {
-            "id": 826,
+            "id": 825,
             "name": "Octopath Traveler",
             "history": [
                 {
@@ -32414,7 +32414,7 @@
             ]
         },
         {
-            "id": 686,
+            "id": 685,
             "name": "Super Mario Galaxy 2",
             "history": [
                 {
@@ -32486,7 +32486,7 @@
             ]
         },
         {
-            "id": 710,
+            "id": 709,
             "name": "Shovel Knight",
             "history": [
                 {
@@ -32600,7 +32600,7 @@
             ]
         },
         {
-            "id": 681,
+            "id": 680,
             "name": "Batman: Arkham City",
             "history": [
                 {
@@ -32652,7 +32652,7 @@
                 {
                     "poll": 1602,
                     "date": "2004-04-03",
-                    "contest": "SpC2K4",
+                    "contest": "Spring 2K4",
                     "rating": 1516,
                     "delta": 16,
                     "opponents": [
@@ -32662,7 +32662,7 @@
                 {
                     "poll": 1633,
                     "date": "2004-05-06",
-                    "contest": "SpC2K4",
+                    "contest": "Spring 2K4",
                     "rating": 1500,
                     "delta": -16,
                     "opponents": [
@@ -32696,7 +32696,7 @@
             ]
         },
         {
-            "id": 718,
+            "id": 717,
             "name": "Red Dead Redemption",
             "history": [
                 {
@@ -32768,7 +32768,7 @@
             ]
         },
         {
-            "id": 708,
+            "id": 707,
             "name": "Bloodborne",
             "history": [
                 {
@@ -32814,7 +32814,7 @@
             ]
         },
         {
-            "id": 809,
+            "id": 808,
             "name": "Fallout 4",
             "history": [
                 {
@@ -32840,7 +32840,7 @@
             ]
         },
         {
-            "id": 870,
+            "id": 869,
             "name": "Rocket League",
             "history": [
                 {
@@ -33026,7 +33026,7 @@
             ]
         },
         {
-            "id": 850,
+            "id": 849,
             "name": "Dark Souls III",
             "history": [
                 {
@@ -33058,7 +33058,7 @@
                 {
                     "poll": 1629,
                     "date": "2004-05-01",
-                    "contest": "SpC2K4",
+                    "contest": "Spring 2K4",
                     "rating": 1516,
                     "delta": 16,
                     "opponents": [
@@ -33068,7 +33068,7 @@
                 {
                     "poll": 1647,
                     "date": "2004-05-21",
-                    "contest": "SpC2K4",
+                    "contest": "Spring 2K4",
                     "rating": 1500,
                     "delta": -16,
                     "opponents": [
@@ -33078,7 +33078,7 @@
             ]
         },
         {
-            "id": 799,
+            "id": 798,
             "name": "Hollow Knight",
             "history": [
                 {
@@ -33104,7 +33104,7 @@
             ]
         },
         {
-            "id": 804,
+            "id": 803,
             "name": "Sekiro: Shadows Die Twice",
             "history": [
                 {
@@ -33130,7 +33130,7 @@
             ]
         },
         {
-            "id": 822,
+            "id": 821,
             "name": "The Legend of Zelda: A Link Between Worlds",
             "history": [
                 {
@@ -33156,7 +33156,7 @@
             ]
         },
         {
-            "id": 828,
+            "id": 827,
             "name": "Devil May Cry 5",
             "history": [
                 {
@@ -33182,7 +33182,7 @@
             ]
         },
         {
-            "id": 842,
+            "id": 841,
             "name": "Ori and the Blind Forest",
             "history": [
                 {
@@ -33208,7 +33208,7 @@
             ]
         },
         {
-            "id": 861,
+            "id": 860,
             "name": "Super Meat Boy",
             "history": [
                 {
@@ -33234,7 +33234,7 @@
             ]
         },
         {
-            "id": 872,
+            "id": 871,
             "name": "Yakuza 0",
             "history": [
                 {
@@ -33260,7 +33260,7 @@
             ]
         },
         {
-            "id": 886,
+            "id": 885,
             "name": "Rayman Legends",
             "history": [
                 {
@@ -33286,7 +33286,7 @@
             ]
         },
         {
-            "id": 833,
+            "id": 832,
             "name": "Cuphead",
             "history": [
                 {
@@ -33390,7 +33390,7 @@
             ]
         },
         {
-            "id": 887,
+            "id": 886,
             "name": "Divinity: Original Sin II",
             "history": [
                 {
@@ -33454,7 +33454,7 @@
             ]
         },
         {
-            "id": 796,
+            "id": 795,
             "name": "Halo: Reach",
             "history": [
                 {
@@ -33480,7 +33480,7 @@
             ]
         },
         {
-            "id": 881,
+            "id": 880,
             "name": "Final Fantasy XIV Online: A Realm Reborn",
             "history": [
                 {
@@ -33558,7 +33558,7 @@
             ]
         },
         {
-            "id": 805,
+            "id": 804,
             "name": "Bastion",
             "history": [
                 {
@@ -33584,7 +33584,7 @@
             ]
         },
         {
-            "id": 840,
+            "id": 839,
             "name": "Overwatch",
             "history": [
                 {
@@ -33610,7 +33610,7 @@
             ]
         },
         {
-            "id": 852,
+            "id": 851,
             "name": "Nioh",
             "history": [
                 {
@@ -33636,7 +33636,7 @@
             ]
         },
         {
-            "id": 857,
+            "id": 856,
             "name": "Assassin's Creed IV: Black Flag",
             "history": [
                 {
@@ -33662,7 +33662,7 @@
             ]
         },
         {
-            "id": 864,
+            "id": 863,
             "name": "Kingdom Hearts III",
             "history": [
                 {
@@ -33688,7 +33688,7 @@
             ]
         },
         {
-            "id": 876,
+            "id": 875,
             "name": "Diablo III",
             "history": [
                 {
@@ -33714,7 +33714,7 @@
             ]
         },
         {
-            "id": 815,
+            "id": 814,
             "name": "DOOM (2016)",
             "history": [
                 {
@@ -33740,7 +33740,7 @@
             ]
         },
         {
-            "id": 702,
+            "id": 701,
             "name": "Fire Emblem: Awakening",
             "history": [
                 {
@@ -33786,7 +33786,7 @@
             ]
         },
         {
-            "id": 847,
+            "id": 846,
             "name": "Stardew Valley",
             "history": [
                 {
@@ -33818,7 +33818,7 @@
                 {
                     "poll": 1618,
                     "date": "2004-04-19",
-                    "contest": "SpC2K4",
+                    "contest": "Spring 2K4",
                     "rating": 1484,
                     "delta": -16,
                     "opponents": [
@@ -33934,7 +33934,7 @@
                 {
                     "poll": 1631,
                     "date": "2004-05-03",
-                    "contest": "SpC2K4",
+                    "contest": "Spring 2K4",
                     "rating": 1484,
                     "delta": -16,
                     "opponents": [
@@ -34112,7 +34112,7 @@
                 {
                     "poll": 1619,
                     "date": "2004-04-21",
-                    "contest": "SpC2K4",
+                    "contest": "Spring 2K4",
                     "rating": 1516,
                     "delta": 16,
                     "opponents": [
@@ -34122,7 +34122,7 @@
                 {
                     "poll": 1642,
                     "date": "2004-05-16",
-                    "contest": "SpC2K4",
+                    "contest": "Spring 2K4",
                     "rating": 1500,
                     "delta": -16,
                     "opponents": [
@@ -34206,7 +34206,7 @@
                 {
                     "poll": 1603,
                     "date": "2004-04-04",
-                    "contest": "SpC2K4",
+                    "contest": "Spring 2K4",
                     "rating": 1516,
                     "delta": 16,
                     "opponents": [
@@ -34216,7 +34216,7 @@
                 {
                     "poll": 1634,
                     "date": "2004-05-07",
-                    "contest": "SpC2K4",
+                    "contest": "Spring 2K4",
                     "rating": 1500,
                     "delta": -16,
                     "opponents": [
@@ -34244,7 +34244,7 @@
                 {
                     "poll": 1615,
                     "date": "2004-04-16",
-                    "contest": "SpC2K4",
+                    "contest": "Spring 2K4",
                     "rating": 1516,
                     "delta": 16,
                     "opponents": [
@@ -34254,7 +34254,7 @@
                 {
                     "poll": 1640,
                     "date": "2004-05-14",
-                    "contest": "SpC2K4",
+                    "contest": "Spring 2K4",
                     "rating": 1500,
                     "delta": -16,
                     "opponents": [
@@ -34404,7 +34404,7 @@
             ]
         },
         {
-            "id": 688,
+            "id": 687,
             "name": "Journey",
             "history": [
                 {
@@ -34638,7 +34638,7 @@
                 {
                     "poll": 1617,
                     "date": "2004-04-18",
-                    "contest": "SpC2K4",
+                    "contest": "Spring 2K4",
                     "rating": 1484,
                     "delta": -16,
                     "opponents": [
@@ -34710,7 +34710,7 @@
                 {
                     "poll": 1605,
                     "date": "2004-04-06",
-                    "contest": "SpC2K4",
+                    "contest": "Spring 2K4",
                     "rating": 1516,
                     "delta": 16,
                     "opponents": [
@@ -34720,7 +34720,7 @@
                 {
                     "poll": 1635,
                     "date": "2004-05-08",
-                    "contest": "SpC2K4",
+                    "contest": "Spring 2K4",
                     "rating": 1500,
                     "delta": -16,
                     "opponents": [
@@ -34872,7 +34872,7 @@
             ]
         },
         {
-            "id": 695,
+            "id": 694,
             "name": "Animal Crossing: New Leaf",
             "history": [
                 {
@@ -34944,7 +34944,7 @@
             ]
         },
         {
-            "id": 704,
+            "id": 703,
             "name": "Cave Story",
             "history": [
                 {
@@ -34960,7 +34960,7 @@
             ]
         },
         {
-            "id": 689,
+            "id": 688,
             "name": "Age of Empires II: The Age of Kings",
             "history": [
                 {
@@ -34998,7 +34998,7 @@
                 {
                     "poll": 1610,
                     "date": "2004-04-11",
-                    "contest": "SpC2K4",
+                    "contest": "Spring 2K4",
                     "rating": 1484,
                     "delta": -16,
                     "opponents": [
@@ -35194,7 +35194,7 @@
             ]
         },
         {
-            "id": 683,
+            "id": 682,
             "name": "Pokemon X/Y",
             "history": [
                 {
@@ -35216,7 +35216,7 @@
                 {
                     "poll": 1602,
                     "date": "2004-04-03",
-                    "contest": "SpC2K4",
+                    "contest": "Spring 2K4",
                     "rating": 1484,
                     "delta": -16,
                     "opponents": [
@@ -35250,7 +35250,7 @@
             ]
         },
         {
-            "id": 687,
+            "id": 686,
             "name": "Minecraft",
             "history": [
                 {
@@ -35286,7 +35286,7 @@
             ]
         },
         {
-            "id": 715,
+            "id": 714,
             "name": "Splatoon",
             "history": [
                 {
@@ -35318,7 +35318,7 @@
             ]
         },
         {
-            "id": 878,
+            "id": 877,
             "name": "Subnautica",
             "history": [
                 {
@@ -35334,7 +35334,7 @@
             ]
         },
         {
-            "id": 693,
+            "id": 692,
             "name": "Mass Effect 3",
             "history": [
                 {
@@ -35404,7 +35404,7 @@
             ]
         },
         {
-            "id": 808,
+            "id": 807,
             "name": "Resident Evil 7: biohazard",
             "history": [
                 {
@@ -35420,7 +35420,7 @@
             ]
         },
         {
-            "id": 868,
+            "id": 867,
             "name": "Hotline Miami",
             "history": [
                 {
@@ -35452,7 +35452,7 @@
             ]
         },
         {
-            "id": 713,
+            "id": 712,
             "name": "BioShock Infinite",
             "history": [
                 {
@@ -35556,7 +35556,7 @@
             ]
         },
         {
-            "id": 716,
+            "id": 715,
             "name": "Borderlands 2",
             "history": [
                 {
@@ -35854,7 +35854,7 @@
             ]
         },
         {
-            "id": 698,
+            "id": 697,
             "name": "Nine Hours, Nine Persons, Nine Doors",
             "history": [
                 {
@@ -35870,7 +35870,7 @@
             ]
         },
         {
-            "id": 837,
+            "id": 836,
             "name": "Ghost Trick: Phantom Detective",
             "history": [
                 {
@@ -35886,7 +35886,7 @@
             ]
         },
         {
-            "id": 849,
+            "id": 848,
             "name": "The Stanley Parable",
             "history": [
                 {
@@ -35902,7 +35902,7 @@
             ]
         },
         {
-            "id": 877,
+            "id": 876,
             "name": "Crusader Kings II",
             "history": [
                 {
@@ -35924,7 +35924,7 @@
                 {
                     "poll": 1601,
                     "date": "2004-04-02",
-                    "contest": "SpC2K4",
+                    "contest": "Spring 2K4",
                     "rating": 1484,
                     "delta": -16,
                     "opponents": [
@@ -35940,7 +35940,7 @@
                 {
                     "poll": 1603,
                     "date": "2004-04-04",
-                    "contest": "SpC2K4",
+                    "contest": "Spring 2K4",
                     "rating": 1484,
                     "delta": -16,
                     "opponents": [
@@ -35956,7 +35956,7 @@
                 {
                     "poll": 1604,
                     "date": "2004-04-05",
-                    "contest": "SpC2K4",
+                    "contest": "Spring 2K4",
                     "rating": 1484,
                     "delta": -16,
                     "opponents": [
@@ -35972,7 +35972,7 @@
                 {
                     "poll": 1606,
                     "date": "2004-04-07",
-                    "contest": "SpC2K4",
+                    "contest": "Spring 2K4",
                     "rating": 1484,
                     "delta": -16,
                     "opponents": [
@@ -35988,7 +35988,7 @@
                 {
                     "poll": 1611,
                     "date": "2004-04-12",
-                    "contest": "SpC2K4",
+                    "contest": "Spring 2K4",
                     "rating": 1484,
                     "delta": -16,
                     "opponents": [
@@ -36004,7 +36004,7 @@
                 {
                     "poll": 1612,
                     "date": "2004-04-13",
-                    "contest": "SpC2K4",
+                    "contest": "Spring 2K4",
                     "rating": 1484,
                     "delta": -16,
                     "opponents": [
@@ -36020,7 +36020,7 @@
                 {
                     "poll": 1616,
                     "date": "2004-04-17",
-                    "contest": "SpC2K4",
+                    "contest": "Spring 2K4",
                     "rating": 1484,
                     "delta": -16,
                     "opponents": [
@@ -36036,7 +36036,7 @@
                 {
                     "poll": 1619,
                     "date": "2004-04-21",
-                    "contest": "SpC2K4",
+                    "contest": "Spring 2K4",
                     "rating": 1484,
                     "delta": -16,
                     "opponents": [
@@ -36052,7 +36052,7 @@
                 {
                     "poll": 1622,
                     "date": "2004-04-24",
-                    "contest": "SpC2K4",
+                    "contest": "Spring 2K4",
                     "rating": 1484,
                     "delta": -16,
                     "opponents": [
@@ -36068,7 +36068,7 @@
                 {
                     "poll": 1623,
                     "date": "2004-04-25",
-                    "contest": "SpC2K4",
+                    "contest": "Spring 2K4",
                     "rating": 1484,
                     "delta": -16,
                     "opponents": [
@@ -36084,7 +36084,7 @@
                 {
                     "poll": 1624,
                     "date": "2004-04-26",
-                    "contest": "SpC2K4",
+                    "contest": "Spring 2K4",
                     "rating": 1484,
                     "delta": -16,
                     "opponents": [
@@ -36286,7 +36286,7 @@
             ]
         },
         {
-            "id": 684,
+            "id": 683,
             "name": "Planescape: Torment",
             "history": [
                 {
@@ -36302,7 +36302,7 @@
             ]
         },
         {
-            "id": 703,
+            "id": 702,
             "name": "Super Mario Maker",
             "history": [
                 {
@@ -36318,7 +36318,7 @@
             ]
         },
         {
-            "id": 795,
+            "id": 794,
             "name": "The Outer Worlds",
             "history": [
                 {
@@ -36334,7 +36334,7 @@
             ]
         },
         {
-            "id": 798,
+            "id": 797,
             "name": "What Remains of Edith Finch",
             "history": [
                 {
@@ -36350,7 +36350,7 @@
             ]
         },
         {
-            "id": 800,
+            "id": 799,
             "name": "Tales of Berseria",
             "history": [
                 {
@@ -36366,7 +36366,7 @@
             ]
         },
         {
-            "id": 801,
+            "id": 800,
             "name": "Bravely Default: Flying Fairy",
             "history": [
                 {
@@ -36382,7 +36382,7 @@
             ]
         },
         {
-            "id": 803,
+            "id": 802,
             "name": "Ni no Kuni: Wrath of the White Witch",
             "history": [
                 {
@@ -36398,7 +36398,7 @@
             ]
         },
         {
-            "id": 807,
+            "id": 806,
             "name": "The Legend of Heroes: Trails in the Sky SC",
             "history": [
                 {
@@ -36414,7 +36414,7 @@
             ]
         },
         {
-            "id": 810,
+            "id": 809,
             "name": "VVVVVV",
             "history": [
                 {
@@ -36430,7 +36430,7 @@
             ]
         },
         {
-            "id": 812,
+            "id": 811,
             "name": "Fortnite",
             "history": [
                 {
@@ -36446,7 +36446,7 @@
             ]
         },
         {
-            "id": 816,
+            "id": 815,
             "name": "INSIDE",
             "history": [
                 {
@@ -36462,7 +36462,7 @@
             ]
         },
         {
-            "id": 817,
+            "id": 816,
             "name": "Deus Ex: Human Revolution",
             "history": [
                 {
@@ -36478,7 +36478,7 @@
             ]
         },
         {
-            "id": 820,
+            "id": 819,
             "name": "Tekken 7",
             "history": [
                 {
@@ -36494,7 +36494,7 @@
             ]
         },
         {
-            "id": 821,
+            "id": 820,
             "name": "Bayonetta",
             "history": [
                 {
@@ -36510,7 +36510,7 @@
             ]
         },
         {
-            "id": 823,
+            "id": 822,
             "name": "Dead Space 2",
             "history": [
                 {
@@ -36526,7 +36526,7 @@
             ]
         },
         {
-            "id": 829,
+            "id": 828,
             "name": "Donkey Kong Country: Tropical Freeze",
             "history": [
                 {
@@ -36542,7 +36542,7 @@
             ]
         },
         {
-            "id": 830,
+            "id": 829,
             "name": "Mortal Kombat 11",
             "history": [
                 {
@@ -36558,7 +36558,7 @@
             ]
         },
         {
-            "id": 834,
+            "id": 833,
             "name": "XCOM 2",
             "history": [
                 {
@@ -36574,7 +36574,7 @@
             ]
         },
         {
-            "id": 835,
+            "id": 834,
             "name": "FTL: Faster Than Light",
             "history": [
                 {
@@ -36590,7 +36590,7 @@
             ]
         },
         {
-            "id": 839,
+            "id": 838,
             "name": "Death Stranding",
             "history": [
                 {
@@ -36606,7 +36606,7 @@
             ]
         },
         {
-            "id": 841,
+            "id": 840,
             "name": "Dragon Age: Inquisition",
             "history": [
                 {
@@ -36622,7 +36622,7 @@
             ]
         },
         {
-            "id": 844,
+            "id": 843,
             "name": "South Park: The Stick of Truth",
             "history": [
                 {
@@ -36638,7 +36638,7 @@
             ]
         },
         {
-            "id": 845,
+            "id": 844,
             "name": "Assassin's Creed Odyssey",
             "history": [
                 {
@@ -36654,7 +36654,7 @@
             ]
         },
         {
-            "id": 851,
+            "id": 850,
             "name": "Dishonored",
             "history": [
                 {
@@ -36670,7 +36670,7 @@
             ]
         },
         {
-            "id": 854,
+            "id": 853,
             "name": "The Talos Principle",
             "history": [
                 {
@@ -36686,7 +36686,7 @@
             ]
         },
         {
-            "id": 855,
+            "id": 854,
             "name": "Heavy Rain",
             "history": [
                 {
@@ -36702,7 +36702,7 @@
             ]
         },
         {
-            "id": 859,
+            "id": 858,
             "name": "Ys VIII: Lacrimosa of DANA",
             "history": [
                 {
@@ -36718,7 +36718,7 @@
             ]
         },
         {
-            "id": 860,
+            "id": 859,
             "name": "Slay the Spire",
             "history": [
                 {
@@ -36734,7 +36734,7 @@
             ]
         },
         {
-            "id": 863,
+            "id": 862,
             "name": "Disco Elysium",
             "history": [
                 {
@@ -36750,7 +36750,7 @@
             ]
         },
         {
-            "id": 866,
+            "id": 865,
             "name": "Dying Light",
             "history": [
                 {
@@ -36766,7 +36766,7 @@
             ]
         },
         {
-            "id": 869,
+            "id": 868,
             "name": "Dragon Ball FighterZ",
             "history": [
                 {
@@ -36782,7 +36782,7 @@
             ]
         },
         {
-            "id": 871,
+            "id": 870,
             "name": "The Witness",
             "history": [
                 {
@@ -36798,7 +36798,7 @@
             ]
         },
         {
-            "id": 873,
+            "id": 872,
             "name": "Dead Cells",
             "history": [
                 {
@@ -36814,7 +36814,7 @@
             ]
         },
         {
-            "id": 880,
+            "id": 879,
             "name": "Crypt of the NecroDancer",
             "history": [
                 {
@@ -36830,7 +36830,7 @@
             ]
         },
         {
-            "id": 883,
+            "id": 882,
             "name": "Night in the Woods",
             "history": [
                 {
@@ -36846,7 +36846,7 @@
             ]
         },
         {
-            "id": 885,
+            "id": 884,
             "name": "Celeste",
             "history": [
                 {
@@ -36868,7 +36868,7 @@
                 {
                     "poll": 1615,
                     "date": "2004-04-16",
-                    "contest": "SpC2K4",
+                    "contest": "Spring 2K4",
                     "rating": 1484,
                     "delta": -16,
                     "opponents": [
@@ -36910,7 +36910,7 @@
             ]
         },
         {
-            "id": 832,
+            "id": 831,
             "name": "Baba Is You",
             "history": [
                 {
@@ -36932,7 +36932,7 @@
                 {
                     "poll": 1607,
                     "date": "2004-04-08",
-                    "contest": "SpC2K4",
+                    "contest": "Spring 2K4",
                     "rating": 1516,
                     "delta": 16,
                     "opponents": [
@@ -36942,7 +36942,7 @@
                 {
                     "poll": 1636,
                     "date": "2004-05-09",
-                    "contest": "SpC2K4",
+                    "contest": "Spring 2K4",
                     "rating": 1500,
                     "delta": -16,
                     "opponents": [
@@ -37170,7 +37170,7 @@
             ]
         },
         {
-            "id": 879,
+            "id": 878,
             "name": "Fate / Grand Order",
             "history": [
                 {
@@ -37266,7 +37266,7 @@
             ]
         },
         {
-            "id": 865,
+            "id": 864,
             "name": "Street Fighter V",
             "history": [
                 {
@@ -37394,7 +37394,7 @@
             ]
         },
         {
-            "id": 700,
+            "id": 699,
             "name": "Monster Hunter 4 Ultimate",
             "history": [
                 {
@@ -37410,7 +37410,7 @@
             ]
         },
         {
-            "id": 818,
+            "id": 817,
             "name": "Call of Duty: Black Ops",
             "history": [
                 {
@@ -37426,7 +37426,7 @@
             ]
         },
         {
-            "id": 825,
+            "id": 824,
             "name": "Dota 2",
             "history": [
                 {
@@ -37442,7 +37442,7 @@
             ]
         },
         {
-            "id": 846,
+            "id": 845,
             "name": "Starcraft II: Wings of Liberty",
             "history": [
                 {
@@ -37458,7 +37458,7 @@
             ]
         },
         {
-            "id": 848,
+            "id": 847,
             "name": "Return of the Obra Dinn",
             "history": [
                 {
@@ -37474,7 +37474,7 @@
             ]
         },
         {
-            "id": 862,
+            "id": 861,
             "name": "Tomb Raider",
             "history": [
                 {
@@ -37490,7 +37490,7 @@
             ]
         },
         {
-            "id": 874,
+            "id": 873,
             "name": "Xenoblade Chronicles 2",
             "history": [
                 {
@@ -37506,7 +37506,7 @@
             ]
         },
         {
-            "id": 875,
+            "id": 874,
             "name": "Terraria",
             "history": [
                 {
@@ -37522,7 +37522,7 @@
             ]
         },
         {
-            "id": 882,
+            "id": 881,
             "name": "Uncharted 4: A Thief's End",
             "history": [
                 {
@@ -37538,7 +37538,7 @@
             ]
         },
         {
-            "id": 811,
+            "id": 810,
             "name": "Bloodstained: Ritual of the Night",
             "history": [
                 {
@@ -37554,7 +37554,7 @@
             ]
         },
         {
-            "id": 827,
+            "id": 826,
             "name": "Dragon's Dogma",
             "history": [
                 {
@@ -37570,7 +37570,7 @@
             ]
         },
         {
-            "id": 838,
+            "id": 837,
             "name": "Splatoon 2",
             "history": [
                 {
@@ -37678,7 +37678,7 @@
             ]
         },
         {
-            "id": 814,
+            "id": 813,
             "name": "Danganronpa 2: Goodbye Despair",
             "history": [
                 {
@@ -37768,7 +37768,7 @@
                 {
                     "poll": 1626,
                     "date": "2004-04-28",
-                    "contest": "SpC2K4",
+                    "contest": "Spring 2K4",
                     "rating": 1484,
                     "delta": -16,
                     "opponents": [
@@ -37824,7 +37824,7 @@
                 {
                     "poll": 1607,
                     "date": "2004-04-08",
-                    "contest": "SpC2K4",
+                    "contest": "Spring 2K4",
                     "rating": 1484,
                     "delta": -16,
                     "opponents": [
@@ -37852,7 +37852,7 @@
                 {
                     "poll": 1609,
                     "date": "2004-04-10",
-                    "contest": "SpC2K4",
+                    "contest": "Spring 2K4",
                     "rating": 1484,
                     "delta": -16,
                     "opponents": [
@@ -37880,7 +37880,7 @@
                 {
                     "poll": 1605,
                     "date": "2004-04-06",
-                    "contest": "SpC2K4",
+                    "contest": "Spring 2K4",
                     "rating": 1484,
                     "delta": -16,
                     "opponents": [
@@ -37964,7 +37964,7 @@
                 {
                     "poll": 1631,
                     "date": "2004-05-03",
-                    "contest": "SpC2K4",
+                    "contest": "Spring 2K4",
                     "rating": 1516,
                     "delta": 16,
                     "opponents": [
@@ -37974,7 +37974,7 @@
                 {
                     "poll": 1648,
                     "date": "2004-05-22",
-                    "contest": "SpC2K4",
+                    "contest": "Spring 2K4",
                     "rating": 1500,
                     "delta": -16,
                     "opponents": [
@@ -38158,7 +38158,7 @@
             ]
         },
         {
-            "id": 699,
+            "id": 698,
             "name": "Hearthstone: Heroes of Warcraft",
             "history": [
                 {
@@ -38190,7 +38190,7 @@
                 {
                     "poll": 1627,
                     "date": "2004-04-29",
-                    "contest": "SpC2K4",
+                    "contest": "Spring 2K4",
                     "rating": 1484,
                     "delta": -16,
                     "opponents": [
@@ -38296,7 +38296,7 @@
             ]
         },
         {
-            "id": 692,
+            "id": 691,
             "name": "Life is Strange",
             "history": [
                 {
@@ -38402,7 +38402,7 @@
                 {
                     "poll": 1629,
                     "date": "2004-05-01",
-                    "contest": "SpC2K4",
+                    "contest": "Spring 2K4",
                     "rating": 1484,
                     "delta": -16,
                     "opponents": [
@@ -38492,7 +38492,7 @@
             ]
         },
         {
-            "id": 719,
+            "id": 718,
             "name": "Destiny",
             "history": [
                 {
@@ -38544,7 +38544,7 @@
             ]
         },
         {
-            "id": 691,
+            "id": 690,
             "name": "The Walking Dead: A Telltale Games Series",
             "history": [
                 {
@@ -38576,7 +38576,7 @@
                 {
                     "poll": 1628,
                     "date": "2004-04-30",
-                    "contest": "SpC2K4",
+                    "contest": "Spring 2K4",
                     "rating": 1484,
                     "delta": -16,
                     "opponents": [
@@ -38614,7 +38614,7 @@
                 {
                     "poll": 1614,
                     "date": "2004-04-15",
-                    "contest": "SpC2K4",
+                    "contest": "Spring 2K4",
                     "rating": 1484,
                     "delta": -16,
                     "opponents": [
@@ -38642,7 +38642,7 @@
                 {
                     "poll": 1618,
                     "date": "2004-04-19",
-                    "contest": "SpC2K4",
+                    "contest": "Spring 2K4",
                     "rating": 1516,
                     "delta": 16,
                     "opponents": [
@@ -38652,7 +38652,7 @@
                 {
                     "poll": 1641,
                     "date": "2004-05-15",
-                    "contest": "SpC2K4",
+                    "contest": "Spring 2K4",
                     "rating": 1500,
                     "delta": -16,
                     "opponents": [
@@ -38690,7 +38690,7 @@
                 {
                     "poll": 1613,
                     "date": "2004-04-14",
-                    "contest": "SpC2K4",
+                    "contest": "Spring 2K4",
                     "rating": 1484,
                     "delta": -16,
                     "opponents": [
@@ -38740,7 +38740,7 @@
             ]
         },
         {
-            "id": 707,
+            "id": 706,
             "name": "Sid Meier's Civilization V",
             "history": [
                 {
@@ -38766,7 +38766,7 @@
             ]
         },
         {
-            "id": 711,
+            "id": 710,
             "name": "The Binding of Isaac: Rebirth",
             "history": [
                 {
@@ -38792,7 +38792,7 @@
             ]
         },
         {
-            "id": 717,
+            "id": 716,
             "name": "Bayonetta 2",
             "history": [
                 {
@@ -38818,7 +38818,7 @@
             ]
         },
         {
-            "id": 721,
+            "id": 720,
             "name": "Zero Escape: Virtue's Last Reward",
             "history": [
                 {
@@ -38876,7 +38876,7 @@
                 {
                     "poll": 1608,
                     "date": "2004-04-09",
-                    "contest": "SpC2K4",
+                    "contest": "Spring 2K4",
                     "rating": 1484,
                     "delta": -16,
                     "opponents": [
@@ -39010,7 +39010,7 @@
                 {
                     "poll": 1621,
                     "date": "2004-04-23",
-                    "contest": "SpC2K4",
+                    "contest": "Spring 2K4",
                     "rating": 1484,
                     "delta": -16,
                     "opponents": [
@@ -39068,7 +39068,7 @@
                 {
                     "poll": 1620,
                     "date": "2004-04-22",
-                    "contest": "SpC2K4",
+                    "contest": "Spring 2K4",
                     "rating": 1484,
                     "delta": -16,
                     "opponents": [
@@ -39106,7 +39106,7 @@
                 {
                     "poll": 1630,
                     "date": "2004-05-02",
-                    "contest": "SpC2K4",
+                    "contest": "Spring 2K4",
                     "rating": 1484,
                     "delta": -16,
                     "opponents": [
@@ -41674,7 +41674,7 @@
     ],
     "year": [
         {
-            "id": 752,
+            "id": 751,
             "name": "1998",
             "history": [
                 {
@@ -41730,7 +41730,7 @@
             ]
         },
         {
-            "id": 734,
+            "id": 733,
             "name": "2001",
             "history": [
                 {
@@ -41786,7 +41786,7 @@
             ]
         },
         {
-            "id": 737,
+            "id": 736,
             "name": "1997",
             "history": [
                 {
@@ -41832,7 +41832,7 @@
             ]
         },
         {
-            "id": 748,
+            "id": 747,
             "name": "1994",
             "history": [
                 {
@@ -41878,7 +41878,7 @@
             ]
         },
         {
-            "id": 743,
+            "id": 742,
             "name": "1996",
             "history": [
                 {
@@ -41914,7 +41914,7 @@
             ]
         },
         {
-            "id": 755,
+            "id": 754,
             "name": "2003",
             "history": [
                 {
@@ -41950,7 +41950,7 @@
             ]
         },
         {
-            "id": 731,
+            "id": 730,
             "name": "1995",
             "history": [
                 {
@@ -41986,7 +41986,7 @@
             ]
         },
         {
-            "id": 745,
+            "id": 744,
             "name": "1991",
             "history": [
                 {
@@ -42022,7 +42022,7 @@
             ]
         },
         {
-            "id": 729,
+            "id": 728,
             "name": "2005",
             "history": [
                 {
@@ -42058,7 +42058,7 @@
             ]
         },
         {
-            "id": 736,
+            "id": 735,
             "name": "2008",
             "history": [
                 {
@@ -42084,7 +42084,7 @@
             ]
         },
         {
-            "id": 750,
+            "id": 749,
             "name": "2011",
             "history": [
                 {
@@ -42110,7 +42110,7 @@
             ]
         },
         {
-            "id": 733,
+            "id": 732,
             "name": "1987",
             "history": [
                 {
@@ -42136,7 +42136,7 @@
             ]
         },
         {
-            "id": 739,
+            "id": 738,
             "name": "2007",
             "history": [
                 {
@@ -42162,7 +42162,7 @@
             ]
         },
         {
-            "id": 742,
+            "id": 741,
             "name": "2000",
             "history": [
                 {
@@ -42188,7 +42188,7 @@
             ]
         },
         {
-            "id": 746,
+            "id": 745,
             "name": "2002",
             "history": [
                 {
@@ -42214,7 +42214,7 @@
             ]
         },
         {
-            "id": 753,
+            "id": 752,
             "name": "1992",
             "history": [
                 {
@@ -42240,7 +42240,7 @@
             ]
         },
         {
-            "id": 723,
+            "id": 722,
             "name": "2009",
             "history": [
                 {
@@ -42266,7 +42266,7 @@
             ]
         },
         {
-            "id": 725,
+            "id": 724,
             "name": "1989",
             "history": [
                 {
@@ -42292,7 +42292,7 @@
             ]
         },
         {
-            "id": 727,
+            "id": 726,
             "name": "2006",
             "history": [
                 {
@@ -42318,7 +42318,7 @@
             ]
         },
         {
-            "id": 757,
+            "id": 756,
             "name": "2015",
             "history": [
                 {
@@ -42334,7 +42334,7 @@
             ]
         },
         {
-            "id": 722,
+            "id": 721,
             "name": "1979",
             "history": [
                 {
@@ -42350,7 +42350,7 @@
             ]
         },
         {
-            "id": 724,
+            "id": 723,
             "name": "1983",
             "history": [
                 {
@@ -42366,7 +42366,7 @@
             ]
         },
         {
-            "id": 726,
+            "id": 725,
             "name": "1981",
             "history": [
                 {
@@ -42382,7 +42382,7 @@
             ]
         },
         {
-            "id": 728,
+            "id": 727,
             "name": "1978",
             "history": [
                 {
@@ -42398,7 +42398,7 @@
             ]
         },
         {
-            "id": 730,
+            "id": 729,
             "name": "1986",
             "history": [
                 {
@@ -42414,7 +42414,7 @@
             ]
         },
         {
-            "id": 732,
+            "id": 731,
             "name": "1985",
             "history": [
                 {
@@ -42430,7 +42430,7 @@
             ]
         },
         {
-            "id": 735,
+            "id": 734,
             "name": "2014",
             "history": [
                 {
@@ -42446,7 +42446,7 @@
             ]
         },
         {
-            "id": 738,
+            "id": 737,
             "name": "1999",
             "history": [
                 {
@@ -42462,7 +42462,7 @@
             ]
         },
         {
-            "id": 740,
+            "id": 739,
             "name": "2012",
             "history": [
                 {
@@ -42478,7 +42478,7 @@
             ]
         },
         {
-            "id": 741,
+            "id": 740,
             "name": "1990",
             "history": [
                 {
@@ -42494,7 +42494,7 @@
             ]
         },
         {
-            "id": 744,
+            "id": 743,
             "name": "1988",
             "history": [
                 {
@@ -42510,7 +42510,7 @@
             ]
         },
         {
-            "id": 747,
+            "id": 746,
             "name": "2010",
             "history": [
                 {
@@ -42526,7 +42526,7 @@
             ]
         },
         {
-            "id": 749,
+            "id": 748,
             "name": "2004",
             "history": [
                 {
@@ -42542,7 +42542,7 @@
             ]
         },
         {
-            "id": 751,
+            "id": 750,
             "name": "1993",
             "history": [
                 {
@@ -42558,7 +42558,7 @@
             ]
         },
         {
-            "id": 754,
+            "id": 753,
             "name": "2016",
             "history": [
                 {
@@ -42574,7 +42574,7 @@
             ]
         },
         {
-            "id": 756,
+            "id": 755,
             "name": "2013",
             "history": [
                 {

@@ -47,27 +47,36 @@ require_once $ROOT . '/public/lib/contest.php';   // amr_canon() — QA cross-ch
 
 const PAGES = __DIR__ . '/../storage/GameFAQs Pages';
 
-/** stats-page slug => our contest code. Pages with no pick table are left out
- *  (cb9_leaderboard, gotd_20). */
+/** stats-page slug => contest_id (data/contest-ids.json's "id"). Pages with no
+ *  pick table are left out (cb9_leaderboard = tid 15, gotd_20 = tid 19). The
+ *  contest code itself is resolved from the registry where used below, via
+ *  contest_registry() (data.php, already loaded by contest.php above) --
+ *  not hand-copied here. */
 const SLUG_CODE = [
-    'c02sum'               => 'SC2K2',
-    'c03sum'               => 'SC2K3',
-    'c04spr'               => 'SpC2K4',
-    'c04sum'               => 'SC2K4',
-    'spr05'                => 'SpC2K5',
-    'sum05'                => 'SC2K5',
-    'bse'                  => 'BSE2K6',
-    'cb5'                  => 'CB2K6',
-    'cb6'                  => 'CB VI',
-    'cb7'                  => 'CB VII',
-    'bge09'                => 'BGE 2K9',
-    'cb8'                  => 'CB VIII',
-    'gotd'                 => 'GOTD',
-    'rivals_bracket_final' => 'Rivalry',
-    'bge20_stats'          => 'BGE 2K15',
-    'byg_stats'            => 'Best Year',
-    'cbx_stats'            => 'CB X',
+    'c02sum'               => 1,
+    'c03sum'               => 2,
+    'c04spr'               => 3,
+    'c04sum'               => 4,
+    'spr05'                => 5,
+    'sum05'                => 6,
+    'bse'                  => 7,
+    'cb5'                  => 8,
+    'cb6'                  => 9,
+    'cb7'                  => 10,
+    'bge09'                => 11,
+    'cb8'                  => 12,
+    'gotd'                 => 13,
+    'rivals_bracket_final' => 14,
+    'bge20_stats'          => 16,
+    'byg_stats'            => 17,
+    'cbx_stats'            => 18,
 ];
+
+/** contest_id -> canonical code, from contest_registry() (data/contest-ids.json). */
+$CODE_BY_TID = [];
+foreach (contest_registry() as $reg) {
+    $CODE_BY_TID[$reg['id']] = $reg['codes'][0];
+}
 
 /* ---------- helpers -------------------------------------------------- */
 
@@ -153,7 +162,8 @@ $out      = [];
 $warnings = [];
 $perFmt   = ['count' => 0, 'names' => 0, 'winner' => 0, 'multi' => 0];
 
-foreach (SLUG_CODE as $slug => $code) {
+foreach (SLUG_CODE as $slug => $tid) {
+    $code    = $CODE_BY_TID[$tid];
     $matches = $bracket[$code] ?? [];
     if (!$matches) {
         $warnings[] = "{$slug}: no bracket matches for code '{$code}'";

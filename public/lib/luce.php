@@ -21,12 +21,11 @@ require_once __DIR__ . '/entrants.php';
  * only reads that file, no live computation.
  *
  *   /luce         — luce_standings_render(): sortable ratings table, one
- *                   contest at a time (most recent contest by default).
+ *                   contest at a time (the first contest, by default).
  *   /luce/{id}    — luce_render(): one entrant's rating across every contest
- *                   they appeared in. A graph only when they have 2+ contests
- *                   -- a single point isn't a graph, and most entrants only
- *                   ever ran in one contest, so this is the common case, not
- *                   an edge case (see tmp/luce-stats-feature-plan.md).
+ *                   they appeared in, plus a graph (a single point when they
+ *                   only ran in one contest -- the common case, not an edge
+ *                   case -- matching /elo/{id}'s behavior).
  *   /luce/compare — luce_compare_render(): overlay several entrants' own
  *                   per-contest histories. No estimated head-to-head here
  *                   (unlike /elo/compare) -- different contests are separate
@@ -45,8 +44,9 @@ require_once __DIR__ . '/entrants.php';
  */
 
 /** data/stats/luce-fit.json, decoded once per request. Keyed by contest label
- *  (match-records.json's own spelling, e.g. "SpC2K4"), in chronological order
- *  -- see scripts/luce-fit.py. */
+ *  (contest-ids.json's codes[0], the pipeline label baked into every derived
+ *  file -- not necessarily what's shown on screen, see amr_contest_list()'s
+ *  separate "label" field), in chronological order -- see scripts/luce-fit.py. */
 function luce_data(): array
 {
     static $data = null;
@@ -58,12 +58,14 @@ function luce_data(): array
     return $data;
 }
 
-/** contest_id -> luce_data() label, for resolving ?contest_id= URLs. Every
- *  page here uses contest_id, not luce_data()'s own label spelling, in URLs
- *  and links -- consistent with the rest of the site (?contest_id= on
- *  /node/100 etc.), and it sidesteps luce-fit.json's label being
- *  match-records.json's own spelling rather than contest-ids.json's (e.g.
- *  "SpC2K4" vs "Spring 2K4" -- see contest-ids.json's "codes" aliases). */
+/** contest_id -> luce_data() key, for resolving ?contest_id= URLs. Every page
+ *  here uses contest_id, not luce_data()'s own key spelling, in URLs and
+ *  links -- consistent with the rest of the site (?contest_id= on /node/100
+ *  etc.), and it sidesteps luce-fit.json's key being contest-ids.json's
+ *  codes[0] (the pipeline label baked into every derived file), which isn't
+ *  necessarily what's actually shown on screen -- see amr_contest_list(),
+ *  which reads contest-ids.json's separate, purely-cosmetic "label" field
+ *  instead. */
 function luce_label_for_contest_id(int $contestId): ?string
 {
     static $byId = null;
@@ -107,7 +109,7 @@ function luce_standings_render(): array
 
     $contest = luce_label_for_contest_id((int)($_GET['contest_id'] ?? 0));
     if ($contest === null) {
-        $contest = end($labels);   // default: most recent contest
+        $contest = $labels[0];     // default: first contest (SC2K2)
     }
 
     $c    = $data[$contest];
@@ -136,9 +138,9 @@ function luce_standings_render(): array
     // one URL builder for every link on the page: start from the current
     // state, apply overrides, drop anything at its default. contest_id, not
     // the raw label string, matches the rest of the site (?contest_id= on
-    // /node/100 etc.) and avoids exposing luce-fit.json's own spelling
-    // (match-records.json's, not always the same as contest-ids.json's --
-    // see contest-ids.json's "codes" aliases) as a public URL param.
+    // /node/100 etc.) and avoids exposing luce-fit.json's own key (contest-
+    // ids.json's codes[0], the pipeline label -- not necessarily the same as
+    // its separate, cosmetic "label" field) as a public URL param.
     $url = function (array $over) use ($c, $sort, $dir): string {
         $p = array_merge(['contest_id' => $c['contest_id'], 'sort' => $sort, 'dir' => $dir], $over);
         $q = ['contest_id' => $p['contest_id']];
@@ -161,15 +163,15 @@ function luce_standings_render(): array
     $arrow = fn (string $k): string => $k === $sort ? ($dir === 'asc' ? ' &#9650;' : ' &#9660;') : '';
     $th    = fn (string $k, string $lbl): string => '<th><a href="' . $hh($hlink($k)) . '">' . $lbl . $arrow($k) . '</a></th>';
 
-    // display label = contest-ids.json's own preferred short code (amr_contest_list(),
+    // display label = contest-ids.json's own "label" field (amr_contest_list(),
     // same one AMR/node/100 shows), not luce_data()'s raw key -- that key is
-    // match-records.json's own spelling, which isn't always the same one
-    // (e.g. "SpC2K4" vs "Spring 2K4" -- see contest-ids.json's "codes" aliases)
+    // contest-ids.json's codes[0], the pipeline label baked into every derived
+    // file, which isn't necessarily the same text as the cosmetic "label" field
     $contestLinks = [];
-    foreach (amr_contest_list() as $tid => $code) {
+    foreach (amr_contest_list() as $tid => $label) {
         $contestLinks[] = $tid === $c['contest_id']
-            ? '<strong>' . $hh($code) . '</strong>'
-            : '<a href="' . $hh($url(['contest_id' => $tid, 'sort' => 'rank', 'dir' => 'asc'])) . '">' . $hh($code) . '</a>';
+            ? '<strong>' . $hh($label) . '</strong>'
+            : '<a href="' . $hh($url(['contest_id' => $tid, 'sort' => 'rank', 'dir' => 'asc'])) . '">' . $hh($label) . '</a>';
     }
 
     // $c['entrants'] is already rank-sorted (fit_contest()'s own output order)
@@ -183,7 +185,9 @@ contest is always set at 50.00.</p>
 <p>For standard brackets this should be almost the same as the x-stats. For more complex
 formats, ratings are found that minimize the sum of the loss function.
 It is like finding the values that minimize the sum of squared errors, except the
-loss function here is cross-entropy rather than sum of squared errors.</p>
+loss function here is cross-entropy rather than sum of squared errors.
+Cross-entropy is used because squared error treats errors from 1% to 5% the same
+as 46% to 50%. Cross-entropy is proportional, so treats the 1% to 5% error more seriously.</p>
 
 <p class="amr-views"><strong>Contest:</strong> <?= implode(' &middot; ', $contestLinks) ?></p>
 
@@ -288,7 +292,7 @@ from different contests are not on a shared scale.</p>
 </tbody>
 </table></div>
 
-<?php if ($n >= 2):
+<?php
     $firstTs = strtotime((string)$history[0]['start_date']);
     $points  = [];
     foreach ($history as $h) {
@@ -301,14 +305,90 @@ from different contests are not on a shared scale.</p>
             'date'       => $h['start_date'],
         ];
     }
+
+    // Contest-boundary bands, same idea as elo.php's date-mode bands
+    // (elo_contest_date_ranges() -- elo.php's module loads before luce.php's,
+    // see index.php's require order, so it's already available here with no
+    // extra require needed). Unlike Elo's graph, every point here already IS
+    // its own contest (one rating per contest, not one per match), so there's
+    // no cluster of points to bound -- the band is just that contest's real
+    // date range around its single point. Real gaps between contests (this
+    // entrant skipped years) are left unshaded on purpose, same reasoning as
+    // Elo's date mode. Band text uses amr_contest_list()'s short display
+    // label, not the long contest_name shown in the table above -- too long
+    // to fit on a chart.
+    $ranges = elo_contest_date_ranges();
+    $labels = amr_contest_list();
+    $bands  = [];
+    foreach ($history as $h) {
+        $pipelineLabel = luce_label_for_contest_id((int)$h['contest_id']);
+        $range         = $pipelineLabel !== null ? ($ranges[$pipelineLabel] ?? null) : null;
+        $start         = $range ? strtotime($range['start']) : strtotime((string)$h['start_date']);
+        $end           = $range ? strtotime($range['end']) : strtotime((string)$h['start_date']);
+        $bands[]       = [
+            'contest' => $labels[(int)$h['contest_id']] ?? $h['contest_name'],
+            'start'   => ($start - $firstTs) / 86400,
+            'end'     => ($end - $firstTs) / 86400,
+        ];
+    }
+
+    // x-axis range: Chart.js auto-scales from the *points* only, which for a
+    // single-contest entrant is one point at x=0 -- far narrower than that
+    // contest's real (multi-week) band, so the band would overflow past the
+    // auto-scaled edge and paint solid to the chart border instead of a small
+    // box around the point. Explicit min/max spanning both points and bands,
+    // padded a little so nothing sits exactly on the edge, fixes that (and is
+    // a no-op for careers already wide enough to contain their own bands).
+    $xVals = array_column($points, 'x');
+    foreach ($bands as $b) {
+        $xVals[] = $b['start'];
+        $xVals[] = $b['end'];
+    }
+    $xMin = min($xVals);
+    $xMax = max($xVals);
+    $xPad = max(($xMax - $xMin) * 0.04, 1);
     ?>
 <div class="graph-box"><canvas id="lucegraph"></canvas></div>
 <script src="/assets/chart.umd.min.js"></script>
 <script>
 const FIRST_DATE_TS = <?= (int)$firstTs ?>;   // unix seconds
 
+// Contest-boundary bands (see the PHP comment above $bands): one per
+// contest, shaded across its real date range, with a centered label --
+// same technique as elo.php's date-mode bands.
+const BANDS = <?= json_encode($bands, JSON_UNESCAPED_SLASHES) ?>;
+const BAND_COLORS = ['rgba(33,102,172,0.09)', 'rgba(120,120,120,0.09)'];
+const contestBandsPlugin = {
+  id: 'contestBands',
+  beforeDraw(chart) {
+    const { ctx, chartArea: { top, bottom }, scales: { x } } = chart;
+    ctx.save();
+    BANDS.forEach((b, i) => {
+      const x0 = x.getPixelForValue(b.start);
+      const x1 = x.getPixelForValue(b.end);
+      ctx.fillStyle = BAND_COLORS[i % 2];
+      ctx.fillRect(x0, top, Math.max(x1 - x0, 1), bottom - top);
+    });
+    ctx.fillStyle = '#666';
+    ctx.font = '11px sans-serif';
+    ctx.textAlign = 'center';
+    // staggered onto two rows (even/odd by band order) so two labels whose
+    // bands sit close together in time don't render on top of each other --
+    // contests can be a few weeks wide on a chart spanning a 16-year career,
+    // so neighboring labels routinely need more horizontal room than their
+    // own band has
+    BANDS.forEach((b, i) => {
+      const x0 = x.getPixelForValue(b.start);
+      const x1 = x.getPixelForValue(b.end);
+      ctx.fillText(b.contest, (x0 + x1) / 2, top + (i % 2 === 0 ? 12 : 24));
+    });
+    ctx.restore();
+  },
+};
+
 const lucegraph = new Chart(document.getElementById('lucegraph'), {
   type: 'line',
+  plugins: [contestBandsPlugin],
   data: {
     datasets: [{
       label: <?= json_encode($name) ?>,
@@ -334,6 +414,9 @@ const lucegraph = new Chart(document.getElementById('lucegraph'), {
     scales: {
       x: {
         type: 'linear',
+        // explicit, not auto-scaled -- see the PHP comment above $xMin: keeps
+        // a single-contest entrant's band from overflowing past the chart edge
+        min: <?= $xMin - $xPad ?>, max: <?= $xMax + $xPad ?>,
         title: { display: true, text: 'Date' },
         ticks: {
           callback: (v) => new Date((FIRST_DATE_TS + v * 86400) * 1000).toISOString().slice(0, 10),
@@ -357,7 +440,6 @@ const lucegraph = new Chart(document.getElementById('lucegraph'), {
   },
 });
 </script>
-<?php endif; ?>
 <?php
     return [
         'title' => $name . ' — Luce rating',
@@ -454,6 +536,55 @@ function luce_compare_render(): array
         ];
     }
 
+    // Contest-boundary bands, same idea as luce_render()'s (see its PHP
+    // comment) -- except here it's the UNION of every displayed entrant's
+    // contests, deduped by contest_id, since different entrants can show
+    // different (and possibly overlapping) subsets of contests on a shared
+    // timeline.
+    $ranges         = elo_contest_date_ranges();
+    $labels         = amr_contest_list();
+    $bandsByContest = [];
+    foreach ($ids as $id) {
+        foreach ($histories[$id] as $h) {
+            $cid = (int)$h['contest_id'];
+            if (isset($bandsByContest[$cid])) {
+                continue;
+            }
+            $pipelineLabel        = luce_label_for_contest_id($cid);
+            $range                = $pipelineLabel !== null ? ($ranges[$pipelineLabel] ?? null) : null;
+            $start                = $range ? strtotime($range['start']) : strtotime((string)$h['start_date']);
+            $end                  = $range ? strtotime($range['end']) : strtotime((string)$h['start_date']);
+            $bandsByContest[$cid] = [
+                'contest' => $labels[$cid] ?? $h['contest_name'],
+                'start'   => ($start - $minTs) / 86400,
+                'end'     => ($end - $minTs) / 86400,
+            ];
+        }
+    }
+    usort($bandsByContest, fn ($a, $b) => $a['start'] <=> $b['start']);
+    $bands = $bandsByContest;
+
+    // x-axis range: see luce_render()'s identical comment -- a band can
+    // extend past what the plotted points alone would auto-scale to (most
+    // likely when someone's comparing an entrant who's only got one contest).
+    // Guarded on $ids since min()/max() on an empty array throws, and this
+    // page renders fine with nothing selected yet.
+    if ($ids) {
+        $xVals = [];
+        foreach ($datasets as $ds) {
+            foreach ($ds['data'] as $p) {
+                $xVals[] = $p['x'];
+            }
+        }
+        foreach ($bands as $b) {
+            $xVals[] = $b['start'];
+            $xVals[] = $b['end'];
+        }
+        $xMin = min($xVals);
+        $xMax = max($xVals);
+        $xPad = max(($xMax - $xMin) * 0.04, 1);
+    }
+
     $hh       = fn (string $s): string => htmlspecialchars($s, ENT_QUOTES, 'UTF-8');
     $poolLink = fn (string $p): string => '/luce/compare?pool=' . $p;
 
@@ -492,8 +623,38 @@ lines are not directly comparable. Every contest is its own independent fit.</p>
 <script>
 const FIRST_DATE_TS = <?= (int)$minTs ?>;   // unix seconds
 
+// Contest-boundary bands (see the PHP comment above $bandsByContest): one
+// per contest shown, shaded across its real date range, with a centered
+// label -- same technique as elo.php's date-mode bands / luce_render()'s.
+const BANDS = <?= json_encode($bands, JSON_UNESCAPED_SLASHES) ?>;
+const BAND_COLORS = ['rgba(33,102,172,0.09)', 'rgba(120,120,120,0.09)'];
+const contestBandsPlugin = {
+  id: 'contestBands',
+  beforeDraw(chart) {
+    const { ctx, chartArea: { top, bottom }, scales: { x } } = chart;
+    ctx.save();
+    BANDS.forEach((b, i) => {
+      const x0 = x.getPixelForValue(b.start);
+      const x1 = x.getPixelForValue(b.end);
+      ctx.fillStyle = BAND_COLORS[i % 2];
+      ctx.fillRect(x0, top, Math.max(x1 - x0, 1), bottom - top);
+    });
+    ctx.fillStyle = '#666';
+    ctx.font = '11px sans-serif';
+    ctx.textAlign = 'center';
+    // staggered onto two rows -- see luce_render()'s identical comment
+    BANDS.forEach((b, i) => {
+      const x0 = x.getPixelForValue(b.start);
+      const x1 = x.getPixelForValue(b.end);
+      ctx.fillText(b.contest, (x0 + x1) / 2, top + (i % 2 === 0 ? 12 : 24));
+    });
+    ctx.restore();
+  },
+};
+
 const lucecompare = new Chart(document.getElementById('lucecompare'), {
   type: 'line',
+  plugins: [contestBandsPlugin],
   data: { datasets: <?= json_encode($datasets, JSON_UNESCAPED_SLASHES) ?> },
   options: {
     parsing: false, animation: false,
@@ -512,6 +673,8 @@ const lucecompare = new Chart(document.getElementById('lucecompare'), {
     scales: {
       x: {
         type: 'linear',
+        // explicit, not auto-scaled -- see the PHP comment above $xMin
+        min: <?= $xMin - $xPad ?>, max: <?= $xMax + $xPad ?>,
         title: { display: true, text: 'Date' },
         ticks: {
           callback: (v) => new Date((FIRST_DATE_TS + v * 86400) * 1000).toISOString().slice(0, 10),
@@ -569,7 +732,7 @@ function luce_compare_contest_render(): array
 
     $contest = luce_label_for_contest_id((int)($_GET['contest_id'] ?? 0));
     if ($contest === null) {
-        $contest = end($labels);   // default: most recent contest
+        $contest = $labels[0];     // default: first contest (SC2K2)
     }
     $c = $data[$contest];
 
@@ -595,13 +758,13 @@ function luce_compare_contest_render(): array
 
     $hh = fn (string $s): string => htmlspecialchars($s, ENT_QUOTES, 'UTF-8');
 
-    // display label = contest-ids.json's own preferred short code (amr_contest_list()),
+    // display label = contest-ids.json's own "label" field (amr_contest_list()),
     // not luce_data()'s raw key -- see luce_standings_render()'s identical comment
     $contestLinks = [];
-    foreach (amr_contest_list() as $tid => $code) {
+    foreach (amr_contest_list() as $tid => $label) {
         $contestLinks[] = $tid === $c['contest_id']
-            ? '<strong>' . $hh($code) . '</strong>'
-            : '<a href="/luce/compare/contest?contest_id=' . $tid . '">' . $hh($code) . '</a>';
+            ? '<strong>' . $hh($label) . '</strong>'
+            : '<a href="/luce/compare/contest?contest_id=' . $tid . '">' . $hh($label) . '</a>';
     }
 
     $pickerRows = $c['entrants'];

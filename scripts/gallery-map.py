@@ -452,27 +452,38 @@ def cbx_map(pics: list, records: dict):
     return images, ejson, used
 
 
-AID_CONTEST = {
-    1: "SpC2K5",
-    2: "SC2K4",
-    3: "SpC2K4",
-    4: "SC2K3",
-    5: "SC2K2",
-    6: "SC2K5",
-    7: "BSE2K6",
-    8: "CB2K6",
-    9: "CB VI",
-    10: "CB VII",
-    11: "BGE 2K9",
-    12: "CB VIII",
-    13: "GOTD",
-    14: "Rivalry",
-    15: "CB IX",
-    16: "BGE 2K15",
-    17: "Best Year",
-    18: "CB X",
-    19: "GOTD 2",
+CONTEST_IDS = ROOT / "data" / "contest-ids.json"
+
+# contest_id -> canonical code, from data/contest-ids.json (the canonical source).
+_registry = json.loads(CONTEST_IDS.read_text())
+CODE_BY_TID = {c["id"]: c["codes"][0] for c in _registry}
+
+# gallery album id -> contest_id (data/contest-ids.json's "id"). Album ids are
+# Coppermine's own numbering, not chronological -- albums 1-5 predate the rest
+# and don't line up 1:1 with contest_id. The actual code is resolved via
+# CODE_BY_TID above, not hand-copied here.
+AID_CONTEST_ID = {
+    1: 5,
+    2: 4,
+    3: 3,
+    4: 2,
+    5: 1,
+    6: 6,
+    7: 7,
+    8: 8,
+    9: 9,
+    10: 10,
+    11: 11,
+    12: 12,
+    13: 13,
+    14: 14,
+    15: 15,
+    16: 16,
+    17: 17,
+    18: 18,
+    19: 19,
 }
+AID_CONTEST = {aid: CODE_BY_TID[tid] for aid, tid in AID_CONTEST_ID.items()}
 PREFIX = {
     1: "b",
     2: "sum04b",

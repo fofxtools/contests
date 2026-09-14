@@ -1,6 +1,6 @@
 # Canonical Match List by Contest
 
-_Generated 2026-09-04 23:10 UTC from the project database — do not edit by hand 
+_Generated 2026-09-14 08:29 UTC from the project database — do not edit by hand 
 (rebuild with `php scripts/build-contest-matches.php`)._
 
 Entrants are listed in database column order, which does not indicate the winner.
@@ -13,9 +13,9 @@ Entrants are listed in database column order, which does not indicate the winner
 |:--|:--|--:|--:|--:|
 | [SC2K2](#sc2k2) | character | 63 | 63 | 0 |
 | [SC2K3](#sc2k3) | character | 63 | 63 | 0 |
-| [SpC2K4](#spc2k4) | game | 63 | 63 | 0 |
+| [Spring 2K4](#spring-2k4) | game | 63 | 63 | 0 |
 | [SC2K4](#sc2k4) | character | 63 | 63 | 0 |
-| [SpC2K5](#spc2k5) | character | 31 | 31 | 0 |
+| [Spring 2K5](#spring-2k5) | character | 31 | 31 | 0 |
 | [SC2K5](#sc2k5) | character | 66 | 66 | 0 |
 | [BSE2K6](#bse2k6) | series | 31 | 31 | 0 |
 | [CB2K6](#cb2k6) | character | 68 | 68 | 0 |
@@ -171,7 +171,7 @@ Type: character. 63 matches — 63 official, 0 bonus.
 | 62 | 1366 | 2003-08-31 | official | Sephiroth vs Mega Man | 75,979 vs 48,213 |
 | 63 | 1367 | 2003-09-01 | official | Cloud Strife vs Sephiroth | 64,578 vs 59,865 |
 
-## SpC2K4
+## Spring 2K4
 
 Type: game. 63 matches — 63 official, 0 bonus.
 
@@ -311,7 +311,7 @@ Type: character. 63 matches — 63 official, 0 bonus.
 | 62 | 1779 | 2004-10-02 | official | Cloud Strife vs Samus Aran | 59,867 vs 41,584 |
 | 63 | 1780 | 2004-10-03 | official | Link vs Cloud Strife | 64,443 vs 59,910 |
 
-## SpC2K5
+## Spring 2K5
 
 Type: character. 31 matches — 31 official, 0 bonus.
 

@@ -16,12 +16,11 @@ Scope: official matches only (bonus matches excluded), battle royale included.
 Fit is per contest -- ratings are not comparable across different contests.
 
 Contests are ordered chronologically (by data/contest-ids.json's id), and each
-contest's block carries that same "contest_id" plus its canonical display
-name. contest_id itself just comes off each match record -- scripts/
+contest's block carries that same "contest_id" plus its canonical long name.
+contest_id itself just comes off each match record -- scripts/
 board8wiki-records.py already resolved match-records.json's own "contest"
-label to a contest_id via contest-ids.json's "codes" aliases (needed for
-exactly two contests: "SpC2K4"/"SpC2K5" vs. contest-ids.json's "Spring 2K4"/
-"Spring 2K5"), so there's no need to redo that join here.
+label to a contest_id via contest-ids.json's "codes" aliases, so there's no
+need to redo that join here.
 
 Output: data/stats/luce-fit.json
     { contest: { "contest_id", "name", "start_date", "n_entrants", "n_polls",

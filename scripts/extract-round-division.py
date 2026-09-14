@@ -54,9 +54,16 @@ RECORDS = ROOT / "data" / "board8wiki" / "match-records.json"
 WRITEUPS = ROOT / "data" / "board8wiki" / "markdown" / "writeups"
 DBCONF = ROOT / "public" / ".dbconfig.php"
 OUT = ROOT / "data" / "board8wiki" / "round-division.json"
+CONTEST_IDS = ROOT / "data" / "contest-ids.json"
 
-# contest code (contest-matches-normalized.json) -> where round/division comes from
-DB_CLASSIC = {"SC2K2", "SC2K3", "SpC2K4", "SC2K4", "SpC2K5", "SC2K5", "BSE2K6", "CB2K6"}
+# contest_id -> canonical code, from data/contest-ids.json (the canonical source).
+_registry = json.loads(CONTEST_IDS.read_text())
+CODE_BY_TID = {c["id"]: c["codes"][0] for c in _registry}
+
+# contest code (contest-matches-normalized.json) -> where round/division comes from.
+# Contests 1-8 (SC2K2..CB2K6) use the DB; resolved via CODE_BY_TID above, not
+# hand-copied here, so a label change in contest-ids.json needs no edit here.
+DB_CLASSIC = {CODE_BY_TID[i] for i in range(1, 9)}
 PAGE = {
     "CB VI": "cb6.html",
     "CB VII": "cb7.html",

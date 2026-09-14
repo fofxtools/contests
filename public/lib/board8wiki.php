@@ -323,10 +323,10 @@ function board8wiki_match_summaries(): void
             . htmlspecialchars($lbl) . $arrow($k) . '</a></th>';
     };
 
-    $fEntLabel = $fEntId !== null ? amr_entrant_label($fEntId) : $fEntStr;
-    $fConLabel = $fConId ? amr_contest_name($fConId) : '';
-    $codeByTid = amr_contest_list();   // tid => short code, for the compact Contest cell
-    $roundList = [];
+    $fEntLabel  = $fEntId !== null ? amr_entrant_label($fEntId) : $fEntStr;
+    $fConLabel  = $fConId ? amr_contest_name($fConId) : '';
+    $labelByTid = amr_contest_list();   // tid => short display label, for the compact Contest cell
+    $roundList  = [];
     foreach ($RD as $s) {
         $roundList[$s['round_label']] = $s['round_ord'];
     }
@@ -414,7 +414,7 @@ The full narrative shows under each row
  <td class="amr-n"><a href="https://gamefaqs.gamespot.com/poll/<?= $r['poll'] ?>-" rel="nofollow"><?= $r['poll'] ?></a>
 <?php if ($r['updates']): ?><br><a class="amr-sub" href="/graph/<?= $r['poll'] ?>?type=2&amp;seconds=60" title="Poll update graph for poll <?= $r['poll'] ?>">graph</a><?php endif; ?>
 <?php if ($r['writeup'] !== null): ?><br><a class="amr-sub" href="<?= htmlspecialchars($r['writeup'], ENT_QUOTES) ?>" rel="nofollow" title="Board 8 wiki writeup">writeup</a> (<a class="amr-sub" href="/data/board8wiki/markdown/writeups/<?= $r['poll'] ?>.md" title="that writeup as plain Markdown (our archive)">md</a>)<?php endif; ?></td>
- <td class="aims-c"><a href="/node/104#c<?= $r['tid'] ?>" title="<?= htmlspecialchars($r['cname'], ENT_QUOTES) ?>"><?= htmlspecialchars($codeByTid[$r['tid']] ?? $r['cname']) ?></a></td>
+ <td class="aims-c"><a href="/node/104#c<?= $r['tid'] ?>" title="<?= htmlspecialchars($r['cname'], ENT_QUOTES) ?>"><?= htmlspecialchars($labelByTid[$r['tid']] ?? $r['cname']) ?></a></td>
  <td class="aims-rd"><?= $rd ? htmlspecialchars($rd['round_label']) : '&mdash;' ?></td>
  <td class="aims-rd"><?= $rd && $rd['division'] !== null ? htmlspecialchars($rd['division']) : '&mdash;' ?></td>
  <td class="aims-res"><?php foreach ($r['ents'] as $k => $e):
