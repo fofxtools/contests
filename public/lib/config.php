@@ -40,7 +40,7 @@ function ga_ignore_ips(): array
 //   1. APP_ROOT/.private-config.php -> 'db_gamefaqs' => ['host'=>, 'db'=>, 'user'=>, 'pass'=>]  (preferred)
 //   2. env vars SC2K5_GF_HOST / SC2K5_GF_DB / SC2K5_GF_USER / SC2K5_GF_PASS
 //   3. built-in defaults below
-// (lib/oracle-db.php separately reads this same file's 'db_oracle' => [host,user,pass,name] sub-array.)
+// (lib/oracle-db.php separately reads this same file's 'db_oracle' => [host,db,user,pass] sub-array.)
 // prod:    sc2k5_gamefaqs        / sc2k5_gfro
 // staging: sc2k5stggamefaqs_gf   / sc2k5stggamefaqs_gfro
 $__gf_local = $__private_cfg['db_gamefaqs'] ?? [];

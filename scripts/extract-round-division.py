@@ -455,7 +455,7 @@ def oracle_rounds() -> dict[int, int]:
         return {}
     php = (
         f'$c=(require {json.dumps(str(DBCONF))})["db_oracle"];'
-        "$p=new PDO(\"mysql:host={$c['host']};dbname={$c['name']};charset=utf8\","
+        "$p=new PDO(\"mysql:host={$c['host']};dbname={$c['db']};charset=utf8\","
         "$c['user'],$c['pass']);"
         'echo json_encode($p->query("SELECT PollId,RoundNumber FROM Matches")'
         "->fetchAll(PDO::FETCH_ASSOC));"

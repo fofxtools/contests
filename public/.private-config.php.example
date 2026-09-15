@@ -9,9 +9,9 @@ return [
     ],
     'db_oracle' => [
         'host' => 'localhost',
+        'db'   => '',
         'user' => '',
         'pass' => '',
-        'name' => '',
     ],
     'ga_ignore_ips' => [],
 ];

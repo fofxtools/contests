@@ -17,7 +17,7 @@ function oracle_cfg(): array
     if ($c === null) {
         $f   = dirname(__DIR__) . '/.private-config.php';
         $all = is_readable($f) ? (require $f) : [];
-        $c   = $all['db_oracle'] ?? ['host' => 'localhost', 'user' => '', 'pass' => '', 'name' => ''];
+        $c   = $all['db_oracle'] ?? ['host' => 'localhost', 'db' => '', 'user' => '', 'pass' => ''];
     }
 
     return $c;
@@ -50,7 +50,7 @@ function oracle_db(): PDO
     static $db = null;
     if ($db === null) {
         $p   = oracle_cfg();
-        $dsn = "mysql:host={$p['host']};dbname={$p['name']};charset=utf8mb4";
+        $dsn = "mysql:host={$p['host']};dbname={$p['db']};charset=utf8mb4";
         $db  = new PDO($dsn, $p['user'], $p['pass'], [
             PDO::ATTR_ERRMODE            => PDO::ERRMODE_EXCEPTION,
             PDO::ATTR_DEFAULT_FETCH_MODE => PDO::FETCH_ASSOC,

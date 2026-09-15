@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.2.4] - 2026-09-15
+
+### Internal
+
+- Made the two DB entries in the private-config file consistent (same field
+  names, same order).
+
 ## [1.2.3] - 2026-09-15
 
 ### Fixed
