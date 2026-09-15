@@ -4,6 +4,15 @@
 declare(strict_types=1);
 
 const SITE_NAME = 'GameFAQsContests.com';
+/** Google Analytics measurement id, or '' to disable tracking site-wide (see
+ *  templates/layout.php). Blank the default below, or set the
+ *  GA_MEASUREMENT_ID env var to '', to disable it without a code change. */
+function ga_measurement_id(): string
+{
+    $env = getenv('GA_MEASUREMENT_ID');
+
+    return $env !== false ? $env : 'G-9BWZ0PWJ3H';
+}
 define('APP_ROOT', dirname(__DIR__));
 define('CONTENT_DIR', APP_ROOT . '/content');
 define('TPL_DIR', APP_ROOT . '/templates');

@@ -1573,10 +1573,27 @@ function all_match_pictures(): void
         $full   = $isWiki ? (string)$im['url'] : '/gallery/albums/' . $im['dir'] . $im['file'];
         $src    = $isWiki ? (string)$im['url'] : '/gallery/albums/' . $im['dir'] . 'thumb_' . $im['file'];
 
-        return '<a class="amp-th' . ($faded ? ' amp-faded' : '') . '" target="_blank" rel="noopener nofollow"'
-             . ' href="' . htmlspecialchars($full, ENT_QUOTES) . '">'
+        // .webp sibling, if scripts/gallery-webp.py has generated one --
+        // Coppermine's own thumb_<file> gets a same-size re-encode under
+        // images/albums/ (kept out of the live Coppermine tree on purpose,
+        // see that script's header); a wiki fallback image (no Coppermine
+        // thumbnail exists for those, $src above is the full-size original)
+        // gets a resized thumb_<file> under images/board8wiki/ instead.
+        // Existence-checked, not assumed, so an image scripts/gallery-webp.py
+        // hasn't (yet) covered still renders correctly via $src. $full (the
+        // click-through / full-size link) is untouched either way.
+        $webpSrc = $isWiki
+            ? '/images/board8wiki/thumb_' . $im['file'] . '.webp'
+            : '/images/albums/' . $im['dir'] . 'thumb_' . $im['file'] . '.webp';
+        $hasWebp = is_file(dirname(__DIR__) . $webpSrc);
+
+        $img = ($hasWebp ? '<picture><source type="image/webp" srcset="' . htmlspecialchars($webpSrc, ENT_QUOTES) . '">' : '')
              . '<img loading="lazy" src="' . htmlspecialchars($src, ENT_QUOTES) . '"'
-             . ' alt="' . htmlspecialchars((string)$im['file'], ENT_QUOTES) . '"></a>';
+             . ' alt="' . htmlspecialchars((string)$im['file'], ENT_QUOTES) . '">'
+             . ($hasWebp ? '</picture>' : '');
+
+        return '<a class="amp-th' . ($faded ? ' amp-faded' : '') . '" target="_blank" rel="noopener nofollow"'
+             . ' href="' . htmlspecialchars($full, ENT_QUOTES) . '">' . $img . '</a>';
     };
 
     $picsCell = function (array $r) use ($thumb, $fadedByPoll, $fEntId) {

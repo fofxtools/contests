@@ -1,5 +1,19 @@
 # Changelog
 
+## [1.2.2] - 2026-09-15
+
+### Added
+
+- Google Analytics tracking site-wide (can be disabled with an env var, no
+  code change needed).
+
+### Changed
+
+- All Match Pictures (`/node/102`): thumbnails now load as WebP images
+  (smaller, same look) with a fallback to the original for any picture not
+  yet converted. Cuts the page's total image weight by more than half.
+- Home page: removed the outdated Oracle Challenge topic link.
+
 ## [1.2.1] - 2026-09-14
 
 ### Added
