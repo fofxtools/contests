@@ -60,8 +60,13 @@ const ORACLE_PREDICTIONS_SORTS = [
  */
 function oracle_predictions_where(array $filters): array
 {
-    $clauses = ['ds.MatchRanking > 0'];
-    $params  = [];
+    // c.ContestId (not m.ContestId) since oracle_predictions_detail_sql() joins
+    // Contests as c — same column either way, Matches.ContestId === Contests.ContestId.
+    $clauses = [
+        'ds.MatchRanking > 0',
+        'c.ContestId NOT IN (' . implode(',', ORACLE_EXCLUDED_CONTESTS) . ')',
+    ];
+    $params = [];
     if (!empty($filters['contest'])) {
         $clauses[]         = 'c.ContestId = :contest';
         $params['contest'] = (int) $filters['contest'];
@@ -264,16 +269,19 @@ function oracle_predictions_order_cache(bool $rebuild = false): array
         'SELECT ds.UserId AS u, ds.MatchId AS m
          FROM DailyStandings ds
          JOIN Statistics s ON s.MatchId = ds.MatchId
-         WHERE ds.MatchRanking > 0
+         JOIN Matches    mt ON mt.MatchId = ds.MatchId
+         WHERE ds.MatchRanking > 0 ' . oracle_excluded_contests_sql('mt') . '
          ORDER BY (ds.MatchScore - s.AverageScore) DESC, ds.MatchId ASC, ds.UserId ASC'
     ) as $row) {
         $paa[] = [(int) $row['u'], (int) $row['m']];
     }
     $score = [];
     foreach ($db->query(
-        'SELECT UserId AS u, MatchId AS m FROM DailyStandings
-         WHERE MatchRanking > 0
-         ORDER BY MatchScore DESC, MatchId ASC, UserId ASC'
+        'SELECT ds.UserId AS u, ds.MatchId AS m
+         FROM DailyStandings ds
+         JOIN Matches mt ON mt.MatchId = ds.MatchId
+         WHERE ds.MatchRanking > 0 ' . oracle_excluded_contests_sql('mt') . '
+         ORDER BY ds.MatchScore DESC, ds.MatchId ASC, ds.UserId ASC'
     ) as $row) {
         $score[] = [(int) $row['u'], (int) $row['m']];
     }
@@ -405,7 +413,8 @@ function oracle_users_list(): array
     foreach (oracle_db()->query(
         'SELECT DISTINCT u.UserId, u.Name FROM Users u
          JOIN DailyStandings ds ON ds.UserId = u.UserId
-         WHERE ds.MatchRanking > 0
+         JOIN Matches m ON m.MatchId = ds.MatchId
+         WHERE ds.MatchRanking > 0 ' . oracle_excluded_contests_sql('m') . '
          ORDER BY u.Name ASC'
     ) as $u) {
         $list[(int) $u['UserId']] = $u['Name'];

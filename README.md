@@ -23,10 +23,18 @@ Warning: `--delete` will remove everything on the server inside `public_html/` t
 
 ```bash
 rsync -avP --delete \
-  --exclude='.dbconfig.php' --exclude='.htaccess*' \
+  --exclude='.private-config.php' --exclude='.htaccess*' \
   --exclude='.well-known/' --exclude='gallery/' \
   --exclude='notes-123/' --exclude='tmp-123/' --exclude='error_log' \
   public/ sc2k5:public_html/
 
 rsync -avP --delete data/ sc2k5:data/
+```
+
+### Cache
+
+Additionally the `.cache/` folder, which lives above `public_html/`, might need to be cleared.
+
+```bash
+ssh sc2k5 'rm -f .cache/*.json'
 ```

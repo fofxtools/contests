@@ -47,7 +47,7 @@ $ROOT = dirname(__DIR__);
    alongside the other standalone generated pages; change this one line to move it. */
 $HTML_DIR = $ROOT . '/public/stats-20XX';
 
-$cfg = require $ROOT . '/public/.dbconfig.php';
+$cfg = (require $ROOT . '/public/.private-config.php')['db_gamefaqs'];
 $pdo = new PDO(
     "mysql:host={$cfg['host']};dbname={$cfg['db']};charset=utf8",
     $cfg['user'],

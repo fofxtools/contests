@@ -1,0 +1,17 @@
+<?php
+
+return [
+    'db_gamefaqs' => [
+        'host' => 'localhost',
+        'db'   => '',
+        'user' => '',
+        'pass' => '',
+    ],
+    'db_oracle' => [
+        'host' => 'localhost',
+        'user' => '',
+        'pass' => '',
+        'name' => '',
+    ],
+    'ga_ignore_ips' => [],
+];

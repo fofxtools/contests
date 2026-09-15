@@ -7,7 +7,7 @@ Source per contest (waterfall):
 
   2002-2006 (SC2K2..CB2K6)  -> the site DB `matches` table (round + division,
                                authoritative, joined by pollid). Needs
-                               public/.dbconfig.php; skipped with a warning if
+                               public/.private-config.php; skipped with a warning if
                                absent.
   CB VI..GOTD 2 (2007-2020) -> the archived official bracket pages in
                                storage/GameFAQs Pages/ -- a <table class="bracket">
@@ -28,7 +28,7 @@ local/verify-bracket-battle-map.php).
 In : storage/GameFAQs Pages/<page>.html
      data/contest-matches-normalized.json
      data/board8wiki/match-records.json          (BR/bonus polls + coverage check)
-     public/.dbconfig.php                        (classic contests; optional)
+     public/.private-config.php                  (classic contests; optional)
 Out: data/board8wiki/round-division.json
        {poll: {round_label, round_ord, division, battle, source}}
      + a coverage / cross-check report on stdout
@@ -52,7 +52,7 @@ PAGES = ROOT / "storage" / "GameFAQs Pages"
 NORMALIZED = ROOT / "data" / "contest-matches-normalized.json"
 RECORDS = ROOT / "data" / "board8wiki" / "match-records.json"
 WRITEUPS = ROOT / "data" / "board8wiki" / "markdown" / "writeups"
-DBCONF = ROOT / "public" / ".dbconfig.php"
+DBCONF = ROOT / "public" / ".private-config.php"
 OUT = ROOT / "data" / "board8wiki" / "round-division.json"
 CONTEST_IDS = ROOT / "data" / "contest-ids.json"
 
@@ -376,7 +376,7 @@ def from_db(code2polls: dict[str, list[int]]) -> dict[str, dict]:
     all_polls = [p for ps in code2polls.values() for p in ps]
     ids = ",".join(str(int(p)) for p in all_polls)
     php = (
-        f"$c=require {json.dumps(str(DBCONF))};"
+        f"$c=(require {json.dumps(str(DBCONF))})['db_gamefaqs'];"
         "$p=new PDO(\"mysql:host=127.0.0.1;dbname={$c['db']};charset=utf8\","
         "$c['user'],$c['pass']);"
         f"echo json_encode($p->query("
@@ -454,7 +454,7 @@ def oracle_rounds() -> dict[int, int]:
     if not DBCONF.exists():
         return {}
     php = (
-        f'$c=(require {json.dumps(str(DBCONF))})["oracle"];'
+        f'$c=(require {json.dumps(str(DBCONF))})["db_oracle"];'
         "$p=new PDO(\"mysql:host={$c['host']};dbname={$c['name']};charset=utf8\","
         "$c['user'],$c['pass']);"
         'echo json_encode($p->query("SELECT PollId,RoundNumber FROM Matches")'

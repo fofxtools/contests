@@ -1,6 +1,29 @@
 # Changelog
 
-## [1.2.2] - 2026-09-15
+## [1.2.3] - 2026-09-15
+
+### Fixed
+
+- PAA standings and "All Predictions Ever" no longer include Character
+  Battle IX (SC2k13) — that contest's one scored match had broken results,
+  which was skewing everyone's Points Above Average. Added a note explaining
+  the exclusion.
+
+### Changed
+
+- PAA standings now link to oraclechallenge.com's newer profile page.
+
+### Added
+
+- Google Analytics can now skip specific visitor IPs.
+
+### Internal
+
+- Renamed and reorganized the local/server DB-credentials file so it can
+  also hold non-DB settings (like the new GA IP list) without the name being
+  misleading.
+
+## [1.2.2] - 2026-09-14
 
 ### Added
 
@@ -92,7 +115,7 @@
   (`data/board8wiki/summaries-matches-overrides.json`)
   so they survive any future re-run of the AI summaries.
 
-## [1.1.8] - 2026-09-11
+## [1.1.8] - 2026-09-10
 
 ### Added
 
@@ -201,7 +224,7 @@
   found this predicts a real poll's split more accurately. Linked from the home
   page.
 
-## [1.1.3] - 2026-09-06
+## [1.1.3] - 2026-09-05
 
 ### Added
 
@@ -215,7 +238,7 @@
     more votes) and **vote-share** (rating tracks the expected share of the vote).
 - Elo ratings linked from the home page and the Contest Resources menu.
 
-## [1.1.2] - 2026-09-05
+## [1.1.2] - 2026-09-04
 
 ### Added
 

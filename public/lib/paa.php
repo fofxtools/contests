@@ -58,9 +58,14 @@ function paa_cache(bool $rebuild = false): array
     }
 
     $db        = oracle_db();
-    $scoredRow = $db->query('SELECT COUNT(*) AS c FROM Statistics')->fetch() ?: [];
-    $scored    = (int) ($scoredRow['c'] ?? 0);
-    $users     = $db->query(
+    $scoredRow = $db->query(
+        'SELECT COUNT(*) AS c
+         FROM Statistics s
+         JOIN Matches    m ON m.MatchId = s.MatchId
+         WHERE 1=1 ' . oracle_excluded_contests_sql('m')
+    )->fetch() ?: [];
+    $scored = (int) ($scoredRow['c'] ?? 0);
+    $users  = $db->query(
         'SELECT ds.UserId                            AS id,
                 u.Name                               AS name,
                 SUM(ds.MatchScore - s.AverageScore)  AS sum_paa,
@@ -68,7 +73,8 @@ function paa_cache(bool $rebuild = false): array
          FROM DailyStandings ds
          JOIN Statistics s ON s.MatchId = ds.MatchId
          JOIN Users      u ON u.UserId  = ds.UserId
-         WHERE ds.MatchRanking > 0
+         JOIN Matches    m ON m.MatchId = ds.MatchId
+         WHERE ds.MatchRanking > 0 ' . oracle_excluded_contests_sql('m') . '
          GROUP BY ds.UserId, u.Name'
     )->fetchAll();
 
@@ -145,8 +151,10 @@ function paa_global_residual(): array
                    ROUND(SUM(ds.MatchScore - s.AverageScore), 4)  AS residual,
                    COUNT(DISTINCT ds.UserId)                      AS users,
                    COUNT(DISTINCT ds.MatchId)                     AS matches
-            FROM DailyStandings ds JOIN Statistics s ON s.MatchId = ds.MatchId
-            WHERE ds.MatchRanking > 0';
+            FROM DailyStandings ds
+            JOIN Statistics s ON s.MatchId = ds.MatchId
+            JOIN Matches    m ON m.MatchId = ds.MatchId
+            WHERE ds.MatchRanking > 0 ' . oracle_excluded_contests_sql('m');
 
     return oracle_db()->query($sql)->fetch() ?: [];
 }
@@ -288,7 +296,9 @@ function paa_disparity_note(): string
          . 'different from the figure on their oraclechallenge.com profile. The two count '
          . 'multi-entrant matches differently when working out the average: the profile pages '
          . 'give extra weight to the contests that ran three or four predictions per match '
-         . '(mainly the 2007 to 2009 events), while this page counts every match once.</p>';
+         . '(mainly the 2007 to 2009 events), while this page counts every match once.</p>'
+         . '<p class="amr-meta">Character Battle IX (SC2k13) is left out of these figures '
+         . 'entirely. It had 3-way matches, leading to broken scoring.</p>';
 }
 
 /* ------------------------------------------------------------------ */
@@ -352,7 +362,7 @@ summed over all their matches.</p>
         foreach ($rows as $r): $i++; ?>
 <tr>
  <td class="amr-n"><?= $i ?></td>
- <td><a href="https://oraclechallenge.com/profiles.php?type=users&amp;id=<?= (int) $r['id'] ?>" rel="nofollow"><?= htmlspecialchars((string) $r['Name']) ?></a></td>
+ <td><a href="https://oraclechallenge.com/profiles-new.php?type=users&amp;id=<?= (int) $r['id'] ?>" rel="nofollow"><?= htmlspecialchars((string) $r['Name']) ?></a></td>
  <td class="amr-n"><?= number_format((float) $r['TotalPAA'], 2) ?></td>
  <td class="amr-n"><?= number_format((int) $r['Matches']) ?></td>
  <td class="amr-n"><?= number_format((float) $r['AvgPAA'], 2) ?></td>
@@ -430,7 +440,7 @@ averaged over all their matches.</p>
         foreach ($rows as $r): $i++; ?>
 <tr>
  <td class="amr-n"><?= $i ?></td>
- <td><a href="https://oraclechallenge.com/profiles.php?type=users&amp;id=<?= (int) $r['id'] ?>" rel="nofollow"><?= htmlspecialchars((string) $r['Name']) ?></a></td>
+ <td><a href="https://oraclechallenge.com/profiles-new.php?type=users&amp;id=<?= (int) $r['id'] ?>" rel="nofollow"><?= htmlspecialchars((string) $r['Name']) ?></a></td>
  <td class="amr-n"><?= number_format((float) $r['PAA'], 2) ?></td>
  <td class="amr-n"><?= number_format((int) $r['Matches']) ?></td>
 </tr>

@@ -133,7 +133,7 @@ environment_files/
 
 # For this project
 /.cache/
-/public/.dbconfig.php
+/public/.private-config.php
 /public/gallery/
 /public/tmp-123/
 /public/notes-123/

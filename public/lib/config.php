@@ -4,6 +4,17 @@
 declare(strict_types=1);
 
 const SITE_NAME = 'GameFAQsContests.com';
+define('APP_ROOT', dirname(__DIR__));
+define('CONTENT_DIR', APP_ROOT . '/content');
+define('TPL_DIR', APP_ROOT . '/templates');
+
+// Everything this box keeps private (DB creds, GA IP exclusions, ...) — see
+// .private-config.php.example for the shape. Never committed (.gitignore);
+// missing entirely is fine, every reader below falls back gracefully.
+$__private_cfg = is_readable(APP_ROOT . '/.private-config.php')
+    ? require APP_ROOT . '/.private-config.php'
+    : [];
+
 /** Google Analytics measurement id, or '' to disable tracking site-wide (see
  *  templates/layout.php). Blank the default below, or set the
  *  GA_MEASUREMENT_ID env var to '', to disable it without a code change. */
@@ -13,21 +24,26 @@ function ga_measurement_id(): string
 
     return $env !== false ? $env : 'G-9BWZ0PWJ3H';
 }
-define('APP_ROOT', dirname(__DIR__));
-define('CONTENT_DIR', APP_ROOT . '/content');
-define('TPL_DIR', APP_ROOT . '/templates');
+
+/** Visitor IPs to skip loading Google Analytics for (see templates/layout.php)
+ *  — from .private-config.php's 'ga_ignore_ips' key, never committed since an
+ *  IP can identify who it belongs to. Missing/unset -> no IPs excluded. */
+function ga_ignore_ips(): array
+{
+    global $__private_cfg;
+
+    return $__private_cfg['ga_ignore_ips'] ?? [];
+}
 
 // --- contest DB (read-only, SELECT-only user) ---
-// Resolution order per box (nothing DB-specific is committed):
-//   1. APP_ROOT/.dbconfig.php  -> returns ['host'=>, 'db'=>, 'user'=>, 'pass'=>]  (preferred)
+// Resolution order per box:
+//   1. APP_ROOT/.private-config.php -> 'db_gamefaqs' => ['host'=>, 'db'=>, 'user'=>, 'pass'=>]  (preferred)
 //   2. env vars SC2K5_GF_HOST / SC2K5_GF_DB / SC2K5_GF_USER / SC2K5_GF_PASS
 //   3. built-in defaults below
-// (lib/oracle-db.php separately reads an 'oracle' => [host,user,pass,name] sub-array from the same file.)
+// (lib/oracle-db.php separately reads this same file's 'db_oracle' => [host,user,pass,name] sub-array.)
 // prod:    sc2k5_gamefaqs        / sc2k5_gfro
 // staging: sc2k5stggamefaqs_gf   / sc2k5stggamefaqs_gfro
-$__gf_local = is_readable(APP_ROOT . '/.dbconfig.php')
-    ? require APP_ROOT . '/.dbconfig.php'
-    : [];
+$__gf_local = $__private_cfg['db_gamefaqs'] ?? [];
 
 $__gf_host = $__gf_local['host'] ?? getenv('SC2K5_GF_HOST') ?: 'localhost';
 $__gf_db   = $__gf_local['db'] ?? getenv('SC2K5_GF_DB') ?: 'sc2k5stggamefaqs_gf';

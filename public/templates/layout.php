@@ -15,7 +15,7 @@ $content ??= '';
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en" dir="ltr">
   <head>
 <?php $gaId = ga_measurement_id();
-if ($gaId !== ''): ?>
+if ($gaId !== '' && !in_array($_SERVER['REMOTE_ADDR'] ?? '', ga_ignore_ips(), true)): ?>
     <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=<?= $gaId ?>"></script>
     <script>
