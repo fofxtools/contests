@@ -35,28 +35,7 @@ function ga_ignore_ips(): array
     return $__private_cfg['ga_ignore_ips'] ?? [];
 }
 
-// --- contest DB (read-only, SELECT-only user) ---
-// Resolution order per box:
-//   1. APP_ROOT/.private-config.php -> 'db_gamefaqs' => ['host'=>, 'db'=>, 'user'=>, 'pass'=>]  (preferred)
-//   2. env vars SC2K5_GF_HOST / SC2K5_GF_DB / SC2K5_GF_USER / SC2K5_GF_PASS
-//   3. built-in defaults below
-// (lib/oracle-db.php separately reads this same file's 'db_oracle' => [host,db,user,pass] sub-array.)
-// prod:    sc2k5_gamefaqs        / sc2k5_gfro
-// staging: sc2k5stggamefaqs_gf   / sc2k5stggamefaqs_gfro
-$__gf_local = $__private_cfg['db_gamefaqs'] ?? [];
-
-$__gf_host = $__gf_local['host'] ?? getenv('SC2K5_GF_HOST') ?: 'localhost';
-$__gf_db   = $__gf_local['db'] ?? getenv('SC2K5_GF_DB') ?: 'sc2k5stggamefaqs_gf';
-$__gf_user = $__gf_local['user'] ?? getenv('SC2K5_GF_USER') ?: 'sc2k5stggamefaqs_gfro';
-$__gf_pass = $__gf_local['pass'] ?? getenv('SC2K5_GF_PASS') ?: '';
-
-$GF = [
-    'dsn'  => "mysql:host={$__gf_host};dbname={$__gf_db};charset=utf8",
-    'user' => $__gf_user,
-    'pass' => $__gf_pass,
-];
-
-unset($__gf_local, $__gf_host, $__gf_db, $__gf_user, $__gf_pass);
+// --- contest DB: static SQLite snapshot, frozen contest data (see lib/db.php) ---
 
 // Header link rows (Drupal primary-links / secondary-links; secondary paths
 // point at All Match Results, filtered to that contest)

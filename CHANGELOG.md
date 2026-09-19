@@ -1,5 +1,25 @@
 # Changelog
 
+## [1.2.5] - 2026-09-19
+
+### Internal
+
+- Contest data (both the local GameFAQs DB and the Oracle Challenge DB) now
+  comes from a static SQLite snapshot instead of a live MySQL connection.
+  The data is all historical and never changes, so there was no reason to
+  keep querying a live database on every page load — this also removes a
+  cross-server database dependency entirely.
+
+### Fixed
+
+- A couple of leftover links to oraclechallenge.com (on the homepage and the
+  X-stat calculator page) still pointed at the old dynamic URL format;
+  updated them to match the site's new static version.
+- The local dev server wasn't serving files whose names have spaces or other
+  encoded characters (e.g. `Morgoth's X-Stats.xls`).
+- Restored a missing downloadable file (`XSC.rar`) that had never actually
+  made it into the repo.
+
 ## [1.2.4] - 2026-09-15
 
 ### Internal

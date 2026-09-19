@@ -118,17 +118,19 @@ function oracle_predictions_detail_sql(string $whereAndGroupBy): string
                 COALESCE(u.Name, (SELECT un.UserName FROM UserNames un WHERE un.UserId = ds.UserId LIMIT 1), CONCAT('User #', ds.UserId)) AS user_name,
                 ds.MatchId AS match_id,
                 ds.MatchScore AS match_score, s.AverageScore AS average_score,
-                (ds.MatchScore - s.AverageScore) AS paa,
+                ROUND(ds.MatchScore - s.AverageScore, 6) AS paa,
                 m.MatchNumber AS match_number, DATE(m.MatchDate) AS match_date,
                 c.ContestId AS contest_id, c.Name AS contest_code, c.LongName AS contest_name, c.Year AS year,
-                GROUP_CONCAT(DISTINCT co.Name ORDER BY r.Percentage DESC SEPARATOR ' / ') AS entrants
+                (SELECT GROUP_CONCAT(name, ' / ') FROM (
+                    SELECT DISTINCT co2.Name AS name, r2.Percentage AS pct
+                    FROM Results r2 JOIN Competitors co2 ON co2.CompetitorId = r2.CompetitorId
+                    WHERE r2.MatchId = ds.MatchId ORDER BY pct DESC
+                )) AS entrants
          FROM DailyStandings ds
          JOIN Matches m ON m.MatchId = ds.MatchId
          JOIN Contests c ON c.ContestId = m.ContestId
          JOIN Statistics s ON s.MatchId = ds.MatchId
          LEFT JOIN Users u ON u.UserId = ds.UserId
-         JOIN Results r ON r.MatchId = ds.MatchId
-         JOIN Competitors co ON co.CompetitorId = r.CompetitorId
          $whereAndGroupBy";
 }
 
@@ -218,9 +220,9 @@ function oracle_predictions_rows(array $filters, int $page, int $perPage = 100, 
     $sortDir          = $dir === 'asc' ? 'ASC' : 'DESC';
     [$where, $params] = oracle_predictions_where($filters);
 
-    // GROUP BY ds.UserId, ds.MatchId matches DailyStandings' own primary key —
-    // the Results/Competitors join only fans out entrants, never duplicates
-    // the (user, match) grain itself, so LIMIT/OFFSET after GROUP BY is safe.
+    // GROUP BY ds.UserId, ds.MatchId matches DailyStandings' own primary key;
+    // entrants come from a correlated subquery now, so nothing in this FROM
+    // clause fans rows out, but the GROUP BY is harmless to leave in place.
     // ORDER BY's secondary key (match/user ascending) is a stable tiebreaker —
     // without it, rows sharing a PAA/score value could shuffle between pages.
     $stmt = oracle_db()->prepare(oracle_predictions_detail_sql(
@@ -271,7 +273,7 @@ function oracle_predictions_order_cache(bool $rebuild = false): array
          JOIN Statistics s ON s.MatchId = ds.MatchId
          JOIN Matches    mt ON mt.MatchId = ds.MatchId
          WHERE ds.MatchRanking > 0 ' . oracle_excluded_contests_sql('mt') . '
-         ORDER BY (ds.MatchScore - s.AverageScore) DESC, ds.MatchId ASC, ds.UserId ASC'
+         ORDER BY ROUND(ds.MatchScore - s.AverageScore, 6) DESC, ds.MatchId ASC, ds.UserId ASC'
     ) as $row) {
         $paa[] = [(int) $row['u'], (int) $row['m']];
     }
@@ -415,7 +417,7 @@ function oracle_users_list(): array
          JOIN DailyStandings ds ON ds.UserId = u.UserId
          JOIN Matches m ON m.MatchId = ds.MatchId
          WHERE ds.MatchRanking > 0 ' . oracle_excluded_contests_sql('m') . '
-         ORDER BY u.Name ASC'
+         ORDER BY u.Name COLLATE MYSQLCI ASC'
     ) as $u) {
         $list[(int) $u['UserId']] = $u['Name'];
     }
@@ -620,10 +622,14 @@ function team_predictions_detail_sql(string $whereAndGroupBy): string
     return "SELECT dts.TeamId AS team_id, t.Name AS team_name,
                 dts.MatchId AS match_id,
                 dts.MatchScore AS match_score, ma.avg_score AS average_score,
-                (dts.MatchScore - ma.avg_score) AS paa,
+                ROUND(dts.MatchScore - ma.avg_score, 6) AS paa,
                 m.MatchNumber AS match_number, DATE(m.MatchDate) AS match_date,
                 c.ContestId AS contest_id, c.Name AS contest_code, c.LongName AS contest_name, c.Year AS year,
-                GROUP_CONCAT(DISTINCT co.Name ORDER BY r.Percentage DESC SEPARATOR ' / ') AS entrants
+                (SELECT GROUP_CONCAT(name, ' / ') FROM (
+                    SELECT DISTINCT co2.Name AS name, r2.Percentage AS pct
+                    FROM Results r2 JOIN Competitors co2 ON co2.CompetitorId = r2.CompetitorId
+                    WHERE r2.MatchId = dts.MatchId ORDER BY pct DESC
+                )) AS entrants
          FROM DailyTeamStandings dts
          JOIN Matches m ON m.MatchId = dts.MatchId
          JOIN Contests c ON c.ContestId = m.ContestId
@@ -631,8 +637,6 @@ function team_predictions_detail_sql(string $whereAndGroupBy): string
          JOIN (SELECT MatchId, AVG(MatchScore) AS avg_score
                FROM DailyTeamStandings WHERE MatchRanking > 0
                GROUP BY MatchId) ma ON ma.MatchId = dts.MatchId
-         JOIN Results r ON r.MatchId = dts.MatchId
-         JOIN Competitors co ON co.CompetitorId = r.CompetitorId
          $whereAndGroupBy";
 }
 
@@ -754,7 +758,7 @@ function team_predictions_order_cache(bool $rebuild = false): array
                FROM DailyTeamStandings WHERE MatchRanking > 0
                GROUP BY MatchId) ma ON ma.MatchId = dts.MatchId
          WHERE dts.MatchRanking > 0
-         ORDER BY (dts.MatchScore - ma.avg_score) DESC, dts.MatchId ASC, dts.TeamId ASC'
+         ORDER BY ROUND(dts.MatchScore - ma.avg_score, 6) DESC, dts.MatchId ASC, dts.TeamId ASC'
     ) as $row) {
         $paa[] = [(int) $row['t'], (int) $row['m']];
     }
@@ -911,7 +915,7 @@ function teams_list(): array
         'SELECT DISTINCT t.TeamId, t.Name FROM Teams t
          JOIN DailyTeamStandings dts ON dts.TeamId = t.TeamId
          WHERE dts.MatchRanking > 0
-         ORDER BY t.Name ASC'
+         ORDER BY t.Name COLLATE MYSQLCI ASC'
     ) as $t) {
         $list[(int) $t['TeamId']] = $t['Name'];
     }

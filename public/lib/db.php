@@ -2,16 +2,15 @@
 
 declare(strict_types=1);
 
-/** Shared read-only PDO handle to the contest DB (sc2k5_gamefaqs copy). */
+/** Shared read-only PDO handle to the contest DB snapshot (data/tables/gamefaqs.sqlite). */
 function gf(): PDO
 {
     static $pdo = null;
     if ($pdo === null) {
-        global $GF;
-        $pdo = new PDO($GF['dsn'], $GF['user'], $GF['pass'], [
+        $dsn = 'sqlite:' . dirname(__DIR__, 2) . '/data/tables/gamefaqs.sqlite';
+        $pdo = new PDO($dsn, null, null, [
             PDO::ATTR_ERRMODE            => PDO::ERRMODE_EXCEPTION,
             PDO::ATTR_DEFAULT_FETCH_MODE => PDO::FETCH_ASSOC,
-            PDO::ATTR_EMULATE_PREPARES   => false,
         ]);
     }
 

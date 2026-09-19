@@ -362,7 +362,7 @@ summed over all their matches.</p>
         foreach ($rows as $r): $i++; ?>
 <tr>
  <td class="amr-n"><?= $i ?></td>
- <td><a href="https://oraclechallenge.com/profiles-new.php?type=users&amp;id=<?= (int) $r['id'] ?>" rel="nofollow"><?= htmlspecialchars((string) $r['Name']) ?></a></td>
+ <td><a href="https://oraclechallenge.com/profiles-new.php%3Ftype=users&amp;id=<?= (int) $r['id'] ?>.html" rel="nofollow"><?= htmlspecialchars((string) $r['Name']) ?></a></td>
  <td class="amr-n"><?= number_format((float) $r['TotalPAA'], 2) ?></td>
  <td class="amr-n"><?= number_format((int) $r['Matches']) ?></td>
  <td class="amr-n"><?= number_format((float) $r['AvgPAA'], 2) ?></td>
@@ -440,7 +440,7 @@ averaged over all their matches.</p>
         foreach ($rows as $r): $i++; ?>
 <tr>
  <td class="amr-n"><?= $i ?></td>
- <td><a href="https://oraclechallenge.com/profiles-new.php?type=users&amp;id=<?= (int) $r['id'] ?>" rel="nofollow"><?= htmlspecialchars((string) $r['Name']) ?></a></td>
+ <td><a href="https://oraclechallenge.com/profiles-new.php%3Ftype=users&amp;id=<?= (int) $r['id'] ?>.html" rel="nofollow"><?= htmlspecialchars((string) $r['Name']) ?></a></td>
  <td class="amr-n"><?= number_format((float) $r['PAA'], 2) ?></td>
  <td class="amr-n"><?= number_format((int) $r['Matches']) ?></td>
 </tr>

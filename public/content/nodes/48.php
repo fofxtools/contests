@@ -1,5 +1,5 @@
 <h2>Generalized X-stat calculator</h2>
-<p>You can input character strength values below, and you will receive an estimate of how they would perform in a match against each other. This estimate is created using King Morgoth's <a href="http://www.oraclechallenge.com/boards/detail.php?board=8&topic=37564294&message=23063">conditional probability model</a>.</p>
+<p>You can input character strength values below, and you will receive an estimate of how they would perform in a match against each other. This estimate is created using King Morgoth's <a href="http://www.oraclechallenge.com/boards/detail.php%3Fboard=8&topic=37564294&message=23063.html">conditional probability model</a>.</p>
 
 <?php
 $input_values = trim($_GET['input_values'] ?? '');

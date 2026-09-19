@@ -80,6 +80,9 @@ out_[0-9A-Za-z].txt
 # SQLite Files
 *.sqlite*
 
+# Do not ignore exported tables
+!data/tables/*.sqlite
+
 # Redis Files
 *.rdb
 
